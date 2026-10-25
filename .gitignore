@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# TDVİA ham metinleri telifli; repoya konmaz
+raw/
