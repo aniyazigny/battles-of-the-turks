@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Türklerin Savaştığı Yerler — demo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans+Condensed:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#f6f1e7; --paper:#fffaf0; --ink:#2b241c; --muted:#7a6d5c; --line:#ddd0b8;
+  --land:#ece2cf; --land-stroke:#cbbb9c; --sea:#dfe7e6;
+  --win:#2f7a4f; --loss:#b03a32; --draw:#c08a1e; --civil:#8c8577; --accent:#8a2b1f;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#17140f; --paper:#1f1b15; --ink:#ece3d2; --muted:#a3967f; --line:#3a3227;
+  --land:#2c261d; --land-stroke:#4a4033; --sea:#141a1b;
+  --win:#5fb383; --loss:#e0675d; --draw:#e0b04a; --civil:#9b9486; --accent:#e08a6f;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Gentium Book Plus",Georgia,serif}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+header{padding:36px 0 18px;border-bottom:1px solid var(--line)}
+h1{font:400 clamp(30px,5vw,48px)/1.1 Marcellus,serif;margin:0;letter-spacing:.02em}
+h1 small{display:block;font:italic 400 18px "Gentium Book Plus",serif;color:var(--muted);margin-top:6px}
+h2{font:400 26px Marcellus,serif;margin:38px 0 12px}
+.banner{margin-top:14px;padding:10px 14px;border:1px dashed var(--accent);color:var(--accent);font:500 14px "IBM Plex Sans Condensed",sans-serif;border-radius:6px;background:var(--paper)}
+.stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:16px;font-family:"IBM Plex Sans Condensed",sans-serif}
+.stats b{display:block;font:400 30px Marcellus,serif}
+.stats span{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+.controls{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;font:14px "IBM Plex Sans Condensed",sans-serif;margin:8px 0 12px}
+.grp{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.grp>label:first-child{color:var(--muted);text-transform:uppercase;font-size:12px;letter-spacing:.06em;margin-right:2px}
+.chip{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer;font:inherit}
+.chip[aria-pressed=false]{opacity:.45;text-decoration:line-through}
+button.play{border:1px solid var(--accent);color:var(--accent);background:none;border-radius:999px;padding:3px 12px;cursor:pointer;font:inherit}
+input[type=range]{width:140px;accent-color:var(--accent)}
+.years{font-variant-numeric:tabular-nums;min-width:92px}
+.mapbox{display:grid;grid-template-columns:1fr 320px;gap:14px}
+@media (max-width:860px){.mapbox{grid-template-columns:1fr}}
+.map{background:var(--sea);border:1px solid var(--line);border-radius:8px;overflow:hidden;position:relative}
+.map svg{display:block;width:100%;height:auto;cursor:grab}
+.country{fill:var(--land);stroke:var(--land-stroke);stroke-width:.5}
+.dot{cursor:pointer}
+.dot circle.ring{fill:none;stroke:var(--ink);stroke-opacity:.55}
+.legend{position:absolute;left:10px;bottom:10px;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font:12px "IBM Plex Sans Condensed",sans-serif;display:flex;gap:10px;flex-wrap:wrap}
+.sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px;max-height:600px;overflow:auto;font-size:15px}
+.panel .hint{color:var(--muted);font-style:italic}
+.rec{border-top:1px solid var(--line);padding:10px 0}
+.rec:first-child{border-top:0;padding-top:0}
+.rec h3{font:400 19px Marcellus,serif;margin:0 0 2px}
+.meta{font:13px "IBM Plex Sans Condensed",sans-serif;color:var(--muted)}
+.tag{display:inline-block;font:600 11px "IBM Plex Sans Condensed",sans-serif;padding:1px 7px;border-radius:999px;color:#fff;margin-right:4px;text-transform:uppercase;letter-spacing:.04em}
+.tag.W{background:var(--win)}.tag.L{background:var(--loss)}.tag.D{background:var(--draw)}.tag.C{background:var(--civil)}
+.tag.st{background:none;color:var(--muted);border:1px solid var(--line)}
+.tag.st.ihtilafli{color:var(--draw);border-color:var(--draw)}
+dl{display:grid;grid-template-columns:96px 1fr;gap:3px 10px;margin:8px 0 0;font-size:14px}
+dt{color:var(--muted);font:13px "IBM Plex Sans Condensed",sans-serif;padding-top:2px}
+dd{margin:0}
+.dispute{border-left:3px solid var(--draw);padding:4px 8px;margin-top:6px;font-size:14px;background:color-mix(in srgb,var(--draw) 8%,transparent)}
+a{color:var(--accent)}
+.tip{position:fixed;pointer-events:none;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:6px 9px;font:13px "IBM Plex Sans Condensed",sans-serif;box-shadow:0 4px 14px rgba(0,0,0,.15);max-width:280px;display:none;z-index:9}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th{text-align:left;font:600 12px "IBM Plex Sans Condensed",sans-serif;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);border-bottom:1px solid var(--line);padding:6px 8px;cursor:pointer;white-space:nowrap}
+td{border-bottom:1px solid var(--line);padding:6px 8px;vertical-align:top}
+tr.row{cursor:pointer}
+tr.row:hover td{background:var(--paper)}
+tr.detail td{background:var(--paper)}
+.num{font-variant-numeric:tabular-nums;text-align:right}
+.tblwrap{overflow-x:auto}
+.wdl{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.card h3{font:400 18px Marcellus,serif;margin:0 0 6px}
+.bar{display:flex;height:10px;border-radius:5px;overflow:hidden;margin:6px 0 2px;background:var(--line)}
+.bar i{display:block}
+footer{margin:46px 0 30px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+ul.lo{padding-left:18px;font-size:15px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Türklerin Savaştığı Yerler<small>Battles of the Turks</small></h1>
+  <div class="banner">DEMO · Pilot 1: Büyük Selçuklu (1035–1157). Veri doğrulama aşamasında; tarih, yer ve sonuçlar kesinleşmiş değildir.</div>
+  <div class="stats" id="stats"></div>
+</header>
+
+<h2>Harita</h2>
+<div class="controls">
+  <div class="grp" id="f-cat"><label>Kategori</label></div>
+  <div class="grp" id="f-st"><label>Statü</label></div>
+  <div class="grp"><label>Yıllar</label>
+    <input type="range" id="y1"><input type="range" id="y2">
+    <span class="years" id="ylab"></span>
+    <button class="play" id="play">▶ Oynat</button>
+  </div>
+</div>
+<div class="mapbox">
+  <div class="map" id="map">
+    <div class="legend">
+      <span><i class="sw" style="background:var(--win)"></i>Zafer</span>
+      <span><i class="sw" style="background:var(--loss)"></i>Yenilgi</span>
+      <span><i class="sw" style="background:var(--draw)"></i>Belirsiz</span>
+      <span><i class="sw" style="background:var(--civil)"></i>İç savaş</span>
+    </div>
+  </div>
+  <div class="panel" id="panel"><p class="hint">Haritada bir noktaya tıklayın. Nokta büyüklüğü o yerdeki savaş sayısını, dilimler sonuçları gösterir. Fare tekerleğiyle yakınlaştırabilirsiniz.</p></div>
+</div>
+
+<h2>Zafer, belirsiz, yenilgi</h2>
+<div class="wdl" id="wdl"></div>
+
+<h2>Tüm savaşlar</h2>
+<div class="tblwrap"><table id="list"><thead><tr>
+  <th data-k="y">Yıl</th><th data-k="name_tr">Savaş</th><th data-k="place">Yer</th><th data-k="opp">Rakip</th><th data-k="category">Kategori</th><th data-k="result">Sonuç</th><th data-k="status">Statü</th>
+</tr></thead><tbody></tbody></table></div>
+
+<h2>Dışarıda bırakılanlar</h2>
+<ul class="lo" id="lo"></ul>
+
+<footer>Kaynaklar savaş bazında verilmiştir; temel referans TDV İslâm Ansiklopedisi, çapraz kontrol için Wikipedia ve “Where the Romans Fought” veri seti. Harita: Natural Earth (world-atlas). Yöntem: docs/METODOLOJI.md.</footer>
+</div>
+<div class="tip" id="tip"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script>
+const DATA = /*DATA*/;
+const CAT={dis:"Dış rakip",turk_arasi:"Türk devletleri arası",ic:"İç savaş"};
+const RES={W:"Zafer",L:"Yenilgi",D:"Belirsiz",C:"İç savaş"};
+const ST={kesin:"Kesin",borderline:"Borderline",ihtilafli:"İhtilaflı"};
+const COL={W:"var(--win)",L:"var(--loss)",D:"var(--draw)",C:"var(--civil)"};
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const B=DATA.battles.map(b=>{const y=+b.date.match(/\d{4}/)[0];const opp=b.result==="L"?b.side_a:b.side_b;return {...b,y,opp}});
+const Y0=d3.min(B,b=>b.y), Y1=d3.max(B,b=>b.y);
+const S={cat:new Set(Object.keys(CAT)),st:new Set(Object.keys(ST)),from:Y0,to:Y1};
+const filtered=()=>B.filter(b=>S.cat.has(b.category)&&S.st.has(b.status)&&b.y>=S.from&&b.y<=S.to);
+
+function srcLink(k){
+  if(k.startsWith("TDVIA:")){const s=k.slice(6);return `<a href="https://islamansiklopedisi.org.tr/${s}" target="_blank" rel="noopener">TDVİA: ${esc(s)}</a>`}
+  if(k.startsWith("WP:")){const s=k.slice(3);return `<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(s)}" target="_blank" rel="noopener">Wikipedia: ${esc(s.replace(/_/g," "))}</a>`}
+  if(k==="ROM")return `<a href="https://iosiflazaridis.github.io/battles-of-the-romans/" target="_blank" rel="noopener">Where the Romans Fought</a>`;
+  return esc(k);
+}
+function recHTML(b){
+  const v=Object.entries(b.verify).filter(([,t])=>t).map(([k])=>({tdvia:"TDVİA",wp:"Wikipedia",rom:"Roma verisi",academic:"Akademik"}[k])).join(", ");
+  return `<div class="rec"><h3>${esc(b.name_tr)}</h3>
+  <div class="meta">${esc(b.date)}${b.hijri?" · "+esc(b.hijri):""} · ${esc(b.state||"")}</div>
+  <div style="margin-top:4px"><span class="tag ${b.result}">${RES[b.result]}</span><span class="tag st ${b.status}">${ST[b.status]}</span><span class="tag st">${CAT[b.category]}</span></div>
+  <dl>
+   <dt>Yer</dt><dd>${esc(b.place)} <span class="meta">(${esc(b.country)}; ${({known:"kesin",approx:"yaklaşık",region:"bölge"})[b.loc]})</span></dd>
+   <dt>Harp</dt><dd>${esc(b.war)}</dd>
+   <dt>Kazanan</dt><dd>${esc(b.side_a)}</dd>
+   <dt>Kaybeden</dt><dd>${esc(b.side_b)}</dd>
+   <dt>Türk k.</dt><dd>${esc(b.turkic_cmd)}</dd>
+   <dt>Rakip k.</dt><dd>${esc(b.opp_cmd)}</dd>
+   ${b.strength?`<dt>Kuvvetler</dt><dd>${esc(b.strength)}</dd>`:""}
+   ${b.note?`<dt>Not</dt><dd>${esc(b.note)}</dd>`:""}
+   <dt>Kaynaklar</dt><dd>${b.sources.map(srcLink).join("<br>")}</dd>
+   <dt>Doğrulama</dt><dd>${v||"—"}</dd>
+  </dl>${b.dispute?`<div class="dispute"><b>İhtilaf:</b> ${esc(b.dispute)}</div>`:""}</div>`;
+}
+
+// stats
+(function(){
+  const dis=B.filter(b=>b.category==="dis"), c=r=>dis.filter(b=>b.result===r).length;
+  document.getElementById("stats").innerHTML=[
+    [B.length,"kayıt"],[c("W"),"dış zafer"],[c("L"),"dış yenilgi"],[c("D"),"belirsiz"],
+    [B.filter(b=>b.category==="ic").length,"iç savaş"],[B.filter(b=>b.status!=="kesin").length,"doğrulama bekleyen"]
+  ].map(([n,l])=>`<div><b>${n}</b><span>${l}</span></div>`).join("");
+})();
+
+// filters
+function chips(id,obj,set){
+  const g=document.getElementById(id);
+  for(const [k,l] of Object.entries(obj)){
+    const b=document.createElement("button");b.className="chip";b.textContent=l;b.setAttribute("aria-pressed","true");
+    b.onclick=()=>{set.has(k)?set.delete(k):set.add(k);b.setAttribute("aria-pressed",set.has(k));render()};g.appendChild(b);
+  }
+}
+chips("f-cat",CAT,S.cat);chips("f-st",ST,S.st);
+const y1=document.getElementById("y1"),y2=document.getElementById("y2");
+for(const el of [y1,y2]){el.min=Y0;el.max=Y1;el.step=1}
+y1.value=Y0;y2.value=Y1;
+function readYears(){let a=+y1.value,b=+y2.value;if(a>b)[a,b]=[b,a];S.from=a;S.to=b;render()}
+y1.oninput=y2.oninput=readYears;
+let timer=null;
+document.getElementById("play").onclick=function(){
+  if(timer){clearInterval(timer);timer=null;this.textContent="▶ Oynat";return}
+  this.textContent="■ Durdur";let s=Y0;
+  timer=setInterval(()=>{y1.value=s;y2.value=Math.min(s+24,Y1);readYears();s+=3;if(s>Y1){clearInterval(timer);timer=null;this.textContent="▶ Oynat"}},450);
+};
+
+// map
+const W=1000,H=600;
+const svg=d3.select("#map").insert("svg",":first-child").attr("viewBox",`0 0 ${W} ${H}`);
+const g=svg.append("g"), gLand=g.append("g"), gDots=g.append("g");
+const proj=d3.geoMercator().fitExtent([[40,30],[W-40,H-30]],{type:"MultiPoint",coordinates:B.map(b=>[b.lon,b.lat])});
+const path=d3.geoPath(proj);
+let K=1;
+svg.call(d3.zoom().scaleExtent([1,10]).on("zoom",e=>{K=e.transform.k;g.attr("transform",e.transform);gDots.selectAll(".dot").attr("transform",d=>`translate(${d.x},${d.y}) scale(${1/K})`)}));
+d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json").then(w=>{
+  gLand.selectAll("path").data(topojson.feature(w,w.objects.countries).features).join("path").attr("class","country").attr("d",path);
+}).catch(()=>{});
+const tip=document.getElementById("tip");
+const arc=d3.arc().innerRadius(0), pie=d3.pie().sort(null).value(d=>d[1]);
+
+function render(){
+  const F=filtered();
+  document.getElementById("ylab").textContent=`${S.from} – ${S.to}`;
+  const groups=d3.groups(F,b=>b.lat+","+b.lon).map(([k,bs])=>{const [x,y]=proj([bs[0].lon,bs[0].lat]);return {k,bs,x,y}}).sort((a,b)=>b.bs.length-a.bs.length);
+  const dots=gDots.selectAll(".dot").data(groups,d=>d.k).join(enter=>{const e=enter.append("g").attr("class","dot");return e})
+    .attr("transform",d=>`translate(${d.x},${d.y}) scale(${1/K})`);
+  dots.each(function(d){
+    const r=5+3.2*Math.sqrt(d.bs.length), counts=["W","L","D","C"].map(k=>[k,d.bs.filter(b=>b.result===k).length]).filter(c=>c[1]);
+    const s=d3.select(this);s.selectAll("*").remove();
+    s.selectAll("path").data(pie(counts)).join("path").attr("d",arc.outerRadius(r)).attr("fill",p=>COL[p.data[0]]).attr("fill-opacity",.9);
+    s.append("circle").attr("class","ring").attr("r",r);
+  })
+  .on("mousemove",(e,d)=>{tip.style.display="block";tip.style.left=(e.clientX+14)+"px";tip.style.top=(e.clientY+10)+"px";
+    tip.innerHTML=`<b>${esc(d.bs[0].place)}</b><br>`+d.bs.map(b=>`${b.y} · ${esc(b.name_tr)} — ${RES[b.result]}`).join("<br>")})
+  .on("mouseleave",()=>tip.style.display="none")
+  .on("click",(e,d)=>{document.getElementById("panel").innerHTML=d.bs.sort((a,b)=>a.y-b.y).map(recHTML).join("")});
+  renderWDL(F);renderList(F);
+}
+
+function renderWDL(F){
+  const box=document.getElementById("wdl");
+  const states=d3.groups(F.filter(b=>b.category!=="ic"),b=>b.state);
+  const card=(title,bs)=>{const n=k=>bs.filter(b=>b.result===k).length,t=bs.length||1;
+    return `<div class="card"><h3>${esc(title)}</h3><div class="bar">${["W","D","L"].map(k=>`<i style="width:${n(k)/t*100}%;background:${COL[k]}"></i>`).join("")}</div>
+    <div class="meta">${n("W")} zafer · ${n("D")} belirsiz · ${n("L")} yenilgi</div></div>`};
+  let h="";
+  for(const [st,bs] of states){
+    const dis=bs.filter(b=>b.category==="dis"),ta=bs.filter(b=>b.category==="turk_arasi");
+    if(dis.length)h+=card(`${st} — dış rakiplere karşı`,dis);
+    if(ta.length)h+=card(`${st} — Türk devletleri arası`,ta);
+  }
+  const byOpp=d3.groups(F.filter(b=>b.category==="dis"),b=>b.opp.split(/[,(]/)[0].replace(/ \(.*$/,"").trim()).sort((a,b)=>b[1].length-a[1].length).slice(0,6);
+  for(const [o,bs] of byOpp)h+=card(`Rakip: ${o}`,bs);
+  box.innerHTML=h||'<p class="meta">Filtreye uyan kayıt yok.</p>';
+}
+
+let sortK="y",sortD=1;
+document.querySelectorAll("#list th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortD=sortK===k?-sortD:1;sortK=k;render()});
+function renderList(F){
+  const tb=document.querySelector("#list tbody");
+  const rows=[...F].sort((a,b)=>(a[sortK]>b[sortK]?1:a[sortK]<b[sortK]?-1:a.id-b.id)*sortD);
+  tb.innerHTML=rows.map(b=>`<tr class="row" data-id="${b.id}"><td class="num">${b.y}</td><td>${esc(b.name_tr)}</td><td>${esc(b.place)}</td><td>${esc(b.opp)}</td><td>${CAT[b.category]}</td><td><span class="tag ${b.result}">${RES[b.result]}</span></td><td><span class="tag st ${b.status}">${ST[b.status]}</span></td></tr>`).join("");
+  tb.querySelectorAll("tr.row").forEach(tr=>tr.onclick=()=>{
+    const nx=tr.nextElementSibling;if(nx&&nx.classList.contains("detail")){nx.remove();return}
+    const b=B.find(x=>x.id==tr.dataset.id);tr.insertAdjacentHTML("afterend",`<tr class="detail"><td colspan="7">${recHTML(b)}</td></tr>`);
+  });
+}
+
+document.getElementById("lo").innerHTML=DATA.left_out.map(l=>`<li><b>${esc(l.name)}</b> — ${esc(l.reason)} <span class="meta">(${srcLink(l.source)})</span></li>`).join("");
+render();
+</script>
+</body>
+</html>
