@@ -42,9 +42,21 @@ Karşılaştırma için: Wikipedia'nın Selçuklu listesinde bu dönem için yal
 
 Kararlar uygulandıktan sonra **Büyük Selçuklu'nun dış rakiplere karşı sonucu: 21 galibiyet, 16 mağlubiyet, 1 belirsiz.**
 
+## İkinci kaynak turu (2026-10-28)
+Tek TDVİA maddesine dayanan kayıtlar ikinci, ayrı bir TDVİA maddesiyle karşılaştırıldı (şehir, hanedan ve komutan maddeleri: Şeddâdîler, Mervânîler, Şanlıurfa, Mevdûd b. Altuntegin, Porsuk, Tuğtegin, Gürcistan, Gence, Halep, Alamut, Hasan Sabbâh vb.).
+
+- **İki maddeyle doğrulanan kayıt: 57 → 70.** Yeni alan: `verify.tdvia2`.
+- **Hâlâ tek maddeye dayanan 13 kayıt:** Ulyâbâd (#3), Debîl (#8), Herat (#23), Ahılkelek (#24), Kayseri (#26), Çiğilkent (#34), Partskhisi (#35), Gürcistan 1080 (#38), Burûcird (#44), Belh 1102 (#57), Alamut 1109 ve 1117–18 (#63, #72), Urfa 1114 (#68). Bunlar için TDVİA'da ikinci madde yok; Türk akademik literatürü (Köymen, Sevim, Turan; DergiPark makaleleri) ile kontrol edilecek.
+- **Düzeltmeler:** Taberiye tarihi 28 Haziran 1113 olarak kesinleşti; Teldânis 15 Eylül 1115 (Porsuk maddesi); Didgori 12 Ağustos 1121 (Gürcistan maddesi); Semerkant için 1088/1089 ihtilafı ve Urfa 1070 için Mart 1071 rivayeti `dispute` alanına eklendi.
+- **P6 (öncelik kuralı) uygulandı:** Pasinler D → W, Konya 1069 L → W, Partskhisi tarihi TDVİA'ya göre 1076–79. Ayrıntı `KARARLAR.md`'de.
+- Bütün notlara İngilizce karşılık (`note_en`) eklendi.
+
+**Güncel sonuç (Büyük Selçuklu, dış rakipler): 23 galibiyet, 15 mağlubiyet.** Türk devletleri arası: 11 galibiyet, 5 mağlubiyet.
+
 ## Sonraki adımlar
-- [ ] Tek kaynağa dayanan 26 kaydı ikinci bir kaynakla kontrol etmek. Öncelik: Peacock, *The Great Seljuk Empire* (2015); Bosworth, *CHIr* V; Köymen; Kafesoğlu, *Sultan Melikşah*.
-- [ ] Bizans, Ermeni ve Gürcü tarafıyla çelişen kayıtlar (Dvin, Konya, Partskhisi, Gürcistan 1080) için Beihammer (2017) ve Minorsky.
+- [x] Tek kaynağa dayanan kayıtları ikinci bir TDVİA maddesiyle kontrol etmek (2026-10-28; 13 kayıt kaldı, yukarıya bkz.).
+- [ ] Kalan 13 kayıt için Türk akademik literatürü: Köymen; Kafesoğlu, *Sultan Melikşah*; Sevim; Turan.
+- [x] Bizans, Ermeni ve Gürcü tarafıyla çelişen kayıtlar (Dvin, Konya, Partskhisi, Pasinler): P6 gereği TDVİA anlatısı esas alındı, karşı taraf "alternatif okuma" olarak notta.
 - [ ] Koordinatları kontrol etmek (çoğu yaklaşık).
-- [ ] Kayıtlara İngilizce not alanları (`note_en`) eklemek.
+- [x] Kayıtlara İngilizce not alanları (`note_en`) eklemek.
 - [ ] Yukarıdaki üç açık karara göre sonraki parti: Anadolu Selçuklu ve beylikler.

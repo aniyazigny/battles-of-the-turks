@@ -7,7 +7,7 @@
    "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",
    "status": "kesin = savaş ve sonucu kaynaklarda net; borderline = savaş sayılıp sayılmayacağı veya Büyük Selçuklu'ya ait olup olmadığı tartışmalı; ihtilafli = sonuç veya tarih kaynaklar arasında çelişkili.",
    "loc": "known = yer biliniyor; approx = yaklaşık; region = yalnızca bölge düzeyinde.",
-   "verify": "tdvia = TDV İslâm Ansiklopedisi maddesinde doğrulandı; wp = Wikipedia'da var; rom = 'Where the Romans Fought' veri setinde karşılığı var; academic = bağımsız akademik ikincil kaynakla kontrol edildi (Haldon, Hillenbrand, Peacock, Bosworth vb.).",
+   "verify": "tdvia = TDV İslâm Ansiklopedisi maddesinde doğrulandı; wp = Wikipedia'da var; rom = 'Where the Romans Fought' veri setinde karşılığı var; academic = bağımsız akademik ikincil kaynakla kontrol edildi (Haldon, Hillenbrand, Peacock, Bosworth vb.). tdvia2 = olay ikinci, ayrı bir TDVİA maddesinde de doğrulandı (iki madde kuralı).",
    "state": "Savaşan Türk devleti. home_batch: kaydın nihai olarak ait olduğu araştırma partisi."
   },
   "source_keys": {
@@ -18,8 +18,10 @@
   "decisions": {
    "K1": "Üç kategori var: dis, turk_arasi, ic. Kazanma-kaybetme tablosu her devlet için ayrı tutulur. 'Türkler toplamı' yalnızca dis kategorisindeki savaşlardan hesaplanır. turk_arasi savaşlar ilgili iki devletin kendi tablolarında görünür. ic savaşlar skora girmez.",
    "K2": "Selçuklu hanedanının kolları (Büyük, Irak, Suriye, Kirman, Anadolu Selçukluları) arasındaki savaşlar iç savaştır. Farklı hanedanlardan Türk devletleri arasındaki savaşlar turk_arasi kategorisindedir.",
-   "K3": "Savaşı sultan emrettiyse veya komutanı sultan atadıysa savaş sultanın devletine yazılır (ör. Kürboğa 1098, Mevdûd, Didgori 1121). Emîr veya atabey kendi inisiyatifiyle savaştıysa kayıt atabeylikler ve beylikler partisine gider (ör. Harran 1104, Atsız 1077)."
-  }
+   "K3": "Savaşı sultan emrettiyse veya komutanı sultan atadıysa savaş sultanın devletine yazılır (ör. Kürboğa 1098, Mevdûd, Didgori 1121). Emîr veya atabey kendi inisiyatifiyle savaştıysa kayıt atabeylikler ve beylikler partisine gider (ör. Harran 1104, Atsız 1077).",
+   "P6": "Kaynaklar çatıştığında Türk ve İslâm tarafının akademik literatürü (öncelikle TDVİA, sonra Turan, Köymen, Kafesoğlu, Sevim, Sümer, Demirkent vb.) esas alınır. Karşı tarafın anlatısı silinmez; dispute alanında 'Alternatif okuma' olarak durur. Sayı kuralı değişmez."
+  },
+  "updated": "2026-10-28"
  },
  "battles": [
   {
@@ -51,11 +53,13 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Zafer sonrası Mesud Nesâ, Dihistan ve Ferâve'yi Selçuklular'a iktâ etti.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "After the victory Mas'ud granted Nasa, Dihistan and Farawa to the Seljuks as iqta."
   },
   {
    "id": 2,
@@ -87,12 +91,14 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "dispute": "TDVİA'nın kendi maddeleri çelişiyor: Tuğrul Bey maddesi Şâban 429 / Mayıs 1038 (Selçuklu zaferi), Çağrı Bey maddesi Zilkade 429 / Ağustos 1038 (Selçuklu zaferi), Dandanakan maddesi ise Talhâb'ı Ramazan 430 / Haziran 1039'a koyup Selçuklu yenilgisi sayıyor. Karar: 1038 Selçuklu zaferi (iki madde + Wikipedia); Dandanakan maddesi 1039 Serahs yenilgisiyle karıştırmış görünüyor.",
    "note": "Zaferin ardından Tuğrul Bey Nîşâbur'a girdi.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "After the victory Tughril entered Nishapur."
   },
   {
    "id": 3,
@@ -121,10 +127,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note": "İkinci bir TDVİA maddesinde geçmiyor; Türk akademik kaynağıyla (Köymen, Sevim) kontrol bekliyor.",
+   "note_en": "Not mentioned in a second TDVİA article; awaiting a check against Turkish scholarship (Köymen, Sevim)."
   },
   {
    "id": 4,
@@ -154,11 +163,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Tuğrul Bey maddesi: 'kesin sonuçlu bir zafer değildi'. Selçuklular çöle çekildi; geçici barış yapıldı. Çağrı Bey maddesi Gazneli ordusunu 50.000 verir.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Tughril article: 'not a decisive victory'. The Seljuks withdrew into the desert; a temporary peace followed. The Chaghri article gives the Ghaznavid army as 50,000."
   },
   {
    "id": 5,
@@ -191,11 +202,13 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Üç gün sürdü. Ardından Büyük Selçuklu Devleti kuruldu, Tuğrul Bey sultan ilan edildi.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Lasted three days. The Great Seljuk state was founded and Tughril proclaimed sultan."
   },
   {
    "id": 6,
@@ -226,11 +239,13 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Alparslan'ın ilk seferi.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Alp Arslan's first campaign."
   },
   {
    "id": 7,
@@ -260,12 +275,14 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "dispute": "Tuğrul Bey maddesi 434 (1042-43), Çağrı Bey maddesi 434/1043.",
    "note": "Kuşatma; Şah Melik kaçtı, sonra yakalanıp öldürüldü. Şah Melik Oğuz yabgu hanedanındandır, bu yüzden Türk toplulukları arası sayıldı. Çatışmanın ayrıntısı az olduğu için borderline.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "A siege; Shah Malik fled and was later captured and killed. Shah Malik belonged to the Oghuz Yabgu dynasty, so this is counted as inter-Turkic. Borderline because details of the fighting are scant."
   },
   {
    "id": 8,
@@ -295,10 +312,10 @@
     "tdvia": true,
     "wp": false,
     "rom": true,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
-   "dispute": "TDVİA Bizans saldırısını Kutalmış'ın püskürttüğünü yazar. Roma veri setinde (Skylitzes, Aristakes) aynı yıl Dvin'de Bizans'ı yenen taraf Şeddâdî emîri Ebü'l-Esvâr'dır. Aynı olay farklı aktörlere atfediliyor olabilir. Bizans kaynağıyla karşılaştırılacak.",
-   "note": "Selçukluların payı netleşmezse 'Dışarıda bırakılanlar' listesine alınacak.",
+   "dispute": "TDVİA (Kutalmış maddesi) Bizans saldırısını Kutalmış'ın püskürttüğünü yazar. Alternatif okuma: Roma veri setinde (Skylitzes, Aristakes) aynı yıl Dvin'de Bizans'ı yenen taraf Şeddâdî emîri Ebü'l-Esvâr'dır; olay farklı aktörlere atfediliyor olabilir. Karar [P6]: TDVİA anlatısı esas alındı.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
   },
@@ -325,16 +342,17 @@
    "sources": [
     "TDVIA:kutalmis",
     "WP:Battle_of_Ganja_(1046)",
-    "ROM"
+    "ROM",
+    "TDVIA:seddadiler"
    ],
    "verify": {
     "tdvia": true,
     "wp": true,
     "rom": true,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "dispute": "TDVİA: Kutalmış Şeddâdîler'in Gence'sini kuşattı ama alamadı. Wikipedia ve Roma veri seti ise 1046'da Gence önünde Liparit komutasındaki Bizans ordusuna karşı Selçuklu zaferi kaydeder; ancak Wikipedia maddesi yalnızca modern ikincil kaynaklara (Sicker 2000 ve Türkçe tezler) dayanıyor, birincil kaynak göstermiyor. Karar: TDVİA esas alındı; Wikipedia anlatısı ayrı kayıt olarak doğrulanmadıkça girmeyecek.",
-   "note": "",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
   },
@@ -360,18 +378,22 @@
    "status": "ihtilafli",
    "sources": [
     "TDVIA:tugrul-bey",
-    "ROM"
+    "ROM",
+    "TDVIA:kutalmis",
+    "TDVIA:selcuklular"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": true,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "dispute": "Tarih: TDVİA 439 (1047), Roma veri seti 1048. İsim: Bizans kaynaklarındaki 'Stragna' ile TDVİA'daki 'Becni yakını Aras kıyısı' aynı olay kabul edildi.",
    "note": "Bu olay 1048 Pasinler seferinin sebebidir.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "This event caused the 1048 Pasinler campaign."
   },
   {
    "id": 11,
@@ -391,25 +413,29 @@
    "turkic_cmd": "İbrâhim Yinal, Kutalmış",
    "opp_cmd": "Aaron, Katakalon Kekaumenos, Liparit IV (esir)",
    "category": "dis",
-   "result": "D",
+   "result": "W",
    "status": "ihtilafli",
    "strength": "İbnü'l-Esîr Bizans-Gürcü ordusunu 50.000, Aristakes 60.000, Skylitzes Türkleri 100.000 verir; modern tarihçiler hepsini abartılı bulur.",
    "sources": [
     "TDVIA:tugrul-bey",
     "TDVIA:kutalmis",
     "WP:Battle_of_Kapetron",
-    "ROM"
+    "ROM",
+    "TDVIA:aras",
+    "TDVIA:selcuklular"
    ],
    "verify": {
     "tdvia": true,
     "wp": true,
     "rom": true,
-    "academic": true
+    "academic": true,
+    "tdvia2": true
    },
-   "dispute": "TDVİA (Sümer, Kutalmış maddesi) ve İslâm kaynakları ağır bir Bizans yenilgisi anlatır: Liparit esir alındı, çok ganimet elde edildi. Skylitzes'e göre Bizans kanatları Türkleri püskürttü, merkezde ise Liparit esir düştü. Modern literatür (Kaldellis 2017, Beihammer 2017) ve Roma veri seti sonucu belirsiz kabul eder. Karar: savaş alanı sonucu 'belirsiz (D)'. Stratejik sonuç Selçuklu lehine (komutan esir, ganimet). Alternatif okuma: Selçuklu zaferi.",
+   "dispute": "TDVİA'nın dört maddesi (Tuğrul Bey, Kutalmış, Aras, Selçuklular) ve İslâm kaynakları açık bir Selçuklu zaferi anlatır: Bizans ordusu tutunamadı, Liparit esir alındı, Monomakhos antlaşmaya mecbur kaldı. Alternatif okuma: Skylitzes'e göre Bizans kanatları Türkleri püskürttü, yalnızca merkezde Liparit esir düştü; Kaldellis (2017), Beihammer (2017) ve Roma veri seti sonucu belirsiz sayar. Karar [P6]: Selçuklu zaferi (W).",
    "note": "Türkler ile Bizans arasındaki ilk büyük meydan savaşı. Tarih için 1049 önerisi de var, çünkü 18 Eylül 1048 Pazar'a düşüyor.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "First major pitched battle between Turks and Byzantium. 1049 has also been proposed, since 18 September 1048 fell on a Sunday."
   },
   {
    "id": 12,
@@ -432,17 +458,20 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:tugrul-bey"
+    "TDVIA:tugrul-bey",
+    "TDVIA:selcuklular"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Yinal yenildi, bir kaleye sığındı ve affedildi.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Yinal was defeated, took refuge in a fortress and was pardoned."
   },
   {
    "id": 13,
@@ -463,20 +492,23 @@
    "opp_cmd": "Ferâmurz b. Alâüddevle",
    "category": "dis",
    "result": "W",
-   "status": "kesin",
+   "status": "borderline",
    "sources": [
-    "TDVIA:tugrul-bey"
+    "TDVIA:tugrul-bey",
+    "TDVIA:isfahan"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "dispute": "TDVİA şehri 'Büveyhîler'in egemenliğinde' diye tanımlar; aynı maddede şehrin hâkimi Kâkûyî Ferâmurz olarak geçer. Rakip Kâkûyîler olarak kaydedildi (Büveyhî metbûluğunda).",
-   "note": "Bir yıl süren kuşatma.",
+   "note": "Bir yıl süren kuşatma; TDVİA İsfahan maddesine göre şehir 'sulhen' teslim alındı (443/1051). Çatışmanın ayrıntısı az olduğu için borderline. Tuğrul Bey 437'de (1045-46) de şehri kuşatıp haraçla dönmüştü.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "A year-long siege; per the TDVİA Isfahan article the city was taken by terms (443/1051). Borderline because details of the fighting are scant. Tughril had also besieged it in 1045-46 and withdrawn with tribute."
   },
   {
    "id": 14,
@@ -501,17 +533,20 @@
    "sources": [
     "TDVIA:tugrul-bey",
     "ROM",
-    "WP:Siege_of_Manzikert_(1054)"
+    "WP:Siege_of_Manzikert_(1054)",
+    "TDVIA:selcuklular"
    ],
    "verify": {
     "tdvia": true,
     "wp": true,
     "rom": true,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Kuşatma kış gelince kaldırıldı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "The siege was lifted when winter came."
   },
   {
    "id": 15,
@@ -542,11 +577,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Besâsîrî Büveyhîler'in hizmetindeki Türk asıllı bir komutandır.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Basasiri was a commander of Turkic origin in Buyid service."
   },
   {
    "id": 16,
@@ -576,11 +613,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Oğuzlar yağma için kuşatmayı bırakınca Tuğrul Bey Rey'e geçti.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "When the Oghuz left the siege to plunder, Tughril moved to Rayy."
   },
   {
    "id": 17,
@@ -610,11 +649,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Yinal esir alındı ve 23 Temmuz 1059'da idam edildi.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Yinal was captured and executed on 23 July 1059."
   },
   {
    "id": 18,
@@ -644,11 +685,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Besâsîrî 18 Ocak 1060'ta öldürüldü. Halife Kāim-Biemrillâh Bağdat'a iade edildi.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Basasiri was killed on 18 January 1060. Caliph al-Qa'im was restored to Baghdad."
   },
   {
    "id": 19,
@@ -671,17 +714,20 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:cagri-bey"
+    "TDVIA:cagri-bey",
+    "TDVIA:gazneliler"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Tarih yaklaşık. Ardından Alparslan karşı saldırıda Ferruhzâd'ın kuvvetlerini yendi (bkz. 20); 451/1059'da barış yapıldı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Date approximate. Alp Arslan then counter-attacked and defeated Farrukhzad's forces (see 20); peace in 451/1059."
   },
   {
    "id": 20,
@@ -711,12 +757,14 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "dispute": "Alparslan maddesi 1058 der. Wikipedia'daki '1051 Hupyan' (Gazneli zaferi) kaydı ayrı bir olaydır ve henüz doğrulanmadı.",
    "note": "Savaşın adı ve yeri belirsiz.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Name and site of the battle uncertain."
   },
   {
    "id": 21,
@@ -746,11 +794,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Gönderilen kuvvetler yenildi; kuşatma Tuğrul Bey ölünce kaldırıldı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "The forces sent were defeated; the siege was lifted on Tughril's death."
   },
   {
    "id": 22,
@@ -781,11 +831,13 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Kutalmış'ın ordusu 50.000 olarak verilir. Kutalmış kaçarken attan düşüp öldü (7 Aralık 1063). Esir alınan Süleyman, ileride Anadolu Selçuklu Devleti'ni kuracak olan Süleyman Şah'tır.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Qutalmish's army is given as 50,000. Qutalmish fell from his horse while fleeing and died (7 December 1063). The captured Sulayman later founded the Seljuk Sultanate of Rum."
   },
   {
    "id": 23,
@@ -814,7 +866,8 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
@@ -847,7 +900,8 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
@@ -875,17 +929,21 @@
    "sources": [
     "TDVIA:alparslan",
     "ROM",
-    "WP:Siege_of_Ani"
+    "WP:Siege_of_Ani",
+    "TDVIA:selcuklular",
+    "TDVIA:aras"
    ],
    "verify": {
     "tdvia": true,
     "wp": true,
     "rom": true,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Bir aydan uzun süren kuşatma. Halife Alparslan'a 'Ebü'l-feth' lakabını verdi.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "A siege of more than a month. The caliph gave Alp Arslan the title Abu'l-Fath."
   },
   {
    "id": 26,
@@ -915,11 +973,13 @@
     "tdvia": false,
     "wp": false,
     "rom": true,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
    "note": "Bir akın; şehir yağmalandı. TDVİA Afşin maddesinde ayrıntı bulunamadı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "A raid; the city was sacked. No detail found in the TDVİA Afshin article."
   },
   {
    "id": 27,
@@ -934,25 +994,26 @@
    "lon": 32.48,
    "loc": "known",
    "country": "Türkiye",
-   "side_a": "Bizans",
-   "side_b": "Selçuklu akıncıları",
+   "side_a": "Selçuklu akıncıları",
+   "side_b": "Bizans",
    "turkic_cmd": "Afşin",
    "opp_cmd": "Manuel Komnenos",
    "category": "dis",
-   "result": "L",
+   "result": "W",
    "status": "borderline",
    "sources": [
     "ROM",
-    "TDVIA:alparslan"
+    "TDVIA:alparslan",
+    "TDVIA:konya"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": true,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
-   "dispute": "TDVİA Alparslan maddesi yalnızca Türkmen akıncılarının Konya'yı yağmaladığını yazar. Roma veri seti (Attaleiates 16) akıncıların ardından Manuel Komnenos'un kazandığı bir çatışma kaydeder. Bizans kaynağıyla kontrol edilecek.",
-   "note": "",
+   "dispute": "TDVİA (Alparslan ve Konya maddeleri): Afşin'in Türkmen akıncıları 1069'da Konya önlerine gelip şehri yağmaladı. Alternatif okuma: Attaleiates'e göre (Roma veri seti) akıncılar dönüşte Manuel Komnenos'a yenildi. Karar [P6]: TDVİA anlatısı esas alındı; çatışmanın meydan savaşı sayılması tartışmalı olduğu için borderline.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
   },
@@ -978,17 +1039,20 @@
    "status": "borderline",
    "sources": [
     "TDVIA:afsin",
-    "ROM"
+    "ROM",
+    "TDVIA:alparslan"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": true,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Er Basgan Alparslan'ın eniştesidir ama o sırada sultana karşı firari durumdaydı. Bu yüzden Büyük Selçuklu hesabına yazılıp yazılmayacağı tartışmalı. [K3] Er Basgan sultana karşı firariydi; kendi adına hareket etti. Kayıt atabeylikler ve beylikler partisine taşınacak; o zamana kadar burada duruyor ve Büyük Selçuklu skoruna girmiyor.",
    "state": "Selçuklu tâbii emîr",
-   "home_batch": "atabeylikler-beylikler"
+   "home_batch": "atabeylikler-beylikler",
+   "note_en": "Er Basgan was Alp Arslan's brother-in-law but was then a fugitive from the sultan, so assigning it to the Great Seljuks is disputed. [K3] He acted on his own account; the record will move to the atabegs and beyliks batch and is excluded from the Great Seljuk score until then."
   },
   {
    "id": 29,
@@ -1009,19 +1073,23 @@
    "opp_cmd": "Bizans garnizonu",
    "category": "dis",
    "result": "L",
-   "status": "borderline",
+   "status": "ihtilafli",
    "sources": [
-    "TDVIA:alparslan"
+    "TDVIA:alparslan",
+    "TDVIA:sanliurfa"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "İki ay direndi. Alparslan 50.000 dinar haraç alıp kuşatmayı kaldırdı. Kural gereği kuşatma kaldırılınca savunan taraf kazanmış sayılır; haraç notta belirtilir.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "dispute": "Tarih: Alparslan maddesi Ekim-Aralık 1070; Şanlıurfa maddesi 463 başı (Ekim-Kasım 1070), bir rivayete göre 10 Mart 1071; kuşatma elli gün sürdü.",
+   "note_en": "The city held out two months. Alp Arslan lifted the siege after receiving 50,000 dinars. By rule, a lifted siege counts as a win for the defender; the tribute is noted."
   },
   {
    "id": 30,
@@ -1044,17 +1112,21 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:alparslan"
+    "TDVIA:alparslan",
+    "TDVIA:halep",
+    "TDVIA:mirdasiler"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Emîr Oğuz elbiseleri giyerek teslim oldu ve yerinde bırakıldı. Çatışma az olduğu için borderline.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "The emir surrendered wearing Oghuz dress and was left in place. Borderline because there was little fighting."
   },
   {
    "id": 31,
@@ -1087,11 +1159,13 @@
     "tdvia": true,
     "wp": true,
     "rom": true,
-    "academic": true
+    "academic": true,
+    "tdvia2": true
    },
    "note": "Bizans saflarındaki Uz ve Peçenek birlikleri taraf değiştirdi; Andronikos Dukas artçıyı geri çekti. İmparator esir alındı ve onurlu biçimde ağırlandı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "The Uz and Pecheneg contingents in the Byzantine ranks changed sides; Andronikos Doukas withdrew the rearguard. The emperor was captured and treated with honour."
   },
   {
    "id": 32,
@@ -1121,11 +1195,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Kısa bir kuşatma ve teslim. Alparslan kale komutanının suikastıyla öldü (24 Kasım 1072). Savaş sayılması tartışmalı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "A short siege and surrender. Alp Arslan was killed by the fortress commander (24 November 1072). Counting it as a battle is disputed."
   },
   {
    "id": 33,
@@ -1155,11 +1231,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Yeri Kavurd Bey maddesinden kontrol edilecek.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Site to be checked against the Kavurd article."
   },
   {
    "id": 34,
@@ -1188,17 +1266,19 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
    "note": "Baskın ve yağma; meydan savaşı değil.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "A raid and plunder, not a pitched battle."
   },
   {
    "id": 35,
    "name_tr": "Partskhisi",
    "name_en": "Partskhisi",
-   "date": "1074",
+   "date": "1076–1079",
    "hijri": "466/467",
    "type": "land",
    "war": "Selçuklu–Gürcü savaşları",
@@ -1222,10 +1302,10 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
-   "dispute": "Wikipedia 1074 der. TDVİA Melikşah maddesi Savtegin'in Gürcülere yenilgilerini 468–471 (1076–79) arasına koyar ve savaşa ad vermez.",
-   "note": "",
+   "dispute": "TDVİA Melikşah maddesi Savtegin'in Gürcülere yenilgilerini 468–471 (1076–79) arasına koyar ve savaşa ad vermez. Alternatif okuma: Gürcü kaynaklarına dayanan Wikipedia 1074 ve 'Partskhisi' adını verir. Karar [P6]: tarih TDVİA'ya göre.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
   },
@@ -1257,11 +1337,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Sefer başarılı oldu ve hutbe Melikşah adına okundu. Belirli bir meydan savaşı adı kaynaklarda yok.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "The campaign succeeded and the khutba was read in Malikshah's name. No named pitched battle in the sources."
   },
   {
    "id": 37,
@@ -1292,11 +1374,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Atsız hutbeyi Melikşah adına okutan yarı bağımsız bir Türkmen emîriydi. Bazı Türkmen atlıları safları terk etti. Önceki gün öncü Fâtımî kuvvetlerini yenmişti. [K3] Atsız sefere kendi inisiyatifiyle çıktı; sultan göndermedi. Kayıt atabeylikler ve beylikler partisine taşınacak; o zamana kadar burada duruyor ve Büyük Selçuklu skoruna girmiyor.",
    "state": "Selçuklu tâbii emîr",
-   "home_batch": "atabeylikler-beylikler"
+   "home_batch": "atabeylikler-beylikler",
+   "note_en": "Atsiz was a semi-independent Turkmen emir who had the khutba read for Malikshah. Some Turkmen horsemen deserted. He had beaten the Fatimid vanguard the previous day. [K3] He campaigned on his own initiative; the record will move to the atabegs and beyliks batch and is excluded from the Great Seljuk score until then."
   },
   {
    "id": 38,
@@ -1325,11 +1409,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
    "note": "Ardından Kars, Erzurum ve Oltu alındı. Gürcü kaynaklarındaki adı belirlenecek (muhtemelen Kvelistsikhe).",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Kars, Erzurum and Oltu were then taken. Name in Georgian sources to be determined (possibly Kvelistsikhe)."
   },
   {
    "id": 39,
@@ -1352,16 +1438,21 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:meliksah--buyuk-selcuklu"
+    "TDVIA:meliksah--buyuk-selcuklu",
+    "TDVIA:mervaniler--diyarbakir",
+    "TDVIA:diyarbakir"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note": "Melikşah'ın emriyle Fahrüddevle İbn Cehîr kuşattı; şehri oğlu Zaîmürrüesâ aldı.",
+   "note_en": "Besieged by Fakhr al-Dawla Ibn Jahir on Malikshah's orders; taken by his son Za'im al-Ru'asa."
   },
   {
    "id": 40,
@@ -1384,17 +1475,21 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:meliksah--buyuk-selcuklu"
+    "TDVIA:meliksah--buyuk-selcuklu",
+    "TDVIA:mervaniler--diyarbakir",
+    "TDVIA:meyyafarikin"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
-   "note": "Mervânî hanedanının sonu.",
+   "note": "Mervânî hanedanının sonu. Şehir kuşatmadan sonra teslim alındı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "End of the Marwanid dynasty. The city surrendered after a siege."
   },
   {
    "id": 41,
@@ -1426,12 +1521,14 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "dispute": "Tarih: Melikşah maddesi 4 Haziran, Artuk maddesi 5 Haziran 1086.",
    "note": "Selçuklu hanedanının iki kolu arasında. Doğrudan Büyük Selçuklu ordusu yok; Tutuş Melikşah'ın tâbiidir.",
    "state": "Suriye Selçukluları",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Between two branches of the Seljuk dynasty. No Great Seljuk army directly involved; Tutush was Malikshah's vassal."
   },
   {
    "id": 42,
@@ -1454,17 +1551,22 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:meliksah--buyuk-selcuklu"
+    "TDVIA:meliksah--buyuk-selcuklu",
+    "TDVIA:semerkant",
+    "TDVIA:karahanlilar"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
-   "note": "Şehir ele geçirildi. Kuşatmadaki çatışmanın ayrıntısı TDVİA'da yok; Peacock (2015) ile kontrol edilecek.",
+   "note": "Şehir ele geçirildi; Yâkub Tegin Atbaşı'na kaçtı. Kuşatmadaki çatışmanın ayrıntısı TDVİA'da yok.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "dispute": "Tarih: Melikşah maddesi 1088; Semerkant ve Karahanlılar maddeleri 482 (1089).",
+   "note_en": "The city was taken; Ya'qub Tegin fled to Atbashi. TDVİA gives no detail of fighting during the siege."
   },
   {
    "id": 43,
@@ -1487,17 +1589,21 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:meliksah--buyuk-selcuklu"
+    "TDVIA:meliksah--buyuk-selcuklu",
+    "TDVIA:alamut",
+    "TDVIA:hasan-sabbah"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
-   "note": "Yardım kuvvetinin gelmesiyle kuşatma kaldırıldı. Daha önce Yoruntaş'ın kuşatması (1091) onun ölümüyle sonuçsuz kalmıştı.",
+   "note": "Yardım kuvvetinin gelmesiyle kuşatma kaldırıldı (Alamut maddesi: 1091-92 kuşatması başarısız). Daha önce Yoruntaş'ın kuşatması (1091) onun ölümüyle sonuçsuz kalmıştı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "The siege was lifted when a relief force arrived (Alamut article: the 1091-92 siege failed). Yoruntash's earlier siege (1091) had ended with his death."
   },
   {
    "id": 44,
@@ -1526,7 +1632,8 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
@@ -1559,7 +1666,8 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
@@ -1593,11 +1701,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Yer adı Wikipedia ve İbnü'l-Adîm'den kontrol edilecek. TDVİA'da 'Tell es-Sultan' adı geçmiyor.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Place name to be checked against Ibn al-'Adim; TDVİA does not use the name 'Tell es-Sultan'."
   },
   {
    "id": 47,
@@ -1627,11 +1737,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Yer belirsiz.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Site uncertain."
   },
   {
    "id": 48,
@@ -1662,11 +1774,13 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Melikşah'ın sancağı açılınca Tutuş'un adamları Berkyaruk tarafına geçti.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "When Malikshah's banner was unfurled, Tutush's men went over to Berkyaruq."
   },
   {
    "id": 49,
@@ -1696,7 +1810,8 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
@@ -1731,11 +1846,13 @@
     "tdvia": true,
     "wp": false,
     "rom": true,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Kürboğa'nın Urfa önünde üç hafta kaybetmesi Haçlılar'a Antakya'yı alma fırsatı verdi. Müttefik emîrler ona küsüp ayrıldı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Kerbogha's three weeks lost before Edessa gave the Crusaders the chance to take Antioch. Allied emirs left him in resentment."
   },
   {
    "id": 51,
@@ -1758,17 +1875,20 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:kurboga"
+    "TDVIA:kurboga",
+    "TDVIA:sanliurfa"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Üç hafta sonra 25 Mayıs'ta bırakıldı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Abandoned after three weeks, on 25 May."
   },
   {
    "id": 52,
@@ -1799,11 +1919,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Kardeşler arasındaki beş savaşın birincisi.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "First of five battles between the brothers."
   },
   {
    "id": 53,
@@ -1834,7 +1956,8 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
@@ -1867,7 +1990,8 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
@@ -1900,10 +2024,10 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "dispute": "Tarih: Tapar maddesi 4 Rebîülevvel 495 / 27 Aralık 1101, Berkyaruk maddesi 4 Rebîülâhir 495 / 26 Ocak 1102. Sonuç berabere; küçük çarpışmalardan sonra antlaşma yapıldı.",
-   "note": "",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
   },
@@ -1935,11 +2059,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Ardından İsfahan kuşatıldı ama sonuç alınamadı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Isfahan was then besieged without result."
   },
   {
    "id": 57,
@@ -1969,11 +2095,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
    "note": "Av sırasında yapılan baskın; 'kısa süren çatışma'. Meydan savaşı sayılması tartışmalı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "A surprise attack during a hunt; 'a brief clash'. Counting it as a pitched battle is disputed."
   },
   {
    "id": 58,
@@ -2004,12 +2132,14 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "dispute": "Tarih: Tapar ve Berkyaruk maddeleri 8 Cemâziyelâhir 496 / 19 Mart 1103, Sencer maddesi 8 Cemâziyelevvel 496 / 17 Şubat 1103.",
    "note": "Beşinci ve son savaş; Ocak 1104'te barış yapıldı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Fifth and last battle; peace in January 1104."
   },
   {
    "id": 59,
@@ -2040,11 +2170,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Kesin gün (7 Mayıs 1104 olarak bilinir) bağımsız kaynakla doğrulanacak. Sultan ordusu değil, tâbi emîrler savaştı; bu yüzden Büyük Selçuklu hesabına yazılması tartışmalı. Artuklular dönemiyle birlikte ele alınabilir. [K3] Çökürmüş ve Sökmen kendi inisiyatifleriyle savaştı; sultan ordusu yoktu. Kayıt atabeylikler ve beylikler partisine taşınacak; o zamana kadar burada duruyor ve Büyük Selçuklu skoruna girmiyor.",
    "state": "Selçuklu tâbii emîr",
-   "home_batch": "atabeylikler-beylikler"
+   "home_batch": "atabeylikler-beylikler",
+   "note_en": "The exact day (usually 7 May 1104) awaits independent confirmation. Vassal emirs, not the sultan's army, fought. [K3] Chökürmüsh and Sökmen fought on their own initiative; the record will move to the atabegs and beyliks batch and is excluded from the Great Seljuk score until then."
   },
   {
    "id": 60,
@@ -2075,12 +2207,14 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "dispute": "Tarih: TDVİA 9 Şevval 500 / 3 Haziran 1107; İbnü'l-Esîr 20 Zilkade 500 / 13 Temmuz 1107.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note": "[K2] Selçuklu hanedanının iki kolu (Büyük Selçuklu ve Anadolu Selçuklu) arasında olduğu için iç savaş sayıldı."
+   "note": "[K2] Selçuklu hanedanının iki kolu (Büyük Selçuklu ve Anadolu Selçuklu) arasında olduğu için iç savaş sayıldı.",
+   "note_en": "[K2] Counted as a civil war because it was fought between two branches of the Seljuk dynasty (Great Seljuks and Seljuks of Rum)."
   },
   {
    "id": 61,
@@ -2104,16 +2238,20 @@
    "status": "kesin",
    "sources": [
     "TDVIA:muhammed-tapar",
-    "WP:List_of_battles_involving_the_Seljuk_Empire"
+    "WP:List_of_battles_involving_the_Seljuk_Empire",
+    "TDVIA:hasan-sabbah"
    ],
    "verify": {
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note": "Tapar'ın Bâtınîlere karşı ilk seferi; kale kısa bir kuşatmadan sonra alındı.",
+   "note_en": "Muhammad Tapar's first campaign against the Isma'ilis; the fortress fell after a short siege."
   },
   {
    "id": 62,
@@ -2136,17 +2274,20 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:muhammed-tapar"
+    "TDVIA:muhammed-tapar",
+    "TDVIA:sadaka-b-mansur"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
-   "note": "Savaş yerinin adı (Nu'mâniye) bağımsız kaynakla teyit edilecek; TDVİA yalnızca 'bertaraf etti' diyor.",
+   "note": "Sadaka b. Mansûr maddesi savaşı doğruluyor; savaş yerinin adı (Nu'mâniye) TDVİA'da geçmiyor.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "The Sadaqa b. Mansur article confirms the battle; the site name (Nu'maniyya) does not appear in TDVİA."
   },
   {
    "id": 63,
@@ -2175,11 +2316,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
    "note": "Kış gelince çekildi; gerçek çatışma belirsiz.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Withdrew when winter came; actual fighting uncertain."
   },
   {
    "id": 64,
@@ -2202,16 +2345,21 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:muhammed-tapar"
+    "TDVIA:muhammed-tapar",
+    "TDVIA:mevdud-b-altuntegin",
+    "TDVIA:sanliurfa"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note": "Mevdûd'un I. Urfa kuşatması (Mayıs 1110). Şanlıurfa maddesi: 1110-1112 arasında üç kuşatma, kısmî başarılar.",
+   "note_en": "Mawdud's first siege of Edessa (May 1110). Şanlıurfa article: three sieges in 1110-1112, with partial successes."
   },
   {
    "id": 65,
@@ -2234,17 +2382,20 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:muhammed-tapar"
+    "TDVIA:muhammed-tapar",
+    "TDVIA:mevdud-b-altuntegin"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
-   "note": "Fırat'ı geçen Franklara ağır darbe vuruldu.",
+   "note": "Mevdûd çekilen Haçlıları Fırat'ı geçerken bastırdı; nehrin doğusunda kalanlar öldürüldü, ağırlıkları ele geçirildi.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Mawdud fell on the withdrawing Crusaders as they crossed the Euphrates; those left on the east bank were killed and their baggage taken."
   },
   {
    "id": 66,
@@ -2265,19 +2416,22 @@
    "opp_cmd": "IV. David",
    "category": "dis",
    "result": "W",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:muhammed-tapar"
+    "TDVIA:muhammed-tapar",
+    "TDVIA:gence"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
-   "note": "Gürcü kaynakları ve Peacock ile kontrol edilecek.",
+   "note": "Gence maddesi: Gürcü Kralı David 503'te (1110) Gence'ye kadar geldi ve Muhammed Tapar tarafından bozguna uğratıldı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Gence article: King David of Georgia advanced as far as Ganja in 503 (1110) and was routed by Muhammad Tapar."
   },
   {
    "id": 67,
@@ -2300,17 +2454,20 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:muhammed-tapar"
+    "TDVIA:muhammed-tapar",
+    "TDVIA:mevdud-b-altuntegin"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
-   "note": "Mevdûd aynı yıl Dımaşk'ta bir Bâtınî tarafından öldürüldü.",
+   "note": "Sinnebra Köprüsü'nde beklenmedik biçimde başladı; Kudüs Kralı Baudouin esir düştü ama tanınmadığı için kaçtı. Mevdûd aynı yıl Dımaşk'ta bir Bâtınî tarafından öldürüldü.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Began unexpectedly at the Sinnabra bridge; King Baldwin of Jerusalem was captured but escaped unrecognised. Mawdud was killed by an Isma'ili in Damascus the same year."
   },
   {
    "id": 68,
@@ -2339,17 +2496,19 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
    "note": "İki aydan fazla sürdü; erzak sıkıntısı ve emîrler arası çekişme yüzünden kaldırıldı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Lasted more than two months; lifted because of supply shortages and quarrels among the emirs."
   },
   {
    "id": 69,
    "name_tr": "Teldânis (Sarmîn)",
    "name_en": "Sarmin (Tell Danith)",
-   "date": "1115-09",
+   "date": "1115-09-15",
    "hijri": "509",
    "type": "land",
    "war": "Haçlılarla mücadele",
@@ -2367,17 +2526,20 @@
    "status": "kesin",
    "sources": [
     "TDVIA:muhammed-tapar",
-    "WP:List_of_battles_involving_the_Seljuk_Empire"
+    "WP:List_of_battles_involving_the_Seljuk_Empire",
+    "TDVIA:porsuk"
    ],
    "verify": {
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
-   "note": "Haçlıların baskınına uğradı. Tuğtegin ve İlgazi o sırada Haçlılarla müttefikti. Gün (14 Eylül olarak bilinir) kontrol edilecek.",
+   "note": "Porsuk ordusunu dağıtmışken Haçlıların baskınına uğradı ve ordugâh zaptedildi. Tuğtegin ve İlgazi o sırada Haçlılarla müttefikti. Selçuklu sultanlarının Suriye'yi kurtarma teşebbüslerinin sonu oldu.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Bursuq was surprised by the Crusaders while his army was dispersed and his camp was taken. Toghtekin and Ilghazi were then allied with the Crusaders. It ended the Seljuk sultans' attempts to recover Syria."
   },
   {
    "id": 70,
@@ -2401,16 +2563,20 @@
    "status": "borderline",
    "strength": "TDVİA: 3.000'i aşkın Frank şövalyesi öldürüldü. Bu sayı muhtemelen abartılıdır.",
    "sources": [
-    "TDVIA:muhammed-tapar"
+    "TDVIA:muhammed-tapar",
+    "TDVIA:tugtegin"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note": "Musul valisi Aksungur el-Porsukī ve Tuğtegin, Trablus Kontu Pons'un ordusuna ağır kayıp verdirdi.",
+   "note_en": "Aqsunqur al-Bursuqi of Mosul and Toghtekin inflicted heavy losses on Count Pons of Tripoli."
   },
   {
    "id": 71,
@@ -2441,11 +2607,13 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Sencer 25 Şubat 1117'de Gazne'ye girdi ve Behram Şah'ı tahta çıkardı. Gazneli ordusunda filler vardı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Sanjar entered Ghazna on 25 February 1117 and enthroned Bahram Shah. The Ghaznavid army had elephants."
   },
   {
    "id": 72,
@@ -2474,11 +2642,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": false
    },
    "note": "Muhammed Tapar'ın ölüm haberiyle kaldırıldı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Lifted on news of Muhammad Tapar's death."
   },
   {
    "id": 73,
@@ -2509,11 +2679,13 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Mahmud affedildi ve Irak Selçuklu sultanı yapıldı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Mahmud was pardoned and made sultan of the Iraq Seljuks."
   },
   {
    "id": 74,
@@ -2543,17 +2715,19 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Irak Selçukluları'na aittir; o dönemin partisinde yeniden değerlendirilecek.",
    "state": "Irak Selçukluları",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Belongs to the Iraq Seljuks; to be reassessed in that period's batch."
   },
   {
    "id": 75,
    "name_tr": "Didgori",
    "name_en": "Didgori",
-   "date": "1121-08",
+   "date": "1121-08-12",
    "hijri": "Cemâziyelâhir 515",
    "type": "land",
    "war": "Selçuklu–Gürcü savaşları",
@@ -2571,17 +2745,20 @@
    "status": "kesin",
    "sources": [
     "TDVIA:ilgazi-necmeddin",
-    "WP:List_of_battles_involving_the_Seljuk_Empire"
+    "WP:List_of_battles_involving_the_Seljuk_Empire",
+    "TDVIA:gurcistan"
    ],
    "verify": {
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
-   "note": "TDVİA: İlgazi yardımcı kuvvetler gelmeden Gürcülerin ani baskınına uğradı. Gürcü kaynaklarının ordu sayıları (Müslüman ordusu yüz binlerce) abartılıdır; bunlar kullanılmayacak. Tiflis kısa süre sonra (1122) düştü.",
+   "note": "Sultan Mahmud seferi kardeşi Tuğrul, Atabeg Gündoğdu, Dübeys b. Sadaka ve İlgazi'ye verdi. İlgazi yardımcı kuvvetler gelmeden Gürcülerin ani baskınına uğradı. Gürcü kaynaklarının ordu sayıları (Müslüman ordusu yüz binlerce) abartılıdır; kullanılmadı. Tiflis 1122'de düştü.",
    "state": "Irak Selçukluları",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Sultan Mahmud entrusted the campaign to his brother Tughril, Atabeg Gündoğdu, Dubays b. Sadaqa and Ilghazi. Ilghazi was surprised by the Georgians before auxiliaries arrived. Georgian figures for the army (hundreds of thousands) are exaggerated and not used. Tbilisi fell in 1122."
   },
   {
    "id": 76,
@@ -2611,7 +2788,8 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
@@ -2645,7 +2823,8 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu"
@@ -2679,11 +2858,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Halife ordusundaki Türk emîrler taraf değiştirdi. Sencer halifenin yerine iade edilmesini emretti, ancak Müsterşid 29 Ağustos 1135'te Bâtınîler tarafından öldürüldü. Irak Selçukluları'na aittir.",
    "state": "Irak Selçukluları",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Turkish emirs in the caliph's army changed sides. Sanjar ordered the caliph restored, but al-Mustarshid was killed by Isma'ilis on 29 August 1135. Belongs to the Iraq Seljuks."
   },
   {
    "id": 79,
@@ -2713,11 +2894,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Atsız yaklaşık 10.000 kayıp verdi. Oğlu Atlığ esir alındı ve öldürüldü. Hârizmşahlar Türk kökenli bir hanedandır ama kapsam listesinde değildir; bu yüzden 'dis' kaydedildi. Kapsam genişlerse turk_arasi olur.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Atsiz lost about 10,000 men; his son Atligh was captured and killed. The Khwarazmshahs were of Turkic origin but are outside the scope list, so recorded as 'dis'; would become turk_arasi if the scope widens."
   },
   {
    "id": 80,
@@ -2750,11 +2933,13 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Terken Hatun esir düştü. Karluklar Türk boyudur ve Karahıtaylarla birlikte savaştı. Büyük Selçuklu'nun çöküşünü başlatan yenilgidir.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Terken Khatun was captured. The Qarluqs, a Turkic people, fought alongside the Qara Khitai. The defeat began the Great Seljuk collapse."
   },
   {
    "id": 81,
@@ -2777,17 +2962,20 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:sencer"
+    "TDVIA:sencer",
+    "TDVIA:atsiz-b-muhammed"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
-   "note": "İki ay sürdü; Atsız af diledi (2 Haziran 1148).",
+   "note": "İki ay sürdü; ardından Sencer Gürgenç'e yaklaştı ve Atsız af diledi (2 Haziran 1148).",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Lasted two months; Sanjar then approached Gurganj and Atsiz sought pardon (2 June 1148)."
   },
   {
    "id": 82,
@@ -2818,11 +3006,13 @@
     "tdvia": true,
     "wp": true,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Gurlu ordusundaki Oğuz ve Halaç birlikleri Sencer'in safına geçti.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "Oghuz and Khalaj contingents in the Ghurid army went over to Sanjar."
   },
   {
    "id": 83,
@@ -2852,11 +3042,13 @@
     "tdvia": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": false,
+    "tdvia2": true
    },
    "note": "Daha önce Belh valisi Kamaç ve oğlu Oğuzlara karşı öldürüldü. Sencer üç yıl esir kaldı ve Nisan 1156'da kurtarıldı.",
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "note_en": "The governor of Balkh, Qamach, and his son had earlier been killed fighting the Oghuz. Sanjar was held captive for three years and freed in April 1156."
   }
  ],
  "left_out": [

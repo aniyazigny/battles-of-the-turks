@@ -10,6 +10,8 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | P3 | 2026-10-25 | İki dilli (TR/EN), tek veri seti | Kullanıcı seçimi; uluslararası paylaşılabilirlik |
 | P4 | 2026-10-25 | Temel referans TDVİA; Wikipedia yalnızca kapsam kontrolü için | Önyargısız ve kaynakçalı temel; bkz. METODOLOJI §4 |
 | P5 | 2026-10-25 | Orijinal sitenin kodu ve verisi kopyalanmaz, yalnızca yöntemi örnek alınır | Orijinal sitede lisans belirtilmemiş |
+| P6 | 2026-10-28 | Kaynaklar çatıştığında Türk ve İslâm tarafının akademik literatürü (TDVİA, sonra Türk akademisyenler) esas alınır; karşı tarafın anlatısı "alternatif okuma" olarak kayıtta kalır. K4'teki karşı taraf kuralının yerine geçer | Kullanıcı tercihi. Şeffaflık korunuyor: alternatif okuma her kayıtta görünür |
+| P7 | 2026-10-28 | Haritada devlet sınırları, kaynaklı bir "bölge → sahip" tablosundan üretilir; hazır tarihî sınır setleri (historical-basemaps vb.) kullanılmaz | Hazır setler bu dönem için hatalı (ör. 1200 haritasında 1062'de yıkılan Büveyhîler) ve GPL-3 lisanslı |
 
 ## Yöntem kararları
 | # | Tarih | Karar | Gerekçe |
@@ -17,15 +19,19 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | K1 | 2026-10-25 | Üç kategori (`dis`, `turk_arasi`, `ic`). Kazanma-kaybetme tablosu her devlet için ayrı tutulur; "Türkler toplamı" yalnızca `dis` kategorisinden hesaplanır | Dandanakan gibi Türk devletleri arası savaşlar hem görünür kalsın hem de toplamı şişirmesin |
 | K2 | 2026-10-25 | Selçuklu hanedanının kolları arasındaki savaşlar `ic` sayılır; farklı hanedanlardan Türk devletleri arası savaşlar `turk_arasi` sayılır | Romalılar sitesinin halef devletleri tek devlet sayma yaklaşımıyla tutarlı |
 | K3 | 2026-10-25 | Sultan emrettiyse veya komutanı atadıysa savaş sultanın devletine yazılır; emîr kendi inisiyatifiyle savaştıysa kendi beyliğine | Her savaşın tek ve savunulabilir bir sahibi olsun |
-| K4 | 2026-10-25 | İki madde kuralı, sayı kuralı, zayıf ikincil kaynak kuralı, karşı taraf kuralı | Pilotta ortaya çıkan sorunlar; bkz. METODOLOJI §4 |
+| K4 | 2026-10-25 | İki madde kuralı, sayı kuralı, zayıf ikincil kaynak kuralı, karşı taraf kuralı | Pilotta ortaya çıkan sorunlar; bkz. METODOLOJI §4. *Karşı taraf kuralı 2026-10-28'de P6'nın öncelik kuralıyla yer değiştirdi.* |
 
 ## Kayıt kararları (Pilot 1: Büyük Selçuklu)
 | Kayıt | Karar | Alternatif okuma |
 |---|---|---|
-| Pasinler 1048 (#11) | Savaş alanı sonucu belirsiz (D); stratejik olarak Selçuklu lehine | TDVİA ve İslâm kaynakları: Selçuklu zaferi |
+| Pasinler 1048 (#11) | ~~Belirsiz (D)~~ → **Selçuklu zaferi (W)** (P6, 2026-10-28; TDVİA'nın dört maddesi) | Skylitzes, Kaldellis, Beihammer: belirsiz |
 | Talhâb 1038 (#2) | Selçuklu zaferi, 1038 | TDVİA Dandanakan maddesi: 1039 yenilgisi |
 | Gence 1046/47 (#9) | TDVİA'ya göre başarısız kuşatma | Wikipedia: Liparit'e karşı zafer (zayıf kaynak) |
-| Debîl 1045/46 (#8) | Kutalmış'ın zaferi, ihtilaflı olarak işaretli | Bizans kaynakları zaferi Şeddâdîlere atfediyor |
+| Debîl 1045/46 (#8) | Kutalmış'ın zaferi, ihtilaflı olarak işaretli; P6 gereği kayıtta kalır | Bizans kaynakları zaferi Şeddâdîlere atfediyor |
+| Konya 1069 (#27) | ~~Bizans zaferi (L)~~ → **Selçuklu akını başarılı (W)**, borderline (P6, 2026-10-28) | Attaleiates: akıncılar dönüşte Manuel Komnenos'a yenildi |
+| Partskhisi (#35) | Tarih 1074 → **1076–1079** (P6; TDVİA Melikşah maddesi) | Gürcü kaynakları: 1074 |
+| İsfahan 1050–51 (#13) | kesin → borderline: TDVİA İsfahan maddesine göre şehir "sulhen" teslim alındı | — |
+| Gence 1110 (#66) | borderline → kesin: TDVİA Gence maddesi David'in bozguna uğratıldığını yazar | — |
 | Urfa 1070 (#29) | Kuşatma kaldırıldı, savunan kazandı (haraç alındığı notta) | Selçuklu başarısı |
 | Habur 1107 (#60) | İç savaş (K2) | Türk devletleri arası |
 | Didgori 1121 (#75) | Irak Selçukluları'na yazıldı (K3: komutanı Sultan Mahmud atadı) | Artuklu savaşı |

@@ -1,12 +1,12 @@
 # Metodoloji
 
 Bu belge projenin nasıl yürütüldüğünü anlatan **kalıcı referanstır**. Kararlar değiştikçe güncellenir; her değişiklik ayrıca `KARARLAR.md`'ye kaydedilir.
-Son güncelleme: 2026-10-25
+Son güncelleme: 2026-10-28
 
 ## 1. Amaç
 "Where the Romans Fought" ([battles-of-the-romans](https://iosiflazaridis.github.io/battles-of-the-romans/)) sitesinin Türk karşılığını hazırlamak. Bu, Türk devletlerinin adı bilinen her kara ve deniz savaşının yeri, tarihi, tarafları, komutanları, sonucu ve kaynaklarıyla birlikte haritalandığı bir başvuru eseri olacak.
 
-**İlke:** Hem Türk ve İslâm karşıtı önyargıdan hem de milliyetçi abartıdan uzak durmak. Hedef, akademik olarak savunulabilir olmak. Bunu belirli bir "tarafın" kaynağını seçerek değil, **her iddiayı birden fazla bağımsız kaynakla kontrol ederek ve çelişkileri saklamadan göstererek** sağlıyoruz.
+**İlke:** Hem Türk ve İslâm karşıtı önyargıdan hem de milliyetçi abartıdan uzak durmak. Hedef, akademik olarak savunulabilir olmak. Her iddia birden fazla kaynakla kontrol edilir ve çelişkiler saklanmaz. Kaynaklar çatıştığında **Türk ve İslâm tarafının akademik literatürü esas alınır** (karar P6); karşı tarafın anlatısı ise her zaman "alternatif okuma" olarak kayıtta görünür.
 
 ## 2. Kapsam
 
@@ -57,16 +57,18 @@ Savaşı sultan emrettiyse veya komutanı sultan atadıysa, savaş sultanın dev
 Ayrıntılı bibliyografya `KAYNAKLAR.md`'de.
 
 1. **Temel referans:** TDV İslâm Ansiklopedisi (TDVİA). Hakemli, maddeleri kaynakçalı, Türk ve İslâm tarafının anlatısını ciddiyetle ele alıyor.
-2. **Bağımsız akademik kontrol:** Türk dışından da olan dengeli akademisyenler (Peacock, Bosworth, Golden, Haldon, Hillenbrand, Finkel, Murphey, Ágoston, Aksan vb.).
-3. **Karşı tarafın anlatısı:** Bizans, Ermeni, Gürcü, Haçlı, Avrupa ve Çin kaynakları. Roma veri seti bu iş için hazır bir çapraz kontrol aracıdır.
-4. **Wikipedia:** Yalnızca **kapsam kontrolü** için ("eksik savaş var mı?"). Hiçbir zaman tek kaynak olarak kullanılmaz.
-5. **Kullanılmayanlar:** kaynaksız popüler siteler, sosyal medya, 19. yüzyıl oryantalist veya milliyetçi anlatılar (hangi yönde olursa olsun).
+2. **Türk akademik literatürü:** TTK, *Belleten*, DergiPark'taki hakemli dergiler; Turan, Köymen, Kafesoğlu, Sevim, Sümer, Demirkent, Alptekin, İnalcık, Emecen vb. İkinci kaynak kontrolünde ve çatışmalarda önceliklidir.
+3. **Uluslararası akademik kontrol:** Peacock, Bosworth, Golden, Haldon, Hillenbrand, Finkel, Murphey, Ágoston, Aksan vb.
+4. **Karşı tarafın anlatısı:** Bizans, Ermeni, Gürcü, Haçlı, Avrupa ve Çin kaynakları. Roma veri seti bu iş için hazır bir çapraz kontrol aracıdır.
+5. **Wikipedia:** Yalnızca **kapsam kontrolü** için ("eksik savaş var mı?"). Hiçbir zaman tek kaynak olarak kullanılmaz.
+6. **Kullanılmayanlar:** kaynaksız popüler siteler, sosyal medya, 19. yüzyıl oryantalist veya milliyetçi anlatılar (hangi yönde olursa olsun).
 
 ### Pilot çalışmada öğrenilen kurallar
 - **İki madde kuralı:** TDVİA'nın kendi maddeleri birbiriyle çelişebiliyor (Talhâb, Rûzrâver, Hoy). Bu yüzden her olay en az iki ayrı maddeden okunur. Örneğin bir sultan maddesi ve bir komutan maddesi.
 - **Sayı kuralı:** Ordu büyüklükleri ve kayıplar, hangi taraftan gelirse gelsin, doğrudan alınmaz. Ortaçağ sayıları "kaynak X'e göre" diye aktarılır, modern tahmin ise aralık olarak verilir. Örnek: TDVİA Malazgirt'te Bizans ordusunu 200.000 verir; modern tahmin ~40.000'dir (Haldon).
 - **Zayıf ikincil kaynak kuralı:** Birincil kaynağa dayanmayan Wikipedia kayıtları, doğrulanana kadar ayrı kayıt olarak alınmaz (ör. Gence 1046).
-- **Karşı taraf kuralı:** Karşı tarafın kaynağı farklı bir sonuç veriyorsa iki anlatı da notta yazılır. Karar modern akademik değerlendirmeye göre verilir ve alternatif okuma da kaydedilir (ör. Pasinler 1048).
+- **Öncelik kuralı (P6, 2026-10-28):** Kaynaklar çatıştığında kayıt Türk ve İslâm tarafının akademik literatürüne göre yazılır: önce TDVİA, sonra Türk akademisyenler. Karşı tarafın anlatısı silinmez; `dispute` alanında "Alternatif okuma" olarak durur. Örnek: Pasinler 1048 TDVİA'ya göre Selçuklu zaferidir; Skylitzes ve bazı modern yazarların "belirsiz" okuması notta kalır. Bu kural ham kaynak sayılarını kapsamaz: sayı kuralı her iki taraf için de geçerlidir.
+- **TDVİA'nın kendi içindeki çelişkiler** (Talhâb, Rûzrâver, Hoy) öncelik kuralıyla çözülmez; maddelerin çoğunluğuna ve kaynakçalarına bakılarak karar verilir.
 
 ## 5. İş akışı (her dönem için tekrarlanır)
 1. **Ham liste:** Sultan veya hükümdar maddeleri, devlet maddesi ve "ilişkili maddeler" sayfaları taranarak oluşturulur. Wikipedia listeleri ve Roma veri seti ile eksikler kontrol edilir.
@@ -93,12 +95,12 @@ Her dönem için ayrı bir dosya tutulur: `data/<parti>.json`.
 | `status` | `kesin`, `borderline` veya `ihtilafli` |
 | `strength` | Ordu büyüklükleri (kaynağıyla birlikte) |
 | `sources` | Kaynaklar; anahtar biçimi `TDVIA:<slug>`, `WP:<başlık>`, `ROM` |
-| `verify` | `tdvia`, `wp`, `rom`, `academic` (doğrulandıysa true) |
-| `dispute`, `note` | Kaynaklar arası çelişki, açıklama |
+| `verify` | `tdvia`, `tdvia2` (ikinci ayrı maddede de doğrulandı), `wp`, `rom`, `academic` (doğrulandıysa true) |
+| `dispute`, `note`, `note_en` | Kaynaklar arası çelişki; açıklama (Türkçe ve İngilizce) |
 
 Her dosyada ayrıca bir `left_out` listesi (gerekçeli) ve kuralları içeren bir `meta` bölümü bulunur.
 
-İleride eklenecek alanlar: `note_en` ve Romalılar sitesindeki "Rum dili payı"na karşılık gelen `turkic_share` (ordudaki Türk unsurunun tahmini payı).
+İleride eklenecek alan: Romalılar sitesindeki "Rum dili payı"na karşılık gelen `turkic_share` (ordudaki Türk unsurunun tahmini payı).
 
 ## 7. Teknik notlar
 - **TDVİA'dan okuma:** WebFetch özetleri kayıplıdır. Maddeler `tools/tdvia.py` ile tam metin olarak indirilir:
@@ -107,7 +109,8 @@ Her dosyada ayrıca bir `left_out` listesi (gerekçeli) ve kuralları içeren bi
   python -I tools/tdvia.py <çıktı_klasörü> <slug> ...
   ```
 
-  Gövde ve kaynakça `tools/body.py` ile, savaş geçen cümleler `tools/grepbattle.py` ile çıkarılır.
+  Gövde ve kaynakça `tools/body.py` ile, savaş geçen cümleler `tools/grepbattle.py` ile, belirli bir ifadenin geçtiği cümleler `tools/kw.py` ile çıkarılır.
+- **Madde arama:** `python -I -X utf8 tools/tdvia_search.py [-t] <sorgu>` başlıklarda (veya `-t` ile madde içeriklerinde) arar ve madde adreslerini listeler. Bir olayın geçtiği ikinci maddeyi bulmanın en hızlı yolu `-t` aramasıdır.
 - **Madde adresleri** tahmin edilemez (ör. `meliksah--buyuk-selcuklu`, `ilgazi-necmeddin`). Doğru adresler bir maddenin `https://islamansiklopedisi.org.tr/<slug>/iliskili-maddeler` sayfasından çıkarılır.
 - **Telif:** TDVİA metinleri telifle korunur. Projeye metin kopyalanmaz; yalnızca olgular, atıf ve kısa alıntı kullanılır. İndirilen ham metinler repoya konmaz.
 - **Arayüz** (sonraki aşama): Orijinal site gibi tek dosyalık statik bir site olacak; inline SVG harita (Natural Earth), dönem kaydırıcısı, filtreler, kazanma-kaybetme tabloları, "Verilen kararlar" ve "Dışarıda bırakılanlar" bölümleri, CSV/JSON/XLSX indirme seçeneği. Orijinal sitenin lisansı belirtilmediği için kodu kopyalanmaz.

@@ -1,15 +1,16 @@
 # Kaynaklar
 
-Kaynaklar güvenilirlik kademelerine göre sıralanmıştır. Bu listedeki her kaynak projede kullanılabilir. **Hiçbiri tek başına yeterli değildir** (bkz. `METODOLOJI.md` §4).
+Kaynaklar güvenilirlik kademelerine göre sıralanmıştır. Kaynaklar çatıştığında Türk ve İslâm tarafının akademik literatürü esas alınır (karar P6). Bu listedeki her kaynak projede kullanılabilir. **Hiçbiri tek başına yeterli değildir** (bkz. `METODOLOJI.md` §4).
 
 Durum işaretleri: ✅ projede kullanıldı · ⏳ kullanılacak · 🔎 erişim kontrol edilecek
 
 ## 1. Temel referanslar
-- ✅ **TDV İslâm Ansiklopedisi.** https://islamansiklopedisi.org.tr — Pilotta okunan maddeler: Tuğrul Bey (F. Sümer), Çağrı Bey, Alparslan, Kutalmış, Melikşah, Berkyaruk, Muhammed Tapar, Sencer, Dandanakan Savaşı (A. Sevim), Malazgirt Muharebesi, Tutuş, Kürboğa, Besâsîrî, Mahmûd b. Muhammed Tapar, Mesud b. Muhammed Tapar, Müsterşid-Billâh, İlgazi, Sökmen b. Artuk, Artuk b. Eksük, Atsız b. Uvak, Atsız b. Muhammed, Cihansûz, Karahıtaylar, Afşin, Kavurd Bey, Mûsâ Yabgu, Behram Şah, Süleyman Şah I, Selçuklular.
+- ✅ **TDV İslâm Ansiklopedisi.** https://islamansiklopedisi.org.tr — Pilotta okunan maddeler: Tuğrul Bey (F. Sümer), Çağrı Bey, Alparslan, Kutalmış, Melikşah, Berkyaruk, Muhammed Tapar, Sencer, Dandanakan Savaşı (A. Sevim), Malazgirt Muharebesi, Tutuş, Kürboğa, Besâsîrî, Mahmûd b. Muhammed Tapar, Mesud b. Muhammed Tapar, Müsterşid-Billâh, İlgazi, Sökmen b. Artuk, Artuk b. Eksük, Atsız b. Uvak, Atsız b. Muhammed, Cihansûz, Karahıtaylar, Afşin, Kavurd Bey, Mûsâ Yabgu, Behram Şah, Süleyman Şah I, Selçuklular. İkinci kaynak turunda (2026-10-28) eklenenler: Şeddâdîler, Mervânîler (Diyarbekir), Diyarbakır, Meyyâfârikīn, Şanlıurfa, Konya, Kayseri, Halep, Mirdâsîler, İsfahan, Kâkûyîler, Gence, Arrân, Aras, Gürcistan, Gazneliler, Karahanlılar, Semerkant, Alamut, Hasan Sabbâh, Sadaka b. Mansûr, Mevdûd b. Altuntegin, Porsuk, Tuğtegin, Mûsâ Yabgu.
 - ⏳ **İslâm Ansiklopedisi** (MEB, eski İA). TDVİA kaynakçalarında sık geçiyor (Köymen "Tuğrul Bey", Kafesoğlu "Selçuklular").
 - ⏳ **Encyclopaedia of Islam**, 2. ve 3. baskı (Brill). Bosworth ve Cahen maddeleri.
 - ⏳ **Encyclopaedia Iranica.** Örneğin K. A. Luther, "Alp Arslān".
-- ⏳ **Türk Tarih Kurumu** yayınları ve *Belleten* (belleten.gov.tr, açık erişim).
+- ⏳ **Türk Tarih Kurumu** yayınları ve *Belleten* (belleten.gov.tr, açık erişim). İkinci kaynak kontrolünde öncelikli.
+- ⏳ **DergiPark** (dergipark.org.tr): Türk üniversitelerinin hakemli tarih dergileri. Tek maddeye dayanan kayıtlar için öncelikli.
 
 ## 2. Akademik eserler (döneme göre)
 

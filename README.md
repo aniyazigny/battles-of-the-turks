@@ -1,6 +1,6 @@
 # Battles of the Turks / Türklerin Savaştığı Yerler
 
-[Where the Romans Fought](https://iosiflazaridis.github.io/battles-of-the-romans/) sitesinin Türk karşılığı. **Durum:** araştırma aşaması, henüz arayüz yok.
+[Where the Romans Fought](https://iosiflazaridis.github.io/battles-of-the-romans/) sitesinin Türk karşılığı. **Durum:** araştırma aşaması. Pilot verisiyle çalışan demo: https://aniyazigny.github.io/battles-of-the-turks/
 
 ## Belgeler
 | Dosya | İçerik |
@@ -18,11 +18,13 @@
 - `tools/tdvia.py`: TDVİA maddelerini tam metin indirir.
 - `tools/body.py`: Madde gövdesini ve kaynakçasını çıkarır.
 - `tools/grepbattle.py`: Savaş geçen cümleleri süzer.
+- `tools/kw.py`: İndirilmiş maddelerde verilen ifadenin geçtiği cümleleri listeler.
+- `tools/tdvia_search.py`: TDVİA'da başlık veya içerik araması yapar, madde adreslerini verir.
 
 ## Yol haritası
 1. ~~Orijinal sitenin incelenmesi~~ ✅
 2. ~~Pilot: Büyük Selçuklu~~ ✅
-3. Pilot kayıtlarının ikinci kaynakla kontrolü (Peacock, Bosworth)
+3. ~~Pilot kayıtlarının ikinci kaynakla kontrolü~~ ✅ (13 kayıt Türk akademik literatürüyle kontrol bekliyor)
 4. Atabeylikler ve beylikler; Anadolu Selçukluları
 5. Göktürk, Uygur, Karahanlı, Gazneli
 6. Osmanlı (dönemlere bölünerek)
