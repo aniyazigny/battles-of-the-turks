@@ -43,6 +43,9 @@ R = [
 ("Koron", "Fall of Coron", "1500-08-15", "Osmanlı–Venedik savaşı (1499–1503)", "Koron", 36.80, 21.96, "known", "Yunanistan",
  O, "Venedik", "II. Bayezid", "", "dis", "W", "borderline",
  ["TDVIA:bayezid-ii"], "", "Modon'un düşmesinden sonra teslim oldu.", "Surrendered after the fall of Modon.", "land"),
+("Navarin (1500)", "Fall of Navarino (1500)", "1500-10", "Osmanlı–Venedik savaşı (1499–1503)", "Navarin", 36.91, 21.70, "known", "Yunanistan",
+ O, "Venedik", "II. Bayezid", "", "dis", "W", "borderline",
+ ["TDVIA:navarin", "TDVIA:koron"], "", "Modon'un fethinden sonra teslim alındı (Rebîülevvel 906).", "Surrendered after the fall of Modon (October 1500).", "land"),
 ("Midilli müdafaası (1501)", "Siege of Mytilene (1501)", "1501", "Osmanlı–Venedik savaşı (1499–1503)", "Midilli", 39.11, 26.56, "known", "Yunanistan",
  O, "Venedik, Fransa ve İspanya", "", "", "dis", "W", "kesin",
  ["TDVIA:bayezid-ii"], "", "Müttefik donanmanın Midilli ve Çeşme saldırıları sonuç vermedi.", "The allied fleet's attacks on Mytilene and Çeşme failed.", "land"),
@@ -62,6 +65,10 @@ R = [
  O, "Safevîler", "Yavuz Sultan Selim", "Şah İsmâil", "dis", "W", "kesin",
  ["TDVIA:selim-i", "TDVIA:safeviler"], "", "Kanatlar bozulma gösterirken toplar ve yeniçeri tüfekçileri savaşı kazandırdı. Ardından Kemah, Harput ve Diyarbekir Osmanlılara geçti.",
  "As the wings wavered, the cannon and janissary musketeers won the battle. Kemah, Harput and Diyarbekir then passed to the Ottomans.", "land"),
+("Erzincan (Nur Ali)", "Battle near Erzincan (1514)", "1514", "Osmanlı–Safevî savaşı", "Erzincan yakını", 39.75, 39.49, "approx", "Türkiye",
+ O, "Safevîler", "Bıyıklı Mehmed Paşa", "Nur Ali Halife (öldü)", "dis", "W", "kesin",
+ ["TDVIA:biyikli-mehmed-pasa"], "", "Karahisar, Kemah, Erzincan ve Tercan kuvvetleri birleştirilerek Safevî ordusu bozuldu. Tarih Çaldıran sonrası; ay belirsiz.",
+ "The forces of Karahisar, Kemah, Erzincan and Tercan were combined and the Safavid army was routed. Date after Chaldiran; month uncertain.", "land"),
 ("Kemah", "Siege of Kemah", "1515-05", "Osmanlı–Safevî savaşı", "Kemah", 39.60, 39.03, "known", "Türkiye",
  O, "Safevîler", "Yavuz Sultan Selim", "", "dis", "W", "kesin",
  ["TDVIA:selim-i", "TDVIA:safeviler"], "", "", "", "land"),
@@ -87,6 +94,11 @@ R = [
 ]
 
 OPP_STATE = {"Turnadağ": DUL}
+# İkinci kaynak turu (2026-10-29)
+EXTRA_SRC = {"Koron": ["TDVIA:koron"], "Yenişehir (1513)": ["TDVIA:biyikli-mehmed-pasa"], "Âmid (1515)": ["TDVIA:biyikli-mehmed-pasa"],
+             "Mercidâbık": ["TDVIA:memlukler"], "Ridâniye": ["TDVIA:memlukler"]}
+FIX = {"Âmid (1515)": {"dispute": "Tarih: Bıyıklı Mehmed Paşa maddesi şehrin anahtarlarının 10 Eylül 1515'te teslim alındığını, Selim I maddesi 10 Şâban 921 / 19 Eylül 1515'i verir. Kara Han şehri daha sonra yeniden kuşattı."},
+       "Ridâniye": {"dispute": "Tarih: Ridâniye maddesi 28 Zilhicce 922 / 22 Ocak 1517 sabahı der ve takvim farkına dikkat çeker; Memlükler maddesi iki gün süren savaşı 29 Zilhicce 922 / 23 Ocak 1517'ye koyar."}}
 LEFT = [
  {"name": "Kayseri (1490)", "reason": "Memlüklerin 1490 seferi; ayrıntı alınmadı.", "source": "TDVIA:kayitbay"},
  {"name": "Cem Sultan'ın ikinci denemesi (1482)", "reason": "Savaşın adı ve yeri kaynakta yok.", "source": "TDVIA:cem-sultan"},
@@ -105,6 +117,9 @@ for i, r in enumerate(R, 1):
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
     if ntr in OPP_STATE: rec["opp_state"] = OPP_STATE[ntr]
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    rec.update(FIX.get(ntr, {}))
+    rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))

@@ -369,11 +369,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:bayezid-ii"
+    "TDVIA:bayezid-ii",
+    "TDVIA:koron"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -385,6 +386,42 @@
   },
   {
    "id": 11,
+   "name_tr": "Navarin (1500)",
+   "name_en": "Fall of Navarino (1500)",
+   "date": "1500-10",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Venedik savaşı (1499–1503)",
+   "place": "Navarin",
+   "lat": 36.91,
+   "lon": 21.7,
+   "loc": "known",
+   "country": "Yunanistan",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Venedik",
+   "turkic_cmd": "II. Bayezid",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "borderline",
+   "sources": [
+    "TDVIA:navarin",
+    "TDVIA:koron"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1481-1520",
+   "note": "Modon'un fethinden sonra teslim alındı (Rebîülevvel 906).",
+   "note_en": "Surrendered after the fall of Modon (October 1500)."
+  },
+  {
+   "id": 12,
    "name_tr": "Midilli müdafaası (1501)",
    "name_en": "Siege of Mytilene (1501)",
    "date": "1501",
@@ -419,7 +456,7 @@
    "note_en": "The allied fleet's attacks on Mytilene and Çeşme failed."
   },
   {
-   "id": 12,
+   "id": 13,
    "name_tr": "Kütahya (Şahkulu)",
    "name_en": "Battle of Kütahya (1511)",
    "date": "1511-04",
@@ -454,7 +491,7 @@
    "note_en": "Shahkulu feigned defeat and then routed the governor with a counter-attack."
   },
   {
-   "id": 13,
+   "id": 14,
    "name_tr": "Çubuk (Gökçay)",
    "name_en": "Battle of Gökçay (1511)",
    "date": "1511-07",
@@ -489,7 +526,7 @@
    "note_en": "The revolt was crushed; the grand vizier and Shahkulu were both killed."
   },
   {
-   "id": 14,
+   "id": 15,
    "name_tr": "Uğraşdere (Çorlu)",
    "name_en": "Battle of Uğraşdere",
    "date": "1511-08",
@@ -525,7 +562,7 @@
    "note_en": "Forced back by a sudden attack, Selim returned to Caffa."
   },
   {
-   "id": 15,
+   "id": 16,
    "name_tr": "Yenişehir (1513)",
    "name_en": "Battle of Yenişehir (1513)",
    "date": "1513-04-15",
@@ -545,11 +582,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:selim-i"
+    "TDVIA:selim-i",
+    "TDVIA:biyikli-mehmed-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -558,7 +596,7 @@
    "home_batch": "osmanli-1481-1520"
   },
   {
-   "id": 16,
+   "id": 17,
    "name_tr": "Çaldıran",
    "name_en": "Battle of Chaldiran",
    "date": "1514-08-23",
@@ -594,7 +632,42 @@
    "note_en": "As the wings wavered, the cannon and janissary musketeers won the battle. Kemah, Harput and Diyarbekir then passed to the Ottomans."
   },
   {
-   "id": 17,
+   "id": 18,
+   "name_tr": "Erzincan (Nur Ali)",
+   "name_en": "Battle near Erzincan (1514)",
+   "date": "1514",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Safevî savaşı",
+   "place": "Erzincan yakını",
+   "lat": 39.75,
+   "lon": 39.49,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Safevîler",
+   "turkic_cmd": "Bıyıklı Mehmed Paşa",
+   "opp_cmd": "Nur Ali Halife (öldü)",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:biyikli-mehmed-pasa"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1481-1520",
+   "note": "Karahisar, Kemah, Erzincan ve Tercan kuvvetleri birleştirilerek Safevî ordusu bozuldu. Tarih Çaldıran sonrası; ay belirsiz.",
+   "note_en": "The forces of Karahisar, Kemah, Erzincan and Tercan were combined and the Safavid army was routed. Date after Chaldiran; month uncertain."
+  },
+  {
+   "id": 19,
    "name_tr": "Kemah",
    "name_en": "Siege of Kemah",
    "date": "1515-05",
@@ -628,7 +701,7 @@
    "home_batch": "osmanli-1481-1520"
   },
   {
-   "id": 18,
+   "id": 20,
    "name_tr": "Turnadağ",
    "name_en": "Battle of Turnadağ",
    "date": "1515-06-12",
@@ -664,7 +737,7 @@
    "opp_state": "Dulkadıroğulları"
   },
   {
-   "id": 19,
+   "id": 21,
    "name_tr": "Âmid (1515)",
    "name_en": "Capture of Amida (1515)",
    "date": "1515-09-19",
@@ -685,7 +758,8 @@
    "status": "kesin",
    "sources": [
     "TDVIA:selim-i",
-    "TDVIA:safeviler"
+    "TDVIA:safeviler",
+    "TDVIA:biyikli-mehmed-pasa"
    ],
    "verify": {
     "tdvia": true,
@@ -695,10 +769,11 @@
     "academic": false
    },
    "state": "Osmanlı Devleti",
-   "home_batch": "osmanli-1481-1520"
+   "home_batch": "osmanli-1481-1520",
+   "dispute": "Tarih: Bıyıklı Mehmed Paşa maddesi şehrin anahtarlarının 10 Eylül 1515'te teslim alındığını, Selim I maddesi 10 Şâban 921 / 19 Eylül 1515'i verir. Kara Han şehri daha sonra yeniden kuşattı."
   },
   {
-   "id": 20,
+   "id": 22,
    "name_tr": "Koçhisar",
    "name_en": "Battle of Koçhisar",
    "date": "1516-06",
@@ -733,7 +808,7 @@
    "note_en": "Kara Khan was defeated and killed; his severed head reached the camp in June 1516."
   },
   {
-   "id": 21,
+   "id": 23,
    "name_tr": "Mercidâbık",
    "name_en": "Battle of Marj Dabiq",
    "date": "1516-08-24",
@@ -755,7 +830,8 @@
    "sources": [
     "TDVIA:mercidabik-muharebesi",
     "TDVIA:selim-i",
-    "TDVIA:ridaniye-savasi"
+    "TDVIA:ridaniye-savasi",
+    "TDVIA:memlukler"
    ],
    "verify": {
     "tdvia": true,
@@ -770,7 +846,7 @@
    "note_en": "The Mamluk sultan was killed. The Mamluks were of Turkic origin but outside the scope list, so recorded as external."
   },
   {
-   "id": 22,
+   "id": 24,
    "name_tr": "Gazze (1516)",
    "name_en": "Battle of Khan Yunis",
    "date": "1516-12-21",
@@ -805,7 +881,7 @@
    "note_en": "Ghazali was defeated and returned to Cairo (21 December 1516)."
   },
   {
-   "id": 23,
+   "id": 25,
    "name_tr": "Ridâniye",
    "name_en": "Battle of Ridaniya",
    "date": "1517-01-22",
@@ -826,7 +902,8 @@
    "status": "kesin",
    "sources": [
     "TDVIA:ridaniye-savasi",
-    "TDVIA:selim-i"
+    "TDVIA:selim-i",
+    "TDVIA:memlukler"
    ],
    "verify": {
     "tdvia": true,
@@ -838,7 +915,8 @@
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1481-1520",
    "note": "Memlüklerin ikinci direnişi kırıldı; Osmanlılar Kahire'ye girdi.",
-   "note_en": "The Mamluks' second stand was broken; the Ottomans entered Cairo."
+   "note_en": "The Mamluks' second stand was broken; the Ottomans entered Cairo.",
+   "dispute": "Tarih: Ridâniye maddesi 28 Zilhicce 922 / 22 Ocak 1517 sabahı der ve takvim farkına dikkat çeker; Memlükler maddesi iki gün süren savaşı 29 Zilhicce 922 / 23 Ocak 1517'ye koyar."
   }
  ],
  "left_out": [
