@@ -7,7 +7,7 @@ Tarih: 2026-10-28 · Veri: `data/anadolu-selcuklu.json` (üretici: `tools/make_a
 - **Kategoriler:** 46 dış rakip, 7 Türk devletleri arası (Dânişmendliler), 11 iç savaş.
 - **Dış rakiplere karşı:** 26 galibiyet, 19 mağlubiyet, 1 belirsiz (Akşehir 1116).
 - **Türk devletleri arası:** 5 galibiyet, 2 mağlubiyet.
-- **Statü:** 40 kesin, 19 borderline, 5 ihtilaflı.
+- **Statü:** 41 kesin, 18 borderline, 5 ihtilaflı.
 - **Doğrulama:** Hepsi TDVİA'da; **46 kayıt iki ayrı TDVİA maddesinde** (ilk turda 25). 18 kayıt için TDVİA'da ikinci madde bulunamadı; bunlar Türk akademik literatürüyle kontrol bekliyor: İznik c. 1080, Akşehir 1116, Menderes 1148, Malatya 1143, Aksaray 1155, Yağıbasan 1162, Niksar 1176, Ra'bân 1179, Ankara 1204, Samsun c. 1205, Keben 1216, Kilikya 1225, el-Kâmil 1234, Hârizmliler c. 1238 ve 1240, Tarsus 1246, Kılıcarslan Kervansarayı 1249, Dulhisar 1304.
 
 ## Kaynaklar
