@@ -59,3 +59,11 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Bâbeyn 1167 | Zengîlere yazıldı (Şîrkûh, Nûreddin'in komutanı) | Eyyûbî |
 | Şiran 1120 | Dış rakip (Trabzon dükü Gabras) | Türk devletleri arası (Mengücüklüler) |
 | Zengî–Artuklu, Zengî–Irak Selçuklu, Artuklu–Büyük Selçuklu | Türk devletleri arası | İç savaş |
+
+## Kayıt kararları (Parti 5: Osmanlı kuruluş dönemi, 2026-10-28)
+| Kayıt | Karar | Alternatif okuma |
+|---|---|---|
+| Kosova 1389 | Osmanlı zaferi (P6) | Tvrtko ve bazı Batı kaynakları: Türk yenilgisi |
+| Argeş (Rovine) 1395 | Osmanlı zaferi (P6) | Romen kaynakları: Mircea'nın zaferi |
+| Ankara 1402 | Dış rakip (Timurlular kapsam dışı) | Türk devletleri arası |
+| Osmanlı–Karaman, Kadı Burhâneddin, Eretna | Türk devletleri arası | İç savaş |

@@ -3,7 +3,7 @@
   "title": "Şehir bazlı hâkimiyet tablosu (harita sınırları için)",
   "compiled": "2026-10-28",
   "status": "Taslak. Sınırlar yaklaşıktır; kontrol bekliyor.",
-  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır.",
+  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır.",
   "spans": "[başlangıç, bitiş, devlet]: başlangıç dahil, bitiş hariç (ör. [1040, 1153, ...] 1040–1152 yılları).",
   "sources": "src alanı, el değiştirme tarihlerinin dayandığı TDVİA maddeleridir. 'yaklasik': true olan şehirlerin tarihleri kaba tahmindir ve kontrol edilecektir."
  },
@@ -126,31 +126,31 @@
    "tr": "Hârizmşahlar",
    "en": "Khwarazmshahs",
    "group": "turk-diger",
-   "color": "#a3795a"
+   "color": "#b98b5e"
   },
   "pecenek": {
    "tr": "Peçenekler",
    "en": "Pechenegs",
    "group": "turk-diger",
-   "color": "#a3795a"
+   "color": "#8f7a5e"
   },
   "kipcak": {
    "tr": "Kıpçaklar",
    "en": "Kipchaks",
    "group": "turk-diger",
-   "color": "#a3795a"
+   "color": "#998466"
   },
   "uygur": {
    "tr": "Koço Uygurları",
    "en": "Qocho Uyghurs",
    "group": "turk-diger",
-   "color": "#a3795a"
+   "color": "#a89070"
   },
   "bulgar": {
    "tr": "İdil Bulgarları",
    "en": "Volga Bulgars",
    "group": "turk-diger",
-   "color": "#a3795a"
+   "color": "#9c8670"
   },
   "bizans": {
    "tr": "Bizans",
@@ -303,7 +303,7 @@
    "color": "#9aa3a0"
   },
   "osmanli": {
-   "tr": "Osmanlı Beyliği",
+   "tr": "Osmanlı Devleti",
    "en": "Ottoman Beylik",
    "group": "turk",
    "color": "#1f8a8a"
@@ -330,13 +330,13 @@
    "tr": "Memlükler",
    "en": "Mamluks",
    "group": "turk-diger",
-   "color": "#a3795a"
+   "color": "#c9a46e"
   },
   "altin-orda": {
    "tr": "Altın Orda",
    "en": "Golden Horde",
    "group": "turk-diger",
-   "color": "#a3795a"
+   "color": "#93876a"
   },
   "mogol": {
    "tr": "Moğollar (İlhanlılar)",
@@ -379,6 +379,102 @@
    "en": "Kingdom of Cyprus",
    "group": "diger",
    "color": "#b5948a"
+  },
+  "karesi": {
+   "tr": "Karesioğulları",
+   "en": "Karasids",
+   "group": "beylik",
+   "color": "#cf6a9b"
+  },
+  "saruhan": {
+   "tr": "Saruhanoğulları",
+   "en": "Saruhanids",
+   "group": "beylik",
+   "color": "#cf6a9b"
+  },
+  "aydin": {
+   "tr": "Aydınoğulları",
+   "en": "Aydinids",
+   "group": "beylik",
+   "color": "#cf6a9b"
+  },
+  "mentese": {
+   "tr": "Menteşeoğulları",
+   "en": "Menteshe",
+   "group": "beylik",
+   "color": "#cf6a9b"
+  },
+  "hamid": {
+   "tr": "Hamîdoğulları",
+   "en": "Hamidids",
+   "group": "beylik",
+   "color": "#cf6a9b"
+  },
+  "candar": {
+   "tr": "Candaroğulları",
+   "en": "Jandarids",
+   "group": "beylik",
+   "color": "#cf6a9b"
+  },
+  "eretna": {
+   "tr": "Eretnalılar",
+   "en": "Eretnids",
+   "group": "beylik",
+   "color": "#cf6a9b"
+  },
+  "kadi-burhaneddin": {
+   "tr": "Kadı Burhâneddin Devleti",
+   "en": "State of Kadi Burhan al-Din",
+   "group": "beylik",
+   "color": "#cf6a9b"
+  },
+  "timur": {
+   "tr": "Timurlular",
+   "en": "Timurids",
+   "group": "turk-diger",
+   "color": "#b27a45"
+  },
+  "karakoyunlu": {
+   "tr": "Karakoyunlular",
+   "en": "Kara Koyunlu",
+   "group": "turk-diger",
+   "color": "#a5664f"
+  },
+  "celayir": {
+   "tr": "Celâyirliler",
+   "en": "Jalayirids",
+   "group": "diger",
+   "color": "#9a92a8"
+  },
+  "sirbistan": {
+   "tr": "Sırbistan",
+   "en": "Serbia",
+   "group": "diger",
+   "color": "#b59a8c"
+  },
+  "bosna": {
+   "tr": "Bosna Krallığı",
+   "en": "Kingdom of Bosnia",
+   "group": "diger",
+   "color": "#a7a28c"
+  },
+  "eflak": {
+   "tr": "Eflak",
+   "en": "Wallachia",
+   "group": "diger",
+   "color": "#9fa79a"
+  },
+  "macar": {
+   "tr": "Macaristan",
+   "en": "Hungary",
+   "group": "diger",
+   "color": "#a99bb5"
+  },
+  "cagatay": {
+   "tr": "Çağatay Hanlığı",
+   "en": "Chagatai Khanate",
+   "group": "diger",
+   "color": "#8f9aa8"
   }
  },
  "cities": [
@@ -410,15 +506,21 @@
     ],
     [
      1221,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "selcuklular",
     "cagri-bey",
     "sencer"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "serahs",
@@ -448,8 +550,13 @@
     ],
     [
      1221,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -496,14 +603,20 @@
     ],
     [
      1221,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "tugrul-bey",
     "sencer"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "herat",
@@ -538,13 +651,19 @@
     ],
     [
      1221,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "musa-yabgu"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "zerenc",
@@ -569,8 +688,13 @@
     ],
     [
      1221,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -616,14 +740,20 @@
     ],
     [
      1220,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "belh",
     "sencer"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "gazne",
@@ -648,13 +778,19 @@
     ],
     [
      1221,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "gazneliler"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "bust",
@@ -679,14 +815,20 @@
     ],
     [
      1221,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "gazneliler",
     "cagri-bey"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "lahor",
@@ -749,13 +891,19 @@
     ],
     [
      1221,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "cihansuz-alaeddin"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "gurgenc",
@@ -785,7 +933,7 @@
     ],
     [
      1221,
-     1310,
+     1410,
      "altin-orda"
     ]
    ],
@@ -812,8 +960,13 @@
     ],
     [
      1220,
-     1310,
-     "mogol"
+     1370,
+     "cagatay"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -838,8 +991,13 @@
     ],
     [
      1220,
-     1310,
-     "mogol"
+     1370,
+     "cagatay"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -865,8 +1023,8 @@
     ],
     [
      1218,
-     1310,
-     "mogol"
+     1410,
+     "cagatay"
     ]
    ],
    "src": [
@@ -891,8 +1049,8 @@
     ],
     [
      1218,
-     1310,
-     "mogol"
+     1410,
+     "cagatay"
     ]
    ],
    "src": [
@@ -908,7 +1066,7 @@
    "spans": [
     [
      1000,
-     1310,
+     1410,
      "uygur"
     ]
    ],
@@ -933,7 +1091,7 @@
     ],
     [
      1237,
-     1310,
+     1410,
      "altin-orda"
     ]
    ],
@@ -953,7 +1111,7 @@
     ],
     [
      1236,
-     1310,
+     1410,
      "altin-orda"
     ]
    ],
@@ -978,7 +1136,7 @@
     ],
     [
      1237,
-     1310,
+     1410,
      "altin-orda"
     ]
    ],
@@ -1003,7 +1161,7 @@
     ],
     [
      1240,
-     1310,
+     1410,
      "altin-orda"
     ]
    ],
@@ -1023,7 +1181,7 @@
     ],
     [
      1240,
-     1310,
+     1410,
      "altin-orda"
     ]
    ],
@@ -1052,8 +1210,13 @@
     ],
     [
      1220,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -1084,8 +1247,13 @@
     ],
     [
      1220,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -1121,14 +1289,20 @@
     ],
     [
      1221,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "tugrul-bey",
     "mahmud-b-muhammed-tapar"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "alamut",
@@ -1148,14 +1322,20 @@
     ],
     [
      1256,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "alamut",
     "hasan-sabbah"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "hemedan",
@@ -1185,14 +1365,20 @@
     ],
     [
      1221,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "tugrul-bey",
     "kakuyiler"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "isfahan",
@@ -1222,13 +1408,19 @@
     ],
     [
      1228,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "isfahan"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "kirman",
@@ -1258,14 +1450,20 @@
     ],
     [
      1222,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "buveyhiler",
     "kavurd-bey"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "siraz",
@@ -1290,8 +1488,13 @@
     ],
     [
      1282,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -1327,8 +1530,18 @@
     ],
     [
      1258,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "celayir"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -1364,8 +1577,18 @@
     ],
     [
      1258,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "celayir"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -1411,14 +1634,25 @@
     ],
     [
      1258,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "celayir"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "tugrul-bey",
     "besasiri"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "hille",
@@ -1438,14 +1672,25 @@
     ],
     [
      1258,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "celayir"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "mezyediler",
     "sadaka-b-mansur"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "musul",
@@ -1470,14 +1715,25 @@
     ],
     [
      1262,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "celayir"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "kurboga",
     "mevdud-b-altuntegin"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "amid",
@@ -1517,14 +1773,25 @@
     ],
     [
      1260,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "karakoyunlu"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "mervaniler--diyarbakir",
     "diyarbakir"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "meyyafarikin",
@@ -1559,8 +1826,18 @@
     ],
     [
      1260,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "karakoyunlu"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -1587,7 +1864,7 @@
     ],
     [
      1104,
-     1310,
+     1410,
      "artuklu"
     ]
    ],
@@ -1619,7 +1896,7 @@
     ],
     [
      1232,
-     1310,
+     1410,
      "eyyubi"
     ]
    ],
@@ -1660,8 +1937,18 @@
     ],
     [
      1243,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "karakoyunlu"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [],
@@ -1700,8 +1987,18 @@
     ],
     [
      1243,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "karakoyunlu"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -1732,8 +2029,18 @@
     ],
     [
      1256,
-     1310,
+     1357,
      "mogol"
+    ],
+    [
+     1357,
+     1388,
+     "celayir"
+    ],
+    [
+     1388,
+     1410,
+     "karakoyunlu"
     ]
    ],
    "src": [
@@ -1774,14 +2081,25 @@
     ],
     [
      1236,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "karakoyunlu"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "alparslan",
     "seddadiler"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "gence",
@@ -1816,15 +2134,21 @@
     ],
     [
      1231,
-     1310,
+     1370,
      "mogol"
+    ],
+    [
+     1370,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "gence",
     "arran",
     "ildeniz-semseddin"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "tebriz",
@@ -1859,8 +2183,18 @@
     ],
     [
      1231,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "celayir"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -1876,7 +2210,7 @@
    "spans": [
     [
      1000,
-     1310,
+     1410,
      "sirvansah"
     ]
    ],
@@ -1895,7 +2229,7 @@
     ],
     [
      1122,
-     1310,
+     1410,
      "gurcistan"
     ]
    ],
@@ -1911,7 +2245,7 @@
    "spans": [
     [
      1000,
-     1310,
+     1410,
      "gurcistan"
     ]
    ],
@@ -1932,7 +2266,7 @@
     ],
     [
      1204,
-     1310,
+     1410,
      "trabzon"
     ]
    ],
@@ -1956,8 +2290,33 @@
     ],
     [
      1174,
-     1310,
+     1335,
      "anadolu-selcuklu"
+    ],
+    [
+     1335,
+     1381,
+     "eretna"
+    ],
+    [
+     1381,
+     1398,
+     "kadi-burhaneddin"
+    ],
+    [
+     1398,
+     1400,
+     "osmanli"
+    ],
+    [
+     1400,
+     1402,
+     "timur"
+    ],
+    [
+     1402,
+     1410,
+     "karakoyunlu"
     ]
    ],
    "src": [],
@@ -1981,8 +2340,23 @@
     ],
     [
      1174,
-     1310,
+     1335,
      "anadolu-selcuklu"
+    ],
+    [
+     1335,
+     1381,
+     "eretna"
+    ],
+    [
+     1381,
+     1392,
+     "kadi-burhaneddin"
+    ],
+    [
+     1392,
+     1410,
+     "osmanli"
     ]
    ],
    "src": [],
@@ -2006,8 +2380,28 @@
     ],
     [
      1169,
-     1310,
+     1335,
      "anadolu-selcuklu"
+    ],
+    [
+     1335,
+     1381,
+     "eretna"
+    ],
+    [
+     1381,
+     1398,
+     "kadi-burhaneddin"
+    ],
+    [
+     1398,
+     1402,
+     "osmanli"
+    ],
+    [
+     1402,
+     1410,
+     "karaman"
     ]
    ],
    "src": [
@@ -2037,8 +2431,13 @@
     ],
     [
      1178,
-     1310,
+     1316,
      "anadolu-selcuklu"
+    ],
+    [
+     1316,
+     1410,
+     "memluk"
     ]
    ],
    "src": [],
@@ -2057,8 +2456,23 @@
     ],
     [
      1080,
-     1310,
+     1308,
      "anadolu-selcuklu"
+    ],
+    [
+     1308,
+     1397,
+     "karaman"
+    ],
+    [
+     1397,
+     1402,
+     "osmanli"
+    ],
+    [
+     1402,
+     1410,
+     "karaman"
     ]
    ],
    "src": [
@@ -2094,8 +2508,13 @@
     ],
     [
      1261,
-     1310,
+     1331,
      "bizans"
+    ],
+    [
+     1331,
+     1410,
+     "osmanli"
     ]
    ],
    "src": [
@@ -2130,8 +2549,23 @@
     ],
     [
      1261,
-     1310,
+     1317,
      "bizans"
+    ],
+    [
+     1317,
+     1390,
+     "aydin"
+    ],
+    [
+     1390,
+     1402,
+     "osmanli"
+    ],
+    [
+     1402,
+     1410,
+     "aydin"
     ]
    ],
    "src": [],
@@ -2160,8 +2594,23 @@
     ],
     [
      1216,
-     1310,
+     1308,
      "anadolu-selcuklu"
+    ],
+    [
+     1308,
+     1390,
+     "hamid"
+    ],
+    [
+     1390,
+     1402,
+     "osmanli"
+    ],
+    [
+     1402,
+     1410,
+     "hamid"
     ]
    ],
    "src": []
@@ -2179,8 +2628,13 @@
     ],
     [
      1080,
-     1310,
+     1375,
      "ermeni"
+    ],
+    [
+     1375,
+     1410,
+     "memluk"
     ]
    ],
    "src": [],
@@ -2204,7 +2658,7 @@
     ],
     [
      1261,
-     1310,
+     1410,
      "bizans"
     ]
    ],
@@ -2233,8 +2687,13 @@
     ],
     [
      1261,
-     1310,
+     1361,
      "bizans"
+    ],
+    [
+     1361,
+     1410,
+     "osmanli"
     ]
    ],
    "src": []
@@ -2267,7 +2726,17 @@
     ],
     [
      1261,
-     1310,
+     1387,
+     "bizans"
+    ],
+    [
+     1387,
+     1403,
+     "osmanli"
+    ],
+    [
+     1403,
+     1410,
      "bizans"
     ]
    ],
@@ -2286,7 +2755,7 @@
     ],
     [
      1204,
-     1310,
+     1410,
      "latin"
     ]
    ],
@@ -2305,8 +2774,13 @@
     ],
     [
      1185,
-     1310,
+     1393,
      "bulgar2"
+    ],
+    [
+     1393,
+     1410,
+     "osmanli"
     ]
    ],
    "src": []
@@ -2324,7 +2798,7 @@
     ],
     [
      1191,
-     1310,
+     1410,
      "kibris"
     ]
    ],
@@ -2358,7 +2832,7 @@
     ],
     [
      1268,
-     1310,
+     1410,
      "memluk"
     ]
    ],
@@ -2405,13 +2879,24 @@
     ],
     [
      1260,
-     1310,
+     1335,
      "mogol"
+    ],
+    [
+     1335,
+     1393,
+     "karakoyunlu"
+    ],
+    [
+     1393,
+     1410,
+     "timur"
     ]
    ],
    "src": [
     "sanliurfa"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "halep",
@@ -2456,7 +2941,7 @@
     ],
     [
      1260,
-     1310,
+     1410,
      "memluk"
     ]
    ],
@@ -2504,7 +2989,7 @@
     ],
     [
      1260,
-     1310,
+     1410,
      "memluk"
     ]
    ],
@@ -2532,7 +3017,7 @@
     ],
     [
      1289,
-     1310,
+     1410,
      "memluk"
     ]
    ],
@@ -2558,7 +3043,7 @@
     ],
     [
      1291,
-     1310,
+     1410,
      "memluk"
     ]
    ],
@@ -2617,7 +3102,7 @@
     ],
     [
      1250,
-     1310,
+     1410,
      "memluk"
     ]
    ],
@@ -2650,7 +3135,7 @@
     ],
     [
      1250,
-     1310,
+     1410,
      "memluk"
     ]
    ],
@@ -2674,7 +3159,7 @@
     ],
     [
      1250,
-     1310,
+     1410,
      "memluk"
     ]
    ],
@@ -2698,7 +3183,7 @@
     ],
     [
      1250,
-     1310,
+     1410,
      "memluk"
     ]
    ],
@@ -2712,7 +3197,7 @@
    "spans": [
     [
      1000,
-     1310,
+     1410,
      "hicaz"
     ]
    ],
@@ -2731,7 +3216,7 @@
     ],
     [
      1077,
-     1310,
+     1410,
      "uyuni"
     ]
    ],
@@ -2758,8 +3243,23 @@
     ],
     [
      1175,
-     1310,
+     1308,
      "anadolu-selcuklu"
+    ],
+    [
+     1308,
+     1393,
+     "candar"
+    ],
+    [
+     1393,
+     1402,
+     "osmanli"
+    ],
+    [
+     1402,
+     1410,
+     "candar"
     ]
    ],
    "src": [
@@ -2795,8 +3295,23 @@
     ],
     [
      1175,
-     1310,
+     1308,
      "anadolu-selcuklu"
+    ],
+    [
+     1308,
+     1362,
+     "eretna"
+    ],
+    [
+     1362,
+     1402,
+     "osmanli"
+    ],
+    [
+     1402,
+     1410,
+     "osmanli"
     ]
    ],
    "src": [
@@ -2833,7 +3348,7 @@
     ],
     [
      1288,
-     1310,
+     1410,
      "osmanli"
     ]
    ],
@@ -2856,7 +3371,7 @@
     ],
     [
      1299,
-     1310,
+     1410,
      "osmanli"
     ]
    ],
@@ -2883,7 +3398,17 @@
     ],
     [
      1290,
-     1310,
+     1390,
+     "germiyan"
+    ],
+    [
+     1390,
+     1402,
+     "osmanli"
+    ],
+    [
+     1402,
+     1410,
      "germiyan"
     ]
    ],
@@ -2905,8 +3430,23 @@
     ],
     [
      1206,
-     1310,
+     1308,
      "anadolu-selcuklu"
+    ],
+    [
+     1308,
+     1390,
+     "germiyan"
+    ],
+    [
+     1390,
+     1402,
+     "osmanli"
+    ],
+    [
+     1402,
+     1410,
+     "germiyan"
     ]
    ],
    "src": [
@@ -2932,7 +3472,7 @@
     ],
     [
      1277,
-     1310,
+     1410,
      "karaman"
     ]
    ],
@@ -2959,8 +3499,18 @@
     ],
     [
      1228,
-     1310,
+     1335,
      "anadolu-selcuklu"
+    ],
+    [
+     1335,
+     1400,
+     "eretna"
+    ],
+    [
+     1400,
+     1410,
+     "timur"
     ]
    ],
    "src": [
@@ -2991,8 +3541,18 @@
     ],
     [
      1234,
-     1310,
+     1308,
      "anadolu-selcuklu"
+    ],
+    [
+     1308,
+     1335,
+     "mogol"
+    ],
+    [
+     1335,
+     1410,
+     "eretna"
     ]
    ],
    "src": [
@@ -3028,8 +3588,13 @@
     ],
     [
      1266,
-     1310,
+     1322,
      "anadolu-selcuklu"
+    ],
+    [
+     1322,
+     1410,
+     "candar"
     ]
    ],
    "src": [
@@ -3050,13 +3615,514 @@
     ],
     [
      1221,
-     1310,
+     1308,
      "anadolu-selcuklu"
+    ],
+    [
+     1308,
+     1410,
+     "karaman"
     ]
    ],
    "src": [
     "alanya"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "bursa",
+   "tr": "Bursa",
+   "lat": 40.19,
+   "lon": 29.06,
+   "spans": [
+    [
+     1000,
+     1326,
+     "bizans"
+    ],
+    [
+     1326,
+     1410,
+     "osmanli"
+    ]
+   ],
+   "src": [
+    "bursa",
+    "orhan"
    ]
+  },
+  {
+   "id": "izmit",
+   "tr": "İzmit",
+   "lat": 40.77,
+   "lon": 29.92,
+   "spans": [
+    [
+     1000,
+     1337,
+     "bizans"
+    ],
+    [
+     1337,
+     1410,
+     "osmanli"
+    ]
+   ],
+   "src": [
+    "orhan"
+   ]
+  },
+  {
+   "id": "balikesir",
+   "tr": "Balıkesir (Karesi)",
+   "lat": 39.65,
+   "lon": 27.88,
+   "spans": [
+    [
+     1000,
+     1300,
+     "bizans"
+    ],
+    [
+     1300,
+     1345,
+     "karesi"
+    ],
+    [
+     1345,
+     1410,
+     "osmanli"
+    ]
+   ],
+   "src": [
+    "orhan"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "manisa",
+   "tr": "Manisa (Saruhan)",
+   "lat": 38.61,
+   "lon": 27.43,
+   "spans": [
+    [
+     1000,
+     1313,
+     "bizans"
+    ],
+    [
+     1313,
+     1390,
+     "saruhan"
+    ],
+    [
+     1390,
+     1402,
+     "osmanli"
+    ],
+    [
+     1402,
+     1410,
+     "saruhan"
+    ]
+   ],
+   "src": [
+    "bayezid-i"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "milas",
+   "tr": "Milas (Menteşe)",
+   "lat": 37.31,
+   "lon": 27.78,
+   "spans": [
+    [
+     1000,
+     1280,
+     "bizans"
+    ],
+    [
+     1280,
+     1390,
+     "mentese"
+    ],
+    [
+     1390,
+     1402,
+     "osmanli"
+    ],
+    [
+     1402,
+     1410,
+     "mentese"
+    ]
+   ],
+   "src": [
+    "bayezid-i"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "isparta",
+   "tr": "Isparta (Hamîd)",
+   "lat": 37.76,
+   "lon": 30.55,
+   "spans": [
+    [
+     1000,
+     1204,
+     "bizans"
+    ],
+    [
+     1204,
+     1308,
+     "anadolu-selcuklu"
+    ],
+    [
+     1308,
+     1381,
+     "hamid"
+    ],
+    [
+     1381,
+     1410,
+     "osmanli"
+    ]
+   ],
+   "src": [
+    "murad-i"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "gelibolu",
+   "tr": "Gelibolu",
+   "lat": 40.41,
+   "lon": 26.67,
+   "spans": [
+    [
+     1000,
+     1354,
+     "bizans"
+    ],
+    [
+     1354,
+     1366,
+     "osmanli"
+    ],
+    [
+     1366,
+     1376,
+     "latin"
+    ],
+    [
+     1376,
+     1410,
+     "osmanli"
+    ]
+   ],
+   "src": [
+    "gelibolu",
+    "orhan"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "filibe",
+   "tr": "Filibe",
+   "lat": 42.14,
+   "lon": 24.75,
+   "spans": [
+    [
+     1000,
+     1344,
+     "bizans"
+    ],
+    [
+     1344,
+     1364,
+     "bulgar2"
+    ],
+    [
+     1364,
+     1410,
+     "osmanli"
+    ]
+   ],
+   "src": [
+    "murad-i"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "sofya",
+   "tr": "Sofya",
+   "lat": 42.7,
+   "lon": 23.32,
+   "spans": [
+    [
+     1000,
+     1185,
+     "bizans"
+    ],
+    [
+     1185,
+     1385,
+     "bulgar2"
+    ],
+    [
+     1385,
+     1410,
+     "osmanli"
+    ]
+   ],
+   "src": [
+    "murad-i"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "uskup",
+   "tr": "Üsküp",
+   "lat": 42.0,
+   "lon": 21.43,
+   "spans": [
+    [
+     1000,
+     1282,
+     "bizans"
+    ],
+    [
+     1282,
+     1392,
+     "sirbistan"
+    ],
+    [
+     1392,
+     1410,
+     "osmanli"
+    ]
+   ],
+   "src": [
+    "bayezid-i"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "manastir",
+   "tr": "Manastır",
+   "lat": 41.03,
+   "lon": 21.33,
+   "spans": [
+    [
+     1000,
+     1334,
+     "bizans"
+    ],
+    [
+     1334,
+     1385,
+     "sirbistan"
+    ],
+    [
+     1385,
+     1410,
+     "osmanli"
+    ]
+   ],
+   "src": [
+    "murad-i"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "nis",
+   "tr": "Niş",
+   "lat": 43.32,
+   "lon": 21.9,
+   "spans": [
+    [
+     1000,
+     1183,
+     "bizans"
+    ],
+    [
+     1183,
+     1386,
+     "sirbistan"
+    ],
+    [
+     1386,
+     1410,
+     "osmanli"
+    ]
+   ],
+   "src": [
+    "murad-i"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "pristine",
+   "tr": "Priştine",
+   "lat": 42.66,
+   "lon": 21.17,
+   "spans": [
+    [
+     1000,
+     1180,
+     "bizans"
+    ],
+    [
+     1180,
+     1410,
+     "sirbistan"
+    ]
+   ],
+   "src": [
+    "kosova-savaslari"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "belgrad",
+   "tr": "Belgrad",
+   "lat": 44.82,
+   "lon": 20.45,
+   "spans": [
+    [
+     1000,
+     1284,
+     "macar"
+    ],
+    [
+     1284,
+     1319,
+     "sirbistan"
+    ],
+    [
+     1319,
+     1403,
+     "macar"
+    ],
+    [
+     1403,
+     1410,
+     "sirbistan"
+    ]
+   ],
+   "src": [],
+   "yaklasik": true
+  },
+  {
+   "id": "sarajevo",
+   "tr": "Bosna",
+   "lat": 43.86,
+   "lon": 18.41,
+   "spans": [
+    [
+     1000,
+     1180,
+     "bizans"
+    ],
+    [
+     1180,
+     1410,
+     "bosna"
+    ]
+   ],
+   "src": [],
+   "yaklasik": true
+  },
+  {
+   "id": "avlonya",
+   "tr": "Avlonya (Arnavutluk)",
+   "lat": 40.47,
+   "lon": 19.49,
+   "spans": [
+    [
+     1000,
+     1345,
+     "bizans"
+    ],
+    [
+     1345,
+     1410,
+     "sirbistan"
+    ]
+   ],
+   "src": [
+    "murad-i"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "buda",
+   "tr": "Buda",
+   "lat": 47.5,
+   "lon": 19.04,
+   "spans": [
+    [
+     1000,
+     1410,
+     "macar"
+    ]
+   ],
+   "src": [],
+   "yaklasik": true
+  },
+  {
+   "id": "bukres",
+   "tr": "Eflak",
+   "lat": 44.43,
+   "lon": 26.1,
+   "spans": [
+    [
+     1000,
+     1240,
+     "kipcak"
+    ],
+    [
+     1240,
+     1310,
+     "altin-orda"
+    ],
+    [
+     1310,
+     1410,
+     "eflak"
+    ]
+   ],
+   "src": [
+    "bayezid-i"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "mora",
+   "tr": "Mora",
+   "lat": 37.5,
+   "lon": 22.4,
+   "spans": [
+    [
+     1000,
+     1205,
+     "bizans"
+    ],
+    [
+     1205,
+     1262,
+     "latin"
+    ],
+    [
+     1262,
+     1410,
+     "bizans"
+    ]
+   ],
+   "src": [],
+   "yaklasik": true
   },
   {
    "id": "v-avrupa",
@@ -3075,12 +4141,6 @@
    "void": true,
    "lat": 42.0,
    "lon": 14.0
-  },
-  {
-   "id": "v-macar",
-   "void": true,
-   "lat": 47.3,
-   "lon": 19.5
   },
   {
    "id": "v-rusya",
