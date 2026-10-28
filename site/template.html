@@ -144,7 +144,7 @@ const RES={W:"Zafer",L:"Yenilgi",D:"Belirsiz",C:"İç savaş"};
 const ST={kesin:"Kesin",borderline:"Borderline",ihtilafli:"İhtilaflı"};
 const COL={W:"var(--win)",L:"var(--loss)",D:"var(--draw)",C:"var(--civil)"};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const B=DATA.battles.map(b=>{const y=+b.date.match(/\d{4}/)[0];const opp=b.result==="L"?b.side_a:b.side_b;return {...b,y,opp}});
+const B=DATA.battles.map(b=>{const y=+b.date.match(/\d{3,4}/)[0];const opp=b.result==="L"?b.side_a:b.side_b;return {...b,y,opp}});
 const Y0=d3.min(B,b=>b.y), Y1=d3.max(B,b=>b.y);
 const S={cat:new Set(Object.keys(CAT)),st:new Set(Object.keys(ST)),from:Y0,to:Y1};
 const filtered=()=>B.filter(b=>S.cat.has(b.category)&&S.st.has(b.status)&&b.y>=S.from&&b.y<=S.to);

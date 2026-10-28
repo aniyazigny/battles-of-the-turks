@@ -670,14 +670,16 @@
    "status": "kesin",
    "sources": [
     "TDVIA:belek-b-behram",
-    "TDVIA:menbic"
+    "TDVIA:menbic",
+    "AKD:erdem-2018",
+    "AKD:celik-2021"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Artuklular",
    "home_batch": "beylikler-atabeylikler",

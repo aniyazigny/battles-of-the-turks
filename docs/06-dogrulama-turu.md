@@ -28,7 +28,7 @@ Tarih: 2026-10-28 · Kapsam: Büyük Selçuklu pilotu, Anadolu Selçukluları, b
 |---|---|---|---|---|---|
 | Büyük Selçuklu | 80 | 68 | 10 | 2 | 8 |
 | Anadolu Selçukluları | 72 | 46 | 19 | 4 | 15 |
-| Beylikler ve atabeylikler | 57 | 28 | 10 | 7 | 19 |
+| Beylikler ve atabeylikler | 57 | 28 | 10 | 8 | 18 |
 | Gazneliler ve Karahanlılar | 32 | 12 | 0 | 8 | 14 |
 
 "Tek kaynak": ne ikinci bir TDVİA maddesi ne Roma veri seti ne de akademik yayınla desteklenen kayıt. Ayrıca 9 kayıt yalnızca Roma veri setine (Bizans kaynaklarına) dayanıyor; bunlar `borderline` işaretli ve notlarında "Türk kaynağı bulunamadı" yazıyor.
