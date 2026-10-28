@@ -90,7 +90,7 @@ ul.lo{padding-left:18px;font-size:15px}
 <div class="wrap">
 <header>
   <h1>Türklerin Savaştığı Yerler<small>Battles of the Turks</small></h1>
-  <div class="banner">DEMO · Pilot 1: Büyük Selçuklu (1035–1157). Veri doğrulama aşamasında; tarih, yer ve sonuçlar kesinleşmiş değildir.</div>
+  <div class="banner">DEMO · Büyük Selçuklu (1035–1157) ve Anadolu Selçukluları (1075–1308). Veri doğrulama aşamasında; tarih, yer ve sonuçlar kesinleşmiş değildir.</div>
   <div class="stats" id="stats"></div>
 </header>
 
@@ -320,7 +320,7 @@ let sortK="y",sortD=1;
 document.querySelectorAll("#list th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortD=sortK===k?-sortD:1;sortK=k;render()});
 function renderList(F){
   const tb=document.querySelector("#list tbody");
-  const rows=[...F].sort((a,b)=>(a[sortK]>b[sortK]?1:a[sortK]<b[sortK]?-1:a.id-b.id)*sortD);
+  const rows=[...F].sort((a,b)=>(a[sortK]>b[sortK]?1:a[sortK]<b[sortK]?-1:a.y-b.y||String(a.id).localeCompare(String(b.id)))*sortD);
   tb.innerHTML=rows.map(b=>`<tr class="row" data-id="${b.id}"><td class="num">${b.y}</td><td>${esc(b.name_tr)}</td><td>${esc(b.place)}</td><td>${esc(b.opp)}</td><td>${CAT[b.category]}</td><td><span class="tag ${b.result}">${RES[b.result]}</span></td><td><span class="tag st ${b.status}">${ST[b.status]}</span></td></tr>`).join("");
   tb.querySelectorAll("tr.row").forEach(tr=>tr.onclick=()=>{
     const nx=tr.nextElementSibling;if(nx&&nx.classList.contains("detail")){nx.remove();return}

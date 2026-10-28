@@ -37,3 +37,15 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Didgori 1121 (#75) | Irak Selçukluları'na yazıldı (K3: komutanı Sultan Mahmud atadı) | Artuklu savaşı |
 | Sivas 1070, Kahire 1077, Harran 1104 (#28, 37, 59) | Atabeylikler ve beylikler partisine taşınacak (K3) | Büyük Selçuklu |
 | Hârizmşahlar, Karluklar | Rakip (`dis`) | Kapsam genişlerse `turk_arasi` |
+
+## Kayıt kararları (Parti 2: Anadolu Selçukluları, 2026-10-28)
+| Kayıt | Karar | Alternatif okuma |
+|---|---|---|
+| Akşehir (Philomelion) 1116 | Belirsiz (D); TDVİA yenilgiden söz etmez | Anna Komnene: Bizans zaferi |
+| Konya önleri 1146 | Selçuklu zaferi (P6) | Kinnamos: barışı sultan istedi |
+| Menderes ve Honaz 1148 | Selçuklu başarısı, borderline | Batı kaynakları: Menderes geçişinde Fransız başarısı |
+| Konya 1190 | Yenilgi, ihtilaflı (şehir Haçlıların eline geçti) | TDVİA: meydan savaşından kaçınıldı |
+| Tarsus 1245–46 | Kural gereği yenilgi; lehte antlaşma notta | Selçuklu başarısı |
+| Elbistan 1277 | Borderline; Memlükler dış rakip | Selçuklu taraf sayılmaz |
+| Karaman, Cimri, Germiyan | İç savaş | Türk devletleri arası |
+| Harita, 1243 sonrası | Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu renginde | Moğol rengi |

@@ -1,11 +1,20 @@
-"""Pilot verisini ve sınır tablosunu site/template.html içine gömüp site/index.html üretir (file:// ile açılabilsin diye)."""
+"""Parti verilerini ve sınır tablosunu site/template.html içine gömüp site/index.html üretir (file:// ile açılabilsin diye)."""
 import json
 from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
-data = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
+# (dosya, kimlik öneki) — yeni partiler buraya eklenir
+BATCHES = [("pilot-buyuk-selcuklu.json", "bs"), ("anadolu-selcuklu.json", "as")]
+
+battles, left_out = [], []
+for name, prefix in BATCHES:
+    d = json.loads((root / "data" / name).read_text(encoding="utf-8"))
+    for b in d["battles"]:
+        battles.append({**b, "id": f"{prefix}-{b['id']}", "batch": d["meta"]["batch"]})
+    left_out += d["left_out"]
+data = {"battles": battles, "left_out": left_out}
 borders = json.loads((root / "data" / "sinirlar.json").read_text(encoding="utf-8"))
 embed = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
 html = (root / "site" / "template.html").read_text(encoding="utf-8").replace("/*DATA*/", embed(data), 1).replace("/*BORDERS*/", embed(borders), 1)
 (root / "site" / "index.html").write_text(html, encoding="utf-8")
-print("site/index.html", len(html), "bayt,", len(data["battles"]), "kayıt")
+print("site/index.html", len(html), "bayt,", len(battles), "kayıt")
