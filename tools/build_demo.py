@@ -4,7 +4,7 @@ from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
 # (dosya, kimlik öneki) — yeni partiler buraya eklenir
-BATCHES = [("pilot-buyuk-selcuklu.json", "bs"), ("anadolu-selcuklu.json", "as"), ("beylikler-atabeylikler.json", "ba"), ("gazneli-karahanli.json", "gk"), ("osmanli-kurulus.json", "ok"), ("osmanli-1402-1481.json", "o2")]
+BATCHES = [("pilot-buyuk-selcuklu.json", "bs"), ("anadolu-selcuklu.json", "as"), ("beylikler-atabeylikler.json", "ba"), ("gazneli-karahanli.json", "gk"), ("osmanli-kurulus.json", "ok"), ("osmanli-1402-1481.json", "o2"), ("osmanli-1481-1520.json", "o3")]
 
 battles, left_out = [], []
 for name, prefix in BATCHES:

@@ -75,3 +75,10 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Eflak 1462 | Osmanlı başarısı (P6) | Vlad'ın gece baskını |
 | Otlukbeli 1473 | Dış rakip (Akkoyunlular kapsam dışı) | Türk devletleri arası |
 | Fetret şehzade savaşları | İç savaş | — |
+
+## Kayıt kararları (Parti 7: Osmanlı 1481–1520, 2026-10-29)
+| Kayıt | Karar | Alternatif okuma |
+|---|---|---|
+| Çaldıran ve diğer Safevî savaşları | Dış rakip (Safevîler kapsam listesinde değil) | — |
+| Mercidâbık, Gazze, Ridâniye | Dış rakip (Memlükler kapsam dışı Türk devleti) | Türk devletleri arası |
+| Turnadağ 1515 | Türk devletleri arası (Dulkadıroğulları) | — |

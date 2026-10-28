@@ -3,7 +3,7 @@
   "title": "Şehir bazlı hâkimiyet tablosu (harita sınırları için)",
   "compiled": "2026-10-28",
   "status": "Taslak. Sınırlar yaklaşıktır; kontrol bekliyor.",
-  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi.",
+  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi.",
   "spans": "[başlangıç, bitiş, devlet]: başlangıç dahil, bitiş hariç (ör. [1040, 1153, ...] 1040–1152 yılları).",
   "sources": "src alanı, el değiştirme tarihlerinin dayandığı TDVİA maddeleridir. 'yaklasik': true olan şehirlerin tarihleri kaba tahmindir ve kontrol edilecektir."
  },
@@ -499,6 +499,12 @@
    "en": "Kingdom of Naples",
    "group": "diger",
    "color": "#a8a090"
+  },
+  "safevi": {
+   "tr": "Safevîler",
+   "en": "Safavids",
+   "group": "diger",
+   "color": "#9c8fb0"
   }
  },
  "cities": [
@@ -535,7 +541,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -579,7 +585,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -632,7 +638,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -680,7 +686,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -717,7 +723,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -769,7 +775,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -807,7 +813,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -844,7 +850,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -920,7 +926,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -957,7 +963,7 @@
     ],
     [
      1221,
-     1490,
+     1530,
      "altin-orda"
     ]
    ],
@@ -989,7 +995,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -1020,7 +1026,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -1047,7 +1053,7 @@
     ],
     [
      1218,
-     1490,
+     1530,
      "cagatay"
     ]
    ],
@@ -1073,7 +1079,7 @@
     ],
     [
      1218,
-     1490,
+     1530,
      "cagatay"
     ]
    ],
@@ -1090,7 +1096,7 @@
    "spans": [
     [
      1000,
-     1490,
+     1530,
      "uygur"
     ]
    ],
@@ -1115,7 +1121,7 @@
     ],
     [
      1237,
-     1490,
+     1530,
      "altin-orda"
     ]
    ],
@@ -1135,7 +1141,7 @@
     ],
     [
      1236,
-     1490,
+     1530,
      "altin-orda"
     ]
    ],
@@ -1160,7 +1166,7 @@
     ],
     [
      1237,
-     1490,
+     1530,
      "altin-orda"
     ]
    ],
@@ -1185,7 +1191,7 @@
     ],
     [
      1240,
-     1490,
+     1530,
      "altin-orda"
     ]
    ],
@@ -1205,7 +1211,7 @@
     ],
     [
      1240,
-     1490,
+     1530,
      "altin-orda"
     ]
    ],
@@ -1239,7 +1245,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -1276,7 +1282,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -1318,8 +1324,13 @@
     ],
     [
      1370,
-     1490,
+     1501,
      "timur"
+    ],
+    [
+     1501,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -1351,7 +1362,7 @@
     ],
     [
      1370,
-     1490,
+     1530,
      "timur"
     ]
    ],
@@ -1394,8 +1405,13 @@
     ],
     [
      1370,
-     1490,
+     1501,
      "timur"
+    ],
+    [
+     1501,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -1437,8 +1453,13 @@
     ],
     [
      1370,
-     1490,
+     1501,
      "timur"
+    ],
+    [
+     1501,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -1479,8 +1500,13 @@
     ],
     [
      1370,
-     1490,
+     1501,
      "timur"
+    ],
+    [
+     1501,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -1517,8 +1543,13 @@
     ],
     [
      1370,
-     1490,
+     1501,
      "timur"
+    ],
+    [
+     1501,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -1574,8 +1605,13 @@
     ],
     [
      1468,
-     1490,
+     1508,
      "akkoyunlu"
+    ],
+    [
+     1508,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -1631,8 +1667,13 @@
     ],
     [
      1468,
-     1490,
+     1508,
      "akkoyunlu"
+    ],
+    [
+     1508,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -1698,8 +1739,13 @@
     ],
     [
      1468,
-     1490,
+     1508,
      "akkoyunlu"
+    ],
+    [
+     1508,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -1746,8 +1792,13 @@
     ],
     [
      1468,
-     1490,
+     1508,
      "akkoyunlu"
+    ],
+    [
+     1508,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -1799,8 +1850,18 @@
     ],
     [
      1468,
-     1490,
+     1508,
      "akkoyunlu"
+    ],
+    [
+     1508,
+     1517,
+     "safevi"
+    ],
+    [
+     1517,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
@@ -1862,8 +1923,18 @@
     ],
     [
      1410,
-     1490,
+     1501,
      "akkoyunlu"
+    ],
+    [
+     1501,
+     1516,
+     "safevi"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
@@ -1920,8 +1991,18 @@
     ],
     [
      1410,
-     1490,
+     1501,
      "akkoyunlu"
+    ],
+    [
+     1501,
+     1516,
+     "safevi"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
@@ -1953,8 +2034,18 @@
     ],
     [
      1410,
-     1490,
+     1501,
      "akkoyunlu"
+    ],
+    [
+     1501,
+     1516,
+     "safevi"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
@@ -1990,8 +2081,18 @@
     ],
     [
      1410,
-     1490,
+     1501,
      "akkoyunlu"
+    ],
+    [
+     1501,
+     1516,
+     "safevi"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
@@ -2047,8 +2148,13 @@
     ],
     [
      1410,
-     1490,
+     1501,
      "akkoyunlu"
+    ],
+    [
+     1501,
+     1530,
+     "safevi"
     ]
    ],
    "src": [],
@@ -2102,8 +2208,13 @@
     ],
     [
      1410,
-     1490,
+     1501,
      "akkoyunlu"
+    ],
+    [
+     1501,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -2149,8 +2260,13 @@
     ],
     [
      1468,
-     1490,
+     1501,
      "akkoyunlu"
+    ],
+    [
+     1501,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -2207,8 +2323,13 @@
     ],
     [
      1410,
-     1490,
+     1501,
      "akkoyunlu"
+    ],
+    [
+     1501,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -2255,8 +2376,13 @@
     ],
     [
      1370,
-     1490,
+     1501,
      "timur"
+    ],
+    [
+     1501,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -2319,8 +2445,13 @@
     ],
     [
      1468,
-     1490,
+     1501,
      "akkoyunlu"
+    ],
+    [
+     1501,
+     1530,
+     "safevi"
     ]
    ],
    "src": [
@@ -2336,7 +2467,7 @@
    "spans": [
     [
      1000,
-     1490,
+     1530,
      "sirvansah"
     ]
    ],
@@ -2355,7 +2486,7 @@
     ],
     [
      1122,
-     1490,
+     1530,
      "gurcistan"
     ]
    ],
@@ -2371,7 +2502,7 @@
    "spans": [
     [
      1000,
-     1490,
+     1530,
      "gurcistan"
     ]
    ],
@@ -2397,7 +2528,7 @@
     ],
     [
      1461,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2446,7 +2577,7 @@
     ],
     [
      1408,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2496,7 +2627,7 @@
     ],
     [
      1402,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2546,8 +2677,13 @@
     ],
     [
      1474,
-     1490,
+     1515,
      "dulkadir"
+    ],
+    [
+     1515,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
@@ -2588,8 +2724,18 @@
     ],
     [
      1410,
-     1490,
+     1500,
      "memluk"
+    ],
+    [
+     1500,
+     1516,
+     "memluk"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [],
@@ -2628,7 +2774,7 @@
     ],
     [
      1468,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2670,7 +2816,7 @@
     ],
     [
      1331,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2726,7 +2872,7 @@
     ],
     [
      1425,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2776,7 +2922,7 @@
     ],
     [
      1425,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2801,8 +2947,18 @@
     ],
     [
      1375,
-     1490,
+     1500,
      "memluk"
+    ],
+    [
+     1500,
+     1516,
+     "memluk"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [],
@@ -2831,7 +2987,7 @@
     ],
     [
      1453,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2865,7 +3021,7 @@
     ],
     [
      1361,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2919,7 +3075,7 @@
     ],
     [
      1430,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2943,7 +3099,7 @@
     ],
     [
      1458,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2968,7 +3124,7 @@
     ],
     [
      1393,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -2987,7 +3143,7 @@
     ],
     [
      1191,
-     1490,
+     1530,
      "kibris"
     ]
    ],
@@ -3021,14 +3177,25 @@
     ],
     [
      1268,
-     1490,
+     1500,
      "memluk"
+    ],
+    [
+     1500,
+     1516,
+     "memluk"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
     "suleyman-sah-i",
     "kurboga"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "urfa",
@@ -3083,8 +3250,18 @@
     ],
     [
      1410,
-     1490,
+     1501,
      "akkoyunlu"
+    ],
+    [
+     1501,
+     1516,
+     "safevi"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
@@ -3135,15 +3312,26 @@
     ],
     [
      1260,
-     1490,
+     1500,
      "memluk"
+    ],
+    [
+     1500,
+     1516,
+     "memluk"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
     "halep",
     "mirdasiler",
     "tutus"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "dimask",
@@ -3183,15 +3371,26 @@
     ],
     [
      1260,
-     1490,
+     1500,
      "memluk"
+    ],
+    [
+     1500,
+     1516,
+     "memluk"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
     "tutus",
     "tugtegin",
     "atsiz-b-uvak"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "trablus",
@@ -3211,13 +3410,24 @@
     ],
     [
      1289,
-     1490,
+     1500,
      "memluk"
+    ],
+    [
+     1500,
+     1516,
+     "memluk"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
     "tugtegin"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "sur",
@@ -3237,11 +3447,22 @@
     ],
     [
      1291,
-     1490,
+     1500,
      "memluk"
+    ],
+    [
+     1500,
+     1516,
+     "memluk"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
-   "src": []
+   "src": [],
+   "yaklasik": true
   },
   {
    "id": "kudus",
@@ -3296,15 +3517,26 @@
     ],
     [
      1250,
-     1490,
+     1500,
      "memluk"
+    ],
+    [
+     1500,
+     1516,
+     "memluk"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
     "atsiz-b-uvak",
     "artuk-b-eksuk",
     "sokmen-b-artuk"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "askalan",
@@ -3329,11 +3561,22 @@
     ],
     [
      1250,
-     1490,
+     1500,
      "memluk"
+    ],
+    [
+     1500,
+     1516,
+     "memluk"
+    ],
+    [
+     1516,
+     1530,
+     "osmanli"
     ]
    ],
-   "src": []
+   "src": [],
+   "yaklasik": true
   },
   {
    "id": "kahire",
@@ -3353,11 +3596,22 @@
     ],
     [
      1250,
-     1490,
+     1500,
      "memluk"
+    ],
+    [
+     1500,
+     1517,
+     "memluk"
+    ],
+    [
+     1517,
+     1530,
+     "osmanli"
     ]
    ],
-   "src": []
+   "src": [],
+   "yaklasik": true
   },
   {
    "id": "iskenderiye",
@@ -3377,11 +3631,22 @@
     ],
     [
      1250,
-     1490,
+     1500,
      "memluk"
+    ],
+    [
+     1500,
+     1517,
+     "memluk"
+    ],
+    [
+     1517,
+     1530,
+     "osmanli"
     ]
    ],
-   "src": []
+   "src": [],
+   "yaklasik": true
   },
   {
    "id": "medine",
@@ -3391,11 +3656,17 @@
    "spans": [
     [
      1000,
-     1490,
+     1517,
      "hicaz"
+    ],
+    [
+     1517,
+     1530,
+     "osmanli"
     ]
    ],
-   "src": []
+   "src": [],
+   "yaklasik": true
   },
   {
    "id": "ahsa",
@@ -3410,7 +3681,7 @@
     ],
     [
      1077,
-     1490,
+     1530,
      "uyuni"
     ]
    ],
@@ -3457,7 +3728,7 @@
     ],
     [
      1461,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3509,7 +3780,7 @@
     ],
     [
      1402,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3547,7 +3818,7 @@
     ],
     [
      1288,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3570,7 +3841,7 @@
     ],
     [
      1299,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3612,7 +3883,7 @@
     ],
     [
      1425,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3654,7 +3925,7 @@
     ],
     [
      1425,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3686,7 +3957,7 @@
     ],
     [
      1474,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3733,8 +4004,18 @@
     ],
     [
      1468,
-     1490,
+     1501,
      "akkoyunlu"
+    ],
+    [
+     1501,
+     1515,
+     "safevi"
+    ],
+    [
+     1515,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
@@ -3780,8 +4061,23 @@
     ],
     [
      1410,
-     1490,
+     1468,
      "akkoyunlu"
+    ],
+    [
+     1468,
+     1501,
+     "akkoyunlu"
+    ],
+    [
+     1501,
+     1515,
+     "safevi"
+    ],
+    [
+     1515,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [
@@ -3827,7 +4123,7 @@
     ],
     [
      1461,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3860,7 +4156,7 @@
     ],
     [
      1471,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3882,7 +4178,7 @@
     ],
     [
      1326,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3904,7 +4200,7 @@
     ],
     [
      1337,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3930,7 +4226,7 @@
     ],
     [
      1345,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -3967,7 +4263,7 @@
     ],
     [
      1425,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4004,7 +4300,7 @@
     ],
     [
      1425,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4036,7 +4332,7 @@
     ],
     [
      1381,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4068,7 +4364,7 @@
     ],
     [
      1376,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4096,7 +4392,7 @@
     ],
     [
      1364,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4123,7 +4419,7 @@
     ],
     [
      1385,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4150,7 +4446,7 @@
     ],
     [
      1392,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4177,7 +4473,7 @@
     ],
     [
      1385,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4204,7 +4500,7 @@
     ],
     [
      1386,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4231,7 +4527,7 @@
     ],
     [
      1455,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4268,7 +4564,7 @@
     ],
     [
      1427,
-     1490,
+     1530,
      "macar"
     ]
    ],
@@ -4293,7 +4589,7 @@
     ],
     [
      1463,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4318,7 +4614,7 @@
     ],
     [
      1417,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4335,7 +4631,7 @@
    "spans": [
     [
      1000,
-     1490,
+     1530,
      "macar"
     ]
    ],
@@ -4360,7 +4656,7 @@
     ],
     [
      1310,
-     1490,
+     1530,
      "eflak"
     ]
    ],
@@ -4392,7 +4688,7 @@
     ],
     [
      1460,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4417,7 +4713,7 @@
     ],
     [
      1459,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4450,7 +4746,7 @@
     ],
     [
      1478,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4483,7 +4779,7 @@
     ],
     [
      1475,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4510,7 +4806,7 @@
     ],
     [
      1441,
-     1490,
+     1530,
      "kirim"
     ]
    ],
@@ -4535,7 +4831,7 @@
     ],
     [
      1470,
-     1490,
+     1530,
      "osmanli"
     ]
    ],
@@ -4557,7 +4853,7 @@
     ],
     [
      1309,
-     1490,
+     1530,
      "latin"
     ]
    ],
@@ -4584,7 +4880,7 @@
     ],
     [
      1481,
-     1490,
+     1530,
      "napoli"
     ]
    ],
@@ -4606,8 +4902,68 @@
     ],
     [
      1205,
-     1490,
+     1530,
      "latin"
+    ]
+   ],
+   "src": [],
+   "yaklasik": true
+  },
+  {
+   "id": "modon",
+   "tr": "Modon ve Koron",
+   "lat": 36.82,
+   "lon": 21.8,
+   "spans": [
+    [
+     1000,
+     1205,
+     "bizans"
+    ],
+    [
+     1205,
+     1500,
+     "latin"
+    ],
+    [
+     1500,
+     1530,
+     "osmanli"
+    ]
+   ],
+   "src": [],
+   "yaklasik": true
+  },
+  {
+   "id": "maras",
+   "tr": "Maraş (Dulkadır)",
+   "lat": 37.58,
+   "lon": 36.93,
+   "spans": [
+    [
+     1000,
+     1100,
+     "ermeni"
+    ],
+    [
+     1100,
+     1149,
+     "hacli"
+    ],
+    [
+     1149,
+     1337,
+     "anadolu-selcuklu"
+    ],
+    [
+     1337,
+     1522,
+     "dulkadir"
+    ],
+    [
+     1522,
+     1530,
+     "osmanli"
     ]
    ],
    "src": [],
