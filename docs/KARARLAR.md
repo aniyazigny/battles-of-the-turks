@@ -67,3 +67,11 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Argeş (Rovine) 1395 | Osmanlı zaferi (P6) | Romen kaynakları: Mircea'nın zaferi |
 | Ankara 1402 | Dış rakip (Timurlular kapsam dışı) | Türk devletleri arası |
 | Osmanlı–Karaman, Kadı Burhâneddin, Eretna | Türk devletleri arası | İç savaş |
+
+## Kayıt kararları (Parti 6: Osmanlı 1402–1481, 2026-10-29)
+| Kayıt | Karar | Alternatif okuma |
+|---|---|---|
+| İzlâdi 1443 | Osmanlı başarısı, ihtilaflı (P6) | Batı kaynakları: Kunoviçe'de Haçlı başarısı |
+| Eflak 1462 | Osmanlı başarısı (P6) | Vlad'ın gece baskını |
+| Otlukbeli 1473 | Dış rakip (Akkoyunlular kapsam dışı) | Türk devletleri arası |
+| Fetret şehzade savaşları | İç savaş | — |
