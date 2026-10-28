@@ -254,9 +254,32 @@ LEFT = [
  {"name": "Akşehir (Erzincan, 1299) ve Baltu (1297)", "reason": "Moğol iç çatışmaları; Selçuklu ordusu taraf değil.", "source": "TDVIA:keykubad-iii"},
 ]
 
+# İkinci kaynak turu (2026-10-28): kayıt numarasına göre ek kaynaklar ve alan düzeltmeleri
+EXTRA_SRC = {
+ 2: ["TDVIA:antakya"], 3: ["TDVIA:antakya", "TDVIA:halep"], 4: ["TDVIA:halep"], 12: ["TDVIA:danismendliler"],
+ 13: ["TDVIA:malatya", "TDVIA:danismendliler"], 14: ["TDVIA:sanliurfa"], 19: ["TDVIA:gaziantep"], 20: ["TDVIA:gaziantep"],
+ 32: ["TDVIA:malatya"], 43: ["TDVIA:el-melikul-esref-musa"], 45: ["TDVIA:husameddin-coban", "TDVIA:cobanogullari"],
+ 47: ["TDVIA:trabzon"], 48: ["TDVIA:harizmsahlar", "TDVIA:el-melikul-esref-musa"], 52: ["TDVIA:baba-ilyas", "TDVIA:babailik"],
+ 61: ["TDVIA:baybars-i", "TDVIA:muinuddin-suleyman-pervane"], 62: ["TDVIA:karamanogullari"], 63: ["TDVIA:germiyanogullari"],
+ 16: ["TDVIA:selcuklular"], 21: ["TDVIA:selcuklular"], 33: ["TDVIA:selcuklular"], 53: ["TDVIA:selcuklular"],
+}
+FIX = {
+ 53: {"dispute": "Tarih: Keyhusrev II maddesi 638 (1240-41), Selçuklular maddesi 1240."},
+ 33: {"dispute": "Tarih: TDVİA Zilkade 598 / Temmuz 1202 (Selçuklular maddesi de 1202); Gürcü kaynaklarına dayanan modern çalışmalarda 1203 de verilir. Yer adı (Basian) Gürcü kaynaklarındandır."},
+ 13: {"dispute": "Tarih: Kılıcarslan I ve Malatya maddeleri 1 Muharrem 500 / 2 Eylül 1106; Dânişmendliler maddesi 2 Eylül 1105 veya 1106."},
+ 20: {"status": "borderline", "dispute": "Mesud I maddesi kuşatmanın sonuç vermediğini yazar; Gaziantep maddesine göre Selçuklu ordusu Tel Bâşir önünde Josselin'in kuvvetleriyle karşılaştı ama Franklar savaşa cesaret edemedi. Gerçek bir çatışma olup olmadığı belirsiz."},
+ 45: {"side_b": "Suğdak'ı tutan Rumlar, Kıpçak ve Rus kuvvetleri", "status": "kesin", "dispute": "",
+      "note": "Hüsâmeddin Çoban'ın donanması Kırım'a çıkarma yaptı; Suğdak geri alındı, Kıpçak hanı ve Rus knezleri itaat etti (Çobanoğulları maddesi). Tarih için başka kaynaklarda 1225–1227 de verilir.",
+      "note_en": "Hüsameddin Çoban's fleet landed in the Crimea; Sudak was recovered and the Kipchak khan and Rus' princes submitted (Çobanoğulları article). Other sources also give 1225–1227."},
+ 63: {"date": "1288", "place": "Denizli yöresi", "lat": 37.78, "lon": 29.09, "loc": "region", "status": "kesin",
+      "note": "Germiyanlı Bedreddin Murad, Denizli yöresinde Moğol ve Selçuklu kuvvetleriyle çarpışmada öldü; mücadele 1289'a kadar sürdü. Germiyan devlet içinde bir uç beyliği olduğu için iç savaş sayıldı.",
+      "note_en": "Bedreddin Murad of Germiyan was killed fighting Mongol and Seljuk forces near Denizli; the struggle lasted until 1289. Counted as civil war because Germiyan was a frontier principality within the state."},
+}
+
 recs = []
 for i, r in enumerate(R, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, st, src, disp, note, note_en) = r
+    src = src + [s for s in EXTRA_SRC.get(i, []) if s not in src]
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": "land", "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": st, "sources": src,
@@ -264,6 +287,8 @@ for i, r in enumerate(R, 1):
            "state": A, "home_batch": "anadolu-selcuklu"}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
+    rec.update(FIX.get(i, {}))
+    if not rec.get("dispute"): rec.pop("dispute", None)
     recs.append(rec)
 
 root = Path(__file__).resolve().parent.parent

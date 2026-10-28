@@ -1,6 +1,6 @@
 # Parti 2: Anadolu Selçukluları (1075–1308)
 
-Tarih: 2026-10-28 · Veri: `data/anadolu-selcuklu.json` (üretici: `tools/make_anadolu.py`) · Durum: **ilk tur**
+Tarih: 2026-10-28 · Veri: `data/anadolu-selcuklu.json` (üretici: `tools/make_anadolu.py`) · Durum: **ikinci kaynak turu yapıldı**
 
 ## Özet
 - **64 kayıt**, 7 olay gerekçesiyle dışarıda bırakıldı.
@@ -8,7 +8,7 @@ Tarih: 2026-10-28 · Veri: `data/anadolu-selcuklu.json` (üretici: `tools/make_a
 - **Dış rakiplere karşı:** 26 galibiyet, 19 mağlubiyet, 1 belirsiz (Akşehir 1116).
 - **Türk devletleri arası:** 5 galibiyet, 2 mağlubiyet.
 - **Statü:** 40 kesin, 19 borderline, 5 ihtilaflı.
-- **Doğrulama:** Hepsi TDVİA'da; 25 kayıt iki ayrı TDVİA maddesinde. Kalan 39 kayıt yalnızca sultan maddesine dayanıyor ve ikinci tur bekliyor.
+- **Doğrulama:** Hepsi TDVİA'da; **46 kayıt iki ayrı TDVİA maddesinde** (ilk turda 25). 18 kayıt için TDVİA'da ikinci madde bulunamadı; bunlar Türk akademik literatürüyle kontrol bekliyor: İznik c. 1080, Akşehir 1116, Menderes 1148, Malatya 1143, Aksaray 1155, Yağıbasan 1162, Niksar 1176, Ra'bân 1179, Ankara 1204, Samsun c. 1205, Keben 1216, Kilikya 1225, el-Kâmil 1234, Hârizmliler c. 1238 ve 1240, Tarsus 1246, Kılıcarslan Kervansarayı 1249, Dulhisar 1304.
 
 ## Kaynaklar
 Sultan maddeleri: Süleyman Şah I, Kılıcarslan I–IV, Mesud I–II, Keyhusrev I–III, Süleyman Şah II, Keykâvus I–II, Keykubad I–III.
@@ -32,8 +32,17 @@ Olay ve yer maddeleri: Haçlılar, Kösedağ Savaşı, Miryokefalon Savaşı, D�
 
 1243 sonrasında Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu renginde gösterilir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. İran ve Orta Asya'daki 1157 sonrası el değiştirmeler kabadır ve "yaklaşık" işaretlidir.
 
+## İkinci kaynak turu (2026-10-28)
+Kullanılan ikinci maddeler: Antakya, Halep, Malatya, Şanlıurfa, Gaziantep, Dânişmendliler, el-Melikü'l-Eşref, Hüsâmeddin Çoban, Çobanoğulları, Trabzon, Hârizmşahlar, Baba İlyas, Babaîlik, Baybars I, Muînüddin Süleyman Pervâne, Karamanoğulları, Germiyanoğulları, Selçuklular. Yeni arama: `tools/tdvia_search.py -t` (madde içeriklerinde).
+
+- **Suğdak 1224:** borderline → kesin. Çobanoğulları maddesine göre şehir geri alındı, Kıpçak hanı ve Rus knezleri itaat etti.
+- **Germiyan:** tarih c. 1286 → 1288; yer Denizli yöresi (Germiyanoğulları maddesi).
+- **Tel Bâşir 1150:** kesin → borderline. Gaziantep maddesine göre Franklar savaşa girmedi.
+- **Yeni tarih ihtilafları:** Malatya 1105/1106, Âmid 1240/1241.
+
 ## Sonraki adımlar
-- [ ] İkinci tur: 39 tek maddeli kaydı ikinci TDVİA maddesiyle ve Türk akademik literatürüyle kontrol etmek (Turan, *Selçuklular Zamanında Türkiye*; Demirkent, Haçlı çalışmaları; Kaymaz, Pervâne).
+- [x] İkinci TDVİA turu (46/64).
+- [ ] Kalan 18 kayıt için Türk akademik literatürü (Turan, *Selçuklular Zamanında Türkiye*; Demirkent, Haçlı çalışmaları; Kaymaz, *Pervâne Muînüddîn Süleyman*; DergiPark makaleleri).
 - [ ] Hicrî tarihleri (`hijri`) doldurmak.
 - [ ] Dışarıda bırakılan Hyelion ve Leimocheir 1177'yi Roma veri setiyle kontrol etmek.
 - [ ] Wikipedia listesiyle kapsam kontrolü (eksik savaş var mı?).

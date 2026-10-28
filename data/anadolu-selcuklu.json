@@ -80,11 +80,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:suleyman-sah-i"
+    "TDVIA:suleyman-sah-i",
+    "TDVIA:antakya"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -115,11 +116,13 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:suleyman-sah-i"
+    "TDVIA:suleyman-sah-i",
+    "TDVIA:antakya",
+    "TDVIA:halep"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -150,11 +153,12 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:suleyman-sah-i"
+    "TDVIA:suleyman-sah-i",
+    "TDVIA:halep"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -440,11 +444,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:kilicarslan-i"
+    "TDVIA:kilicarslan-i",
+    "TDVIA:danismendliler"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -475,11 +480,13 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:kilicarslan-i"
+    "TDVIA:kilicarslan-i",
+    "TDVIA:malatya",
+    "TDVIA:danismendliler"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -487,7 +494,8 @@
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "İki ayı aşkın kuşatmadan sonra alındı.",
-   "note_en": "Taken after a siege of more than two months."
+   "note_en": "Taken after a siege of more than two months.",
+   "dispute": "Tarih: Kılıcarslan I ve Malatya maddeleri 1 Muharrem 500 / 2 Eylül 1106; Dânişmendliler maddesi 2 Eylül 1105 veya 1106."
   },
   {
    "id": 14,
@@ -510,11 +518,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:kilicarslan-i"
+    "TDVIA:kilicarslan-i",
+    "TDVIA:sanliurfa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -579,11 +588,12 @@
    "result": "W",
    "status": "ihtilafli",
    "sources": [
-    "TDVIA:mesud-i"
+    "TDVIA:mesud-i",
+    "TDVIA:selcuklular"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -688,11 +698,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:mesud-i"
+    "TDVIA:mesud-i",
+    "TDVIA:gaziantep"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -721,13 +732,14 @@
    "opp_cmd": "Beatrice, III. Josselin",
    "category": "dis",
    "result": "L",
-   "status": "kesin",
+   "status": "borderline",
    "sources": [
-    "TDVIA:mesud-i"
+    "TDVIA:mesud-i",
+    "TDVIA:gaziantep"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -735,7 +747,8 @@
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "Kuşatma sonuç vermedi; Keysûn, Behisni, Ra'bân ve Merzban ise aynı seferde alındı.",
-   "note_en": "The siege failed; Kaysun, Behisni, Ra'ban and Marzban were taken in the same campaign."
+   "note_en": "The siege failed; Kaysun, Behisni, Ra'ban and Marzban were taken in the same campaign.",
+   "dispute": "Mesud I maddesi kuşatmanın sonuç vermediğini yazar; Gaziantep maddesine göre Selçuklu ordusu Tel Bâşir önünde Josselin'in kuvvetleriyle karşılaştı ama Franklar savaşa cesaret edemedi. Gerçek bir çatışma olup olmadığı belirsiz."
   },
   {
    "id": 21,
@@ -758,11 +771,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mesud-i"
+    "TDVIA:mesud-i",
+    "TDVIA:selcuklular"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1150,11 +1164,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:suleyman-sah-ii"
+    "TDVIA:suleyman-sah-ii",
+    "TDVIA:malatya"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1185,18 +1200,19 @@
    "result": "L",
    "status": "ihtilafli",
    "sources": [
-    "TDVIA:suleyman-sah-ii"
+    "TDVIA:suleyman-sah-ii",
+    "TDVIA:selcuklular"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
-   "dispute": "Tarih: TDVİA Zilkade 598 / Temmuz 1202; Gürcü kaynaklarına dayanan modern çalışmalarda 1203 de verilir. Yer adı (Basian) Gürcü kaynaklarındandır.",
+   "dispute": "Tarih: TDVİA Zilkade 598 / Temmuz 1202 (Selçuklular maddesi de 1202); Gürcü kaynaklarına dayanan modern çalışmalarda 1203 de verilir. Yer adı (Basian) Gürcü kaynaklarındandır.",
    "note": "Yenilgiye rağmen Gürcüler Doğu Anadolu'da toprak kazanamadı.",
    "note_en": "Despite the defeat the Georgians gained no territory in eastern Anatolia."
   },
@@ -1541,11 +1557,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:keykavus-i"
+    "TDVIA:keykavus-i",
+    "TDVIA:el-melikul-esref-musa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1606,27 +1623,28 @@
    "loc": "known",
    "country": "Ukrayna",
    "side_a": "Anadolu Selçukluları",
-   "side_b": "Suğdak (Rus ve Kıpçak destekli)",
+   "side_b": "Suğdak'ı tutan Rumlar, Kıpçak ve Rus kuvvetleri",
    "turkic_cmd": "Hüsâmeddin Çoban",
    "opp_cmd": "",
    "category": "dis",
    "result": "W",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:keykubad-i"
+    "TDVIA:keykubad-i",
+    "TDVIA:husameddin-coban",
+    "TDVIA:cobanogullari"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
-   "dispute": "Tarih: Keykubad I maddesi 1224; başka kaynaklarda 1225–1227 de verilir.",
-   "note": "Selçuklu donanmasının denizaşırı seferi. Şehri savunanların kimliği ayrıca kontrol edilecek.",
-   "note_en": "An overseas expedition of the Seljuk fleet. The identity of the defenders is to be checked."
+   "note": "Hüsâmeddin Çoban'ın donanması Kırım'a çıkarma yaptı; Suğdak geri alındı, Kıpçak hanı ve Rus knezleri itaat etti (Çobanoğulları maddesi). Tarih için başka kaynaklarda 1225–1227 de verilir.",
+   "note_en": "Hüsameddin Çoban's fleet landed in the Crimea; Sudak was recovered and the Kipchak khan and Rus' princes submitted (Çobanoğulları article). Other sources also give 1225–1227."
   },
   {
    "id": 46,
@@ -1684,11 +1702,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:keykubad-i"
+    "TDVIA:keykubad-i",
+    "TDVIA:trabzon"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1719,11 +1738,13 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:keykubad-i"
+    "TDVIA:keykubad-i",
+    "TDVIA:harizmsahlar",
+    "TDVIA:el-melikul-esref-musa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1857,11 +1878,13 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:keyhusrev-ii"
+    "TDVIA:keyhusrev-ii",
+    "TDVIA:baba-ilyas",
+    "TDVIA:babailik"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1892,11 +1915,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:keyhusrev-ii"
+    "TDVIA:keyhusrev-ii",
+    "TDVIA:selcuklular"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1904,7 +1928,8 @@
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "Ardından Siverek, Ergani ve Çermik kaleleri alındı.",
-   "note_en": "Siverek, Ergani and Çermik were taken afterwards."
+   "note_en": "Siverek, Ergani and Çermik were taken afterwards.",
+   "dispute": "Tarih: Keyhusrev II maddesi 638 (1240-41), Selçuklular maddesi 1240."
   },
   {
    "id": 54,
@@ -2178,11 +2203,13 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:keyhusrev-iii"
+    "TDVIA:keyhusrev-iii",
+    "TDVIA:baybars-i",
+    "TDVIA:muinuddin-suleyman-pervane"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -2213,11 +2240,12 @@
    "result": "C",
    "status": "borderline",
    "sources": [
-    "TDVIA:keyhusrev-iii"
+    "TDVIA:keyhusrev-iii",
+    "TDVIA:karamanogullari"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -2231,13 +2259,13 @@
    "id": 63,
    "name_tr": "Germiyanoğulları'na karşı",
    "name_en": "Campaign against the Germiyanids",
-   "date": "c. 1286",
+   "date": "1288",
    "hijri": "",
    "type": "land",
    "war": "Mesud II–Germiyanoğulları",
-   "place": "Batı Anadolu",
-   "lat": 39.4,
-   "lon": 29.98,
+   "place": "Denizli yöresi",
+   "lat": 37.78,
+   "lon": 29.09,
    "loc": "region",
    "country": "Türkiye",
    "side_a": "Anadolu Selçukluları ve Moğollar",
@@ -2246,21 +2274,22 @@
    "opp_cmd": "",
    "category": "ic",
    "result": "C",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:mesud-ii"
+    "TDVIA:mesud-ii",
+    "TDVIA:germiyanogullari"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
-   "note": "Germiyan, devlet içinde bir uç beyliği olduğu için iç savaş sayıldı. Tarih yaklaşık.",
-   "note_en": "Counted as civil war because Germiyan was a frontier principality within the state. Date approximate."
+   "note": "Germiyanlı Bedreddin Murad, Denizli yöresinde Moğol ve Selçuklu kuvvetleriyle çarpışmada öldü; mücadele 1289'a kadar sürdü. Germiyan devlet içinde bir uç beyliği olduğu için iç savaş sayıldı.",
+   "note_en": "Bedreddin Murad of Germiyan was killed fighting Mongol and Seljuk forces near Denizli; the struggle lasted until 1289. Counted as civil war because Germiyan was a frontier principality within the state."
   },
   {
    "id": 64,
