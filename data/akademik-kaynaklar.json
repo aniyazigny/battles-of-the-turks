@@ -4,11 +4,45 @@
   "compiled": "2026-10-28"
  },
  "works": {
-  "erdem-2018": {"cite": "İlhan Erdem, \"Haçlılar ile Mücadelede Menbic ve Emir Belek\", Tarih Araştırmaları Dergisi 37/64 (2018), s. 191-204.", "url": "https://dergipark.org.tr/tr/pub/tariharastirmalari/article/602866"},
-  "celik-2021": {"cite": "Sebahattin Çelik, \"Harput Artuklu Emîri Belek Gazi'nin Haçlı Liderlerini Tutsak Etmesi\", Fırat Üniversitesi Sosyal Bilimler Dergisi 31/1 (2021), s. 525-540.", "url": "https://doi.org/10.18069/firatsbed.731800"},
-  "palabiyik-2007": {"cite": "M. Hanefi Palabıyık, \"Gaznelilerin Hindistan Seferleri\", Ekev Akademi Dergisi 11/32 (2007), s. 139-152.", "url": "https://isamveri.org/pdfdrg/D01777/2007_32/2007_32_PALABIYIKMH.pdf"},
-  "gokhan-2012": {"cite": "İlyas Gökhan, \"Türkiye Selçukluları ile Kilikya Ermenileri Arasındaki Siyasi İlişkiler\", NEÜ Sosyal Bilimler Enstitüsü Dergisi 1 (2012), s. 70-108.", "url": "https://dergipark.org.tr/en/download/article-file/184892"},
-  "citak-2025": {"cite": "Mesut Çıtak, \"I. İzzeddin Keykâvus Dönemi Kale Kuşatmaları: Strateji, Teknoloji ve Yönetim Uygulamaları\", Hatay Mustafa Kemal Üniversitesi Sosyal Bilimler Enstitüsü Dergisi 22/56 (2025), s. 76-94.", "url": "https://dergipark.org.tr/tr/download/article-file/4801139"},
-  "ince-2019": {"cite": "Fatma İnce, \"II. Kılıç Arslan Dönemi Selçuklu-Bizans İlişkileri (Miryokefalon Savaşı'na Kadar)\", Fırat Üniversitesi Sosyal Bilimler Dergisi 29/2 (2019), s. 369-383.", "url": "https://dergipark.org.tr/tr/download/article-file/854375"}
+  "erdem-2018": {
+   "cite": "İlhan Erdem, \"Haçlılar ile Mücadelede Menbic ve Emir Belek\", Tarih Araştırmaları Dergisi 37/64 (2018), s. 191-204.",
+   "url": "https://dergipark.org.tr/tr/pub/tariharastirmalari/article/602866"
+  },
+  "celik-2021": {
+   "cite": "Sebahattin Çelik, \"Harput Artuklu Emîri Belek Gazi'nin Haçlı Liderlerini Tutsak Etmesi\", Fırat Üniversitesi Sosyal Bilimler Dergisi 31/1 (2021), s. 525-540.",
+   "url": "https://doi.org/10.18069/firatsbed.731800"
+  },
+  "palabiyik-2007": {
+   "cite": "M. Hanefi Palabıyık, \"Gaznelilerin Hindistan Seferleri\", Ekev Akademi Dergisi 11/32 (2007), s. 139-152.",
+   "url": "https://isamveri.org/pdfdrg/D01777/2007_32/2007_32_PALABIYIKMH.pdf"
+  },
+  "gokhan-2012": {
+   "cite": "İlyas Gökhan, \"Türkiye Selçukluları ile Kilikya Ermenileri Arasındaki Siyasi İlişkiler\", NEÜ Sosyal Bilimler Enstitüsü Dergisi 1 (2012), s. 70-108.",
+   "url": "https://dergipark.org.tr/en/download/article-file/184892"
+  },
+  "citak-2025": {
+   "cite": "Mesut Çıtak, \"I. İzzeddin Keykâvus Dönemi Kale Kuşatmaları: Strateji, Teknoloji ve Yönetim Uygulamaları\", Hatay Mustafa Kemal Üniversitesi Sosyal Bilimler Enstitüsü Dergisi 22/56 (2025), s. 76-94.",
+   "url": "https://dergipark.org.tr/tr/download/article-file/4801139"
+  },
+  "ince-2019": {
+   "cite": "Fatma İnce, \"II. Kılıç Arslan Dönemi Selçuklu-Bizans İlişkileri (Miryokefalon Savaşı'na Kadar)\", Fırat Üniversitesi Sosyal Bilimler Dergisi 29/2 (2019), s. 369-383.",
+   "url": "https://dergipark.org.tr/tr/download/article-file/854375"
+  },
+  "safakci-2023": {
+   "cite": "Hamit Şafakçı, \"Osmanlılar ile Karamanlılar Arasında Hâkimiyet Mücadelesi: Akçay Savaşı\", Fırat Üniversitesi Sosyal Bilimler Dergisi (2023).",
+   "url": "https://doi.org/10.18069/firatsbed.1199823"
+  },
+  "derinoz-2022": {
+   "cite": "Bekir Derinöz, \"A Tainted Place in Central Anatolia: Kırkdilim Road (Çorum-Turkey)\", Karadeniz Araştırmaları Enstitüsü Dergisi 8/15 (2022), s. 323-343.",
+   "url": "https://doi.org/10.31765/karen.1156329"
+  },
+  "eroglu-sehzadeler": {
+   "cite": "Haldun Eroğlu, \"Osmanlı Ailesinin Savaşlarda Şehit Olan Üyeleri\" (DergiPark).",
+   "url": "https://dergipark.org.tr/tr/download/article-file/965294"
+  },
+  "heper-2023": {
+   "cite": "Yusuf Heper, \"Sultan Mehmed'in Eflâk Prensi III. Vlad Drakula (Kazıklı Voyvoda) ile Olan Mücadelesi\", Anadolu ve Balkan Araştırmaları Dergisi 6/12 (2023), s. 431-451.",
+   "url": "https://doi.org/10.32953/abad.1343458"
+  }
  }
 }

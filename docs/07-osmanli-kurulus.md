@@ -1,13 +1,13 @@
 # Parti 5: Osmanlı kuruluş dönemi (1284–1402)
 
-Tarih: 2026-10-28 · Veri: `data/osmanli-kurulus.json` (üretici: `tools/make_osmanli_kurulus.py`) · Durum: **ilk tur**
+Tarih: 2026-10-28 · Veri: `data/osmanli-kurulus.json` (üretici: `tools/make_osmanli_kurulus.py`) · Durum: **ikinci kaynak turu yapıldı**
 
 ## Özet
 - **31 kayıt**, 3 olay gerekçesiyle dışarıda bırakıldı.
 - **Dış rakiplere karşı:** 22 galibiyet, 3 mağlubiyet (Bileća 1388, Pločnik 1388, Ankara 1402), 1 belirsiz (Ermeni Beli 1284).
 - **Türk devletleri arası:** 3 galibiyet (Eretnalılar 1362, Frenkyazısı 1386/87, Akçay 1397), 1 mağlubiyet (Kadı Burhâneddin'e karşı Çorumlu 1392).
-- **Statü:** 17 kesin, 10 borderline, 4 ihtilaflı.
-- **Doğrulama:** 13 kayıt iki ayrı TDVİA maddesinde; 6 kayıt Roma veri setinde (Osman Gazi dönemi). 2 kayıt yalnızca Roma veri setine dayanıyor (Ermeni Beli, Kulaca Hisar).
+- **Statü:** 16 kesin, 10 borderline, 5 ihtilaflı.
+- **Doğrulama:** 20 kayıt iki ayrı TDVİA maddesinde (ilk turda 13); 4 kayıt akademik yayınla destekli; 6 kayıt Roma veri setinde (Osman Gazi dönemi). 2 kayıt yalnızca Roma veri setine dayanıyor (Ermeni Beli, Kulaca Hisar).
 
 Başlıca kayıtlar: Koyunhisar (Bafeus) 1302, Dimbos 1303, Pelekanon 1329, Dimetoka 1352, Sazlıdere 1361, Çirmen 1371, Savra 1385, Kosova 1389, Niğbolu 1396, Ankara 1402.
 
@@ -30,6 +30,17 @@ TDVİA: Osman I, Orhan, Murad I, Bayezid I, Ankara Savaşı, Kosova Savaşları,
 
 Bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır ve tabloda "yaklasik" işaretlidir.
 
+## İkinci kaynak turu (2026-10-29)
+TDVİA şehir ve kişi maddeleri: İzmit, Manastır, Niş, Selânik, Bosna-Hersek (Bileća), Eskişehir (Karacahisar), Karamanoğlu Alâeddin Bey (Akçay).
+Akademik yayınlar: Şafakçı 2023 (Akçay), Derinöz 2022 ve Eroğlu (Kırkdilim), Heper 2023 (Argeş).
+
+- **Akçay:** tarih 1397/1398, ihtilaflı. Kaynaklar 793 (1391) ile 800 (1397) arasında ayrılıyor; savaş iki gün sürdü, Konya on günlük kuşatmayla teslim oldu.
+- **Kırkdilim 1392:** Osmanlı yenilgisi doğrulandı (üç gün). Şehzade Ertuğrul'un burada şehit düştüğü rivayeti Eroğlu tarafından sorgulanıyor; notta.
+- **Karacahisar:** 1288 (Roma veri seti) ile 1291 (Osmanlı rivayeti) ihtilafı.
+- **Manastır:** 1382-83 ile 1385 ihtilafı.
+
+Hâlâ tek kaynaklı: Dimetoka 1352, Eretna 1362, Sozopol, Pikridion 1373, Savra 1385, Pločnik 1388; yalnızca Roma veri setine dayanan Ermeni Beli ve Kulaca Hisar.
+
 ## Bilinen eksikler
 - Orhan döneminin Karesi'nin ilhakı ve Rumeli'ye geçiş (Çimpe, Gelibolu 1354) olayları ayrı kayıt değil.
 - I. Murad'ın Balkan seferlerinde adı geçen küçük kuşatmalar (İncügez, Çatalca, Aydos) alınmadı.
@@ -37,5 +48,5 @@ Bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır ve tabloda "ya
 - Roma veri setindeki 1302–1310 "Türk beylikleri" savaşları (Katalanlar ve Bizans'a karşı) Anadolu beylikleri partisine bırakıldı.
 
 ## Sonraki adımlar
-- [ ] İkinci kaynak turu (18 tek maddeli kayıt); Osmanlı dönemi için İnalcık, Emecen ve DergiPark makaleleri.
+- [x] İkinci kaynak turu (20/31 iki TDVİA maddesiyle, 4 akademik).
 - [ ] Parti 6: Fetret Devri ve klasik dönemin başı (1402–1481): Çamurlu, Varna, Kosova 1448, İstanbul'un fethi, Otlukbeli.

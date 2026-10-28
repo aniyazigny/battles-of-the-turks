@@ -154,11 +154,12 @@
    "status": "borderline",
    "sources": [
     "TDVIA:osman-i",
-    "ROM"
+    "ROM",
+    "TDVIA:eskisehir"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": true,
     "academic": false
@@ -166,7 +167,8 @@
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-kurulus",
    "note": "Fetih tarihi kaynaklarda tartışmalıdır; Roma veri seti 1288 verir.",
-   "note_en": "The date of the conquest is disputed; the Roman dataset gives 1288."
+   "note_en": "The date of the conquest is disputed; the Roman dataset gives 1288.",
+   "dispute": "Tarih: Roma veri seti 1288; Osmanlı rivayetleri 1291 (Eskişehir maddesi). Fetih tarihi kaynaklarda tartışmalıdır."
   },
   {
    "id": 5,
@@ -409,11 +411,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:orhan"
+    "TDVIA:orhan",
+    "TDVIA:izmit"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -731,11 +734,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:murad-i"
+    "TDVIA:murad-i",
+    "TDVIA:manastir--makedonya"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -743,7 +747,8 @@
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-kurulus",
    "note": "Zorlu bir savaştan sonra alındı; ardından İştip ele geçirildi.",
-   "note_en": "Taken after a hard fight; Štip followed."
+   "note_en": "Taken after a hard fight; Štip followed.",
+   "dispute": "Tarih: Manastır maddesi 784-785 (1382-83), bazı rivayetlere göre 787 (1385) verir."
   },
   {
    "id": 21,
@@ -766,19 +771,20 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:murad-i"
+    "TDVIA:murad-i",
+    "TDVIA:nis"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-kurulus",
-   "note": "Çetin savaşlardan sonra yağma ilânıyla alındı.",
-   "note_en": "Taken after hard fighting following a declaration of plunder."
+   "note": "Yirmi beş gün süren ağır bir kuşatmadan sonra yağma ilânıyla alındı (Niş maddesi).",
+   "note_en": "Taken after a heavy 25-day siege following a declaration of plunder (Niš article)."
   },
   {
    "id": 22,
@@ -839,11 +845,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:murad-i"
+    "TDVIA:murad-i",
+    "TDVIA:selanik"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -874,11 +881,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:murad-i"
+    "TDVIA:murad-i",
+    "TDVIA:bosna-hersek"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -984,19 +992,21 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:kadi-burhaneddin"
+    "TDVIA:kadi-burhaneddin",
+    "AKD:derinoz-2022",
+    "AKD:eroglu-sehzadeler"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-kurulus",
-   "note": "Osmanlı kuvvetleri yenilip geri çekildi.",
-   "note_en": "The Ottoman forces were defeated and withdrew.",
+   "note": "Üç gün süren savaşı Osmanlılar kaybetti (Derinöz 2022). Osmanlı kroniklerine (Neşrî) dayanan yaygın görüşe göre Şehzade Ertuğrul burada şehit düştü; Eroğlu ise savaşı ayrıntılı anlatan Esterâbâdî'nin Ertuğrul'dan hiç söz etmediğine dikkat çekerek bunu sorgular.",
+   "note_en": "The Ottomans lost a three-day battle (Derinöz 2022). The common view based on Ottoman chronicles (Neşri) is that Prince Ertuğrul fell here; Eroğlu questions this, noting that Astarabadi, who describes the battle in detail, never mentions him.",
    "opp_state": "Kadı Burhâneddin Devleti"
   },
   {
@@ -1020,18 +1030,19 @@
    "result": "W",
    "status": "ihtilafli",
    "sources": [
-    "TDVIA:bayezid-i"
+    "TDVIA:bayezid-i",
+    "AKD:heper-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-kurulus",
-   "dispute": "TDVİA: Mircea yenildi ve yerine Vlad getirildi. Alternatif okuma: Romen kaynakları Rovine'yi Mircea'nın zaferi sayar; modern literatürde sonuç tartışmalıdır. Karar [P6]: Osmanlı zaferi."
+   "dispute": "TDVİA: Mircea yenildi ve yerine Vlad getirildi. Heper (2023): Argeş ya da Rovine civarındaki savaştan sonra Mircea ile anlaşılıp Eflak'ta hâkimiyet sağlandı; savaşın yeri ve tarihi literatürde tartışmalıdır. Alternatif okuma: Romen kaynakları Rovine'yi Mircea'nın zaferi sayar. Karar [P6]: Osmanlı zaferi."
   },
   {
    "id": 29,
@@ -1073,7 +1084,7 @@
    "id": 30,
    "name_tr": "Akçay",
    "name_en": "Battle of Akçay",
-   "date": "1397",
+   "date": "1397/1398",
    "hijri": "",
    "type": "land",
    "war": "Yıldırım Bayezid–Karamanoğulları",
@@ -1088,22 +1099,25 @@
    "opp_cmd": "Karamanoğlu Alâeddin Bey (öldürüldü)",
    "category": "turk_arasi",
    "result": "W",
-   "status": "kesin",
+   "status": "ihtilafli",
    "sources": [
-    "TDVIA:bayezid-i"
+    "TDVIA:bayezid-i",
+    "TDVIA:alaeddin-bey--karamanogullari",
+    "AKD:safakci-2023"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-kurulus",
-   "note": "Alâeddin Bey Konya Kalesi'ne kapandı, yakalanıp öldürüldü.",
-   "note_en": "Alaeddin Bey shut himself in Konya castle and was captured and killed.",
-   "opp_state": "Karamanoğulları"
+   "note": "İki gün süren savaşta yenilen Alâeddin Bey Konya Kalesi'ne sığındı; kuşatmanın onuncu gününde şehir teslim oldu, Alâeddin Bey yakalanıp öldürüldü.",
+   "note_en": "Defeated in a two-day battle, Alaeddin Bey took refuge in Konya castle; the city surrendered on the tenth day of the siege and he was captured and killed.",
+   "opp_state": "Karamanoğulları",
+   "dispute": "Tarih: Alâeddin Bey maddesi 800 (1397-98) verir ve ayın belli olmadığını belirtir; Şafakçı (2023) Şükrullah'ın ikinci seferi 793 (1391), Karamanî Mehmed Paşa'nın 800 (1397) yılına koyduğunu gösterir."
   },
   {
    "id": 31,

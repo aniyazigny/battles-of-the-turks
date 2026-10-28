@@ -120,6 +120,21 @@ R = [
  "Bayezid was captured and died at Akşehir (8 March 1403). The Timurids were of Turkic origin but outside the scope list, so recorded as external. The Ottoman Interregnum followed."),
 ]
 
+# İkinci kaynak turu (2026-10-29)
+EXTRA_SRC = {"İzmit'in teslimi": ["TDVIA:izmit"], "Manastır": ["TDVIA:manastir--makedonya"], "Niş": ["TDVIA:nis"],
+             "Selânik'in teslimi": ["TDVIA:selanik"], "Bileća": ["TDVIA:bosna-hersek"], "Karacahisar": ["TDVIA:eskisehir"],
+             "Akçay": ["TDVIA:alaeddin-bey--karamanogullari", "AKD:safakci-2023"],
+             "Çorumlu (Kırkdilim)": ["AKD:derinoz-2022", "AKD:eroglu-sehzadeler"], "Argeş (Rovine)": ["AKD:heper-2023"]}
+FIX = {"Argeş (Rovine)": {"dispute": "TDVİA: Mircea yenildi ve yerine Vlad getirildi. Heper (2023): Argeş ya da Rovine civarındaki savaştan sonra Mircea ile anlaşılıp Eflak'ta hâkimiyet sağlandı; savaşın yeri ve tarihi literatürde tartışmalıdır. Alternatif okuma: Romen kaynakları Rovine'yi Mircea'nın zaferi sayar. Karar [P6]: Osmanlı zaferi."},
+       "Manastır": {"dispute": "Tarih: Manastır maddesi 784-785 (1382-83), bazı rivayetlere göre 787 (1385) verir."},
+       "Niş": {"note": "Yirmi beş gün süren ağır bir kuşatmadan sonra yağma ilânıyla alındı (Niş maddesi).", "note_en": "Taken after a heavy 25-day siege following a declaration of plunder (Niš article)."},
+       "Karacahisar": {"dispute": "Tarih: Roma veri seti 1288; Osmanlı rivayetleri 1291 (Eskişehir maddesi). Fetih tarihi kaynaklarda tartışmalıdır."},
+       "Akçay": {"date": "1397/1398", "status": "ihtilafli",
+                 "dispute": "Tarih: Alâeddin Bey maddesi 800 (1397-98) verir ve ayın belli olmadığını belirtir; Şafakçı (2023) Şükrullah'ın ikinci seferi 793 (1391), Karamanî Mehmed Paşa'nın 800 (1397) yılına koyduğunu gösterir.",
+                 "note": "İki gün süren savaşta yenilen Alâeddin Bey Konya Kalesi'ne sığındı; kuşatmanın onuncu gününde şehir teslim oldu, Alâeddin Bey yakalanıp öldürüldü.",
+                 "note_en": "Defeated in a two-day battle, Alaeddin Bey took refuge in Konya castle; the city surrendered on the tenth day of the siege and he was captured and killed."},
+       "Çorumlu (Kırkdilim)": {"note": "Üç gün süren savaşı Osmanlılar kaybetti (Derinöz 2022). Osmanlı kroniklerine (Neşrî) dayanan yaygın görüşe göre Şehzade Ertuğrul burada şehit düştü; Eroğlu ise savaşı ayrıntılı anlatan Esterâbâdî'nin Ertuğrul'dan hiç söz etmediğine dikkat çekerek bunu sorgular.",
+                               "note_en": "The Ottomans lost a three-day battle (Derinöz 2022). The common view based on Ottoman chronicles (Neşri) is that Prince Ertuğrul fell here; Eroğlu questions this, noting that Astarabadi, who describes the battle in detail, never mentions him."}}
 OPP_STATE = {"Frenkyazısı": KAR, "Akçay": KAR, "Çorumlu (Kırkdilim)": KB, "Eretna kuvvetlerine karşı": ERT}
 LEFT = [
  {"name": "Bilecik ve Yarhisar (1299)", "reason": "Rivayete göre hile ile alındı; meydan savaşı yok.", "source": "TDVIA:osman-i"},
@@ -139,6 +154,11 @@ for i, r in enumerate(R, 1):
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
     if ntr in OPP_STATE: rec["opp_state"] = OPP_STATE[ntr]
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    rec.update(FIX.get(ntr, {}))
+    v = rec["verify"]; srcs = rec["sources"]
+    v["tdvia"] = any(x.startswith("TDVIA:") for x in srcs); v["tdvia2"] = len([x for x in srcs if x.startswith("TDVIA:")]) >= 2
+    v["academic"] = any(x.startswith("AKD:") for x in srcs)
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
