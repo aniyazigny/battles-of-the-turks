@@ -427,13 +427,13 @@
    "id": 12,
    "name_tr": "Dânişmendlilere karşı zafer (1103)",
    "name_en": "Victory over the Danishmendids (1103)",
-   "date": "1103",
+   "date": "1103-08",
    "hijri": "",
    "type": "land",
    "war": "Kılıcarslan I–Dânişmendliler",
-   "place": "Doğu Anadolu (yer belirsiz)",
-   "lat": 38.6,
-   "lon": 37.5,
+   "place": "Maraş yakını",
+   "lat": 37.58,
+   "lon": 36.93,
    "loc": "region",
    "country": "Türkiye",
    "side_a": "Anadolu Selçukluları",
@@ -442,7 +442,7 @@
    "opp_cmd": "Gümüştegin Gazi",
    "category": "turk_arasi",
    "result": "W",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
     "TDVIA:kilicarslan-i",
     "TDVIA:danismendliler"
@@ -456,8 +456,8 @@
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
-   "note": "Gümüştegin'in Bohemund'u fidye karşılığı bırakması üzerine. Savaşın yeri kaynakta yok.",
-   "note_en": "Followed Gümüshtegin's release of Bohemond for ransom. The site is not given."
+   "note": "Gümüştegin'in Bohemund'u fidye karşılığı bırakması üzerine. Yer ve tarih Dânişmendliler maddesinden: Maraş yakını, Zilkade 496 / Ağustos 1103.",
+   "note_en": "Followed Gümüshtegin's release of Bohemond for ransom. Place and date from the Danishmendids article: near Marash, August 1103."
   },
   {
    "id": 13,

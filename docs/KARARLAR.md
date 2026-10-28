@@ -49,3 +49,11 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Elbistan 1277 | Borderline; Memlükler dış rakip | Selçuklu taraf sayılmaz |
 | Karaman, Cimri, Germiyan | İç savaş | Türk devletleri arası |
 | Harita, 1243 sonrası | Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu renginde | Moğol rengi |
+
+## Kayıt kararları (Parti 3: beylikler ve atabeylikler, 2026-10-28)
+| Kayıt | Karar | Alternatif okuma |
+|---|---|---|
+| Sivas 1070, Kahire 1077, Harran 1104 | Pilottan Parti 3'e taşındı (K3) | Büyük Selçuklu |
+| Bâbeyn 1167 | Zengîlere yazıldı (Şîrkûh, Nûreddin'in komutanı) | Eyyûbî |
+| Şiran 1120 | Dış rakip (Trabzon dükü Gabras) | Türk devletleri arası (Mengücüklüler) |
+| Zengî–Artuklu, Zengî–Irak Selçuklu, Artuklu–Büyük Selçuklu | Türk devletleri arası | İç savaş |

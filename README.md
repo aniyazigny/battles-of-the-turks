@@ -11,10 +11,12 @@
 | [docs/01-inceleme-ve-kaynak-plani.md](docs/01-inceleme-ve-kaynak-plani.md) | Orijinal sitenin incelemesi ve ilk plan |
 | [docs/02-pilot-buyuk-selcuklu.md](docs/02-pilot-buyuk-selcuklu.md) | Pilot 1'in bulguları |
 | [docs/03-anadolu-selcuklu.md](docs/03-anadolu-selcuklu.md) | Parti 2: Anadolu Selçukluları |
+| [docs/04-beylikler-atabeylikler.md](docs/04-beylikler-atabeylikler.md) | Parti 3: Türk beylikleri ve atabeylikleri |
 
 ## Veri
-- `data/pilot-buyuk-selcuklu.json`: Büyük Selçuklu dönemi (1035–1157), 83 kayıt.
+- `data/pilot-buyuk-selcuklu.json`: Büyük Selçuklu dönemi (1035–1157), 80 kayıt (3 kayıt Parti 3'e taşındı).
 - `data/anadolu-selcuklu.json`: Anadolu Selçukluları (1075–1308), 64 kayıt (ilk tur). Üretici: `tools/make_anadolu.py`.
+- `data/beylikler-atabeylikler.json`: Türk beylikleri ve atabeylikleri (1070–1175), 45 kayıt. Üretici: `tools/make_beylikler.py`.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 
 ## Araçlar
@@ -28,7 +30,7 @@
 1. ~~Orijinal sitenin incelenmesi~~ ✅
 2. ~~Pilot: Büyük Selçuklu~~ ✅
 3. ~~Pilot kayıtlarının ikinci kaynakla kontrolü~~ ✅ (13 kayıt Türk akademik literatürüyle kontrol bekliyor)
-4. Anadolu Selçukluları ✅ ilk tur (ikinci kaynak turu bekliyor); sonra atabeylikler ve beylikler
+4. Anadolu Selçukluları ✅ (46/64 kayıt iki maddeyle); beylikler ve atabeylikler ✅ ilk tur
 5. Göktürk, Uygur, Karahanlı, Gazneli
 6. Osmanlı (dönemlere bölünerek)
 7. Türkiye Cumhuriyeti

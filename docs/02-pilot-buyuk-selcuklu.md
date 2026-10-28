@@ -59,4 +59,4 @@ Tek TDVİA maddesine dayanan kayıtlar ikinci, ayrı bir TDVİA maddesiyle karş
 - [x] Bizans, Ermeni ve Gürcü tarafıyla çelişen kayıtlar (Dvin, Konya, Partskhisi, Pasinler): P6 gereği TDVİA anlatısı esas alındı, karşı taraf "alternatif okuma" olarak notta.
 - [ ] Koordinatları kontrol etmek (çoğu yaklaşık).
 - [x] Kayıtlara İngilizce not alanları (`note_en`) eklemek.
-- [ ] Yukarıdaki üç açık karara göre sonraki parti: Anadolu Selçuklu ve beylikler.
+- [x] Sonraki partiler: Anadolu Selçukluları (Parti 2) ve beylikler (Parti 3). Sivas 1070, Kahire 1077 ve Harran 1104 Parti 3'e taşındı; pilot 80 kayda indi.

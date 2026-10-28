@@ -264,6 +264,9 @@ EXTRA_SRC = {
  16: ["TDVIA:selcuklular"], 21: ["TDVIA:selcuklular"], 33: ["TDVIA:selcuklular"], 53: ["TDVIA:selcuklular"],
 }
 FIX = {
+ 12: {"date": "1103-08", "place": "Maraş yakını", "lat": 37.58, "lon": 36.93, "loc": "region", "status": "kesin",
+      "note": "Gümüştegin'in Bohemund'u fidye karşılığı bırakması üzerine. Yer ve tarih Dânişmendliler maddesinden: Maraş yakını, Zilkade 496 / Ağustos 1103.",
+      "note_en": "Followed Gümüshtegin's release of Bohemond for ransom. Place and date from the Danishmendids article: near Marash, August 1103."},
  53: {"dispute": "Tarih: Keyhusrev II maddesi 638 (1240-41), Selçuklular maddesi 1240."},
  33: {"dispute": "Tarih: TDVİA Zilkade 598 / Temmuz 1202 (Selçuklular maddesi de 1202); Gürcü kaynaklarına dayanan modern çalışmalarda 1203 de verilir. Yer adı (Basian) Gürcü kaynaklarındandır."},
  13: {"dispute": "Tarih: Kılıcarslan I ve Malatya maddeleri 1 Muharrem 500 / 2 Eylül 1106; Dânişmendliler maddesi 2 Eylül 1105 veya 1106."},

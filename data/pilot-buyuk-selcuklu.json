@@ -1018,43 +1018,6 @@
    "home_batch": "buyuk-selcuklu"
   },
   {
-   "id": 28,
-   "name_tr": "Sivas (Sebasteia)",
-   "name_en": "Sebasteia",
-   "date": "1070",
-   "hijri": "462",
-   "type": "land",
-   "war": "Anadolu akınları",
-   "place": "Sivas yöresi",
-   "lat": 39.75,
-   "lon": 37.02,
-   "loc": "approx",
-   "country": "Türkiye",
-   "side_a": "Türk kuvvetleri (Er Basgan)",
-   "side_b": "Bizans",
-   "turkic_cmd": "Er Basgan (Erisgen / Bizans kaynaklarında Chrysoskoulos)",
-   "opp_cmd": "Manuel Komnenos (esir), Nikephoros Melissenos",
-   "category": "dis",
-   "result": "W",
-   "status": "borderline",
-   "sources": [
-    "TDVIA:afsin",
-    "ROM",
-    "TDVIA:alparslan"
-   ],
-   "verify": {
-    "tdvia": true,
-    "wp": false,
-    "rom": true,
-    "academic": false,
-    "tdvia2": true
-   },
-   "note": "Er Basgan Alparslan'ın eniştesidir ama o sırada sultana karşı firari durumdaydı. Bu yüzden Büyük Selçuklu hesabına yazılıp yazılmayacağı tartışmalı. [K3] Er Basgan sultana karşı firariydi; kendi adına hareket etti. Kayıt atabeylikler ve beylikler partisine taşınacak; o zamana kadar burada duruyor ve Büyük Selçuklu skoruna girmiyor.",
-   "state": "Selçuklu tâbii emîr",
-   "home_batch": "atabeylikler-beylikler",
-   "note_en": "Er Basgan was Alp Arslan's brother-in-law but was then a fugitive from the sultan, so assigning it to the Great Seljuks is disputed. [K3] He acted on his own account; the record will move to the atabegs and beyliks batch and is excluded from the Great Seljuk score until then."
-  },
-  {
    "id": 29,
    "name_tr": "Urfa kuşatması",
    "name_en": "Edessa (siege)",
@@ -1344,43 +1307,6 @@
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
    "note_en": "The campaign succeeded and the khutba was read in Malikshah's name. No named pitched battle in the sources."
-  },
-  {
-   "id": 37,
-   "name_tr": "Kahire",
-   "name_en": "Cairo",
-   "date": "1077-02-07",
-   "hijri": "10 Receb 469",
-   "type": "land",
-   "war": "Atsız'ın Mısır seferi",
-   "place": "Kahire önleri",
-   "lat": 30.05,
-   "lon": 31.25,
-   "loc": "approx",
-   "country": "Mısır",
-   "side_a": "Fâtımîler",
-   "side_b": "Selçuklular (Atsız)",
-   "turkic_cmd": "Atsız b. Uvak",
-   "opp_cmd": "Fâtımî kuvvetleri (Bedr el-Cemâlî dönemi)",
-   "category": "dis",
-   "result": "L",
-   "status": "borderline",
-   "sources": [
-    "TDVIA:atsiz-b-uvak",
-    "TDVIA:tutus",
-    "TDVIA:meliksah--buyuk-selcuklu"
-   ],
-   "verify": {
-    "tdvia": true,
-    "wp": false,
-    "rom": false,
-    "academic": false,
-    "tdvia2": true
-   },
-   "note": "Atsız hutbeyi Melikşah adına okutan yarı bağımsız bir Türkmen emîriydi. Bazı Türkmen atlıları safları terk etti. Önceki gün öncü Fâtımî kuvvetlerini yenmişti. [K3] Atsız sefere kendi inisiyatifiyle çıktı; sultan göndermedi. Kayıt atabeylikler ve beylikler partisine taşınacak; o zamana kadar burada duruyor ve Büyük Selçuklu skoruna girmiyor.",
-   "state": "Selçuklu tâbii emîr",
-   "home_batch": "atabeylikler-beylikler",
-   "note_en": "Atsiz was a semi-independent Turkmen emir who had the khutba read for Malikshah. Some Turkmen horsemen deserted. He had beaten the Fatimid vanguard the previous day. [K3] He campaigned on his own initiative; the record will move to the atabegs and beyliks batch and is excluded from the Great Seljuk score until then."
   },
   {
    "id": 38,
@@ -2140,43 +2066,6 @@
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
    "note_en": "Fifth and last battle; peace in January 1104."
-  },
-  {
-   "id": 59,
-   "name_tr": "Harran",
-   "name_en": "Harran",
-   "date": "1104-05",
-   "hijri": "497",
-   "type": "land",
-   "war": "Haçlılarla mücadele",
-   "place": "Harran yakını (Belih ırmağı)",
-   "lat": 36.86,
-   "lon": 39.03,
-   "loc": "approx",
-   "country": "Türkiye",
-   "side_a": "Musul ve Artuklu kuvvetleri",
-   "side_b": "Urfa Kontluğu, Antakya Prinkepsliği",
-   "turkic_cmd": "Çökürmüş (Musul), Sökmen (Artuklu)",
-   "opp_cmd": "Baudouin (esir), Josselin (esir), Bohemond, Tancred",
-   "category": "dis",
-   "result": "W",
-   "status": "borderline",
-   "strength": "Sökmen 10.000 kişiyle geldi (TDVİA).",
-   "sources": [
-    "TDVIA:sokmen-b-artuk",
-    "TDVIA:berkyaruk"
-   ],
-   "verify": {
-    "tdvia": true,
-    "wp": false,
-    "rom": false,
-    "academic": false,
-    "tdvia2": true
-   },
-   "note": "Kesin gün (7 Mayıs 1104 olarak bilinir) bağımsız kaynakla doğrulanacak. Sultan ordusu değil, tâbi emîrler savaştı; bu yüzden Büyük Selçuklu hesabına yazılması tartışmalı. Artuklular dönemiyle birlikte ele alınabilir. [K3] Çökürmüş ve Sökmen kendi inisiyatifleriyle savaştı; sultan ordusu yoktu. Kayıt atabeylikler ve beylikler partisine taşınacak; o zamana kadar burada duruyor ve Büyük Selçuklu skoruna girmiyor.",
-   "state": "Selçuklu tâbii emîr",
-   "home_batch": "atabeylikler-beylikler",
-   "note_en": "The exact day (usually 7 May 1104) awaits independent confirmation. Vassal emirs, not the sultan's army, fought. [K3] Chökürmüsh and Sökmen fought on their own initiative; the record will move to the atabegs and beyliks batch and is excluded from the Great Seljuk score until then."
   },
   {
    "id": 60,
@@ -3096,6 +2985,11 @@
    "name": "Myriokephalon (1176), Rey (1194), Kösedağ (1243)",
    "reason": "Wikipedia Selçuklu listesinde var, ama pilot dönemin dışında (Anadolu ve Irak Selçukluları partileri).",
    "source": "WP:List_of_battles_involving_the_Seljuk_Empire"
+  },
+  {
+   "name": "Sivas 1070, Kahire 1077, Harran 1104",
+   "reason": "K3 gereği Parti 3'e (beylikler ve atabeylikler) taşındı; data/beylikler-atabeylikler.json.",
+   "source": "TDVIA:afsin"
   }
  ]
 }
