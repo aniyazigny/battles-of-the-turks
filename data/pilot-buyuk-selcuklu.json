@@ -2009,7 +2009,7 @@
    "id": 57,
    "name_tr": "Belh (Kadır Han)",
    "name_en": "Balkh 1102",
-   "date": "1102",
+   "date": "1102-05-22",
    "hijri": "495",
    "type": "land",
    "war": "Sencer–Karahanlı ilişkileri",
@@ -2027,19 +2027,21 @@
    "status": "borderline",
    "strength": "TDVİA: Kadır Han 100.000, Sencer 5.000 süvari. Sayılar abartılı olabilir.",
    "sources": [
-    "TDVIA:sencer"
+    "TDVIA:sencer",
+    "TDVIA:karahanlilar",
+    "TDVIA:arslan-han"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
     "academic": false,
-    "tdvia2": false
+    "tdvia2": true
    },
-   "note": "Av sırasında yapılan baskın; 'kısa süren çatışma'. Meydan savaşı sayılması tartışmalı.",
+   "note": "Av sırasında yapılan baskın; 'kısa süren çatışma'. Kadır Han Cebrâil esir alınıp idam edildi (2 Şâban 495 / 22 Mayıs 1102; Karahanlılar maddesi). Meydan savaşı sayılması tartışmalı.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "A surprise attack during a hunt; 'a brief clash'. Counting it as a pitched battle is disputed.",
+   "note_en": "A surprise attack during a hunt; 'a brief clash'. Qadir Khan Jibra'il was captured and executed (22 May 1102; Karakhanids article). Counting it as a pitched battle is disputed.",
    "opp_state": "Karahanlılar"
   },
   {

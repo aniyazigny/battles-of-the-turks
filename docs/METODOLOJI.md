@@ -109,7 +109,7 @@ Her dosyada ayrıca bir `left_out` listesi (gerekçeli) ve kuralları içeren bi
   python -I tools/tdvia.py <çıktı_klasörü> <slug> ...
   ```
 
-  Gövde ve kaynakça `tools/body.py` ile, savaş geçen cümleler `tools/grepbattle.py` ile, belirli bir ifadenin geçtiği cümleler `tools/kw.py` ile çıkarılır.
+  **Çok bölümlü maddeler** (ör. Selçuklular 9 bölüm) sayfada art arda gelir; gövde `tools/tdvia_text.py` ile bütün bölümlerden çıkarılır. Gövde ve kaynakça `tools/body.py` ile, savaş geçen cümleler `tools/grepbattle.py` ile, belirli bir ifadenin geçtiği cümleler `tools/kw.py` ile çıkarılır.
 - **Madde arama:** `python -I -X utf8 tools/tdvia_search.py [-t] <sorgu>` başlıklarda (veya `-t` ile madde içeriklerinde) arar ve madde adreslerini listeler. Bir olayın geçtiği ikinci maddeyi bulmanın en hızlı yolu `-t` aramasıdır.
 - **Madde adresleri** tahmin edilemez (ör. `meliksah--buyuk-selcuklu`, `ilgazi-necmeddin`). Doğru adresler bir maddenin `https://islamansiklopedisi.org.tr/<slug>/iliskili-maddeler` sayfasından çıkarılır.
 - **Telif:** TDVİA metinleri telifle korunur. Projeye metin kopyalanmaz; yalnızca olgular, atıf ve kısa alıntı kullanılır. İndirilen ham metinler repoya konmaz.
