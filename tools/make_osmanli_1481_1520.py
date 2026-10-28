@@ -19,6 +19,17 @@ R = [
 ("Akkirman", "Siege of Cetatea Albă", "1484-08-04", "II. Bayezid'in Boğdan seferi", "Akkirman", 46.20, 30.35, "known", "Ukrayna",
  O, "Boğdan", "II. Bayezid", "III. Stefan", "dis", "W", "kesin",
  ["TDVIA:bayezid-ii", "TDVIA:akkirman"], "", "Kırım'a karadan ulaşım sağlandı; Karadeniz kıyıları tamamen Osmanlı hâkimiyetine girdi.", "A land route to the Crimea was secured; the whole Black Sea coast came under Ottoman control.", "land"),
+("Çukurova (1486)", "Campaign in Cilicia (1486)", "1486", "Osmanlı–Memlük savaşı (1485–1491)", "Çukurova", 37.00, 35.30, "region", "Türkiye",
+ "Memlükler", O, "Hersekzâde Ahmed Paşa (esir)", "", "dis", "L", "kesin",
+ ["TDVIA:hersekzade-ahmed-pasa", "TDVIA:kayitbay"], "", "Karagöz Paşa ile Hızır Beyzâde'nin yardım etmemesi yüzünden Hersekzâde yaralanıp esir düştü ve Kahire'de bir yıl tutuldu.",
+ "Because Karagöz Pasha and Hızır Beyzade failed to support him, Hersekzade was wounded, captured and held in Cairo for a year.", "land"),
+("Adana ve Tarsus (1487)", "Recapture of Adana and Tarsus (1487)", "1487", "Osmanlı–Memlük savaşı (1485–1491)", "Adana", 37.00, 35.32, "approx", "Türkiye",
+ O, "Memlükler, Turgutoğulları ve Varsaklar", "Koca Dâvud Paşa", "", "dis", "W", "kesin",
+ ["TDVIA:davud-pasa-koca", "TDVIA:kayitbay"], "", "Elden çıkmış Adana ve Tarsus geri alındı.", "Adana and Tarsus, which had been lost, were recovered.", "land"),
+("Ağaçayırı", "Battle of Ağaçayırı", "1488-08-16", "Osmanlı–Memlük savaşı (1485–1491)", "Ağaçayırı, Adana yakını", 37.05, 35.40, "approx", "Türkiye",
+ "Memlükler", O, "Hadım Ali Paşa", "", "dis", "L", "kesin",
+ ["TDVIA:kayitbay", "TDVIA:hersekzade-ahmed-pasa"], "", "Başta üstün olan Osmanlı ordusu yenildi; Adana yeniden Memlüklere geçti. Donanma da İskenderun önünde fırtınada gemilerinin çoğunu kaybetti.",
+ "The Ottoman army, initially successful, was defeated; Adana passed back to the Mamluks. The fleet also lost most of its ships in a storm off Iskenderun.", "land"),
 ("İnebahtı (1499)", "Siege of Lepanto (1499)", "1499-08", "Osmanlı–Venedik savaşı (1499–1503)", "İnebahtı", 38.39, 21.83, "known", "Yunanistan",
  O, "Venedik", "II. Bayezid, Kemal Reis", "", "dis", "W", "kesin",
  ["TDVIA:kemal-reis"], "", "Donanma, karadan kuşatan orduya Venedik yardımını keserek destek verdi.", "The fleet supported the land siege by cutting off Venetian relief.", "land"),
@@ -77,7 +88,7 @@ R = [
 
 OPP_STATE = {"Turnadağ": DUL}
 LEFT = [
- {"name": "Osmanlı–Memlük savaşı (1485–1491)", "reason": "Bayezid II maddesi kesin bir zafer kazanılmadığını yazar; Adana 1486 ve Ağaçayırı 1488 savaşlarının ayrıntısı indirilen maddelerde bulunamadı. İkinci turda aranacak.", "source": "TDVIA:bayezid-ii"},
+ {"name": "Kayseri (1490)", "reason": "Memlüklerin 1490 seferi; ayrıntı alınmadı.", "source": "TDVIA:kayitbay"},
  {"name": "Cem Sultan'ın ikinci denemesi (1482)", "reason": "Savaşın adı ve yeri kaynakta yok.", "source": "TDVIA:cem-sultan"},
  {"name": "Kahire sokak çatışmaları (1517)", "reason": "Ridâniye sonrası; ayrı bir meydan savaşı değil.", "source": "TDVIA:ridaniye-savasi"},
 ]

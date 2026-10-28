@@ -135,6 +135,114 @@
   },
   {
    "id": 4,
+   "name_tr": "Çukurova (1486)",
+   "name_en": "Campaign in Cilicia (1486)",
+   "date": "1486",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Memlük savaşı (1485–1491)",
+   "place": "Çukurova",
+   "lat": 37.0,
+   "lon": 35.3,
+   "loc": "region",
+   "country": "Türkiye",
+   "side_a": "Memlükler",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "Hersekzâde Ahmed Paşa (esir)",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:hersekzade-ahmed-pasa",
+    "TDVIA:kayitbay"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1481-1520",
+   "note": "Karagöz Paşa ile Hızır Beyzâde'nin yardım etmemesi yüzünden Hersekzâde yaralanıp esir düştü ve Kahire'de bir yıl tutuldu.",
+   "note_en": "Because Karagöz Pasha and Hızır Beyzade failed to support him, Hersekzade was wounded, captured and held in Cairo for a year."
+  },
+  {
+   "id": 5,
+   "name_tr": "Adana ve Tarsus (1487)",
+   "name_en": "Recapture of Adana and Tarsus (1487)",
+   "date": "1487",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Memlük savaşı (1485–1491)",
+   "place": "Adana",
+   "lat": 37.0,
+   "lon": 35.32,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Memlükler, Turgutoğulları ve Varsaklar",
+   "turkic_cmd": "Koca Dâvud Paşa",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:davud-pasa-koca",
+    "TDVIA:kayitbay"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1481-1520",
+   "note": "Elden çıkmış Adana ve Tarsus geri alındı.",
+   "note_en": "Adana and Tarsus, which had been lost, were recovered."
+  },
+  {
+   "id": 6,
+   "name_tr": "Ağaçayırı",
+   "name_en": "Battle of Ağaçayırı",
+   "date": "1488-08-16",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Memlük savaşı (1485–1491)",
+   "place": "Ağaçayırı, Adana yakını",
+   "lat": 37.05,
+   "lon": 35.4,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Memlükler",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "Hadım Ali Paşa",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:kayitbay",
+    "TDVIA:hersekzade-ahmed-pasa"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1481-1520",
+   "note": "Başta üstün olan Osmanlı ordusu yenildi; Adana yeniden Memlüklere geçti. Donanma da İskenderun önünde fırtınada gemilerinin çoğunu kaybetti.",
+   "note_en": "The Ottoman army, initially successful, was defeated; Adana passed back to the Mamluks. The fleet also lost most of its ships in a storm off Iskenderun."
+  },
+  {
+   "id": 7,
    "name_tr": "İnebahtı (1499)",
    "name_en": "Siege of Lepanto (1499)",
    "date": "1499-08",
@@ -169,7 +277,7 @@
    "note_en": "The fleet supported the land siege by cutting off Venetian relief."
   },
   {
-   "id": 5,
+   "id": 8,
    "name_tr": "Sapienza (Zonchio)",
    "name_en": "Battle of Zonchio",
    "date": "1499-08",
@@ -204,7 +312,7 @@
    "note_en": "Burak Reis sacrificed his ship to burn the Venetian vessels. Further victories followed a month later at Holomiç, Çamlıca and the Gulf of Lepanto."
   },
   {
-   "id": 6,
+   "id": 9,
    "name_tr": "Modon",
    "name_en": "Siege of Modon",
    "date": "1500-08-10",
@@ -241,7 +349,7 @@
    "note_en": "Taken after a bloody four-month siege."
   },
   {
-   "id": 7,
+   "id": 10,
    "name_tr": "Koron",
    "name_en": "Fall of Coron",
    "date": "1500-08-15",
@@ -276,7 +384,7 @@
    "note_en": "Surrendered after the fall of Modon."
   },
   {
-   "id": 8,
+   "id": 11,
    "name_tr": "Midilli müdafaası (1501)",
    "name_en": "Siege of Mytilene (1501)",
    "date": "1501",
@@ -311,7 +419,7 @@
    "note_en": "The allied fleet's attacks on Mytilene and Çeşme failed."
   },
   {
-   "id": 9,
+   "id": 12,
    "name_tr": "Kütahya (Şahkulu)",
    "name_en": "Battle of Kütahya (1511)",
    "date": "1511-04",
@@ -346,7 +454,7 @@
    "note_en": "Shahkulu feigned defeat and then routed the governor with a counter-attack."
   },
   {
-   "id": 10,
+   "id": 13,
    "name_tr": "Çubuk (Gökçay)",
    "name_en": "Battle of Gökçay (1511)",
    "date": "1511-07",
@@ -381,7 +489,7 @@
    "note_en": "The revolt was crushed; the grand vizier and Shahkulu were both killed."
   },
   {
-   "id": 11,
+   "id": 14,
    "name_tr": "Uğraşdere (Çorlu)",
    "name_en": "Battle of Uğraşdere",
    "date": "1511-08",
@@ -417,7 +525,7 @@
    "note_en": "Forced back by a sudden attack, Selim returned to Caffa."
   },
   {
-   "id": 12,
+   "id": 15,
    "name_tr": "Yenişehir (1513)",
    "name_en": "Battle of Yenişehir (1513)",
    "date": "1513-04-15",
@@ -450,7 +558,7 @@
    "home_batch": "osmanli-1481-1520"
   },
   {
-   "id": 13,
+   "id": 16,
    "name_tr": "Çaldıran",
    "name_en": "Battle of Chaldiran",
    "date": "1514-08-23",
@@ -486,7 +594,7 @@
    "note_en": "As the wings wavered, the cannon and janissary musketeers won the battle. Kemah, Harput and Diyarbekir then passed to the Ottomans."
   },
   {
-   "id": 14,
+   "id": 17,
    "name_tr": "Kemah",
    "name_en": "Siege of Kemah",
    "date": "1515-05",
@@ -520,7 +628,7 @@
    "home_batch": "osmanli-1481-1520"
   },
   {
-   "id": 15,
+   "id": 18,
    "name_tr": "Turnadağ",
    "name_en": "Battle of Turnadağ",
    "date": "1515-06-12",
@@ -556,7 +664,7 @@
    "opp_state": "Dulkadıroğulları"
   },
   {
-   "id": 16,
+   "id": 19,
    "name_tr": "Âmid (1515)",
    "name_en": "Capture of Amida (1515)",
    "date": "1515-09-19",
@@ -590,7 +698,7 @@
    "home_batch": "osmanli-1481-1520"
   },
   {
-   "id": 17,
+   "id": 20,
    "name_tr": "Koçhisar",
    "name_en": "Battle of Koçhisar",
    "date": "1516-06",
@@ -625,7 +733,7 @@
    "note_en": "Kara Khan was defeated and killed; his severed head reached the camp in June 1516."
   },
   {
-   "id": 18,
+   "id": 21,
    "name_tr": "Mercidâbık",
    "name_en": "Battle of Marj Dabiq",
    "date": "1516-08-24",
@@ -662,7 +770,7 @@
    "note_en": "The Mamluk sultan was killed. The Mamluks were of Turkic origin but outside the scope list, so recorded as external."
   },
   {
-   "id": 19,
+   "id": 22,
    "name_tr": "Gazze (1516)",
    "name_en": "Battle of Khan Yunis",
    "date": "1516-12-21",
@@ -697,7 +805,7 @@
    "note_en": "Ghazali was defeated and returned to Cairo (21 December 1516)."
   },
   {
-   "id": 20,
+   "id": 23,
    "name_tr": "Ridâniye",
    "name_en": "Battle of Ridaniya",
    "date": "1517-01-22",
@@ -735,9 +843,9 @@
  ],
  "left_out": [
   {
-   "name": "Osmanlı–Memlük savaşı (1485–1491)",
-   "reason": "Bayezid II maddesi kesin bir zafer kazanılmadığını yazar; Adana 1486 ve Ağaçayırı 1488 savaşlarının ayrıntısı indirilen maddelerde bulunamadı. İkinci turda aranacak.",
-   "source": "TDVIA:bayezid-ii"
+   "name": "Kayseri (1490)",
+   "reason": "Memlüklerin 1490 seferi; ayrıntı alınmadı.",
+   "source": "TDVIA:kayitbay"
   },
   {
    "name": "Cem Sultan'ın ikinci denemesi (1482)",

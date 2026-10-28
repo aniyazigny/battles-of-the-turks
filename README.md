@@ -25,7 +25,7 @@
 - `data/gazneli-karahanli.json`: Gazneliler ve Karahanlılar (893–1156), 30 kayıt. Üretici: `tools/make_gazneli_karahanli.py`.
 - `data/osmanli-kurulus.json`: Osmanlı kuruluş dönemi (1284–1402), 31 kayıt. Üretici: `tools/make_osmanli_kurulus.py`.
 - `data/osmanli-1402-1481.json`: Osmanlı 1402–1481, 45 kayıt. Üretici: `tools/make_osmanli_1402_1481.py`.
-- `data/osmanli-1481-1520.json`: Osmanlı 1481–1520, 20 kayıt. Üretici: `tools/make_osmanli_1481_1520.py`.
+- `data/osmanli-1481-1520.json`: Osmanlı 1481–1520, 23 kayıt. Üretici: `tools/make_osmanli_1481_1520.py`.
 - `data/akademik-kaynaklar.json`: `AKD:` anahtarıyla atıf yapılan akademik yayınların künyeleri.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 
