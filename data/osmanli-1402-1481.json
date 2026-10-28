@@ -101,7 +101,7 @@
    "id": 3,
    "name_tr": "Edirne (1411)",
    "name_en": "Battle of Edirne (1411)",
-   "date": "1411",
+   "date": "1411-02-17",
    "hijri": "",
    "type": "land",
    "war": "Fetret Devri",
@@ -118,19 +118,20 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:musa-celebi"
+    "TDVIA:musa-celebi",
+    "TDVIA:mehmed-i"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1402-1481",
-   "note": "Mûsâ kardeşine ait kuvvetleri yenip Edirne'ye girdi; Süleyman kaçarken öldürüldü.",
-   "note_en": "Musa defeated his brother's forces and entered Edirne; Süleyman was killed while fleeing."
+   "note": "Mûsâ âni bir saldırıyla Edirne'yi aldı; Süleyman öldürüldü (22 Şevval 813; Mehmed I maddesi).",
+   "note_en": "Musa took Edirne in a surprise attack; Süleyman was killed (17 February 1411; Mehmed I article)."
   },
   {
    "id": 4,
@@ -225,11 +226,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-i"
+    "TDVIA:mehmed-i",
+    "TDVIA:karamanogullari"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -368,11 +370,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:murad-ii"
+    "TDVIA:murad-ii",
+    "TDVIA:karamanogullari"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -404,11 +407,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:murad-ii"
+    "TDVIA:murad-ii",
+    "TDVIA:mora"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -650,11 +654,12 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:varna-muharebesi"
+    "TDVIA:varna-muharebesi",
+    "TDVIA:macaristan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -682,11 +687,12 @@
    "turkic_cmd": "II. Murad",
    "opp_cmd": "János Hunyadi",
    "category": "dis",
-   "result": "W",
+   "result": "D",
    "status": "ihtilafli",
    "sources": [
     "TDVIA:varna-muharebesi",
-    "TDVIA:gazavat-i-sultan-murad"
+    "TDVIA:gazavat-i-sultan-murad",
+    "TDVIA:macaristan"
    ],
    "verify": {
     "tdvia": true,
@@ -697,7 +703,7 @@
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1402-1481",
-   "dispute": "TDVİA: Murad Macar birliklerini Zlatitsa geçidinde zorlukla durdurdu. Alternatif okuma: Batı kaynakları Haçlıların geri çekilişi sırasında Kunoviçe'de Osmanlıları yendiğini yazar. Karar [P6]: Osmanlı başarısı.",
+   "dispute": "TDVİA'nın kendi maddeleri çelişiyor: Varna Muharebesi maddesi Murad'ın Macar birliklerini Zlatitsa geçidinde zorlukla durdurduğunu, Macaristan maddesi ise İzlâdi'yi Hunyadi'nin Osmanlılara karşı ilk ciddi başarılarından biri olarak anar. Batı kaynakları da çekilişte Kunoviçe'de Haçlı başarısı yazar. P6 TDVİA'nın kendi içindeki çelişkiyi çözmediği için sonuç belirsiz (D).",
    "note": "Gazavât-ı Sultan Murad bu savaşın en ayrıntılı kaynağıdır.",
    "note_en": "The Gazavat-i Sultan Murad is the most detailed source for this battle."
   },
@@ -903,11 +909,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:iskender-bey"
+    "TDVIA:iskender-bey",
+    "TDVIA:berat--arnavutluk"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -938,11 +945,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-ii"
+    "TDVIA:mehmed-ii",
+    "TDVIA:macaristan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1147,11 +1155,13 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-ii"
+    "TDVIA:mehmed-ii",
+    "TDVIA:bosna-hersek",
+    "TDVIA:macaristan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1182,11 +1192,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-ii"
+    "TDVIA:mehmed-ii",
+    "TDVIA:egriboz"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1360,11 +1371,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:mehmed-ii"
+    "TDVIA:mehmed-ii",
+    "TDVIA:karamanogullari"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1394,11 +1406,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-ii"
+    "TDVIA:mehmed-ii",
+    "TDVIA:bogdan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1429,19 +1442,20 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-ii"
+    "TDVIA:mehmed-ii",
+    "TDVIA:kefe"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1402-1481",
-   "note": "Dört günlük kuşatmadan sonra teslim oldu.",
-   "note_en": "Surrendered after a four-day siege."
+   "note": "Gedik Ahmed Paşa 100 parçalık donanmayla gönderildi; Kefe ile birlikte bütün sahil şeridi alındı. Dört günlük kuşatmadan sonra teslim oldu.",
+   "note_en": "Gedik Ahmed Pasha was sent with a fleet of 100 ships; Caffa and the whole coastal strip were taken. The city surrendered after a four-day siege."
   },
   {
    "id": 41,
@@ -1464,11 +1478,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-ii"
+    "TDVIA:mehmed-ii",
+    "TDVIA:arnavutluk"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1570,11 +1585,13 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-ii"
+    "TDVIA:mehmed-ii",
+    "TDVIA:otranto-seferi",
+    "TDVIA:gedik-ahmed-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1605,11 +1622,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-ii"
+    "TDVIA:mehmed-ii",
+    "TDVIA:otranto-seferi"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

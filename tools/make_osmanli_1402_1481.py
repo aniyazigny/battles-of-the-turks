@@ -155,6 +155,18 @@ R = [
 ]
 
 OPP_STATE = {r[0]: KAR for r in R if r[13] == "turk_arasi"}
+# İkinci kaynak turu (2026-10-29)
+EXTRA_SRC = {"Edirne (1411)": ["TDVIA:mehmed-i"], "Bursa müdafaası (1413)": ["TDVIA:karamanogullari"], "Antalya müdafaası (1423)": ["TDVIA:karamanogullari"],
+             "Germe (Hexamilion, 1423)": ["TDVIA:mora"], "Niş (1443)": ["TDVIA:macaristan"], "Berat (1455)": ["TDVIA:berat--arnavutluk"],
+             "Belgrad kuşatması (1456)": ["TDVIA:macaristan"], "Yayça (Jajce, 1463)": ["TDVIA:bosna-hersek", "TDVIA:macaristan"],
+             "Eğriboz": ["TDVIA:egriboz"], "Karaman seferi (1474)": ["TDVIA:karamanogullari"], "Akdere (Vaslui, 1475)": ["TDVIA:bogdan"],
+             "Kefe": ["TDVIA:kefe"], "Akçahisar (Kruya, 1478)": ["TDVIA:arnavutluk"], "Otranto (1480)": ["TDVIA:otranto-seferi", "TDVIA:gedik-ahmed-pasa"],
+             "Otranto (1481)": ["TDVIA:otranto-seferi"], "İzlâdi (Zlatitsa)": ["TDVIA:macaristan"]}
+FIX = {"Edirne (1411)": {"date": "1411-02-17", "note": "Mûsâ âni bir saldırıyla Edirne'yi aldı; Süleyman öldürüldü (22 Şevval 813; Mehmed I maddesi).",
+                         "note_en": "Musa took Edirne in a surprise attack; Süleyman was killed (17 February 1411; Mehmed I article)."},
+       "İzlâdi (Zlatitsa)": {"result": "D", "dispute": "TDVİA'nın kendi maddeleri çelişiyor: Varna Muharebesi maddesi Murad'ın Macar birliklerini Zlatitsa geçidinde zorlukla durdurduğunu, Macaristan maddesi ise İzlâdi'yi Hunyadi'nin Osmanlılara karşı ilk ciddi başarılarından biri olarak anar. Batı kaynakları da çekilişte Kunoviçe'de Haçlı başarısı yazar. P6 TDVİA'nın kendi içindeki çelişkiyi çözmediği için sonuç belirsiz (D)."},
+       "Kefe": {"note": "Gedik Ahmed Paşa 100 parçalık donanmayla gönderildi; Kefe ile birlikte bütün sahil şeridi alındı. Dört günlük kuşatmadan sonra teslim oldu.",
+                "note_en": "Gedik Ahmed Pasha was sent with a fleet of 100 ships; Caffa and the whole coastal strip were taken. The city surrendered after a four-day siege."}}
 LEFT = [
  {"name": "Novoberda (1413)", "reason": "Mûsâ Çelebi'nin kuşatması; sonucu kaynakta yok.", "source": "TDVIA:musa-celebi"},
  {"name": "Demirkapı (1442), Kunoviçe (1444)", "reason": "TDVİA'da adıyla bulunamadı; kaynakla doğrulanınca eklenecek.", "source": "TDVIA:murad-ii"},
@@ -174,6 +186,11 @@ for i, r in enumerate(R, 1):
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
     if ntr in OPP_STATE: rec["opp_state"] = OPP_STATE[ntr]
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    rec.update(FIX.get(ntr, {}))
+    v = rec["verify"]; srcs = rec["sources"]
+    v["tdvia2"] = len([x for x in srcs if x.startswith("TDVIA:")]) >= 2
+    v["academic"] = any(x.startswith("AKD:") for x in srcs)
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))

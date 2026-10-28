@@ -71,7 +71,7 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 ## Kayıt kararları (Parti 6: Osmanlı 1402–1481, 2026-10-29)
 | Kayıt | Karar | Alternatif okuma |
 |---|---|---|
-| İzlâdi 1443 | Osmanlı başarısı, ihtilaflı (P6) | Batı kaynakları: Kunoviçe'de Haçlı başarısı |
+| İzlâdi 1443 | ~~Osmanlı başarısı~~ → belirsiz (D), 2026-10-29: TDVİA'nın Varna ve Macaristan maddeleri çelişiyor | Batı kaynakları: Kunoviçe'de Haçlı başarısı |
 | Eflak 1462 | Osmanlı başarısı (P6) | Vlad'ın gece baskını |
 | Otlukbeli 1473 | Dış rakip (Akkoyunlular kapsam dışı) | Türk devletleri arası |
 | Fetret şehzade savaşları | İç savaş | — |
