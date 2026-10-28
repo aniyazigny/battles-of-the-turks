@@ -241,6 +241,42 @@
   },
   {
    "id": 7,
+   "name_tr": "Gazne (998)",
+   "name_en": "Battle of Ghazni (998)",
+   "date": "998-03",
+   "hijri": "",
+   "type": "land",
+   "war": "Gazneli taht mücadelesi",
+   "place": "Gazne yakını",
+   "lat": 33.55,
+   "lon": 68.42,
+   "loc": "approx",
+   "country": "Afganistan",
+   "side_a": "Mahmud",
+   "side_b": "İsmâil b. Sebük Tegin",
+   "turkic_cmd": "Mahmud",
+   "opp_cmd": "İsmâil",
+   "category": "ic",
+   "result": "C",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mahmud-i-gaznevi",
+    "TDVIA:gazneliler"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Gazneliler",
+   "home_batch": "gazneli-karahanli",
+   "note": "Mahmud kardeşi İsmâil'in kuvvetlerini yenip Gazneli tahtına çıktı (Rebîülevvel 388).",
+   "note_en": "Mahmud defeated his brother Isma'il and took the Ghaznavid throne (March 998)."
+  },
+  {
+   "id": 8,
    "name_tr": "Peşâver (Caypal)",
    "name_en": "Battle of Peshawar (1001)",
    "date": "1001-11",
@@ -260,6 +296,43 @@
    "result": "W",
    "status": "ihtilafli",
    "sources": [
+    "TDVIA:mahmud-i-gaznevi",
+    "AKD:palabiyik-2007"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": true
+   },
+   "state": "Gazneliler",
+   "home_batch": "gazneli-karahanli",
+   "dispute": "Tarih: TDVİA zaferi 392'ye (1002) koyar; Palabıyık (2007) bu ikinci seferi Vayhand seferi olarak 391-2/1001-2'ye tarihler ve Caypal'ın esir alındığını yazar; yaygın tarih 27 Kasım 1001'dir.",
+   "note": "Ardından Hindûşâhî merkezi Vayhand alındı.",
+   "note_en": "The Hindu Shahi capital Waihind was taken afterwards."
+  },
+  {
+   "id": 9,
+   "name_tr": "Bhâtiya",
+   "name_en": "Siege of Bhatiya (1004–05)",
+   "date": "1004/1005",
+   "hijri": "",
+   "type": "land",
+   "war": "Mahmud'un Hint seferleri",
+   "place": "Bhâtiya",
+   "lat": 29.2,
+   "lon": 71.8,
+   "loc": "region",
+   "country": "Pakistan",
+   "side_a": "Gazneliler",
+   "side_b": "Bhâtiya racalığı",
+   "turkic_cmd": "Mahmud",
+   "opp_cmd": "Beci Ray (Bacra)",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
     "TDVIA:mahmud-i-gaznevi"
    ],
    "verify": {
@@ -271,12 +344,11 @@
    },
    "state": "Gazneliler",
    "home_batch": "gazneli-karahanli",
-   "dispute": "Tarih: TDVİA zaferi 392'ye (1002) koyar; yaygın tarih Kasım 1001'dir.",
-   "note": "Ardından Hindûşâhî merkezi Vayhand alındı.",
-   "note_en": "The Hindu Shahi capital Waihind was taken afterwards."
+   "note": "Üçüncü Hint seferi (395/1004-05). Bhâtiya'nın yeri tartışmalıdır (Bhera, Uç veya Bhatinda önerilir).",
+   "note_en": "Third Indian campaign (395/1004-05). The location of Bhatiya is disputed (Bhera, Uch or Bhatinda are proposed)."
   },
   {
-   "id": 8,
+   "id": 10,
    "name_tr": "Mültan (1006)",
    "name_en": "Multan (1006)",
    "date": "1006",
@@ -309,7 +381,7 @@
    "home_batch": "gazneli-karahanli"
   },
   {
-   "id": 9,
+   "id": 11,
    "name_tr": "Belh (1008)",
    "name_en": "Battle of Balkh (1008)",
    "date": "1008-01",
@@ -345,7 +417,7 @@
    "opp_state": "Karahanlılar"
   },
   {
-   "id": 10,
+   "id": 12,
    "name_tr": "Vayhand ovası (Anandpâl)",
    "name_en": "Battle of Chach (1008)",
    "date": "1008",
@@ -365,14 +437,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mahmud-i-gaznevi"
+    "TDVIA:mahmud-i-gaznevi",
+    "AKD:palabiyik-2007"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Gazneliler",
    "home_batch": "gazneli-karahanli",
@@ -380,7 +453,7 @@
    "note_en": "Nagarkot, where the fugitives took refuge, was taken after a three-day siege (399/1009)."
   },
   {
-   "id": 11,
+   "id": 13,
    "name_tr": "Mültan (1010)",
    "name_en": "Multan (1010)",
    "date": "1010",
@@ -415,17 +488,17 @@
    "note_en": "The region submitted without serious resistance."
   },
   {
-   "id": 12,
-   "name_tr": "Keşmir yolunda Triloçanpâl",
-   "name_en": "Defeat of Trilochanapala",
-   "date": "c. 1014",
+   "id": 14,
+   "name_tr": "Nandana (Triloçanpâl)",
+   "name_en": "Battle of Nandana (1014)",
+   "date": "1014",
    "hijri": "",
    "type": "land",
    "war": "Mahmud'un Hint seferleri",
-   "place": "Keşmir yolu",
-   "lat": 33.3,
-   "lon": 73.8,
-   "loc": "region",
+   "place": "Nandana kalesi",
+   "lat": 32.72,
+   "lon": 73.25,
+   "loc": "approx",
    "country": "Pakistan",
    "side_a": "Gazneliler",
    "side_b": "Hindûşâhîler",
@@ -433,24 +506,25 @@
    "opp_cmd": "Triloçanpâl",
    "category": "dis",
    "result": "W",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:mahmud-i-gaznevi"
+    "TDVIA:mahmud-i-gaznevi",
+    "AKD:palabiyik-2007"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Gazneliler",
    "home_batch": "gazneli-karahanli",
-   "note": "Tarih ve yer yaklaşık.",
-   "note_en": "Date and place approximate."
+   "note": "Zorlu bir savaştan sonra Nandana kalesi alındı; Mahmud ardından Keşmir'e kadar ilerledi (Palabıyık 2007: dokuzuncu sefer, 405/1014).",
+   "note_en": "After a hard battle Nandana fortress was taken; Mahmud then advanced towards Kashmir (Palabıyık 2007: ninth campaign, 405/1014)."
   },
   {
-   "id": 13,
+   "id": 15,
    "name_tr": "Lokhot kuşatması",
    "name_en": "Siege of Lohkot (1015)",
    "date": "1015",
@@ -470,14 +544,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mahmud-i-gaznevi"
+    "TDVIA:mahmud-i-gaznevi",
+    "AKD:palabiyik-2007"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Gazneliler",
    "home_batch": "gazneli-karahanli",
@@ -485,7 +560,7 @@
    "note_en": "Lifted because of severe winter."
   },
   {
-   "id": 14,
+   "id": 16,
    "name_tr": "Hârizm'in fethi (Hezâresb)",
    "name_en": "Conquest of Khwarazm (1017)",
    "date": "1017",
@@ -521,7 +596,7 @@
    "note_en": "The campaign was justified as revenge for his brother-in-law Ma'mun; Altuntash became governor. Place and day not given."
   },
   {
-   "id": 15,
+   "id": 17,
    "name_tr": "Kannevc seferi",
    "name_en": "Kannauj campaign (1018)",
    "date": "1018-12",
@@ -542,14 +617,15 @@
    "status": "borderline",
    "sources": [
     "TDVIA:mahmud-i-gaznevi",
-    "TDVIA:gazneliler"
+    "TDVIA:gazneliler",
+    "AKD:palabiyik-2007"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Gazneliler",
    "home_batch": "gazneli-karahanli",
@@ -557,7 +633,7 @@
    "note_en": "Left Ghazna on 27 September 1018; 20,000 volunteers from Transoxiana joined (Ghaznavids article; figure not used)."
   },
   {
-   "id": 16,
+   "id": 18,
    "name_tr": "Belh (1019)",
    "name_en": "Battle of Balkh (1019)",
    "date": "1019",
@@ -594,7 +670,7 @@
    "opp_state": "Karahanlılar"
   },
   {
-   "id": 17,
+   "id": 19,
    "name_tr": "Ganda'ya karşı (Bari)",
    "name_en": "Campaign against Ganda (1019)",
    "date": "1019",
@@ -612,24 +688,25 @@
    "opp_cmd": "Ganda",
    "category": "dis",
    "result": "W",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:mahmud-i-gaznevi"
+    "TDVIA:mahmud-i-gaznevi",
+    "AKD:palabiyik-2007"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Gazneliler",
    "home_batch": "gazneli-karahanli",
-   "note": "Bari alındı; Ganda bir öncü savaşından sonra kaçtı.",
-   "note_en": "Bari was taken; Ganda fled after a vanguard clash."
+   "note": "Bari alındı. Palabıyık'a (2007) göre on üçüncü seferde (410/1019) askerler Ramganga nehrini tulumlarla geçti ve Ganda ile müttefiklerine karşı büyük bir zafer kazanıldı.",
+   "note_en": "Bari was taken. According to Palabıyık (2007), on the thirteenth campaign (410/1019) the troops crossed the Ramganga on inflated skins and won a great victory over Ganda and his allies."
   },
   {
-   "id": 18,
+   "id": 20,
    "name_tr": "Somnat",
    "name_en": "Siege of Somnath (1026)",
    "date": "1026-01-08",
@@ -650,14 +727,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:mahmud-i-gaznevi",
-    "TDVIA:gazneliler"
+    "TDVIA:gazneliler",
+    "AKD:palabiyik-2007"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Gazneliler",
    "home_batch": "gazneli-karahanli",
@@ -665,7 +743,7 @@
    "note_en": "The army left Ghazna in October 1025. The victory brought Mahmud great prestige in the Islamic world. The source figure of 30,000 horsemen is not used."
   },
   {
-   "id": 19,
+   "id": 21,
    "name_tr": "İndus üzerinde Câtlar",
    "name_en": "River battle against the Jats (1027)",
    "date": "1027",
@@ -685,14 +763,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mahmud-i-gaznevi"
+    "TDVIA:mahmud-i-gaznevi",
+    "AKD:palabiyik-2007"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Gazneliler",
    "home_batch": "gazneli-karahanli",
@@ -700,7 +779,7 @@
    "note_en": "A river fleet of 1,400 boats was built at Multan (source figure)."
   },
   {
-   "id": 20,
+   "id": 22,
    "name_tr": "Rey'in alınması",
    "name_en": "Capture of Rayy (1029)",
    "date": "1029",
@@ -735,7 +814,7 @@
    "note_en": "Persian Iraq was added to the Ghaznavid realm. No detail of fighting."
   },
   {
-   "id": 21,
+   "id": 23,
    "name_tr": "Debûsiye",
    "name_en": "Battle of Dabusiyya (1032)",
    "date": "1032",
@@ -771,7 +850,7 @@
    "opp_state": "Karahanlılar"
   },
   {
-   "id": 22,
+   "id": 24,
    "name_tr": "Sarsûtî Kalesi",
    "name_en": "Siege of Sarsuti (1033)",
    "date": "1033",
@@ -806,7 +885,7 @@
    "note_en": "No detail; the fortress was taken."
   },
   {
-   "id": 23,
+   "id": 25,
    "name_tr": "Mevdûd–Muhammed",
    "name_en": "Mawdud against Muhammad (1041)",
    "date": "1041-04-08",
@@ -841,7 +920,7 @@
    "note_en": "Mawdud avenged the killing of his father Mas'ud."
   },
   {
-   "id": 24,
+   "id": 26,
    "name_tr": "Lahor müdafaası",
    "name_en": "Defence of Lahore (c. 1043)",
    "date": "c. 1043",
@@ -876,7 +955,7 @@
    "note_en": "The city was besieged for seven months but did not fall; by rule the defender wins."
   },
   {
-   "id": 25,
+   "id": 27,
    "name_tr": "Ecüdhen",
    "name_en": "Siege of Ajodhan (1079)",
    "date": "1079-08-13",
@@ -911,7 +990,7 @@
    "note_en": "Another fortress was then taken after a three-month siege (November 1079 – 1080)."
   },
   {
-   "id": 26,
+   "id": 28,
    "name_tr": "Gazne (Seyfeddin Sûrî)",
    "name_en": "Recapture of Ghazna (1149)",
    "date": "1149",
@@ -946,7 +1025,7 @@
    "note_en": "Sayf al-Din Suri was executed and his head sent to Sanjar."
   },
   {
-   "id": 27,
+   "id": 29,
    "name_tr": "Gazne (Cihansûz)",
    "name_en": "Sack of Ghazna (1150)",
    "date": "1150",
@@ -983,7 +1062,7 @@
    "note_en": "The Ghurids burned Ghazna; Bahram Shah withdrew to India and returned in 1152."
   },
   {
-   "id": 28,
+   "id": 30,
    "name_tr": "Karahıtaylara karşı zafer",
    "name_en": "Victory over the Qara Khitai (c. 1128)",
    "date": "c. 1128",
@@ -1018,7 +1097,7 @@
    "note_en": "The Qara Khitai advance was halted for a time. Date 522 (1128) or later."
   },
   {
-   "id": 29,
+   "id": 31,
    "name_tr": "Hucend",
    "name_en": "Battle of Khujand (1137)",
    "date": "1137-06",
@@ -1053,7 +1132,7 @@
    "note_en": "Mahmud Khan fled to Samarkand; Qatwan followed four years later (pilot #80)."
   },
   {
-   "id": 30,
+   "id": 32,
    "name_tr": "Karluklara yenilgi",
    "name_en": "Defeat by the Qarluqs (1156)",
    "date": "1156",

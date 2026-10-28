@@ -138,6 +138,7 @@ ul.lo{padding-left:18px;font-size:15px}
 <script>
 const DATA = /*DATA*/;
 const BORDERS = /*BORDERS*/;
+const BIB = /*BIB*/;
 const CAT={dis:"Dış rakip",turk_arasi:"Türk devletleri arası",ic:"İç savaş"};
 const RES={W:"Zafer",L:"Yenilgi",D:"Belirsiz",C:"İç savaş"};
 const ST={kesin:"Kesin",borderline:"Borderline",ihtilafli:"İhtilaflı"};
@@ -151,11 +152,12 @@ const filtered=()=>B.filter(b=>S.cat.has(b.category)&&S.st.has(b.status)&&b.y>=S
 function srcLink(k){
   if(k.startsWith("TDVIA:")){const s=k.slice(6);return `<a href="https://islamansiklopedisi.org.tr/${s}" target="_blank" rel="noopener">TDVİA: ${esc(s)}</a>`}
   if(k.startsWith("WP:")){const s=k.slice(3);return `<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(s)}" target="_blank" rel="noopener">Wikipedia: ${esc(s.replace(/_/g," "))}</a>`}
+  if(k.startsWith("AKD:")){const w=BIB[k.slice(4)];return w?`<a href="${esc(w.url)}" target="_blank" rel="noopener">${esc(w.cite)}</a>`:esc(k)}
   if(k==="ROM")return `<a href="https://iosiflazaridis.github.io/battles-of-the-romans/" target="_blank" rel="noopener">Where the Romans Fought</a>`;
   return esc(k);
 }
 function recHTML(b){
-  const v=Object.entries(b.verify).filter(([,t])=>t).map(([k])=>({tdvia:"TDVİA",tdvia2:"TDVİA (ikinci madde)",wp:"Wikipedia",rom:"Roma verisi",academic:"Akademik"}[k])).join(", ");
+  const v=Object.entries(b.verify).filter(([,t])=>t).map(([k])=>({tdvia:"TDVİA",tdvia2:"TDVİA (ikinci madde)",wp:"Wikipedia",rom:"Roma verisi",academic:"Akademik yayın"}[k])).join(", ");
   return `<div class="rec"><h3>${esc(b.name_tr)}</h3>
   <div class="meta">${esc(b.date)}${b.hijri?" · "+esc(b.hijri):""} · ${esc(b.state||"")}</div>
   <div style="margin-top:4px"><span class="tag ${b.result}">${RES[b.result]}</span><span class="tag st ${b.status}">${ST[b.status]}</span><span class="tag st">${CAT[b.category]}</span></div>

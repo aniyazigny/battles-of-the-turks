@@ -242,6 +242,33 @@ R = [
 ("Dulhisar kuşatması", "Siege of Dulhisar", "1304", "Mesud II–Câbioğlu", "Dulhisar, Aksaray–Niğde arası", 38.10, 34.40, "approx", "Türkiye",
  "Câbioğlu", A + " ve Moğollar", "Mesud II, Abuşka Noyan", "Câbioğlu", "ic", "C", "kesin",
  ["TDVIA:mesud-ii"], "", "Gāzân Han'ın ölüm haberiyle kuşatma kaldırıldı.", "Lifted on news of Ghazan Khan's death."),
+("İznik yöresi (1113)", "Battle near Nicaea (1113)", "1113", "Melikşah (Şâhinşah)–Bizans", "İznik yöresi", 40.43, 29.72, "region", "Türkiye",
+ "Bizans", A, "", "Aleksios I Komnenos", "dis", "L", "borderline",
+ ["ROM"], "", "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var; Türk kaynağı bulunamadı.", "Recorded only in the Roman dataset, based on Byzantine sources; no Turkish source found."),
+("Lâdik (Laodikeia, 1119)", "Laodicea (1119)", "1119", "Mesud I–Bizans", "Lâdik (Denizli)", 37.84, 29.11, "approx", "Türkiye",
+ "Bizans", A, "", "Ioannes II Komnenos", "dis", "L", "borderline",
+ ["ROM"], "", "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var; Türk kaynağı bulunamadı.", "Recorded only in the Roman dataset, based on Byzantine sources; no Turkish source found."),
+("Uluborlu (Sozopolis, 1120)", "Sozopolis (1120)", "1120", "Mesud I–Bizans", "Uluborlu", 38.08, 30.45, "approx", "Türkiye",
+ "Bizans", A, "", "Ioannes II Komnenos", "dis", "L", "borderline",
+ ["ROM"], "", "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var. TDVİA (Mesud I) Sozopolis'i yalnızca 1131'de Mesud'un alamadığı şehir olarak anar.",
+ "Recorded only in the Roman dataset. TDVİA (Mas'ud I) mentions Sozopolis only as a town Mas'ud failed to take in 1131."),
+("Menderes (Hyelion ve Leimocheir)", "Hyelion and Leimocheir (1177)", "1177", "Kılıcarslan II–Bizans", "Büyük Menderes vadisi", 37.90, 28.60, "region", "Türkiye",
+ "Bizans", A, "", "Ioannes Vatatzes", "dis", "L", "borderline",
+ ["ROM", "TDVIA:kilicarslan-ii"], "", "TDVİA, Kılıcarslan'ın Menderes bölgesine 24.000 kişilik bir birlik gönderdiğini yazar ama sonucunu vermez; yenilgi Bizans kaynaklarına (Khoniates) dayanır.",
+ "TDVİA says Kilij Arslan sent a force of 24,000 to the Maeander region but gives no outcome; the defeat rests on Byzantine sources (Choniates)."),
+("Harax (Charax, 1178)", "Charax (1178)", "1178", "Kılıcarslan II–Bizans", "Harax, İzmit yöresi", 40.79, 29.62, "approx", "Türkiye",
+ A, "Bizans", "", "", "dis", "W", "borderline",
+ ["ROM"], "", "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var; Türk kaynağı bulunamadı.", "Recorded only in the Roman dataset, based on Byzantine sources; no Turkish source found."),
+("Bolu (Klaudiopolis, 1179)", "Claudiopolis (1179)", "1179", "Kılıcarslan II–Bizans", "Bolu", 40.73, 31.61, "approx", "Türkiye",
+ "Bizans", A, "", "Manuel I Komnenos", "dis", "L", "borderline",
+ ["ROM"], "", "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var; Türk kaynağı bulunamadı.", "Recorded only in the Roman dataset, based on Byzantine sources; no Turkish source found."),
+("Trabzon kuşatması (1205)", "Siege of Trebizond (1205)", "1205", "Keyhusrev I–Trabzon", "Trabzon", 41.00, 39.72, "known", "Türkiye",
+ "Trabzon Rum İmparatorluğu", A, "", "Aleksios I (Trabzon)", "dis", "L", "ihtilafli",
+ ["ROM"], "TDVİA (Keyhusrev I) aynı dönemde Keyhusrev'in Samsun'u işgale kalkışan Aleksios'u yendiğini yazar (Samsun kaydı). Roma veri seti ise 1205'te Trabzon'u kuşatan Selçukluların başarısız olduğunu kaydeder. Aynı seferin iki ayrı olayı olabilir.",
+ "", ""),
+("Sinop'un kaybı (1254/1259)", "Loss of Sinope", "1254", "Keykâvus II–Trabzon", "Sinop", 42.02, 35.15, "known", "Türkiye",
+ "Trabzon Rum İmparatorluğu", A, "", "", "dis", "L", "ihtilafli",
+ ["ROM", "TDVIA:sinop"], "Tarih: Roma veri seti 1254, TDVİA Sinop maddesi 657 (1259). Şehir 1266'da geri alındı.", "", ""),
 ]
 
 LEFT = [
@@ -249,7 +276,6 @@ LEFT = [
  {"name": "Halep ve Antakya kuşatmaları (c. 1076)", "reason": "Para karşılığı kaldırılan kısa kuşatmalar; çatışmanın ayrıntısı yok. Antakya 1084 kaydının notunda anıldı.", "source": "TDVIA:suleyman-sah-i"},
  {"name": "Aynüsseylem (1086) ve Habur (1107)", "reason": "Büyük Selçuklu pilotunda iç savaş olarak zaten kayıtlı (#41, #60); tekrar edilmedi.", "source": "TDVIA:suleyman-sah-i"},
  {"name": "Kastamonu (1133) ve Çankırı (1134–35)", "reason": "Asıl taraf Dânişmendliler; Selçuklu birliği yalnızca Bizans'ın müttefikiydi. Beylikler partisine bırakıldı.", "source": "TDVIA:mesud-i"},
- {"name": "Menderes (Hyelion ve Leimocheir, 1177)", "reason": "Yalnızca Bizans kaynağı (Khoniates) var; TDVİA birliğin gönderildiğini yazar ama sonuç vermez. Roma veri setiyle kontrol edilince alınacak.", "source": "TDVIA:kilicarslan-ii"},
  {"name": "Denizli ve Antalya kuşatmaları (c. 1182)", "reason": "Ayrıntı ve tarih yok.", "source": "TDVIA:kilicarslan-ii"},
  {"name": "Akşehir (Erzincan, 1299) ve Baltu (1297)", "reason": "Moğol iç çatışmaları; Selçuklu ordusu taraf değil.", "source": "TDVIA:keykubad-iii"},
 ]
@@ -261,9 +287,12 @@ EXTRA_SRC = {
  32: ["TDVIA:malatya"], 43: ["TDVIA:el-melikul-esref-musa"], 45: ["TDVIA:husameddin-coban", "TDVIA:cobanogullari"],
  47: ["TDVIA:trabzon"], 48: ["TDVIA:harizmsahlar", "TDVIA:el-melikul-esref-musa"], 52: ["TDVIA:baba-ilyas", "TDVIA:babailik"],
  61: ["TDVIA:baybars-i", "TDVIA:muinuddin-suleyman-pervane"], 62: ["TDVIA:karamanogullari"], 63: ["TDVIA:germiyanogullari"],
+ 26: ["AKD:ince-2019"], 40: ["AKD:citak-2025"], 41: ["AKD:citak-2025"], 42: ["AKD:gokhan-2012", "AKD:citak-2025"],
  16: ["TDVIA:selcuklular"], 21: ["TDVIA:selcuklular"], 33: ["TDVIA:selcuklular"], 53: ["TDVIA:selcuklular"],
 }
 FIX = {
+ 40: {"dispute": "Tarih: İbn Bîbî ve TDVİA 2 Kasım 1214; Anonim Selçuknâme 17 Şevval 612 / 8 Şubat 1216 verir ve önceden bir anlaşma yapıldığından söz etmez (Çıtak 2025)."},
+ 42: {"dispute": "Tarih: TDVİA ve Gökhan (2012) 1216; Ayan 613/1217; Süryânî Mihail'e ek yapan bir müstensih 1218 verir. Gökhan'a göre kuşatma sırasında Ermeniler bir huruçla mancınıkları yaktı, ancak ardından meydan savaşında yenildiler ve Leon barış istedi."},
  12: {"date": "1103-08", "place": "Maraş yakını", "lat": 37.58, "lon": 36.93, "loc": "region", "status": "kesin",
       "note": "Gümüştegin'in Bohemund'u fidye karşılığı bırakması üzerine. Yer ve tarih Dânişmendliler maddesinden: Maraş yakını, Zilkade 496 / Ağustos 1103.",
       "note_en": "Followed Gümüshtegin's release of Bohemond for ransom. Place and date from the Danishmendids article: near Marash, August 1103."},
@@ -279,6 +308,12 @@ FIX = {
       "note_en": "Bedreddin Murad of Germiyan was killed fighting Mongol and Seljuk forces near Denizli; the struggle lasted until 1289. Counted as civil war because Germiyan was a frontier principality within the state."},
 }
 
+# 'Where the Romans Fought' eşleşmeleri (tools/match_rom.py ile bulundu, elle denetlendi)
+ROM_MATCH = {"İznik kuşatması (1097)", "Eskişehir (Dorylaion)", "Merzifon", "Akşehir (Philomelion)", "Niksar (Vatatzes)", "Miryokefalon",
+             "Alaşehir (Antiokheia)", "Sinop'un fethi", "Kösedağ", "Konya önleri (1146)", "Trabzon kuşatması (1228)"}
+ROM_NOTE = {"Konya önleri (1146)": " Roma veri seti aynı seferde Akroinon'da (Akşehir) Bizans zaferi kaydeder.",
+            "Trabzon kuşatması (1228)": " Roma veri seti bu kuşatmayı 1223'e koyar."}
+
 recs = []
 for i, r in enumerate(R, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, st, src, disp, note, note_en) = r
@@ -292,6 +327,12 @@ for i, r in enumerate(R, 1):
     if note: rec["note"], rec["note_en"] = note, note_en
     if cat == "turk_arasi": rec["opp_state"] = "Dânişmendliler"
     rec.update(FIX.get(i, {}))
+    if ntr in ROM_MATCH:
+        if "ROM" not in rec["sources"]: rec["sources"].append("ROM")
+        if ntr in ROM_NOTE: rec["dispute"] = ((rec.get("dispute") or "") + ROM_NOTE[ntr]).strip()
+    rec["verify"]["rom"] = "ROM" in rec["sources"]
+    rec["verify"]["academic"] = any(x.startswith("AKD:") for x in rec["sources"])
+    rec["verify"]["tdvia"] = any(x.startswith("TDVIA:") for x in rec["sources"])
     if not rec.get("dispute"): rec.pop("dispute", None)
     recs.append(rec)
 

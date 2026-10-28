@@ -11,6 +11,8 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | P4 | 2026-10-25 | Temel referans TDVİA; Wikipedia yalnızca kapsam kontrolü için | Önyargısız ve kaynakçalı temel; bkz. METODOLOJI §4 |
 | P5 | 2026-10-25 | Orijinal sitenin kodu ve verisi kopyalanmaz, yalnızca yöntemi örnek alınır | Orijinal sitede lisans belirtilmemiş |
 | P6 | 2026-10-28 | Kaynaklar çatıştığında Türk ve İslâm tarafının akademik literatürü (TDVİA, sonra Türk akademisyenler) esas alınır; karşı tarafın anlatısı "alternatif okuma" olarak kayıtta kalır. K4'teki karşı taraf kuralının yerine geçer | Kullanıcı tercihi. Şeffaflık korunuyor: alternatif okuma her kayıtta görünür |
+| P8 | 2026-10-28 | Yalnızca karşı taraf kaynağına (Roma veri seti) dayanan savaş, Türk kaynaklarında aykırı bilgi yoksa `borderline` olarak kayda alınır; notunda Türk kaynağı bulunamadığı yazılır | Bizans kaynaklarında iyi belgelenmiş savaşların (Hyelion 1177 vb.) haritada eksik kalmaması |
+| P9 | 2026-10-28 | Bağımsız akademik kontrol için Türk hakemli dergileri (DergiPark, İSAM) kullanılır; atıf anahtarı `AKD:<yazar-yıl>` | P6 ile uyumlu; Encyclopaedia Iranica erişime kapalı (403) |
 | P7 | 2026-10-28 | Haritada devlet sınırları, kaynaklı bir "bölge → sahip" tablosundan üretilir; hazır tarihî sınır setleri (historical-basemaps vb.) kullanılmaz | Hazır setler bu dönem için hatalı (ör. 1200 haritasında 1062'de yıkılan Büveyhîler) ve GPL-3 lisanslı |
 
 ## Yöntem kararları

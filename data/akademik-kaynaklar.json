@@ -1,0 +1,14 @@
+{
+ "meta": {
+  "note": "Kayıtlarda 'AKD:<anahtar>' biçiminde atıf yapılan akademik yayınlar. Tam metinler raw/akademik/ altında yerel olarak tutulur, repoya konmaz.",
+  "compiled": "2026-10-28"
+ },
+ "works": {
+  "erdem-2018": {"cite": "İlhan Erdem, \"Haçlılar ile Mücadelede Menbic ve Emir Belek\", Tarih Araştırmaları Dergisi 37/64 (2018), s. 191-204.", "url": "https://dergipark.org.tr/tr/pub/tariharastirmalari/article/602866"},
+  "celik-2021": {"cite": "Sebahattin Çelik, \"Harput Artuklu Emîri Belek Gazi'nin Haçlı Liderlerini Tutsak Etmesi\", Fırat Üniversitesi Sosyal Bilimler Dergisi 31/1 (2021), s. 525-540.", "url": "https://doi.org/10.18069/firatsbed.731800"},
+  "palabiyik-2007": {"cite": "M. Hanefi Palabıyık, \"Gaznelilerin Hindistan Seferleri\", Ekev Akademi Dergisi 11/32 (2007), s. 139-152.", "url": "https://isamveri.org/pdfdrg/D01777/2007_32/2007_32_PALABIYIKMH.pdf"},
+  "gokhan-2012": {"cite": "İlyas Gökhan, \"Türkiye Selçukluları ile Kilikya Ermenileri Arasındaki Siyasi İlişkiler\", NEÜ Sosyal Bilimler Enstitüsü Dergisi 1 (2012), s. 70-108.", "url": "https://dergipark.org.tr/en/download/article-file/184892"},
+  "citak-2025": {"cite": "Mesut Çıtak, \"I. İzzeddin Keykâvus Dönemi Kale Kuşatmaları: Strateji, Teknoloji ve Yönetim Uygulamaları\", Hatay Mustafa Kemal Üniversitesi Sosyal Bilimler Enstitüsü Dergisi 22/56 (2025), s. 76-94.", "url": "https://dergipark.org.tr/tr/download/article-file/4801139"},
+  "ince-2019": {"cite": "Fatma İnce, \"II. Kılıç Arslan Dönemi Selçuklu-Bizans İlişkileri (Miryokefalon Savaşı'na Kadar)\", Fırat Üniversitesi Sosyal Bilimler Dergisi 29/2 (2019), s. 369-383.", "url": "https://dergipark.org.tr/tr/download/article-file/854375"}
+ }
+}

@@ -48,6 +48,15 @@ Durum işaretleri: ✅ projede kullanıldı · ⏳ kullanılacak · 🔎 erişim
 - ⏳ Virginia Aksan, *Ottoman Wars 1700–1870*.
 - ⏳ T.C. Genelkurmay Askerî Tarih ve Stratejik Etüt Başkanlığı (ATASE) yayınları (Kurtuluş Savaşı, Birinci Dünya Savaşı).
 
+## 2b. Projede kullanılan makaleler (2026-10-28)
+- ✅ İlhan Erdem, "Haçlılar ile Mücadelede Menbic ve Emir Belek", *Tarih Araştırmaları Dergisi* 37/64 (2018).
+- ✅ Sebahattin Çelik, "Harput Artuklu Emîri Belek Gazi'nin Haçlı Liderlerini Tutsak Etmesi", *Fırat Üniv. SBD* 31/1 (2021).
+- ✅ M. Hanefi Palabıyık, "Gaznelilerin Hindistan Seferleri", *Ekev Akademi Dergisi* 11/32 (2007).
+- ✅ İlyas Gökhan, "Türkiye Selçukluları ile Kilikya Ermenileri Arasındaki Siyasi İlişkiler", *NEÜ SBE Dergisi* 1 (2012).
+- ✅ Mesut Çıtak, "I. İzzeddin Keykâvus Dönemi Kale Kuşatmaları", *HMKÜ SBE Dergisi* 22/56 (2025).
+- ✅ Fatma İnce, "II. Kılıç Arslan Dönemi Selçuklu-Bizans İlişkileri", *Fırat Üniv. SBD* 29/2 (2019).
+- 🔎 Encyclopaedia Iranica: site otomatik erişime kapalı (HTTP 403).
+
 ## 3. Birincil kaynaklar (tercümeleri ve TDVİA atıfları üzerinden)
 - **Türk ve İslâm tarafı:** Orhun Yazıtları, Gerdîzî, Beyhakī, İbnü'l-Esîr (*el-Kâmil*), Râvendî, *Ahbârü'd-devleti's-Selcûkıyye*, Bündârî, Sıbt İbnü'l-Cevzî, İbnü'l-Kalânisî, İbnü'l-Adîm, İbn Bîbî, Âşıkpaşazâde, Neşrî, Hoca Sâdeddin, Peçevî, Kâtib Çelebi, Naîmâ, Silahdar.
 - **Karşı taraf:** Skylitzes, Attaleiates, Bryennios, Anna Komnene (Bizans); Urfalı Mateos, Aristakes (Ermeni); Gürcü yıllıkları; *Gesta Francorum*, Fulcher, Albert of Aachen (Haçlı); Çin hanedan yıllıkları (Göktürk ve Uygur dönemi).

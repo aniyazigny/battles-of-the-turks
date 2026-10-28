@@ -13,12 +13,14 @@
 | [docs/03-anadolu-selcuklu.md](docs/03-anadolu-selcuklu.md) | Parti 2: Anadolu Selçukluları |
 | [docs/04-beylikler-atabeylikler.md](docs/04-beylikler-atabeylikler.md) | Parti 3: Türk beylikleri ve atabeylikleri |
 | [docs/05-gazneli-karahanli.md](docs/05-gazneli-karahanli.md) | Parti 4: Gazneliler ve Karahanlılar |
+| [docs/06-dogrulama-turu.md](docs/06-dogrulama-turu.md) | Roma veri seti, akademik yayınlar ve Wikipedia ile doğrulama turu |
 
 ## Veri
 - `data/pilot-buyuk-selcuklu.json`: Büyük Selçuklu dönemi (1035–1157), 80 kayıt (3 kayıt Parti 3'e taşındı).
 - `data/anadolu-selcuklu.json`: Anadolu Selçukluları (1075–1308), 64 kayıt (ilk tur). Üretici: `tools/make_anadolu.py`.
 - `data/beylikler-atabeylikler.json`: Türk beylikleri ve atabeylikleri (1070–1175), 46 kayıt. Üretici: `tools/make_beylikler.py`.
 - `data/gazneli-karahanli.json`: Gazneliler ve Karahanlılar (893–1156), 30 kayıt. Üretici: `tools/make_gazneli_karahanli.py`.
+- `data/akademik-kaynaklar.json`: `AKD:` anahtarıyla atıf yapılan akademik yayınların künyeleri.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 
 ## Araçlar
@@ -26,6 +28,7 @@
 - `tools/body.py`: Madde gövdesini ve kaynakçasını çıkarır.
 - `tools/grepbattle.py`: Savaş geçen cümleleri süzer.
 - `tools/tdvia_text.py`: Madde gövdesini çıkarır (çok bölümlü maddelerin bütün bölümleri).
+- `tools/match_rom.py`: Kayıtları "Where the Romans Fought" veri setiyle eşleştirir.
 - `tools/kw.py`: İndirilmiş maddelerde verilen ifadenin geçtiği cümleleri listeler.
 - `tools/tdvia_search.py`: TDVİA'da başlık veya içerik araması yapar, madde adreslerini verir.
 

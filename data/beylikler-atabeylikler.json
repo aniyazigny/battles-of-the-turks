@@ -174,7 +174,7 @@
   {
    "name_tr": "Suruç (I)",
    "name_en": "Battle of Saruj (I)",
-   "date": "1100",
+   "date": "1101",
    "hijri": "",
    "type": "land",
    "war": "Artukluların Haçlılarla mücadelesi",
@@ -192,18 +192,19 @@
    "status": "ihtilafli",
    "sources": [
     "TDVIA:sokmen-b-artuk",
-    "TDVIA:belek-b-behram"
+    "TDVIA:belek-b-behram",
+    "AKD:celik-2021"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Artuklular",
    "home_batch": "beylikler-atabeylikler",
-   "dispute": "Tarih: Belek maddesi 1100 verir; Sökmen maddesi tarih vermez ve olayı 1098'deki işgalden sonraya koyar.",
+   "dispute": "Tarih: Belek maddesi 1100 verir; Sökmen maddesi tarih vermez. Çelik (2021) iki Suruç çarpışmasını da 1101'e koyar; burada Çelik'e uyuldu.",
    "note": "Haçlı ve Ermeni kuvvetleri ağır yenildi, Foulque de Chartres öldü. Sökmen ardından iç kaleyi kuşattı.",
    "note_en": "The Crusader and Armenian forces were heavily defeated and Fulcher of Chartres was killed. Sökmen then besieged the citadel.",
    "id": 5
@@ -229,14 +230,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:sokmen-b-artuk",
-    "TDVIA:belek-b-behram"
+    "TDVIA:belek-b-behram",
+    "AKD:celik-2021"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Artuklular",
    "home_batch": "beylikler-atabeylikler",
@@ -449,14 +451,15 @@
    "sources": [
     "TDVIA:belek-b-behram",
     "TDVIA:danismendliler",
-    "TDVIA:mengucukluler"
+    "TDVIA:mengucukluler",
+    "AKD:celik-2021"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Artuklular",
    "home_batch": "beylikler-atabeylikler",
@@ -486,14 +489,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:belek-b-behram",
-    "TDVIA:artuklular"
+    "TDVIA:artuklular",
+    "AKD:celik-2021"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Artuklular",
    "home_batch": "beylikler-atabeylikler",
@@ -522,14 +526,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:belek-b-behram",
-    "TDVIA:artuklular"
+    "TDVIA:artuklular",
+    "AKD:celik-2021"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Artuklular",
    "home_batch": "beylikler-atabeylikler",
@@ -557,14 +562,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:belek-b-behram"
+    "TDVIA:belek-b-behram",
+    "AKD:celik-2021"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Artuklular",
    "home_batch": "beylikler-atabeylikler",
@@ -590,21 +596,22 @@
    "opp_cmd": "",
    "category": "dis",
    "result": "L",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:belek-b-behram"
+    "TDVIA:belek-b-behram",
+    "AKD:celik-2021"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Artuklular",
    "home_batch": "beylikler-atabeylikler",
-   "note": "Kale garnizonu ile yardıma gelen Haçlılar arasında kalan Türk ordusu yenildi. Komutan ve tarih kaynakta net değil.",
-   "note_en": "Caught between the garrison and a relief force, the Turkish army was defeated. Commander and date are unclear in the source.",
+   "note": "Belek komutasındaki kuvvetler kaleyi kuşattı; Joscelin'in yardıma gelmesi ve garnizonun huruç hareketi üzerine Belek iki ateş arasında kalmamak için çekildi (Çelik 2021).",
+   "note_en": "Forces under Belek besieged the castle; when Joscelin came to its relief and the garrison sallied, Belek withdrew to avoid being caught between them (Çelik 2021).",
    "id": 16
   },
   {
@@ -784,6 +791,41 @@
    "id": 21
   },
   {
+   "name_tr": "Refeniye (1115)",
+   "name_en": "Battle of Rafaniyya (1115)",
+   "date": "1115-11",
+   "hijri": "",
+   "type": "land",
+   "war": "Tuğtegin'in Haçlılarla mücadelesi",
+   "place": "Refeniye",
+   "lat": 34.95,
+   "lon": 36.4,
+   "loc": "approx",
+   "country": "Suriye",
+   "side_a": "Dımaşk (Tuğtegin)",
+   "side_b": "Haçlılar (Refeniye garnizonu)",
+   "turkic_cmd": "Tuğtegin",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:tugtegin"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Böriler (Dımaşk Atabegliği)",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Haçlıların işgal ettiği Refeniye âni bir baskınla geri alındı (Cemâziyelâhir 509).",
+   "note_en": "Rafaniyya, occupied by the Crusaders, was recovered in a surprise attack (November 1115).",
+   "id": 22
+  },
+  {
    "name_tr": "Kont Guillaume'un baskını",
    "name_en": "Defeat by William-Jordan (1109)",
    "date": "1109",
@@ -816,7 +858,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Baskına uğrayan Tuğtegin ağır şartlarla anlaşmak zorunda kaldı.",
    "note_en": "Surprised, Toghtekin was forced into a treaty on harsh terms.",
-   "id": 22
+   "id": 23
   },
   {
    "name_tr": "Pons'un yenilgisi (1137)",
@@ -851,7 +893,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Pons Dımaşklılara karşı savaşta öldü. Yeri ve Dımaşklı komutan kaynakta yok.",
    "note_en": "Pons was killed fighting the Damascenes. Place and Damascene commander not given.",
-   "id": 23
+   "id": 24
   },
   {
    "name_tr": "Mercüssuffer",
@@ -886,7 +928,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Haçlı piyadesi ağır kayıp verdi ama Türk süvarisi bozuldu.",
    "note_en": "The Crusader infantry suffered heavily but the Turkish cavalry was routed.",
-   "id": 24
+   "id": 25
   },
   {
    "name_tr": "Dımaşk (1148)",
@@ -922,7 +964,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Yardımcı kuvvetler kuzey kapısından girince Üner karşı taarruza geçti; İkinci Haçlı Seferi böylece sonuçsuz kaldı.",
    "note_en": "When relief forces entered by the north gate, Unur counter-attacked; the Second Crusade ended without result.",
-   "id": 25
+   "id": 26
   },
   {
    "name_tr": "Serce (Artuklulara karşı)",
@@ -959,7 +1001,7 @@
    "note": "Dâvûd ve Timurtaş yenilip Serce ile Dârâ'yı Zengî'ye bıraktı (Artuklular maddesi). Kaynaktaki sayılar (20.000 Türkmene karşı 4000) alınmadı.",
    "note_en": "Dawud and Timurtash were defeated and ceded Serce and Dara to Zengi (Artuqids article). The source figures (4,000 against 20,000 Turkmens) are not used.",
    "opp_state": "Artuklular",
-   "id": 26
+   "id": 27
   },
   {
    "name_tr": "Esârib'in fethi",
@@ -994,7 +1036,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Çatışmanın ayrıntısı kaynakta yok.",
    "note_en": "No detail of the fighting in the source.",
-   "id": 27
+   "id": 28
   },
   {
    "name_tr": "Karaca Sâkî'ye yenilgi",
@@ -1030,7 +1072,7 @@
    "note": "Zengî, Mesud'a katılmak üzere yola çıkmıştı. Atabeylik ile sultanlık arası olduğu için Türk devletleri arası sayıldı.",
    "note_en": "Zengi had set out to join Mas'ud. Counted as inter-Turkic because it was between an atabegate and the sultanate.",
    "opp_state": "Irak Selçukluları",
-   "id": 28
+   "id": 29
   },
   {
    "name_tr": "Âmid (Dâvûd'a karşı)",
@@ -1066,7 +1108,7 @@
    "note": "Âmid kuşatıldı ama alınamadı.",
    "note_en": "Amida was besieged but not taken.",
    "opp_state": "Artuklular",
-   "id": 29
+   "id": 30
   },
   {
    "name_tr": "Ba'rîn",
@@ -1102,7 +1144,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kral Foulque baskından güçlükle kurtuldu; Bizans seferi haberiyle kaleyi emanla teslim etti.",
    "note_en": "King Fulk barely escaped; on news of the Byzantine campaign he surrendered the castle on terms.",
-   "id": 30
+   "id": 31
   },
   {
    "name_tr": "Urfa'nın fethi",
@@ -1139,7 +1181,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "İlk Haçlı devleti sona erdi; haber Avrupa'da İkinci Haçlı Seferi'ne yol açtı.",
    "note_en": "The first Crusader state ended; the news led to the Second Crusade.",
-   "id": 31
+   "id": 32
   },
   {
    "name_tr": "Bire kuşatması",
@@ -1174,7 +1216,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kale düşmek üzereyken Musul nâibinin öldürüldüğü haberiyle kuşatma kaldırıldı.",
    "note_en": "Lifted, with the castle about to fall, on news that his deputy in Mosul had been killed.",
-   "id": 32
+   "id": 33
   },
   {
    "name_tr": "Urfa (1146)",
@@ -1210,7 +1252,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Josselin iç kale dışında şehri ele geçirmişti; Nûreddin şehri geri aldı.",
    "note_en": "Joscelin had seized the town except the citadel; Nur al-Din retook it.",
-   "id": 33
+   "id": 34
   },
   {
    "name_tr": "Yağra",
@@ -1244,7 +1286,7 @@
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
-   "id": 34
+   "id": 35
   },
   {
    "name_tr": "İnnib (İnab)",
@@ -1281,7 +1323,7 @@
    "dispute": "Yer: Şîrkûh maddesi 'Azâz yakınlarındaki İnnib' der; Batı kaynaklarına göre İnab, Efâmiye yakınındadır.",
    "note": "Efâmiye kalesi ardından teslim oldu.",
    "note_en": "Apamea castle surrendered afterwards.",
-   "id": 35
+   "id": 36
   },
   {
    "name_tr": "Josselin'e yenilgi",
@@ -1318,7 +1360,7 @@
    "note": "Ardından Türkmenler Josselin'i yakalayıp Nûreddin'e teslim etti (Mayıs 1150).",
    "note_en": "Turkmens then captured Joscelin and handed him over to Nur al-Din (May 1150).",
    "dispute": "Tarih: Gaziantep maddesi 1149; Nûreddin maddesi yenilgiyi Josselin'in Mayıs 1150'de teslim alınmasından önceye koyar.",
-   "id": 36
+   "id": 37
   },
   {
    "name_tr": "Banyas (1153)",
@@ -1353,7 +1395,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Askalân'ı kurtarma girişimi; savaştan sonuç alınamadı.",
    "note_en": "An attempt to relieve Ascalon; the battle was inconclusive.",
-   "id": 37
+   "id": 38
   },
   {
    "name_tr": "Hârim kuşatması (1156)",
@@ -1386,7 +1428,7 @@
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
-   "id": 38
+   "id": 39
   },
   {
    "name_tr": "Hısnülekrâd (el-Bukay'a)",
@@ -1422,7 +1464,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Ordu dinlenirken baskına uğradı; Nûreddin yakalanmaktan güçlükle kurtuldu. Ardından cihad çağrısı yaptı ve ertesi yıl Hârim'i aldı.",
    "note_en": "The army was surprised while resting; Nur al-Din barely escaped capture. He then called for jihad and took Harim the next year.",
-   "id": 39
+   "id": 40
   },
   {
    "name_tr": "Hârim (1164)",
@@ -1445,20 +1487,21 @@
    "status": "kesin",
    "sources": [
     "TDVIA:sirkuh-el-mansur",
-    "TDVIA:nureddin-zengi-mahmud"
+    "TDVIA:nureddin-zengi-mahmud",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
-    "rom": false,
+    "rom": true,
     "academic": false
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
    "note": "Hârim kalesi alındı. Bu baskı Haçlıları Mısır'da Şîrkûh'un kuşatmasını kaldırmaya zorladı.",
    "note_en": "Harim castle was taken. The pressure forced the Crusaders to lift their siege of Shirkuh in Egypt.",
-   "id": 40
+   "id": 41
   },
   {
    "name_tr": "Bâbeyn",
@@ -1494,7 +1537,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Şîrkûh Kürt kökenlidir ama Nûreddin'in komutanı olarak savaştı; K3 gereği Zengîlere yazıldı.",
    "note_en": "Shirkuh was of Kurdish origin but fought as Nur al-Din's commander; under K3 recorded for the Zengids.",
-   "id": 41
+   "id": 42
   },
   {
    "name_tr": "Kilikya (Mleh'e destek)",
@@ -1529,7 +1572,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Mleh Adana, Misis ve Tarsus'u aldı. Tarih yaklaşık.",
    "note_en": "Mleh took Adana, Mamistra and Tarsus. Date approximate.",
-   "id": 42
+   "id": 43
   },
   {
    "name_tr": "Gürcülere karşı zafer (1131)",
@@ -1564,7 +1607,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Yer ve ayrıntı kaynakta az.",
    "note_en": "Little detail on place or course in the source.",
-   "id": 43
+   "id": 44
   },
   {
    "name_tr": "Ani baskını (1154)",
@@ -1598,7 +1641,7 @@
    },
    "state": "Saltuklular",
    "home_batch": "beylikler-atabeylikler",
-   "id": 44
+   "id": 45
   },
   {
    "name_tr": "Ani (1161)",
@@ -1634,7 +1677,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Saltuk savaş başlamadan ordugâhtan ayrıldı; yenilginin sebebi buydu. Esir sayısı kaynakta 9000'dir; alınmadı.",
    "note_en": "Saltuk left the camp before the battle, which caused the defeat. The source gives 9,000 prisoners; not used.",
-   "id": 45
+   "id": 46
   },
   {
    "name_tr": "Lukri",
@@ -1671,7 +1714,363 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Bir aydan uzun süren savaşın sonunda kralın ordugâhı yağmalandı.",
    "note_en": "After more than a month of fighting the king's camp was plundered.",
-   "id": 46
+   "id": 47
+  },
+  {
+   "name_tr": "Koyun Adaları (deniz savaşı)",
+   "name_en": "Battle of the Oinousses (1090)",
+   "date": "1090",
+   "hijri": "",
+   "type": "land",
+   "war": "Çaka Bey–Bizans",
+   "place": "Koyun Adaları, Sakız yakını",
+   "lat": 38.51,
+   "lon": 26.22,
+   "loc": "approx",
+   "country": "Yunanistan",
+   "side_a": "Çaka Bey",
+   "side_b": "Bizans donanması",
+   "turkic_cmd": "Çaka Bey",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:caka-bey",
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Çaka Bey (İzmir Beyliği)",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Adaları kurtarmaya gelen Bizans donanması yenildi; Çaka Bey'in ilk deniz zaferi.",
+   "note_en": "A Byzantine fleet sent to recover the islands was defeated; Tzachas's first naval victory.",
+   "id": 48
+  },
+  {
+   "name_tr": "Sakız (1090)",
+   "name_en": "Battle of Chios (1090)",
+   "date": "1090",
+   "hijri": "",
+   "type": "land",
+   "war": "Çaka Bey–Bizans",
+   "place": "Sakız Adası",
+   "lat": 38.37,
+   "lon": 26.14,
+   "loc": "approx",
+   "country": "Yunanistan",
+   "side_a": "Çaka Bey",
+   "side_b": "Bizans",
+   "turkic_cmd": "Çaka Bey",
+   "opp_cmd": "Konstantinos Dalassenos",
+   "category": "dis",
+   "result": "W",
+   "status": "ihtilafli",
+   "sources": [
+    "TDVIA:caka-bey",
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Çaka Bey (İzmir Beyliği)",
+   "home_batch": "beylikler-atabeylikler",
+   "dispute": "TDVİA (Çaka Bey): Dalassenos Sakız'daki kara savaşında yenildi. Alternatif okuma: Roma veri seti (Anna Komnene) Bizans zaferi kaydeder. Karar [P6]: TDVİA.",
+   "id": 49
+  },
+  {
+   "name_tr": "Midilli (1092)",
+   "name_en": "Mytilene (1092)",
+   "date": "1092",
+   "hijri": "",
+   "type": "land",
+   "war": "Çaka Bey–Bizans",
+   "place": "Midilli",
+   "lat": 39.11,
+   "lon": 26.56,
+   "loc": "approx",
+   "country": "Yunanistan",
+   "side_a": "Bizans",
+   "side_b": "Çaka Bey",
+   "turkic_cmd": "Çaka Bey",
+   "opp_cmd": "Ioannes Dukas",
+   "category": "dis",
+   "result": "L",
+   "status": "borderline",
+   "sources": [
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Çaka Bey (İzmir Beyliği)",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var.",
+   "note_en": "Recorded only in the Roman dataset, based on Byzantine sources.",
+   "id": 50
+  },
+  {
+   "name_tr": "Efes (1097)",
+   "name_en": "Ephesus (1097)",
+   "date": "1097",
+   "hijri": "",
+   "type": "land",
+   "war": "Bizans'ın Ege seferi",
+   "place": "Efes",
+   "lat": 37.94,
+   "lon": 27.34,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Bizans",
+   "side_b": "Türk beylikleri (Çaka'nın halefleri)",
+   "turkic_cmd": "",
+   "opp_cmd": "Ioannes Dukas",
+   "category": "dis",
+   "result": "L",
+   "status": "borderline",
+   "sources": [
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Çaka Bey (İzmir Beyliği)",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var. Haçlıların İznik'i almasından sonraki Bizans Ege seferi.",
+   "note_en": "Recorded only in the Roman dataset, based on Byzantine sources. Part of the Byzantine Aegean campaign after the fall of Nicaea.",
+   "id": 51
+  },
+  {
+   "name_tr": "Kastamonu (1132)",
+   "name_en": "Kastamon (1132)",
+   "date": "1132",
+   "hijri": "",
+   "type": "land",
+   "war": "Dânişmendli–Bizans",
+   "place": "Kastamonu",
+   "lat": 41.38,
+   "lon": 33.78,
+   "loc": "known",
+   "country": "Türkiye",
+   "side_a": "Bizans",
+   "side_b": "Dânişmendliler",
+   "turkic_cmd": "Emîr Gazi",
+   "opp_cmd": "Ioannes II Komnenos",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mesud-i",
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Dânişmendliler",
+   "home_batch": "beylikler-atabeylikler",
+   "dispute": "Tarih: TDVİA 1132, Roma veri seti 1133.",
+   "note": "İmparator şehri alıp esirlerle İstanbul'a döndü.",
+   "note_en": "The emperor took the town and returned to Constantinople with captives.",
+   "id": 52
+  },
+  {
+   "name_tr": "Kastamonu (1133)",
+   "name_en": "Recapture of Kastamon (1133)",
+   "date": "1133",
+   "hijri": "",
+   "type": "land",
+   "war": "Dânişmendli–Bizans",
+   "place": "Kastamonu",
+   "lat": 41.38,
+   "lon": 33.78,
+   "loc": "known",
+   "country": "Türkiye",
+   "side_a": "Dânişmendliler",
+   "side_b": "Bizans garnizonu",
+   "turkic_cmd": "Emîr Gazi",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mesud-i"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Dânişmendliler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Kuşatmada açlık baş gösterince halk kapıları açtı (527/1133).",
+   "note_en": "When hunger set in during the siege the townspeople opened the gates (527/1133).",
+   "id": 53
+  },
+  {
+   "name_tr": "Çankırı (1135)",
+   "name_en": "Gangra (1135)",
+   "date": "1135",
+   "hijri": "",
+   "type": "land",
+   "war": "Dânişmendli–Bizans",
+   "place": "Çankırı",
+   "lat": 40.6,
+   "lon": 33.62,
+   "loc": "known",
+   "country": "Türkiye",
+   "side_a": "Bizans",
+   "side_b": "Dânişmendliler",
+   "turkic_cmd": "Melik Muhammed",
+   "opp_cmd": "Ioannes II Komnenos",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mesud-i",
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Dânişmendliler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "İlk kuşatma Selçuklu birliğinin ayrılmasıyla kaldırıldı; ertesi bahar Kastamonu barışla, Çankırı kuşatmayla alındı.",
+   "note_en": "The first siege was lifted when the Seljuk contingent withdrew; next spring Kastamon was taken peacefully and Gangra by siege.",
+   "id": 54
+  },
+  {
+   "name_tr": "Niksar (1140)",
+   "name_en": "Siege of Neocaesarea (1140)",
+   "date": "1140",
+   "hijri": "",
+   "type": "land",
+   "war": "Dânişmendli–Bizans",
+   "place": "Niksar",
+   "lat": 40.59,
+   "lon": 36.95,
+   "loc": "known",
+   "country": "Türkiye",
+   "side_a": "Dânişmendliler",
+   "side_b": "Bizans, Konstantin Gabras",
+   "turkic_cmd": "Melik Muhammed",
+   "opp_cmd": "Ioannes II Komnenos",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:danismendliler",
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Dânişmendliler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Dânişmendlilerin merkezini almayı amaçlayan sefer başarısız oldu.",
+   "note_en": "The campaign against the Danishmendid capital failed.",
+   "id": 55
+  },
+  {
+   "name_tr": "Bizâa (Buzâa, 1138)",
+   "name_en": "Siege of Buza'a (1138)",
+   "date": "1138-04",
+   "hijri": "",
+   "type": "land",
+   "war": "Zengî–Bizans",
+   "place": "Bizâa",
+   "lat": 36.4,
+   "lon": 37.56,
+   "loc": "approx",
+   "country": "Suriye",
+   "side_a": "Bizans",
+   "side_b": "Zengîler",
+   "turkic_cmd": "",
+   "opp_cmd": "Ioannes II Komnenos",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:zengi-imaduddin",
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Şehir emanla teslim oldu; Zengî Eylül-Ekim 1138'de geri aldı.",
+   "note_en": "The town surrendered on terms; Zengi recovered it in September–October 1138.",
+   "id": 56
+  },
+  {
+   "name_tr": "Halep müdafaası (1138)",
+   "name_en": "Defence of Aleppo (1138)",
+   "date": "1138-04-19",
+   "hijri": "",
+   "type": "land",
+   "war": "Zengî–Bizans",
+   "place": "Halep",
+   "lat": 36.2,
+   "lon": 37.16,
+   "loc": "known",
+   "country": "Suriye",
+   "side_a": "Zengîler (Halep)",
+   "side_b": "Bizans",
+   "turkic_cmd": "",
+   "opp_cmd": "Ioannes II Komnenos",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:zengi-imaduddin"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "İmparator üç günlük kuşatmadan sonra başarısız ayrıldı.",
+   "note_en": "The emperor withdrew unsuccessfully after a three-day siege.",
+   "id": 57
   }
  ],
  "left_out": [

@@ -94,7 +94,7 @@ Her dönem için ayrı bir dosya tutulur: `data/<parti>.json`.
 | `result` | Türk tarafı için W (kazandı), L (kaybetti), D (berabere), C (iç savaş) |
 | `status` | `kesin`, `borderline` veya `ihtilafli` |
 | `strength` | Ordu büyüklükleri (kaynağıyla birlikte) |
-| `sources` | Kaynaklar; anahtar biçimi `TDVIA:<slug>`, `WP:<başlık>`, `ROM` |
+| `sources` | Kaynaklar; anahtar biçimi `TDVIA:<slug>`, `AKD:<yazar-yıl>` (künye `data/akademik-kaynaklar.json`), `WP:<başlık>`, `ROM` |
 | `verify` | `tdvia`, `tdvia2` (ikinci ayrı maddede de doğrulandı), `wp`, `rom`, `academic` (doğrulandıysa true) |
 | `dispute`, `note`, `note_en` | Kaynaklar arası çelişki; açıklama (Türkçe ve İngilizce) |
 

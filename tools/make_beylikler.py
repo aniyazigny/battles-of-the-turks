@@ -5,6 +5,7 @@ from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
 HB = "beylikler-atabeylikler"
+CAK = "Çaka Bey (İzmir Beyliği)"
 ART, DAN, ZEN, BOR, SAL, ILD, MUS, ATS = ("Artuklular", "Dânişmendliler", "Zengîler", "Böriler (Dımaşk Atabegliği)",
                                          "Saltuklular", "İldenizliler", "Musul atabegleri (Porsukîler)", "Atsız b. Uvak")
 # (devlet, ad_tr, ad_en, tarih, harp, yer, lat, lon, loc, ülke, kazanan, kaybeden, türk_k, rakip_k, kategori, sonuç, statü,
@@ -79,6 +80,9 @@ R = [
 (BOR, "Taberiye (1108)", "Battle of Tiberias (1108)", "1108", "Tuğtegin'in Haçlılarla mücadelesi", "Taberiye yakını", 32.79, 35.53, "approx", "İsrail",
  "Dımaşk (Tuğtegin)", "Kudüs Krallığı", "Tuğtegin", "Gervaise de Bazoches (esir, öldürüldü)", "dis", "W", "kesin",
  ["TDVIA:tugtegin"], "", "", ""),
+(BOR, "Refeniye (1115)", "Battle of Rafaniyya (1115)", "1115-11", "Tuğtegin'in Haçlılarla mücadelesi", "Refeniye", 34.95, 36.40, "approx", "Suriye",
+ "Dımaşk (Tuğtegin)", "Haçlılar (Refeniye garnizonu)", "Tuğtegin", "", "dis", "W", "kesin",
+ ["TDVIA:tugtegin"], "", "Haçlıların işgal ettiği Refeniye âni bir baskınla geri alındı (Cemâziyelâhir 509).", "Rafaniyya, occupied by the Crusaders, was recovered in a surprise attack (November 1115)."),
 (BOR, "Kont Guillaume'un baskını", "Defeat by William-Jordan (1109)", "1109", "Tuğtegin'in Haçlılarla mücadelesi", "Trablus yöresi", 34.50, 36.00, "region", "Lübnan",
  "Trablus Kontluğu", "Dımaşk (Tuğtegin)", "Tuğtegin", "Guillaume Jourdain", "dis", "L", "borderline",
  ["TDVIA:tugtegin"], "", "Baskına uğrayan Tuğtegin ağır şartlarla anlaşmak zorunda kaldı.", "Surprised, Toghtekin was forced into a treaty on harsh terms."),
@@ -164,6 +168,39 @@ R = [
 (ILD, "Lukri", "Battle of Lori (1163)", "1163-07", "İldeniz–Gürcistan", "Lukri Kalesi yakını", 41.00, 44.40, "approx", "Ermenistan",
  "İldenizliler, Ahlatşahlar ve müttefik emîrler", "Gürcistan Krallığı", "Şemseddin İldeniz, Ahlatşah Sökmen II", "III. Giorgi", "dis", "W", "kesin",
  ["TDVIA:ildeniz-semseddin", "TDVIA:ahlatsahlar", "TDVIA:saltuklular"], "", "Bir aydan uzun süren savaşın sonunda kralın ordugâhı yağmalandı.", "After more than a month of fighting the king's camp was plundered."),
+(CAK, "Koyun Adaları (deniz savaşı)", "Battle of the Oinousses (1090)", "1090", "Çaka Bey–Bizans", "Koyun Adaları, Sakız yakını", 38.51, 26.22, "approx", "Yunanistan",
+ "Çaka Bey", "Bizans donanması", "Çaka Bey", "", "dis", "W", "kesin",
+ ["TDVIA:caka-bey", "ROM"], "", "Adaları kurtarmaya gelen Bizans donanması yenildi; Çaka Bey'in ilk deniz zaferi.", "A Byzantine fleet sent to recover the islands was defeated; Tzachas's first naval victory."),
+(CAK, "Sakız (1090)", "Battle of Chios (1090)", "1090", "Çaka Bey–Bizans", "Sakız Adası", 38.37, 26.14, "approx", "Yunanistan",
+ "Çaka Bey", "Bizans", "Çaka Bey", "Konstantinos Dalassenos", "dis", "W", "ihtilafli",
+ ["TDVIA:caka-bey", "ROM"], "TDVİA (Çaka Bey): Dalassenos Sakız'daki kara savaşında yenildi. Alternatif okuma: Roma veri seti (Anna Komnene) Bizans zaferi kaydeder. Karar [P6]: TDVİA.",
+ "", ""),
+(CAK, "Midilli (1092)", "Mytilene (1092)", "1092", "Çaka Bey–Bizans", "Midilli", 39.11, 26.56, "approx", "Yunanistan",
+ "Bizans", "Çaka Bey", "Çaka Bey", "Ioannes Dukas", "dis", "L", "borderline",
+ ["ROM"], "", "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var.", "Recorded only in the Roman dataset, based on Byzantine sources."),
+(CAK, "Efes (1097)", "Ephesus (1097)", "1097", "Bizans'ın Ege seferi", "Efes", 37.94, 27.34, "approx", "Türkiye",
+ "Bizans", "Türk beylikleri (Çaka'nın halefleri)", "", "Ioannes Dukas", "dis", "L", "borderline",
+ ["ROM"], "", "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var. Haçlıların İznik'i almasından sonraki Bizans Ege seferi.",
+ "Recorded only in the Roman dataset, based on Byzantine sources. Part of the Byzantine Aegean campaign after the fall of Nicaea."),
+(DAN, "Kastamonu (1132)", "Kastamon (1132)", "1132", "Dânişmendli–Bizans", "Kastamonu", 41.38, 33.78, "known", "Türkiye",
+ "Bizans", "Dânişmendliler", "Emîr Gazi", "Ioannes II Komnenos", "dis", "L", "kesin",
+ ["TDVIA:mesud-i", "ROM"], "Tarih: TDVİA 1132, Roma veri seti 1133.", "İmparator şehri alıp esirlerle İstanbul'a döndü.", "The emperor took the town and returned to Constantinople with captives."),
+(DAN, "Kastamonu (1133)", "Recapture of Kastamon (1133)", "1133", "Dânişmendli–Bizans", "Kastamonu", 41.38, 33.78, "known", "Türkiye",
+ "Dânişmendliler", "Bizans garnizonu", "Emîr Gazi", "", "dis", "W", "kesin",
+ ["TDVIA:mesud-i"], "", "Kuşatmada açlık baş gösterince halk kapıları açtı (527/1133).", "When hunger set in during the siege the townspeople opened the gates (527/1133)."),
+(DAN, "Çankırı (1135)", "Gangra (1135)", "1135", "Dânişmendli–Bizans", "Çankırı", 40.60, 33.62, "known", "Türkiye",
+ "Bizans", "Dânişmendliler", "Melik Muhammed", "Ioannes II Komnenos", "dis", "L", "kesin",
+ ["TDVIA:mesud-i", "ROM"], "", "İlk kuşatma Selçuklu birliğinin ayrılmasıyla kaldırıldı; ertesi bahar Kastamonu barışla, Çankırı kuşatmayla alındı.",
+ "The first siege was lifted when the Seljuk contingent withdrew; next spring Kastamon was taken peacefully and Gangra by siege."),
+(DAN, "Niksar (1140)", "Siege of Neocaesarea (1140)", "1140", "Dânişmendli–Bizans", "Niksar", 40.59, 36.95, "known", "Türkiye",
+ "Dânişmendliler", "Bizans, Konstantin Gabras", "Melik Muhammed", "Ioannes II Komnenos", "dis", "W", "kesin",
+ ["TDVIA:danismendliler", "ROM"], "", "Dânişmendlilerin merkezini almayı amaçlayan sefer başarısız oldu.", "The campaign against the Danishmendid capital failed."),
+(ZEN, "Bizâa (Buzâa, 1138)", "Siege of Buza'a (1138)", "1138-04", "Zengî–Bizans", "Bizâa", 36.40, 37.56, "approx", "Suriye",
+ "Bizans", "Zengîler", "", "Ioannes II Komnenos", "dis", "L", "kesin",
+ ["TDVIA:zengi-imaduddin", "ROM"], "", "Şehir emanla teslim oldu; Zengî Eylül-Ekim 1138'de geri aldı.", "The town surrendered on terms; Zengi recovered it in September–October 1138."),
+(ZEN, "Halep müdafaası (1138)", "Defence of Aleppo (1138)", "1138-04-19", "Zengî–Bizans", "Halep", 36.20, 37.16, "known", "Suriye",
+ "Zengîler (Halep)", "Bizans", "", "Ioannes II Komnenos", "dis", "W", "kesin",
+ ["TDVIA:zengi-imaduddin"], "", "İmparator üç günlük kuşatmadan sonra başarısız ayrıldı.", "The emperor withdrew unsuccessfully after a three-day siege."),
 ]
 
 # turk_arasi kayıtlarda karşı taraftaki kapsam içi Türk devleti (K1: kayıt onun tablosunda da görünür)
@@ -171,10 +208,12 @@ OPP_STATE = {"Âmid (Kürboğa'ya karşı)": "Büyük Selçuklu", "Dârâ (Aksun
              "Serce (Artuklulara karşı)": "Artuklular", "Karaca Sâkî'ye yenilgi": "Irak Selçukluları", "Âmid (Dâvûd'a karşı)": "Artuklular"}
 
 # İkinci kaynak turu (2026-10-28): kayıt adına göre ek kaynaklar ve düzeltmeler
-EXTRA_SRC = {"Serûc (Josselin'in esareti)": ["TDVIA:artuklular"], "Turuş (Kral Baudouin'in esareti)": ["TDVIA:artuklular"],
+EXTRA_SRC = {"Sivas (Sebasteia)": ["ROM"], "Hârim (1164)": ["ROM"], "Suruç (I)": ["AKD:celik-2021"], "Suruç (II)": ["AKD:celik-2021"], "Şiran (Bayburt yakını)": ["AKD:celik-2021"], "Harput Kalesi'nin geri alınması": ["AKD:celik-2021"], "Azâz kuşatması (1123–24)": ["AKD:celik-2021"], "Menbic": ["AKD:erdem-2018", "AKD:celik-2021"], "Serûc (Josselin'in esareti)": ["TDVIA:artuklular", "AKD:celik-2021"], "Turuş (Kral Baudouin'in esareti)": ["TDVIA:artuklular", "AKD:celik-2021"],
              "Menbic": ["TDVIA:menbic"], "Serce (Artuklulara karşı)": ["TDVIA:artuklular"], "Josselin'e yenilgi": ["TDVIA:gaziantep"],
              "Dımaşk (1148)": ["TDVIA:nureddin-zengi-mahmud"]}
-FIX = {"Serce (Artuklulara karşı)": {"date": "1130", "note": "Dâvûd ve Timurtaş yenilip Serce ile Dârâ'yı Zengî'ye bıraktı (Artuklular maddesi). Kaynaktaki sayılar (20.000 Türkmene karşı 4000) alınmadı.",
+FIX = {"Suruç (I)": {"date": "1101", "dispute": "Tarih: Belek maddesi 1100 verir; Sökmen maddesi tarih vermez. Çelik (2021) iki Suruç çarpışmasını da 1101'e koyar; burada Çelik'e uyuldu."},
+       "Azâz kuşatması (1123–24)": {"status": "kesin", "note": "Belek komutasındaki kuvvetler kaleyi kuşattı; Joscelin'in yardıma gelmesi ve garnizonun huruç hareketi üzerine Belek iki ateş arasında kalmamak için çekildi (Çelik 2021).", "note_en": "Forces under Belek besieged the castle; when Joscelin came to its relief and the garrison sallied, Belek withdrew to avoid being caught between them (Çelik 2021)."},
+       "Serce (Artuklulara karşı)": {"date": "1130", "note": "Dâvûd ve Timurtaş yenilip Serce ile Dârâ'yı Zengî'ye bıraktı (Artuklular maddesi). Kaynaktaki sayılar (20.000 Türkmene karşı 4000) alınmadı.",
                                      "note_en": "Dawud and Timurtash were defeated and ceded Serce and Dara to Zengi (Artuqids article). The source figures (4,000 against 20,000 Turkmens) are not used."},
        "Josselin'e yenilgi": {"date": "1149/1150", "dispute": "Tarih: Gaziantep maddesi 1149; Nûreddin maddesi yenilgiyi Josselin'in Mayıs 1150'de teslim alınmasından önceye koyar."},
        "Menbic": {"dispute": "Menbic maddesi Belek'in Safer 518 / Nisan 1124'te Menbic'e geldiğini yazar; savaş Belek maddesine göre 5 Mayıs 1124'tedir."}}
@@ -218,6 +257,9 @@ for r in R:
     if note: rec["note"], rec["note_en"] = note, note_en
     if ntr in OPP_STATE: rec["opp_state"] = OPP_STATE[ntr]
     rec.update(FIX.get(ntr, {}))
+    rec["verify"]["rom"] = "ROM" in rec["sources"]
+    rec["verify"]["academic"] = any(x.startswith("AKD:") for x in rec["sources"])
+    rec["verify"]["tdvia"] = any(x.startswith("TDVIA:") for x in rec["sources"])
     add(rec)
 
 out_path = root / "data" / "beylikler-atabeylikler.json"

@@ -14,7 +14,8 @@ for name, prefix in BATCHES:
     left_out += d["left_out"]
 data = {"battles": battles, "left_out": left_out}
 borders = json.loads((root / "data" / "sinirlar.json").read_text(encoding="utf-8"))
+bib = json.loads((root / "data" / "akademik-kaynaklar.json").read_text(encoding="utf-8"))["works"]
 embed = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
-html = (root / "site" / "template.html").read_text(encoding="utf-8").replace("/*DATA*/", embed(data), 1).replace("/*BORDERS*/", embed(borders), 1)
+html = (root / "site" / "template.html").read_text(encoding="utf-8").replace("/*DATA*/", embed(data), 1).replace("/*BORDERS*/", embed(borders), 1).replace("/*BIB*/", embed(bib), 1)
 (root / "site" / "index.html").write_text(html, encoding="utf-8")
 print("site/index.html", len(html), "bayt,", len(battles), "kayıt")

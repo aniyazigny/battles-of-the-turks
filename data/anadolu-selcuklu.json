@@ -264,13 +264,14 @@
    "sources": [
     "TDVIA:kilicarslan-i",
     "TDVIA:iznik",
-    "TDVIA:haclilar"
+    "TDVIA:haclilar",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
-    "rom": false,
+    "rom": true,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
@@ -300,13 +301,14 @@
    "status": "kesin",
    "sources": [
     "TDVIA:kilicarslan-i",
-    "TDVIA:mesud-i"
+    "TDVIA:mesud-i",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
-    "rom": false,
+    "rom": true,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
@@ -338,13 +340,14 @@
    "sources": [
     "TDVIA:haclilar",
     "TDVIA:kilicarslan-i",
-    "TDVIA:danismendliler"
+    "TDVIA:danismendliler",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
-    "rom": false,
+    "rom": true,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
@@ -557,13 +560,14 @@
    "result": "D",
    "status": "ihtilafli",
    "sources": [
-    "TDVIA:mesud-i"
+    "TDVIA:mesud-i",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
-    "rom": false,
+    "rom": true,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
@@ -592,18 +596,19 @@
    "status": "ihtilafli",
    "sources": [
     "TDVIA:mesud-i",
-    "TDVIA:selcuklular"
+    "TDVIA:selcuklular",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
-    "rom": false,
+    "rom": true,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
-   "dispute": "TDVİA (Mesud I maddesi): pusu ve baskınlarla Bizans ordusuna büyük kayıplar verdirildi, imparator geri döndü ve Büyük Menderes'e kadar takip edildi. Alternatif okuma: Kinnamos'a göre barışı sultan istedi. Karar [P6]: Selçuklu zaferi.",
+   "dispute": "TDVİA (Mesud I maddesi): pusu ve baskınlarla Bizans ordusuna büyük kayıplar verdirildi, imparator geri döndü ve Büyük Menderes'e kadar takip edildi. Alternatif okuma: Kinnamos'a göre barışı sultan istedi. Karar [P6]: Selçuklu zaferi. Roma veri seti aynı seferde Akroinon'da (Akşehir) Bizans zaferi kaydeder.",
    "note": "Bizans ordusu Akşehir'de Selçuklu öncüsüyle karşılaştı. Rumlardan 20.000 kişinin öldüğü rivayeti kaynaktaki bir sayıdır; alınmadı.",
    "note_en": "The Byzantine army met the Seljuk vanguard at Akşehir. The report of 20,000 Byzantine dead is a source figure and is not used."
   },
@@ -919,13 +924,14 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:kilicarslan-ii"
+    "TDVIA:kilicarslan-ii",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
-    "rom": false,
+    "rom": true,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
@@ -955,14 +961,16 @@
    "status": "kesin",
    "sources": [
     "TDVIA:kilicarslan-ii",
-    "TDVIA:miryokefalon-savasi"
+    "TDVIA:miryokefalon-savasi",
+    "AKD:ince-2019",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
-    "rom": false,
-    "academic": false
+    "rom": true,
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
@@ -1387,13 +1395,14 @@
    "status": "kesin",
    "sources": [
     "TDVIA:keyhusrev-i",
-    "TDVIA:keykubad-i"
+    "TDVIA:keykubad-i",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
-    "rom": false,
+    "rom": true,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
@@ -1459,19 +1468,22 @@
    "status": "kesin",
    "sources": [
     "TDVIA:keykavus-i",
-    "TDVIA:sinop"
+    "TDVIA:sinop",
+    "AKD:citak-2025",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
-    "rom": false,
-    "academic": false
+    "rom": true,
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "Trabzon imparatoru Aleksios önceden esir alınmıştı; şehir onun serbest bırakılması şartıyla teslim oldu. Trabzon Kösedağ'a kadar Selçuklulara tâbi kaldı.",
-   "note_en": "Emperor Alexios of Trebizond had been captured beforehand; the city surrendered on condition of his release. Trebizond remained a Seljuk vassal until Köse Dağ."
+   "note_en": "Emperor Alexios of Trebizond had been captured beforehand; the city surrendered on condition of his release. Trebizond remained a Seljuk vassal until Köse Dağ.",
+   "dispute": "Tarih: İbn Bîbî ve TDVİA 2 Kasım 1214; Anonim Selçuknâme 17 Şevval 612 / 8 Şubat 1216 verir ve önceden bir anlaşma yapıldığından söz etmez (Çıtak 2025)."
   },
   {
    "id": 41,
@@ -1495,14 +1507,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:keykavus-i",
-    "TDVIA:antalya"
+    "TDVIA:antalya",
+    "AKD:citak-2025"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
@@ -1530,19 +1543,22 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:keykavus-i"
+    "TDVIA:keykavus-i",
+    "AKD:gokhan-2012",
+    "AKD:citak-2025"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "Önce Çinçin ve Haçin kaleleri alındı. Ermeni soylularının esir düşmesinden sonra Levon barış istedi.",
-   "note_en": "Çinçin and Haçin were taken first. After Armenian nobles were captured Leo sued for peace."
+   "note_en": "Çinçin and Haçin were taken first. After Armenian nobles were captured Leo sued for peace.",
+   "dispute": "Tarih: TDVİA ve Gökhan (2012) 1216; Ayan 613/1217; Süryânî Mihail'e ek yapan bir müstensih 1218 verir. Gökhan'a göre kuşatma sırasında Ermeniler bir huruçla mancınıkları yaktı, ancak ardından meydan savaşında yenildiler ve Leon barış istedi."
   },
   {
    "id": 43,
@@ -1711,19 +1727,21 @@
    "status": "kesin",
    "sources": [
     "TDVIA:keykubad-i",
-    "TDVIA:trabzon"
+    "TDVIA:trabzon",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
-    "rom": false,
+    "rom": true,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "Yağmur ve fırtına orduyu dağıttı; melik Keyhusrev esir düştü ve saygıyla geri gönderildi.",
-   "note_en": "Rain and storms broke up the army; the prince Kaykhusraw was captured and courteously sent back."
+   "note_en": "Rain and storms broke up the army; the prince Kaykhusraw was captured and courteously sent back.",
+   "dispute": "Roma veri seti bu kuşatmayı 1223'e koyar."
   },
   {
    "id": 48,
@@ -1997,13 +2015,14 @@
    "status": "kesin",
    "sources": [
     "TDVIA:kosedag-savasi",
-    "TDVIA:keyhusrev-ii"
+    "TDVIA:keyhusrev-ii",
+    "ROM"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
-    "rom": false,
+    "rom": true,
     "academic": false
    },
    "state": "Anadolu Selçukluları",
@@ -2333,6 +2352,286 @@
    "home_batch": "anadolu-selcuklu",
    "note": "Gāzân Han'ın ölüm haberiyle kuşatma kaldırıldı.",
    "note_en": "Lifted on news of Ghazan Khan's death."
+  },
+  {
+   "id": 65,
+   "name_tr": "İznik yöresi (1113)",
+   "name_en": "Battle near Nicaea (1113)",
+   "date": "1113",
+   "hijri": "",
+   "type": "land",
+   "war": "Melikşah (Şâhinşah)–Bizans",
+   "place": "İznik yöresi",
+   "lat": 40.43,
+   "lon": 29.72,
+   "loc": "region",
+   "country": "Türkiye",
+   "side_a": "Bizans",
+   "side_b": "Anadolu Selçukluları",
+   "turkic_cmd": "",
+   "opp_cmd": "Aleksios I Komnenos",
+   "category": "dis",
+   "result": "L",
+   "status": "borderline",
+   "sources": [
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Anadolu Selçukluları",
+   "home_batch": "anadolu-selcuklu",
+   "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var; Türk kaynağı bulunamadı.",
+   "note_en": "Recorded only in the Roman dataset, based on Byzantine sources; no Turkish source found."
+  },
+  {
+   "id": 66,
+   "name_tr": "Lâdik (Laodikeia, 1119)",
+   "name_en": "Laodicea (1119)",
+   "date": "1119",
+   "hijri": "",
+   "type": "land",
+   "war": "Mesud I–Bizans",
+   "place": "Lâdik (Denizli)",
+   "lat": 37.84,
+   "lon": 29.11,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Bizans",
+   "side_b": "Anadolu Selçukluları",
+   "turkic_cmd": "",
+   "opp_cmd": "Ioannes II Komnenos",
+   "category": "dis",
+   "result": "L",
+   "status": "borderline",
+   "sources": [
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Anadolu Selçukluları",
+   "home_batch": "anadolu-selcuklu",
+   "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var; Türk kaynağı bulunamadı.",
+   "note_en": "Recorded only in the Roman dataset, based on Byzantine sources; no Turkish source found."
+  },
+  {
+   "id": 67,
+   "name_tr": "Uluborlu (Sozopolis, 1120)",
+   "name_en": "Sozopolis (1120)",
+   "date": "1120",
+   "hijri": "",
+   "type": "land",
+   "war": "Mesud I–Bizans",
+   "place": "Uluborlu",
+   "lat": 38.08,
+   "lon": 30.45,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Bizans",
+   "side_b": "Anadolu Selçukluları",
+   "turkic_cmd": "",
+   "opp_cmd": "Ioannes II Komnenos",
+   "category": "dis",
+   "result": "L",
+   "status": "borderline",
+   "sources": [
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Anadolu Selçukluları",
+   "home_batch": "anadolu-selcuklu",
+   "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var. TDVİA (Mesud I) Sozopolis'i yalnızca 1131'de Mesud'un alamadığı şehir olarak anar.",
+   "note_en": "Recorded only in the Roman dataset. TDVİA (Mas'ud I) mentions Sozopolis only as a town Mas'ud failed to take in 1131."
+  },
+  {
+   "id": 68,
+   "name_tr": "Menderes (Hyelion ve Leimocheir)",
+   "name_en": "Hyelion and Leimocheir (1177)",
+   "date": "1177",
+   "hijri": "",
+   "type": "land",
+   "war": "Kılıcarslan II–Bizans",
+   "place": "Büyük Menderes vadisi",
+   "lat": 37.9,
+   "lon": 28.6,
+   "loc": "region",
+   "country": "Türkiye",
+   "side_a": "Bizans",
+   "side_b": "Anadolu Selçukluları",
+   "turkic_cmd": "",
+   "opp_cmd": "Ioannes Vatatzes",
+   "category": "dis",
+   "result": "L",
+   "status": "borderline",
+   "sources": [
+    "ROM",
+    "TDVIA:kilicarslan-ii"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Anadolu Selçukluları",
+   "home_batch": "anadolu-selcuklu",
+   "note": "TDVİA, Kılıcarslan'ın Menderes bölgesine 24.000 kişilik bir birlik gönderdiğini yazar ama sonucunu vermez; yenilgi Bizans kaynaklarına (Khoniates) dayanır.",
+   "note_en": "TDVİA says Kilij Arslan sent a force of 24,000 to the Maeander region but gives no outcome; the defeat rests on Byzantine sources (Choniates)."
+  },
+  {
+   "id": 69,
+   "name_tr": "Harax (Charax, 1178)",
+   "name_en": "Charax (1178)",
+   "date": "1178",
+   "hijri": "",
+   "type": "land",
+   "war": "Kılıcarslan II–Bizans",
+   "place": "Harax, İzmit yöresi",
+   "lat": 40.79,
+   "lon": 29.62,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Anadolu Selçukluları",
+   "side_b": "Bizans",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "borderline",
+   "sources": [
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Anadolu Selçukluları",
+   "home_batch": "anadolu-selcuklu",
+   "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var; Türk kaynağı bulunamadı.",
+   "note_en": "Recorded only in the Roman dataset, based on Byzantine sources; no Turkish source found."
+  },
+  {
+   "id": 70,
+   "name_tr": "Bolu (Klaudiopolis, 1179)",
+   "name_en": "Claudiopolis (1179)",
+   "date": "1179",
+   "hijri": "",
+   "type": "land",
+   "war": "Kılıcarslan II–Bizans",
+   "place": "Bolu",
+   "lat": 40.73,
+   "lon": 31.61,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Bizans",
+   "side_b": "Anadolu Selçukluları",
+   "turkic_cmd": "",
+   "opp_cmd": "Manuel I Komnenos",
+   "category": "dis",
+   "result": "L",
+   "status": "borderline",
+   "sources": [
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Anadolu Selçukluları",
+   "home_batch": "anadolu-selcuklu",
+   "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var; Türk kaynağı bulunamadı.",
+   "note_en": "Recorded only in the Roman dataset, based on Byzantine sources; no Turkish source found."
+  },
+  {
+   "id": 71,
+   "name_tr": "Trabzon kuşatması (1205)",
+   "name_en": "Siege of Trebizond (1205)",
+   "date": "1205",
+   "hijri": "",
+   "type": "land",
+   "war": "Keyhusrev I–Trabzon",
+   "place": "Trabzon",
+   "lat": 41.0,
+   "lon": 39.72,
+   "loc": "known",
+   "country": "Türkiye",
+   "side_a": "Trabzon Rum İmparatorluğu",
+   "side_b": "Anadolu Selçukluları",
+   "turkic_cmd": "",
+   "opp_cmd": "Aleksios I (Trabzon)",
+   "category": "dis",
+   "result": "L",
+   "status": "ihtilafli",
+   "sources": [
+    "ROM"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Anadolu Selçukluları",
+   "home_batch": "anadolu-selcuklu",
+   "dispute": "TDVİA (Keyhusrev I) aynı dönemde Keyhusrev'in Samsun'u işgale kalkışan Aleksios'u yendiğini yazar (Samsun kaydı). Roma veri seti ise 1205'te Trabzon'u kuşatan Selçukluların başarısız olduğunu kaydeder. Aynı seferin iki ayrı olayı olabilir."
+  },
+  {
+   "id": 72,
+   "name_tr": "Sinop'un kaybı (1254/1259)",
+   "name_en": "Loss of Sinope",
+   "date": "1254",
+   "hijri": "",
+   "type": "land",
+   "war": "Keykâvus II–Trabzon",
+   "place": "Sinop",
+   "lat": 42.02,
+   "lon": 35.15,
+   "loc": "known",
+   "country": "Türkiye",
+   "side_a": "Trabzon Rum İmparatorluğu",
+   "side_b": "Anadolu Selçukluları",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "ihtilafli",
+   "sources": [
+    "ROM",
+    "TDVIA:sinop"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": true,
+    "academic": false
+   },
+   "state": "Anadolu Selçukluları",
+   "home_batch": "anadolu-selcuklu",
+   "dispute": "Tarih: Roma veri seti 1254, TDVİA Sinop maddesi 657 (1259). Şehir 1266'da geri alındı."
   }
  ],
  "left_out": [
@@ -2355,11 +2654,6 @@
    "name": "Kastamonu (1133) ve Çankırı (1134–35)",
    "reason": "Asıl taraf Dânişmendliler; Selçuklu birliği yalnızca Bizans'ın müttefikiydi. Beylikler partisine bırakıldı.",
    "source": "TDVIA:mesud-i"
-  },
-  {
-   "name": "Menderes (Hyelion ve Leimocheir, 1177)",
-   "reason": "Yalnızca Bizans kaynağı (Khoniates) var; TDVİA birliğin gönderildiğini yazar ama sonuç vermez. Roma veri setiyle kontrol edilince alınacak.",
-   "source": "TDVIA:kilicarslan-ii"
   },
   {
    "name": "Denizli ve Antalya kuşatmaları (c. 1182)",

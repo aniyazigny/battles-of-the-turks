@@ -28,10 +28,16 @@ R = [
 (G, "Merv (Sâmânîler)", "Battle of Merv (999)", "999", "Gazneli–Sâmânî", "Merv yakını", 37.60, 61.83, "region", "Türkmenistan",
  "Gazneliler", "Sâmânîler", "Mahmud", "", "dis", "W", "borderline",
  ["TDVIA:mahmud-i-gaznevi"], "", "Horasan Gaznelilere geçti. Savaşın yeri kaynakta açık değil.", "Khurasan passed to the Ghaznavids. The site is not stated in the source."),
+(G, "Gazne (998)", "Battle of Ghazni (998)", "998-03", "Gazneli taht mücadelesi", "Gazne yakını", 33.55, 68.42, "approx", "Afganistan",
+ "Mahmud", "İsmâil b. Sebük Tegin", "Mahmud", "İsmâil", "ic", "C", "kesin",
+ ["TDVIA:mahmud-i-gaznevi", "TDVIA:gazneliler"], "", "Mahmud kardeşi İsmâil'in kuvvetlerini yenip Gazneli tahtına çıktı (Rebîülevvel 388).", "Mahmud defeated his brother Isma'il and took the Ghaznavid throne (March 998)."),
 (G, "Peşâver (Caypal)", "Battle of Peshawar (1001)", "1001-11", "Mahmud'un Hint seferleri", "Peşâver", 34.01, 71.57, "approx", "Pakistan",
  "Gazneliler", "Hindûşâhîler", "Mahmud", "Caypal", "dis", "W", "ihtilafli",
  ["TDVIA:mahmud-i-gaznevi"], "Tarih: TDVİA zaferi 392'ye (1002) koyar; yaygın tarih Kasım 1001'dir.",
  "Ardından Hindûşâhî merkezi Vayhand alındı.", "The Hindu Shahi capital Waihind was taken afterwards."),
+(G, "Bhâtiya", "Siege of Bhatiya (1004–05)", "1004/1005", "Mahmud'un Hint seferleri", "Bhâtiya", 29.20, 71.80, "region", "Pakistan",
+ "Gazneliler", "Bhâtiya racalığı", "Mahmud", "Beci Ray (Bacra)", "dis", "W", "kesin",
+ ["TDVIA:mahmud-i-gaznevi"], "", "Üçüncü Hint seferi (395/1004-05). Bhâtiya'nın yeri tartışmalıdır (Bhera, Uç veya Bhatinda önerilir).", "Third Indian campaign (395/1004-05). The location of Bhatiya is disputed (Bhera, Uch or Bhatinda are proposed)."),
 (G, "Mültan (1006)", "Multan (1006)", "1006", "Mahmud'un Hint seferleri", "Mültan", 30.20, 71.47, "known", "Pakistan",
  "Gazneliler", "Mültan Karmatîleri", "Mahmud", "Ebü'l-Fütûh Dâvûd", "dis", "W", "kesin",
  ["TDVIA:mahmud-i-gaznevi"], "", "", ""),
@@ -44,9 +50,9 @@ R = [
 (G, "Mültan (1010)", "Multan (1010)", "1010", "Mahmud'un Hint seferleri", "Mültan", 30.20, 71.47, "known", "Pakistan",
  "Gazneliler", "Mültan Karmatîleri", "Mahmud", "", "dis", "W", "borderline",
  ["TDVIA:mahmud-i-gaznevi"], "", "Bölge zorlukla karşılaşmadan itaat altına alındı.", "The region submitted without serious resistance."),
-(G, "Keşmir yolunda Triloçanpâl", "Defeat of Trilochanapala", "c. 1014", "Mahmud'un Hint seferleri", "Keşmir yolu", 33.30, 73.80, "region", "Pakistan",
- "Gazneliler", "Hindûşâhîler", "Mahmud", "Triloçanpâl", "dis", "W", "borderline",
- ["TDVIA:mahmud-i-gaznevi"], "", "Tarih ve yer yaklaşık.", "Date and place approximate."),
+(G, "Nandana (Triloçanpâl)", "Battle of Nandana (1014)", "1014", "Mahmud'un Hint seferleri", "Nandana kalesi", 32.72, 73.25, "approx", "Pakistan",
+ "Gazneliler", "Hindûşâhîler", "Mahmud", "Triloçanpâl", "dis", "W", "kesin",
+ ["TDVIA:mahmud-i-gaznevi"], "", "Zorlu bir savaştan sonra Nandana kalesi alındı; Mahmud ardından Keşmir'e kadar ilerledi (Palabıyık 2007: dokuzuncu sefer, 405/1014).", "After a hard battle Nandana fortress was taken; Mahmud then advanced towards Kashmir (Palabıyık 2007: ninth campaign, 405/1014)."),
 (G, "Lokhot kuşatması", "Siege of Lohkot (1015)", "1015", "Mahmud'un Hint seferleri", "Lokhot (Loharin)", 33.90, 74.30, "approx", "Hindistan",
  "Keşmir", "Gazneliler", "Mahmud", "", "dis", "L", "kesin",
  ["TDVIA:mahmud-i-gaznevi"], "", "Şiddetli kış yüzünden kuşatma kaldırıldı.", "Lifted because of severe winter."),
@@ -107,6 +113,10 @@ R = [
  ["TDVIA:karahanlilar"], "", "İbrâhim öldürüldü. Karluklar Türk boyudur ama kapsam listesinde değildir.", "Ibrahim was killed. The Qarluqs were a Turkic people outside the scope list."),
 ]
 
+EXTRA_SRC = {n: ["AKD:palabiyik-2007"] for n in ("Peşâver (Caypal)", "Vayhand ovası (Anandpâl)", "Nandana (Triloçanpâl)", "Lokhot kuşatması",
+                                              "Kannevc seferi", "Ganda'ya karşı (Bari)", "Somnat", "İndus üzerinde Câtlar")}
+FIX = {"Peşâver (Caypal)": {"dispute": "Tarih: TDVİA zaferi 392'ye (1002) koyar; Palabıyık (2007) bu ikinci seferi Vayhand seferi olarak 391-2/1001-2'ye tarihler ve Caypal'ın esir alındığını yazar; yaygın tarih 27 Kasım 1001'dir."},
+       "Ganda'ya karşı (Bari)": {"status": "kesin", "note": "Bari alındı. Palabıyık'a (2007) göre on üçüncü seferde (410/1019) askerler Ramganga nehrini tulumlarla geçti ve Ganda ile müttefiklerine karşı büyük bir zafer kazanıldı.", "note_en": "Bari was taken. According to Palabıyık (2007), on the thirteenth campaign (410/1019) the troops crossed the Ramganga on inflated skins and won a great victory over Ganda and his allies."}}
 OPP_STATE = {"Belh (1008)": K, "Belh (1019)": K, "Debûsiye": K}
 LEFT = [
  {"name": "Buhara (999)", "reason": "İlig Han Nasr şehri mukavemetle karşılaşmadan aldı; savaş yok.", "source": "TDVIA:karahanlilar"},
@@ -126,6 +136,9 @@ for i, r in enumerate(R, 1):
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
     if ntr in OPP_STATE: rec["opp_state"] = OPP_STATE[ntr]
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    rec.update(FIX.get(ntr, {}))
+    rec["verify"]["academic"] = any(x.startswith("AKD:") for x in rec["sources"])
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
