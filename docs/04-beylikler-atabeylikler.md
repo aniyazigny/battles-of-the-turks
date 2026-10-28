@@ -10,11 +10,19 @@ Mengücüklüler ve Ahlatşahlar kendi başlarına kayıt sahibi değil, müttef
 Bitiş: Nûreddin Mahmud'un ölümü (1174) ve Eyyûbî döneminin başlangıcı. Sonraki Anadolu beylikleri (Karaman, Germiyan vb.) Osmanlı dönemiyle birlikte ele alınacak.
 
 ## Özet
-- **45 kayıt.** Pilottan taşınan 3 kayıt dahil: Sivas 1070 (Er Basgan), Kahire 1077 (Atsız), Harran 1104 (Sökmen ve Çökürmüş). Pilot 80 kayda indi.
-- **Dış rakiplere karşı:** 27 galibiyet, 11 mağlubiyet, 1 belirsiz (Banyas 1153).
+- **46 kayıt.** Pilottan taşınan 3 kayıt dahil: Sivas 1070 (Er Basgan), Kahire 1077 (Atsız), Harran 1104 (Sökmen ve Çökürmüş). Pilot 80 kayda indi.
+- **Dış rakiplere karşı:** 27 galibiyet, 12 mağlubiyet, 1 belirsiz (Banyas 1153).
 - **Türk devletleri arası:** 4 galibiyet, 2 mağlubiyet.
-- **Statü:** 32 kesin, 12 borderline, 1 ihtilaflı.
-- **Doğrulama:** 21 kayıt iki ayrı TDVİA maddesinde; 24 kayıt tek maddeye (çoğu Belek, Tuğtegin, Zengî ve Nûreddin maddeleri) dayanıyor.
+- **Statü:** 33 kesin, 12 borderline, 1 ihtilaflı.
+- **Doğrulama:** 28 kayıt iki ayrı TDVİA maddesinde; 18 kayıt tek maddeye (çoğu Belek, Tuğtegin, Zengî ve Nûreddin maddeleri) dayanıyor.
+
+### İkinci kaynak turu (2026-10-28)
+Artuklular, Menbic, Gaziantep, Zengîler ve Nûreddin maddeleri 7 kaydı doğruladı (21 → 28). Serce savaşının tarihi 1130 olarak netleşti (Artuklular maddesi). Josselin'e yenilgi için 1149/1150 ve Menbic için Nisan/Mayıs 1124 ihtilafları notta. Zengîler maddesinden yeni kayıt: Hısnülekrâd (el-Bukay'a) 1163, Nûreddin'in Haçlı baskınına uğradığı yenilgi.
+
+Hâlâ tek maddeli 18 kayıt: Taberiye 1075 ve 1108, Âmid 1101 ve 1134, Harput 1123, Azâz 1123–24, Meşhalâ 1124, Halep 1125, Kont Guillaume 1109, Pons 1137, Mercüssuffer 1126, Esârib 1130, Karaca Sâkî c. 1132, Bire 1145, Banyas 1153, Hârim 1156, Kilikya 1173, Saltuklu zaferi 1131. TDVİA'da bunlar için ikinci madde bulunamadı.
+
+### Arayüz: iki taraflı tablolar
+Türk devletleri arası kayıtlara `opp_state` alanı eklendi; kayıt karşı taraftaki Türk devletinin tablosunda ters sonuçla görünür (K1). Böylece Dânişmendliler, Gazneliler ve Karahanlılar'ın tabloları da oluştu.
 
 Başlıca kayıtlar: Belâta (Ager Sanguinis, 1119), Kral II. Baudouin'in esir alındığı Turuş (1123), Menbic (1124), Ba'rîn (1137), Urfa'nın fethi (1144), Dımaşk müdafaası (1148), İnnib (1149), Hârim (1164), Bâbeyn (1167), Lukri (1163).
 
@@ -32,11 +40,11 @@ Başlıca kayıtlar: Belâta (Ager Sanguinis, 1119), Kral II. Baudouin'in esir a
 | İldenizli taht mücadeleleri | Dışarıda | Irak Selçukluları partisinde ele alınacak |
 
 ## Bilinen eksikler
-- `turk_arasi` kayıtlar şimdilik tek bir devletin tablosunda görünüyor. Örneğin Kılıcarslan II'nin 1162'de Yağıbasan'a yenilgisi Anadolu Selçuklu kaydı; Dânişmendli tablosunda galibiyet olarak görünmüyor. K1 her iki devletin tablosunda görünmesini istiyor; arayüzde düzeltilecek.
+- ~~`turk_arasi` kayıtların tek devletin tablosunda görünmesi~~ düzeltildi (`opp_state`).
 - Dımaşk'a 1129 Haçlı saldırısı ve Böri dönemi için TDVİA maddesi bulunamadı.
 - Nûreddin döneminin daha küçük savaşları (Fâmiye, Hama civarı, 1157 Banyas) henüz taranmadı.
 
 ## Sonraki adımlar
-- [ ] İkinci kaynak turu (24 tek maddeli kayıt).
-- [ ] `turk_arasi` kayıtların iki devletin tablosunda birden görünmesi (arayüz).
+- [x] İkinci kaynak turu (28/46).
+- [x] `turk_arasi` kayıtların iki devletin tablosunda birden görünmesi.
 - [ ] Sonraki parti için seçenekler: Gazneliler ve Karahanlılar, Göktürkler ve Uygurlar ya da Osmanlı'nın kuruluş dönemi.

@@ -301,7 +301,9 @@ function render(){
 
 function renderWDL(F){
   const box=document.getElementById("wdl");
-  const states=d3.groups(F.filter(b=>b.category!=="ic"),b=>b.state);
+  // K1: Türk devletleri arası bir savaş, karşı taraftaki Türk devletinin tablosunda da ters sonuçla görünür
+  const mirror=F.filter(b=>b.category==="turk_arasi"&&b.opp_state).map(b=>({...b,state:b.opp_state,result:{W:"L",L:"W",D:"D"}[b.result]}));
+  const states=d3.groups([...F.filter(b=>b.category!=="ic"),...mirror],b=>b.state);
   const card=(title,bs)=>{const n=k=>bs.filter(b=>b.result===k).length,t=bs.length||1;
     return `<div class="card"><h3>${esc(title)}</h3><div class="bar">${["W","D","L"].map(k=>`<i style="width:${n(k)/t*100}%;background:${COL[k]}"></i>`).join("")}</div>
     <div class="meta">${n("W")} zafer · ${n("D")} belirsiz · ${n("L")} yenilgi</div></div>`};

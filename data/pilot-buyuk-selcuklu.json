@@ -8,7 +8,8 @@
    "status": "kesin = savaş ve sonucu kaynaklarda net; borderline = savaş sayılıp sayılmayacağı veya Büyük Selçuklu'ya ait olup olmadığı tartışmalı; ihtilafli = sonuç veya tarih kaynaklar arasında çelişkili.",
    "loc": "known = yer biliniyor; approx = yaklaşık; region = yalnızca bölge düzeyinde.",
    "verify": "tdvia = TDV İslâm Ansiklopedisi maddesinde doğrulandı; wp = Wikipedia'da var; rom = 'Where the Romans Fought' veri setinde karşılığı var; academic = bağımsız akademik ikincil kaynakla kontrol edildi (Haldon, Hillenbrand, Peacock, Bosworth vb.). tdvia2 = olay ikinci, ayrı bir TDVİA maddesinde de doğrulandı (iki madde kuralı).",
-   "state": "Savaşan Türk devleti. home_batch: kaydın nihai olarak ait olduğu araştırma partisi."
+   "state": "Savaşan Türk devleti. home_batch: kaydın nihai olarak ait olduğu araştırma partisi.",
+   "opp_state": "Yalnızca turk_arasi kayıtlarda: karşı taraftaki kapsam içi Türk devleti. Kayıt o devletin tablosunda ters sonuçla görünür (K1)."
   },
   "source_keys": {
    "TDVIA:<slug>": "https://islamansiklopedisi.org.tr/<slug>",
@@ -59,7 +60,8 @@
    "note": "Zafer sonrası Mesud Nesâ, Dihistan ve Ferâve'yi Selçuklular'a iktâ etti.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "After the victory Mas'ud granted Nasa, Dihistan and Farawa to the Seljuks as iqta."
+   "note_en": "After the victory Mas'ud granted Nasa, Dihistan and Farawa to the Seljuks as iqta.",
+   "opp_state": "Gazneliler"
   },
   {
    "id": 2,
@@ -98,7 +100,8 @@
    "note": "Zaferin ardından Tuğrul Bey Nîşâbur'a girdi.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "After the victory Tughril entered Nishapur."
+   "note_en": "After the victory Tughril entered Nishapur.",
+   "opp_state": "Gazneliler"
   },
   {
    "id": 3,
@@ -133,7 +136,8 @@
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
    "note": "İkinci bir TDVİA maddesinde geçmiyor; Türk akademik kaynağıyla (Köymen, Sevim) kontrol bekliyor.",
-   "note_en": "Not mentioned in a second TDVİA article; awaiting a check against Turkish scholarship (Köymen, Sevim)."
+   "note_en": "Not mentioned in a second TDVİA article; awaiting a check against Turkish scholarship (Köymen, Sevim).",
+   "opp_state": "Gazneliler"
   },
   {
    "id": 4,
@@ -169,7 +173,8 @@
    "note": "Tuğrul Bey maddesi: 'kesin sonuçlu bir zafer değildi'. Selçuklular çöle çekildi; geçici barış yapıldı. Çağrı Bey maddesi Gazneli ordusunu 50.000 verir.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "Tughril article: 'not a decisive victory'. The Seljuks withdrew into the desert; a temporary peace followed. The Chaghri article gives the Ghaznavid army as 50,000."
+   "note_en": "Tughril article: 'not a decisive victory'. The Seljuks withdrew into the desert; a temporary peace followed. The Chaghri article gives the Ghaznavid army as 50,000.",
+   "opp_state": "Gazneliler"
   },
   {
    "id": 5,
@@ -208,7 +213,8 @@
    "note": "Üç gün sürdü. Ardından Büyük Selçuklu Devleti kuruldu, Tuğrul Bey sultan ilan edildi.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "Lasted three days. The Great Seljuk state was founded and Tughril proclaimed sultan."
+   "note_en": "Lasted three days. The Great Seljuk state was founded and Tughril proclaimed sultan.",
+   "opp_state": "Gazneliler"
   },
   {
    "id": 6,
@@ -245,7 +251,8 @@
    "note": "Alparslan'ın ilk seferi.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "Alp Arslan's first campaign."
+   "note_en": "Alp Arslan's first campaign.",
+   "opp_state": "Gazneliler"
   },
   {
    "id": 7,
@@ -727,7 +734,8 @@
    "note": "Tarih yaklaşık. Ardından Alparslan karşı saldırıda Ferruhzâd'ın kuvvetlerini yendi (bkz. 20); 451/1059'da barış yapıldı.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "Date approximate. Alp Arslan then counter-attacked and defeated Farrukhzad's forces (see 20); peace in 451/1059."
+   "note_en": "Date approximate. Alp Arslan then counter-attacked and defeated Farrukhzad's forces (see 20); peace in 451/1059.",
+   "opp_state": "Gazneliler"
   },
   {
    "id": 20,
@@ -764,7 +772,8 @@
    "note": "Savaşın adı ve yeri belirsiz.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "Name and site of the battle uncertain."
+   "note_en": "Name and site of the battle uncertain.",
+   "opp_state": "Gazneliler"
   },
   {
    "id": 21,
@@ -1164,7 +1173,8 @@
    "note": "Kısa bir kuşatma ve teslim. Alparslan kale komutanının suikastıyla öldü (24 Kasım 1072). Savaş sayılması tartışmalı.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "A short siege and surrender. Alp Arslan was killed by the fortress commander (24 November 1072). Counting it as a battle is disputed."
+   "note_en": "A short siege and surrender. Alp Arslan was killed by the fortress commander (24 November 1072). Counting it as a battle is disputed.",
+   "opp_state": "Karahanlılar"
   },
   {
    "id": 33,
@@ -1235,7 +1245,8 @@
    "note": "Baskın ve yağma; meydan savaşı değil.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "A raid and plunder, not a pitched battle."
+   "note_en": "A raid and plunder, not a pitched battle.",
+   "opp_state": "Gazneliler"
   },
   {
    "id": 35,
@@ -1492,7 +1503,8 @@
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
    "dispute": "Tarih: Melikşah maddesi 1088; Semerkant ve Karahanlılar maddeleri 482 (1089).",
-   "note_en": "The city was taken; Ya'qub Tegin fled to Atbashi. TDVİA gives no detail of fighting during the siege."
+   "note_en": "The city was taken; Ya'qub Tegin fled to Atbashi. TDVİA gives no detail of fighting during the siege.",
+   "opp_state": "Karahanlılar"
   },
   {
    "id": 43,
@@ -2027,7 +2039,8 @@
    "note": "Av sırasında yapılan baskın; 'kısa süren çatışma'. Meydan savaşı sayılması tartışmalı.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "A surprise attack during a hunt; 'a brief clash'. Counting it as a pitched battle is disputed."
+   "note_en": "A surprise attack during a hunt; 'a brief clash'. Counting it as a pitched battle is disputed.",
+   "opp_state": "Karahanlılar"
   },
   {
    "id": 58,
@@ -2502,7 +2515,8 @@
    "note": "Sencer 25 Şubat 1117'de Gazne'ye girdi ve Behram Şah'ı tahta çıkardı. Gazneli ordusunda filler vardı.",
    "state": "Büyük Selçuklu",
    "home_batch": "buyuk-selcuklu",
-   "note_en": "Sanjar entered Ghazna on 25 February 1117 and enthroned Bahram Shah. The Ghaznavid army had elephants."
+   "note_en": "Sanjar entered Ghazna on 25 February 1117 and enthroned Bahram Shah. The Ghaznavid army had elephants.",
+   "opp_state": "Gazneliler"
   },
   {
    "id": 72,
@@ -2681,7 +2695,8 @@
     "tdvia2": true
    },
    "state": "Büyük Selçuklu",
-   "home_batch": "buyuk-selcuklu"
+   "home_batch": "buyuk-selcuklu",
+   "opp_state": "Karahanlılar"
   },
   {
    "id": 77,

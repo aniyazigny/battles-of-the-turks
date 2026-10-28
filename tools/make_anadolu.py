@@ -290,6 +290,7 @@ for i, r in enumerate(R, 1):
            "state": A, "home_batch": "anadolu-selcuklu"}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
+    if cat == "turk_arasi": rec["opp_state"] = "Dânişmendliler"
     rec.update(FIX.get(i, {}))
     if not rec.get("dispute"): rec.pop("dispute", None)
     recs.append(rec)

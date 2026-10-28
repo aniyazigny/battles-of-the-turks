@@ -16,7 +16,7 @@
 ## Veri
 - `data/pilot-buyuk-selcuklu.json`: Büyük Selçuklu dönemi (1035–1157), 80 kayıt (3 kayıt Parti 3'e taşındı).
 - `data/anadolu-selcuklu.json`: Anadolu Selçukluları (1075–1308), 64 kayıt (ilk tur). Üretici: `tools/make_anadolu.py`.
-- `data/beylikler-atabeylikler.json`: Türk beylikleri ve atabeylikleri (1070–1175), 45 kayıt. Üretici: `tools/make_beylikler.py`.
+- `data/beylikler-atabeylikler.json`: Türk beylikleri ve atabeylikleri (1070–1175), 46 kayıt. Üretici: `tools/make_beylikler.py`.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 
 ## Araçlar

@@ -9,7 +9,8 @@
    "status": "kesin = savaş ve sonucu kaynaklarda net; borderline = savaş sayılıp sayılmayacağı veya Büyük Selçuklu'ya ait olup olmadığı tartışmalı; ihtilafli = sonuç veya tarih kaynaklar arasında çelişkili.",
    "loc": "known = yer biliniyor; approx = yaklaşık; region = yalnızca bölge düzeyinde.",
    "verify": "tdvia = TDV İslâm Ansiklopedisi maddesinde doğrulandı; wp = Wikipedia'da var; rom = 'Where the Romans Fought' veri setinde karşılığı var; academic = bağımsız akademik ikincil kaynakla kontrol edildi (Haldon, Hillenbrand, Peacock, Bosworth vb.). tdvia2 = olay ikinci, ayrı bir TDVİA maddesinde de doğrulandı (iki madde kuralı).",
-   "state": "Savaşan Türk devleti. home_batch: kaydın nihai olarak ait olduğu araştırma partisi."
+   "state": "Savaşan Türk devleti. home_batch: kaydın nihai olarak ait olduğu araştırma partisi.",
+   "opp_state": "Yalnızca turk_arasi kayıtlarda: karşı taraftaki kapsam içi Türk devleti. Kayıt o devletin tablosunda ters sonuçla görünür (K1)."
   },
   "source_keys": {
    "TDVIA:<slug>": "https://islamansiklopedisi.org.tr/<slug>",
@@ -276,6 +277,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kürboğa savaşı kazandı ama şehri alamadı. Kürboğa Büyük Selçuklu valisidir; Artuklular ayrı hanedan olduğu için Türk devletleri arası.",
    "note_en": "Kerbogha won the battle but could not take the city. Kerbogha was a Great Seljuk governor; the Artuqids were a separate dynasty, so inter-Turkic.",
+   "opp_state": "Büyük Selçuklu",
    "id": 7
   },
   {
@@ -386,6 +388,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Sultanın oğlu Mesud esir alındı. İlgazi daha önce Haçlılara karşı cihada katılmayı reddetmişti.",
    "note_en": "The sultan's son Mas'ud was captured. Ilghazi had earlier refused to join the campaign against the Crusaders.",
+   "opp_state": "Büyük Selçuklu",
    "id": 10
   },
   {
@@ -482,11 +485,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:belek-b-behram"
+    "TDVIA:belek-b-behram",
+    "TDVIA:artuklular"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -517,11 +521,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:belek-b-behram"
+    "TDVIA:belek-b-behram",
+    "TDVIA:artuklular"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -657,11 +662,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:belek-b-behram"
+    "TDVIA:belek-b-behram",
+    "TDVIA:menbic"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -670,6 +676,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Ertesi gün kuşatmayı sürdüren Belek kaleden atılan bir okla öldü (6 Mayıs 1124).",
    "note_en": "Belek, continuing the siege next day, was killed by an arrow from the castle (6 May 1124).",
+   "dispute": "Menbic maddesi Belek'in Safer 518 / Nisan 1124'te Menbic'e geldiğini yazar; savaş Belek maddesine göre 5 Mayıs 1124'tedir.",
    "id": 18
   },
   {
@@ -901,11 +908,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:haclilar"
+    "TDVIA:haclilar",
+    "TDVIA:nureddin-zengi-mahmud"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -919,7 +927,7 @@
   {
    "name_tr": "Serce (Artuklulara karşı)",
    "name_en": "Battle of Serce (c. 1130)",
-   "date": "c. 1130",
+   "date": "1130",
    "hijri": "",
    "type": "land",
    "war": "Zengî–Artuklular",
@@ -936,19 +944,21 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:zengi-imaduddin"
+    "TDVIA:zengi-imaduddin",
+    "TDVIA:artuklular"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
-   "note": "Kaynaktaki sayılar (20.000 Türkmene karşı 4000) alınmadı.",
-   "note_en": "The source figures (4,000 against 20,000 Turkmens) are not used.",
+   "note": "Dâvûd ve Timurtaş yenilip Serce ile Dârâ'yı Zengî'ye bıraktı (Artuklular maddesi). Kaynaktaki sayılar (20.000 Türkmene karşı 4000) alınmadı.",
+   "note_en": "Dawud and Timurtash were defeated and ceded Serce and Dara to Zengi (Artuqids article). The source figures (4,000 against 20,000 Turkmens) are not used.",
+   "opp_state": "Artuklular",
    "id": 26
   },
   {
@@ -1019,6 +1029,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Zengî, Mesud'a katılmak üzere yola çıkmıştı. Atabeylik ile sultanlık arası olduğu için Türk devletleri arası sayıldı.",
    "note_en": "Zengi had set out to join Mas'ud. Counted as inter-Turkic because it was between an atabegate and the sultanate.",
+   "opp_state": "Irak Selçukluları",
    "id": 28
   },
   {
@@ -1054,6 +1065,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Âmid kuşatıldı ama alınamadı.",
    "note_en": "Amida was besieged but not taken.",
+   "opp_state": "Artuklular",
    "id": 29
   },
   {
@@ -1274,7 +1286,7 @@
   {
    "name_tr": "Josselin'e yenilgi",
    "name_en": "Defeat by Joscelin II (c. 1150)",
-   "date": "c. 1150",
+   "date": "1149/1150",
    "hijri": "",
    "type": "land",
    "war": "Nûreddin'in Haçlılarla mücadelesi",
@@ -1291,11 +1303,12 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:nureddin-zengi-mahmud"
+    "TDVIA:nureddin-zengi-mahmud",
+    "TDVIA:gaziantep"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1304,6 +1317,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Ardından Türkmenler Josselin'i yakalayıp Nûreddin'e teslim etti (Mayıs 1150).",
    "note_en": "Turkmens then captured Joscelin and handed him over to Nur al-Din (May 1150).",
+   "dispute": "Tarih: Gaziantep maddesi 1149; Nûreddin maddesi yenilgiyi Josselin'in Mayıs 1150'de teslim alınmasından önceye koyar.",
    "id": 36
   },
   {
@@ -1375,6 +1389,42 @@
    "id": 38
   },
   {
+   "name_tr": "Hısnülekrâd (el-Bukay'a)",
+   "name_en": "Battle of al-Buqaia (1163)",
+   "date": "1163",
+   "hijri": "",
+   "type": "land",
+   "war": "Nûreddin'in Haçlılarla mücadelesi",
+   "place": "Hısnülekrâd önü",
+   "lat": 34.76,
+   "lon": 36.29,
+   "loc": "approx",
+   "country": "Suriye",
+   "side_a": "Trablus Kontluğu ve müttefikleri",
+   "side_b": "Zengîler",
+   "turkic_cmd": "Nûreddin Mahmud",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:nureddin-zengi-mahmud",
+    "TDVIA:zengiler"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Ordu dinlenirken baskına uğradı; Nûreddin yakalanmaktan güçlükle kurtuldu. Ardından cihad çağrısı yaptı ve ertesi yıl Hârim'i aldı.",
+   "note_en": "The army was surprised while resting; Nur al-Din barely escaped capture. He then called for jihad and took Harim the next year.",
+   "id": 39
+  },
+  {
    "name_tr": "Hârim (1164)",
    "name_en": "Battle of Harim (1164)",
    "date": "1164-08",
@@ -1408,7 +1458,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Hârim kalesi alındı. Bu baskı Haçlıları Mısır'da Şîrkûh'un kuşatmasını kaldırmaya zorladı.",
    "note_en": "Harim castle was taken. The pressure forced the Crusaders to lift their siege of Shirkuh in Egypt.",
-   "id": 39
+   "id": 40
   },
   {
    "name_tr": "Bâbeyn",
@@ -1444,7 +1494,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Şîrkûh Kürt kökenlidir ama Nûreddin'in komutanı olarak savaştı; K3 gereği Zengîlere yazıldı.",
    "note_en": "Shirkuh was of Kurdish origin but fought as Nur al-Din's commander; under K3 recorded for the Zengids.",
-   "id": 40
+   "id": 41
   },
   {
    "name_tr": "Kilikya (Mleh'e destek)",
@@ -1479,7 +1529,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Mleh Adana, Misis ve Tarsus'u aldı. Tarih yaklaşık.",
    "note_en": "Mleh took Adana, Mamistra and Tarsus. Date approximate.",
-   "id": 41
+   "id": 42
   },
   {
    "name_tr": "Gürcülere karşı zafer (1131)",
@@ -1514,7 +1564,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Yer ve ayrıntı kaynakta az.",
    "note_en": "Little detail on place or course in the source.",
-   "id": 42
+   "id": 43
   },
   {
    "name_tr": "Ani baskını (1154)",
@@ -1548,7 +1598,7 @@
    },
    "state": "Saltuklular",
    "home_batch": "beylikler-atabeylikler",
-   "id": 43
+   "id": 44
   },
   {
    "name_tr": "Ani (1161)",
@@ -1584,7 +1634,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Saltuk savaş başlamadan ordugâhtan ayrıldı; yenilginin sebebi buydu. Esir sayısı kaynakta 9000'dir; alınmadı.",
    "note_en": "Saltuk left the camp before the battle, which caused the defeat. The source gives 9,000 prisoners; not used.",
-   "id": 44
+   "id": 45
   },
   {
    "name_tr": "Lukri",
@@ -1621,7 +1671,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Bir aydan uzun süren savaşın sonunda kralın ordugâhı yağmalandı.",
    "note_en": "After more than a month of fighting the king's camp was plundered.",
-   "id": 45
+   "id": 46
   }
  ],
  "left_out": [

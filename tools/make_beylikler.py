@@ -135,6 +135,10 @@ R = [
 (ZEN, "Hârim kuşatması (1156)", "Siege of Harim (1156)", "1156", "Nûreddin'in Haçlılarla mücadelesi", "Hârim", 36.20, 36.52, "known", "Suriye",
  "Antakya Prinkepsliği", "Zengîler", "Nûreddin Mahmud", "", "dis", "L", "kesin",
  ["TDVIA:nureddin-zengi-mahmud"], "", "", ""),
+(ZEN, "Hısnülekrâd (el-Bukay'a)", "Battle of al-Buqaia (1163)", "1163", "Nûreddin'in Haçlılarla mücadelesi", "Hısnülekrâd önü", 34.76, 36.29, "approx", "Suriye",
+ "Trablus Kontluğu ve müttefikleri", "Zengîler", "Nûreddin Mahmud", "", "dis", "L", "kesin",
+ ["TDVIA:nureddin-zengi-mahmud", "TDVIA:zengiler"], "", "Ordu dinlenirken baskına uğradı; Nûreddin yakalanmaktan güçlükle kurtuldu. Ardından cihad çağrısı yaptı ve ertesi yıl Hârim'i aldı.",
+ "The army was surprised while resting; Nur al-Din barely escaped capture. He then called for jihad and took Harim the next year."),
 (ZEN, "Hârim (1164)", "Battle of Harim (1164)", "1164-08", "Nûreddin'in Haçlılarla mücadelesi", "Hârim", 36.20, 36.52, "known", "Suriye",
  "Zengîler", "Antakya Prinkepsliği, Trablus Kontluğu, Bizans ve Ermeni birlikleri", "Nûreddin Mahmud", "III. Bohemund, III. Raimond", "dis", "W", "kesin",
  ["TDVIA:sirkuh-el-mansur", "TDVIA:nureddin-zengi-mahmud"], "",
@@ -161,6 +165,19 @@ R = [
  "İldenizliler, Ahlatşahlar ve müttefik emîrler", "Gürcistan Krallığı", "Şemseddin İldeniz, Ahlatşah Sökmen II", "III. Giorgi", "dis", "W", "kesin",
  ["TDVIA:ildeniz-semseddin", "TDVIA:ahlatsahlar", "TDVIA:saltuklular"], "", "Bir aydan uzun süren savaşın sonunda kralın ordugâhı yağmalandı.", "After more than a month of fighting the king's camp was plundered."),
 ]
+
+# turk_arasi kayıtlarda karşı taraftaki kapsam içi Türk devleti (K1: kayıt onun tablosunda da görünür)
+OPP_STATE = {"Âmid (Kürboğa'ya karşı)": "Büyük Selçuklu", "Dârâ (Aksungur'a karşı)": "Büyük Selçuklu",
+             "Serce (Artuklulara karşı)": "Artuklular", "Karaca Sâkî'ye yenilgi": "Irak Selçukluları", "Âmid (Dâvûd'a karşı)": "Artuklular"}
+
+# İkinci kaynak turu (2026-10-28): kayıt adına göre ek kaynaklar ve düzeltmeler
+EXTRA_SRC = {"Serûc (Josselin'in esareti)": ["TDVIA:artuklular"], "Turuş (Kral Baudouin'in esareti)": ["TDVIA:artuklular"],
+             "Menbic": ["TDVIA:menbic"], "Serce (Artuklulara karşı)": ["TDVIA:artuklular"], "Josselin'e yenilgi": ["TDVIA:gaziantep"],
+             "Dımaşk (1148)": ["TDVIA:nureddin-zengi-mahmud"]}
+FIX = {"Serce (Artuklulara karşı)": {"date": "1130", "note": "Dâvûd ve Timurtaş yenilip Serce ile Dârâ'yı Zengî'ye bıraktı (Artuklular maddesi). Kaynaktaki sayılar (20.000 Türkmene karşı 4000) alınmadı.",
+                                     "note_en": "Dawud and Timurtash were defeated and ceded Serce and Dara to Zengi (Artuqids article). The source figures (4,000 against 20,000 Turkmens) are not used."},
+       "Josselin'e yenilgi": {"date": "1149/1150", "dispute": "Tarih: Gaziantep maddesi 1149; Nûreddin maddesi yenilgiyi Josselin'in Mayıs 1150'de teslim alınmasından önceye koyar."},
+       "Menbic": {"dispute": "Menbic maddesi Belek'in Safer 518 / Nisan 1124'te Menbic'e geldiğini yazar; savaş Belek maddesine göre 5 Mayıs 1124'tedir."}}
 
 LEFT = [
  {"name": "Pilottan taşınan kayıtlar", "reason": "Büyük Selçuklu pilotundaki Sivas 1070 (#28), Kahire 1077 (#37) ve Harran 1104 (#59) K3 gereği bu partiye taşındı.", "source": "TDVIA:afsin"},
@@ -191,6 +208,7 @@ for pid, st in ((28, "Er Basgan"), (37, ATS), (59, ART)):
 
 for r in R:
     (st, ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en) = r
+    src = src + [x for x in EXTRA_SRC.get(ntr, []) if x not in src]
     rec = {"name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": "land", "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,
@@ -198,6 +216,8 @@ for r in R:
            "state": st, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
+    if ntr in OPP_STATE: rec["opp_state"] = OPP_STATE[ntr]
+    rec.update(FIX.get(ntr, {}))
     add(rec)
 
 out_path = root / "data" / "beylikler-atabeylikler.json"

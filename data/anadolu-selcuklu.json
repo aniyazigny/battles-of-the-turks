@@ -9,7 +9,8 @@
    "status": "kesin = savaş ve sonucu kaynaklarda net; borderline = savaş sayılıp sayılmayacağı veya Büyük Selçuklu'ya ait olup olmadığı tartışmalı; ihtilafli = sonuç veya tarih kaynaklar arasında çelişkili.",
    "loc": "known = yer biliniyor; approx = yaklaşık; region = yalnızca bölge düzeyinde.",
    "verify": "tdvia = TDV İslâm Ansiklopedisi maddesinde doğrulandı; wp = Wikipedia'da var; rom = 'Where the Romans Fought' veri setinde karşılığı var; academic = bağımsız akademik ikincil kaynakla kontrol edildi (Haldon, Hillenbrand, Peacock, Bosworth vb.). tdvia2 = olay ikinci, ayrı bir TDVİA maddesinde de doğrulandı (iki madde kuralı).",
-   "state": "Savaşan Türk devleti. home_batch: kaydın nihai olarak ait olduğu araştırma partisi."
+   "state": "Savaşan Türk devleti. home_batch: kaydın nihai olarak ait olduğu araştırma partisi.",
+   "opp_state": "Yalnızca turk_arasi kayıtlarda: karşı taraftaki kapsam içi Türk devleti. Kayıt o devletin tablosunda ters sonuçla görünür (K1)."
   },
   "source_keys": {
    "TDVIA:<slug>": "https://islamansiklopedisi.org.tr/<slug>",
@@ -457,7 +458,8 @@
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "Gümüştegin'in Bohemund'u fidye karşılığı bırakması üzerine. Yer ve tarih Dânişmendliler maddesinden: Maraş yakını, Zilkade 496 / Ağustos 1103.",
-   "note_en": "Followed Gümüshtegin's release of Bohemond for ransom. Place and date from the Danishmendids article: near Marash, August 1103."
+   "note_en": "Followed Gümüshtegin's release of Bohemond for ransom. Place and date from the Danishmendids article: near Marash, August 1103.",
+   "opp_state": "Dânişmendliler"
   },
   {
    "id": 13,
@@ -495,6 +497,7 @@
    "home_batch": "anadolu-selcuklu",
    "note": "İki ayı aşkın kuşatmadan sonra alındı.",
    "note_en": "Taken after a siege of more than two months.",
+   "opp_state": "Dânişmendliler",
    "dispute": "Tarih: Kılıcarslan I ve Malatya maddeleri 1 Muharrem 500 / 2 Eylül 1106; Dânişmendliler maddesi 2 Eylül 1105 veya 1106."
   },
   {
@@ -784,7 +787,8 @@
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "Mesud Sivas'a girdi ve oğlu Şâhinşah'ı Ankara, Çankırı ve Kastamonu'ya vali yaptı.",
-   "note_en": "Mas'ud entered Sivas and made his son Shahanshah governor of Ankara, Çankırı and Kastamonu."
+   "note_en": "Mas'ud entered Sivas and made his son Shahanshah governor of Ankara, Çankırı and Kastamonu.",
+   "opp_state": "Dânişmendliler"
   },
   {
    "id": 22,
@@ -819,7 +823,8 @@
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "Üç ay sonra (14 Eylül 1143) kaldırıldı.",
-   "note_en": "Lifted after three months (14 September 1143)."
+   "note_en": "Lifted after three months (14 September 1143).",
+   "opp_state": "Dânişmendliler"
   },
   {
    "id": 23,
@@ -854,7 +859,8 @@
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "TDVİA bu olayı İbnü'l-Kalânisî'ye dayanarak verir ve din adamlarının önlediği bir karşılaşmayla aynı olabileceğini belirtir.",
-   "note_en": "TDVİA cites Ibn al-Qalanisi and notes it may be the same as a confrontation averted by religious leaders."
+   "note_en": "TDVİA cites Ibn al-Qalanisi and notes it may be the same as a confrontation averted by religious leaders.",
+   "opp_state": "Dânişmendliler"
   },
   {
    "id": 24,
@@ -889,7 +895,8 @@
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "Ardından Kılıcarslan barış için İstanbul'a gitti (1162).",
-   "note_en": "Kilij Arslan then went to Constantinople to make peace (1162)."
+   "note_en": "Kilij Arslan then went to Constantinople to make peace (1162).",
+   "opp_state": "Dânişmendliler"
   },
   {
    "id": 25,
@@ -997,7 +1004,8 @@
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "Dört aylık kuşatmayla alındı; Dânişmendlilerin Malatya kolu sona erdi.",
-   "note_en": "Taken after a four-month siege; the Melitene branch of the Danishmendids ended."
+   "note_en": "Taken after a four-month siege; the Melitene branch of the Danishmendids ended.",
+   "opp_state": "Dânişmendliler"
   },
   {
    "id": 28,
