@@ -439,21 +439,22 @@
    "opp_cmd": "",
    "category": "dis",
    "result": "W",
-   "status": "kesin",
+   "status": "borderline",
    "sources": [
-    "TDVIA:ibrahim-pasa-kavalali"
+    "TDVIA:ibrahim-pasa-kavalali",
+    "TDVIA:tripolice"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1812-1839",
-   "note": "Mora'ya çıkan İbrâhim Paşa önce Navarin'i (18 Mayıs), ardından Tripoliçe'yi (23 Haziran) zaptetti. (Kontrol turunda eklendi.)",
-   "note_en": "Having landed in the Morea, Ibrahim Pasha took Navarino (18 May) and then Tripolitsa (23 June)."
+   "note": "Mora'ya çıkan İbrâhim Paşa önce Navarin'i (18 Mayıs), ardından Tripoliçe'yi (23 Haziran) zaptetti. Tripoliçe maddesi şehrin savaşsız geri alındığını yazdığından borderline. (Kontrol turunda eklendi.)",
+   "note_en": "Having landed in the Morea, Ibrahim Pasha took Navarino (18 May) and then Tripolitsa (23 June). Borderline, as the Tripolitsa article says the town was retaken without a fight."
   },
   {
    "id": 13,

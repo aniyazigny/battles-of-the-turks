@@ -295,11 +295,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:yenice-i-vardar"
+    "TDVIA:yenice-i-vardar",
+    "TDVIA:gazi-evrenosoglu-camii-ve-turbesi"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

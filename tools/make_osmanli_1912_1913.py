@@ -46,7 +46,7 @@ R = [
  "", "", "land"),
 ("Yenice-i Vardar (1912)", "Battle of Giannitsa", "1912-11", W1, "Yenice-i Vardar", 40.79, 22.41, "known", "Yunanistan",
  GR, O, "", "", "dis", "L", "kesin",
- ["TDVIA:yenice-i-vardar"], "Madde muharebeyi 11 Kasım 1912'ye koyar; Batı literatürü 1–2 Kasım'a (eski takvimle 19–20 Ekim) koyar.",
+ ["TDVIA:yenice-i-vardar", "TDVIA:gazi-evrenosoglu-camii-ve-turbesi"], "Madde muharebeyi 11 Kasım 1912'ye koyar; Batı literatürü 1–2 Kasım'a (eski takvimle 19–20 Ekim) koyar.",
  "Kasaba muharebe sırasında büyük ölçüde yakıldı.", "The town was largely burned during the battle.", "land"),
 ("Manastır (1912)", "Battle of Monastir", "1912-11", W1, "Manastır (Bitola)", 41.03, 21.33, "known", "Kuzey Makedonya",
  SR, O, "", "", "dis", "L", "kesin",

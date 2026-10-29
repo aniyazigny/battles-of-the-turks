@@ -371,11 +371,13 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:murad-iii"
+    "TDVIA:murad-iii",
+    "TDVIA:macaristan",
+    "TDVIA:diyakova"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -760,11 +762,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-iii"
+    "TDVIA:mehmed-iii",
+    "TDVIA:budin"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -974,11 +977,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-iii"
+    "TDVIA:mehmed-iii",
+    "TDVIA:tebriz"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

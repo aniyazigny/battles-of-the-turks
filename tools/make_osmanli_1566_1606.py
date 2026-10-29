@@ -99,7 +99,8 @@ R = [
 ]
 
 # İkinci kaynak turu (2026-10-29)
-EXTRA_SRC = {"Eflak seferi (1595)": ["TDVIA:koca-sinan-pasa"]}
+EXTRA_SRC = {"Kulpa (Sisak)": ["TDVIA:macaristan", "TDVIA:diyakova"], "Budin müdafaası (1602)": ["TDVIA:budin"], "Tebriz'in kaybı (1603)": ["TDVIA:tebriz"],   # kontrol turu
+             "Eflak seferi (1595)": ["TDVIA:koca-sinan-pasa"]}
 
 LEFT = [
  {"name": "Revan (1604)", "reason": "Safevî karşı saldırısının diğer savaşları bu turda ayrıntılı alınmadı.", "source": "TDVIA:mehmed-iii"},

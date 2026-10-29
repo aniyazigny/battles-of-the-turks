@@ -333,11 +333,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:kemal-reis"
+    "TDVIA:kemal-reis",
+    "TDVIA:modon"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -512,11 +513,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:sahkulu-baba-tekeli"
+    "TDVIA:sahkulu-baba-tekeli",
+    "TDVIA:kutahya"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -547,11 +549,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:sahkulu-baba-tekeli"
+    "TDVIA:sahkulu-baba-tekeli",
+    "TDVIA:elci-hani"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -829,11 +832,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:selim-i"
+    "TDVIA:selim-i",
+    "TDVIA:mardin"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

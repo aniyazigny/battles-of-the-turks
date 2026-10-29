@@ -139,7 +139,8 @@ LEFT = [
 ]
 
 # İkinci kaynak turu
-EXTRA_SRC = {"Mekke ve Medine'nin geri alınışı (1812–1813)": ["TDVIA:mekke", "TDVIA:medine"],
+EXTRA_SRC = {"Tripoliçe'nin geri alınışı (1825)": ["TDVIA:tripolice"],   # kontrol turu
+             "Mekke ve Medine'nin geri alınışı (1812–1813)": ["TDVIA:mekke", "TDVIA:medine"],
              "Dir‘iye (1818)": ["TDVIA:abdullah-b-suud", "TDVIA:medine"],
              "Sakız (1822)": ["TDVIA:mora"],
              "Kars (1828)": ["TDVIA:edirne-antlasmasi"],
@@ -151,7 +152,8 @@ EXTRA_SRC = {"Mekke ve Medine'nin geri alınışı (1812–1813)": ["TDVIA:mekke
              "Belen (1832)": ["TDVIA:kavalali-mehmed-ali-pasa", "TDVIA:huseyin-pasa-aga"],
              "Kostantîne (1836)": ["TDVIA:kostantine", "TDVIA:abdulkadir-el-cezairi"],
              "Kostantîne (1837)": ["TDVIA:kostantine", "TDVIA:abdulkadir-el-cezairi"]}
-FIX = {"Mekke ve Medine'nin geri alınışı (1812–1813)": {
+FIX = {"Tripoliçe'nin geri alınışı (1825)": {"status": "borderline", "note": "Mora'ya çıkan İbrâhim Paşa önce Navarin'i (18 Mayıs), ardından Tripoliçe'yi (23 Haziran) zaptetti. Tripoliçe maddesi şehrin savaşsız geri alındığını yazdığından borderline. (Kontrol turunda eklendi.)", "note_en": "Having landed in the Morea, Ibrahim Pasha took Navarino (18 May) and then Tripolitsa (23 June). Borderline, as the Tripolitsa article says the town was retaken without a fight."},
+       "Mekke ve Medine'nin geri alınışı (1812–1813)": {
            "note": "Tosun Paşa iki haftalık kuşatmadan sonra Medine'yi 3 Aralık 1812'de geri aldı; Mekke'ye Şerîf Gālib'in yardımıyla 23 Ocak 1813'te girdi.",
            "note_en": "Tosun Pasha retook Medina on 3 December 1812 after a two-week siege, and entered Mecca with the help of Sharif Ghalib on 23 January 1813."},
        "Silistre (1829)": {"status": "kesin", "opp_cmd": "Hans Karl von Diebitsch",
