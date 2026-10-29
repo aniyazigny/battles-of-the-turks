@@ -49,7 +49,7 @@ Son güncelleme: 2026-10-29
 - [ ] Sınır tablosu 1000'de başlıyor: 893 ve 990 savaşlarında sınır boş (Sâmânîler, Hindûşâhîler ile 900'e uzatılmalı).
 - [x] Altın Orda 1502'den sonra da görünüyordu → `tools/fix_borders_altinorda.py` (2026-10-29): Kazan 1437–1552, Astarhan 1466–1556, Nogay 1502–1634, Kırım bozkırı, Hîve 1512–, Sibir 1490–1582, Kazak Hanlığı 1465–; Rusya, Kiev (Lehistan-Litvanya 1362–1667, Rusya 1667–), Kalmuklar 1634–.
 - [ ] Doğu Türkistan ve Moğolistan: Çağatay Hanlığı ve Koço Uygurları 1690'a kadar aynı görünüyor (Yarkent/Kaşgar hanlığı, Cungarlar işlenmedi).
-- [ ] İran ve Irak 1405–1501: birçok şehir Timurlu görünüyor; Karakoyunlu ve Akkoyunlu yayılması eksik.
+- [x] İran ve Irak 1405–1501 → `tools/fix_borders_iran_1405.py` (2026-10-29): Karakoyunlu Tebriz 1408, Irâk-ı Acem 1447–52, Kirman 1453; Akkoyunlu 1468–70'ten 1503'e; Celâyirli Bağdat 1405–1410; Horasan 1507–1510 Şeybânî; Van ve Revan'ın 1335 öncesi boş görünen dilimleri dolduruldu.
 - [ ] Kıbrıs 1489–1570 Venedik yerine Kıbrıs Krallığı rengi.
 
 ## 4. Veri alanı eksikleri
