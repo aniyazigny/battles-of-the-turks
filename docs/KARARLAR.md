@@ -143,3 +143,11 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Ziştovi 1877, Edirne 1878 | Ciddi direniş yok → borderline |
 | Bosna 1878 | Berlin'den sonra; devlet savaşmadı → dışarıda |
 | Tarih takvimi | TDVİA'nın verdiği tarih kullanıldı (93 Harbi tarihlerinin bir kısmı Rumî/Jülyen olabilir); fark not edilmedi |
+
+## Kayıt kararları (Parti 17: Osmanlı 1878–1912, 2026-10-29)
+| Kayıt | Karar |
+|---|---|
+| Arnavut bağımsızlık yanlıları, İmam Yahyâ, İdrîsî | Osmanlı tebaasının isyanı → `ic` |
+| Otuzbir Mart 1909 | Ordu içi çatışma → `ic`, borderline |
+| Tellülkebîr 1882 | Urâbî'nin Mısır ordusu; padişah desteklemedi → dışarıda |
+| Mısır 1882 sonrası haritada | Fiilî yöneten İngiltere gösterilir |
