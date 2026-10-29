@@ -3,7 +3,7 @@
   "title": "Şehir bazlı hâkimiyet tablosu (harita sınırları için)",
   "compiled": "2026-10-28",
   "status": "Taslak. Sınırlar yaklaşıktır; kontrol bekliyor.",
-  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya. 1840–1880: Suriye ve Girit 1840'ta Osmanlı'ya döndü; Romanya 1858; Belgrad 1867 Sırbistan; Berlin 1878: Bulgaristan, Bosna (Avusturya), Kars (Rusya), Kıbrıs (İngiltere), Niş (Sırbistan). 1880–1913: Tunus 1881 Fransa; Mısır 1882 İngiliz işgali; Doğu Rumeli 1885 Bulgaristan; Girit 1898 özerk; Trablusgarp 1911 ve Rodos 1912 İtalya. 1913–1914: Balkan Savaşları — Selânik, Yanya, Midilli, Sakız, Girit Yunanistan; Üsküp, Manastır, Priştine Sırbistan; Avlonya, Kruya, İşkodra Arnavutluk. 1914–1919: Birinci Dünya Savaşı — Basra 1914, Bağdat ve Kudüs 1917, Şam, Halep, Trablusşam 1918; Mekke 1916 Hâşimî; Erzurum, Trabzon, Van Rus işgali ve 1918'de geri alınış; Kafkas cumhuriyetleri 1918. 1919–1923: Millî Mücadele — TBMM Hükümeti 1920; Yunan, Fransız ve Ermeni işgalleri ve kurtuluşlar; Lahsâ 1913 Suûdî. 550–1000 (kaba katman): Göktürk, Batı Göktürk, Türgiş, Karluk, Uygur, Kırgız, Hazar, Akhun, Sâsânî, Emevî, Abbâsî, Sâmânî, Saffârî, Büveyhî, Hamdânî, Fâtımî, Tuna Bulgar ve Bizans dilimleri; Ötüken noktası eklendi. Kontrol turu 1: Yenişehir (Teselya 1881) ve Kırkkilise noktaları; Kıbrıs 1489–1570 Venedik.",
+  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya. 1840–1880: Suriye ve Girit 1840'ta Osmanlı'ya döndü; Romanya 1858; Belgrad 1867 Sırbistan; Berlin 1878: Bulgaristan, Bosna (Avusturya), Kars (Rusya), Kıbrıs (İngiltere), Niş (Sırbistan). 1880–1913: Tunus 1881 Fransa; Mısır 1882 İngiliz işgali; Doğu Rumeli 1885 Bulgaristan; Girit 1898 özerk; Trablusgarp 1911 ve Rodos 1912 İtalya. 1913–1914: Balkan Savaşları — Selânik, Yanya, Midilli, Sakız, Girit Yunanistan; Üsküp, Manastır, Priştine Sırbistan; Avlonya, Kruya, İşkodra Arnavutluk. 1914–1919: Birinci Dünya Savaşı — Basra 1914, Bağdat ve Kudüs 1917, Şam, Halep, Trablusşam 1918; Mekke 1916 Hâşimî; Erzurum, Trabzon, Van Rus işgali ve 1918'de geri alınış; Kafkas cumhuriyetleri 1918. 1919–1923: Millî Mücadele — TBMM Hükümeti 1920; Yunan, Fransız ve Ermeni işgalleri ve kurtuluşlar; Lahsâ 1913 Suûdî. 550–1000 (kaba katman): Göktürk, Batı Göktürk, Türgiş, Karluk, Uygur, Kırgız, Hazar, Akhun, Sâsânî, Emevî, Abbâsî, Sâmânî, Saffârî, Büveyhî, Hamdânî, Fâtımî, Tuna Bulgar ve Bizans dilimleri; Ötüken noktası eklendi. Kontrol turu 1: Yenişehir (Teselya 1881) ve Kırkkilise noktaları; Kıbrıs 1489–1570 Venedik. Doğu Türkistan ve Moğolistan 1218 sonrası: Moğolistan Hanlığı, Yarkent Hanlığı, Cungarlar, Çing, Yâkub Beg dilimleri.",
   "spans": "[başlangıç, bitiş, devlet]: başlangıç dahil, bitiş hariç (ör. [1040, 1153, ...] 1040–1152 yılları).",
   "sources": "src alanı, el değiştirme tarihlerinin dayandığı TDVİA maddeleridir. 'yaklasik': true olan şehirlerin tarihleri kaba tahmindir ve kontrol edilecektir."
  },
@@ -871,6 +871,42 @@
    "en": "Mongolian steppe",
    "group": "diger",
    "color": "#9a9fb0"
+  },
+  "mogolistan-han": {
+   "tr": "Moğolistan Hanlığı (Doğu Çağatay)",
+   "en": "Moghulistan Khanate",
+   "group": "turk-diger",
+   "color": "#a8946e"
+  },
+  "yarkent": {
+   "tr": "Yarkent (Saîdiye) Hanlığı",
+   "en": "Yarkent Khanate",
+   "group": "turk-diger",
+   "color": "#b39a72"
+  },
+  "cungar": {
+   "tr": "Cungarlar",
+   "en": "Dzungar Khanate",
+   "group": "diger",
+   "color": "#9a9488"
+  },
+  "qing": {
+   "tr": "Çin (Çing hânedanı)",
+   "en": "Qing China",
+   "group": "diger",
+   "color": "#c49a8a"
+  },
+  "yakub": {
+   "tr": "Kâşgar Hanlığı (Yâkub Beg)",
+   "en": "Kashgaria (Yaqub Beg)",
+   "group": "turk-diger",
+   "color": "#ad8f63"
+  },
+  "mogol-imp": {
+   "tr": "Moğol İmparatorluğu ve Yuan",
+   "en": "Mongol Empire and Yuan",
+   "group": "diger",
+   "color": "#8a8fa3"
   }
  },
  "cities": [
@@ -1852,12 +1888,46 @@
     ],
     [
      1218,
-     1923,
+     1347,
      "cagatay"
+    ],
+    [
+     1347,
+     1514,
+     "mogolistan-han"
+    ],
+    [
+     1514,
+     1678,
+     "yarkent"
+    ],
+    [
+     1678,
+     1759,
+     "cungar"
+    ],
+    [
+     1759,
+     1865,
+     "qing"
+    ],
+    [
+     1865,
+     1877,
+     "yakub"
+    ],
+    [
+     1877,
+     1923,
+     "qing"
     ]
    ],
    "src": [
-    "karahanlilar"
+    "karahanlilar",
+    "kasgar",
+    "turfan",
+    "uygurlar",
+    "yakub-beg"
    ],
    "yaklasik": true
   },
@@ -1904,13 +1974,42 @@
     ],
     [
      1218,
-     1923,
+     1347,
      "cagatay"
+    ],
+    [
+     1347,
+     1514,
+     "mogolistan-han"
+    ],
+    [
+     1514,
+     1680,
+     "kazak"
+    ],
+    [
+     1680,
+     1758,
+     "cungar"
+    ],
+    [
+     1758,
+     1864,
+     "kazak"
+    ],
+    [
+     1864,
+     1923,
+     "rusya"
     ]
    ],
    "src": [
     "karahanlilar",
-    "karahitaylar"
+    "karahitaylar",
+    "kasgar",
+    "turfan",
+    "uygurlar",
+    "yakub-beg"
    ],
    "yaklasik": true
   },
@@ -1937,16 +2036,46 @@
     ],
     [
      840,
-     1000,
+     1368,
      "uygur"
     ],
     [
-     1000,
+     1368,
+     1514,
+     "mogolistan-han"
+    ],
+    [
+     1514,
+     1678,
+     "yarkent"
+    ],
+    [
+     1678,
+     1758,
+     "cungar"
+    ],
+    [
+     1758,
+     1868,
+     "qing"
+    ],
+    [
+     1868,
+     1877,
+     "yakub"
+    ],
+    [
+     1877,
      1923,
-     "uygur"
+     "qing"
     ]
    ],
-   "src": [],
+   "src": [
+    "kasgar",
+    "turfan",
+    "uygurlar",
+    "yakub-beg"
+   ],
    "yaklasik": true
   },
   {
@@ -9718,8 +9847,11 @@
    "yaklasik": true,
    "src": [
     "asya",
+    "kasgar",
+    "kirgizlar",
+    "turfan",
     "uygurlar",
-    "kirgizlar"
+    "yakub-beg"
    ],
    "spans": [
     [
@@ -9759,6 +9891,26 @@
     ],
     [
      1125,
+     1206,
+     "mogolistan"
+    ],
+    [
+     1206,
+     1368,
+     "mogol-imp"
+    ],
+    [
+     1368,
+     1691,
+     "mogolistan"
+    ],
+    [
+     1691,
+     1911,
+     "qing"
+    ],
+    [
+     1911,
      1923,
      "mogolistan"
     ]
