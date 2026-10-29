@@ -81,19 +81,20 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:budin"
+    "TDVIA:budin",
+    "TDVIA:suleyman-pasa-sari"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1683-1718",
-   "note": "Genel hücumla alındı; son Budin beylerbeyi şehid düştü.",
-   "note_en": "Taken by a general assault; the last governor of Buda was killed."
+   "note": "Yetmiş sekiz günlük kuşatma sonunda genel hücumla alındı; 14 Ağustos'ta Sarı Süleyman Paşa'nın yardım hücumu yenilgiyle bitmişti. Son Budin beylerbeyi şehid düştü.",
+   "note_en": "Taken by general assault after a 78-day siege; Sarı Süleyman Pasha's relief attack on 14 August had failed. The last governor of Buda was killed."
   },
   {
    "id": 3,
@@ -117,7 +118,8 @@
    "status": "kesin",
    "sources": [
     "TDVIA:varadin",
-    "TDVIA:mehmed-iv"
+    "TDVIA:mehmed-iv",
+    "TDVIA:suleyman-pasa-sari"
    ],
    "verify": {
     "tdvia": true,
@@ -418,7 +420,7 @@
    "id": 12,
    "name_tr": "Sakız'ın kaybı (1694)",
    "name_en": "Loss of Chios (1694)",
-   "date": "1694",
+   "date": "1694-09",
    "hijri": "",
    "type": "land",
    "war": "Osmanlı–Kutsal İttifak savaşı (1683–1699)",
@@ -433,13 +435,15 @@
    "opp_cmd": "",
    "category": "dis",
    "result": "L",
-   "status": "borderline",
+   "status": "ihtilafli",
    "sources": [
-    "TDVIA:mustafa-ii"
+    "TDVIA:mustafa-ii",
+    "TDVIA:mezemorta-huseyin-pasa",
+    "TDVIA:ahmed-ii"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -447,12 +451,13 @@
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1683-1718",
    "note": "Madde yalnızca adanın Venediklilerin eline düştüğünü anar.",
-   "note_en": "The article only mentions that the island fell to Venice."
+   "note_en": "The article only mentions that the island fell to Venice.",
+   "dispute": "Mezemorta ve Mustafa II maddeleri adayı Venedik'in işgal ettiğini söyler; Ahmed II maddesi işgali Malta ve papalık gemilerine bağlar ve 21 Eylül 1695 tarihini verir (Ahmed II Şubat 1695'te ölmüştü)."
   },
   {
    "id": 13,
-   "name_tr": "Sakız (1695)",
-   "name_en": "Recapture of Chios (1695)",
+   "name_tr": "Koyunadaları ve Sakız (1695)",
+   "name_en": "Battle of the Oinousses and recapture of Chios (1695)",
    "date": "1695-02",
    "hijri": "",
    "type": "sea",
@@ -470,19 +475,20 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mustafa-ii"
+    "TDVIA:mustafa-ii",
+    "TDVIA:mezemorta-huseyin-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1683-1718",
-   "note": "Geri alınış Edirne'de şenliklerle kutlandı.",
-   "note_en": "The recapture was celebrated with festivities at Edirne."
+   "note": "Mezemorta Hüseyin Paşa Koyunadaları önünde Venedik donanmasını yendi; Venedik adadan çekildi.",
+   "note_en": "Mezzomorto Hüseyin Pasha defeated the Venetian fleet off the Oinousses islands; Venice withdrew from Chios."
   },
   {
    "id": 14,
@@ -825,13 +831,14 @@
    "opp_cmd": "Savoyalı Eugène",
    "category": "dis",
    "result": "L",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:pasarofca-antlasmasi"
+    "TDVIA:pasarofca-antlasmasi",
+    "TDVIA:timisvar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -883,6 +890,11 @@
    "name": "Mora'nın kaybı (1685–1687): Koron, Navarin, Modon, Anabolu, Atina, İnebahtı",
    "reason": "TDVİA Mora maddesinde tarihli savaş cümlesi bulunamadı.",
    "source": "TDVIA:mora"
+  },
+  {
+   "name": "Çatalköprü (1686)",
+   "reason": "Budin'den sonra Avusturya birliklerini takip eden kuvvetin yenilgisi; tarih verilmiyor.",
+   "source": "TDVIA:suleyman-pasa-sari"
   },
   {
    "name": "Korfu kuşatması (1716)",

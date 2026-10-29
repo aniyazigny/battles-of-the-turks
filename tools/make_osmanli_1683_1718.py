@@ -83,8 +83,22 @@ R = [
  ["TDVIA:varadin", "TDVIA:pasarofca-antlasmasi"], "", "Osmanlı ordusu Belgrad önünde yenildi ve şehir düştü.", "The Ottoman army was defeated before Belgrade and the city fell.", "land"),
 ]
 
+# İkinci kaynak turu (2026-10-29)
+EXTRA_SRC = {"Budin'in kaybı (1686)": ["TDVIA:suleyman-pasa-sari"], "Mohaç (1687)": ["TDVIA:suleyman-pasa-sari"],
+             "Sakız'ın kaybı (1694)": ["TDVIA:mezemorta-huseyin-pasa", "TDVIA:ahmed-ii"], "Sakız (1695)": ["TDVIA:mezemorta-huseyin-pasa"],
+             "Temeşvar'ın kaybı (1716)": ["TDVIA:timisvar"]}
+FIX = {"Budin'in kaybı (1686)": {"note": "Yetmiş sekiz günlük kuşatma sonunda genel hücumla alındı; 14 Ağustos'ta Sarı Süleyman Paşa'nın yardım hücumu yenilgiyle bitmişti. Son Budin beylerbeyi şehid düştü.",
+                                 "note_en": "Taken by general assault after a 78-day siege; Sarı Süleyman Pasha's relief attack on 14 August had failed. The last governor of Buda was killed."},
+       "Sakız'ın kaybı (1694)": {"date": "1694-09", "status": "ihtilafli",
+           "dispute": "Mezemorta ve Mustafa II maddeleri adayı Venedik'in işgal ettiğini söyler; Ahmed II maddesi işgali Malta ve papalık gemilerine bağlar ve 21 Eylül 1695 tarihini verir (Ahmed II Şubat 1695'te ölmüştü)."},
+       "Sakız (1695)": {"name_tr": "Koyunadaları ve Sakız (1695)", "name_en": "Battle of the Oinousses and recapture of Chios (1695)",
+           "note": "Mezemorta Hüseyin Paşa Koyunadaları önünde Venedik donanmasını yendi; Venedik adadan çekildi.",
+           "note_en": "Mezzomorto Hüseyin Pasha defeated the Venetian fleet off the Oinousses islands; Venice withdrew from Chios."},
+       "Temeşvar'ın kaybı (1716)": {"status": "kesin"}}
+
 LEFT = [
  {"name": "Mora'nın kaybı (1685–1687): Koron, Navarin, Modon, Anabolu, Atina, İnebahtı", "reason": "TDVİA Mora maddesinde tarihli savaş cümlesi bulunamadı.", "source": "TDVIA:mora"},
+ {"name": "Çatalköprü (1686)", "reason": "Budin'den sonra Avusturya birliklerini takip eden kuvvetin yenilgisi; tarih verilmiyor.", "source": "TDVIA:suleyman-pasa-sari"},
  {"name": "Korfu kuşatması (1716)", "reason": "Sonuç maddede net değil.", "source": "TDVIA:sehid-ali-pasa"},
  {"name": "Orkapı (1689), Lemberg akını (1695)", "reason": "Kırım Hanlığı'nın savaşları; kapsam kararı gerekiyor.", "source": "TDVIA:suleyman-ii"},
  {"name": "Bebe Süleyman isyanı (1699)", "reason": "Küçük çaplı; tarih ve yer ayrıntısı eksik.", "source": "TDVIA:mustafa-ii"},
@@ -100,6 +114,9 @@ for i, r in enumerate(R, 1):
            "state": O, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    rec.update(FIX.get(ntr, {}))
+    rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
