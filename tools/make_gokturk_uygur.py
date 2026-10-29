@@ -156,6 +156,9 @@ LEFT = [
 
 # İkinci kaynak turu: akademik kaynaklar (data/akademik-kaynaklar.json).
 EXTRA_SRC = {
+    "Juan-juan'ın yenilgisi (552)": ["TDVIA:turfan"],  # 552'de bağlı olduğu Juan-Juanlar'ı baskına uğratarak bağımsızlığını kazandı
+    "Kerç (576)": ["TDVIA:kerc"],  # Pantikapeon 576'da Göktürkler tarafından istilâ edildi
+    "Tiflis (627–629)": ["TDVIA:tiflis"],  # Herakleios Türkler'le ittifak yapıp şehri aldı (628)
     "Türgiş seferi (711)": ["AKD:aydin-2007"],  # Kırgız seferinin ardından 711'de Türgişlere ve Demir Kapı'ya batı seferi
     "Agu (716)": ["AKD:aydin-2007"],
     "Mâverâünnehir'in alınışı (728)": ["AKD:koca-erdem"],  # Su-lu Arap ordularını üst üste yendi; Araplar'ın elinde yalnız Semerkant kaldı
@@ -183,6 +186,8 @@ recs = []
 for i, r in enumerate(RR, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ, state) = r
     src = src + [x for x in EXTRA_SRC.get(ntr, []) if x not in src]
+    if ntr == "Tiflis (627–629)":
+        disp = "Hazarlar maddesi şehrin 629'da alındığını, Tiflis maddesi Herakleios'un Türkler'le ittifak yapıp şehri 628'de aldığını ve bir yıl sonra Hazarlar'ca yağmalandığını yazar."
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,

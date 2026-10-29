@@ -29,7 +29,7 @@ Son güncelleme: 2026-10-30
 | Osmanlı 1912–1913 | 15 | 6 |
 | Osmanlı 1914–1918 | 41 | 18 |
 | Millî Mücadele 1919–1922 | 23 | 4 |
-| Göktürk–Uygur 552–911 | 27 | 13 (8'i akademik kaynakla destekli) |
+| Göktürk–Uygur 552–911 | 27 | 10 (3'i akademik kaynakla destekli) |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).

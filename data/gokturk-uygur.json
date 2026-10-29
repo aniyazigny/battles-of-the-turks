@@ -46,11 +46,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:asya"
+    "TDVIA:asya",
+    "TDVIA:turfan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -120,11 +121,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:hazarlar"
+    "TDVIA:hazarlar",
+    "TDVIA:kerc"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -155,17 +157,19 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:hazarlar"
+    "TDVIA:hazarlar",
+    "TDVIA:tiflis"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Batı Göktürk Kağanlığı",
    "home_batch": "gokturk-uygur",
+   "dispute": "Hazarlar maddesi şehrin 629'da alındığını, Tiflis maddesi Herakleios'un Türkler'le ittifak yapıp şehri 628'de aldığını ve bir yıl sonra Hazarlar'ca yağmalandığını yazar.",
    "note": "Batı Göktürkleri'ne bağlı Hazarlar Bizans'ın müttefiki olarak Derbend'i aşıp Tiflis'i kuşattı; 626'da Herakleios'a 40.000 kişilik yardım gönderildi, şehir 629'da alındı.",
    "note_en": "The Khazars, then subject to the West Göktürks, crossed Derbent as Byzantium's allies and besieged Tiflis; 40,000 men were sent to Heraclius in 626 and the city fell in 629."
   },
