@@ -18,7 +18,7 @@ Son güncelleme: 2026-10-29
 | Osmanlı 1481–1520 | 25 | 9 |
 | Osmanlı 1520–1566 | 28 | 4 |
 | Osmanlı 1566–1606 | 26 | 8 |
-| Osmanlı 1603–1640 | 21 | 11 |
+| Osmanlı 1603–1640 | 21 | 6 |
 
 - [ ] Gazneli–Karahanlı ikinci kaynak turu.
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).

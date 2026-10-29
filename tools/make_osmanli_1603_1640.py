@@ -74,8 +74,22 @@ R = [
  ["TDVIA:murad-iv", "TDVIA:bagdat"], "", "Metris sürülerek yapılan kuşatmadan sonra kale komutanı teslim oldu; 1639 Kasr-ı Şîrin barışı izledi.", "After a siege by trenches the commander surrendered; the Peace of Zuhab followed in 1639.", "land"),
 ]
 
+# İkinci kaynak turu (2026-10-29)
+EXTRA_SRC = {"Peşte ve Vaç (1604)": ["TDVIA:lala-mehmed-pasa"], "Karasu (Kayseri) 1624": ["TDVIA:husrev-pasa", "TDVIA:hafiz-ahmed-pasa"],
+             "Mihriban (1630)": ["TDVIA:husrev-pasa"], "Bağdat kuşatması (1630)": ["TDVIA:husrev-pasa"], "Ahıska (1635)": ["TDVIA:ahiska"],
+             "Bağdat kuşatması (1625–26)": ["TDVIA:husrev-pasa"], "Erzurum (1628)": ["TDVIA:husrev-pasa"]}
+FIX = {"Peşte ve Vaç (1604)": {"note": "Peşte, Hatvan ve Vaç geri alındı.", "note_en": "Pest, Hatvan and Vác were retaken."},
+       "Karasu (Kayseri) 1624": {"date": "1624-09-05", "turkic_cmd": "Çerkez Mehmed Paşa",
+           "dispute": "Komutan: Hüsrev Paşa ve Hâfız Ahmed Paşa maddeleri Sadrazam Çerkez Mehmed Paşa der; Abaza Paşa maddesi Hâfız Paşa der."},
+       "Bağdat kuşatması (1625–26)": {"date": "1626-07", "note": "13 Kasım 1625'te başlayan kuşatma yedi ay yirmi gün sürdü ve başarısız oldu.",
+           "note_en": "The siege begun on 13 November 1625 lasted seven months and twenty days and failed."},
+       "Mihriban (1630)": {"note": "10.000 kişilik Osmanlı birliği Zeynel Han'ın ordusunu yenip kaleyi aldı.", "note_en": "An Ottoman force defeated Zeynel Khan's army and took the castle."},
+       "Bağdat kuşatması (1630)": {"date": "1630-11-14", "note": "6 Ekim'de başlayan kuşatma otuz dokuz gün sonra kaldırıldı.", "note_en": "The siege begun on 6 October was lifted after thirty-nine days."},
+       "Erzurum (1628)": {"date": "1628-09-22", "note": "6 Eylül'de kuşatılan Erzurum'da Abaza dört günlük pazarlıktan sonra teslim oldu.", "note_en": "Besieged from 6 September, Abaza surrendered after four days of negotiation."}}
+
 LEFT = [
  {"name": "Tebriz (1635)", "reason": "Boşaltılmış şehir tahrip edildi; savaş yok.", "source": "TDVIA:murad-iv"},
+ {"name": "Çemhâl ovası (14 Temmuz 1630)", "reason": "Luristan hâkiminin saldırısı püskürtüldü; küçük çatışma.", "source": "TDVIA:husrev-pasa"},
  {"name": "Kazak akınları (Boğaziçi 1624 vb.)", "reason": "Akın; meydan savaşı değil.", "source": "TDVIA:murad-iv"},
  {"name": "Kalenderoğlu–Tekeli Mehmed Paşa (Ankara, 1607–08)", "reason": "Tarihi maddede verilmiyor.", "source": "TDVIA:kuyucu-murad-pasa"},
 ]
@@ -90,6 +104,9 @@ for i, r in enumerate(R, 1):
            "state": O, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    rec.update(FIX.get(ntr, {}))
+    rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
