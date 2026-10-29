@@ -76,5 +76,5 @@ Son güncelleme: 2026-10-30
 - [x] Kıbrıs 1489–1570 Venedik (2026-10-30, `tools/fix_borders_gaps_1.py`).
 
 ## 4. Veri alanı eksikleri
-- [ ] Hicrî tarihler (`hijri`): pilot dışında boş.
+- [ ] Hicrî tarihler (`hijri`): 2026-10-30'da `tools/fill_hijri.py` ile 180 kayda kaynak maddelerden hicrî tarih işlendi (`data/hicri.json`; toplam ~263/749). Kalanlar için maddelerde miladîyle yan yana hicrî tarih yok; ikinci kaynak gerekiyor.
 - [ ] Koordinatlar: kayıtların çoğu yaklaşık (`loc` = approx/region); kontrol edilmeli.

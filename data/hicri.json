@@ -1,0 +1,722 @@
+{
+ "anadolu-selcuklu|Akşehir (Philomelion)": {
+  "hijri": "510",
+  "source": "TDVIA:mesud-i"
+ },
+ "anadolu-selcuklu|Alaşehir (Antiokheia)": {
+  "hijri": "Zilhicce 607",
+  "source": "TDVIA:keyhusrev-i"
+ },
+ "anadolu-selcuklu|Ankara kuşatması (1204)": {
+  "hijri": "1 Zilkade 600",
+  "source": "TDVIA:suleyman-sah-ii"
+ },
+ "anadolu-selcuklu|Antalya'nın geri alınması (1216)": {
+  "hijri": "30 Ramazan 612",
+  "source": "TDVIA:keykavus-i"
+ },
+ "anadolu-selcuklu|Babaî isyanı (Malya ovası)": {
+  "hijri": "637",
+  "source": "TDVIA:babailik"
+ },
+ "anadolu-selcuklu|Cimri isyanının bastırılması": {
+  "hijri": "17 Muharrem 678",
+  "source": "TDVIA:keyhusrev-iii"
+ },
+ "anadolu-selcuklu|Drakon (Civetot)": {
+  "hijri": "1 Zilkade 489",
+  "source": "TDVIA:kilicarslan-i"
+ },
+ "anadolu-selcuklu|Dânişmendlilere karşı zafer (1103)": {
+  "hijri": "Zilkade 496",
+  "source": "TDVIA:danismendliler"
+ },
+ "anadolu-selcuklu|Elbistan": {
+  "hijri": "10 Zilkade 675",
+  "source": "TDVIA:muinuddin-suleyman-pervane"
+ },
+ "anadolu-selcuklu|Germiyanoğulları'na karşı": {
+  "hijri": "687",
+  "source": "TDVIA:mesud-ii"
+ },
+ "anadolu-selcuklu|Halep kuşatması (1085–86)": {
+  "hijri": "Rebîülevvel 478",
+  "source": "TDVIA:suleyman-sah-i"
+ },
+ "anadolu-selcuklu|Halep seferi (öncü yenilgisi)": {
+  "hijri": "615",
+  "source": "TDVIA:el-melikul-esref-musa"
+ },
+ "anadolu-selcuklu|Kayseri (Moğollar, 1243)": {
+  "hijri": "641",
+  "source": "TDVIA:keyhusrev-ii"
+ },
+ "anadolu-selcuklu|Kayseri kuşatması (1211)": {
+  "hijri": "608",
+  "source": "TDVIA:keykavus-i"
+ },
+ "anadolu-selcuklu|Keben (Geben) Kalesi": {
+  "hijri": "612",
+  "source": "TDVIA:keykavus-i"
+ },
+ "anadolu-selcuklu|Kilikya seferi (Mut, Silifke)": {
+  "hijri": "622",
+  "source": "TDVIA:keykubad-i"
+ },
+ "anadolu-selcuklu|Konya kuşatması (1196)": {
+  "hijri": "593",
+  "source": "TDVIA:keyhusrev-i"
+ },
+ "anadolu-selcuklu|Konya kuşatması (1205)": {
+  "hijri": "Cemâziyelevvel 601",
+  "source": "TDVIA:kilicarslan-iii"
+ },
+ "anadolu-selcuklu|Kurzâhil (Amik ovası)": {
+  "hijri": "24 Safer 478",
+  "source": "TDVIA:suleyman-sah-i"
+ },
+ "anadolu-selcuklu|Kılıcarslan Kervansarayı (1249)": {
+  "hijri": "1 Rebîülevvel 647",
+  "source": "TDVIA:keykavus-ii"
+ },
+ "anadolu-selcuklu|Malatya kuşatması (1097)": {
+  "hijri": "490",
+  "source": "TDVIA:kilicarslan-i"
+ },
+ "anadolu-selcuklu|Malatya kuşatması (1143)": {
+  "hijri": "1 Zilhicce 537",
+  "source": "TDVIA:mesud-i"
+ },
+ "anadolu-selcuklu|Malatya'nın alınması (1201)": {
+  "hijri": "19 Ramazan 597",
+  "source": "TDVIA:suleyman-sah-ii"
+ },
+ "anadolu-selcuklu|Malatya'nın fethi (1106)": {
+  "hijri": "1 Muharrem 500",
+  "source": "TDVIA:malatya"
+ },
+ "anadolu-selcuklu|Maraş'ın fethi": {
+  "hijri": "544",
+  "source": "TDVIA:mesud-i"
+ },
+ "anadolu-selcuklu|Menderes (Hyelion ve Leimocheir)": {
+  "hijri": "573",
+  "source": "TDVIA:kilicarslan-ii"
+ },
+ "anadolu-selcuklu|Ra'bân (Takıyyüddin Ömer)": {
+  "hijri": "575",
+  "source": "TDVIA:kilicarslan-ii"
+ },
+ "anadolu-selcuklu|Sinop (1266)": {
+  "hijri": "664",
+  "source": "TDVIA:sinop"
+ },
+ "anadolu-selcuklu|Sinop'un fethi": {
+  "hijri": "26 Cemâziyelâhir 611",
+  "source": "TDVIA:sinop"
+ },
+ "anadolu-selcuklu|Sivas (Yağıbasan, 1143)": {
+  "hijri": "537",
+  "source": "TDVIA:mesud-i"
+ },
+ "anadolu-selcuklu|Sultanhanı": {
+  "hijri": "23 Ramazan 654",
+  "source": "TDVIA:kilicarslan-iv"
+ },
+ "anadolu-selcuklu|Tarsus kuşatması (1245–46)": {
+  "hijri": "643",
+  "source": "TDVIA:keyhusrev-ii"
+ },
+ "anadolu-selcuklu|Tel Bâşir kuşatması": {
+  "hijri": "545",
+  "source": "TDVIA:mesud-i"
+ },
+ "anadolu-selcuklu|Trabzon kuşatması (1228)": {
+  "hijri": "625",
+  "source": "TDVIA:trabzon"
+ },
+ "anadolu-selcuklu|Urfa kuşatması (1106)": {
+  "hijri": "500",
+  "source": "TDVIA:kilicarslan-i"
+ },
+ "anadolu-selcuklu|el-Kâmil'in Anadolu seferi": {
+  "hijri": "631",
+  "source": "TDVIA:keykubad-i"
+ },
+ "beylikler-atabeylikler|Ani (1161)": {
+  "hijri": "Şâban 556",
+  "source": "TDVIA:saltuklular"
+ },
+ "beylikler-atabeylikler|Artah ve İm (1068)": {
+  "hijri": "27 Şâban 460",
+  "source": "TDVIA:harun-b-han"
+ },
+ "beylikler-atabeylikler|Azâz kuşatması (1123–24)": {
+  "hijri": "518",
+  "source": "TDVIA:belek-b-behram"
+ },
+ "beylikler-atabeylikler|Belâta (Ager Sanguinis)": {
+  "hijri": "17 Rebîülevvel 513",
+  "source": "TDVIA:ilgazi-necmeddin"
+ },
+ "beylikler-atabeylikler|Bire kuşatması": {
+  "hijri": "539",
+  "source": "TDVIA:zengi-imaduddin"
+ },
+ "beylikler-atabeylikler|Bizâa (Buzâa, 1138)": {
+  "hijri": "Şâban 532",
+  "source": "TDVIA:zengi-imaduddin"
+ },
+ "beylikler-atabeylikler|Dârâ (Aksungur'a karşı)": {
+  "hijri": "509",
+  "source": "TDVIA:ilgazi-necmeddin"
+ },
+ "beylikler-atabeylikler|Esârib'in fethi": {
+  "hijri": "524",
+  "source": "TDVIA:zengi-imaduddin"
+ },
+ "beylikler-atabeylikler|Halep müdafaası (1138)": {
+  "hijri": "6 Şâban 532",
+  "source": "TDVIA:zengi-imaduddin"
+ },
+ "beylikler-atabeylikler|Hârim (1164)": {
+  "hijri": "Ramazan 559",
+  "source": "TDVIA:nureddin-zengi-mahmud"
+ },
+ "beylikler-atabeylikler|Hısnülekrâd (el-Bukay'a)": {
+  "hijri": "558",
+  "source": "TDVIA:nureddin-zengi-mahmud"
+ },
+ "beylikler-atabeylikler|Josselin'e yenilgi": {
+  "hijri": "544",
+  "source": "TDVIA:nureddin-zengi-mahmud"
+ },
+ "beylikler-atabeylikler|Kastamonu (1133)": {
+  "hijri": "527",
+  "source": "TDVIA:mesud-i"
+ },
+ "beylikler-atabeylikler|Kınnesrîn (1097)": {
+  "hijri": "5 Rebîülâhir 490",
+  "source": "TDVIA:ridvan-b-tutus"
+ },
+ "beylikler-atabeylikler|Lukri": {
+  "hijri": "Şâban 558",
+  "source": "TDVIA:ildeniz-semseddin"
+ },
+ "beylikler-atabeylikler|Malatya (Bohemund'un esareti)": {
+  "hijri": "Ramazan 493",
+  "source": "TDVIA:danismendliler"
+ },
+ "beylikler-atabeylikler|Malatya'nın fethi (1102)": {
+  "hijri": "3 Zilhicce 495",
+  "source": "TDVIA:kilicarslan-i"
+ },
+ "beylikler-atabeylikler|Meşhalâ": {
+  "hijri": "518",
+  "source": "TDVIA:belek-b-behram"
+ },
+ "beylikler-atabeylikler|Refeniye (1115)": {
+  "hijri": "Cemâziyelâhir 509",
+  "source": "TDVIA:tugtegin"
+ },
+ "beylikler-atabeylikler|Serce (Artuklulara karşı)": {
+  "hijri": "524",
+  "source": "TDVIA:zengi-imaduddin"
+ },
+ "beylikler-atabeylikler|Suruç (I)": {
+  "hijri": "494",
+  "source": "TDVIA:sokmen-b-artuk"
+ },
+ "beylikler-atabeylikler|Suruç (II)": {
+  "hijri": "494",
+  "source": "TDVIA:sokmen-b-artuk"
+ },
+ "beylikler-atabeylikler|Taberiye (1108)": {
+  "hijri": "501",
+  "source": "TDVIA:tugtegin"
+ },
+ "beylikler-atabeylikler|Tel Bâşir (1108)": {
+  "hijri": "Safer 502",
+  "source": "TDVIA:ridvan-b-tutus"
+ },
+ "beylikler-atabeylikler|Âmid (Dâvûd'a karşı)": {
+  "hijri": "29 Cemâziyelâhir 528",
+  "source": "TDVIA:zengi-imaduddin"
+ },
+ "beylikler-atabeylikler|Âmid (Kürboğa'ya karşı)": {
+  "hijri": "494",
+  "source": "TDVIA:sokmen-b-artuk"
+ },
+ "gazneli-karahanli|Belh (1019)": {
+  "hijri": "410",
+  "source": "TDVIA:mahmud-i-gaznevi"
+ },
+ "gazneli-karahanli|Debûsiye": {
+  "hijri": "423",
+  "source": "TDVIA:mesud-b-mahmud-i-gaznevi"
+ },
+ "gazneli-karahanli|Ecüdhen": {
+  "hijri": "11 Safer 472",
+  "source": "TDVIA:ibrahim-b-mesud-i-gaznevi"
+ },
+ "gazneli-karahanli|Ganda'ya karşı (Bari)": {
+  "hijri": "410",
+  "source": "TDVIA:mahmud-i-gaznevi"
+ },
+ "gazneli-karahanli|Herat (Ebû Ali Sîmcûrî)": {
+  "hijri": "384",
+  "source": "TDVIA:sebuk-tegin"
+ },
+ "gazneli-karahanli|Hindûşâhîlere karşı (Lamgân)": {
+  "hijri": "376",
+  "source": "TDVIA:sebuk-tegin"
+ },
+ "gazneli-karahanli|Hucend": {
+  "hijri": "Ramazan 531",
+  "source": "TDVIA:karahanlilar"
+ },
+ "gazneli-karahanli|Hârizm'in fethi (Hezâresb)": {
+  "hijri": "408",
+  "source": "TDVIA:mahmud-i-gaznevi"
+ },
+ "gazneli-karahanli|Karluklara yenilgi": {
+  "hijri": "551",
+  "source": "TDVIA:karahanlilar"
+ },
+ "gazneli-karahanli|Merv (Sâmânîler)": {
+  "hijri": "389",
+  "source": "TDVIA:samaniler"
+ },
+ "gazneli-karahanli|Mevdûd–Muhammed": {
+  "hijri": "3 Şâban 432",
+  "source": "TDVIA:mevdud-b-mesud-i-gaznevi"
+ },
+ "gazneli-karahanli|Mültan (1006)": {
+  "hijri": "396",
+  "source": "TDVIA:multan"
+ },
+ "gazneli-karahanli|Mültan (1010)": {
+  "hijri": "401",
+  "source": "TDVIA:mahmud-i-gaznevi"
+ },
+ "gazneli-karahanli|Nandana (Triloçanpâl)": {
+  "hijri": "404",
+  "source": "TDVIA:mahmud-i-gaznevi"
+ },
+ "gazneli-karahanli|Peşâver (Caypal)": {
+  "hijri": "8 Muharrem 392",
+  "source": "TDVIA:hindusahiler"
+ },
+ "gazneli-karahanli|Rey'in alınması": {
+  "hijri": "420",
+  "source": "TDVIA:mesud-b-mahmud-i-gaznevi"
+ },
+ "gazneli-karahanli|Sarsûtî Kalesi": {
+  "hijri": "424",
+  "source": "TDVIA:mesud-b-mahmud-i-gaznevi"
+ },
+ "gazneli-karahanli|Talas (Sâmânîler)": {
+  "hijri": "280",
+  "source": "TDVIA:satuk-bugra-han"
+ },
+ "gazneli-karahanli|Tûs (Ebû Ali Sîmcûrî)": {
+  "hijri": "385",
+  "source": "TDVIA:sebuk-tegin"
+ },
+ "gazneli-karahanli|İndus üzerinde Câtlar": {
+  "hijri": "418",
+  "source": "TDVIA:mahmud-i-gaznevi"
+ },
+ "gokturk-uygur|Haristan (737)": {
+  "hijri": "119",
+  "source": "TDVIA:esed-b-abdullah-el-kasri"
+ },
+ "gokturk-uygur|Mâverâünnehir'in alınışı (728)": {
+  "hijri": "110",
+  "source": "TDVIA:semerkant"
+ },
+ "osmanli-1402-1481|Akdere (Vaslui, 1475)": {
+  "hijri": "Ramazan 879",
+  "source": "TDVIA:mehmed-ii"
+ },
+ "osmanli-1402-1481|Akçahisar (Kruya, 1478)": {
+  "hijri": "15 Rebîülevvel 883",
+  "source": "TDVIA:mehmed-ii"
+ },
+ "osmanli-1402-1481|Albulena": {
+  "hijri": "861",
+  "source": "TDVIA:mehmed-ii"
+ },
+ "osmanli-1402-1481|Antalya müdafaası (1423)": {
+  "hijri": "Safer 826",
+  "source": "TDVIA:murad-ii"
+ },
+ "osmanli-1402-1481|Belgrad kuşatması (1440)": {
+  "hijri": "843",
+  "source": "TDVIA:murad-ii"
+ },
+ "osmanli-1402-1481|Edirne (1411)": {
+  "hijri": "22 Şevval 813",
+  "source": "TDVIA:musa-celebi"
+ },
+ "osmanli-1402-1481|Erdel (Ekmezö, 1479)": {
+  "hijri": "884",
+  "source": "TDVIA:mehmed-ii"
+ },
+ "osmanli-1402-1481|Güvercinlik (1428)": {
+  "hijri": "831",
+  "source": "TDVIA:murad-ii"
+ },
+ "osmanli-1402-1481|Karaman seferi (1474)": {
+  "hijri": "879",
+  "source": "TDVIA:mehmed-ii"
+ },
+ "osmanli-1402-1481|Kefe": {
+  "hijri": "1 Safer 880",
+  "source": "TDVIA:mehmed-ii"
+ },
+ "osmanli-1402-1481|Konya (1415)": {
+  "hijri": "Muharrem 818",
+  "source": "TDVIA:mehmed-i"
+ },
+ "osmanli-1402-1481|Otlukbeli": {
+  "hijri": "16 Rebîülevvel 878",
+  "source": "TDVIA:uzun-hasan"
+ },
+ "osmanli-1402-1481|Otranto (1481)": {
+  "hijri": "16 Receb 886",
+  "source": "TDVIA:mehmed-ii"
+ },
+ "osmanli-1402-1481|Pippo'ya karşı (1426)": {
+  "hijri": "829",
+  "source": "TDVIA:murad-ii"
+ },
+ "osmanli-1402-1481|Semendire (1439)": {
+  "hijri": "16 Rebîülevvel 843",
+  "source": "TDVIA:murad-ii"
+ },
+ "osmanli-1402-1481|Süleyman Çelebi'nin Mûsâ'ya zaferleri": {
+  "hijri": "Safer 813",
+  "source": "TDVIA:mehmed-i"
+ },
+ "osmanli-1402-1481|Yanbolu (1410)": {
+  "hijri": "8 Şevval 812",
+  "source": "TDVIA:musa-celebi"
+ },
+ "osmanli-1402-1481|Yayça (Jajce, 1463)": {
+  "hijri": "4 Rebîülâhir 868",
+  "source": "TDVIA:mehmed-ii"
+ },
+ "osmanli-1402-1481|Çamurlu": {
+  "hijri": "5 Rebîülâhir 816",
+  "source": "TDVIA:musa-celebi"
+ },
+ "osmanli-1402-1481|İstanbul kuşatması (1411)": {
+  "hijri": "813",
+  "source": "TDVIA:musa-celebi"
+ },
+ "osmanli-1402-1481|İstanbul kuşatması (1422)": {
+  "hijri": "Receb 825",
+  "source": "TDVIA:murad-ii"
+ },
+ "osmanli-1402-1481|İstanbul'un fethi": {
+  "hijri": "20 Cemâziyelevvel 857",
+  "source": "TDVIA:istanbul"
+ },
+ "osmanli-1481-1520|Gazze (1516)": {
+  "hijri": "26 Zilkade 922",
+  "source": "TDVIA:ridaniye-savasi"
+ },
+ "osmanli-1481-1520|Kili": {
+  "hijri": "20 Cemâziyelâhir 889",
+  "source": "TDVIA:kili"
+ },
+ "osmanli-1481-1520|Kütahya (Şahkulu)": {
+  "hijri": "Muharrem 917",
+  "source": "TDVIA:sahkulu-baba-tekeli"
+ },
+ "osmanli-1481-1520|Mercidâbık": {
+  "hijri": "25 Receb 922",
+  "source": "TDVIA:memlukler"
+ },
+ "osmanli-1481-1520|Navarin (1500)": {
+  "hijri": "Rebîülevvel 906",
+  "source": "TDVIA:navarin"
+ },
+ "osmanli-1481-1520|Uğraşdere (Çorlu)": {
+  "hijri": "Cemâziyelevvel 917",
+  "source": "TDVIA:selim-i"
+ },
+ "osmanli-1481-1520|Yenişehir (1513)": {
+  "hijri": "8 Safer 919",
+  "source": "TDVIA:selim-i"
+ },
+ "osmanli-1481-1520|Âmid (1515)": {
+  "hijri": "10 Şâban 921",
+  "source": "TDVIA:selim-i"
+ },
+ "osmanli-1481-1520|Çaldıran": {
+  "hijri": "2 Receb 920",
+  "source": "TDVIA:safeviler"
+ },
+ "osmanli-1520-1566|Bağdat (1534)": {
+  "hijri": "Cemâziyelevvel 941",
+  "source": "TDVIA:irakeyn-seferi"
+ },
+ "osmanli-1520-1566|Böğürdelen": {
+  "hijri": "1 Şâban 927",
+  "source": "TDVIA:suleyman-i"
+ },
+ "osmanli-1520-1566|Koron'un kaybı (1532)": {
+  "hijri": "939",
+  "source": "TDVIA:suleyman-i"
+ },
+ "osmanli-1520-1566|Rodos'un fethi": {
+  "hijri": "1 Safer 929",
+  "source": "TDVIA:suleyman-i"
+ },
+ "osmanli-1520-1566|Sigetvar kuşatması (1556)": {
+  "hijri": "963",
+  "source": "TDVIA:suleyman-i"
+ },
+ "osmanli-1520-1566|Tebriz (1534)": {
+  "hijri": "25 Muharrem 941",
+  "source": "TDVIA:ibrahim-pasa-makbul"
+ },
+ "osmanli-1520-1566|Trablusgarp": {
+  "hijri": "12 Şâban 958",
+  "source": "TDVIA:turgut-reis"
+ },
+ "osmanli-1520-1566|Tunus (1535)": {
+  "hijri": "Muharrem 942",
+  "source": "TDVIA:suleyman-i"
+ },
+ "osmanli-1566-1606|Cehennem deresi (1600)": {
+  "hijri": "1009",
+  "source": "TDVIA:karayazici-abdulhalim"
+ },
+ "osmanli-1566-1606|Estergon'un kaybı (1595)": {
+  "hijri": "27 Zilhicce 1003",
+  "source": "TDVIA:mehmed-iii"
+ },
+ "osmanli-1566-1606|Kanije müdafaası (1601)": {
+  "hijri": "22 Cemâziyelevvel 1010",
+  "source": "TDVIA:mehmed-iii"
+ },
+ "osmanli-1566-1606|Kayseri ovası (1600)": {
+  "hijri": "14 Rebîülevvel 1009",
+  "source": "TDVIA:karayazici-abdulhalim"
+ },
+ "osmanli-1566-1606|Koyungeçidi": {
+  "hijri": "Receb 986",
+  "source": "TDVIA:osman-pasa-ozdemiroglu"
+ },
+ "osmanli-1566-1606|Kulpa (Sisak)": {
+  "hijri": "20 Ramazan 1001",
+  "source": "TDVIA:murad-iii"
+ },
+ "osmanli-1566-1606|Sepetli (1601)": {
+  "hijri": "12 Safer 1010",
+  "source": "TDVIA:karayazici-abdulhalim"
+ },
+ "osmanli-1566-1606|Tebriz (1585)": {
+  "hijri": "993",
+  "source": "TDVIA:osman-pasa-ozdemiroglu"
+ },
+ "osmanli-1566-1606|Tebriz'in kaybı (1603)": {
+  "hijri": "15 Cemâziyelevvel 1012",
+  "source": "TDVIA:mehmed-iii"
+ },
+ "osmanli-1566-1606|Tokat (1602)": {
+  "hijri": "1010",
+  "source": "TDVIA:mehmed-iii"
+ },
+ "osmanli-1566-1606|Tunus (1574)": {
+  "hijri": "982",
+  "source": "TDVIA:selim-ii"
+ },
+ "osmanli-1566-1606|Yanıkkale (1594)": {
+  "hijri": "12 Muharrem 1003",
+  "source": "TDVIA:yanikkale"
+ },
+ "osmanli-1566-1606|Çıldır": {
+  "hijri": "5 Cemâziyelâhir 986",
+  "source": "TDVIA:osman-pasa-ozdemiroglu"
+ },
+ "osmanli-1603-1640|Ahıska (1635)": {
+  "hijri": "1045",
+  "source": "TDVIA:murad-iv"
+ },
+ "osmanli-1603-1640|Alaçayır (1608)": {
+  "hijri": "26 Rebîülâhir 1017",
+  "source": "TDVIA:kalenderoglu-mehmed"
+ },
+ "osmanli-1603-1640|Bağdat kuşatması (1630)": {
+  "hijri": "8 Rebîülâhir 1040",
+  "source": "TDVIA:husrev-pasa"
+ },
+ "osmanli-1603-1640|Bağdat'ın fethi (1638)": {
+  "hijri": "17 Şâban 1048",
+  "source": "TDVIA:murad-iv"
+ },
+ "osmanli-1603-1640|Bağdat'ın kaybı (1624)": {
+  "hijri": "1033",
+  "source": "TDVIA:murad-iv"
+ },
+ "osmanli-1603-1640|Cennetoğlu (1625)": {
+  "hijri": "Rebîülevvel 1035",
+  "source": "TDVIA:murad-iv"
+ },
+ "osmanli-1603-1640|Erzurum (1628)": {
+  "hijri": "23 Muharrem 1038",
+  "source": "TDVIA:husrev-pasa"
+ },
+ "osmanli-1603-1640|Hotin (1621)": {
+  "hijri": "Zilkade 1030",
+  "source": "TDVIA:osman-ii"
+ },
+ "osmanli-1603-1640|Kilis (1605)": {
+  "hijri": "1014",
+  "source": "TDVIA:nasuh-pasa"
+ },
+ "osmanli-1603-1640|Mihriban (1630)": {
+  "hijri": "22 Ramazan 1039",
+  "source": "TDVIA:husrev-pasa"
+ },
+ "osmanli-1603-1640|Peşte ve Vaç (1604)": {
+  "hijri": "Cemâziyelevvel 1013",
+  "source": "TDVIA:lala-mehmed-pasa"
+ },
+ "osmanli-1603-1640|Revan (1635)": {
+  "hijri": "23 Safer 1045",
+  "source": "TDVIA:murad-iv"
+ },
+ "osmanli-1603-1640|Revan'ın kaybı (1636)": {
+  "hijri": "24 Şevval 1045",
+  "source": "TDVIA:murad-iv"
+ },
+ "osmanli-1603-1640|Van (1633)": {
+  "hijri": "1043",
+  "source": "TDVIA:murad-iv"
+ },
+ "osmanli-1640-1683|Azak (1642)": {
+  "hijri": "1051",
+  "source": "TDVIA:ibrahim--padisah"
+ },
+ "osmanli-1640-1683|Ilgın (1658)": {
+  "hijri": "15 Rebîülevvel 1069",
+  "source": "TDVIA:koprulu-mehmed-pasa"
+ },
+ "osmanli-1640-1683|Kamaniçe (1672)": {
+  "hijri": "3 Cemâziyelevvel 1083",
+  "source": "TDVIA:kopruluzade-fazil-ahmed-pasa"
+ },
+ "osmanli-1640-1683|Kandiye (1669)": {
+  "hijri": "9 Rebîülâhir 1080",
+  "source": "TDVIA:kandiye"
+ },
+ "osmanli-1640-1683|Çanakkale (1656)": {
+  "hijri": "4 Ramazan 1066",
+  "source": "TDVIA:mehmed-iv"
+ },
+ "osmanli-1683-1718|Azak müdafaası (1695)": {
+  "hijri": "1106",
+  "source": "TDVIA:mustafa-ii"
+ },
+ "osmanli-1683-1718|Azak'ın kaybı (1696)": {
+  "hijri": "7 Muharrem 1108",
+  "source": "TDVIA:mustafa-ii"
+ },
+ "osmanli-1683-1718|Belgrad'ın geri alınışı (1690)": {
+  "hijri": "4 Muharrem 1102",
+  "source": "TDVIA:suleyman-ii"
+ },
+ "osmanli-1683-1718|Budin'in kaybı (1686)": {
+  "hijri": "13 Şevval 1097",
+  "source": "TDVIA:suleyman-pasa-sari"
+ },
+ "osmanli-1683-1718|Koyunadaları ve Sakız (1695)": {
+  "hijri": "Cemâziyelâhir 1106",
+  "source": "TDVIA:mustafa-ii"
+ },
+ "osmanli-1683-1718|Lemberg akını (1695)": {
+  "hijri": "1106",
+  "source": "TDVIA:mustafa-ii"
+ },
+ "osmanli-1683-1718|Mohaç (1687)": {
+  "hijri": "Şevval 1098",
+  "source": "TDVIA:mehmed-iv"
+ },
+ "osmanli-1683-1718|Niş (1690)": {
+  "hijri": "Zilhicce 1101",
+  "source": "TDVIA:nis"
+ },
+ "osmanli-1683-1718|Niş'in kaybı (1689)": {
+  "hijri": "10 Zilhicce 1100",
+  "source": "TDVIA:suleyman-ii"
+ },
+ "osmanli-1683-1718|Petervaradin (1716)": {
+  "hijri": "16 Şâban 1128",
+  "source": "TDVIA:sehid-ali-pasa"
+ },
+ "osmanli-1718-1774|Bağdat (1733)": {
+  "hijri": "7 Safer 1146",
+  "source": "TDVIA:nadir-sah--iran"
+ },
+ "osmanli-1718-1774|Nihâvend (1726)": {
+  "hijri": "Rebîülevvel 1139",
+  "source": "TDVIA:damad-ibrahim-pasa-nevsehirli"
+ },
+ "osmanli-1774-1812|Maçin (1791)": {
+  "hijri": "8 Zilkade 1205",
+  "source": "TDVIA:yas-antlasmasi"
+ },
+ "osmanli-1774-1812|İsmâil önü (1789)": {
+  "hijri": "1204",
+  "source": "TDVIA:hasan-pasa-kethuda"
+ },
+ "osmanli-1774-1812|İsmâil'in kaybı (1790)": {
+  "hijri": "15 Rebîülâhir 1205",
+  "source": "TDVIA:ismail--ukrayna"
+ },
+ "osmanli-kurulus|Biga kuşatması": {
+  "hijri": "773",
+  "source": "TDVIA:murad-i"
+ },
+ "osmanli-kurulus|Bursa'nın teslimi": {
+  "hijri": "2 Cemâziyelevvel 726",
+  "source": "TDVIA:orhan"
+ },
+ "osmanli-kurulus|Dimbos": {
+  "hijri": "702",
+  "source": "TDVIA:orhan"
+ },
+ "osmanli-kurulus|Domaniç (İkizce)": {
+  "hijri": "685",
+  "source": "TDVIA:osman-i"
+ },
+ "osmanli-kurulus|Eretna kuvvetlerine karşı": {
+  "hijri": "763",
+  "source": "TDVIA:murad-i"
+ },
+ "osmanli-kurulus|Manastır": {
+  "hijri": "787",
+  "source": "TDVIA:murad-i"
+ },
+ "osmanli-kurulus|Savra (Muzakiye ovası)": {
+  "hijri": "787",
+  "source": "TDVIA:murad-i"
+ },
+ "osmanli-kurulus|Sazlıdere (Edirne)": {
+  "hijri": "Cemâziyelâhir 762",
+  "source": "TDVIA:murad-i"
+ },
+ "osmanli-kurulus|Çirmen (Sırpsındığı)": {
+  "hijri": "15 Rebîülevvel 773",
+  "source": "TDVIA:murad-i"
+ },
+ "osmanli-kurulus|İznik'in teslimi": {
+  "hijri": "21 Cemâziyelevvel 731",
+  "source": "TDVIA:orhan"
+ }
+}

@@ -199,3 +199,10 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | İkinci Göktürk'ün kuruluşu 682 | Tek bir muharebe adı yok → borderline |
 | Talas 751 | Karluklar'ın kaydı (Abbâsîlerle birlikte) |
 | Harita 550–1000 | Kaba katman (`tools/extend_borders_552.py`); bütün dilimler `yaklasik`; Ötüken noktası eklendi |
+
+## Hicrî tarihler (2026-10-30)
+| Konu | Karar |
+|---|---|
+| Kaynak | Hicrî tarih hesaplanmaz; yalnızca kaydın TDVİA maddesinde "<hicrî> / <miladî>" biçiminde yan yana yazılmış ve miladî kısmı kaydın tarihiyle uyuşan ifade alınır (`tools/fill_hijri.py` → `data/hicri.json`). |
+| Kesinlik | Çıktı kaydın kesinliğini aşmaz: yalnız yılı bilinen kayda hicrî yıl, ayı bilinene ay ve yıl, günü bilinene gün de uyuşuyorsa tam tarih. |
+| Gösterim | `build_demo.py` kaydın kendi `hijri` alanı boşsa bu dosyadaki değeri kullanır. |
