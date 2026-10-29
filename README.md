@@ -36,21 +36,21 @@
 | [docs/06-dogrulama-turu.md](docs/06-dogrulama-turu.md) | Roma veri seti, akademik yayınlar ve Wikipedia ile doğrulama turu |
 
 ## Veri
-- `data/pilot-buyuk-selcuklu.json`: Büyük Selçuklu dönemi (1035–1157), 80 kayıt (3 kayıt Parti 3'e taşındı).
-- `data/anadolu-selcuklu.json`: Anadolu Selçukluları (1075–1308), 64 kayıt (ilk tur). Üretici: `tools/make_anadolu.py`.
-- `data/beylikler-atabeylikler.json`: Türk beylikleri ve atabeylikleri (1070–1175), 46 kayıt. Üretici: `tools/make_beylikler.py`.
-- `data/gazneli-karahanli.json`: Gazneliler ve Karahanlılar (893–1156), 30 kayıt. Üretici: `tools/make_gazneli_karahanli.py`.
+- `data/pilot-buyuk-selcuklu.json`: Büyük Selçuklu dönemi (1035–1157), 80 kayıt (80 kayıt Parti 3'e taşındı).
+- `data/anadolu-selcuklu.json`: Anadolu Selçukluları (1075–1308), 72 kayıt (ilk tur). Üretici: `tools/make_anadolu.py`.
+- `data/beylikler-atabeylikler.json`: Türk beylikleri ve atabeylikleri (1070–1175), 57 kayıt. Üretici: `tools/make_beylikler.py`.
+- `data/gazneli-karahanli.json`: Gazneliler ve Karahanlılar (893–1156), 32 kayıt. Üretici: `tools/make_gazneli_karahanli.py`.
 - `data/osmanli-kurulus.json`: Osmanlı kuruluş dönemi (1284–1402), 31 kayıt. Üretici: `tools/make_osmanli_kurulus.py`.
-- `data/osmanli-1402-1481.json`: Osmanlı 1402–1481, 45 kayıt. Üretici: `tools/make_osmanli_1402_1481.py`.
-- `data/osmanli-1481-1520.json`: Osmanlı 1481–1520, 25 kayıt. Üretici: `tools/make_osmanli_1481_1520.py`.
-- `data/osmanli-1520-1566.json`: Osmanlı 1520–1566, 28 kayıt. Üretici: `tools/make_osmanli_1520_1566.py`.
-- `data/osmanli-1566-1606.json`: Osmanlı 1566–1606, 26 kayıt. Üretici: `tools/make_osmanli_1566_1606.py`.
+- `data/osmanli-1402-1481.json`: Osmanlı 1402–1481, 46 kayıt. Üretici: `tools/make_osmanli_1402_1481.py`.
+- `data/osmanli-1481-1520.json`: Osmanlı 1481–1520, 26 kayıt. Üretici: `tools/make_osmanli_1481_1520.py`.
+- `data/osmanli-1520-1566.json`: Osmanlı 1520–1566, 30 kayıt. Üretici: `tools/make_osmanli_1520_1566.py`.
+- `data/osmanli-1566-1606.json`: Osmanlı 1566–1606, 27 kayıt. Üretici: `tools/make_osmanli_1566_1606.py`.
 - `data/osmanli-1603-1640.json`: Osmanlı 1603–1640, 22 kayıt. Üretici: `tools/make_osmanli_1603_1640.py`.
-- `data/osmanli-1640-1683.json`: Osmanlı 1640–1683, 22 kayıt. Üretici: `tools/make_osmanli_1640_1683.py`.
-- `data/osmanli-1683-1718.json`: Osmanlı 1683–1718, 26 kayıt. Üretici: `tools/make_osmanli_1683_1718.py`.
+- `data/osmanli-1640-1683.json`: Osmanlı 1640–1683, 23 kayıt. Üretici: `tools/make_osmanli_1640_1683.py`.
+- `data/osmanli-1683-1718.json`: Osmanlı 1683–1718, 27 kayıt. Üretici: `tools/make_osmanli_1683_1718.py`.
 - `data/osmanli-1718-1774.json`: Osmanlı 1718–1774, 30 kayıt. Üretici: `tools/make_osmanli_1718_1774.py`.
 - `data/osmanli-1774-1812.json`: Osmanlı 1774–1812, 39 kayıt. Üretici: `tools/make_osmanli_1774_1812.py`.
-- `data/osmanli-1812-1839.json`: Osmanlı 1812–1839, 29 kayıt. Üretici: `tools/make_osmanli_1812_1839.py`.
+- `data/osmanli-1812-1839.json`: Osmanlı 1812–1839, 31 kayıt. Üretici: `tools/make_osmanli_1812_1839.py`.
 - `data/osmanli-1839-1878.json`: Osmanlı 1839–1878, 46 kayıt. Üretici: `tools/make_osmanli_1839_1878.py`.
 - `data/osmanli-1878-1912.json`: Osmanlı 1878–1912, 19 kayıt. Üretici: `tools/make_osmanli_1878_1912.py`.
 - `data/osmanli-1912-1913.json`: Osmanlı 1912–1913 (Balkan Savaşları), 15 kayıt. Üretici: `tools/make_osmanli_1912_1913.py`.
