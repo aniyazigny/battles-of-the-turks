@@ -95,3 +95,9 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Kanije 1600 | 20 Ekim (Kanije maddesi) | Mehmed III maddesi: 22 Ekim |
 | Eflak seferi 1595 | Tek kayıt, borderline | Kalugareni ve Yergöğü ayrı savaşlar (Batı kaynakları) |
 | İstolni Belgrad 1602 | Ağustos 1602, ihtilaflı (TDVİA içi çelişki) | 22 Şubat 1603 |
+
+## Kayıt kararları (Parti 10: Osmanlı 1603–1640, 2026-10-29)
+| Kayıt | Karar | Alternatif okuma |
+|---|---|---|
+| Hotin 1621 | Belirsiz (D) | Batı kaynakları: Leh zaferi |
+| Estergon 1605 | Ekim 1605, ihtilaflı (TDVİA içi) | 3 Ekim / 4 Kasım |

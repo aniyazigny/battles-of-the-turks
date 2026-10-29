@@ -19,6 +19,7 @@
 | [docs/09-osmanli-1481-1520.md](docs/09-osmanli-1481-1520.md) | Parti 7: II. Bayezid ve Yavuz (1481–1520) |
 | [docs/10-osmanli-1520-1566.md](docs/10-osmanli-1520-1566.md) | Parti 8: Kanûnî (1520–1566) |
 | [docs/11-osmanli-1566-1606.md](docs/11-osmanli-1566-1606.md) | Parti 9: II. Selim–III. Mehmed (1566–1606) |
+| [docs/12-osmanli-1603-1640.md](docs/12-osmanli-1603-1640.md) | Parti 10: I. Ahmed–IV. Murad (1603–1640) |
 | [docs/06-dogrulama-turu.md](docs/06-dogrulama-turu.md) | Roma veri seti, akademik yayınlar ve Wikipedia ile doğrulama turu |
 
 ## Veri
@@ -31,6 +32,7 @@
 - `data/osmanli-1481-1520.json`: Osmanlı 1481–1520, 25 kayıt. Üretici: `tools/make_osmanli_1481_1520.py`.
 - `data/osmanli-1520-1566.json`: Osmanlı 1520–1566, 28 kayıt. Üretici: `tools/make_osmanli_1520_1566.py`.
 - `data/osmanli-1566-1606.json`: Osmanlı 1566–1606, 26 kayıt. Üretici: `tools/make_osmanli_1566_1606.py`.
+- `data/osmanli-1603-1640.json`: Osmanlı 1603–1640, 21 kayıt. Üretici: `tools/make_osmanli_1603_1640.py`.
 - `data/akademik-kaynaklar.json`: `AKD:` anahtarıyla atıf yapılan akademik yayınların künyeleri.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 
@@ -49,6 +51,6 @@
 3. ~~Pilot kayıtlarının ikinci kaynakla kontrolü~~ ✅ (13 kayıt Türk akademik literatürüyle kontrol bekliyor)
 4. Anadolu Selçukluları ✅ (46/64 kayıt iki maddeyle); beylikler ve atabeylikler ✅ ilk tur
 5. Karahanlı, Gazneli ✅ ilk tur; Göktürk, Uygur
-6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅ ilk tur
+6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅, 1603–1640 ✅ ilk tur
 7. Türkiye Cumhuriyeti
 8. Arayüz (harita, filtreler, tablolar, indirme seçenekleri)

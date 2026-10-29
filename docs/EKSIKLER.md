@@ -18,6 +18,7 @@ Son güncelleme: 2026-10-29
 | Osmanlı 1481–1520 | 25 | 9 |
 | Osmanlı 1520–1566 | 28 | 4 |
 | Osmanlı 1566–1606 | 26 | 8 |
+| Osmanlı 1603–1640 | 21 | 11 |
 
 - [ ] Gazneli–Karahanlı ikinci kaynak turu.
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).
@@ -34,6 +35,7 @@ Son güncelleme: 2026-10-29
 - [ ] **Osmanlı 1481–1520:** Kefalonya 1500; Krbava 1493 ve Macar akınları.
 - [ ] **Osmanlı 1520–1566:** Seydi Ali Reis 1554, Gorjani ve Korfu 1537; Safevî seferleri 1548, 1553–55.
 - [ ] **Osmanlı 1566–1606:** Revan 1604; Kalugareni ve Yergöğü 1595 ayrı kayıt; diğer Celâlî çatışmaları (Cehennem deresi 1600 vb.).
+- [ ] **Osmanlı 1603–1640:** Kalenderoğlu–Tekeli Mehmed Paşa (Ankara); Halil Paşa'nın Erzurum kuşatması 1627; Selmas/Urmiye yılı (Canbolatoğulları maddesi 1604 der).
 - [ ] **Göktürkler ve Uygurlar:** hiç başlanmadı (Osmanlı bitince).
 
 ## 3. Harita eksikleri
