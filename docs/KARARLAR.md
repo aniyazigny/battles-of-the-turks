@@ -123,3 +123,10 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Yılan Adası 1788 | TDVİA'ya göre W; Batı okuması `dispute`'ta |
 | Kaçarlar, Azerbaycan hanlıkları | Türk hânedanları ama kapsam dışı → haritada `turk-diger` |
 | Kırım Hanlığı | Osmanlı ordusuyla birlikte ya da padişah emriyle yaptığı savaşlar Osmanlı tablosuna borderline girer; kendi başına yaptıkları dışarıda (2026-10-29, kullanıcı itiraz etmedi) |
+
+## Kayıt kararları (Parti 15: Osmanlı 1812–1839, 2026-10-29)
+| Kayıt | Karar |
+|---|---|
+| Mehmed Ali Paşa savaşları (1831–1839) | Osmanlı valisinin isyanı → `ic` |
+| Vehhâbî seferi | Mısır kuvvetleri Osmanlı tarafı; Dir‘iye Emirliği `dis` |
+| Kostantîne 1836–37 | Borderline (Ahmed Bey'in Osmanlı adına savaştığı açık değil) |

@@ -23,6 +23,7 @@ Son güncelleme: 2026-10-29
 | Osmanlı 1683–1718 | 26 | 9 |
 | Osmanlı 1718–1774 | 30 | 3 |
 | Osmanlı 1774–1812 | 39 | 19 |
+| Osmanlı 1812–1839 | 26 | 14 |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).
@@ -45,6 +46,7 @@ Son güncelleme: 2026-10-29
 - [ ] **Osmanlı 1718–1774:** 1723–25 İran seferinin tek tek kuşatmaları; Larga 1770 (İvazzâde maddesi Kartal ile bir tutar), Yergöğü, Kılburun; Kırım Hanlığı: 1736 istilâsı eklendi; 1737 ve 1738 istilâları eksik.
 - [x] **Kapsam kararı:** Kırım Hanlığı savaşları → Osmanlı ordusuyla birlikte ya da padişah emriyle olanlar borderline (KARARLAR, 2026-10-29). Orkapı 1689, Lemberg 1695 ve 1736 istilâsı eklendi (borderline); 1737–38 eksik.
 - [ ] **Osmanlı 1774–1812:** Kalafat, Tendra ve Kelegra deniz savaşları; Sırp isyanının diğer savaşları (Belgrad 1806, Mişar, Deligrad, Çegar 1809); Bozcaada ve Aynaroz 1807, Arpaçay 1807; Rusçuk 1811 ve Slobozia.
+- [ ] **Osmanlı 1812–1839:** Tripoliçe 1821, Dervenaki 1822, Atina 1826–27, Osmanlı–İran savaşı 1821–23, Bosna isyanı (Hüseyin Kapudan), Vehhâbî seferinin diğer savaşları, Humus 1832.
 - [ ] **Göktürkler ve Uygurlar:** hiç başlanmadı (Osmanlı bitince).
 
 ## 3. Harita eksikleri
@@ -53,6 +55,7 @@ Son güncelleme: 2026-10-29
 - [ ] Doğu Türkistan ve Moğolistan: Çağatay Hanlığı ve Koço Uygurları 1690'a kadar aynı görünüyor (Yarkent/Kaşgar hanlığı, Cungarlar işlenmedi).
 - [x] İran ve Irak 1405–1501 → `tools/fix_borders_iran_1405.py` (2026-10-29): Karakoyunlu Tebriz 1408, Irâk-ı Acem 1447–52, Kirman 1453; Akkoyunlu 1468–70'ten 1503'e; Celâyirli Bağdat 1405–1410; Horasan 1507–1510 Şeybânî; Van ve Revan'ın 1335 öncesi boş görünen dilimleri dolduruldu.
 - [x] Lahsâ 1253 sonrası Uyûnî görünüyordu → `tools/extend_borders_1812.py` (2026-10-29).
+- [ ] Lahsâ 1818 sonrası: Suûdîlerin bölgeyi geri aldığı yıl belirsiz (haritada Osmanlı).
 - [ ] Kıbrıs 1489–1570 Venedik yerine Kıbrıs Krallığı rengi.
 
 ## 4. Veri alanı eksikleri
