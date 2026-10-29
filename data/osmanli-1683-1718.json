@@ -154,11 +154,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:belgrad"
+    "TDVIA:belgrad",
+    "TDVIA:avusturya"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -618,11 +619,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:elmas-mehmed-pasa"
+    "TDVIA:elmas-mehmed-pasa",
+    "TDVIA:lipova"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -832,11 +834,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:sehid-ali-pasa"
+    "TDVIA:sehid-ali-pasa",
+    "TDVIA:mora"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -904,11 +907,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:ahmed-iii"
+    "TDVIA:ahmed-iii",
+    "TDVIA:korfu"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

@@ -13,14 +13,14 @@ Son güncelleme: 2026-10-30
 | Anadolu Selçukluları | 72 | 25 |
 | Beylikler ve atabeylikler | 72 | 40 |
 | Gazneli ve Karahanlı | 37 | 13 |
-| Osmanlı kuruluş | 31 | 11 |
-| Osmanlı 1402–1481 | 46 | 11 |
+| Osmanlı kuruluş | 31 | 10 |
+| Osmanlı 1402–1481 | 46 | 8 |
 | Osmanlı 1481–1520 | 26 | 9 |
 | Osmanlı 1520–1566 | 30 | 5 |
 | Osmanlı 1566–1606 | 28 | 9 |
 | Osmanlı 1603–1640 | 23 | 8 |
 | Osmanlı 1640–1683 | 27 | 10 |
-| Osmanlı 1683–1718 | 27 | 10 |
+| Osmanlı 1683–1718 | 27 | 6 |
 | Osmanlı 1718–1774 | 34 | 7 |
 | Osmanlı 1774–1812 | 40 | 19 |
 | Osmanlı 1812–1839 | 31 | 7 |
@@ -32,6 +32,7 @@ Son güncelleme: 2026-10-30
 | Göktürk–Uygur 552–911 | 27 | 10 (3'i akademik kaynakla destekli) |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
+- [x] TDVİA'da otomatik ikinci madde taraması (2026-10-30, `tools/second_source_candidates.py`): 13 kayıt ikinci maddeye kavuştu; TDVİA bu açıdan büyük ölçüde tükendi.
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).
 
 ## 2. Kapsam eksikleri (henüz kayıt olmayan savaşlar)

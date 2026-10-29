@@ -981,11 +981,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-ii"
+    "TDVIA:mehmed-ii",
+    "TDVIA:iskender-bey"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1088,11 +1089,12 @@
    "status": "ihtilafli",
    "sources": [
     "TDVIA:mehmed-ii",
-    "AKD:heper-2023"
+    "AKD:heper-2023",
+    "TDVIA:eflak"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": true
@@ -1122,11 +1124,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:mehmed-ii"
+    "TDVIA:mehmed-ii",
+    "TDVIA:midilli"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

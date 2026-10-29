@@ -160,7 +160,8 @@ R = [
 
 OPP_STATE = {r[0]: KAR for r in R if r[13] == "turk_arasi"}
 # İkinci kaynak turu (2026-10-29)
-EXTRA_SRC = {"Edirne (1411)": ["TDVIA:mehmed-i"], "Bursa müdafaası (1413)": ["TDVIA:karamanogullari"], "Antalya müdafaası (1423)": ["TDVIA:karamanogullari"],
+EXTRA_SRC = {"Albulena": ["TDVIA:iskender-bey"], "Eflak seferi (1462)": ["TDVIA:eflak"], "Midilli'nin fethi": ["TDVIA:midilli"],  # kontrol turu
+             "Edirne (1411)": ["TDVIA:mehmed-i"], "Bursa müdafaası (1413)": ["TDVIA:karamanogullari"], "Antalya müdafaası (1423)": ["TDVIA:karamanogullari"],
              "Germe (Hexamilion, 1423)": ["TDVIA:mora"], "Niş (1443)": ["TDVIA:macaristan"], "Berat (1455)": ["TDVIA:berat--arnavutluk"],
              "Belgrad kuşatması (1456)": ["TDVIA:macaristan"], "Yayça (Jajce, 1463)": ["TDVIA:bosna-hersek", "TDVIA:macaristan"],
              "Eğriboz": ["TDVIA:egriboz"], "Karaman seferi (1474)": ["TDVIA:karamanogullari"], "Akdere (Vaslui, 1475)": ["TDVIA:bogdan"],

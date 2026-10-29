@@ -121,7 +121,8 @@ R = [
 ]
 
 # İkinci kaynak turu (2026-10-29)
-EXTRA_SRC = {"İzmit'in teslimi": ["TDVIA:izmit"], "Manastır": ["TDVIA:manastir--makedonya"], "Niş": ["TDVIA:nis"],
+EXTRA_SRC = {"Kulaca Hisar": ["TDVIA:osman-i"], "Savra (Muzakiye ovası)": ["TDVIA:arnavutluk"],  # kontrol turu
+             "İzmit'in teslimi": ["TDVIA:izmit"], "Manastır": ["TDVIA:manastir--makedonya"], "Niş": ["TDVIA:nis"],
              "Selânik'in teslimi": ["TDVIA:selanik"], "Bileća": ["TDVIA:bosna-hersek"], "Karacahisar": ["TDVIA:eskisehir"],
              "Akçay": ["TDVIA:alaeddin-bey--karamanogullari", "AKD:safakci-2023"],
              "Çorumlu (Kırkdilim)": ["AKD:derinoz-2022", "AKD:eroglu-sehzadeler"], "Argeş (Rovine)": ["AKD:heper-2023"]}

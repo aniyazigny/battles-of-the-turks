@@ -81,10 +81,11 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "ROM"
+    "ROM",
+    "TDVIA:osman-i"
    ],
    "verify": {
-    "tdvia": false,
+    "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": true,
@@ -699,11 +700,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:murad-i"
+    "TDVIA:murad-i",
+    "TDVIA:arnavutluk"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

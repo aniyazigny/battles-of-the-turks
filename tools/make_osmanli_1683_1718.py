@@ -88,7 +88,8 @@ R = [
 ]
 
 # İkinci kaynak turu (2026-10-29)
-EXTRA_SRC = {"Budin'in kaybı (1686)": ["TDVIA:suleyman-pasa-sari"], "Mohaç (1687)": ["TDVIA:suleyman-pasa-sari"],
+EXTRA_SRC = {"Belgrad'ın kaybı (1688)": ["TDVIA:avusturya"], "Lipova (1695)": ["TDVIA:lipova"], "Mora seferi (1715)": ["TDVIA:mora"], "Korfu (1716)": ["TDVIA:korfu"],  # kontrol turu
+             "Budin'in kaybı (1686)": ["TDVIA:suleyman-pasa-sari"], "Mohaç (1687)": ["TDVIA:suleyman-pasa-sari"],
              "Sakız'ın kaybı (1694)": ["TDVIA:mezemorta-huseyin-pasa", "TDVIA:ahmed-ii"], "Sakız (1695)": ["TDVIA:mezemorta-huseyin-pasa"],
              "Temeşvar'ın kaybı (1716)": ["TDVIA:timisvar"]}
 FIX = {"Budin'in kaybı (1686)": {"note": "Yetmiş sekiz günlük kuşatma sonunda genel hücumla alındı; 14 Ağustos'ta Sarı Süleyman Paşa'nın yardım hücumu yenilgiyle bitmişti. Son Budin beylerbeyi şehid düştü.",
