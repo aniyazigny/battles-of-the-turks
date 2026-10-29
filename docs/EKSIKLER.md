@@ -18,8 +18,8 @@ Son güncelleme: 2026-10-29
 | Osmanlı 1481–1520 | 25 | 9 |
 | Osmanlı 1520–1566 | 28 | 4 |
 | Osmanlı 1566–1606 | 26 | 8 |
-| Osmanlı 1603–1640 | 21 | 6 |
-| Osmanlı 1640–1683 | 20 | 10 |
+| Osmanlı 1603–1640 | 22 | 7 |
+| Osmanlı 1640–1683 | 22 | 6 |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).
@@ -37,7 +37,7 @@ Son güncelleme: 2026-10-29
 - [ ] **Osmanlı 1520–1566:** Seydi Ali Reis 1554, Gorjani ve Korfu 1537; Safevî seferleri 1548, 1553–55.
 - [ ] **Osmanlı 1566–1606:** Revan 1604; Kalugareni ve Yergöğü 1595 ayrı kayıt; diğer Celâlî çatışmaları (Cehennem deresi 1600 vb.).
 - [ ] **Osmanlı 1603–1640:** Kalenderoğlu–Tekeli Mehmed Paşa (Ankara); Halil Paşa'nın Erzurum kuşatması 1627; Selmas/Urmiye yılı (Canbolatoğulları maddesi 1604 der).
-- [ ] **Osmanlı 1640–1683:** Kandiye kuşatmasının ilk evreleri 1647–48; Para 1651 ve Değirmenlik deniz savaşları; Varvar Ali Paşa 1648 ve Abaza Hasan'ın Aksaray zaferi; Yeni Zerinvar 1664.
+- [ ] **Osmanlı 1640–1683:** Kandiye kuşatmasının ilk evreleri 1647–48; Para 1651 ve Foça 1649 deniz savaşları; Hotin'in geri alınışı 1674; Varvar Ali Paşa 1648 ve Abaza Hasan'ın Aksaray zaferi; Yeni Zerinvar 1664.
 - [ ] **Göktürkler ve Uygurlar:** hiç başlanmadı (Osmanlı bitince).
 
 ## 3. Harita eksikleri

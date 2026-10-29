@@ -745,6 +745,41 @@
   },
   {
    "id": 21,
+   "name_tr": "Azak'ın kaybı (1637)",
+   "name_en": "Loss of Azov (1637)",
+   "date": "1637",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Don Kazakları",
+   "place": "Azak",
+   "lat": 47.11,
+   "lon": 39.42,
+   "loc": "known",
+   "country": "Rusya",
+   "side_a": "Don Kazakları",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:azak"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1603-1640",
+   "note": "Kazaklar kaleyi ele geçirdi; 1642'ye kadar ellerinde kaldı.",
+   "note_en": "The Cossacks seized the fortress and held it until 1642."
+  },
+  {
+   "id": 22,
    "name_tr": "Bağdat'ın fethi (1638)",
    "name_en": "Siege of Baghdad (1638)",
    "date": "1638-12-24",

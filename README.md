@@ -33,8 +33,8 @@
 - `data/osmanli-1481-1520.json`: Osmanlı 1481–1520, 25 kayıt. Üretici: `tools/make_osmanli_1481_1520.py`.
 - `data/osmanli-1520-1566.json`: Osmanlı 1520–1566, 28 kayıt. Üretici: `tools/make_osmanli_1520_1566.py`.
 - `data/osmanli-1566-1606.json`: Osmanlı 1566–1606, 26 kayıt. Üretici: `tools/make_osmanli_1566_1606.py`.
-- `data/osmanli-1603-1640.json`: Osmanlı 1603–1640, 21 kayıt. Üretici: `tools/make_osmanli_1603_1640.py`.
-- `data/osmanli-1640-1683.json`: Osmanlı 1640–1683, 20 kayıt. Üretici: `tools/make_osmanli_1640_1683.py`.
+- `data/osmanli-1603-1640.json`: Osmanlı 1603–1640, 22 kayıt. Üretici: `tools/make_osmanli_1603_1640.py`.
+- `data/osmanli-1640-1683.json`: Osmanlı 1640–1683, 22 kayıt. Üretici: `tools/make_osmanli_1640_1683.py`.
 - `data/akademik-kaynaklar.json`: `AKD:` anahtarıyla atıf yapılan akademik yayınların künyeleri.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 

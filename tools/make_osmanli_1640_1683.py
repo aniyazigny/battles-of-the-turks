@@ -8,6 +8,9 @@ O = "Osmanlı Devleti"
 # (ad_tr, ad_en, tarih, harp, yer, lat, lon, loc, ülke, kazanan, kaybeden, türk_k, rakip_k, kategori, sonuç, statü,
 #  kaynaklar, ihtilaf, not_tr, not_en, tür)
 R = [
+("Azak kuşatması (1641)", "Siege of Azov (1641)", "1641-09", "Osmanlı–Don Kazakları", "Azak", 47.11, 39.42, "known", "Rusya",
+ "Don Kazakları", O, "Deli Hüseyin Paşa, Siyavuş Paşa", "", "dis", "L", "kesin",
+ ["TDVIA:azak"], "", "Üç ay süren kuşatma eylül sonunda sonuçsuz kaldırıldı.", "The three-month siege was lifted without result at the end of September.", "land"),
 ("Azak (1642)", "Recovery of Azov (1642)", "1642", "Osmanlı–Don Kazakları", "Azak", 47.11, 39.42, "known", "Rusya",
  O, "Don Kazakları", "Sultanzâde Mehmed Paşa, Kırım Hanı Mehmed Giray", "", "dis", "W", "borderline",
  ["TDVIA:ibrahim--padisah"], "", "Seferi haber alan Kazaklar kaleyi terk etti.", "The Cossacks abandoned the fortress on hearing of the campaign.", "land"),
@@ -20,6 +23,9 @@ R = [
 ("Çanakkale (1654)", "Battle of the Dardanelles (1654)", "1654", "Girit savaşı (1645–1669)", "Çanakkale Boğazı", 40.15, 26.40, "approx", "Türkiye",
  O, "Venedik", "Kara Murad Paşa", "", "dis", "W", "kesin",
  ["TDVIA:mehmed-iv"], "", "Boğaz Osmanlı gemilerine açıldı. Yıl maddedeki olay sırasından çıkarıldı.", "The Straits were reopened to Ottoman ships. The year is inferred from the article's sequence of events.", "sea"),
+("Değirmenlik (1654)", "Battle off Milos (1654)", "1654", "Girit savaşı (1645–1669)", "Değirmenlik (Milos) önleri", 36.70, 24.40, "approx", "Yunanistan",
+ O, "Venedik", "Kara Murad Paşa", "", "dis", "W", "borderline",
+ ["TDVIA:kara-murad-pasa", "TDVIA:mehmed-iv"], "", "Yenilenen Venedik donanması geri çekilmek zorunda kaldı.", "The reinforced Venetian fleet was forced to withdraw.", "sea"),
 ("Çanakkale (1656)", "Battle of the Dardanelles (1656)", "1656-06-26", "Girit savaşı (1645–1669)", "Çanakkale Boğazı", 40.08, 26.25, "approx", "Türkiye",
  "Venedik", O, "Kenan Paşa", "Lazzaro Mocenigo", "dis", "L", "kesin",
  ["TDVIA:mehmed-iv"], "", "Büyük hezimet İstanbul'u savunmasız bıraktı; Venedikliler Bozcaada, Limni ve Semadirek'i işgal etti.", "The heavy defeat left Istanbul exposed; Venice occupied Tenedos, Lemnos and Samothrace.", "sea"),
@@ -72,9 +78,21 @@ R = [
  ["TDVIA:merzifonlu-kara-mustafa-pasa"], "", "Ciğerdelen (Parkan) ve Estergon Avusturyalıların eline geçti.", "Párkány and Esztergom fell to the Austrians.", "land"),
 ]
 
+# İkinci kaynak turu (2026-10-29)
+EXTRA_SRC = {"Azak (1642)": ["TDVIA:azak"], "Çanakkale (1654)": ["TDVIA:kara-murad-pasa"], "Çanakkale (1656)": ["TDVIA:kenan-pasa"],
+             "Varad (1660)": ["TDVIA:koprulu-mehmed-pasa"], "Hotin (1673)": ["TDVIA:hotin"]}
+FIX = {"Çanakkale (1654)": {"note": "Altı saat süren deniz savaşı Osmanlı galibiyetiyle bitti; Boğaz Osmanlı gemilerine açıldı. Yıl maddelerdeki olay sırasından çıkarıldı (Murad Paşa Kasım 1653'te kaptan-ı deryâ oldu).",
+                            "note_en": "The six-hour sea battle ended in Ottoman victory and reopened the Straits. The year is inferred from the articles (Murad Pasha became admiral in November 1653)."},
+       "Çanakkale (1656)": {"note": "Bazı kaynaklarda ikinci bir İnebahtı hezimeti sayılır; Venedikliler Bozcaada, Limni ve Semadirek'i işgal etti.",
+                            "note_en": "Some sources call it a second Lepanto; Venice occupied Tenedos, Lemnos and Samothrace."},
+       "Hotin (1673)": {"status": "ihtilafli", "dispute": "Tarih: Fâzıl Ahmed Paşa maddesi 30 Receb 1084 / 10 Kasım 1673, Hotin maddesi 11 Kasım der.",
+                        "note": "Leh kuvvetleri Hotin'e girmiş, Sarı Hüseyin Paşa kaleyi geri almıştı; Osmanlı ordusu Sobieski karşısında yenildi.",
+                        "note_en": "Polish troops had entered Khotyn and Sarı Hüseyin Pasha had retaken it; the Ottoman army was then defeated by Sobieski.",
+                        "turkic_cmd": "Sarı Hüseyin Paşa"}}
+
 LEFT = [
  {"name": "Kandiye kuşatmasının ilk evreleri (1647–1648)", "reason": "Uzun kuşatma tek kayıtta (1669) toplandı.", "source": "TDVIA:ibrahim--padisah"},
- {"name": "Para (Paros) 1651 ve Değirmenlik (Milos) deniz savaşları", "reason": "Tarih ve sonuç TDVİA'da net değil.", "source": "TDVIA:mehmed-iv"},
+ {"name": "Para (Paros) 1651 ve Foça 1649 deniz savaşları", "reason": "Tarih ve sonuç TDVİA'da net değil.", "source": "TDVIA:mehmed-iv"},
  {"name": "Varvar Ali Paşa ve Abaza'nın Aksaray zaferi (1648, 1655)", "reason": "Celâlî çatışmaları; bu turda tarih ayrıntısı eksik.", "source": "TDVIA:ibrahim--padisah"},
  {"name": "Yeni Zerinvar (1664)", "reason": "Saint Gotthard maddesinde arka plan olarak geçer; ayrı kayıt açılmadı.", "source": "TDVIA:saint-gotthard-muharebesi"},
 ]
@@ -89,6 +107,9 @@ for i, r in enumerate(R, 1):
            "state": O, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    rec.update(FIX.get(ntr, {}))
+    rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
