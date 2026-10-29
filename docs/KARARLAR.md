@@ -151,3 +151,13 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Otuzbir Mart 1909 | Ordu içi çatışma → `ic`, borderline |
 | Tellülkebîr 1882 | Urâbî'nin Mısır ordusu; padişah desteklemedi → dışarıda |
 | Mısır 1882 sonrası haritada | Fiilî yöneten İngiltere gösterilir |
+
+## Kayıt kararları (Parti 18: Balkan Savaşları 1912–1913, 2026-10-30)
+| Kayıt | Karar |
+|---|---|
+| Selânik 1912, Edirne ve Yanya 1913, adaların işgali | Muharebesiz teslim ve çıkarma ile işgaller de yenilgi (`L`) sayıldı; Rodos 1912 örneğine uyuldu |
+| Edirne'nin geri alınışı 1913 | Mukavemet görülmedi → borderline; tarih 21 Temmuz (üç madde), Enver maddesindeki 22 Temmuz `dispute` |
+| Edirne 1913 savunması | Balkan Savaşı maddesindeki "Yanya'yı, Mehmed Şükrü Paşa'nın kahramanca savunmasına rağmen, Bulgarlar ... Edirne'yi" cümlesi Şükrü Paşa'ya Edirne savunmasını verir; Yanya maddesi Yanya'yı Esad Paşa'nın savunduğunu yazar |
+| Yenice-i Vardar 1912 | Madde 11 Kasım der; Batı literatürü 1–2 Kasım → tarih ay düzeyinde, `dispute` |
+| Edirne haritada | 26 Mart–21 Temmuz 1913 Bulgar işgali yıl çözünürlüğünde gösterilmez |
+| Bâbıâli Baskını | Hükümet darbesi; muharebe değil → dışarıda |
