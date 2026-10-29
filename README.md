@@ -25,6 +25,7 @@
 | [docs/15-osmanli-1718-1774.md](docs/15-osmanli-1718-1774.md) | Parti 13: Lâle Devri–Küçük Kaynarca (1718–1774) |
 | [docs/16-osmanli-1774-1812.md](docs/16-osmanli-1774-1812.md) | Parti 14: Küçük Kaynarca–Bükreş (1774–1812) |
 | [docs/17-osmanli-1812-1839.md](docs/17-osmanli-1812-1839.md) | Parti 15: II. Mahmud dönemi (1812–1839) |
+| [docs/18-osmanli-1839-1878.md](docs/18-osmanli-1839-1878.md) | Parti 16: Tanzimat'tan Berlin'e (1839–1878) |
 | [docs/06-dogrulama-turu.md](docs/06-dogrulama-turu.md) | Roma veri seti, akademik yayınlar ve Wikipedia ile doğrulama turu |
 
 ## Veri
@@ -43,6 +44,7 @@
 - `data/osmanli-1718-1774.json`: Osmanlı 1718–1774, 30 kayıt. Üretici: `tools/make_osmanli_1718_1774.py`.
 - `data/osmanli-1774-1812.json`: Osmanlı 1774–1812, 39 kayıt. Üretici: `tools/make_osmanli_1774_1812.py`.
 - `data/osmanli-1812-1839.json`: Osmanlı 1812–1839, 29 kayıt. Üretici: `tools/make_osmanli_1812_1839.py`.
+- `data/osmanli-1839-1878.json`: Osmanlı 1839–1878, 44 kayıt. Üretici: `tools/make_osmanli_1839_1878.py`.
 - `data/akademik-kaynaklar.json`: `AKD:` anahtarıyla atıf yapılan akademik yayınların künyeleri.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 
@@ -61,6 +63,6 @@
 3. ~~Pilot kayıtlarının ikinci kaynakla kontrolü~~ ✅ (13 kayıt Türk akademik literatürüyle kontrol bekliyor)
 4. Anadolu Selçukluları ✅ (46/64 kayıt iki maddeyle); beylikler ve atabeylikler ✅ ilk tur
 5. Karahanlı, Gazneli ✅ ilk tur; Göktürk, Uygur
-6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅, 1603–1640 ✅, 1640–1683 ✅, 1683–1718 ✅, 1718–1774 ✅, 1774–1812 ✅, 1812–1839 ✅
+6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅, 1603–1640 ✅, 1640–1683 ✅, 1683–1718 ✅, 1718–1774 ✅, 1774–1812 ✅, 1812–1839 ✅, 1839–1878 ✅ ilk tur
 7. Türkiye Cumhuriyeti
 8. Arayüz (harita, filtreler, tablolar, indirme seçenekleri)

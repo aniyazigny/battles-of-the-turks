@@ -24,6 +24,7 @@ Son güncelleme: 2026-10-29
 | Osmanlı 1718–1774 | 30 | 3 |
 | Osmanlı 1774–1812 | 39 | 19 |
 | Osmanlı 1812–1839 | 29 | 5 |
+| Osmanlı 1839–1878 | 44 | 19 |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).
@@ -47,6 +48,8 @@ Son güncelleme: 2026-10-29
 - [x] **Kapsam kararı:** Kırım Hanlığı savaşları → Osmanlı ordusuyla birlikte ya da padişah emriyle olanlar borderline (KARARLAR, 2026-10-29). Orkapı 1689, Lemberg 1695 ve 1736 istilâsı eklendi (borderline); 1737–38 eksik.
 - [ ] **Osmanlı 1774–1812:** Kalafat, Tendra ve Kelegra deniz savaşları; Sırp isyanının diğer savaşları (Belgrad 1806, Mişar, Deligrad, Çegar 1809); Bozcaada ve Aynaroz 1807, Arpaçay 1807; Rusçuk 1811 ve Slobozia; Vehhâbîlerin Tâif'i (Şubat 1803) ve Mekke'yi (30 Nisan 1803) alması (Mekke maddesi; Şerîf Gālib Osmanlı tâbiiyetinde olduğundan borderline adayı).
 - [ ] **Osmanlı 1812–1839:** Tripoliçe 1821, Dervenaki 1822, Atina 1826–27, Osmanlı–İran savaşı 1821–23, Bosna isyanı (Hüseyin Kapudan), Vehhâbî seferinin diğer savaşları. Humus 1832 eklendi (2026-10-29).
+- [ ] **Osmanlı 1839–1878:** Karadağ seferi 1852–53; Kafkas cephesi 1853–54 (Ahıska, Başgedikler, Kürekdere); Kars müdafaası 29 Eylül 1855; Arkadi 1866; Aleksinaç ve Cuniş 1876; Batum 1877–78; Vidin, Rusçuk ve Silistre direnişleri; Şeynova–Kazanlık ve Filibe 1878.
+- [ ] **Türkistan hanlıkları 1839–1880:** Hokand, Buhara ve Hîve'nin Rus işgaline karşı savaşları (Taşkent 1865, Semerkant 1868, Hîve 1873) Osmanlı tablosu dışında; kapsam kararı ve harita (Semerkant, Taşkent Rusya) bekliyor.
 - [ ] **Göktürkler ve Uygurlar:** hiç başlanmadı (Osmanlı bitince).
 
 ## 3. Harita eksikleri

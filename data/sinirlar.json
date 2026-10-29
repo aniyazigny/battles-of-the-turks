@@ -3,7 +3,7 @@
   "title": "Şehir bazlı hâkimiyet tablosu (harita sınırları için)",
   "compiled": "2026-10-28",
   "status": "Taslak. Sınırlar yaklaşıktır; kontrol bekliyor.",
-  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya.",
+  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya. 1840–1880: Suriye ve Girit 1840'ta Osmanlı'ya döndü; Romanya 1858; Belgrad 1867 Sırbistan; Berlin 1878: Bulgaristan, Bosna (Avusturya), Kars (Rusya), Kıbrıs (İngiltere), Niş (Sırbistan).",
   "spans": "[başlangıç, bitiş, devlet]: başlangıç dahil, bitiş hariç (ör. [1040, 1153, ...] 1040–1152 yılları).",
   "sources": "src alanı, el değiştirme tarihlerinin dayandığı TDVİA maddeleridir. 'yaklasik': true olan şehirlerin tarihleri kaba tahmindir ve kontrol edilecektir."
  },
@@ -679,6 +679,24 @@
    "en": "Muhammad Ali's Egypt",
    "group": "diger",
    "color": "#c8b07a"
+  },
+  "romanya": {
+   "tr": "Romanya",
+   "en": "Romania",
+   "group": "diger",
+   "color": "#b9a98e"
+  },
+  "bulgaristan": {
+   "tr": "Bulgaristan Prensliği",
+   "en": "Principality of Bulgaria",
+   "group": "diger",
+   "color": "#a9b98e"
+  },
+  "ingiltere": {
+   "tr": "İngiltere",
+   "en": "Britain",
+   "group": "diger",
+   "color": "#c4a0a0"
   }
  },
  "cities": [
@@ -740,7 +758,7 @@
     ],
     [
      1785,
-     1840,
+     1880,
      "ozbek"
     ]
    ],
@@ -809,7 +827,7 @@
     ],
     [
      1796,
-     1840,
+     1880,
      "kacar"
     ]
    ],
@@ -887,7 +905,7 @@
     ],
     [
      1796,
-     1840,
+     1880,
      "kacar"
     ]
    ],
@@ -960,7 +978,7 @@
     ],
     [
      1750,
-     1840,
+     1880,
      "durrani"
     ]
    ],
@@ -1017,7 +1035,7 @@
     ],
     [
      1750,
-     1840,
+     1880,
      "durrani"
     ]
    ],
@@ -1074,7 +1092,7 @@
     ],
     [
      1507,
-     1840,
+     1880,
      "ozbek"
     ]
    ],
@@ -1117,7 +1135,7 @@
     ],
     [
      1504,
-     1840,
+     1880,
      "babur"
     ]
    ],
@@ -1159,7 +1177,7 @@
     ],
     [
      1504,
-     1840,
+     1880,
      "babur"
     ]
    ],
@@ -1240,7 +1258,7 @@
     ],
     [
      1504,
-     1840,
+     1880,
      "babur"
     ]
    ],
@@ -1292,7 +1310,7 @@
     ],
     [
      1512,
-     1840,
+     1880,
      "hive"
     ]
    ],
@@ -1330,7 +1348,7 @@
     ],
     [
      1500,
-     1840,
+     1880,
      "ozbek"
     ]
    ],
@@ -1367,7 +1385,7 @@
     ],
     [
      1500,
-     1840,
+     1880,
      "ozbek"
     ]
    ],
@@ -1395,7 +1413,7 @@
     ],
     [
      1218,
-     1840,
+     1880,
      "cagatay"
     ]
    ],
@@ -1421,7 +1439,7 @@
     ],
     [
      1218,
-     1840,
+     1880,
      "cagatay"
     ]
    ],
@@ -1438,7 +1456,7 @@
    "spans": [
     [
      1000,
-     1840,
+     1880,
      "uygur"
     ]
    ],
@@ -1468,7 +1486,7 @@
     ],
     [
      1465,
-     1840,
+     1880,
      "kazak"
     ]
    ],
@@ -1498,7 +1516,7 @@
     ],
     [
      1552,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -1533,7 +1551,7 @@
     ],
     [
      1634,
-     1840,
+     1880,
      "kalmuk"
     ]
    ],
@@ -1568,7 +1586,7 @@
     ],
     [
      1783,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -1598,7 +1616,7 @@
     ],
     [
      1667,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -1663,7 +1681,7 @@
     ],
     [
      1794,
-     1840,
+     1880,
      "kacar"
     ]
    ],
@@ -1725,7 +1743,7 @@
     ],
     [
      1794,
-     1840,
+     1880,
      "kacar"
     ]
    ],
@@ -1802,7 +1820,7 @@
     ],
     [
      1794,
-     1840,
+     1880,
      "kacar"
     ]
    ],
@@ -1870,7 +1888,7 @@
     ],
     [
      1794,
-     1840,
+     1880,
      "kacar"
     ]
    ],
@@ -1948,7 +1966,7 @@
     ],
     [
      1794,
-     1840,
+     1880,
      "kacar"
     ]
    ],
@@ -2026,7 +2044,7 @@
     ],
     [
      1794,
-     1840,
+     1880,
      "kacar"
     ]
    ],
@@ -2103,7 +2121,7 @@
     ],
     [
      1794,
-     1840,
+     1880,
      "kacar"
     ]
    ],
@@ -2176,7 +2194,7 @@
     ],
     [
      1794,
-     1840,
+     1880,
      "kacar"
     ]
    ],
@@ -2248,7 +2266,7 @@
     ],
     [
      1546,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -2320,7 +2338,7 @@
     ],
     [
      1546,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -2412,7 +2430,7 @@
     ],
     [
      1638,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -2475,7 +2493,7 @@
     ],
     [
      1546,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -2538,7 +2556,7 @@
     ],
     [
      1517,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -2611,7 +2629,7 @@
     ],
     [
      1516,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -2679,7 +2697,7 @@
     ],
     [
      1516,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -2727,7 +2745,7 @@
     ],
     [
      1516,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -2774,7 +2792,7 @@
     ],
     [
      1516,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -2846,7 +2864,7 @@
     ],
     [
      1534,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -2916,7 +2934,7 @@
     ],
     [
      1534,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -2973,7 +2991,7 @@
     ],
     [
      1514,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3046,8 +3064,13 @@
     ],
     [
      1514,
-     1840,
+     1878,
      "osmanli"
+    ],
+    [
+     1878,
+     1880,
+     "rusya"
     ]
    ],
    "src": [
@@ -3144,7 +3167,7 @@
     ],
     [
      1804,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -3253,7 +3276,7 @@
     ],
     [
      1794,
-     1840,
+     1880,
      "kacar"
     ]
    ],
@@ -3300,7 +3323,7 @@
     ],
     [
      1805,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -3355,7 +3378,7 @@
     ],
     [
      1801,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -3372,7 +3395,7 @@
    "spans": [
     [
      1000,
-     1840,
+     1880,
      "gurcistan"
     ]
    ],
@@ -3398,7 +3421,7 @@
     ],
     [
      1461,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3447,7 +3470,7 @@
     ],
     [
      1408,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3497,7 +3520,7 @@
     ],
     [
      1402,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3552,7 +3575,7 @@
     ],
     [
      1515,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3604,7 +3627,7 @@
     ],
     [
      1516,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3644,7 +3667,7 @@
     ],
     [
      1468,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3686,7 +3709,7 @@
     ],
     [
      1331,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3742,7 +3765,7 @@
     ],
     [
      1425,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3792,7 +3815,7 @@
     ],
     [
      1425,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3834,6 +3857,11 @@
      1833,
      1840,
      "kavalali"
+    ],
+    [
+     1840,
+     1880,
+     "osmanli"
     ]
    ],
    "src": [],
@@ -3862,7 +3890,7 @@
     ],
     [
      1453,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3896,7 +3924,7 @@
     ],
     [
      1361,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3950,7 +3978,7 @@
     ],
     [
      1430,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -3979,7 +4007,7 @@
     ],
     [
      1833,
-     1840,
+     1880,
      "yunanistan"
     ]
    ],
@@ -4004,11 +4032,17 @@
     ],
     [
      1393,
-     1840,
+     1878,
      "osmanli"
+    ],
+    [
+     1878,
+     1880,
+     "bulgaristan"
     ]
    ],
-   "src": []
+   "src": [],
+   "yaklasik": true
   },
   {
    "id": "kibris",
@@ -4028,8 +4062,13 @@
     ],
     [
      1570,
-     1840,
+     1878,
      "osmanli"
+    ],
+    [
+     1878,
+     1880,
+     "ingiltere"
     ]
    ],
    "src": [],
@@ -4080,6 +4119,11 @@
      1832,
      1840,
      "kavalali"
+    ],
+    [
+     1840,
+     1880,
+     "osmanli"
     ]
    ],
    "src": [
@@ -4151,7 +4195,7 @@
     ],
     [
      1516,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -4220,6 +4264,11 @@
      1832,
      1840,
      "kavalali"
+    ],
+    [
+     1840,
+     1880,
+     "osmanli"
     ]
    ],
    "src": [
@@ -4284,6 +4333,11 @@
      1832,
      1840,
      "kavalali"
+    ],
+    [
+     1840,
+     1880,
+     "osmanli"
     ]
    ],
    "src": [
@@ -4328,6 +4382,11 @@
      1832,
      1840,
      "kavalali"
+    ],
+    [
+     1840,
+     1880,
+     "osmanli"
     ]
    ],
    "src": [
@@ -4370,6 +4429,11 @@
      1832,
      1840,
      "kavalali"
+    ],
+    [
+     1840,
+     1880,
+     "osmanli"
     ]
    ],
    "src": [],
@@ -4445,6 +4509,11 @@
      1832,
      1840,
      "kavalali"
+    ],
+    [
+     1840,
+     1880,
+     "osmanli"
     ]
    ],
    "src": [
@@ -4494,6 +4563,11 @@
      1832,
      1840,
      "kavalali"
+    ],
+    [
+     1840,
+     1880,
+     "osmanli"
     ]
    ],
    "src": [],
@@ -4537,7 +4611,7 @@
     ],
     [
      1801,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -4582,7 +4656,7 @@
     ],
     [
      1801,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -4602,7 +4676,7 @@
     ],
     [
      1517,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -4637,8 +4711,13 @@
     ],
     [
      1796,
-     1840,
+     1818,
      "suud"
+    ],
+    [
+     1818,
+     1880,
+     "osmanli"
     ]
    ],
    "src": [
@@ -4684,7 +4763,7 @@
     ],
     [
      1461,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -4736,7 +4815,7 @@
     ],
     [
      1402,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -4774,7 +4853,7 @@
     ],
     [
      1288,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -4797,7 +4876,7 @@
     ],
     [
      1299,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -4839,7 +4918,7 @@
     ],
     [
      1425,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -4881,7 +4960,7 @@
     ],
     [
      1425,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -4913,7 +4992,7 @@
     ],
     [
      1474,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -4970,7 +5049,7 @@
     ],
     [
      1515,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5032,7 +5111,7 @@
     ],
     [
      1515,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5079,7 +5158,7 @@
     ],
     [
      1461,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5112,7 +5191,7 @@
     ],
     [
      1471,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5134,7 +5213,7 @@
     ],
     [
      1326,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5156,7 +5235,7 @@
     ],
     [
      1337,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5182,7 +5261,7 @@
     ],
     [
      1345,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5219,7 +5298,7 @@
     ],
     [
      1425,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5256,7 +5335,7 @@
     ],
     [
      1425,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5288,7 +5367,7 @@
     ],
     [
      1381,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5320,7 +5399,7 @@
     ],
     [
      1376,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5348,7 +5427,7 @@
     ],
     [
      1364,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5375,8 +5454,13 @@
     ],
     [
      1385,
-     1840,
+     1878,
      "osmanli"
+    ],
+    [
+     1878,
+     1880,
+     "bulgaristan"
     ]
    ],
    "src": [
@@ -5402,7 +5486,7 @@
     ],
     [
      1392,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5429,7 +5513,7 @@
     ],
     [
      1385,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5456,8 +5540,13 @@
     ],
     [
      1386,
-     1840,
+     1878,
      "osmanli"
+    ],
+    [
+     1878,
+     1880,
+     "sirbistan"
     ]
    ],
    "src": [
@@ -5483,7 +5572,7 @@
     ],
     [
      1455,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5565,8 +5654,13 @@
     ],
     [
      1813,
-     1840,
+     1867,
      "osmanli"
+    ],
+    [
+     1867,
+     1880,
+     "sirbistan"
     ]
    ],
    "src": [],
@@ -5590,8 +5684,13 @@
     ],
     [
      1463,
-     1840,
+     1878,
      "osmanli"
+    ],
+    [
+     1878,
+     1880,
+     "habsburg"
     ]
    ],
    "src": [],
@@ -5615,7 +5714,7 @@
     ],
     [
      1417,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5647,7 +5746,7 @@
     ],
     [
      1686,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -5672,8 +5771,13 @@
     ],
     [
      1310,
-     1840,
+     1858,
      "eflak"
+    ],
+    [
+     1858,
+     1880,
+     "romanya"
     ]
    ],
    "src": [
@@ -5719,7 +5823,7 @@
     ],
     [
      1828,
-     1840,
+     1880,
      "yunanistan"
     ]
    ],
@@ -5759,7 +5863,7 @@
     ],
     [
      1830,
-     1840,
+     1880,
      "sirbistan"
     ]
    ],
@@ -5792,7 +5896,7 @@
     ],
     [
      1478,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5835,7 +5939,7 @@
     ],
     [
      1783,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -5867,7 +5971,7 @@
     ],
     [
      1783,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -5897,7 +6001,7 @@
     ],
     [
      1833,
-     1840,
+     1880,
      "yunanistan"
     ]
    ],
@@ -5924,7 +6028,7 @@
     ],
     [
      1522,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -5951,7 +6055,7 @@
     ],
     [
      1481,
-     1840,
+     1880,
      "napoli"
     ]
    ],
@@ -5985,6 +6089,11 @@
      1830,
      1840,
      "kavalali"
+    ],
+    [
+     1840,
+     1880,
+     "osmanli"
     ]
    ],
    "src": [],
@@ -6023,7 +6132,7 @@
     ],
     [
      1828,
-     1840,
+     1880,
      "yunanistan"
     ]
    ],
@@ -6058,7 +6167,7 @@
     ],
     [
      1522,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -6128,7 +6237,7 @@
     ],
     [
      1548,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -6143,7 +6252,7 @@
    "spans": [
     [
      1000,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -6163,7 +6272,7 @@
     ],
     [
      1526,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -6188,7 +6297,7 @@
     ],
     [
      1716,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -6223,7 +6332,7 @@
     ],
     [
      1683,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -6253,7 +6362,7 @@
     ],
     [
      1689,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -6278,7 +6387,7 @@
     ],
     [
      1830,
-     1840,
+     1880,
      "fransa"
     ]
    ],
@@ -6308,7 +6417,7 @@
     ],
     [
      1574,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -6338,7 +6447,7 @@
     ],
     [
      1551,
-     1840,
+     1880,
      "osmanli"
     ]
    ],
@@ -6358,7 +6467,7 @@
     ],
     [
      1530,
-     1840,
+     1880,
      "latin"
     ]
    ],
@@ -6373,7 +6482,7 @@
    "spans": [
     [
      1000,
-     1840,
+     1880,
      "ispanya"
     ]
    ],
@@ -6388,7 +6497,7 @@
    "spans": [
     [
      1000,
-     1840,
+     1880,
      "fas"
     ]
    ],
@@ -6403,7 +6512,7 @@
    "spans": [
     [
      1000,
-     1840,
+     1880,
      "fransa"
     ]
    ],
@@ -6433,7 +6542,7 @@
     ],
     [
      1598,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -6463,7 +6572,7 @@
     ],
     [
      1690,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -6493,7 +6602,7 @@
     ],
     [
      1687,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -6613,7 +6722,7 @@
     ],
     [
      1828,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -6648,7 +6757,7 @@
     ],
     [
      1829,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -6678,7 +6787,7 @@
     ],
     [
      1685,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -6708,7 +6817,7 @@
     ],
     [
      1692,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -6738,7 +6847,7 @@
     ],
     [
      1793,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -6758,7 +6867,7 @@
     ],
     [
      1772,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -6773,7 +6882,7 @@
    "spans": [
     [
      1000,
-     1840,
+     1880,
      "lehistan"
     ]
    ],
@@ -6798,7 +6907,7 @@
     ],
     [
      1556,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -6820,7 +6929,7 @@
     ],
     [
      1480,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -6847,7 +6956,7 @@
     ],
     [
      1582,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -6874,7 +6983,7 @@
     ],
     [
      1634,
-     1840,
+     1880,
      "kalmuk"
     ]
    ],
@@ -6916,7 +7025,7 @@
     ],
     [
      1736,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -6941,7 +7050,7 @@
     ],
     [
      1690,
-     1840,
+     1880,
      "habsburg"
     ]
    ],
@@ -7110,8 +7219,13 @@
     ],
     [
      1359,
-     1840,
+     1858,
      "bogdan"
+    ],
+    [
+     1858,
+     1880,
+     "romanya"
     ]
    ],
    "src": [
@@ -7147,7 +7261,7 @@
     ],
     [
      1812,
-     1840,
+     1880,
      "rusya"
     ]
    ],
@@ -7195,7 +7309,7 @@
     ],
     [
      1788,
-     1840,
+     1880,
      "rusya"
     ]
    ],

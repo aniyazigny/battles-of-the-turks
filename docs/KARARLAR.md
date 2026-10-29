@@ -129,4 +129,17 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 |---|---|
 | Mehmed Ali Paşa savaşları (1831–1839) | Osmanlı valisinin isyanı → `ic` |
 | Vehhâbî seferi | Mısır kuvvetleri Osmanlı tarafı; Dir‘iye Emirliği `dis` |
-| Kostantîne 1836–37 | Borderline (Ahmed Bey'in Osmanlı adına savaştığı açık değil) |
+| Kostantîne 1836–37 | İlk turda borderline; ikinci turda kesin (Kostantîne ve Abdülkādir el-Cezâirî maddeleri) |
+
+## Kayıt kararları (Parti 16: Osmanlı 1839–1878, 2026-10-29)
+| Kayıt | Karar |
+|---|---|
+| Suriye 1840 (Beyrut, Akkâ) | Mehmed Ali isyanının devamı → `ic`; kazanan taraf "Osmanlı Devleti, İngiltere ve Avusturya" |
+| Kırım Savaşı müttefik harekâtı (Sivastopol) | Osmanlı birlikleri katıldığı için kayıt; taraf "İngiltere, Fransa, Osmanlı Devleti ve Piyemonte" |
+| Sinop 1853 | Tek TDVİA maddesi "1854 başları" der; 30 Kasım 1853 tarihi kullanıldı, fark `dispute`'ta |
+| Girit, Hersek ve Sırp isyancıları, Karadağ | `dis` (önceki partilerle aynı) |
+| Asîr emîri Muhammed b. Âiz | Osmanlı kaymakamlığı verilmişti → `ic` |
+| Yemen (San‘a 1872) | Osmanlı'nın yeniden fethi → `dis` |
+| Ziştovi 1877, Edirne 1878 | Ciddi direniş yok → borderline |
+| Bosna 1878 | Berlin'den sonra; devlet savaşmadı → dışarıda |
+| Tarih takvimi | TDVİA'nın verdiği tarih kullanıldı (93 Harbi tarihlerinin bir kısmı Rumî/Jülyen olabilir); fark not edilmedi |

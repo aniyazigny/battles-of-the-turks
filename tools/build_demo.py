@@ -4,7 +4,7 @@ from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
 # (dosya, kimlik öneki) — yeni partiler buraya eklenir
-BATCHES = [("pilot-buyuk-selcuklu.json", "bs"), ("anadolu-selcuklu.json", "as"), ("beylikler-atabeylikler.json", "ba"), ("gazneli-karahanli.json", "gk"), ("osmanli-kurulus.json", "ok"), ("osmanli-1402-1481.json", "o2"), ("osmanli-1481-1520.json", "o3"), ("osmanli-1520-1566.json", "o4"), ("osmanli-1566-1606.json", "o5"), ("osmanli-1603-1640.json", "o6"), ("osmanli-1640-1683.json", "o7"), ("osmanli-1683-1718.json", "o8"), ("osmanli-1718-1774.json", "o9"), ("osmanli-1774-1812.json", "o10"), ("osmanli-1812-1839.json", "o11")]
+BATCHES = [("pilot-buyuk-selcuklu.json", "bs"), ("anadolu-selcuklu.json", "as"), ("beylikler-atabeylikler.json", "ba"), ("gazneli-karahanli.json", "gk"), ("osmanli-kurulus.json", "ok"), ("osmanli-1402-1481.json", "o2"), ("osmanli-1481-1520.json", "o3"), ("osmanli-1520-1566.json", "o4"), ("osmanli-1566-1606.json", "o5"), ("osmanli-1603-1640.json", "o6"), ("osmanli-1640-1683.json", "o7"), ("osmanli-1683-1718.json", "o8"), ("osmanli-1718-1774.json", "o9"), ("osmanli-1774-1812.json", "o10"), ("osmanli-1812-1839.json", "o11"), ("osmanli-1839-1878.json", "o12")]
 
 battles, left_out = [], []
 for name, prefix in BATCHES:
