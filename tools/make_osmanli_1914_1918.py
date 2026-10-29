@@ -110,14 +110,14 @@ R = [
  ["TDVIA:medine", "TDVIA:fahreddin-pasa"], "",
  "Şerîf Hüseyin ve dört oğlu 3 Haziran'da demiryolu ve telgraf hatlarını tahrip edip 5–6 Haziran'da Medine karakollarına saldırdı; Fahreddin Paşa saldırıyı püskürttü.",
  "Sharif Husayn and his four sons cut the railway and telegraph on 3 June and attacked Medina's outposts on 5–6 June; Fahreddin Pasha drove them off.", "land"),
+("Bi'riali (1916)", "Battle of Bir Ali (1916)", "1916-06-27", WA, "Bi'riali, el-İlâve ve Bi'rimâşî", 24.41, 39.54, "region", "Suudi Arabistan",
+ O, SH, "Fahreddin Paşa", "", "ic", "C", "kesin",
+ ["TDVIA:fahreddin-pasa"], "", "", "", "land"),
 ("Mekke (1916)", "Battle of Mecca (1916)", "1916-06", WA, "Mekke", 21.42, 39.83, "known", "Suudi Arabistan",
  SH, O, "", SH, "ic", "C", "kesin",
  ["TDVIA:mekke", "TDVIA:birinci-dunya-savasi"], "Mekke ve Birinci Dünya Savaşı maddeleri isyanı 27 Haziran 1916'ya, Medine ve Fahreddin Paşa maddeleri 3 Haziran 1916'ya koyar.",
  "Şerîf Hüseyin Cidde valisi ve diğer Osmanlı idarecilerinin faaliyetlerini engelleyip Mekke'ye hâkim oldu.",
  "Sharif Husayn thwarted the governor of Jeddah and the other Ottoman officials and took control of Mecca.", "land"),
-("Bi'riali (1916)", "Battle of Bir Ali (1916)", "1916-06-27", WA, "Bi'riali, el-İlâve ve Bi'rimâşî", 24.41, 39.54, "region", "Suudi Arabistan",
- O, SH, "Fahreddin Paşa", "", "ic", "C", "kesin",
- ["TDVIA:fahreddin-pasa"], "", "", "", "land"),
 ("İkinci Kanal Harekâtı (1916)", "Battle of Romani", "1916-07", WD, "Sina yarımadası", 31.00, 32.65, "approx", "Mısır",
  EN, O, "Cemal Paşa (Dördüncü Ordu)", "", "dis", "L", "kesin",
  ["TDVIA:cemal-pasa"], "", "İstenen sonuç alınamadı.", "The offensive failed.", "land"),
@@ -194,9 +194,48 @@ LEFT = [
     {"name": "Musul'un işgali (Kasım 1918) ve Medine'nin teslimi (1919)", "reason": "Mondros Mütarekesi'nden sonra.", "source": "TDVIA:musul--irak"},
 ]
 
+# İkinci kaynak turu.
+EXTRA_SRC = {
+    "Kerevizdere (1915)": ["TDVIA:cakmak-fevzi", "TDVIA:kazim-karabekir"],
+    "Mekke (1916)": ["TDVIA:serif-huseyin", "TDVIA:fahreddin-pasa"],
+    "Tâif (1916)": ["TDVIA:serif-huseyin", "TDVIA:fahreddin-pasa"],
+    "Kudüs (1917)": ["TDVIA:osmanlilar"],
+    "Bağdat (1917)": ["TDVIA:osmanlilar"],
+    "Kars (1918)": ["TDVIA:kars"],
+    "Şam (1918)": ["TDVIA:osmanlilar"],
+    "Halep (1918)": ["TDVIA:osmanlilar"],
+}
+FIX = {
+    "Kerevizdere (1915)": {"result": "W", "side_b": "Fransa",
+        "note": "Fevzi (Çakmak) Bey'in tümeni Kerevizdere ve Kanlıdere mevzilerini başarıyla savundu; Kâzım Karabekir maddesi burada Fransızlar'a karşı savaşıldığını yazar.",
+        "note_en": "Fevzi (Çakmak) Bey's division successfully held the Kereves Dere and Kanlıdere positions; the Kâzım Karabekir article says the fighting there was against the French."},
+    "Mekke (1916)": {"date": "1916-07-07",
+        "dispute": "Fahreddin Paşa maddesi âsilerin 9 Haziran'da genel saldırıya geçip 7 Temmuz'da Mekke'ye girdiğini yazar; Mekke ve Birinci Dünya Savaşı maddeleri isyanı 27 Haziran'a, Medine maddesi 3 Haziran'a koyar."},
+    "Tâif (1916)": {"dispute": "Tâif ve Şerîf Hüseyin maddeleri 17 Eylül, Fahreddin Paşa maddesi 22 Eylül 1916 der."},
+    "Kudüs (1917)": {"dispute": "Birinci Dünya Savaşı maddesi Allenby'nin 9 Aralık'ta Kudüs'e girdiğini, Osmanlılar maddesi şehrin 11 Aralık 1917'de düştüğünü yazar."},
+    "Kars (1918)": {"dispute": "Kâzım Karabekir maddesi 25 Nisan, Kars maddesi 23 Nisan 1918 der."},
+}
+NEW = {
+    "Medine (1916)": [
+        ("Cidde (1916)", "Battle of Jeddah (1916)", "1916-06-16", WA, "Cidde", 21.49, 39.19, "known", "Suudi Arabistan",
+         SH, O, "", "", "ic", "C", "kesin",
+         ["TDVIA:serif-huseyin", "TDVIA:fahreddin-pasa"], "", "Âsiler 9 Haziran'da genel saldırıya geçti; Fahreddin Paşa maddesi bunu Mekke Valisi Galib Paşa'nın tedbirsizliğine bağlar.",
+         "The rebels launched a general attack on 9 June; the Fahreddin Pasha article blames the carelessness of Galib Pasha, governor of Mecca.", "land"),
+    ],
+}
+RR = []
+for r in R:
+    RR.append(r)
+    RR.extend(NEW.get(r[0], []))
+
 recs = []
-for i, r in enumerate(R, 1):
+for i, r in enumerate(RR, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ) = r
+    src = src + [x for x in EXTRA_SRC.get(ntr, []) if x not in src]
+    fx = dict(FIX.get(ntr, {}))
+    disp, note, note_en = fx.pop("dispute", disp), fx.pop("note", note), fx.pop("note_en", note_en)
+    date, sb, res = fx.pop("date", date), fx.pop("side_b", sb), fx.pop("result", res)
+    assert not fx, (ntr, fx)
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,
@@ -209,7 +248,7 @@ for i, r in enumerate(R, 1):
 dates = [r["date"] + ("-15" if len(r["date"]) == 7 else "") for r in recs]
 assert dates == sorted(dates), [d for a, d in zip(dates, dates[1:]) if d < a]
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
-meta = {"batch": "Parti 19 — Osmanlı: Birinci Dünya Savaşı (1914–1918)", "compiled": "2026-10-30", "status": "İlk tur.",
+meta = {"batch": "Parti 19 — Osmanlı: Birinci Dünya Savaşı (1914–1918)", "compiled": "2026-10-30", "status": "İkinci kaynak turu yapıldı.",
         "conventions": pilot["meta"]["conventions"], "source_keys": pilot["meta"]["source_keys"], "decisions": pilot["meta"]["decisions"]}
 (root / "data" / "osmanli-1914-1918.json").write_text(json.dumps({"meta": meta, "battles": recs, "left_out": LEFT}, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(recs), "kayıt;", sum(r["verify"]["tdvia2"] for r in recs), "iki maddeli")

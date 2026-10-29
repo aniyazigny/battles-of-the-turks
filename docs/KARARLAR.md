@@ -167,7 +167,8 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 |---|---|
 | Şerîf Hüseyin isyanı (Medine, Mekke, Bi'riali, Tâif) | Mekke emîrinin isyanı; Müslüman vali/emîr isyanı kuralı → `ic`, sonuç `C` |
 | Arıburnu ve Seddülbahir çıkarmaları (25 Nisan 1915) | Çıkarma kuvvetleri kıyıda tutundu; Türk okumasıyla (P6) ilerleyiş durdurulduğu için `W`, `dispute` notuyla |
-| Kerevizdere ve Zığındere | Madde sonuç vermez → `D` |
+| Zığındere | Madde sonuç vermez → `D` |
+| Kerevizdere | İkinci turda Çakmak maddesi mevzilerin başarıyla savunulduğunu yazdığı için `W` |
 | Bitlis'in kurtarılışı 1916 | Madde yalnızca işgalin sona erdiğini yazar → borderline |
 | Ermeni kuvvetleri (1918) | Rus ordusu çekildikten sonra karşı taraf; `dis` |
 | Sarıkamış kayıpları | Enver Paşa maddesindeki 90.000 rakamı Sarıkamış Harekâtı maddesince düzeltilir → `dispute` |

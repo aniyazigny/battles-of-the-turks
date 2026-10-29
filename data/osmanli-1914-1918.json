@@ -2,7 +2,7 @@
  "meta": {
   "batch": "Parti 19 — Osmanlı: Birinci Dünya Savaşı (1914–1918)",
   "compiled": "2026-10-30",
-  "status": "İlk tur.",
+  "status": "İkinci kaynak turu yapıldı.",
   "conventions": {
    "winner_first": "side_a kazanan taraftır; result alanı Türk (Selçuklu) tarafının sonucudur: W kazandı, L kaybetti, D belirsiz/berabere, C iç savaş (skora girmez).",
    "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",
@@ -368,26 +368,28 @@
    "loc": "known",
    "country": "Türkiye",
    "side_a": "Osmanlı Devleti",
-   "side_b": "İngiltere ve Fransa",
+   "side_b": "Fransa",
    "turkic_cmd": "",
    "opp_cmd": "",
    "category": "dis",
-   "result": "D",
+   "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:canakkale-muharebeleri"
+    "TDVIA:canakkale-muharebeleri",
+    "TDVIA:cakmak-fevzi",
+    "TDVIA:kazim-karabekir"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918",
-   "note": "Siper savaşlarının en şiddetli çarpışmalarından biri; madde sonuç vermez.",
-   "note_en": "One of the fiercest clashes of the trench war; the article gives no outcome."
+   "note": "Fevzi (Çakmak) Bey'in tümeni Kerevizdere ve Kanlıdere mevzilerini başarıyla savundu; Kâzım Karabekir maddesi burada Fransızlar'a karşı savaşıldığını yazar.",
+   "note_en": "Fevzi (Çakmak) Bey's division successfully held the Kereves Dere and Kanlıdere positions; the Kâzım Karabekir article says the fighting there was against the French."
   },
   {
    "id": 11,
@@ -776,27 +778,27 @@
   },
   {
    "id": 22,
-   "name_tr": "Mekke (1916)",
-   "name_en": "Battle of Mecca (1916)",
-   "date": "1916-06",
+   "name_tr": "Cidde (1916)",
+   "name_en": "Battle of Jeddah (1916)",
+   "date": "1916-06-16",
    "hijri": "",
    "type": "land",
    "war": "Şerîf Hüseyin isyanı (1916–1918)",
-   "place": "Mekke",
-   "lat": 21.42,
-   "lon": 39.83,
+   "place": "Cidde",
+   "lat": 21.49,
+   "lon": 39.19,
    "loc": "known",
    "country": "Suudi Arabistan",
    "side_a": "Şerîf Hüseyin",
    "side_b": "Osmanlı Devleti",
    "turkic_cmd": "",
-   "opp_cmd": "Şerîf Hüseyin",
+   "opp_cmd": "",
    "category": "ic",
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:mekke",
-    "TDVIA:birinci-dunya-savasi"
+    "TDVIA:serif-huseyin",
+    "TDVIA:fahreddin-pasa"
    ],
    "verify": {
     "tdvia": true,
@@ -807,9 +809,8 @@
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918",
-   "dispute": "Mekke ve Birinci Dünya Savaşı maddeleri isyanı 27 Haziran 1916'ya, Medine ve Fahreddin Paşa maddeleri 3 Haziran 1916'ya koyar.",
-   "note": "Şerîf Hüseyin Cidde valisi ve diğer Osmanlı idarecilerinin faaliyetlerini engelleyip Mekke'ye hâkim oldu.",
-   "note_en": "Sharif Husayn thwarted the governor of Jeddah and the other Ottoman officials and took control of Mecca."
+   "note": "Âsiler 9 Haziran'da genel saldırıya geçti; Fahreddin Paşa maddesi bunu Mekke Valisi Galib Paşa'nın tedbirsizliğine bağlar.",
+   "note_en": "The rebels launched a general attack on 9 June; the Fahreddin Pasha article blames the carelessness of Galib Pasha, governor of Mecca."
   },
   {
    "id": 23,
@@ -846,6 +847,45 @@
   },
   {
    "id": 24,
+   "name_tr": "Mekke (1916)",
+   "name_en": "Battle of Mecca (1916)",
+   "date": "1916-07-07",
+   "hijri": "",
+   "type": "land",
+   "war": "Şerîf Hüseyin isyanı (1916–1918)",
+   "place": "Mekke",
+   "lat": 21.42,
+   "lon": 39.83,
+   "loc": "known",
+   "country": "Suudi Arabistan",
+   "side_a": "Şerîf Hüseyin",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "",
+   "opp_cmd": "Şerîf Hüseyin",
+   "category": "ic",
+   "result": "C",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mekke",
+    "TDVIA:birinci-dunya-savasi",
+    "TDVIA:serif-huseyin",
+    "TDVIA:fahreddin-pasa"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1914-1918",
+   "dispute": "Fahreddin Paşa maddesi âsilerin 9 Haziran'da genel saldırıya geçip 7 Temmuz'da Mekke'ye girdiğini yazar; Mekke ve Birinci Dünya Savaşı maddeleri isyanı 27 Haziran'a, Medine maddesi 3 Haziran'a koyar.",
+   "note": "Şerîf Hüseyin Cidde valisi ve diğer Osmanlı idarecilerinin faaliyetlerini engelleyip Mekke'ye hâkim oldu.",
+   "note_en": "Sharif Husayn thwarted the governor of Jeddah and the other Ottoman officials and took control of Mecca."
+  },
+  {
+   "id": 25,
    "name_tr": "İkinci Kanal Harekâtı (1916)",
    "name_en": "Battle of Romani",
    "date": "1916-07",
@@ -880,7 +920,7 @@
    "note_en": "The offensive failed."
   },
   {
-   "id": 25,
+   "id": 26,
    "name_tr": "Muş'un kurtarılışı (1916)",
    "name_en": "Ottoman recapture of Muş (1916)",
    "date": "1916-07-26",
@@ -915,7 +955,7 @@
    "note_en": "The town was finally freed from Russian occupation on 1 May 1917."
   },
   {
-   "id": 26,
+   "id": 27,
    "name_tr": "Bitlis'in kurtarılışı (1916)",
    "name_en": "Ottoman recapture of Bitlis (1916)",
    "date": "1916-08-08",
@@ -950,7 +990,7 @@
    "note_en": "The Bitlis article only says the Russian occupation ended on 8 August 1916; no fighting is described."
   },
   {
-   "id": 27,
+   "id": 28,
    "name_tr": "Tâif (1916)",
    "name_en": "Siege of Taif (1916)",
    "date": "1916-09-17",
@@ -970,20 +1010,23 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:taif"
+    "TDVIA:taif",
+    "TDVIA:serif-huseyin",
+    "TDVIA:fahreddin-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
-   "home_batch": "osmanli-1914-1918"
+   "home_batch": "osmanli-1914-1918",
+   "dispute": "Tâif ve Şerîf Hüseyin maddeleri 17 Eylül, Fahreddin Paşa maddesi 22 Eylül 1916 der."
   },
   {
-   "id": 28,
+   "id": 29,
    "name_tr": "Kûtülamâre (1917)",
    "name_en": "Second Battle of Kut",
    "date": "1917-02",
@@ -1016,7 +1059,7 @@
    "home_batch": "osmanli-1914-1918"
   },
   {
-   "id": 29,
+   "id": 30,
    "name_tr": "Bağdat (1917)",
    "name_en": "Fall of Baghdad (1917)",
    "date": "1917-03-11",
@@ -1037,7 +1080,8 @@
    "status": "kesin",
    "sources": [
     "TDVIA:birinci-dunya-savasi",
-    "TDVIA:musul--irak"
+    "TDVIA:musul--irak",
+    "TDVIA:osmanlilar"
    ],
    "verify": {
     "tdvia": true,
@@ -1050,7 +1094,7 @@
    "home_batch": "osmanli-1914-1918"
   },
   {
-   "id": 30,
+   "id": 31,
    "name_tr": "Gazze (1917)",
    "name_en": "Third Battle of Gaza",
    "date": "1917-10-31",
@@ -1086,7 +1130,7 @@
    "note_en": "Allenby attacked the Yıldırım Army Group on 31 October and took Gaza."
   },
   {
-   "id": 31,
+   "id": 32,
    "name_tr": "Kudüs (1917)",
    "name_en": "Fall of Jerusalem (1917)",
    "date": "1917-12-09",
@@ -1108,7 +1152,8 @@
    "sources": [
     "TDVIA:birinci-dunya-savasi",
     "TDVIA:kudus",
-    "TDVIA:gazze"
+    "TDVIA:gazze",
+    "TDVIA:osmanlilar"
    ],
    "verify": {
     "tdvia": true,
@@ -1119,11 +1164,12 @@
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918",
+   "dispute": "Birinci Dünya Savaşı maddesi Allenby'nin 9 Aralık'ta Kudüs'e girdiğini, Osmanlılar maddesi şehrin 11 Aralık 1917'de düştüğünü yazar.",
    "note": "Kudüs'teki yaklaşık dört asırlık Osmanlı yönetimi sona erdi.",
    "note_en": "Nearly four centuries of Ottoman rule in Jerusalem came to an end."
   },
   {
-   "id": 32,
+   "id": 33,
    "name_tr": "Erzurum'un kurtarılışı (1918)",
    "name_en": "Ottoman recapture of Erzurum (1918)",
    "date": "1918-03-12",
@@ -1159,7 +1205,7 @@
    "note_en": "After the Russian army left the front following the revolution, the city was taken back from Armenian forces."
   },
   {
-   "id": 33,
+   "id": 34,
    "name_tr": "Van'ın kurtarılışı (1918)",
    "name_en": "Ottoman recapture of Van (1918)",
    "date": "1918-04-02",
@@ -1192,7 +1238,7 @@
    "home_batch": "osmanli-1914-1918"
   },
   {
-   "id": 34,
+   "id": 35,
    "name_tr": "Tuzhurmatu (1918)",
    "name_en": "Battle of Tuz Khurmatu",
    "date": "1918-04",
@@ -1227,7 +1273,7 @@
    "note_en": "The routed Ottoman units fell back on Kirkuk."
   },
   {
-   "id": 35,
+   "id": 36,
    "name_tr": "Kars (1918)",
    "name_en": "Ottoman recapture of Kars (1918)",
    "date": "1918-04-25",
@@ -1247,22 +1293,24 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:kazim-karabekir"
+    "TDVIA:kazim-karabekir",
+    "TDVIA:kars"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918",
+   "dispute": "Kâzım Karabekir maddesi 25 Nisan, Kars maddesi 23 Nisan 1918 der.",
    "note": "Brest-Litovsk Antlaşması ile Ruslar'ın bıraktığı Elviye-i Selâse'yi almak için yürütülen harekât.",
    "note_en": "Part of the advance to take the three provinces (Kars, Ardahan, Batum) given up by Russia at Brest-Litovsk."
   },
   {
-   "id": 36,
+   "id": 37,
    "name_tr": "Gümrü (1918)",
    "name_en": "Ottoman capture of Alexandropol (1918)",
    "date": "1918-05-15",
@@ -1295,7 +1343,7 @@
    "home_batch": "osmanli-1914-1918"
   },
   {
-   "id": 37,
+   "id": 38,
    "name_tr": "Bakü (1918)",
    "name_en": "Battle of Baku",
    "date": "1918-09-15",
@@ -1331,7 +1379,7 @@
    "note_en": "According to the Azerbaijan article the Soviets had taken control of the city with Bolshevik and Armenian help in March 1918."
   },
   {
-   "id": 38,
+   "id": 39,
    "name_tr": "Şam (1918)",
    "name_en": "Capture of Damascus (1918)",
    "date": "1918-10-01",
@@ -1352,7 +1400,8 @@
    "status": "kesin",
    "sources": [
     "TDVIA:birinci-dunya-savasi",
-    "TDVIA:sam--suriye"
+    "TDVIA:sam--suriye",
+    "TDVIA:osmanlilar"
    ],
    "verify": {
     "tdvia": true,
@@ -1367,7 +1416,7 @@
    "note_en": "The Ottomans evacuated Syria; the city was taken by Australian units of the British army, and Faisal arrived on 3 October."
   },
   {
-   "id": 39,
+   "id": 40,
    "name_tr": "Halep (1918)",
    "name_en": "Capture of Aleppo (1918)",
    "date": "1918-10-27",
@@ -1387,11 +1436,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:halep"
+    "TDVIA:halep",
+    "TDVIA:osmanlilar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1402,7 +1452,7 @@
    "note_en": "Cemal Pasha gave up his failing defence and withdrew; the city was occupied first by Arab forces, then by the British."
   },
   {
-   "id": 40,
+   "id": 41,
    "name_tr": "Kerkük (1918)",
    "name_en": "British capture of Kirkuk (1918)",
    "date": "1918-10-28",
