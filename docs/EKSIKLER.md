@@ -69,7 +69,7 @@ Son güncelleme: 2026-10-30
 - [x] Doğu Türkistan ve Moğolistan: Moğolistan Hanlığı, Yarkent Hanlığı, Cungarlar, Çing ve Yâkub Beg dilimleri işlendi (2026-10-30, `tools/fix_borders_dogu_turkistan.py`; Yedisu ve Moğolistan dilimleri kaba).
 - [x] İran ve Irak 1405–1501 → `tools/fix_borders_iran_1405.py` (2026-10-29): Karakoyunlu Tebriz 1408, Irâk-ı Acem 1447–52, Kirman 1453; Akkoyunlu 1468–70'ten 1503'e; Celâyirli Bağdat 1405–1410; Horasan 1507–1510 Şeybânî; Van ve Revan'ın 1335 öncesi boş görünen dilimleri dolduruldu.
 - [x] Lahsâ 1253 sonrası Uyûnî görünüyordu → `tools/extend_borders_1812.py` (2026-10-29).
-- [ ] Lahsâ 1818 sonrası: Suûdîlerin bölgeyi geri aldığı yıl belirsiz (haritada Osmanlı).
+- [x] Lahsâ 1818–1913: Benî Hâlid, Suûdî (yaklaşık 1830–1841), 1871'den Osmanlı (2026-10-30, `tools/fix_borders_lahsa.py`; Faysal'ın Lahsâ'yı aldığı yıl maddede yok).
 - [x] Teselya 1881: Yenişehir noktası eklendi (2026-10-30, `tools/fix_borders_gaps_1.py`).
 - [x] Lahsâ'nın 1913'te İbn Suûd'a geçişi (2026-10-30, `tools/extend_borders_1923.py`).
 - [ ] Edirne'nin 1913 Bulgar işgali (yıl çözünürlüğünde görünmüyor). Kırkkilise noktası eklendi (2026-10-30).
