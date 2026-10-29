@@ -100,7 +100,8 @@ R = [
 ]
 
 # İkinci kaynak turu (2026-10-29)
-EXTRA_SRC = {"Azak (1642)": ["TDVIA:azak"], "Çanakkale (1654)": ["TDVIA:kara-murad-pasa"], "Çanakkale (1656)": ["TDVIA:kenan-pasa"],
+EXTRA_SRC = {"Isparta (1648)": ["TDVIA:isparta"], "Estergon (1683)": ["TDVIA:estergon"],  # kontrol turu
+             "Azak (1642)": ["TDVIA:azak"], "Çanakkale (1654)": ["TDVIA:kara-murad-pasa"], "Çanakkale (1656)": ["TDVIA:kenan-pasa"],
              "Varad (1660)": ["TDVIA:koprulu-mehmed-pasa"], "Hotin (1673)": ["TDVIA:hotin"]}
 FIX = {"Çanakkale (1654)": {"note": "Altı saat süren deniz savaşı Osmanlı galibiyetiyle bitti; Boğaz Osmanlı gemilerine açıldı. Yıl maddelerdeki olay sırasından çıkarıldı (Murad Paşa Kasım 1653'te kaptan-ı deryâ oldu).",
                             "note_en": "The six-hour sea battle ended in Ottoman victory and reopened the Straits. The year is inferred from the articles (Murad Pasha became admiral in November 1653)."},

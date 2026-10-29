@@ -261,18 +261,19 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:ahmed-i"
+    "TDVIA:ahmed-i",
+    "TDVIA:revan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1603-1640",
-   "note": "Öküz Mehmed Paşa bir İran ordusunu yenip Revan'ı kuşattıysa da muhasara topları olmadığı ve şiddetli direniş yüzünden orduyu Erzurum'a çekti; sefer başarısız oldu, paşa azledildi. (Kontrol turunda eklendi.)",
+   "note": "Öküz Mehmed Paşa bir İran ordusunu yenip Revan'ı kuşattıysa da muhasara topları olmadığı ve şiddetli direniş yüzünden orduyu Erzurum'a çekti; sefer başarısız oldu, paşa azledildi. Revan maddesine göre Emirgûne Han'ın savunduğu kale 29 Şâban 1025 (11 Eylül 1616) tarihinde kuşatıldı, elli beş gün sonra kuşatma kaldırıldı. (Kontrol turunda eklendi.)",
    "note_en": "Öküz Mehmed Pasha beat an Iranian army and besieged Erivan, but lacking siege guns and facing stiff resistance he withdrew to Erzurum; the campaign failed and he was dismissed."
   },
   {
@@ -441,11 +442,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:murad-iv"
+    "TDVIA:murad-iv",
+    "TDVIA:manisa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

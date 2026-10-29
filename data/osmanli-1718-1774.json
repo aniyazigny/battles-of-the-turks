@@ -46,11 +46,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:ahmed-iii"
+    "TDVIA:ahmed-iii",
+    "TDVIA:azerbaycan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

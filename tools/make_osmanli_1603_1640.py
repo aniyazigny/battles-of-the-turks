@@ -29,7 +29,7 @@ R = [
  ["TDVIA:kuyucu-murad-pasa", "TDVIA:kalenderoglu-mehmed"], "", "Kalenderoğlu İran'a kaçtı.", "Kalenderoğlu fled to Iran.", "land"),
 ("Revan (1616)", "Siege of Erivan (1616)", "1616", "Osmanlı–Safevî savaşı (1615–1618)", "Revan", 40.18, 44.51, "known", "Ermenistan",
  "Safevîler", O, "Öküz Mehmed Paşa", "", "dis", "L", "kesin",
- ["TDVIA:ahmed-i"], "", "Öküz Mehmed Paşa bir İran ordusunu yenip Revan'ı kuşattıysa da muhasara topları olmadığı ve şiddetli direniş yüzünden orduyu Erzurum'a çekti; sefer başarısız oldu, paşa azledildi. (Kontrol turunda eklendi.)",
+ ["TDVIA:ahmed-i"], "", "Öküz Mehmed Paşa bir İran ordusunu yenip Revan'ı kuşattıysa da muhasara topları olmadığı ve şiddetli direniş yüzünden orduyu Erzurum'a çekti; sefer başarısız oldu, paşa azledildi. Revan maddesine göre Emirgûne Han'ın savunduğu kale 29 Şâban 1025 (11 Eylül 1616) tarihinde kuşatıldı, elli beş gün sonra kuşatma kaldırıldı. (Kontrol turunda eklendi.)",
  "Öküz Mehmed Pasha beat an Iranian army and besieged Erivan, but lacking siege guns and facing stiff resistance he withdrew to Erzurum; the campaign failed and he was dismissed.", "land"),
 ("İran cephesi (1618)", "Battle of Serav (1618)", "1618-09-10", "Osmanlı–Safevî savaşı (1615–1618)", "Erdebil yolu (Serav yöresi)", 37.93, 47.54, "region", "İran",
  "Safevîler", O, "", "", "dis", "L", "borderline",
@@ -82,7 +82,8 @@ R = [
 ]
 
 # İkinci kaynak turu (2026-10-29)
-EXTRA_SRC = {"Peşte ve Vaç (1604)": ["TDVIA:lala-mehmed-pasa"], "Karasu (Kayseri) 1624": ["TDVIA:husrev-pasa", "TDVIA:hafiz-ahmed-pasa"],
+EXTRA_SRC = {"Revan (1616)": ["TDVIA:revan"], "Cennetoğlu (1625)": ["TDVIA:manisa"],  # kontrol turu
+             "Peşte ve Vaç (1604)": ["TDVIA:lala-mehmed-pasa"], "Karasu (Kayseri) 1624": ["TDVIA:husrev-pasa", "TDVIA:hafiz-ahmed-pasa"],
              "Mihriban (1630)": ["TDVIA:husrev-pasa"], "Bağdat kuşatması (1630)": ["TDVIA:husrev-pasa"], "Ahıska (1635)": ["TDVIA:ahiska"],
              "Bağdat kuşatması (1625–26)": ["TDVIA:husrev-pasa"], "Erzurum (1628)": ["TDVIA:husrev-pasa"]}
 FIX = {"Peşte ve Vaç (1604)": {"note": "Peşte, Hatvan ve Vaç geri alındı.", "note_en": "Pest, Hatvan and Vác were retaken."},

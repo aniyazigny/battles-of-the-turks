@@ -109,7 +109,8 @@ LEFT = [
 ]
 
 # İkinci kaynak turu
-EXTRA_SRC = {"Nihâvend (1726)": ["TDVIA:ahmed-pasa", "TDVIA:damad-ibrahim-pasa-nevsehirli"],
+EXTRA_SRC = {"İran seferi (1723–1725)": ["TDVIA:azerbaycan"],  # kontrol turu
+             "Nihâvend (1726)": ["TDVIA:ahmed-pasa", "TDVIA:damad-ibrahim-pasa-nevsehirli"],
  "Bağdat (1733)": ["TDVIA:bagdat", "TDVIA:topal-osman-pasa--sadrazam"],
  "Akderbend (1733)": ["TDVIA:topal-osman-pasa--sadrazam"],
  "Özü'nün kaybı (1737)": ["TDVIA:abdullah-pasa-muhsinzade"],

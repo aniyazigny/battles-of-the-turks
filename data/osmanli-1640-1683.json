@@ -260,11 +260,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:haydaroglu-mehmed"
+    "TDVIA:haydaroglu-mehmed",
+    "TDVIA:isparta"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -975,11 +976,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:merzifonlu-kara-mustafa-pasa"
+    "TDVIA:merzifonlu-kara-mustafa-pasa",
+    "TDVIA:estergon"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
