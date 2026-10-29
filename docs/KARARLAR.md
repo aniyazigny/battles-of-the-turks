@@ -88,3 +88,9 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 |---|---|---|
 | Güns 1532 | Osmanlı başarısı, ihtilaflı | Batı kaynakları: sembolik teslim |
 | Cerbe 1560 | Deniz savaşı ve kale kuşatması ayrı kayıt | — |
+
+## Kayıt kararları (Parti 9: Osmanlı 1566–1606, 2026-10-29)
+| Kayıt | Karar | Alternatif okuma |
+|---|---|---|
+| Kanije 1600 | 20 Ekim (Kanije maddesi) | Mehmed III maddesi: 22 Ekim |
+| Eflak seferi 1595 | Tek kayıt, borderline | Kalugareni ve Yergöğü ayrı savaşlar (Batı kaynakları) |
