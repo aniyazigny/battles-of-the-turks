@@ -77,4 +77,4 @@ Son güncelleme: 2026-10-30
 
 ## 4. Veri alanı eksikleri
 - [ ] Hicrî tarihler (`hijri`): 2026-10-30'da `tools/fill_hijri.py` ile 180 kayda kaynak maddelerden hicrî tarih işlendi (`data/hicri.json`; toplam ~263/749). Kalanlar için maddelerde miladîyle yan yana hicrî tarih yok; ikinci kaynak gerekiyor.
-- [ ] Koordinatlar: kayıtların çoğu yaklaşık (`loc` = approx/region); kontrol edilmeli.
+- [ ] Koordinatlar: kayıtların çoğu yaklaşık (`loc` = approx/region). 2026-10-30: `tools/check_coords.py` ile ülke tutarlılığı kontrol edildi (773 kayıt, 0 hata); yaklaşık noktaların daraltılması için kaynak gerekiyor.
