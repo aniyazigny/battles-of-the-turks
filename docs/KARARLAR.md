@@ -186,3 +186,16 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Antep savunması | Madde sonucu (teslim) açıkça yazmadığından dışarıda; ikinci kaynakla eklenecek |
 | Harita | TBMM Hükümeti 1920'den itibaren ayrı renk (yeşil); İstanbul ve Gelibolu 1922'ye kadar Osmanlı |
 | Lahsâ | 8 Temmuz 1913'te İbn Suûd'a geçti (Lahsâ maddesi) → harita düzeltildi |
+
+## Kayıt kararları (Parti 21: Göktürkler, Türgişler, Karluklar ve Uygurlar 552–911, 2026-10-30)
+| Kayıt | Karar |
+|---|---|
+| Kaynak | TDVİA'da Göktürk maddesi yok; olaylar Asya, Uygurlar, Dokuz Oğuzlar, Karluklar, Yabgu, Tohâristan, Talas Savaşı, Semerkant, Mâverâünnehir, Hazarlar, Kırgızlar, Turfan, Fergana ve Emevî valileri maddelerinden derlendi |
+| Kapsam | Göktürk (doğu ve batı), Türgiş, Karluk ve Uygur kağanlıkları ile 840 sonrası Kan-chou Uygurları; Hazar, Avar, Tuna Bulgar, Hun ve Akhun devletleri bu partiye alınmadı (ayrı kapsam kararı bekliyor) |
+| Akhunlar | TDVİA Akhunlar'ı Halaç Türkleri olarak anar → Akhun yıkılışı `turk_arasi` |
+| Oğuz, Tatar ve Bayırku savaşları | Kağanlığa bağlı boyların isyanı → `ic` |
+| Ozmış'ın yenilgisi 743, Basmıl 745, Uygur'un yıkılışı 840 | Türk toplulukları arası → `turk_arasi` |
+| Tiflis 627–629 | Batı Göktürk'e bağlı Hazarlar'ın Bizans müttefiki olarak yaptığı sefer → Batı Göktürk kaydı |
+| İkinci Göktürk'ün kuruluşu 682 | Tek bir muharebe adı yok → borderline |
+| Talas 751 | Karluklar'ın kaydı (Abbâsîlerle birlikte) |
+| Harita 550–1000 | Kaba katman (`tools/extend_borders_552.py`); bütün dilimler `yaklasik`; Ötüken noktası eklendi |

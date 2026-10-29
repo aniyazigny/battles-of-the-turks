@@ -29,6 +29,7 @@ Son güncelleme: 2026-10-29
 | Osmanlı 1912–1913 | 15 | 6 |
 | Osmanlı 1914–1918 | 41 | 18 |
 | Millî Mücadele 1919–1922 | 23 | 4 |
+| Göktürk–Uygur 552–911 | 26 | 12 |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).
@@ -58,10 +59,12 @@ Son güncelleme: 2026-10-29
 - [ ] **Osmanlı 1912–1913:** Hamidiye akınları; Elli ve Limni deniz muharebeleri; Şarköy ve Bolayır 1913; Priştine, Ohri, Pirlepe, Midilli, İmroz, Bozcaada işgalleri.
 - [ ] **Osmanlı 1878–1912:** Velestin ve Termopil 1897; Yemen isyanları 1891–97 ve 1902–04; Arnavut ve Malisör isyanları 1909–12; Derne ve Tobruk cephesi 1912; Girit 1897.
 - [ ] **Türkistan hanlıkları 1839–1880:** Hokand, Buhara ve Hîve'nin Rus işgaline karşı savaşları (Taşkent 1865, Semerkant 1868, Hîve 1873) Osmanlı tablosu dışında; kapsam kararı ve harita (Semerkant, Taşkent Rusya) bekliyor.
-- [ ] **Göktürkler ve Uygurlar:** hiç başlanmadı (Osmanlı bitince).
+- [x] **Göktürkler ve Uygurlar:** Parti 21 ilk tur (2026-10-30, 26 kayıt).
+- [ ] **Göktürk–Uygur eksikleri:** Kırgız seferi 710 (Kögmen), Sâsânî–Göktürk savaşları 569–571 ve 588–589, Kapgan'ın Semerkant müdahalesi 701, Karluk isyanları 711–714, Beşbalık 791, Uygur–Tibet savaşları, Uygur–Kırgız savaşları 821 sonrası; Orhon yazıtları için akademik kaynak (Erhan Aydın, Ahmet Taşağıl).
+- [ ] **Kapsam kararı bekleyen erken devletler:** Asya Hunları, Avrupa Hunları, Akhunlar, Avarlar, Hazarlar, Tuna Bulgarları, Peçenekler, İdil Bulgarları, Kırgızlar.
 
 ## 3. Harita eksikleri
-- [ ] Sınır tablosu 1000'de başlıyor: 893 ve 990 savaşlarında sınır boş (Sâmânîler, Hindûşâhîler ile 900'e uzatılmalı).
+- [x] Sınır tablosu 1000 öncesine uzatıldı (2026-10-30, `tools/extend_borders_552.py`; kaba katman, Hindistan noktaları hâlâ boş).
 - [x] Altın Orda 1502'den sonra da görünüyordu → `tools/fix_borders_altinorda.py` (2026-10-29): Kazan 1437–1552, Astarhan 1466–1556, Nogay 1502–1634, Kırım bozkırı, Hîve 1512–, Sibir 1490–1582, Kazak Hanlığı 1465–; Rusya, Kiev (Lehistan-Litvanya 1362–1667, Rusya 1667–), Kalmuklar 1634–.
 - [ ] Doğu Türkistan ve Moğolistan: Çağatay Hanlığı ve Koço Uygurları 1690'a kadar aynı görünüyor (Yarkent/Kaşgar hanlığı, Cungarlar işlenmedi).
 - [x] İran ve Irak 1405–1501 → `tools/fix_borders_iran_1405.py` (2026-10-29): Karakoyunlu Tebriz 1408, Irâk-ı Acem 1447–52, Kirman 1453; Akkoyunlu 1468–70'ten 1503'e; Celâyirli Bağdat 1405–1410; Horasan 1507–1510 Şeybânî; Van ve Revan'ın 1335 öncesi boş görünen dilimleri dolduruldu.

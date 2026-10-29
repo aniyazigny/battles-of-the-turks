@@ -3,7 +3,7 @@
   "title": "Şehir bazlı hâkimiyet tablosu (harita sınırları için)",
   "compiled": "2026-10-28",
   "status": "Taslak. Sınırlar yaklaşıktır; kontrol bekliyor.",
-  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya. 1840–1880: Suriye ve Girit 1840'ta Osmanlı'ya döndü; Romanya 1858; Belgrad 1867 Sırbistan; Berlin 1878: Bulgaristan, Bosna (Avusturya), Kars (Rusya), Kıbrıs (İngiltere), Niş (Sırbistan). 1880–1913: Tunus 1881 Fransa; Mısır 1882 İngiliz işgali; Doğu Rumeli 1885 Bulgaristan; Girit 1898 özerk; Trablusgarp 1911 ve Rodos 1912 İtalya. 1913–1914: Balkan Savaşları — Selânik, Yanya, Midilli, Sakız, Girit Yunanistan; Üsküp, Manastır, Priştine Sırbistan; Avlonya, Kruya, İşkodra Arnavutluk. 1914–1919: Birinci Dünya Savaşı — Basra 1914, Bağdat ve Kudüs 1917, Şam, Halep, Trablusşam 1918; Mekke 1916 Hâşimî; Erzurum, Trabzon, Van Rus işgali ve 1918'de geri alınış; Kafkas cumhuriyetleri 1918. 1919–1923: Millî Mücadele — TBMM Hükümeti 1920; Yunan, Fransız ve Ermeni işgalleri ve kurtuluşlar; Lahsâ 1913 Suûdî.",
+  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya. 1840–1880: Suriye ve Girit 1840'ta Osmanlı'ya döndü; Romanya 1858; Belgrad 1867 Sırbistan; Berlin 1878: Bulgaristan, Bosna (Avusturya), Kars (Rusya), Kıbrıs (İngiltere), Niş (Sırbistan). 1880–1913: Tunus 1881 Fransa; Mısır 1882 İngiliz işgali; Doğu Rumeli 1885 Bulgaristan; Girit 1898 özerk; Trablusgarp 1911 ve Rodos 1912 İtalya. 1913–1914: Balkan Savaşları — Selânik, Yanya, Midilli, Sakız, Girit Yunanistan; Üsküp, Manastır, Priştine Sırbistan; Avlonya, Kruya, İşkodra Arnavutluk. 1914–1919: Birinci Dünya Savaşı — Basra 1914, Bağdat ve Kudüs 1917, Şam, Halep, Trablusşam 1918; Mekke 1916 Hâşimî; Erzurum, Trabzon, Van Rus işgali ve 1918'de geri alınış; Kafkas cumhuriyetleri 1918. 1919–1923: Millî Mücadele — TBMM Hükümeti 1920; Yunan, Fransız ve Ermeni işgalleri ve kurtuluşlar; Lahsâ 1913 Suûdî. 550–1000 (kaba katman): Göktürk, Batı Göktürk, Türgiş, Karluk, Uygur, Kırgız, Hazar, Akhun, Sâsânî, Emevî, Abbâsî, Sâmânî, Saffârî, Büveyhî, Hamdânî, Fâtımî, Tuna Bulgar ve Bizans dilimleri; Ötüken noktası eklendi.",
   "spans": "[başlangıç, bitiş, devlet]: başlangıç dahil, bitiş hariç (ör. [1040, 1153, ...] 1040–1152 yılları).",
   "sources": "src alanı, el değiştirme tarihlerinin dayandığı TDVİA maddeleridir. 'yaklasik': true olan şehirlerin tarihleri kaba tahmindir ve kontrol edilecektir."
  },
@@ -739,6 +739,138 @@
    "en": "Government of the Grand National Assembly",
    "group": "turk",
    "color": "#2f9e6e"
+  },
+  "gokturk": {
+   "tr": "Göktürk Kağanlığı",
+   "en": "Göktürk Khaganate",
+   "group": "turk",
+   "color": "#3d6fb0"
+  },
+  "bati-gokturk": {
+   "tr": "Batı Göktürk Kağanlığı",
+   "en": "Western Turkic Khaganate",
+   "group": "turk",
+   "color": "#5a86c2"
+  },
+  "turgis": {
+   "tr": "Türgiş Kağanlığı",
+   "en": "Türgesh Khaganate",
+   "group": "turk",
+   "color": "#7a9cc9"
+  },
+  "karluk": {
+   "tr": "Karluk Yabguluğu",
+   "en": "Karluk Yabghu",
+   "group": "turk",
+   "color": "#6d8fa8"
+  },
+  "uygur-kag": {
+   "tr": "Uygur Kağanlığı",
+   "en": "Uyghur Khaganate",
+   "group": "turk",
+   "color": "#4f9a94"
+  },
+  "kirgiz": {
+   "tr": "Kırgız Kağanlığı",
+   "en": "Yenisei Kyrgyz Khaganate",
+   "group": "turk-diger",
+   "color": "#8a9a6a"
+  },
+  "akhun": {
+   "tr": "Akhunlar (Eftalitler)",
+   "en": "Hephthalites",
+   "group": "turk-diger",
+   "color": "#a58f6b"
+  },
+  "hazar": {
+   "tr": "Hazar Kağanlığı",
+   "en": "Khazar Khaganate",
+   "group": "turk-diger",
+   "color": "#9b8a62"
+  },
+  "bulgar1": {
+   "tr": "Tuna Bulgar Devleti",
+   "en": "First Bulgarian Empire",
+   "group": "turk-diger",
+   "color": "#a29a76"
+  },
+  "turk-sahi": {
+   "tr": "Kâbil ve Zâbulistan Türk Şâhîleri",
+   "en": "Turk Shahis",
+   "group": "turk-diger",
+   "color": "#a88a6a"
+  },
+  "juan-juan": {
+   "tr": "Juan-juanlar",
+   "en": "Rouran Khaganate",
+   "group": "diger",
+   "color": "#a4a4a4"
+  },
+  "sogd": {
+   "tr": "Soğd şehir devletleri",
+   "en": "Sogdian city-states",
+   "group": "diger",
+   "color": "#b6aa8c"
+  },
+  "tang": {
+   "tr": "Çin (T'ang)",
+   "en": "Tang China",
+   "group": "diger",
+   "color": "#c49a8a"
+  },
+  "kitan": {
+   "tr": "Kıtaylar (Liao)",
+   "en": "Khitan Liao",
+   "group": "diger",
+   "color": "#a3a0b8"
+  },
+  "sasani": {
+   "tr": "Sâsânîler",
+   "en": "Sasanian Empire",
+   "group": "diger",
+   "color": "#b59f7a"
+  },
+  "rasidun": {
+   "tr": "Hulefâ-yi Râşidîn",
+   "en": "Rashidun Caliphate",
+   "group": "diger",
+   "color": "#7d9a72"
+  },
+  "emevi": {
+   "tr": "Emevîler",
+   "en": "Umayyads",
+   "group": "diger",
+   "color": "#869e78"
+  },
+  "samani": {
+   "tr": "Sâmânîler",
+   "en": "Samanids",
+   "group": "diger",
+   "color": "#9fae86"
+  },
+  "saffari": {
+   "tr": "Saffârîler",
+   "en": "Saffarids",
+   "group": "diger",
+   "color": "#b1a07e"
+  },
+  "hamdani": {
+   "tr": "Hamdânîler",
+   "en": "Hamdanids",
+   "group": "diger",
+   "color": "#a0aa8e"
+  },
+  "avar": {
+   "tr": "Avar Kağanlığı",
+   "en": "Avar Khaganate",
+   "group": "diger",
+   "color": "#a89a86"
+  },
+  "mogolistan": {
+   "tr": "Moğol boyları / Moğolistan",
+   "en": "Mongolian steppe",
+   "group": "diger",
+   "color": "#9a9fb0"
   }
  },
  "cities": [
@@ -748,6 +880,26 @@
    "lat": 37.6,
    "lon": 61.83,
    "spans": [
+    [
+     550,
+     651,
+     "sasani"
+    ],
+    [
+     651,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     900,
+     "abbasi"
+    ],
+    [
+     900,
+     1000,
+     "samani"
+    ],
     [
      1000,
      1037,
@@ -818,6 +970,26 @@
    "lon": 61.16,
    "spans": [
     [
+     550,
+     651,
+     "sasani"
+    ],
+    [
+     651,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     900,
+     "abbasi"
+    ],
+    [
+     900,
+     1000,
+     "samani"
+    ],
+    [
      1000,
      1038,
      "gazneli"
@@ -885,6 +1057,31 @@
    "lat": 36.21,
    "lon": 58.8,
    "spans": [
+    [
+     550,
+     651,
+     "sasani"
+    ],
+    [
+     651,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     873,
+     "abbasi"
+    ],
+    [
+     873,
+     900,
+     "saffari"
+    ],
+    [
+     900,
+     1000,
+     "samani"
+    ],
     [
      1000,
      1038,
@@ -964,6 +1161,31 @@
    "lon": 62.2,
    "spans": [
     [
+     550,
+     651,
+     "sasani"
+    ],
+    [
+     651,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     870,
+     "abbasi"
+    ],
+    [
+     870,
+     900,
+     "saffari"
+    ],
+    [
+     900,
+     1000,
+     "samani"
+    ],
+    [
      1000,
      1040,
      "gazneli"
@@ -1036,6 +1258,26 @@
    "lon": 61.86,
    "spans": [
     [
+     550,
+     651,
+     "sasani"
+    ],
+    [
+     651,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     861,
+     "abbasi"
+    ],
+    [
+     861,
+     1000,
+     "saffari"
+    ],
+    [
      1000,
      1041,
      "gazneli"
@@ -1092,6 +1334,31 @@
    "lat": 36.76,
    "lon": 66.9,
    "spans": [
+    [
+     550,
+     557,
+     "akhun"
+    ],
+    [
+     557,
+     705,
+     "bati-gokturk"
+    ],
+    [
+     705,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     900,
+     "abbasi"
+    ],
+    [
+     900,
+     1000,
+     "samani"
+    ],
     [
      1000,
      1043,
@@ -1151,6 +1418,21 @@
    "lon": 68.42,
    "spans": [
     [
+     550,
+     870,
+     "turk-sahi"
+    ],
+    [
+     870,
+     962,
+     "saffari"
+    ],
+    [
+     962,
+     1000,
+     "gazneli"
+    ],
+    [
      1000,
      1163,
      "gazneli"
@@ -1192,6 +1474,21 @@
    "lat": 31.6,
    "lon": 64.36,
    "spans": [
+    [
+     550,
+     870,
+     "turk-sahi"
+    ],
+    [
+     870,
+     977,
+     "saffari"
+    ],
+    [
+     977,
+     1000,
+     "gazneli"
+    ],
     [
      1000,
      1150,
@@ -1316,6 +1613,26 @@
    "lon": 59.15,
    "spans": [
     [
+     550,
+     712,
+     "sasani"
+    ],
+    [
+     712,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     900,
+     "abbasi"
+    ],
+    [
+     900,
+     1000,
+     "samani"
+    ],
+    [
      1000,
      1041,
      "gazneli"
@@ -1369,6 +1686,36 @@
    "lon": 64.42,
    "spans": [
     [
+     550,
+     557,
+     "akhun"
+    ],
+    [
+     557,
+     659,
+     "bati-gokturk"
+    ],
+    [
+     659,
+     709,
+     "sogd"
+    ],
+    [
+     709,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     900,
+     "abbasi"
+    ],
+    [
+     900,
+     1000,
+     "samani"
+    ],
+    [
      1000,
      1210,
      "karahanli"
@@ -1405,6 +1752,36 @@
    "lat": 39.65,
    "lon": 66.96,
    "spans": [
+    [
+     550,
+     557,
+     "akhun"
+    ],
+    [
+     557,
+     659,
+     "bati-gokturk"
+    ],
+    [
+     659,
+     712,
+     "sogd"
+    ],
+    [
+     712,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     900,
+     "abbasi"
+    ],
+    [
+     900,
+     1000,
+     "samani"
+    ],
     [
      1000,
      1212,
@@ -1444,6 +1821,26 @@
    "lon": 75.99,
    "spans": [
     [
+     552,
+     659,
+     "bati-gokturk"
+    ],
+    [
+     659,
+     790,
+     "tang"
+    ],
+    [
+     790,
+     840,
+     "karluk"
+    ],
+    [
+     840,
+     1000,
+     "karahanli"
+    ],
+    [
      1000,
      1211,
      "karahanli"
@@ -1461,7 +1858,8 @@
    ],
    "src": [
     "karahanlilar"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "balasagun",
@@ -1469,6 +1867,31 @@
    "lat": 42.75,
    "lon": 75.2,
    "spans": [
+    [
+     552,
+     659,
+     "bati-gokturk"
+    ],
+    [
+     659,
+     704,
+     "tang"
+    ],
+    [
+     704,
+     766,
+     "turgis"
+    ],
+    [
+     766,
+     840,
+     "karluk"
+    ],
+    [
+     840,
+     1000,
+     "karahanli"
+    ],
     [
      1000,
      1134,
@@ -1488,7 +1911,8 @@
    "src": [
     "karahanlilar",
     "karahitaylar"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "koco",
@@ -1496,6 +1920,26 @@
    "lat": 42.85,
    "lon": 89.53,
    "spans": [
+    [
+     552,
+     640,
+     "gokturk"
+    ],
+    [
+     640,
+     790,
+     "tang"
+    ],
+    [
+     790,
+     840,
+     "uygur-kag"
+    ],
+    [
+     840,
+     1000,
+     "uygur"
+    ],
     [
      1000,
      1923,
@@ -1511,6 +1955,21 @@
    "lat": 45.5,
    "lon": 62.0,
    "spans": [
+    [
+     552,
+     659,
+     "bati-gokturk"
+    ],
+    [
+     659,
+     750,
+     "turgis"
+    ],
+    [
+     750,
+     1000,
+     "oguz"
+    ],
     [
      1000,
      1050,
@@ -1542,6 +2001,21 @@
    "lon": 49.05,
    "spans": [
     [
+     552,
+     630,
+     "bati-gokturk"
+    ],
+    [
+     630,
+     922,
+     "hazar"
+    ],
+    [
+     922,
+     1000,
+     "bulgar"
+    ],
+    [
      1000,
      1236,
      "bulgar"
@@ -1571,6 +2045,21 @@
    "lat": 48.0,
    "lon": 46.0,
    "spans": [
+    [
+     552,
+     630,
+     "bati-gokturk"
+    ],
+    [
+     630,
+     965,
+     "hazar"
+    ],
+    [
+     965,
+     1000,
+     "oguz"
+    ],
     [
      1000,
      1050,
@@ -1607,6 +2096,21 @@
    "lon": 34.0,
    "spans": [
     [
+     552,
+     630,
+     "bati-gokturk"
+    ],
+    [
+     630,
+     889,
+     "hazar"
+    ],
+    [
+     889,
+     1000,
+     "pecenek"
+    ],
+    [
      1000,
      1091,
      "pecenek"
@@ -1642,6 +2146,16 @@
    "lon": 30.52,
    "spans": [
     [
+     750,
+     882,
+     "hazar"
+    ],
+    [
+     882,
+     1000,
+     "kiev"
+    ],
+    [
      1000,
      1240,
      "kiev"
@@ -1671,6 +2185,26 @@
    "lat": 36.84,
    "lon": 54.43,
    "spans": [
+    [
+     550,
+     651,
+     "sasani"
+    ],
+    [
+     651,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     931,
+     "abbasi"
+    ],
+    [
+     931,
+     1000,
+     "ziyari"
+    ],
     [
      1000,
      1043,
@@ -1739,6 +2273,26 @@
    "lon": 52.35,
    "spans": [
     [
+     550,
+     651,
+     "sasani"
+    ],
+    [
+     651,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     931,
+     "abbasi"
+    ],
+    [
+     931,
+     1000,
+     "ziyari"
+    ],
+    [
      1000,
      1043,
      "ziyari"
@@ -1800,6 +2354,26 @@
    "lat": 35.59,
    "lon": 51.44,
    "spans": [
+    [
+     550,
+     641,
+     "sasani"
+    ],
+    [
+     641,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     943,
+     "abbasi"
+    ],
+    [
+     943,
+     1000,
+     "buveyhi"
+    ],
     [
      1000,
      1042,
@@ -1947,6 +2521,26 @@
    "lon": 48.51,
    "spans": [
     [
+     550,
+     642,
+     "sasani"
+    ],
+    [
+     642,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     945,
+     "abbasi"
+    ],
+    [
+     945,
+     1000,
+     "buveyhi"
+    ],
+    [
      1000,
      1046,
      "kakuyi"
@@ -2025,6 +2619,26 @@
    "lon": 51.67,
    "spans": [
     [
+     550,
+     642,
+     "sasani"
+    ],
+    [
+     642,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     935,
+     "abbasi"
+    ],
+    [
+     935,
+     1000,
+     "buveyhi"
+    ],
+    [
      1000,
      1051,
      "kakuyi"
@@ -2101,6 +2715,26 @@
    "lat": 30.28,
    "lon": 57.08,
    "spans": [
+    [
+     550,
+     651,
+     "sasani"
+    ],
+    [
+     651,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     936,
+     "abbasi"
+    ],
+    [
+     936,
+     1000,
+     "buveyhi"
+    ],
     [
      1000,
      1048,
@@ -2180,6 +2814,26 @@
    "lon": 52.53,
    "spans": [
     [
+     550,
+     650,
+     "sasani"
+    ],
+    [
+     650,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     934,
+     "abbasi"
+    ],
+    [
+     934,
+     1000,
+     "buveyhi"
+    ],
+    [
      1000,
      1062,
      "buveyhi"
@@ -2251,6 +2905,26 @@
    "lat": 31.32,
    "lon": 48.67,
    "spans": [
+    [
+     550,
+     640,
+     "sasani"
+    ],
+    [
+     640,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     945,
+     "abbasi"
+    ],
+    [
+     945,
+     1000,
+     "buveyhi"
+    ],
     [
      1000,
      1062,
@@ -2329,6 +3003,31 @@
    "lon": 47.81,
    "spans": [
     [
+     550,
+     636,
+     "sasani"
+    ],
+    [
+     636,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     945,
+     "abbasi"
+    ],
+    [
+     945,
+     1000,
+     "buveyhi"
+    ],
+    [
      1000,
      1055,
      "buveyhi"
@@ -2405,6 +3104,31 @@
    "lat": 33.31,
    "lon": 44.36,
    "spans": [
+    [
+     550,
+     637,
+     "sasani"
+    ],
+    [
+     637,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     945,
+     "abbasi"
+    ],
+    [
+     945,
+     1000,
+     "buveyhi"
+    ],
     [
      1000,
      1055,
@@ -2504,6 +3228,26 @@
    "lon": 44.43,
    "spans": [
     [
+     550,
+     637,
+     "sasani"
+    ],
+    [
+     637,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     1000,
+     "abbasi"
+    ],
+    [
      1000,
      1163,
      "mezyedi"
@@ -2572,6 +3316,31 @@
    "lon": 43.13,
    "spans": [
     [
+     550,
+     637,
+     "sasani"
+    ],
+    [
+     637,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     990,
+     "abbasi"
+    ],
+    [
+     990,
+     1000,
+     "ukayli"
+    ],
+    [
      1000,
      1096,
      "ukayli"
@@ -2639,6 +3408,31 @@
    "lat": 37.91,
    "lon": 40.23,
    "spans": [
+    [
+     550,
+     639,
+     "bizans"
+    ],
+    [
+     639,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     983,
+     "abbasi"
+    ],
+    [
+     983,
+     1000,
+     "mervani"
+    ],
     [
      1000,
      1085,
@@ -2718,6 +3512,31 @@
    "lon": 41.01,
    "spans": [
     [
+     550,
+     639,
+     "bizans"
+    ],
+    [
+     639,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     983,
+     "abbasi"
+    ],
+    [
+     983,
+     1000,
+     "mervani"
+    ],
+    [
      1000,
      1085,
      "mervani"
@@ -2791,6 +3610,31 @@
    "lon": 40.74,
    "spans": [
     [
+     550,
+     639,
+     "bizans"
+    ],
+    [
+     639,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     983,
+     "abbasi"
+    ],
+    [
+     983,
+     1000,
+     "mervani"
+    ],
+    [
      1000,
      1085,
      "mervani"
@@ -2843,6 +3687,31 @@
    "lon": 41.41,
    "spans": [
     [
+     550,
+     639,
+     "bizans"
+    ],
+    [
+     639,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     983,
+     "abbasi"
+    ],
+    [
+     983,
+     1000,
+     "mervani"
+    ],
+    [
      1000,
      1085,
      "mervani"
@@ -2894,6 +3763,26 @@
    "lat": 38.75,
    "lon": 42.49,
    "spans": [
+    [
+     550,
+     654,
+     "sasani"
+    ],
+    [
+     654,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     983,
+     "abbasi"
+    ],
+    [
+     983,
+     1000,
+     "mervani"
+    ],
     [
      1000,
      1085,
@@ -2969,6 +3858,21 @@
    "lat": 39.14,
    "lon": 42.53,
    "spans": [
+    [
+     550,
+     654,
+     "bizans"
+    ],
+    [
+     654,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     1000,
+     "abbasi"
+    ],
     [
      1000,
      1071,
@@ -3047,6 +3951,26 @@
    "lon": 41.27,
    "spans": [
     [
+     550,
+     653,
+     "bizans"
+    ],
+    [
+     653,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     949,
+     "abbasi"
+    ],
+    [
+     949,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1071,
      "bizans"
@@ -3119,6 +4043,26 @@
    "lat": 40.51,
    "lon": 43.57,
    "spans": [
+    [
+     550,
+     640,
+     "sasani"
+    ],
+    [
+     640,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     885,
+     "abbasi"
+    ],
+    [
+     885,
+     1000,
+     "ermeni"
+    ],
     [
      1000,
      1045,
@@ -3212,6 +4156,26 @@
    "lat": 40.68,
    "lon": 46.36,
    "spans": [
+    [
+     550,
+     651,
+     "sasani"
+    ],
+    [
+     651,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     971,
+     "abbasi"
+    ],
+    [
+     971,
+     1000,
+     "seddadi"
+    ],
     [
      1000,
      1075,
@@ -3316,6 +4280,21 @@
    "lat": 38.08,
    "lon": 46.29,
    "spans": [
+    [
+     550,
+     651,
+     "sasani"
+    ],
+    [
+     651,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     1000,
+     "abbasi"
+    ],
     [
      1000,
      1071,
@@ -3424,6 +4403,26 @@
    "lon": 48.64,
    "spans": [
     [
+     550,
+     651,
+     "sasani"
+    ],
+    [
+     651,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     861,
+     "abbasi"
+    ],
+    [
+     861,
+     1000,
+     "sirvansah"
+    ],
+    [
      1000,
      1538,
      "sirvansah"
@@ -3473,6 +4472,26 @@
    "lat": 41.72,
    "lon": 44.79,
    "spans": [
+    [
+     550,
+     629,
+     "sasani"
+    ],
+    [
+     629,
+     645,
+     "bati-gokturk"
+    ],
+    [
+     645,
+     736,
+     "emevi"
+    ],
+    [
+     736,
+     1000,
+     "tiflis"
+    ],
     [
      1000,
      1122,
@@ -3536,6 +4555,11 @@
    "lon": 42.7,
    "spans": [
     [
+     550,
+     1000,
+     "gurcistan"
+    ],
+    [
      1000,
      1923,
      "gurcistan"
@@ -3543,7 +4567,8 @@
    ],
    "src": [
     "gurcistan"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "trabzon",
@@ -3551,6 +4576,11 @@
    "lat": 41.0,
    "lon": 39.72,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1204,
@@ -3591,6 +4621,11 @@
    "lat": 39.75,
    "lon": 37.02,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1075,
@@ -3647,6 +4682,11 @@
    "lon": 35.83,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1075,
      "bizans"
@@ -3701,6 +4741,11 @@
    "lat": 38.72,
    "lon": 35.49,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1075,
@@ -3764,6 +4809,26 @@
    "lon": 38.31,
    "spans": [
     [
+     550,
+     656,
+     "bizans"
+    ],
+    [
+     656,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     934,
+     "abbasi"
+    ],
+    [
+     934,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1071,
      "bizans"
@@ -3819,6 +4884,11 @@
    "lon": 32.48,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1080,
      "bizans"
@@ -3866,6 +4936,11 @@
    "lon": 29.72,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1081,
      "bizans"
@@ -3912,6 +4987,11 @@
    "lat": 38.42,
    "lon": 27.14,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1081,
@@ -3978,6 +5058,11 @@
    "lon": 30.7,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1207,
      "bizans"
@@ -4032,6 +5117,26 @@
    "lat": 36.92,
    "lon": 34.9,
    "spans": [
+    [
+     550,
+     665,
+     "bizans"
+    ],
+    [
+     665,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     965,
+     "abbasi"
+    ],
+    [
+     965,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1080,
@@ -4088,6 +5193,11 @@
    "lon": 28.98,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1204,
      "bizans"
@@ -4122,6 +5232,11 @@
    "lat": 41.68,
    "lon": 26.56,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1204,
@@ -4167,6 +5282,11 @@
    "lat": 40.64,
    "lon": 22.94,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1204,
@@ -4228,6 +5348,11 @@
    "lon": 23.73,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1204,
      "bizans"
@@ -4257,6 +5382,21 @@
    "lat": 43.08,
    "lon": 25.63,
    "spans": [
+    [
+     550,
+     681,
+     "bizans"
+    ],
+    [
+     681,
+     971,
+     "bulgar1"
+    ],
+    [
+     971,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1185,
@@ -4288,6 +5428,11 @@
    "lon": 33.4,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1191,
      "bizans"
@@ -4317,6 +5462,31 @@
    "lat": 36.2,
    "lon": 36.16,
    "spans": [
+    [
+     550,
+     638,
+     "bizans"
+    ],
+    [
+     638,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     969,
+     "abbasi"
+    ],
+    [
+     969,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1084,
@@ -4380,6 +5550,26 @@
    "lat": 37.16,
    "lon": 38.79,
    "spans": [
+    [
+     550,
+     639,
+     "bizans"
+    ],
+    [
+     639,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     1000,
+     "abbasi"
+    ],
     [
      1000,
      1087,
@@ -4463,6 +5653,31 @@
    "lon": 37.16,
    "spans": [
     [
+     550,
+     637,
+     "bizans"
+    ],
+    [
+     637,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     944,
+     "abbasi"
+    ],
+    [
+     944,
+     1000,
+     "hamdani"
+    ],
+    [
      1000,
      1080,
      "mirdasi"
@@ -4542,6 +5757,31 @@
    "lon": 36.29,
    "spans": [
     [
+     550,
+     634,
+     "bizans"
+    ],
+    [
+     634,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     970,
+     "abbasi"
+    ],
+    [
+     970,
+     1000,
+     "fatimi"
+    ],
+    [
      1000,
      1076,
      "fatimi"
@@ -4616,6 +5856,31 @@
    "lon": 35.84,
    "spans": [
     [
+     550,
+     638,
+     "bizans"
+    ],
+    [
+     638,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     970,
+     "abbasi"
+    ],
+    [
+     970,
+     1000,
+     "fatimi"
+    ],
+    [
      1000,
      1109,
      "ammar"
@@ -4668,6 +5933,31 @@
    "lon": 35.2,
    "spans": [
     [
+     550,
+     638,
+     "bizans"
+    ],
+    [
+     638,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     970,
+     "abbasi"
+    ],
+    [
+     970,
+     1000,
+     "fatimi"
+    ],
+    [
      1000,
      1124,
      "fatimi"
@@ -4717,6 +6007,31 @@
    "lat": 31.78,
    "lon": 35.22,
    "spans": [
+    [
+     550,
+     637,
+     "bizans"
+    ],
+    [
+     637,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     970,
+     "abbasi"
+    ],
+    [
+     970,
+     1000,
+     "fatimi"
+    ],
     [
      1000,
      1073,
@@ -4807,6 +6122,31 @@
    "lon": 34.57,
    "spans": [
     [
+     550,
+     640,
+     "bizans"
+    ],
+    [
+     640,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     970,
+     "abbasi"
+    ],
+    [
+     970,
+     1000,
+     "fatimi"
+    ],
+    [
      1000,
      1153,
      "fatimi"
@@ -4862,6 +6202,31 @@
    "lon": 31.25,
    "spans": [
     [
+     550,
+     641,
+     "bizans"
+    ],
+    [
+     641,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     969,
+     "abbasi"
+    ],
+    [
+     969,
+     1000,
+     "fatimi"
+    ],
+    [
      1000,
      1171,
      "fatimi"
@@ -4911,6 +6276,31 @@
    "lat": 31.2,
    "lon": 29.92,
    "spans": [
+    [
+     550,
+     641,
+     "bizans"
+    ],
+    [
+     641,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     969,
+     "abbasi"
+    ],
+    [
+     969,
+     1000,
+     "fatimi"
+    ],
     [
      1000,
      1171,
@@ -4962,6 +6352,31 @@
    "lon": 39.61,
    "spans": [
     [
+     550,
+     632,
+     "hicaz"
+    ],
+    [
+     632,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     965,
+     "abbasi"
+    ],
+    [
+     965,
+     1000,
+     "hicaz"
+    ],
+    [
      1000,
      1517,
      "hicaz"
@@ -4986,6 +6401,11 @@
    "lat": 25.38,
    "lon": 49.59,
    "spans": [
+    [
+     899,
+     1000,
+     "karmati"
+    ],
     [
      1000,
      1077,
@@ -5033,6 +6453,11 @@
    "lat": 41.38,
    "lon": 33.78,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1080,
@@ -5085,6 +6510,11 @@
    "lat": 39.93,
    "lon": 32.86,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1073,
@@ -5144,6 +6574,11 @@
    "lon": 30.52,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1080,
      "bizans"
@@ -5197,6 +6632,11 @@
    "lon": 29.98,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1299,
      "bizans"
@@ -5233,6 +6673,11 @@
    "lat": 39.42,
    "lon": 29.98,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1182,
@@ -5291,6 +6736,11 @@
    "lon": 29.09,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1206,
      "bizans"
@@ -5338,6 +6788,11 @@
    "lon": 33.22,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1080,
      "bizans"
@@ -5374,6 +6829,11 @@
    "lat": 39.75,
    "lon": 39.49,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1071,
@@ -5436,6 +6896,26 @@
    "lat": 38.7,
    "lon": 39.25,
    "spans": [
+    [
+     550,
+     656,
+     "bizans"
+    ],
+    [
+     656,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     938,
+     "abbasi"
+    ],
+    [
+     938,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1071,
@@ -5504,6 +6984,11 @@
    "lon": 35.15,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1204,
      "bizans"
@@ -5557,6 +7042,11 @@
    "lon": 32.0,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1221,
      "bizans"
@@ -5594,6 +7084,11 @@
    "lon": 29.06,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1326,
      "bizans"
@@ -5627,6 +7122,11 @@
    "lon": 29.92,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1337,
      "bizans"
@@ -5653,6 +7153,11 @@
    "lat": 39.65,
    "lon": 27.88,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1300,
@@ -5690,6 +7195,11 @@
    "lat": 38.61,
    "lon": 27.43,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1313,
@@ -5738,6 +7248,11 @@
    "lon": 27.78,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1280,
      "bizans"
@@ -5780,6 +7295,11 @@
    "lon": 30.55,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1204,
      "bizans"
@@ -5816,6 +7336,11 @@
    "lat": 40.41,
    "lon": 26.67,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1354,
@@ -5855,6 +7380,11 @@
    "lon": 24.75,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1344,
      "bizans"
@@ -5886,6 +7416,16 @@
    "lat": 42.7,
    "lon": 23.32,
    "spans": [
+    [
+     550,
+     809,
+     "bizans"
+    ],
+    [
+     809,
+     1000,
+     "bulgar1"
+    ],
     [
      1000,
      1185,
@@ -5919,6 +7459,16 @@
    "lon": 21.43,
    "spans": [
     [
+     550,
+     850,
+     "bizans"
+    ],
+    [
+     850,
+     1000,
+     "bulgar1"
+    ],
+    [
      1000,
      1282,
      "bizans"
@@ -5950,6 +7500,11 @@
    "lat": 41.03,
    "lon": 21.33,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1334,
@@ -5983,6 +7538,16 @@
    "lon": 21.9,
    "spans": [
     [
+     550,
+     850,
+     "bizans"
+    ],
+    [
+     850,
+     1000,
+     "bulgar1"
+    ],
+    [
      1000,
      1183,
      "bizans"
@@ -6015,6 +7580,11 @@
    "lon": 21.17,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1180,
      "bizans"
@@ -6046,6 +7616,21 @@
    "lat": 44.82,
    "lon": 20.45,
    "spans": [
+    [
+     550,
+     568,
+     "bizans"
+    ],
+    [
+     568,
+     796,
+     "avar"
+    ],
+    [
+     796,
+     1000,
+     "bulgar1"
+    ],
     [
      1000,
      1284,
@@ -6132,6 +7717,11 @@
    "lon": 18.41,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1180,
      "bizans"
@@ -6161,6 +7751,11 @@
    "lat": 40.47,
    "lon": 19.49,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1345,
@@ -6194,6 +7789,16 @@
    "lon": 19.04,
    "spans": [
     [
+     568,
+     796,
+     "avar"
+    ],
+    [
+     895,
+     1000,
+     "macar"
+    ],
+    [
      1000,
      1526,
      "macar"
@@ -6223,6 +7828,21 @@
    "lat": 44.43,
    "lon": 26.1,
    "spans": [
+    [
+     550,
+     680,
+     "avar"
+    ],
+    [
+     680,
+     895,
+     "bulgar1"
+    ],
+    [
+     895,
+     1000,
+     "pecenek"
+    ],
     [
      1000,
      1240,
@@ -6255,6 +7875,11 @@
    "lat": 37.5,
    "lon": 22.4,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1205,
@@ -6301,6 +7926,11 @@
    "lon": 20.93,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1180,
      "bizans"
@@ -6344,6 +7974,11 @@
    "lon": 19.79,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1345,
      "bizans"
@@ -6381,6 +8016,31 @@
    "lat": 45.03,
    "lon": 35.38,
    "spans": [
+    [
+     550,
+     576,
+     "bizans"
+    ],
+    [
+     576,
+     590,
+     "bati-gokturk"
+    ],
+    [
+     590,
+     680,
+     "bizans"
+    ],
+    [
+     680,
+     965,
+     "hazar"
+    ],
+    [
+     965,
+     1000,
+     "pecenek"
+    ],
     [
      1000,
      1240,
@@ -6424,6 +8084,31 @@
    "lon": 33.86,
    "spans": [
     [
+     550,
+     576,
+     "bizans"
+    ],
+    [
+     576,
+     590,
+     "bati-gokturk"
+    ],
+    [
+     590,
+     680,
+     "bizans"
+    ],
+    [
+     680,
+     965,
+     "hazar"
+    ],
+    [
+     965,
+     1000,
+     "pecenek"
+    ],
+    [
      1000,
      1240,
      "kipcak"
@@ -6453,6 +8138,11 @@
    "lat": 38.46,
    "lon": 23.6,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1205,
@@ -6485,6 +8175,11 @@
    "lat": 36.44,
    "lon": 28.22,
    "spans": [
+    [
+     550,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1309,
@@ -6545,6 +8240,11 @@
    "lon": 24.9,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1205,
      "bizans"
@@ -6590,6 +8290,11 @@
    "lon": 21.8,
    "spans": [
     [
+     550,
+     1000,
+     "bizans"
+    ],
+    [
      1000,
      1205,
      "bizans"
@@ -6629,6 +8334,31 @@
    "lat": 37.58,
    "lon": 36.93,
    "spans": [
+    [
+     550,
+     637,
+     "bizans"
+    ],
+    [
+     637,
+     661,
+     "rasidun"
+    ],
+    [
+     661,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     962,
+     "abbasi"
+    ],
+    [
+     962,
+     1000,
+     "bizans"
+    ],
     [
      1000,
      1100,
@@ -6674,6 +8404,26 @@
    "lat": 38.5,
    "lon": 43.38,
    "spans": [
+    [
+     550,
+     654,
+     "sasani"
+    ],
+    [
+     654,
+     750,
+     "emevi"
+    ],
+    [
+     750,
+     908,
+     "abbasi"
+    ],
+    [
+     908,
+     1000,
+     "ermeni"
+    ],
     [
      1000,
      1085,
@@ -7952,6 +9702,60 @@
     "mekke"
    ],
    "yaklasik": true
+  },
+  {
+   "id": "otuken",
+   "tr": "Ötüken",
+   "lat": 47.43,
+   "lon": 102.66,
+   "yaklasik": true,
+   "src": [
+    "asya",
+    "uygurlar",
+    "kirgizlar"
+   ],
+   "spans": [
+    [
+     550,
+     552,
+     "juan-juan"
+    ],
+    [
+     552,
+     630,
+     "gokturk"
+    ],
+    [
+     630,
+     682,
+     "tang"
+    ],
+    [
+     682,
+     744,
+     "gokturk"
+    ],
+    [
+     744,
+     840,
+     "uygur-kag"
+    ],
+    [
+     840,
+     924,
+     "kirgiz"
+    ],
+    [
+     924,
+     1125,
+     "kitan"
+    ],
+    [
+     1125,
+     1923,
+     "mogolistan"
+    ]
+   ]
   }
  ]
 }
