@@ -107,3 +107,10 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 |---|---|---|
 | Saint Gotthard 1664 | Yenilgi | Fâzıl Ahmed Paşa maddesi: tam bozgun değil |
 | Kandiye 1647–1669 | Tek kayıt (teslim tarihi) | — |
+
+## Kayıt kararları (Parti 13: Osmanlı 1718–1774, 2026-10-29)
+| Kayıt | Karar |
+|---|---|
+| Nâdir Şah ve Afşarlar | Türk hânedanı ama kapsam listesinde yok → `dis`, haritada `turk-diger` |
+| Sakız Boğazı 1770 | Belirsiz (D) |
+| Kartal 1770 | Borderline (TDVİA'da yalnızca anılıyor) |
