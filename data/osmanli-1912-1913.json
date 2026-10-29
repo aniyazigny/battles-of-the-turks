@@ -2,7 +2,7 @@
  "meta": {
   "batch": "Parti 18 — Osmanlı: Balkan Savaşları (1912–1913)",
   "compiled": "2026-10-30",
-  "status": "İlk tur.",
+  "status": "İkinci kaynak turu yapıldı (yeni madde bulunamadı).",
   "conventions": {
    "winner_first": "side_a kazanan taraftır; result alanı Türk (Selçuklu) tarafının sonucudur: W kazandı, L kaybetti, D belirsiz/berabere, C iç savaş (skora girmez).",
    "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",

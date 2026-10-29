@@ -107,7 +107,7 @@ for i, r in enumerate(R, 1):
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
-meta = {"batch": "Parti 18 — Osmanlı: Balkan Savaşları (1912–1913)", "compiled": "2026-10-30", "status": "İlk tur.",
+meta = {"batch": "Parti 18 — Osmanlı: Balkan Savaşları (1912–1913)", "compiled": "2026-10-30", "status": "İkinci kaynak turu yapıldı (yeni madde bulunamadı).",
         "conventions": pilot["meta"]["conventions"], "source_keys": pilot["meta"]["source_keys"], "decisions": pilot["meta"]["decisions"]}
 (root / "data" / "osmanli-1912-1913.json").write_text(json.dumps({"meta": meta, "battles": recs, "left_out": LEFT}, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(recs), "kayıt;", sum(r["verify"]["tdvia2"] for r in recs), "iki maddeli")
