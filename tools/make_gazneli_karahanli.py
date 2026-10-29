@@ -117,6 +117,18 @@ EXTRA_SRC = {n: ["AKD:palabiyik-2007"] for n in ("Peşâver (Caypal)", "Vayhand 
                                               "Kannevc seferi", "Ganda'ya karşı (Bari)", "Somnat", "İndus üzerinde Câtlar")}
 FIX = {"Peşâver (Caypal)": {"dispute": "Tarih: TDVİA zaferi 392'ye (1002) koyar; Palabıyık (2007) bu ikinci seferi Vayhand seferi olarak 391-2/1001-2'ye tarihler ve Caypal'ın esir alındığını yazar; yaygın tarih 27 Kasım 1001'dir."},
        "Ganda'ya karşı (Bari)": {"status": "kesin", "note": "Bari alındı. Palabıyık'a (2007) göre on üçüncü seferde (410/1019) askerler Ramganga nehrini tulumlarla geçti ve Ganda ile müttefiklerine karşı büyük bir zafer kazanıldı.", "note_en": "Bari was taken. According to Palabıyık (2007), on the thirteenth campaign (410/1019) the troops crossed the Ramganga on inflated skins and won a great victory over Ganda and his allies."}}
+# İkinci kaynak turu (2026-10-29)
+SECOND = {"Merv (Sâmânîler)": ["TDVIA:samaniler"], "Peşâver (Caypal)": ["TDVIA:hindusahiler"], "Mültan (1006)": ["TDVIA:multan"],
+          "Mültan (1010)": ["TDVIA:multan"], "Vayhand ovası (Anandpâl)": ["TDVIA:hindusahiler"], "Nandana (Triloçanpâl)": ["TDVIA:hindusahiler"],
+          "Rey'in alınması": ["TDVIA:mesud-b-mahmud-i-gaznevi"], "Sarsûtî Kalesi": ["TDVIA:mesud-b-mahmud-i-gaznevi"],
+          "Mevdûd–Muhammed": ["TDVIA:gazneliler"], "Karahıtaylara karşı zafer": ["TDVIA:karahitaylar"], "Hucend": ["TDVIA:hucend", "TDVIA:karahitaylar"]}
+for n, v in SECOND.items():
+    EXTRA_SRC[n] = EXTRA_SRC.get(n, []) + v
+FIX["Peşâver (Caypal)"] = {"date": "1001-11-27", "dispute": "",
+    "note": "Hindûşâhîler maddesi tarihi 8 Muharrem 392 / 27 Kasım 1001 olarak verir; Caypal oğulları ve kumandanlarıyla esir alındı.",
+    "note_en": "The Hindushahis article dates it 8 Muharram 392 / 27 November 1001; Jayapala was captured with his sons and commanders."}
+FIX["Karahıtaylara karşı zafer"] = {"date": "1128", "note": "Karahıtaylar Balasagun, Hoten ve Kâşgar bölgesine ilk girdiklerinde Doğu Karahanlı hükümdarı Arslan Han Ahmed b. Hasan'a yenildiler.",
+    "note_en": "When the Qara Khitai first entered the Balasagun, Khotan and Kashgar region they were defeated by the Eastern Qarakhanid ruler Arslan Khan Ahmad b. Hasan."}
 OPP_STATE = {"Belh (1008)": K, "Belh (1019)": K, "Debûsiye": K}
 LEFT = [
  {"name": "Buhara (999)", "reason": "İlig Han Nasr şehri mukavemetle karşılaşmadan aldı; savaş yok.", "source": "TDVIA:karahanlilar"},
@@ -138,7 +150,9 @@ for i, r in enumerate(R, 1):
     if ntr in OPP_STATE: rec["opp_state"] = OPP_STATE[ntr]
     rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
     rec.update(FIX.get(ntr, {}))
+    if not rec.get("dispute"): rec.pop("dispute", None)
     rec["verify"]["academic"] = any(x.startswith("AKD:") for x in rec["sources"])
+    rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))

@@ -225,11 +225,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:mahmud-i-gaznevi"
+    "TDVIA:mahmud-i-gaznevi",
+    "TDVIA:samaniler"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -279,7 +280,7 @@
    "id": 8,
    "name_tr": "Peşâver (Caypal)",
    "name_en": "Battle of Peshawar (1001)",
-   "date": "1001-11",
+   "date": "1001-11-27",
    "hijri": "",
    "type": "land",
    "war": "Mahmud'un Hint seferleri",
@@ -297,20 +298,20 @@
    "status": "ihtilafli",
    "sources": [
     "TDVIA:mahmud-i-gaznevi",
-    "AKD:palabiyik-2007"
+    "AKD:palabiyik-2007",
+    "TDVIA:hindusahiler"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": true
    },
    "state": "Gazneliler",
    "home_batch": "gazneli-karahanli",
-   "dispute": "Tarih: TDVİA zaferi 392'ye (1002) koyar; Palabıyık (2007) bu ikinci seferi Vayhand seferi olarak 391-2/1001-2'ye tarihler ve Caypal'ın esir alındığını yazar; yaygın tarih 27 Kasım 1001'dir.",
-   "note": "Ardından Hindûşâhî merkezi Vayhand alındı.",
-   "note_en": "The Hindu Shahi capital Waihind was taken afterwards."
+   "note": "Hindûşâhîler maddesi tarihi 8 Muharrem 392 / 27 Kasım 1001 olarak verir; Caypal oğulları ve kumandanlarıyla esir alındı.",
+   "note_en": "The Hindushahis article dates it 8 Muharram 392 / 27 November 1001; Jayapala was captured with his sons and commanders."
   },
   {
    "id": 9,
@@ -368,11 +369,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mahmud-i-gaznevi"
+    "TDVIA:mahmud-i-gaznevi",
+    "TDVIA:multan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -438,11 +440,12 @@
    "status": "kesin",
    "sources": [
     "TDVIA:mahmud-i-gaznevi",
-    "AKD:palabiyik-2007"
+    "AKD:palabiyik-2007",
+    "TDVIA:hindusahiler"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": true
@@ -473,11 +476,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:mahmud-i-gaznevi"
+    "TDVIA:mahmud-i-gaznevi",
+    "TDVIA:multan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -509,11 +513,12 @@
    "status": "kesin",
    "sources": [
     "TDVIA:mahmud-i-gaznevi",
-    "AKD:palabiyik-2007"
+    "AKD:palabiyik-2007",
+    "TDVIA:hindusahiler"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": true
@@ -799,11 +804,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:gazneliler"
+    "TDVIA:gazneliler",
+    "TDVIA:mesud-b-mahmud-i-gaznevi"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -870,11 +876,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:gazneliler"
+    "TDVIA:gazneliler",
+    "TDVIA:mesud-b-mahmud-i-gaznevi"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -905,11 +912,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:mevdud-b-mesud-i-gaznevi"
+    "TDVIA:mevdud-b-mesud-i-gaznevi",
+    "TDVIA:gazneliler"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1065,7 +1073,7 @@
    "id": 30,
    "name_tr": "Karahıtaylara karşı zafer",
    "name_en": "Victory over the Qara Khitai (c. 1128)",
-   "date": "c. 1128",
+   "date": "1128",
    "hijri": "",
    "type": "land",
    "war": "Karahanlı–Karahıtay",
@@ -1082,19 +1090,20 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:karahanlilar"
+    "TDVIA:karahanlilar",
+    "TDVIA:karahitaylar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Karahanlılar",
    "home_batch": "gazneli-karahanli",
-   "note": "Karahıtay ilerleyişi bir süre durduruldu. Tarih 522 (1128) veya sonrası.",
-   "note_en": "The Qara Khitai advance was halted for a time. Date 522 (1128) or later."
+   "note": "Karahıtaylar Balasagun, Hoten ve Kâşgar bölgesine ilk girdiklerinde Doğu Karahanlı hükümdarı Arslan Han Ahmed b. Hasan'a yenildiler.",
+   "note_en": "When the Qara Khitai first entered the Balasagun, Khotan and Kashgar region they were defeated by the Eastern Qarakhanid ruler Arslan Khan Ahmad b. Hasan."
   },
   {
    "id": 31,
@@ -1117,11 +1126,13 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:karahanlilar"
+    "TDVIA:karahanlilar",
+    "TDVIA:hucend",
+    "TDVIA:karahitaylar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

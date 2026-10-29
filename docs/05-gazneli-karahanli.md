@@ -21,12 +21,20 @@ Sebük Tegin, Mahmûd-ı Gaznevî, Mesud b. Mahmud, Mevdûd b. Mesud, İbrâhim 
 - **Sâmânî iç savaşları:** Sebük Tegin'in Ebû Ali Sîmcûrî'ye karşı savaşları dış rakip sayıldı; Sâmânîler Türk hanedanı değildir.
 - **Kaynak sayıları** (Somnat'ta 30.000 atlı, Kannevc'te 20.000 gazi, 1400 gemi) notta "kaynak sayısı" olarak geçer, veriye alınmadı.
 
+## İkinci kaynak turu (2026-10-29)
+Yeni maddeler: Sâmânîler, Hindûşâhîler, Mültan, Hucend, Karahıtaylar, Mesud b. Mahmûd-ı Gaznevî, Gazneliler (yeniden tarandı).
+- 23/32 kayıt iki TDVİA maddesiyle (önce 12).
+- Peşâver: Hindûşâhîler maddesi 8 Muharrem 392 / 27 Kasım 1001 verir; önceki tarih ihtilafı kalktı.
+- Karahıtaylara karşı zafer: 1128, Doğu Karahanlı hükümdarı Arslan Han Ahmed b. Hasan.
+- Hâlâ tek kaynaklı: Tûs 995, Bhâtiya, Lokhot 1015, Bari 1019, Câtlar 1027, Lahor 1043, Ecüdhen 1079, Gazne 1149, Karluk 1156.
+- Yeni aday: Rama-Ganga 1019 (Triloçanpal'e karşı, Hindûşâhîler maddesi); Gazne 1148 (Seyfeddin Sûrî şehri aldı; Behram Şah maddesi savaşsız, Gurlular maddesi "yenerek" der).
+
 ## Bilinen eksikler
 - Mahmud'un on yedi Hint seferinin hepsi ayrı kayıt değil; TDVİA'da adı ve sonucu net olanlar alındı. Mathura, Thanesar ve Gwalior gibi seferler eksik.
 - Karahanlı iç savaşları alınmadı.
 - Haritadaki sınır tablosu 1000 yılında başladığı için 893 ve 990 savaşlarında sınırlar boş görünüyor.
 
 ## Sonraki adımlar
-- [ ] İkinci kaynak turu (19 tek maddeli kayıt).
+- [x] İkinci kaynak turu (23/32, 2026-10-29).
 - [ ] Sınır tablosunu 900'e kadar geri uzatmak (Sâmânîler, Hindûşâhîler).
 - [ ] Sonraki parti: Göktürkler ve Uygurlar ya da Osmanlı'nın kuruluş dönemi.
