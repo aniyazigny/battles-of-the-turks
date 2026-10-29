@@ -458,6 +458,41 @@
   },
   {
    "id": 13,
+   "name_tr": "Yeni Zerinvar (1664)",
+   "name_en": "Siege of Novi Zrin (1664)",
+   "date": "1664",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Habsburg savaşı (1663–1664)",
+   "place": "Zerinvar (Novi Zrin)",
+   "lat": 46.37,
+   "lon": 16.75,
+   "loc": "approx",
+   "country": "Hırvatistan",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Habsburglar",
+   "turkic_cmd": "Köprülüzâde Fâzıl Ahmed Paşa",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:kopruluzade-fazil-ahmed-pasa"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1640-1683",
+   "note": "Fâzıl Ahmed Paşa Komran, Egerseg, Egervar, Kemendvar ve Zerinvar kale ve palankalarını alarak Raab kıyısına ulaştı. (Kontrol turunda eklendi.)",
+   "note_en": "Fazıl Ahmed Pasha took the forts of Komran, Egerseg, Egervar, Kemendvar and Zerinvar and reached the Rába."
+  },
+  {
+   "id": 14,
    "name_tr": "Saint Gotthard (1664)",
    "name_en": "Battle of Saint Gotthard",
    "date": "1664-08-01",
@@ -493,7 +528,7 @@
    "note_en": "A clear defeat, though according to the Fazıl Ahmed Pasha article not a complete rout; the Peace of Vasvár followed nine days later."
   },
   {
-   "id": 14,
+   "id": 15,
    "name_tr": "Kandiye (1669)",
    "name_en": "Siege of Candia",
    "date": "1669-09-06",
@@ -530,7 +565,7 @@
    "note_en": "The long siege, whose last phase began in 1667, ended with an eighteen-article capitulation; the conquest of Crete was complete."
   },
   {
-   "id": 15,
+   "id": 16,
    "name_tr": "Kamaniçe (1672)",
    "name_en": "Siege of Kamianets (1672)",
    "date": "1672-08-27",
@@ -566,7 +601,7 @@
    "note_en": "Taken after a nine-day siege; the Treaty of Buczacz gave Podolia to the Ottomans."
   },
   {
-   "id": 16,
+   "id": 17,
    "name_tr": "Hotin (1673)",
    "name_en": "Battle of Khotyn (1673)",
    "date": "1673-11-10",
@@ -603,7 +638,7 @@
    "dispute": "Tarih: Fâzıl Ahmed Paşa maddesi 30 Receb 1084 / 10 Kasım 1673, Hotin maddesi 11 Kasım der."
   },
   {
-   "id": 17,
+   "id": 18,
    "name_tr": "Human (1674)",
    "name_en": "Capture of Uman (1674)",
    "date": "1674-08",
@@ -636,7 +671,7 @@
    "home_batch": "osmanli-1640-1683"
   },
   {
-   "id": 18,
+   "id": 19,
    "name_tr": "İzvança (1676)",
    "name_en": "Battle of Żurawno (1676)",
    "date": "1676-10",
@@ -671,7 +706,7 @@
    "note_en": "After the fighting the Polish king accepted the treaty."
   },
   {
-   "id": 19,
+   "id": 20,
    "name_tr": "Çehrin (1677)",
    "name_en": "First Chyhyryn campaign (1677)",
    "date": "1677-08",
@@ -706,7 +741,7 @@
    "note_en": "The three-week campaign failed; many guns were lost."
   },
   {
-   "id": 20,
+   "id": 21,
    "name_tr": "Çehrin (1678)",
    "name_en": "Siege of Chyhyryn (1678)",
    "date": "1678-08-21",
@@ -742,7 +777,7 @@
    "note_en": "Taken on the 33rd day of the siege by mines and a general assault; the fortress was razed."
   },
   {
-   "id": 21,
+   "id": 22,
    "name_tr": "Viyana kuşatması (1683)",
    "name_en": "Siege of Vienna (1683)",
    "date": "1683-09-12",
@@ -778,7 +813,7 @@
    "note_en": "The siege of 14 July–12 September turned into a heavy defeat when Sobieski's relief army arrived."
   },
   {
-   "id": 22,
+   "id": 23,
    "name_tr": "Estergon (1683)",
    "name_en": "Loss of Esztergom (1683)",
    "date": "1683-10",

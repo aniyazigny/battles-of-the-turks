@@ -776,6 +776,41 @@
   },
   {
    "id": 22,
+   "name_tr": "Cehennem deresi (1600)",
+   "name_en": "Battle of Cehennem Deresi (1600)",
+   "date": "1600",
+   "hijri": "",
+   "type": "land",
+   "war": "Celâlî isyanları",
+   "place": "Cehennem deresi, Divriği yakını",
+   "lat": 39.37,
+   "lon": 38.12,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Celâlîler (Karayazıcı)",
+   "turkic_cmd": "Serdar Mehmed Paşa",
+   "opp_cmd": "Karayazıcı Abdülhalim",
+   "category": "ic",
+   "result": "C",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:karayazici-abdulhalim"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1566-1606",
+   "note": "Şiddetli savaşlardan sonra Karayazıcı Divriği civarında Cehennem deresi mevkiinde yenilip Sivas taraflarında dağlara çekildi. (Kontrol turunda eklendi.)",
+   "note_en": "After heavy fighting Karayazıcı was beaten at Cehennem Deresi near Divriği and withdrew into the mountains around Sivas."
+  },
+  {
+   "id": 23,
    "name_tr": "Kayseri ovası (1600)",
    "name_en": "Battle of Kayseri (1600)",
    "date": "1600-09-23",
@@ -811,7 +846,7 @@
    "note_en": "The forces of the governor of Aleppo were beaten by Karayazıcı's army."
   },
   {
-   "id": 23,
+   "id": 24,
    "name_tr": "Sepetli (1601)",
    "name_en": "Battle of Sepetli (1601)",
    "date": "1601-08-12",
@@ -849,7 +884,7 @@
    "note_en": "Karayazıcı fled wounded to the Canik mountains, his brother Deli Hasan to Tokat castle."
   },
   {
-   "id": 24,
+   "id": 25,
    "name_tr": "Tokat (1602)",
    "name_en": "Battle of Tokat (1602)",
    "date": "1602",
@@ -884,7 +919,7 @@
    "note_en": "The commander sent against the Celalis was killed before the castle gate."
   },
   {
-   "id": 25,
+   "id": 26,
    "name_tr": "Selmas (1605)",
    "name_en": "Battle of Sufiyan (1605)",
    "date": "1605",
@@ -919,7 +954,7 @@
    "note_en": "The year is not stated directly; before Sinan Pasha's death at Diyarbakır in 1606."
   },
   {
-   "id": 26,
+   "id": 27,
    "name_tr": "Tebriz'in kaybı (1603)",
    "name_en": "Loss of Tabriz (1603)",
    "date": "1603-10-21",

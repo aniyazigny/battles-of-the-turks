@@ -1530,6 +1530,42 @@
   },
   {
    "id": 43,
+   "name_tr": "Kefalonya, Zanta ve Ayamavra (1479)",
+   "name_en": "Ottoman capture of Cephalonia, Zante and Leucas (1479)",
+   "date": "1479",
+   "hijri": "",
+   "type": "land",
+   "war": "II. Mehmed–Venedik",
+   "place": "Kefalonya ve Ayamavra",
+   "lat": 38.25,
+   "lon": 20.5,
+   "loc": "region",
+   "country": "Yunanistan",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Tocco hânedanı (Leonardo III)",
+   "turkic_cmd": "Gedik Ahmed Paşa",
+   "opp_cmd": "Leonardo Tocco",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:ayamavra",
+    "TDVIA:gedik-ahmed-pasa"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1402-1481",
+   "note": "Avlonya beyi Gedik Ahmed Paşa idaresindeki donanma Ayamavra'yı Kefalonya ve Zanta ile birlikte ele geçirdi; Leonardo ve Francesca İtalya'ya kaçtı. (Kontrol turunda eklendi.)",
+   "note_en": "The fleet under Gedik Ahmed Pasha, governor of Valona, took Leucas together with Cephalonia and Zante; Leonardo and Francesca fled to Italy."
+  },
+  {
+   "id": 44,
    "name_tr": "Rodos kuşatması (1480)",
    "name_en": "Siege of Rhodes (1480)",
    "date": "1480-07-28",
@@ -1565,7 +1601,7 @@
    "note_en": "After a three-month siege the last great assault on 28 July failed and the siege was lifted."
   },
   {
-   "id": 44,
+   "id": 45,
    "name_tr": "Otranto (1480)",
    "name_en": "Capture of Otranto",
    "date": "1480-08",
@@ -1602,7 +1638,7 @@
    "note_en": "A landing in southern Italy; the city was taken."
   },
   {
-   "id": 45,
+   "id": 46,
    "name_tr": "Otranto (1481)",
    "name_en": "Siege of Otranto (1481)",
    "date": "1481-09-10",

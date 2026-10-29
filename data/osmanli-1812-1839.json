@@ -280,6 +280,41 @@
   },
   {
    "id": 8,
+   "name_tr": "Tripoliçe (1821)",
+   "name_en": "Siege of Tripolitsa (1821)",
+   "date": "1821",
+   "hijri": "",
+   "type": "land",
+   "war": "Yunan isyanı (1821–1829)",
+   "place": "Tripoliçe",
+   "lat": 37.51,
+   "lon": 22.37,
+   "loc": "known",
+   "country": "Yunanistan",
+   "side_a": "Rum isyancıları",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mora"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1812-1839",
+   "note": "1821 Yunan isyanında Tripoliçe'deki müslümanlar katledildi. (Kontrol turunda eklendi.)",
+   "note_en": "In the Greek revolt of 1821 the Muslims of Tripolitsa were massacred."
+  },
+  {
+   "id": 9,
    "name_tr": "Sakız (1822)",
    "name_en": "Chios revolt (1822)",
    "date": "1822-04",
@@ -315,7 +350,7 @@
    "note_en": "Rebels from Samos and Psara besieged the castle from 23 March to 11 April; the revolt was put down when the fleet and reinforcements arrived."
   },
   {
-   "id": 9,
+   "id": 10,
    "name_tr": "Gördüs (1822)",
    "name_en": "Fall of Corinth (1822)",
    "date": "1822",
@@ -350,7 +385,7 @@
    "note_en": "Kâmil Bey was taken prisoner."
   },
   {
-   "id": 10,
+   "id": 11,
    "name_tr": "Navarin'in geri alınışı (1825)",
    "name_en": "Recapture of Navarino (1825)",
    "date": "1825-05-18",
@@ -386,7 +421,42 @@
    "note_en": "Having landed at Modon in March 1825, İbrahim Pasha took Navarino first and then Tripolitsa (23 June)."
   },
   {
-   "id": 11,
+   "id": 12,
+   "name_tr": "Tripoliçe'nin geri alınışı (1825)",
+   "name_en": "Recapture of Tripolitsa (1825)",
+   "date": "1825-06-23",
+   "hijri": "",
+   "type": "land",
+   "war": "Yunan isyanı (1821–1829)",
+   "place": "Tripoliçe",
+   "lat": 37.51,
+   "lon": 22.37,
+   "loc": "known",
+   "country": "Yunanistan",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Rum isyancıları",
+   "turkic_cmd": "Kavalalı İbrâhim Paşa",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:ibrahim-pasa-kavalali"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1812-1839",
+   "note": "Mora'ya çıkan İbrâhim Paşa önce Navarin'i (18 Mayıs), ardından Tripoliçe'yi (23 Haziran) zaptetti. (Kontrol turunda eklendi.)",
+   "note_en": "Having landed in the Morea, Ibrahim Pasha took Navarino (18 May) and then Tripolitsa (23 June)."
+  },
+  {
+   "id": 13,
    "name_tr": "Mesolongi (1826)",
    "name_en": "Third siege of Missolonghi",
    "date": "1826-04-23",
@@ -423,7 +493,7 @@
    "note_en": "Reşid Pasha invested it from the land side in August 1825; with İbrahim Pasha joining, the rebels' last stronghold was taken."
   },
   {
-   "id": 12,
+   "id": 14,
    "name_tr": "Navarin (1827)",
    "name_en": "Battle of Navarino",
    "date": "1827-10-20",
@@ -460,7 +530,7 @@
    "note_en": "With no state of war, the Ottoman–Egyptian fleet in the harbour was suddenly attacked; fifty-two ships and 6,000 sailors were lost."
   },
   {
-   "id": 13,
+   "id": 15,
    "name_tr": "Varna (1828)",
    "name_en": "Siege of Varna (1828)",
    "date": "1828-10",
@@ -496,7 +566,7 @@
    "note_en": "Taken after a three-month siege; the grand vizier was dismissed over the failure."
   },
   {
-   "id": 14,
+   "id": 16,
    "name_tr": "Kars (1828)",
    "name_en": "Siege of Kars (1828)",
    "date": "1828",
@@ -532,7 +602,7 @@
    "note_en": "The town was occupied and devastated."
   },
   {
-   "id": 15,
+   "id": 17,
    "name_tr": "Kulevçe (1829)",
    "name_en": "Battle of Kulevcha",
    "date": "1829-06",
@@ -565,7 +635,7 @@
    "home_batch": "osmanli-1812-1839"
   },
   {
-   "id": 16,
+   "id": 18,
    "name_tr": "Silistre (1829)",
    "name_en": "Siege of Silistra (1829)",
    "date": "1829",
@@ -602,7 +672,7 @@
    "note_en": "Under the Treaty of Edirne Silistra stayed in Russian hands as a pledge until the indemnity was paid."
   },
   {
-   "id": 17,
+   "id": 19,
    "name_tr": "Erzurum (1829)",
    "name_en": "Fall of Erzurum (1829)",
    "date": "1829-07-08",
@@ -638,7 +708,7 @@
    "note_en": "Returned under the Treaty of Edirne (14 September 1829)."
   },
   {
-   "id": 18,
+   "id": 20,
    "name_tr": "Edirne (1829)",
    "name_en": "Russian occupation of Edirne (1829)",
    "date": "1829-08-22",
@@ -674,7 +744,7 @@
    "note_en": "Russian forces entered the city without resistance and also occupied Kırklareli and Lüleburgaz."
   },
   {
-   "id": 19,
+   "id": 21,
    "name_tr": "Cezayir (1830)",
    "name_en": "Invasion of Algiers (1830)",
    "date": "1830-07-05",
@@ -711,7 +781,7 @@
    "note_en": "The French, who had blockaded the city since 1827, landed and occupied it on 5 July; the dey surrendered."
   },
   {
-   "id": 20,
+   "id": 22,
    "name_tr": "Babuna (1831)",
    "name_en": "Battle of Babuna (1831)",
    "date": "1831-04-21",
@@ -747,7 +817,7 @@
    "note_en": "The governor of Shkodër, who opposed the new army, was routed."
   },
   {
-   "id": 21,
+   "id": 23,
    "name_tr": "Priştine (1831)",
    "name_en": "Battle near Pristina (1831)",
    "date": "1831-07",
@@ -783,7 +853,7 @@
    "note_en": "The Bosnians prevailed against the grand vizier."
   },
   {
-   "id": 22,
+   "id": 24,
    "name_tr": "Zerrâa (1832)",
    "name_en": "Battle of Zerrâa (1832)",
    "date": "1832-04-14",
@@ -819,7 +889,7 @@
    "note_en": "İbrahim Pasha's first encounter with Ottoman forces."
   },
   {
-   "id": 23,
+   "id": 25,
    "name_tr": "Akkâ (1832)",
    "name_en": "Siege of Acre (1831–1832)",
    "date": "1832-05-27",
@@ -856,7 +926,7 @@
    "note_en": "Surrendered after a six-month siege."
   },
   {
-   "id": 24,
+   "id": 26,
    "name_tr": "Humus (1832)",
    "name_en": "Battle of Homs (1832)",
    "date": "1832-07-08",
@@ -893,7 +963,7 @@
    "note_en": "İbrahim Pasha, who had taken Damascus on 16 June, defeated the vanguard of Ağa Hüseyin Pasha's army."
   },
   {
-   "id": 25,
+   "id": 27,
    "name_tr": "Belen (1832)",
    "name_en": "Battle of Beylan",
    "date": "1832-07-29",
@@ -930,7 +1000,7 @@
    "note_en": "Fought after the capture of Aleppo (15 July)."
   },
   {
-   "id": 26,
+   "id": 28,
    "name_tr": "Konya (1832)",
    "name_en": "Battle of Konya",
    "date": "1832-12-21",
@@ -968,7 +1038,7 @@
    "note_en": "The Ottoman army broke up and the grand vizier was captured; the Egyptian forces advanced as far as Kütahya (2 February 1833)."
   },
   {
-   "id": 27,
+   "id": 29,
    "name_tr": "Kostantîne (1836)",
    "name_en": "First siege of Constantine (1836)",
    "date": "1836",
@@ -1006,7 +1076,7 @@
    "note_en": "Governor-General Marshal Clauzel's attack was beaten back by Ahmed Bey."
   },
   {
-   "id": 28,
+   "id": 30,
    "name_tr": "Kostantîne (1837)",
    "name_en": "Siege of Constantine (1837)",
    "date": "1837-10-13",
@@ -1044,7 +1114,7 @@
    "note_en": "The city fell to a bloody assault by the French army under General Valée; Ahmed Bey withdrew to the Sahara and fought on for eleven more years."
   },
   {
-   "id": 29,
+   "id": 31,
    "name_tr": "Nizip (1839)",
    "name_en": "Battle of Nezib",
    "date": "1839-06-24",

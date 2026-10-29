@@ -458,6 +458,77 @@
   },
   {
    "id": 13,
+   "name_tr": "Korfu (1537)",
+   "name_en": "Siege of Corfu (1537)",
+   "date": "1537-09",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Venedik savaşı (1537–1540)",
+   "place": "Korfu",
+   "lat": 39.62,
+   "lon": 19.92,
+   "loc": "known",
+   "country": "Yunanistan",
+   "side_a": "Venedik",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "Kanûnî Sultan Süleyman; Barbaros Hayreddin Paşa",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:barbaros-hayreddin-pasa",
+    "TDVIA:kara-ahmed-pasa"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1520-1566",
+   "note": "Korfu kuşatması başarısız olunca Barbaros Venedik'e ait adaların zaptına girişti. (Kontrol turunda eklendi.)",
+   "note_en": "When the siege of Corfu failed, Barbarossa turned to taking the Venetian islands."
+  },
+  {
+   "id": 14,
+   "name_tr": "Gorjani (1537)",
+   "name_en": "Battle of Gorjani",
+   "date": "1537",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Habsburg savaşları",
+   "place": "Gorjani, Diyakova (Đakovo) yakını",
+   "lat": 45.39,
+   "lon": 18.37,
+   "loc": "approx",
+   "country": "Hırvatistan",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Habsburglar (Kral Ferdinand)",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:pojega"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1520-1566",
+   "note": "Slavonya'daki Osmanlı idaresini tehdit eden kral ordusu 1537 yazının sonlarına doğru Diyakova civarında Gorjani'de yenildi. (Kontrol turunda eklendi.)",
+   "note_en": "The royal army threatening Ottoman rule in Slavonia was defeated near Đakovo at Gorjani towards the end of summer 1537."
+  },
+  {
+   "id": 15,
    "name_tr": "Preveze",
    "name_en": "Battle of Preveza",
    "date": "1538-09-28",
@@ -493,7 +564,7 @@
    "note_en": "Secured Ottoman naval supremacy in the Mediterranean."
   },
   {
-   "id": 14,
+   "id": 16,
    "name_tr": "Diu kuşatması",
    "name_en": "Siege of Diu (1538)",
    "date": "1538",
@@ -528,7 +599,7 @@
    "note_en": "The siege was lifted because of the Portuguese defence and mistrust with Gujarat."
   },
   {
-   "id": 15,
+   "id": 17,
    "name_tr": "Budin (1541)",
    "name_en": "Siege of Buda (1541)",
    "date": "1541-08",
@@ -564,7 +635,7 @@
    "note_en": "The Habsburg siege was broken; the province of Buda was created."
   },
   {
-   "id": 16,
+   "id": 18,
    "name_tr": "Cezayir (1541)",
    "name_en": "Algiers expedition (1541)",
    "date": "1541-10",
@@ -599,7 +670,7 @@
    "note_en": "The Spanish expedition, which Charles V joined in person, ended in complete disaster."
   },
   {
-   "id": 17,
+   "id": 19,
    "name_tr": "Peşte (1542)",
    "name_en": "Siege of Pest (1542)",
    "date": "1542-11",
@@ -635,7 +706,7 @@
    "note_en": "The Habsburg army besieging Pest was routed."
   },
   {
-   "id": 18,
+   "id": 20,
    "name_tr": "Estergon",
    "name_en": "Siege of Esztergom (1543)",
    "date": "1543-08-10",
@@ -671,7 +742,7 @@
    "note_en": "The garrison surrendered after holding out for two and a half weeks."
   },
   {
-   "id": 19,
+   "id": 21,
    "name_tr": "Nice",
    "name_en": "Siege of Nice (1543)",
    "date": "1543-08",
@@ -707,7 +778,7 @@
    "note_en": "The town was taken but the citadel held out."
   },
   {
-   "id": 20,
+   "id": 22,
    "name_tr": "Trablusgarp",
    "name_en": "Capture of Tripoli (1551)",
    "date": "1551-08-15",
@@ -741,7 +812,7 @@
    "home_batch": "osmanli-1520-1566"
   },
   {
-   "id": 21,
+   "id": 23,
    "name_tr": "Temeşvar (1552)",
    "name_en": "Siege of Temesvár",
    "date": "1552-07-26",
@@ -779,7 +850,7 @@
    "note_en": "Surrendered after a siege from 28 June to 26 July 1552; Lipova, Solimos and Szolnok followed."
   },
   {
-   "id": 22,
+   "id": 24,
    "name_tr": "Eğri kuşatması (1552)",
    "name_en": "Siege of Eger (1552)",
    "date": "1552-10",
@@ -815,7 +886,7 @@
    "note_en": "The siege began on 9 September 1552 and was lifted about forty days later."
   },
   {
-   "id": 23,
+   "id": 25,
    "name_tr": "Sigetvar kuşatması (1556)",
    "name_en": "Siege of Szigetvár (1556)",
    "date": "1556",
@@ -848,7 +919,7 @@
    "home_batch": "osmanli-1520-1566"
   },
   {
-   "id": 24,
+   "id": 26,
    "name_tr": "Konya (1559)",
    "name_en": "Battle of Konya (1559)",
    "date": "1559-05-30",
@@ -884,7 +955,7 @@
    "note_en": "The battle began on 30 May and lasted two days; the defeated Bayezid took refuge with the Safavids."
   },
   {
-   "id": 25,
+   "id": 27,
    "name_tr": "Cerbe",
    "name_en": "Battle of Djerba",
    "date": "1560-05-14",
@@ -920,7 +991,7 @@
    "note_en": "A manoeuvre splitting the fleet in two scattered the larger Crusader fleet."
   },
   {
-   "id": 26,
+   "id": 28,
    "name_tr": "Cerbe Kalesi",
    "name_en": "Siege of Djerba castle",
    "date": "1560-07-30",
@@ -956,7 +1027,7 @@
    "note_en": "The castle siege that followed the naval victory lasted about two months; the island fell on 30 July 1560."
   },
   {
-   "id": 27,
+   "id": 29,
    "name_tr": "Malta kuşatması",
    "name_en": "Great Siege of Malta",
    "date": "1565-09",
@@ -992,7 +1063,7 @@
    "note_en": "Turgut Pasha died on the day St Elmo fell; the siege failed."
   },
   {
-   "id": 28,
+   "id": 30,
    "name_tr": "Sigetvar (1566)",
    "name_en": "Siege of Szigetvár (1566)",
    "date": "1566-09-07",

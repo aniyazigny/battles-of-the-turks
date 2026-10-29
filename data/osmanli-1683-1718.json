@@ -885,6 +885,41 @@
   },
   {
    "id": 25,
+   "name_tr": "Korfu (1716)",
+   "name_en": "Siege of Corfu (1716)",
+   "date": "1716-08",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Venedik savaşı (1714–1718)",
+   "place": "Korfu",
+   "lat": 39.62,
+   "lon": 19.92,
+   "loc": "known",
+   "country": "Yunanistan",
+   "side_a": "Venedik",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:ahmed-iii"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1683-1718",
+   "note": "Avusturyalılar'ın müdahalesi ve Türk kuvvetlerinin iki cepheye ayrılması yüzünden Korfu seferi başarılı olamadı; Petervaradin yenilgisi kuşatmanın kaldırılmasına yol açtı. (Kontrol turunda eklendi.)",
+   "note_en": "Because of the Austrian intervention and the division of the Turkish forces between two fronts, the Corfu expedition failed; the defeat at Petrovaradin led to the siege being lifted."
+  },
+  {
+   "id": 26,
    "name_tr": "Temeşvar'ın kaybı (1716)",
    "name_en": "Siege of Temesvár (1716)",
    "date": "1716-10",
@@ -920,7 +955,7 @@
    "note_en": "The Banat and Timișoara passed to Austria."
   },
   {
-   "id": 26,
+   "id": 27,
    "name_tr": "Belgrad (1717)",
    "name_en": "Siege of Belgrade (1717)",
    "date": "1717-08",
