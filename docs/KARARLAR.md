@@ -82,3 +82,9 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Çaldıran ve diğer Safevî savaşları | Dış rakip (Safevîler kapsam listesinde değil) | — |
 | Mercidâbık, Gazze, Ridâniye | Dış rakip (Memlükler kapsam dışı Türk devleti) | Türk devletleri arası |
 | Turnadağ 1515 | Türk devletleri arası (Dulkadıroğulları) | — |
+
+## Kayıt kararları (Parti 8: Osmanlı 1520–1566, 2026-10-29)
+| Kayıt | Karar | Alternatif okuma |
+|---|---|---|
+| Güns 1532 | Osmanlı başarısı, ihtilaflı | Batı kaynakları: sembolik teslim |
+| Cerbe 1560 | Deniz savaşı ve kale kuşatması ayrı kayıt | — |
