@@ -816,11 +816,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mesud-i"
+    "TDVIA:mesud-i",
+    "TDVIA:malatya"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

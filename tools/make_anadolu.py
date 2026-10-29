@@ -282,6 +282,7 @@ LEFT = [
 
 # İkinci kaynak turu (2026-10-28): kayıt numarasına göre ek kaynaklar ve alan düzeltmeleri
 EXTRA_SRC = {
+    "Malatya kuşatması (1143)": ["TDVIA:malatya"],  # Mesud Malatya'yı 1143 ve 1144'te kuşattıysa da alamadı (kontrol turu)
  2: ["TDVIA:antakya"], 3: ["TDVIA:antakya", "TDVIA:halep"], 4: ["TDVIA:halep"], 12: ["TDVIA:danismendliler"],
  13: ["TDVIA:malatya", "TDVIA:danismendliler"], 14: ["TDVIA:sanliurfa"], 19: ["TDVIA:gaziantep"], 20: ["TDVIA:gaziantep"],
  32: ["TDVIA:malatya"], 43: ["TDVIA:el-melikul-esref-musa"], 45: ["TDVIA:husameddin-coban", "TDVIA:cobanogullari"],
@@ -317,7 +318,7 @@ ROM_NOTE = {"Konya önleri (1146)": " Roma veri seti aynı seferde Akroinon'da (
 recs = []
 for i, r in enumerate(R, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, st, src, disp, note, note_en) = r
-    src = src + [s for s in EXTRA_SRC.get(i, []) if s not in src]
+    src = src + [s for s in EXTRA_SRC.get(i, []) + EXTRA_SRC.get(ntr, []) if s not in src]  # anahtar: sıra no ya da kayıt adı
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": "land", "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": st, "sources": src,

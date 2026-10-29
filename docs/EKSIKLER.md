@@ -10,8 +10,8 @@ Son güncelleme: 2026-10-30
 | Parti | Kayıt | Tek kaynaklı |
 |---|---|---|
 | Pilot Büyük Selçuklu | 80 | 12 |
-| Anadolu Selçukluları | 72 | 26 |
-| Beylikler ve atabeylikler | 72 | 41 |
+| Anadolu Selçukluları | 72 | 25 |
+| Beylikler ve atabeylikler | 72 | 40 |
 | Gazneli ve Karahanlı | 37 | 13 |
 | Osmanlı kuruluş | 31 | 11 |
 | Osmanlı 1402–1481 | 46 | 11 |

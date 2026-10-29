@@ -2451,11 +2451,12 @@
    "status": "kesin",
    "sources": [
     "TDVIA:danismendliler",
-    "ROM"
+    "ROM",
+    "TDVIA:niksar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": true,
     "academic": false

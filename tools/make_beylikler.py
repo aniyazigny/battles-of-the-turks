@@ -268,7 +268,7 @@ OPP_STATE = {"Âmid (Kürboğa'ya karşı)": "Büyük Selçuklu", "Dârâ (Aksun
              "Hama (1130)": BOR, "Humus kuşatması (1135)": BOR, "Ba'lebek (1139)": BOR, "Dımaşk'ın alınışı (1154)": BOR}
 
 # İkinci kaynak turu (2026-10-28): kayıt adına göre ek kaynaklar ve düzeltmeler
-EXTRA_SRC = {"Sivas (Sebasteia)": ["ROM"], "Hârim (1164)": ["ROM"], "Suruç (I)": ["AKD:celik-2021"], "Suruç (II)": ["AKD:celik-2021"], "Şiran (Bayburt yakını)": ["AKD:celik-2021"], "Harput Kalesi'nin geri alınması": ["AKD:celik-2021"], "Azâz kuşatması (1123–24)": ["AKD:celik-2021"], "Serûc (Josselin'in esareti)": ["TDVIA:artuklular", "AKD:celik-2021"], "Turuş (Kral Baudouin'in esareti)": ["TDVIA:artuklular", "AKD:celik-2021"],
+EXTRA_SRC = {"Niksar (1140)": ["TDVIA:niksar"], "Sivas (Sebasteia)": ["ROM"], "Hârim (1164)": ["ROM"], "Suruç (I)": ["AKD:celik-2021"], "Suruç (II)": ["AKD:celik-2021"], "Şiran (Bayburt yakını)": ["AKD:celik-2021"], "Harput Kalesi'nin geri alınması": ["AKD:celik-2021"], "Azâz kuşatması (1123–24)": ["AKD:celik-2021"], "Serûc (Josselin'in esareti)": ["TDVIA:artuklular", "AKD:celik-2021"], "Turuş (Kral Baudouin'in esareti)": ["TDVIA:artuklular", "AKD:celik-2021"],
              "Menbic": ["TDVIA:menbic", "AKD:erdem-2018", "AKD:celik-2021"], "Serce (Artuklulara karşı)": ["TDVIA:artuklular"], "Josselin'e yenilgi": ["TDVIA:gaziantep"],
              "Dımaşk (1148)": ["TDVIA:nureddin-zengi-mahmud"]}
 FIX = {"Suruç (I)": {"date": "1101", "dispute": "Tarih: Belek maddesi 1100 verir; Sökmen maddesi tarih vermez. Çelik (2021) iki Suruç çarpışmasını da 1101'e koyar; burada Çelik'e uyuldu."},
