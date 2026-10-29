@@ -1,6 +1,8 @@
 # Battles of the Turks / Türklerin Savaştığı Yerler
 
-[Where the Romans Fought](https://iosiflazaridis.github.io/battles-of-the-romans/) sitesinin Türk karşılığı. **Durum:** araştırma aşaması. Pilot verisiyle çalışan demo: https://aniyazigny.github.io/battles-of-the-turks/
+## 🗺️ Haritayı aç: **[aniyazigny.github.io/battles-of-the-turks](https://aniyazigny.github.io/battles-of-the-turks/)**
+
+[Where the Romans Fought](https://iosiflazaridis.github.io/battles-of-the-romans/) sitesinin Türk karşılığı. **Durum:** veri toplama ve doğrulama aşaması; demo her güncellemede GitHub Pages'te yenilenir.
 
 ## Belgeler
 | Dosya | İçerik |
