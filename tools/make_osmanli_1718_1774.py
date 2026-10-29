@@ -104,7 +104,7 @@ R = [
 LEFT = [
  {"name": "1723–1725 İran seferinin tek tek kuşatmaları (Tiflis, Revan, Tebriz, Hemedan)", "reason": "Ahmed III maddesi toplu anlatır; tarihler yok.", "source": "TDVIA:ahmed-iii"},
  {"name": "Gence, Tiflis ve Revan'ın Nâdir'e geçişi (1735)", "reason": "Arpaçayı kaydının notunda; ayrı kayıt açılmadı.", "source": "TDVIA:nadir-sah--iran"},
- {"name": "Kırım'ın 1736–1738 istilâları; Orkapı, Gözleve, Kılburun", "reason": "Kırım Hanlığı'nın savaşları için kapsam kararı bekleniyor.", "source": "TDVIA:kirim"},
+ {"name": "Kırım'ın 1737 ve 1738 istilâları", "reason": "1736 istilâsı kaydedildi; sonraki yıllar indirilen maddelerde ayrıntılı geçmiyor.", "source": "TDVIA:kirim"},
  {"name": "Larga (1770), Yergöğü, Kılburun", "reason": "TDVİA'da adıyla ayrı savaş olarak bulunamadı; İvazzâde Halil Paşa maddesi Larga'yı Kartal ile bir tutar.", "source": "TDVIA:ivazzade-halil-pasa"},
 ]
 
@@ -146,8 +146,19 @@ FIX = {"Nihâvend (1726)": {"turkic_cmd": "Bağdat Valisi Ahmed Paşa",
         "note_en": "The grand vizier, commanding in person, was defeated and had to abandon his camp."},
  "Kozluca (1774)": {"date": "1774-06-25"}}
 
+# Eksik turu: Kırım Hanlığı'nın Osmanlı savaşları içindeki muharebeleri (KARARLAR: borderline)
+KIRIM = {
+ "Azak'ın kaybı (1736)": [("Kırım'ın istilâsı (1736)", "Russian invasion of Crimea (1736)", "1736-07", W3, "Orkapı, Gözleve, Bahçesaray", 45.60, 33.80, "region", "Ukrayna",
+  "Rusya", "Kırım Hanlığı (Osmanlı tâbiiyetinde)", "", "Burkhard Christoph von Münnich", "dis", "L", "borderline",
+  ["TDVIA:mahmud-i--osmanli"], "", "13 Temmuz 1736'ya kadar Ruslar Orkapı ve Gözleve'yi aldı, Bahçesaray ve Akmescid'i tahrip etti. Kırım Hanlığı kaydı (KARARLAR).",
+  "By 13 July 1736 the Russians had taken Perekop and Gözleve and devastated Bakhchisaray and Akmescit. Crimean Khanate record (see KARARLAR).", "land")],
+}
 recs = []
-for i, r in enumerate(R, 1):
+RR = []
+for r in R:
+    RR.append(r)
+    RR += KIRIM.get(r[0], [])
+for i, r in enumerate(RR, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ) = r
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,

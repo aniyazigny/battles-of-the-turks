@@ -100,12 +100,26 @@ LEFT = [
  {"name": "Mora'nın kaybı (1685–1687): Koron, Navarin, Modon, Anabolu, Atina, İnebahtı", "reason": "TDVİA Mora maddesinde tarihli savaş cümlesi bulunamadı.", "source": "TDVIA:mora"},
  {"name": "Çatalköprü (1686)", "reason": "Budin'den sonra Avusturya birliklerini takip eden kuvvetin yenilgisi; tarih verilmiyor.", "source": "TDVIA:suleyman-pasa-sari"},
  {"name": "Korfu kuşatması (1716)", "reason": "Sonuç maddede net değil.", "source": "TDVIA:sehid-ali-pasa"},
- {"name": "Orkapı (1689), Lemberg akını (1695)", "reason": "Kırım Hanlığı'nın savaşları; kapsam kararı gerekiyor.", "source": "TDVIA:suleyman-ii"},
  {"name": "Bebe Süleyman isyanı (1699)", "reason": "Küçük çaplı; tarih ve yer ayrıntısı eksik.", "source": "TDVIA:mustafa-ii"},
 ]
 
+# Eksik turu: Kırım Hanlığı'nın Osmanlı savaşları içindeki muharebeleri (KARARLAR: borderline)
+KIRIM = {
+ "Belgrad'ın kaybı (1688)": [("Orkapı (1689)", "Battle of Perekop (1689)", "1689-05-30", "Kutsal İttifak savaşları (1683–1699)", "Orkapı (Perekop)", 46.16, 33.69, "known", "Ukrayna",
+  "Kırım Hanlığı (Osmanlı tâbiiyetinde)", "Rusya", "Selim Giray Han", "Vasiliy Golitsyn", "dis", "W", "borderline",
+  ["TDVIA:suleyman-ii"], "", "Osmanlı ordusuyla birlikte bulunan han memleketine dönüp Rusları Orkapı'da bozguna uğrattı. Kırım Hanlığı kaydı (KARARLAR).",
+  "The khan, who had been with the Ottoman army, returned home and routed the Russians at Perekop. Crimean Khanate record (see KARARLAR).", "land")],
+ "Sakız (1695)": [("Lemberg akını (1695)", "Tatar raid to Lviv (1695)", "1695", "Kutsal İttifak savaşları (1683–1699)", "Lemberg (Lviv) yöresi", 49.84, 24.03, "region", "Ukrayna",
+  "Kırım Hanlığı (Osmanlı tâbiiyetinde)", "Lehistan", "Şahbaz Giray", "", "dis", "W", "borderline",
+  ["TDVIA:ahmed-ii", "TDVIA:mustafa-ii"], "", "1695 ilkbaharında Lehistan'a giren Şahbaz Giray Lemberg taraflarına akın etti, kralın ordusunu yendi ve çok esir ve ganimetle döndü. Kırım Hanlığı kaydı (KARARLAR).",
+  "Entering Poland in spring 1695, Şahbaz Giray raided around Lviv, defeated the king's army and returned with many captives and much booty. Crimean Khanate record (see KARARLAR).", "land")],
+}
 recs = []
-for i, r in enumerate(R, 1):
+RR = []
+for r in R:
+    RR.append(r)
+    RR += KIRIM.get(r[0], [])
+for i, r in enumerate(RR, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ) = r
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
