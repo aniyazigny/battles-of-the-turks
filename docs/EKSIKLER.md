@@ -59,7 +59,7 @@ Son güncelleme: 2026-10-30
 - [ ] **Osmanlı 1914–1918:** Galiçya, Romanya, Makedonya kolorduları; İran harekâtı (Hemedan); Şeria 1918; Nablus–Megiddo 1918; Van 1915; Aden–Lahic; Medine müdafaası boyunca çatışmalar; Hicaz demiryolu baskınları; Akabe 1917; Erzincan 1918.
 - [ ] **Osmanlı 1912–1913:** Hamidiye akınları; Elli ve Limni deniz muharebeleri; Şarköy ve Bolayır 1913; Priştine, Ohri, Pirlepe, Midilli, İmroz, Bozcaada işgalleri.
 - [ ] **Osmanlı 1878–1912:** Termopil 1897 (Velestin 1897 eklendi, 2026-10-30); Yemen isyanları 1891–97 ve 1902–04; Arnavut ve Malisör isyanları 1909–12; Derne ve Tobruk cephesi 1912; Girit 1897.
-- [ ] **Türkistan hanlıkları 1839–1880:** Hokand, Buhara ve Hîve'nin Rus işgaline karşı savaşları (Taşkent 1865, Semerkant 1868, Hîve 1873) Osmanlı tablosu dışında; kapsam kararı ve harita (Semerkant, Taşkent Rusya) bekliyor.
+- [ ] **Türkistan hanlıkları 1839–1880:** Hokand, Buhara ve Hîve'nin Rus işgaline karşı savaşları (Taşkent 1865, Semerkant 1868, Hîve 1873) Osmanlı tablosu dışında; kapsam kararı bekliyor. Harita işlendi (2026-10-30, `tools/fix_borders_turkistan.py`: Semerkant 1868, Merv 1884, Buhara ve Hîve 1920 Rusya; Belh Afgan).
 - [x] **Göktürkler ve Uygurlar:** Parti 21 ilk tur (2026-10-30, 26 kayıt).
 - [ ] **Göktürk–Uygur eksikleri:** Sâsânî–Göktürk savaşları 569–571 ve 588–589, Kapgan'ın Semerkant müdahalesi 701, Karluk isyanları 711–714, Beşbalık 791, Uygur–Tibet savaşları, Uygur–Kırgız savaşları 821 sonrası; Orhon yazıtları için akademik kaynak (Erhan Aydın, Ahmet Taşağıl).
 - [ ] **Kapsam kararı bekleyen erken devletler:** Asya Hunları, Avrupa Hunları, Akhunlar, Avarlar, Hazarlar, Tuna Bulgarları, Peçenekler, İdil Bulgarları, Kırgızlar.
