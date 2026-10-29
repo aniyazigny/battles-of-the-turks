@@ -172,6 +172,112 @@
    "id": 4
   },
   {
+   "name_tr": "Artah ve İm (1068)",
+   "name_en": "Turkmen capture of Artah and Imm (1068)",
+   "date": "1068-07-01",
+   "hijri": "",
+   "type": "land",
+   "war": "Kuzey Suriye Türkmenlerinin Bizans'la mücadelesi",
+   "place": "Artah",
+   "lat": 36.27,
+   "lon": 36.57,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Hârûn b. Han ve Mirdâsî Emîr Mahmûd",
+   "side_b": "Bizans",
+   "turkic_cmd": "Hârûn b. Han",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:harun-b-han"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Hârûn b. Han (Kuzey Suriye Türkmenleri)",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Türkmen ve Arap kuvvetlerini birleştiren Hârûn ve Emîr Mahmûd Bizans topraklarına gazâya başlayarak Artah ve İm kalelerini aldı; Halep Bizans saldırılarına karşı güçlendi. (Kontrol turunda eklendi.)",
+   "note_en": "Uniting Turkmen and Arab forces, Harun and Emir Mahmud raided Byzantine territory and took the castles of Artah and Imm.",
+   "id": 5
+  },
+  {
+   "name_tr": "Artah'ın kaybı (1069)",
+   "name_en": "Byzantine recapture of Artah (1069–70)",
+   "date": "1069",
+   "hijri": "",
+   "type": "land",
+   "war": "Kuzey Suriye Türkmenlerinin Bizans'la mücadelesi",
+   "place": "Artah",
+   "lat": 36.27,
+   "lon": 36.57,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Bizans",
+   "side_b": "Hârûn b. Han ve Mirdâsî Emîr Mahmûd",
+   "turkic_cmd": "Hârûn b. Han",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:harun-b-han"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Hârûn b. Han (Kuzey Suriye Türkmenleri)",
+   "home_batch": "beylikler-atabeylikler",
+   "dispute": "Madde geri alışı 462 (1069-70) yılına koyar.",
+   "note": "Bizanslılar geri çekilen Türkmen ve Arap kuvvetlerini takip edemediyse de Artah ve İm kalelerini kolayca geri aldı. (Kontrol turunda eklendi.)",
+   "note_en": "The Byzantines did not dare pursue the retreating Turkmen and Arab forces but easily retook Artah and Imm.",
+   "id": 6
+  },
+  {
+   "name_tr": "Kınnesrîn (1097)",
+   "name_en": "Battle of Qinnasrin (1097)",
+   "date": "1097-03-22",
+   "hijri": "",
+   "type": "land",
+   "war": "Tutuş'un oğulları arasındaki mücadele",
+   "place": "Kınnesrîn",
+   "lat": 35.99,
+   "lon": 37.05,
+   "loc": "approx",
+   "country": "Suriye",
+   "side_a": "Rıdvân (Halep)",
+   "side_b": "Dukak (Dımaşk)",
+   "turkic_cmd": "Rıdvân b. Tutuş",
+   "opp_cmd": "Dukak",
+   "category": "ic",
+   "result": "C",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:ridvan-b-tutus"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Halep Selçuklu melikliği (Rıdvân)",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Halep'e saldıran Dukak Kınnesrîn'de bozguna uğradı. (Kontrol turunda eklendi.)",
+   "note_en": "Duqaq, who had attacked Aleppo, was routed at Qinnasrin.",
+   "id": 7
+  },
+  {
    "name_tr": "Suruç (I)",
    "name_en": "Battle of Saruj (I)",
    "date": "1101",
@@ -207,7 +313,7 @@
    "dispute": "Tarih: Belek maddesi 1100 verir; Sökmen maddesi tarih vermez. Çelik (2021) iki Suruç çarpışmasını da 1101'e koyar; burada Çelik'e uyuldu.",
    "note": "Haçlı ve Ermeni kuvvetleri ağır yenildi, Foulque de Chartres öldü. Sökmen ardından iç kaleyi kuşattı.",
    "note_en": "The Crusader and Armenian forces were heavily defeated and Fulcher of Chartres was killed. Sökmen then besieged the citadel.",
-   "id": 5
+   "id": 8
   },
   {
    "name_tr": "Suruç (II)",
@@ -244,7 +350,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Sökmen düşmanı bozmak üzereyken bir kısım Türkmenin savaş alanını terk etmesiyle çekilmek zorunda kaldı.",
    "note_en": "Sökmen was close to victory when part of his Turkmens left the field, forcing him to withdraw.",
-   "id": 6
+   "id": 9
   },
   {
    "name_tr": "Âmid (Kürboğa'ya karşı)",
@@ -280,7 +386,7 @@
    "note": "Kürboğa savaşı kazandı ama şehri alamadı. Kürboğa Büyük Selçuklu valisidir; Artuklular ayrı hanedan olduğu için Türk devletleri arası.",
    "note_en": "Kerbogha won the battle but could not take the city. Kerbogha was a Great Seljuk governor; the Artuqids were a separate dynasty, so inter-Turkic.",
    "opp_state": "Büyük Selçuklu",
-   "id": 7
+   "id": 10
   },
   {
    "name_tr": "Malatya (Bohemund'un esareti)",
@@ -318,7 +424,7 @@
    "dispute": "Tarih: Dânişmendliler maddesi Ramazan 493 / Temmuz 1100, Kılıcarslan I maddesi Şevval 493 / Ağustos 1100.",
    "note": "Bohemund pusuya düşürülüp esir alındı ve Niksar'da hapsedildi. Bu olay 1101 Haçlı seferinin Amasya–Niksar yönüne gitmesinin sebebidir.",
    "note_en": "Bohemond was ambushed, captured and imprisoned at Niksar. This drew the 1101 Crusade towards Amasya and Niksar.",
-   "id": 8
+   "id": 11
   },
   {
    "name_tr": "Malatya'nın fethi (1102)",
@@ -354,7 +460,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Uzun kuşatmadan sonra kıtlık çeken halk Gabriel'e karşı döndü.",
    "note_en": "After a long siege the starving townspeople turned against Gabriel.",
-   "id": 9
+   "id": 12
   },
   {
    "name_tr": "Dârâ (Aksungur'a karşı)",
@@ -391,7 +497,7 @@
    "note": "Sultanın oğlu Mesud esir alındı. İlgazi daha önce Haçlılara karşı cihada katılmayı reddetmişti.",
    "note_en": "The sultan's son Mas'ud was captured. Ilghazi had earlier refused to join the campaign against the Crusaders.",
    "opp_state": "Büyük Selçuklu",
-   "id": 10
+   "id": 13
   },
   {
    "name_tr": "Belâta (Ager Sanguinis)",
@@ -427,7 +533,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kaynaklarda \"Kanlı Meydan\" diye anılır; Haçlı ordusu âdeta imha edildi.",
    "note_en": "Known as the Field of Blood; the Crusader army was all but destroyed.",
-   "id": 11
+   "id": 14
   },
   {
    "name_tr": "Şiran (Bayburt yakını)",
@@ -466,7 +572,7 @@
    "dispute": "Yer: Dânişmendliler maddesi Bayburt yakınında Serman (Şiran), Mengücüklüler maddesi Erzincan yakınında Sirvan der; Belek maddesi yalnızca Bayburt yakını der.",
    "note": "Gabras ve Mengücükoğlu esir alındı; Gabras 30.000 dinar fidyeyle bırakıldı. Mengücüklüler Türk beyliğidir; asıl rakip Bizans'ın Trabzon dükü olduğu için dış rakip.",
    "note_en": "Gabras and the Mengujekid ruler were captured; Gabras was ransomed for 30,000 dinars. The Mengujekids were a Turkic beylik; the main opponent was the Byzantine duke of Trebizond, so recorded as external.",
-   "id": 12
+   "id": 15
   },
   {
    "name_tr": "Serûc (Josselin'in esareti)",
@@ -503,7 +609,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Esirler Harput'ta hapsedildi.",
    "note_en": "The prisoners were held at Harput.",
-   "id": 13
+   "id": 16
   },
   {
    "name_tr": "Turuş (Kral Baudouin'in esareti)",
@@ -540,7 +646,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kral, Gerger'i kuşatan Belek'e karşı yardıma giderken baskına uğradı. Sultan Mahmud bu zaferden sonra Belek'i Haçlılara karşı başkumandan yaptı.",
    "note_en": "The king was surprised while marching to relieve Gerger from Belek. Sultan Mahmud then made Belek commander-in-chief against the Crusaders.",
-   "id": 14
+   "id": 17
   },
   {
    "name_tr": "Harput Kalesi'nin geri alınması",
@@ -576,7 +682,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kaleyi ele geçiren Haçlı esirleri Belek yetişince yenildi; kral ve senyörler Harran'a gönderildi.",
    "note_en": "The Crusader prisoners who had seized the castle were overcome when Belek arrived; the king and lords were sent to Harran.",
-   "id": 15
+   "id": 18
   },
   {
    "name_tr": "Azâz kuşatması (1123–24)",
@@ -612,7 +718,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Belek komutasındaki kuvvetler kaleyi kuşattı; Joscelin'in yardıma gelmesi ve garnizonun huruç hareketi üzerine Belek iki ateş arasında kalmamak için çekildi (Çelik 2021).",
    "note_en": "Forces under Belek besieged the castle; when Joscelin came to its relief and the garrison sallied, Belek withdrew to avoid being caught between them (Çelik 2021).",
-   "id": 16
+   "id": 19
   },
   {
    "name_tr": "Meşhalâ",
@@ -647,7 +753,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Ardından Mücedded Kalesi alındı.",
    "note_en": "Mujaddad castle was then taken.",
-   "id": 17
+   "id": 20
   },
   {
    "name_tr": "Menbic",
@@ -686,7 +792,7 @@
    "note": "Ertesi gün kuşatmayı sürdüren Belek kaleden atılan bir okla öldü (6 Mayıs 1124).",
    "note_en": "Belek, continuing the siege next day, was killed by an arrow from the castle (6 May 1124).",
    "dispute": "Menbic maddesi Belek'in Safer 518 / Nisan 1124'te Menbic'e geldiğini yazar; savaş Belek maddesine göre 5 Mayıs 1124'tedir.",
-   "id": 18
+   "id": 21
   },
   {
    "name_tr": "Halep'in kurtarılması (1125)",
@@ -721,7 +827,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kuşatanlar çekildi; Aksungur şehri aldı.",
    "note_en": "The besiegers withdrew and Aqsunqur took over the city.",
-   "id": 19
+   "id": 22
   },
   {
    "name_tr": "Azâz (1125)",
@@ -757,7 +863,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Ağır bir bozgun; Haçlılar takip edecek güç bulamadı.",
    "note_en": "A heavy defeat; the Crusaders lacked the strength to pursue.",
-   "id": 20
+   "id": 23
   },
   {
    "name_tr": "Taberiye (1108)",
@@ -790,7 +896,42 @@
    },
    "state": "Böriler (Dımaşk Atabegliği)",
    "home_batch": "beylikler-atabeylikler",
-   "id": 21
+   "id": 24
+  },
+  {
+   "name_tr": "Tel Bâşir (1108)",
+   "name_en": "Battle of Turbessel (1108)",
+   "date": "1108-09",
+   "hijri": "",
+   "type": "land",
+   "war": "Musul ve Halep emîrlerinin mücadelesi",
+   "place": "Tel Bâşir",
+   "lat": 36.79,
+   "lon": 37.82,
+   "loc": "known",
+   "country": "Türkiye",
+   "side_a": "Rıdvân ve Antakya (Tankred)",
+   "side_b": "Çavlı (Musul), Urfa Kontluğu (Baudouin, Joscelin)",
+   "turkic_cmd": "Rıdvân b. Tutuş",
+   "opp_cmd": "Çavlı Sakavu",
+   "category": "turk_arasi",
+   "result": "D",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:ridvan-b-tutus"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Halep Selçuklu melikliği (Rıdvân)",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Bâlîs'i işgal eden Çavlı'ya karşı Rıdvân Tankred'le, Çavlı da Baudouin ve Joscelin'le ittifak yaptı; savaşta iki taraf da ağır kayıp verdi, Bâlîs Halep'e döndü. (Kontrol turunda eklendi.)",
+   "note_en": "Against Chavli, who had seized Balis, Ridwan allied with Tancred and Chavli with Baldwin and Joscelin; both sides suffered heavy losses and Balis returned to Aleppo.",
+   "id": 25
   },
   {
    "name_tr": "Refeniye (1115)",
@@ -825,7 +966,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Haçlıların işgal ettiği Refeniye âni bir baskınla geri alındı (Cemâziyelâhir 509).",
    "note_en": "Rafaniyya, occupied by the Crusaders, was recovered in a surprise attack (November 1115).",
-   "id": 22
+   "id": 26
   },
   {
    "name_tr": "Kont Guillaume'un baskını",
@@ -860,7 +1001,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Baskına uğrayan Tuğtegin ağır şartlarla anlaşmak zorunda kaldı.",
    "note_en": "Surprised, Toghtekin was forced into a treaty on harsh terms.",
-   "id": 23
+   "id": 27
   },
   {
    "name_tr": "Pons'un yenilgisi (1137)",
@@ -895,7 +1036,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Pons Dımaşklılara karşı savaşta öldü. Yeri ve Dımaşklı komutan kaynakta yok.",
    "note_en": "Pons was killed fighting the Damascenes. Place and Damascene commander not given.",
-   "id": 24
+   "id": 28
   },
   {
    "name_tr": "Mercüssuffer",
@@ -930,7 +1071,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Haçlı piyadesi ağır kayıp verdi ama Türk süvarisi bozuldu.",
    "note_en": "The Crusader infantry suffered heavily but the Turkish cavalry was routed.",
-   "id": 25
+   "id": 29
   },
   {
    "name_tr": "Dımaşk (1148)",
@@ -966,7 +1107,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Yardımcı kuvvetler kuzey kapısından girince Üner karşı taarruza geçti; İkinci Haçlı Seferi böylece sonuçsuz kaldı.",
    "note_en": "When relief forces entered by the north gate, Unur counter-attacked; the Second Crusade ended without result.",
-   "id": 26
+   "id": 30
   },
   {
    "name_tr": "Serce (Artuklulara karşı)",
@@ -1003,7 +1144,7 @@
    "note": "Dâvûd ve Timurtaş yenilip Serce ile Dârâ'yı Zengî'ye bıraktı (Artuklular maddesi). Kaynaktaki sayılar (20.000 Türkmene karşı 4000) alınmadı.",
    "note_en": "Dawud and Timurtash were defeated and ceded Serce and Dara to Zengi (Artuqids article). The source figures (4,000 against 20,000 Turkmens) are not used.",
    "opp_state": "Artuklular",
-   "id": 27
+   "id": 31
   },
   {
    "name_tr": "Esârib'in fethi",
@@ -1038,7 +1179,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Çatışmanın ayrıntısı kaynakta yok.",
    "note_en": "No detail of the fighting in the source.",
-   "id": 28
+   "id": 32
   },
   {
    "name_tr": "Karaca Sâkî'ye yenilgi",
@@ -1074,7 +1215,7 @@
    "note": "Zengî, Mesud'a katılmak üzere yola çıkmıştı. Atabeylik ile sultanlık arası olduğu için Türk devletleri arası sayıldı.",
    "note_en": "Zengi had set out to join Mas'ud. Counted as inter-Turkic because it was between an atabegate and the sultanate.",
    "opp_state": "Irak Selçukluları",
-   "id": 29
+   "id": 33
   },
   {
    "name_tr": "Âmid (Dâvûd'a karşı)",
@@ -1110,7 +1251,7 @@
    "note": "Âmid kuşatıldı ama alınamadı.",
    "note_en": "Amida was besieged but not taken.",
    "opp_state": "Artuklular",
-   "id": 30
+   "id": 34
   },
   {
    "name_tr": "Ba'rîn",
@@ -1146,7 +1287,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kral Foulque baskından güçlükle kurtuldu; Bizans seferi haberiyle kaleyi emanla teslim etti.",
    "note_en": "King Fulk barely escaped; on news of the Byzantine campaign he surrendered the castle on terms.",
-   "id": 31
+   "id": 35
   },
   {
    "name_tr": "Urfa'nın fethi",
@@ -1183,7 +1324,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "İlk Haçlı devleti sona erdi; haber Avrupa'da İkinci Haçlı Seferi'ne yol açtı.",
    "note_en": "The first Crusader state ended; the news led to the Second Crusade.",
-   "id": 32
+   "id": 36
   },
   {
    "name_tr": "Bire kuşatması",
@@ -1218,7 +1359,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kale düşmek üzereyken Musul nâibinin öldürüldüğü haberiyle kuşatma kaldırıldı.",
    "note_en": "Lifted, with the castle about to fall, on news that his deputy in Mosul had been killed.",
-   "id": 33
+   "id": 37
   },
   {
    "name_tr": "Urfa (1146)",
@@ -1254,7 +1395,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Josselin iç kale dışında şehri ele geçirmişti; Nûreddin şehri geri aldı.",
    "note_en": "Joscelin had seized the town except the citadel; Nur al-Din retook it.",
-   "id": 34
+   "id": 38
   },
   {
    "name_tr": "Yağra",
@@ -1288,7 +1429,7 @@
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
-   "id": 35
+   "id": 39
   },
   {
    "name_tr": "İnnib (İnab)",
@@ -1325,7 +1466,7 @@
    "dispute": "Yer: Şîrkûh maddesi 'Azâz yakınlarındaki İnnib' der; Batı kaynaklarına göre İnab, Efâmiye yakınındadır.",
    "note": "Efâmiye kalesi ardından teslim oldu.",
    "note_en": "Apamea castle surrendered afterwards.",
-   "id": 36
+   "id": 40
   },
   {
    "name_tr": "Josselin'e yenilgi",
@@ -1362,7 +1503,7 @@
    "note": "Ardından Türkmenler Josselin'i yakalayıp Nûreddin'e teslim etti (Mayıs 1150).",
    "note_en": "Turkmens then captured Joscelin and handed him over to Nur al-Din (May 1150).",
    "dispute": "Tarih: Gaziantep maddesi 1149; Nûreddin maddesi yenilgiyi Josselin'in Mayıs 1150'de teslim alınmasından önceye koyar.",
-   "id": 37
+   "id": 41
   },
   {
    "name_tr": "Banyas (1153)",
@@ -1397,7 +1538,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Askalân'ı kurtarma girişimi; savaştan sonuç alınamadı.",
    "note_en": "An attempt to relieve Ascalon; the battle was inconclusive.",
-   "id": 38
+   "id": 42
   },
   {
    "name_tr": "Hârim kuşatması (1156)",
@@ -1430,7 +1571,7 @@
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
-   "id": 39
+   "id": 43
   },
   {
    "name_tr": "Hısnülekrâd (el-Bukay'a)",
@@ -1466,7 +1607,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Ordu dinlenirken baskına uğradı; Nûreddin yakalanmaktan güçlükle kurtuldu. Ardından cihad çağrısı yaptı ve ertesi yıl Hârim'i aldı.",
    "note_en": "The army was surprised while resting; Nur al-Din barely escaped capture. He then called for jihad and took Harim the next year.",
-   "id": 40
+   "id": 44
   },
   {
    "name_tr": "Hârim (1164)",
@@ -1503,7 +1644,42 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Hârim kalesi alındı. Bu baskı Haçlıları Mısır'da Şîrkûh'un kuşatmasını kaldırmaya zorladı.",
    "note_en": "Harim castle was taken. The pressure forced the Crusaders to lift their siege of Shirkuh in Egypt.",
-   "id": 41
+   "id": 45
+  },
+  {
+   "name_tr": "Banyas (1164)",
+   "name_en": "Capture of Banias (1164)",
+   "date": "1164-10",
+   "hijri": "",
+   "type": "land",
+   "war": "Nûreddin'in Haçlılarla mücadelesi",
+   "place": "Banyas",
+   "lat": 33.25,
+   "lon": 35.69,
+   "loc": "approx",
+   "country": "Suriye",
+   "side_a": "Zengîler (Nûreddin)",
+   "side_b": "Kudüs Krallığı",
+   "turkic_cmd": "Nûreddin Mahmud Zengî",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:nureddin-zengi-mahmud"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Hârim'in ardından 1148-49'dan beri Haçlılar'ın elindeki Banyas fethedildi (Zilhicce 559 / Ekim-Kasım 1164). (Kontrol turunda eklendi.)",
+   "note_en": "After Harim, Banias, held by the Crusaders since 1148–49, was taken (October–November 1164).",
+   "id": 46
   },
   {
    "name_tr": "Bâbeyn",
@@ -1539,7 +1715,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Şîrkûh Kürt kökenlidir ama Nûreddin'in komutanı olarak savaştı; K3 gereği Zengîlere yazıldı.",
    "note_en": "Shirkuh was of Kurdish origin but fought as Nur al-Din's commander; under K3 recorded for the Zengids.",
-   "id": 42
+   "id": 47
   },
   {
    "name_tr": "Kilikya (Mleh'e destek)",
@@ -1574,7 +1750,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Mleh Adana, Misis ve Tarsus'u aldı. Tarih yaklaşık.",
    "note_en": "Mleh took Adana, Mamistra and Tarsus. Date approximate.",
-   "id": 43
+   "id": 48
   },
   {
    "name_tr": "Gürcülere karşı zafer (1131)",
@@ -1609,7 +1785,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Yer ve ayrıntı kaynakta az.",
    "note_en": "Little detail on place or course in the source.",
-   "id": 44
+   "id": 49
   },
   {
    "name_tr": "Ani baskını (1154)",
@@ -1643,7 +1819,7 @@
    },
    "state": "Saltuklular",
    "home_batch": "beylikler-atabeylikler",
-   "id": 45
+   "id": 50
   },
   {
    "name_tr": "Ani (1161)",
@@ -1679,7 +1855,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Saltuk savaş başlamadan ordugâhtan ayrıldı; yenilginin sebebi buydu. Esir sayısı kaynakta 9000'dir; alınmadı.",
    "note_en": "Saltuk left the camp before the battle, which caused the defeat. The source gives 9,000 prisoners; not used.",
-   "id": 46
+   "id": 51
   },
   {
    "name_tr": "Lukri",
@@ -1716,7 +1892,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Bir aydan uzun süren savaşın sonunda kralın ordugâhı yağmalandı.",
    "note_en": "After more than a month of fighting the king's camp was plundered.",
-   "id": 47
+   "id": 52
   },
   {
    "name_tr": "Koyun Adaları (deniz savaşı)",
@@ -1752,7 +1928,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Adaları kurtarmaya gelen Bizans donanması yenildi; Çaka Bey'in ilk deniz zaferi.",
    "note_en": "A Byzantine fleet sent to recover the islands was defeated; Tzachas's first naval victory.",
-   "id": 48
+   "id": 53
   },
   {
    "name_tr": "Sakız (1090)",
@@ -1787,7 +1963,7 @@
    "state": "Çaka Bey (İzmir Beyliği)",
    "home_batch": "beylikler-atabeylikler",
    "dispute": "TDVİA (Çaka Bey): Dalassenos Sakız'daki kara savaşında yenildi. Alternatif okuma: Roma veri seti (Anna Komnene) Bizans zaferi kaydeder. Karar [P6]: TDVİA.",
-   "id": 49
+   "id": 54
   },
   {
    "name_tr": "Midilli (1092)",
@@ -1822,7 +1998,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var.",
    "note_en": "Recorded only in the Roman dataset, based on Byzantine sources.",
-   "id": 50
+   "id": 55
   },
   {
    "name_tr": "Efes (1097)",
@@ -1857,7 +2033,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var. Haçlıların İznik'i almasından sonraki Bizans Ege seferi.",
    "note_en": "Recorded only in the Roman dataset, based on Byzantine sources. Part of the Byzantine Aegean campaign after the fall of Nicaea.",
-   "id": 51
+   "id": 56
   },
   {
    "name_tr": "Kastamonu (1132)",
@@ -1894,7 +2070,7 @@
    "dispute": "Tarih: TDVİA 1132, Roma veri seti 1133.",
    "note": "İmparator şehri alıp esirlerle İstanbul'a döndü.",
    "note_en": "The emperor took the town and returned to Constantinople with captives.",
-   "id": 52
+   "id": 57
   },
   {
    "name_tr": "Kastamonu (1133)",
@@ -1929,7 +2105,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kuşatmada açlık baş gösterince halk kapıları açtı (527/1133).",
    "note_en": "When hunger set in during the siege the townspeople opened the gates (527/1133).",
-   "id": 53
+   "id": 58
   },
   {
    "name_tr": "Çankırı (1135)",
@@ -1965,7 +2141,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "İlk kuşatma Selçuklu birliğinin ayrılmasıyla kaldırıldı; ertesi bahar Kastamonu barışla, Çankırı kuşatmayla alındı.",
    "note_en": "The first siege was lifted when the Seljuk contingent withdrew; next spring Kastamon was taken peacefully and Gangra by siege.",
-   "id": 54
+   "id": 59
   },
   {
    "name_tr": "Niksar (1140)",
@@ -2001,7 +2177,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Dânişmendlilerin merkezini almayı amaçlayan sefer başarısız oldu.",
    "note_en": "The campaign against the Danishmendid capital failed.",
-   "id": 55
+   "id": 60
   },
   {
    "name_tr": "Bizâa (Buzâa, 1138)",
@@ -2037,7 +2213,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Şehir emanla teslim oldu; Zengî Eylül-Ekim 1138'de geri aldı.",
    "note_en": "The town surrendered on terms; Zengi recovered it in September–October 1138.",
-   "id": 56
+   "id": 61
   },
   {
    "name_tr": "Halep müdafaası (1138)",
@@ -2072,7 +2248,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "İmparator üç günlük kuşatmadan sonra başarısız ayrıldı.",
    "note_en": "The emperor withdrew unsuccessfully after a three-day siege.",
-   "id": 57
+   "id": 62
   }
  ],
  "left_out": [

@@ -38,7 +38,7 @@
 ## Veri
 - `data/pilot-buyuk-selcuklu.json`: Büyük Selçuklu dönemi (1035–1157), 80 kayıt (80 kayıt Parti 3'e taşındı).
 - `data/anadolu-selcuklu.json`: Anadolu Selçukluları (1075–1308), 72 kayıt (ilk tur). Üretici: `tools/make_anadolu.py`.
-- `data/beylikler-atabeylikler.json`: Türk beylikleri ve atabeylikleri (1070–1175), 57 kayıt. Üretici: `tools/make_beylikler.py`.
+- `data/beylikler-atabeylikler.json`: Türk beylikleri ve atabeylikleri (1070–1175), 62 kayıt. Üretici: `tools/make_beylikler.py`.
 - `data/gazneli-karahanli.json`: Gazneliler ve Karahanlılar (893–1156), 32 kayıt. Üretici: `tools/make_gazneli_karahanli.py`.
 - `data/osmanli-kurulus.json`: Osmanlı kuruluş dönemi (1284–1402), 31 kayıt. Üretici: `tools/make_osmanli_kurulus.py`.
 - `data/osmanli-1402-1481.json`: Osmanlı 1402–1481, 46 kayıt. Üretici: `tools/make_osmanli_1402_1481.py`.

@@ -8,6 +8,8 @@ HB = "beylikler-atabeylikler"
 CAK = "Çaka Bey (İzmir Beyliği)"
 ART, DAN, ZEN, BOR, SAL, ILD, MUS, ATS = ("Artuklular", "Dânişmendliler", "Zengîler", "Böriler (Dımaşk Atabegliği)",
                                          "Saltuklular", "İldenizliler", "Musul atabegleri (Porsukîler)", "Atsız b. Uvak")
+HRN = "Hârûn b. Han (Kuzey Suriye Türkmenleri)"
+RID = "Halep Selçuklu melikliği (Rıdvân)"
 # (devlet, ad_tr, ad_en, tarih, harp, yer, lat, lon, loc, ülke, kazanan, kaybeden, türk_k, rakip_k, kategori, sonuç, statü,
 #  kaynaklar, ihtilaf, not_tr, not_en)
 R = [
@@ -15,6 +17,17 @@ R = [
  "Atsız b. Uvak", "Şöklü, Kutalmışoğulları", "Atsız b. Uvak", "Şöklü", "turk_arasi", "W", "kesin",
  ["TDVIA:suleyman-sah-i"], "", "Şöklü ve oğlu öldürüldü; Süleyman Şah'ın kardeşleri Atsız'ın eline düştü ve Melikşah'a gönderildi.",
  "Shöklü and his son were killed; Sulayman's brothers fell into Atsiz's hands and were sent to Malikshah."),
+(HRN, "Artah ve İm (1068)", "Turkmen capture of Artah and Imm (1068)", "1068-07-01", "Kuzey Suriye Türkmenlerinin Bizans'la mücadelesi", "Artah", 36.27, 36.57, "approx", "Türkiye",
+ "Hârûn b. Han ve Mirdâsî Emîr Mahmûd", "Bizans", "Hârûn b. Han", "", "dis", "W", "kesin",
+ ["TDVIA:harun-b-han"], "", "Türkmen ve Arap kuvvetlerini birleştiren Hârûn ve Emîr Mahmûd Bizans topraklarına gazâya başlayarak Artah ve İm kalelerini aldı; Halep Bizans saldırılarına karşı güçlendi. (Kontrol turunda eklendi.)",
+ "Uniting Turkmen and Arab forces, Harun and Emir Mahmud raided Byzantine territory and took the castles of Artah and Imm."),
+(HRN, "Artah'ın kaybı (1069)", "Byzantine recapture of Artah (1069–70)", "1069", "Kuzey Suriye Türkmenlerinin Bizans'la mücadelesi", "Artah", 36.27, 36.57, "approx", "Türkiye",
+ "Bizans", "Hârûn b. Han ve Mirdâsî Emîr Mahmûd", "Hârûn b. Han", "", "dis", "L", "kesin",
+ ["TDVIA:harun-b-han"], "Madde geri alışı 462 (1069-70) yılına koyar.", "Bizanslılar geri çekilen Türkmen ve Arap kuvvetlerini takip edemediyse de Artah ve İm kalelerini kolayca geri aldı. (Kontrol turunda eklendi.)",
+ "The Byzantines did not dare pursue the retreating Turkmen and Arab forces but easily retook Artah and Imm."),
+(RID, "Kınnesrîn (1097)", "Battle of Qinnasrin (1097)", "1097-03-22", "Tutuş'un oğulları arasındaki mücadele", "Kınnesrîn", 35.99, 37.05, "approx", "Suriye",
+ "Rıdvân (Halep)", "Dukak (Dımaşk)", "Rıdvân b. Tutuş", "Dukak", "ic", "C", "kesin",
+ ["TDVIA:ridvan-b-tutus"], "", "Halep'e saldıran Dukak Kınnesrîn'de bozguna uğradı. (Kontrol turunda eklendi.)", "Duqaq, who had attacked Aleppo, was routed at Qinnasrin."),
 (ART, "Suruç (I)", "Battle of Saruj (I)", "1100", "Artukluların Haçlılarla mücadelesi", "Suruç", 36.98, 38.42, "known", "Türkiye",
  "Artuklular (Sökmen, Belek)", "Urfa Kontluğu, Suruç Senyörlüğü, Ermeni birlikleri", "Sökmen b. Artuk, Belek b. Behrâm", "II. Baudouin, Foulque de Chartres", "dis", "W", "ihtilafli",
  ["TDVIA:sokmen-b-artuk", "TDVIA:belek-b-behram"], "Tarih: Belek maddesi 1100 verir; Sökmen maddesi tarih vermez ve olayı 1098'deki işgalden sonraya koyar.",
@@ -80,6 +93,10 @@ R = [
 (BOR, "Taberiye (1108)", "Battle of Tiberias (1108)", "1108", "Tuğtegin'in Haçlılarla mücadelesi", "Taberiye yakını", 32.79, 35.53, "approx", "İsrail",
  "Dımaşk (Tuğtegin)", "Kudüs Krallığı", "Tuğtegin", "Gervaise de Bazoches (esir, öldürüldü)", "dis", "W", "kesin",
  ["TDVIA:tugtegin"], "", "", ""),
+(RID, "Tel Bâşir (1108)", "Battle of Turbessel (1108)", "1108-09", "Musul ve Halep emîrlerinin mücadelesi", "Tel Bâşir", 36.79, 37.82, "known", "Türkiye",
+ "Rıdvân ve Antakya (Tankred)", "Çavlı (Musul), Urfa Kontluğu (Baudouin, Joscelin)", "Rıdvân b. Tutuş", "Çavlı Sakavu", "turk_arasi", "D", "kesin",
+ ["TDVIA:ridvan-b-tutus"], "", "Bâlîs'i işgal eden Çavlı'ya karşı Rıdvân Tankred'le, Çavlı da Baudouin ve Joscelin'le ittifak yaptı; savaşta iki taraf da ağır kayıp verdi, Bâlîs Halep'e döndü. (Kontrol turunda eklendi.)",
+ "Against Chavli, who had seized Balis, Ridwan allied with Tancred and Chavli with Baldwin and Joscelin; both sides suffered heavy losses and Balis returned to Aleppo."),
 (BOR, "Refeniye (1115)", "Battle of Rafaniyya (1115)", "1115-11", "Tuğtegin'in Haçlılarla mücadelesi", "Refeniye", 34.95, 36.40, "approx", "Suriye",
  "Dımaşk (Tuğtegin)", "Haçlılar (Refeniye garnizonu)", "Tuğtegin", "", "dis", "W", "kesin",
  ["TDVIA:tugtegin"], "", "Haçlıların işgal ettiği Refeniye âni bir baskınla geri alındı (Cemâziyelâhir 509).", "Rafaniyya, occupied by the Crusaders, was recovered in a surprise attack (November 1115)."),
@@ -147,6 +164,10 @@ R = [
  "Zengîler", "Antakya Prinkepsliği, Trablus Kontluğu, Bizans ve Ermeni birlikleri", "Nûreddin Mahmud", "III. Bohemund, III. Raimond", "dis", "W", "kesin",
  ["TDVIA:sirkuh-el-mansur", "TDVIA:nureddin-zengi-mahmud"], "",
  "Hârim kalesi alındı. Bu baskı Haçlıları Mısır'da Şîrkûh'un kuşatmasını kaldırmaya zorladı.", "Harim castle was taken. The pressure forced the Crusaders to lift their siege of Shirkuh in Egypt."),
+(ZEN, "Banyas (1164)", "Capture of Banias (1164)", "1164-10", "Nûreddin'in Haçlılarla mücadelesi", "Banyas", 33.25, 35.69, "approx", "Suriye",
+ "Zengîler (Nûreddin)", "Kudüs Krallığı", "Nûreddin Mahmud Zengî", "", "dis", "W", "kesin",
+ ["TDVIA:nureddin-zengi-mahmud"], "", "Hârim'in ardından 1148-49'dan beri Haçlılar'ın elindeki Banyas fethedildi (Zilhicce 559 / Ekim-Kasım 1164). (Kontrol turunda eklendi.)",
+ "After Harim, Banias, held by the Crusaders since 1148–49, was taken (October–November 1164)."),
 (ZEN, "Bâbeyn", "Battle of al-Babein", "1167-03", "Nûreddin'in Mısır seferleri", "Bâbeyn, Nil'in batı yakası", 28.10, 30.75, "approx", "Mısır",
  "Zengîler (Şîrkûh)", "Kudüs Krallığı, Fâtımî veziri Şâver", "Esedüddin Şîrkûh", "I. Amaury, Şâver", "dis", "W", "kesin",
  ["TDVIA:nureddin-zengi-mahmud", "TDVIA:sirkuh-el-mansur"], "",

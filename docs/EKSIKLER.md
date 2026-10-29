@@ -11,7 +11,7 @@ Son güncelleme: 2026-10-30
 |---|---|---|
 | Pilot Büyük Selçuklu | 80 | 12 |
 | Anadolu Selçukluları | 72 | 26 |
-| Beylikler ve atabeylikler | 57 | 29 |
+| Beylikler ve atabeylikler | 62 | 34 |
 | Gazneli ve Karahanlı | 32 | 9 |
 | Osmanlı kuruluş | 31 | 11 |
 | Osmanlı 1402–1481 | 46 | 11 |
@@ -38,9 +38,9 @@ Son güncelleme: 2026-10-30
 - [ ] **Anadolu Selçukluları:** Lâdik ve Efes 1147, Akşehir 1190, Sivrihisar, Turbessel 1150–51, İznik–Selçuklu savaşı 1225–31, Azat Musa'nın Gürcistan seferi; Hyelion ve Leimocheir 1177 (Roma veri setiyle kontrol).
 - [ ] **Gazneliler:** Rama-Ganga 1019 (Triloçanpal), Gazne 1148 (Gurlu Sûrî), Tausi nehri 1019, Saffârî savaşı, İkinci Lamgân, Lahor 1186; Mathura, Thanesar, Gwalior seferleri.
 - [ ] **Karahanlılar:** iç savaşlar.
-- [ ] **Zengîler:** Ayıntab, Maraş 1161, Kınnesrîn, Busrâ 1147, Butayha, Hûle 1157, Şeyzer 1157, Ba'lebek, Hama 1130, Dimyat 1169, İskenderiye 1167; Fâmiye, Banyas 1157.
+- [ ] **Zengîler:** Ayıntab, Maraş 1161, Kınnesrîn, Busrâ 1147, Butayha, Hûle 1157, Şeyzer 1157, Ba'lebek, Hama 1130, Dimyat 1169, İskenderiye 1167; Fâmiye, Banyas 1157. (Banyas 1164 eklendi, 2026-10-30.)
 - [ ] **Dımaşk:** 1129 Haçlı saldırısı, Böri dönemi.
-- [ ] **Beylikler ve Selçuklu emîrleri:** Artah, Gerger, Nehrülkelb, Tel Bâşir 1108, Kerec-i Ebû Dülef, Rakhsi, Musul kuşatmaları 1096/1104/1108, Maarretünnu'mân.
+- [ ] **Beylikler ve Selçuklu emîrleri:** Gerger, Nehrülkelb, Kerec-i Ebû Dülef, Rakhsi, Musul kuşatmaları 1096/1104/1108, Maarretünnu'mân. (Artah 1068 ve 1069, Kınnesrîn 1097, Tel Bâşir 1108 eklendi, 2026-10-30.)
 - [ ] **Osmanlı kuruluş:** Karesi'nin ilhakı, Çimpe ve Gelibolu 1354; İncügez, Çatalca, Aydos; 1302–1310 beylik savaşları (Katalanlar).
 - [ ] **Osmanlı 1402–1481:** İskender Bey savaşları (Torvioll 1444, Otonetë, Kruya 1466–67); Bosna 1463; İşkodra 1474 ve 1478–79; Demirkapı 1442, Kunoviçe 1444, Akdere 1476. (Kefalonya, Zanta ve Ayamavra 1479 eklendi, 2026-10-30.)
 - [ ] **Osmanlı 1481–1520:** Kefalonya 1500; Macar akınları. (Krbava 1493 eklendi, 2026-10-30.)
