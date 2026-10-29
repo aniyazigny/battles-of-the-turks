@@ -63,25 +63,38 @@ R = [
 ("Kanije müdafaası (1601)", "Siege of Kanizsa (1601)", "1601-11-18", "Uzun Savaş (1593–1606)", "Kanije", 46.46, 16.99, "known", "Macaristan",
  O, "Habsburglar ve müttefikleri", "Tiryaki Hasan Paşa", "Arşidük Ferdinand", "dis", "W", "kesin",
  ["TDVIA:kanije", "TDVIA:mehmed-iii"], "", "10 Eylül–17 Kasım arasında süren kuşatma ağır kayıplarla kaldırıldı.", "The siege from 10 September to 17 November was lifted with heavy losses.", "land"),
+("İstolni Belgrad (1601)", "Siege of Székesfehérvár (1601)", "1601-10", "Uzun Savaş (1593–1606)", "İstolni Belgrad", 47.19, 18.41, "known", "Macaristan",
+ "Habsburglar", O, "", "Henri de Mercœur", "dis", "L", "kesin",
+ ["TDVIA:istolni-belgrad"], "", "Şehir Habsburglarca alındı; bir ay sonra onu geri almaya gelen Osmanlı ordusu on altı gün süren meydan savaşında yenildi.", "The town was taken by the Habsburgs; a month later the Ottoman relief army was defeated in a sixteen-day field battle.", "land"),
 ("İstolni Belgrad (1602)", "Recapture of Székesfehérvár (1602)", "1602-08", "Uzun Savaş (1593–1606)", "İstolni Belgrad", 47.19, 18.41, "known", "Macaristan",
- O, "Habsburglar", "", "", "dis", "W", "kesin",
- ["TDVIA:mehmed-iii"], "", "Aynı yıl Peşte'yi alıp Budin'i kuşatan Habsburg ordusu çekilmek zorunda kaldı (18 Ekim 1602).", "The same year the Habsburg army that had taken Pest and besieged Buda had to withdraw (18 October 1602).", "land"),
+ O, "Habsburglar", "Yemişçi Hasan Paşa", "", "dis", "W", "ihtilafli",
+ ["TDVIA:mehmed-iii", "TDVIA:istolni-belgrad"], "Tarih: Mehmed III maddesi Ağustos 1602, İstolni Belgrad maddesi 11 Ramazan 1011 / 22 Şubat 1603 der.", "Aynı yıl Peşte'yi alıp Budin'i kuşatan Habsburg ordusu çekilmek zorunda kaldı (18 Ekim 1602).", "The same year the Habsburg army that had taken Pest and besieged Buda had to withdraw (18 October 1602).", "land"),
 ("Budin müdafaası (1602)", "Siege of Buda (1602)", "1602-10-18", "Uzun Savaş (1593–1606)", "Budin", 47.50, 19.04, "known", "Macaristan",
  O, "Habsburglar", "", "", "dis", "W", "kesin",
  ["TDVIA:mehmed-iii"], "", "Peşte'yi alan Habsburg ordusu Budin önünden çekildi.", "The Habsburg army, having taken Pest, withdrew from before Buda.", "land"),
-("Karayazıcı'ya karşı (1601)", "Defeat of Karayazıcı (1601)", "1601-08", "Celâlî isyanları", "Anadolu", 40.00, 35.50, "region", "Türkiye",
- O, "Celâlîler (Karayazıcı)", "", "Karayazıcı Abdülhalim", "ic", "C", "borderline",
- ["TDVIA:mehmed-iii"], "", "Yer belirsiz.", "Place uncertain.", "land"),
+("Kayseri ovası (1600)", "Battle of Kayseri (1600)", "1600-09-23", "Celâlî isyanları", "Kayseri ovası", 38.72, 35.49, "approx", "Türkiye",
+ "Celâlîler (Karayazıcı)", O, "Hacı İbrâhim Paşa", "Karayazıcı Abdülhalim", "ic", "C", "kesin",
+ ["TDVIA:karayazici-abdulhalim", "TDVIA:celali-isyanlari"], "", "Halep beylerbeyinin kuvvetleri Karayazıcı'nın ordusuna yenildi.", "The forces of the governor of Aleppo were beaten by Karayazıcı's army.", "land"),
+("Sepetli (1601)", "Battle of Sepetli (1601)", "1601-08-12", "Celâlî isyanları", "Sepetli, Elbistan yöresi", 38.20, 37.20, "approx", "Türkiye",
+ O, "Celâlîler (Karayazıcı)", "Sokulluzâde Hasan Paşa", "Karayazıcı Abdülhalim", "ic", "C", "kesin",
+ ["TDVIA:karayazici-abdulhalim", "TDVIA:celali-isyanlari", "TDVIA:mehmed-iii"], "Yer: Karayazıcı maddesi Elbistan yakınında Sepetli, Celâlî İsyanları maddesi Malatya yakını der.",
+ "Karayazıcı yaralı olarak Canik dağlarına, kardeşi Deli Hasan Tokat Kalesi'ne çekildi.", "Karayazıcı fled wounded to the Canik mountains, his brother Deli Hasan to Tokat castle.", "land"),
 ("Tokat (1602)", "Battle of Tokat (1602)", "1602", "Celâlî isyanları", "Tokat", 40.31, 36.55, "approx", "Türkiye",
  "Celâlîler (Deli Hasan)", O, "Sokulluzâde Hasan Paşa (öldü)", "Deli Hasan", "ic", "C", "kesin",
  ["TDVIA:mehmed-iii"], "", "Celâlî serdarı kale kapısı önünde öldürüldü.", "The commander sent against the Celalis was killed before the castle gate.", "land"),
+("Selmas (1605)", "Battle of Sufiyan (1605)", "1605", "Osmanlı–Safevî savaşı (1603–1612)", "Selmas yakını", 38.20, 44.77, "approx", "İran",
+ "Safevîler", O, "Cigalazâde Sinan Paşa", "Şah Abbas", "dis", "L", "borderline",
+ ["TDVIA:abbas-i"], "", "Yıl maddede doğrudan verilmiyor; Sinan Paşa'nın 1606'da Diyarbekir'de ölümünden önce.", "The year is not stated directly; before Sinan Pasha's death at Diyarbakır in 1606.", "land"),
 ("Tebriz'in kaybı (1603)", "Loss of Tabriz (1603)", "1603-10-21", "Osmanlı–Safevî savaşı (1603–1612)", "Tebriz", 38.08, 46.29, "known", "İran",
  "Safevîler", O, "", "Şah Abbas", "dis", "L", "kesin",
  ["TDVIA:mehmed-iii"], "", "Ardından Nahcıvan boşaltıldı, Revan kuşatıldı.", "Nakhchivan was then evacuated and Erivan besieged.", "land"),
 ]
 
+# İkinci kaynak turu (2026-10-29)
+EXTRA_SRC = {"Eflak seferi (1595)": ["TDVIA:koca-sinan-pasa"]}
+
 LEFT = [
- {"name": "Revan (1604), Sufiyan (1605)", "reason": "Safevî karşı saldırısının diğer savaşları bu turda ayrıntılı alınmadı.", "source": "TDVIA:mehmed-iii"},
+ {"name": "Revan (1604)", "reason": "Safevî karşı saldırısının diğer savaşları bu turda ayrıntılı alınmadı.", "source": "TDVIA:mehmed-iii"},
  {"name": "Kalugareni ve Yergöğü (1595)", "reason": "Tek kayıt altında (Eflak seferi 1595) toplandı; TDVİA adlarıyla anmıyor.", "source": "TDVIA:mehmed-iii"},
  {"name": "Celâlî isyanlarının diğer çatışmaları", "reason": "Bu partide yalnızca TDVİA'da adı geçen iki çatışma alındı.", "source": "TDVIA:mehmed-iii"},
 ]
@@ -96,6 +109,8 @@ for i, r in enumerate(R, 1):
            "state": O, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))

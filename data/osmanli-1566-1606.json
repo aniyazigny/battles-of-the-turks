@@ -442,11 +442,12 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:mehmed-iii"
+    "TDVIA:mehmed-iii",
+    "TDVIA:koca-sinan-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -668,6 +669,41 @@
   },
   {
    "id": 19,
+   "name_tr": "İstolni Belgrad (1601)",
+   "name_en": "Siege of Székesfehérvár (1601)",
+   "date": "1601-10",
+   "hijri": "",
+   "type": "land",
+   "war": "Uzun Savaş (1593–1606)",
+   "place": "İstolni Belgrad",
+   "lat": 47.19,
+   "lon": 18.41,
+   "loc": "known",
+   "country": "Macaristan",
+   "side_a": "Habsburglar",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "",
+   "opp_cmd": "Henri de Mercœur",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:istolni-belgrad"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1566-1606",
+   "note": "Şehir Habsburglarca alındı; bir ay sonra onu geri almaya gelen Osmanlı ordusu on altı gün süren meydan savaşında yenildi.",
+   "note_en": "The town was taken by the Habsburgs; a month later the Ottoman relief army was defeated in a sixteen-day field battle."
+  },
+  {
+   "id": 20,
    "name_tr": "İstolni Belgrad (1602)",
    "name_en": "Recapture of Székesfehérvár (1602)",
    "date": "1602-08",
@@ -681,28 +717,30 @@
    "country": "Macaristan",
    "side_a": "Osmanlı Devleti",
    "side_b": "Habsburglar",
-   "turkic_cmd": "",
+   "turkic_cmd": "Yemişçi Hasan Paşa",
    "opp_cmd": "",
    "category": "dis",
    "result": "W",
-   "status": "kesin",
+   "status": "ihtilafli",
    "sources": [
-    "TDVIA:mehmed-iii"
+    "TDVIA:mehmed-iii",
+    "TDVIA:istolni-belgrad"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1566-1606",
+   "dispute": "Tarih: Mehmed III maddesi Ağustos 1602, İstolni Belgrad maddesi 11 Ramazan 1011 / 22 Şubat 1603 der.",
    "note": "Aynı yıl Peşte'yi alıp Budin'i kuşatan Habsburg ordusu çekilmek zorunda kaldı (18 Ekim 1602).",
    "note_en": "The same year the Habsburg army that had taken Pest and besieged Buda had to withdraw (18 October 1602)."
   },
   {
-   "id": 20,
+   "id": 21,
    "name_tr": "Budin müdafaası (1602)",
    "name_en": "Siege of Buda (1602)",
    "date": "1602-10-18",
@@ -737,42 +775,81 @@
    "note_en": "The Habsburg army, having taken Pest, withdrew from before Buda."
   },
   {
-   "id": 21,
-   "name_tr": "Karayazıcı'ya karşı (1601)",
-   "name_en": "Defeat of Karayazıcı (1601)",
-   "date": "1601-08",
+   "id": 22,
+   "name_tr": "Kayseri ovası (1600)",
+   "name_en": "Battle of Kayseri (1600)",
+   "date": "1600-09-23",
    "hijri": "",
    "type": "land",
    "war": "Celâlî isyanları",
-   "place": "Anadolu",
-   "lat": 40.0,
-   "lon": 35.5,
-   "loc": "region",
+   "place": "Kayseri ovası",
+   "lat": 38.72,
+   "lon": 35.49,
+   "loc": "approx",
    "country": "Türkiye",
-   "side_a": "Osmanlı Devleti",
-   "side_b": "Celâlîler (Karayazıcı)",
-   "turkic_cmd": "",
+   "side_a": "Celâlîler (Karayazıcı)",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "Hacı İbrâhim Paşa",
    "opp_cmd": "Karayazıcı Abdülhalim",
    "category": "ic",
    "result": "C",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-iii"
+    "TDVIA:karayazici-abdulhalim",
+    "TDVIA:celali-isyanlari"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1566-1606",
-   "note": "Yer belirsiz.",
-   "note_en": "Place uncertain."
+   "note": "Halep beylerbeyinin kuvvetleri Karayazıcı'nın ordusuna yenildi.",
+   "note_en": "The forces of the governor of Aleppo were beaten by Karayazıcı's army."
   },
   {
-   "id": 22,
+   "id": 23,
+   "name_tr": "Sepetli (1601)",
+   "name_en": "Battle of Sepetli (1601)",
+   "date": "1601-08-12",
+   "hijri": "",
+   "type": "land",
+   "war": "Celâlî isyanları",
+   "place": "Sepetli, Elbistan yöresi",
+   "lat": 38.2,
+   "lon": 37.2,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Celâlîler (Karayazıcı)",
+   "turkic_cmd": "Sokulluzâde Hasan Paşa",
+   "opp_cmd": "Karayazıcı Abdülhalim",
+   "category": "ic",
+   "result": "C",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:karayazici-abdulhalim",
+    "TDVIA:celali-isyanlari",
+    "TDVIA:mehmed-iii"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1566-1606",
+   "dispute": "Yer: Karayazıcı maddesi Elbistan yakınında Sepetli, Celâlî İsyanları maddesi Malatya yakını der.",
+   "note": "Karayazıcı yaralı olarak Canik dağlarına, kardeşi Deli Hasan Tokat Kalesi'ne çekildi.",
+   "note_en": "Karayazıcı fled wounded to the Canik mountains, his brother Deli Hasan to Tokat castle."
+  },
+  {
+   "id": 24,
    "name_tr": "Tokat (1602)",
    "name_en": "Battle of Tokat (1602)",
    "date": "1602",
@@ -807,7 +884,42 @@
    "note_en": "The commander sent against the Celalis was killed before the castle gate."
   },
   {
-   "id": 23,
+   "id": 25,
+   "name_tr": "Selmas (1605)",
+   "name_en": "Battle of Sufiyan (1605)",
+   "date": "1605",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Safevî savaşı (1603–1612)",
+   "place": "Selmas yakını",
+   "lat": 38.2,
+   "lon": 44.77,
+   "loc": "approx",
+   "country": "İran",
+   "side_a": "Safevîler",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "Cigalazâde Sinan Paşa",
+   "opp_cmd": "Şah Abbas",
+   "category": "dis",
+   "result": "L",
+   "status": "borderline",
+   "sources": [
+    "TDVIA:abbas-i"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1566-1606",
+   "note": "Yıl maddede doğrudan verilmiyor; Sinan Paşa'nın 1606'da Diyarbekir'de ölümünden önce.",
+   "note_en": "The year is not stated directly; before Sinan Pasha's death at Diyarbakır in 1606."
+  },
+  {
+   "id": 26,
    "name_tr": "Tebriz'in kaybı (1603)",
    "name_en": "Loss of Tabriz (1603)",
    "date": "1603-10-21",
@@ -844,7 +956,7 @@
  ],
  "left_out": [
   {
-   "name": "Revan (1604), Sufiyan (1605)",
+   "name": "Revan (1604)",
    "reason": "Safevî karşı saldırısının diğer savaşları bu turda ayrıntılı alınmadı.",
    "source": "TDVIA:mehmed-iii"
   },
