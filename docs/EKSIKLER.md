@@ -23,7 +23,7 @@ Son güncelleme: 2026-10-29
 | Osmanlı 1683–1718 | 26 | 9 |
 | Osmanlı 1718–1774 | 30 | 3 |
 | Osmanlı 1774–1812 | 39 | 19 |
-| Osmanlı 1812–1839 | 26 | 14 |
+| Osmanlı 1812–1839 | 29 | 5 |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).
@@ -45,8 +45,8 @@ Son güncelleme: 2026-10-29
 - [ ] **Osmanlı 1683–1718:** Mora'nın kaybı 1685–87 (Koron, Navarin, Modon, Anabolu, Atina, İnebahtı); Korfu 1716. Kırım Hanlığı: Orkapı 1689 ve Lemberg 1695 eklendi (2026-10-29).
 - [ ] **Osmanlı 1718–1774:** 1723–25 İran seferinin tek tek kuşatmaları; Larga 1770 (İvazzâde maddesi Kartal ile bir tutar), Yergöğü, Kılburun; Kırım Hanlığı: 1736 istilâsı eklendi; 1737 ve 1738 istilâları eksik.
 - [x] **Kapsam kararı:** Kırım Hanlığı savaşları → Osmanlı ordusuyla birlikte ya da padişah emriyle olanlar borderline (KARARLAR, 2026-10-29). Orkapı 1689, Lemberg 1695 ve 1736 istilâsı eklendi (borderline); 1737–38 eksik.
-- [ ] **Osmanlı 1774–1812:** Kalafat, Tendra ve Kelegra deniz savaşları; Sırp isyanının diğer savaşları (Belgrad 1806, Mişar, Deligrad, Çegar 1809); Bozcaada ve Aynaroz 1807, Arpaçay 1807; Rusçuk 1811 ve Slobozia.
-- [ ] **Osmanlı 1812–1839:** Tripoliçe 1821, Dervenaki 1822, Atina 1826–27, Osmanlı–İran savaşı 1821–23, Bosna isyanı (Hüseyin Kapudan), Vehhâbî seferinin diğer savaşları, Humus 1832.
+- [ ] **Osmanlı 1774–1812:** Kalafat, Tendra ve Kelegra deniz savaşları; Sırp isyanının diğer savaşları (Belgrad 1806, Mişar, Deligrad, Çegar 1809); Bozcaada ve Aynaroz 1807, Arpaçay 1807; Rusçuk 1811 ve Slobozia; Vehhâbîlerin Tâif'i (Şubat 1803) ve Mekke'yi (30 Nisan 1803) alması (Mekke maddesi; Şerîf Gālib Osmanlı tâbiiyetinde olduğundan borderline adayı).
+- [ ] **Osmanlı 1812–1839:** Tripoliçe 1821, Dervenaki 1822, Atina 1826–27, Osmanlı–İran savaşı 1821–23, Bosna isyanı (Hüseyin Kapudan), Vehhâbî seferinin diğer savaşları. Humus 1832 eklendi (2026-10-29).
 - [ ] **Göktürkler ve Uygurlar:** hiç başlanmadı (Osmanlı bitince).
 
 ## 3. Harita eksikleri

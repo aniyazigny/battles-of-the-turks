@@ -127,24 +127,81 @@ LEFT = [
  {"name": "Osmanlı–İran savaşı (1821–1823)", "reason": "Erzurum maddesi yalnızca barışı anar; savaşlar indirilen maddelerde yok.", "source": "TDVIA:erzurum"},
  {"name": "Bosna isyanının diğer çatışmaları (Hüseyin Kapudan, 1831–1832)", "reason": "Bosna-Hersek maddesinde ayrıntı bulunamadı.", "source": "TDVIA:resid-mehmed-pasa"},
  {"name": "Vehhâbî seferinin diğer savaşları (Turabe, Bîşe, er-Res)", "reason": "Kavalalı ve İbrâhim Paşa maddeleri toplu anlatır.", "source": "TDVIA:ibrahim-pasa-kavalali"},
- {"name": "Humus (1832)", "reason": "TDVİA'da adıyla bulunamadı.", "source": ""},
  {"name": "Vak‘a-i Hayriyye (1826)", "reason": "Yeniçeriliğin kaldırılması; savaş sayılmadı.", "source": "TDVIA:mahmud-ii--osmanli"},
 ]
 
+# İkinci kaynak turu
+EXTRA_SRC = {"Mekke ve Medine'nin geri alınışı (1812–1813)": ["TDVIA:mekke", "TDVIA:medine"],
+             "Dir‘iye (1818)": ["TDVIA:abdullah-b-suud", "TDVIA:medine"],
+             "Sakız (1822)": ["TDVIA:mora"],
+             "Kars (1828)": ["TDVIA:edirne-antlasmasi"],
+             "Silistre (1829)": ["TDVIA:edirne-antlasmasi"],
+             "Erzurum (1829)": ["TDVIA:edirne-antlasmasi"],
+             "Babuna (1831)": ["TDVIA:mustafa-pasa-busatli"],
+             "Priştine (1831)": ["TDVIA:bosna-hersek"],
+             "Zerrâa (1832)": ["TDVIA:kavalali-mehmed-ali-pasa"],
+             "Belen (1832)": ["TDVIA:kavalali-mehmed-ali-pasa", "TDVIA:huseyin-pasa-aga"],
+             "Kostantîne (1836)": ["TDVIA:kostantine", "TDVIA:abdulkadir-el-cezairi"],
+             "Kostantîne (1837)": ["TDVIA:kostantine", "TDVIA:abdulkadir-el-cezairi"]}
+FIX = {"Mekke ve Medine'nin geri alınışı (1812–1813)": {
+           "note": "Tosun Paşa iki haftalık kuşatmadan sonra Medine'yi 3 Aralık 1812'de geri aldı; Mekke'ye Şerîf Gālib'in yardımıyla 23 Ocak 1813'te girdi.",
+           "note_en": "Tosun Pasha retook Medina on 3 December 1812 after a two-week siege, and entered Mecca with the help of Sharif Ghalib on 23 January 1813."},
+       "Silistre (1829)": {"status": "kesin", "opp_cmd": "Hans Karl von Diebitsch",
+           "dispute": "Silistre maddesi kalenin \"1827-1828 savaşı esnasında\" alındığını yazar; Edirne Antlaşması maddesi düşüşü 1829'daki ikinci harekâta, Diebitsch'in Edirne'ye yürüyüşünden önceye koyar.",
+           "note": "Edirne Antlaşması'na göre Silistre savaş tazminatı ödenene kadar Rus elinde rehin kaldı.",
+           "note_en": "Under the Treaty of Edirne Silistra stayed in Russian hands as a pledge until the indemnity was paid."},
+       "Belen (1832)": {"turkic_cmd": "Serasker Ağa Hüseyin Paşa"},
+       "Kostantîne (1836)": {"status": "kesin",
+           "dispute": "Kostantîne maddesi Ahmed Bey'in burada bağımsız bir beylik kurmaya çalıştığını yazar; Abdülkādir el-Cezâirî maddesi onu \"Osmanlı tâbiiyetini sürdüren\" bir yönetici olarak anar. Bâbıâli'den paşa unvanı aldığı için Osmanlı tarafı sayıldı.",
+           "note": "Genel Vali Mareşal Clauzel'in saldırısı Ahmed Bey tarafından geri püskürtüldü.",
+           "note_en": "Governor-General Marshal Clauzel's attack was beaten back by Ahmed Bey."},
+       "Kostantîne (1837)": {"status": "kesin", "opp_cmd": "General Valée",
+           "dispute": "Ahmed Bey'in statüsü için 1836 kaydına bakınız.",
+           "note": "Şehir General Valée kumandasındaki Fransız ordusunun kanlı bir hücumuyla alındı; Ahmed Bey Sahrâ'ya çekilip on bir yıl daha savaştı.",
+           "note_en": "The city fell to a bloody assault by the French army under General Valée; Ahmed Bey withdrew to the Sahara and fought on for eleven more years."}}
+NEW = {"Navarin Kalesi (1821)": [
+        ("Benefşe (1821)", "Siege of Monemvasia (1821)", "1821", WY, "Benefşe (Monemvasia)", 36.69, 23.06, "known", "Yunanistan",
+         REB, O, "", "", "dis", "L", "kesin",
+         ["TDVIA:benefse"], "", "Açlık ve yokluk içindeki şehir dört aylık kuşatmadan sonra şartlı olarak teslim oldu.",
+         "Starving and short of everything, the town surrendered on terms after a four-month siege.", "land")],
+       "Gördüs (1822)": [
+        ("Navarin'in geri alınışı (1825)", "Recapture of Navarino (1825)", "1825-05-18", WY, "Navarin", 36.91, 21.70, "known", "Yunanistan",
+         O, REB, "İbrâhim Paşa (Kavalalı)", "", "dis", "W", "kesin",
+         ["TDVIA:ibrahim-pasa-kavalali", "TDVIA:navarin"], "",
+         "Mart 1825'te Modon'a çıkan İbrâhim Paşa önce Navarin'i, ardından Tripoliçe'yi (23 Haziran) aldı.",
+         "Having landed at Modon in March 1825, İbrahim Pasha took Navarino first and then Tripolitsa (23 June).", "land")],
+       "Akkâ (1832)": [
+        ("Humus (1832)", "Battle of Homs (1832)", "1832-07-08", WM, "Humus", 34.73, 36.71, "known", "Suriye",
+         MI, O, "Halep Valisi Mehmed Paşa", "İbrâhim Paşa (Kavalalı)", "ic", "C", "kesin",
+         ["TDVIA:ibrahim-pasa-kavalali", "TDVIA:kavalali-mehmed-ali-pasa", "TDVIA:huseyin-pasa-aga"], "",
+         "Şam'ı 16 Haziran'da alan İbrâhim Paşa, Ağa Hüseyin Paşa ordusunun öncüsünü yendi.",
+         "İbrahim Pasha, who had taken Damascus on 16 June, defeated the vanguard of Ağa Hüseyin Pasha's army.", "land")]}
+RR = []
+for r in R:
+    RR.append(r)
+    RR += NEW.get(r[0], [])
+
 recs = []
-for i, r in enumerate(R, 1):
+for i, r in enumerate(RR, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ) = r
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,
            "verify": {"tdvia": True, "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": False},
            "state": O, "home_batch": HB}
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    for k, v in FIX.get(ntr, {}).items():
+        if k == "dispute": disp = v
+        elif k == "note": note = v
+        elif k == "note_en": note_en = v
+        else: rec[k] = v
+    rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
-meta = {"batch": "Parti 15 — Osmanlı: II. Mahmud dönemi (1812–1839)", "compiled": "2026-10-29", "status": "İlk tur.",
+meta = {"batch": "Parti 15 — Osmanlı: II. Mahmud dönemi (1812–1839)", "compiled": "2026-10-29", "status": "İkinci kaynak turu yapıldı.",
         "conventions": pilot["meta"]["conventions"], "source_keys": pilot["meta"]["source_keys"], "decisions": pilot["meta"]["decisions"]}
 (root / "data" / "osmanli-1812-1839.json").write_text(json.dumps({"meta": meta, "battles": recs, "left_out": LEFT}, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(recs), "kayıt;", sum(r["verify"]["tdvia2"] for r in recs), "iki maddeli")

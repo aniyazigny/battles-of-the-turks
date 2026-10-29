@@ -42,7 +42,7 @@
 - `data/osmanli-1683-1718.json`: Osmanlı 1683–1718, 26 kayıt. Üretici: `tools/make_osmanli_1683_1718.py`.
 - `data/osmanli-1718-1774.json`: Osmanlı 1718–1774, 30 kayıt. Üretici: `tools/make_osmanli_1718_1774.py`.
 - `data/osmanli-1774-1812.json`: Osmanlı 1774–1812, 39 kayıt. Üretici: `tools/make_osmanli_1774_1812.py`.
-- `data/osmanli-1812-1839.json`: Osmanlı 1812–1839, 26 kayıt. Üretici: `tools/make_osmanli_1812_1839.py`.
+- `data/osmanli-1812-1839.json`: Osmanlı 1812–1839, 29 kayıt. Üretici: `tools/make_osmanli_1812_1839.py`.
 - `data/akademik-kaynaklar.json`: `AKD:` anahtarıyla atıf yapılan akademik yayınların künyeleri.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 
@@ -61,6 +61,6 @@
 3. ~~Pilot kayıtlarının ikinci kaynakla kontrolü~~ ✅ (13 kayıt Türk akademik literatürüyle kontrol bekliyor)
 4. Anadolu Selçukluları ✅ (46/64 kayıt iki maddeyle); beylikler ve atabeylikler ✅ ilk tur
 5. Karahanlı, Gazneli ✅ ilk tur; Göktürk, Uygur
-6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅, 1603–1640 ✅, 1640–1683 ✅, 1683–1718 ✅, 1718–1774 ✅, 1774–1812 ✅, 1812–1839 ✅ ilk tur
+6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅, 1603–1640 ✅, 1640–1683 ✅, 1683–1718 ✅, 1718–1774 ✅, 1774–1812 ✅, 1812–1839 ✅
 7. Türkiye Cumhuriyeti
 8. Arayüz (harita, filtreler, tablolar, indirme seçenekleri)

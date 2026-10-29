@@ -2,7 +2,7 @@
  "meta": {
   "batch": "Parti 15 — Osmanlı: II. Mahmud dönemi (1812–1839)",
   "compiled": "2026-10-29",
-  "status": "İlk tur.",
+  "status": "İkinci kaynak turu yapıldı.",
   "conventions": {
    "winner_first": "side_a kazanan taraftır; result alanı Türk (Selçuklu) tarafının sonucudur: W kazandı, L kaybetti, D belirsiz/berabere, C iç savaş (skora girmez).",
    "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",
@@ -47,7 +47,9 @@
    "status": "kesin",
    "sources": [
     "TDVIA:vehhabilik",
-    "TDVIA:taif"
+    "TDVIA:taif",
+    "TDVIA:mekke",
+    "TDVIA:medine"
    ],
    "verify": {
     "tdvia": true,
@@ -58,8 +60,8 @@
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1812-1839",
-   "note": "1811'de yola çıkan Mısır kuvvetleri 1813'e kadar iki şehri yeniden Osmanlı yönetimine aldı.",
-   "note_en": "The Egyptian forces that set out in 1811 brought both cities back under Ottoman rule by 1813."
+   "note": "Tosun Paşa iki haftalık kuşatmadan sonra Medine'yi 3 Aralık 1812'de geri aldı; Mekke'ye Şerîf Gālib'in yardımıyla 23 Ocak 1813'te girdi.",
+   "note_en": "Tosun Pasha retook Medina on 3 December 1812 after a two-week siege, and entered Mecca with the help of Sharif Ghalib on 23 January 1813."
   },
   {
    "id": 2,
@@ -154,7 +156,9 @@
     "TDVIA:kavalali-mehmed-ali-pasa",
     "TDVIA:ibrahim-pasa-kavalali",
     "TDVIA:vehhabilik",
-    "TDVIA:lahsa"
+    "TDVIA:lahsa",
+    "TDVIA:abdullah-b-suud",
+    "TDVIA:medine"
    ],
    "verify": {
     "tdvia": true,
@@ -241,6 +245,41 @@
   },
   {
    "id": 7,
+   "name_tr": "Benefşe (1821)",
+   "name_en": "Siege of Monemvasia (1821)",
+   "date": "1821",
+   "hijri": "",
+   "type": "land",
+   "war": "Yunan isyanı (1821–1829)",
+   "place": "Benefşe (Monemvasia)",
+   "lat": 36.69,
+   "lon": 23.06,
+   "loc": "known",
+   "country": "Yunanistan",
+   "side_a": "Rum isyancıları",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:benefse"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1812-1839",
+   "note": "Açlık ve yokluk içindeki şehir dört aylık kuşatmadan sonra şartlı olarak teslim oldu.",
+   "note_en": "Starving and short of everything, the town surrendered on terms after a four-month siege."
+  },
+  {
+   "id": 8,
    "name_tr": "Sakız (1822)",
    "name_en": "Chios revolt (1822)",
    "date": "1822-04",
@@ -260,11 +299,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:sakiz-adasi"
+    "TDVIA:sakiz-adasi",
+    "TDVIA:mora"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -275,7 +315,7 @@
    "note_en": "Rebels from Samos and Psara besieged the castle from 23 March to 11 April; the revolt was put down when the fleet and reinforcements arrived."
   },
   {
-   "id": 8,
+   "id": 9,
    "name_tr": "Gördüs (1822)",
    "name_en": "Fall of Corinth (1822)",
    "date": "1822",
@@ -310,7 +350,43 @@
    "note_en": "Kâmil Bey was taken prisoner."
   },
   {
-   "id": 9,
+   "id": 10,
+   "name_tr": "Navarin'in geri alınışı (1825)",
+   "name_en": "Recapture of Navarino (1825)",
+   "date": "1825-05-18",
+   "hijri": "",
+   "type": "land",
+   "war": "Yunan isyanı (1821–1829)",
+   "place": "Navarin",
+   "lat": 36.91,
+   "lon": 21.7,
+   "loc": "known",
+   "country": "Yunanistan",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Rum isyancıları",
+   "turkic_cmd": "İbrâhim Paşa (Kavalalı)",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:ibrahim-pasa-kavalali",
+    "TDVIA:navarin"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1812-1839",
+   "note": "Mart 1825'te Modon'a çıkan İbrâhim Paşa önce Navarin'i, ardından Tripoliçe'yi (23 Haziran) aldı.",
+   "note_en": "Having landed at Modon in March 1825, İbrahim Pasha took Navarino first and then Tripolitsa (23 June)."
+  },
+  {
+   "id": 11,
    "name_tr": "Mesolongi (1826)",
    "name_en": "Third siege of Missolonghi",
    "date": "1826-04-23",
@@ -347,7 +423,7 @@
    "note_en": "Reşid Pasha invested it from the land side in August 1825; with İbrahim Pasha joining, the rebels' last stronghold was taken."
   },
   {
-   "id": 10,
+   "id": 12,
    "name_tr": "Navarin (1827)",
    "name_en": "Battle of Navarino",
    "date": "1827-10-20",
@@ -384,7 +460,7 @@
    "note_en": "With no state of war, the Ottoman–Egyptian fleet in the harbour was suddenly attacked; fifty-two ships and 6,000 sailors were lost."
   },
   {
-   "id": 11,
+   "id": 13,
    "name_tr": "Varna (1828)",
    "name_en": "Siege of Varna (1828)",
    "date": "1828-10",
@@ -420,7 +496,7 @@
    "note_en": "Taken after a three-month siege; the grand vizier was dismissed over the failure."
   },
   {
-   "id": 12,
+   "id": 14,
    "name_tr": "Kars (1828)",
    "name_en": "Siege of Kars (1828)",
    "date": "1828",
@@ -440,11 +516,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:kars"
+    "TDVIA:kars",
+    "TDVIA:edirne-antlasmasi"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -455,7 +532,7 @@
    "note_en": "The town was occupied and devastated."
   },
   {
-   "id": 13,
+   "id": 15,
    "name_tr": "Kulevçe (1829)",
    "name_en": "Battle of Kulevcha",
    "date": "1829-06",
@@ -488,7 +565,7 @@
    "home_batch": "osmanli-1812-1839"
   },
   {
-   "id": 14,
+   "id": 16,
    "name_tr": "Silistre (1829)",
    "name_en": "Siege of Silistra (1829)",
    "date": "1829",
@@ -503,28 +580,29 @@
    "side_a": "Rusya",
    "side_b": "Osmanlı Devleti",
    "turkic_cmd": "",
-   "opp_cmd": "",
+   "opp_cmd": "Hans Karl von Diebitsch",
    "category": "dis",
    "result": "L",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:silistre"
+    "TDVIA:silistre",
+    "TDVIA:edirne-antlasmasi"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1812-1839",
-   "dispute": "Silistre maddesi kalenin \"1827-1828 savaşı esnasında\" alındığını yazar; Edirne Antlaşması maddesine göre Ruslar Silistre'de 1836'ya kadar kaldı.",
-   "note": "Madde yalnızca kalenin alındığını anar.",
-   "note_en": "The article only states that the fortress was taken."
+   "dispute": "Silistre maddesi kalenin \"1827-1828 savaşı esnasında\" alındığını yazar; Edirne Antlaşması maddesi düşüşü 1829'daki ikinci harekâta, Diebitsch'in Edirne'ye yürüyüşünden önceye koyar.",
+   "note": "Edirne Antlaşması'na göre Silistre savaş tazminatı ödenene kadar Rus elinde rehin kaldı.",
+   "note_en": "Under the Treaty of Edirne Silistra stayed in Russian hands as a pledge until the indemnity was paid."
   },
   {
-   "id": 15,
+   "id": 17,
    "name_tr": "Erzurum (1829)",
    "name_en": "Fall of Erzurum (1829)",
    "date": "1829-07-08",
@@ -544,11 +622,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:erzurum"
+    "TDVIA:erzurum",
+    "TDVIA:edirne-antlasmasi"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -559,7 +638,7 @@
    "note_en": "Returned under the Treaty of Edirne (14 September 1829)."
   },
   {
-   "id": 16,
+   "id": 18,
    "name_tr": "Edirne (1829)",
    "name_en": "Russian occupation of Edirne (1829)",
    "date": "1829-08-22",
@@ -595,7 +674,7 @@
    "note_en": "Russian forces entered the city without resistance and also occupied Kırklareli and Lüleburgaz."
   },
   {
-   "id": 17,
+   "id": 19,
    "name_tr": "Cezayir (1830)",
    "name_en": "Invasion of Algiers (1830)",
    "date": "1830-07-05",
@@ -632,7 +711,7 @@
    "note_en": "The French, who had blockaded the city since 1827, landed and occupied it on 5 July; the dey surrendered."
   },
   {
-   "id": 18,
+   "id": 20,
    "name_tr": "Babuna (1831)",
    "name_en": "Battle of Babuna (1831)",
    "date": "1831-04-21",
@@ -652,11 +731,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:resid-mehmed-pasa"
+    "TDVIA:resid-mehmed-pasa",
+    "TDVIA:mustafa-pasa-busatli"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -667,7 +747,7 @@
    "note_en": "The governor of Shkodër, who opposed the new army, was routed."
   },
   {
-   "id": 19,
+   "id": 21,
    "name_tr": "Priştine (1831)",
    "name_en": "Battle near Pristina (1831)",
    "date": "1831-07",
@@ -687,11 +767,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:resid-mehmed-pasa"
+    "TDVIA:resid-mehmed-pasa",
+    "TDVIA:bosna-hersek"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -702,7 +783,7 @@
    "note_en": "The Bosnians prevailed against the grand vizier."
   },
   {
-   "id": 20,
+   "id": 22,
    "name_tr": "Zerrâa (1832)",
    "name_en": "Battle of Zerrâa (1832)",
    "date": "1832-04-14",
@@ -722,11 +803,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:ibrahim-pasa-kavalali"
+    "TDVIA:ibrahim-pasa-kavalali",
+    "TDVIA:kavalali-mehmed-ali-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -737,7 +819,7 @@
    "note_en": "İbrahim Pasha's first encounter with Ottoman forces."
   },
   {
-   "id": 21,
+   "id": 23,
    "name_tr": "Akkâ (1832)",
    "name_en": "Siege of Acre (1831–1832)",
    "date": "1832-05-27",
@@ -774,7 +856,44 @@
    "note_en": "Surrendered after a six-month siege."
   },
   {
-   "id": 22,
+   "id": 24,
+   "name_tr": "Humus (1832)",
+   "name_en": "Battle of Homs (1832)",
+   "date": "1832-07-08",
+   "hijri": "",
+   "type": "land",
+   "war": "Mehmed Ali Paşa isyanı (1831–1840)",
+   "place": "Humus",
+   "lat": 34.73,
+   "lon": 36.71,
+   "loc": "known",
+   "country": "Suriye",
+   "side_a": "Mısır Valisi Mehmed Ali Paşa kuvvetleri",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "Halep Valisi Mehmed Paşa",
+   "opp_cmd": "İbrâhim Paşa (Kavalalı)",
+   "category": "ic",
+   "result": "C",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:ibrahim-pasa-kavalali",
+    "TDVIA:kavalali-mehmed-ali-pasa",
+    "TDVIA:huseyin-pasa-aga"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1812-1839",
+   "note": "Şam'ı 16 Haziran'da alan İbrâhim Paşa, Ağa Hüseyin Paşa ordusunun öncüsünü yendi.",
+   "note_en": "İbrahim Pasha, who had taken Damascus on 16 June, defeated the vanguard of Ağa Hüseyin Pasha's army."
+  },
+  {
+   "id": 25,
    "name_tr": "Belen (1832)",
    "name_en": "Battle of Beylan",
    "date": "1832-07-29",
@@ -788,17 +907,19 @@
    "country": "Türkiye",
    "side_a": "Mısır Valisi Mehmed Ali Paşa kuvvetleri",
    "side_b": "Osmanlı Devleti",
-   "turkic_cmd": "Ağa Hüseyin Paşa",
+   "turkic_cmd": "Serasker Ağa Hüseyin Paşa",
    "opp_cmd": "İbrâhim Paşa (Kavalalı)",
    "category": "ic",
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:ibrahim-pasa-kavalali"
+    "TDVIA:ibrahim-pasa-kavalali",
+    "TDVIA:kavalali-mehmed-ali-pasa",
+    "TDVIA:huseyin-pasa-aga"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -809,7 +930,7 @@
    "note_en": "Fought after the capture of Aleppo (15 July)."
   },
   {
-   "id": 23,
+   "id": 26,
    "name_tr": "Konya (1832)",
    "name_en": "Battle of Konya",
    "date": "1832-12-21",
@@ -847,7 +968,7 @@
    "note_en": "The Ottoman army broke up and the grand vizier was captured; the Egyptian forces advanced as far as Kütahya (2 February 1833)."
   },
   {
-   "id": 24,
+   "id": 27,
    "name_tr": "Kostantîne (1836)",
    "name_en": "First siege of Constantine (1836)",
    "date": "1836",
@@ -865,24 +986,27 @@
    "opp_cmd": "",
    "category": "dis",
    "result": "W",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:cezayir"
+    "TDVIA:cezayir",
+    "TDVIA:kostantine",
+    "TDVIA:abdulkadir-el-cezairi"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1812-1839",
-   "note": "Fransızlar Ahmed Bey karşısında ağır kayıplarla yenildi. Kostantîne Emîri Ahmed Bey dayının teslim olmasından sonra da mücadeleyi sürdürdü; Osmanlı adına savaştığı açık olmadığından kayıt borderline.",
-   "note_en": "The French were defeated by Ahmed Bey with heavy losses. Ahmed Bey, emir of Constantine, kept fighting after the dey surrendered; as it is unclear that he fought on the Ottoman side, the record is borderline."
+   "dispute": "Kostantîne maddesi Ahmed Bey'in burada bağımsız bir beylik kurmaya çalıştığını yazar; Abdülkādir el-Cezâirî maddesi onu \"Osmanlı tâbiiyetini sürdüren\" bir yönetici olarak anar. Bâbıâli'den paşa unvanı aldığı için Osmanlı tarafı sayıldı.",
+   "note": "Genel Vali Mareşal Clauzel'in saldırısı Ahmed Bey tarafından geri püskürtüldü.",
+   "note_en": "Governor-General Marshal Clauzel's attack was beaten back by Ahmed Bey."
   },
   {
-   "id": 25,
+   "id": 28,
    "name_tr": "Kostantîne (1837)",
    "name_en": "Siege of Constantine (1837)",
    "date": "1837-10-13",
@@ -897,27 +1021,30 @@
    "side_a": "Fransa",
    "side_b": "Osmanlı Devleti (Cezayir)",
    "turkic_cmd": "Kostantîne Emîri Ahmed Bey",
-   "opp_cmd": "",
+   "opp_cmd": "General Valée",
    "category": "dis",
    "result": "L",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:cezayir"
+    "TDVIA:cezayir",
+    "TDVIA:kostantine",
+    "TDVIA:abdulkadir-el-cezairi"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1812-1839",
-   "note": "Fransızlar batıdaki kuvvetlerini doğuya getirip şehri aldı.",
-   "note_en": "The French moved their western forces east and took the city."
+   "dispute": "Ahmed Bey'in statüsü için 1836 kaydına bakınız.",
+   "note": "Şehir General Valée kumandasındaki Fransız ordusunun kanlı bir hücumuyla alındı; Ahmed Bey Sahrâ'ya çekilip on bir yıl daha savaştı.",
+   "note_en": "The city fell to a bloody assault by the French army under General Valée; Ahmed Bey withdrew to the Sahara and fought on for eleven more years."
   },
   {
-   "id": 26,
+   "id": 29,
    "name_tr": "Nizip (1839)",
    "name_en": "Battle of Nezib",
    "date": "1839-06-24",
@@ -985,11 +1112,6 @@
    "name": "Vehhâbî seferinin diğer savaşları (Turabe, Bîşe, er-Res)",
    "reason": "Kavalalı ve İbrâhim Paşa maddeleri toplu anlatır.",
    "source": "TDVIA:ibrahim-pasa-kavalali"
-  },
-  {
-   "name": "Humus (1832)",
-   "reason": "TDVİA'da adıyla bulunamadı.",
-   "source": ""
   },
   {
    "name": "Vak‘a-i Hayriyye (1826)",
