@@ -235,20 +235,53 @@ LEFT = [
  {"name": "Belgradcık isyanı (1841, 1850)", "reason": "Belgradcık maddesi iki isyanı birlikte anar; tarih ayrılamadı.", "source": "TDVIA:belgradcik"},
 ]
 
+# İkinci kaynak turu
+EXTRA_SRC = {"Sinop (1853)": ["TDVIA:mehmed-emin-pasa-kibrisli"],
+             "Eski Zağra (1877)": ["TDVIA:suleyman-husnu-pasa", "TDVIA:eski-zagra"],
+             "Şıpka (Temmuz 1877)": ["TDVIA:suleyman-husnu-pasa"],
+             "Şıpka (Ağustos 1877)": ["TDVIA:suleyman-husnu-pasa"],
+             "Ziştovi (1877)": ["TDVIA:tirnova--bulgaristan"],
+             "Deveboynu (1877)": ["TDVIA:erzurum"],
+             "Aziziye (1877)": ["TDVIA:erzurum"]}
+FIX = {"Sinop (1853)": {
+           "dispute": "Sinop ve Kıbrıslı Mehmed Emin Paşa maddeleri baskını \"1854 yılı başlarına\" koyar. Savaş 4 Ekim 1853'te ilân edilmişti; genel kabul gören tarih 30 Kasım 1853'tür.",
+           "note": "Limandaki Osmanlı donanması Rus baskınına uğradı; on iki gemi battı, 2000'den fazla asker şehid düştü. Kaptanıderyâ Mahmud Paşa bu yüzden görevden alındı.",
+           "note_en": "The Ottoman squadron in the harbour was attacked by the Russian fleet; twelve ships were sunk and more than 2,000 men killed. Grand Admiral Mahmud Pasha was dismissed over it."},
+       "Ziştovi (1877)": {"dispute": "Tırnova'nın düşüşü: Doksanüç Harbi maddesi 1 Temmuz, Tırnova maddesi 24 Haziran 1877 der."},
+       "Eski Zağra (1877)": {
+           "note": "Gurko 22 Temmuz'da Eski ve Yeni Zağra'yı aldı. Hersek'teki kolordusunu Bar'dan gemilerle Dedeağaç'a getiren Süleyman Paşa 26 Temmuz'da mevzi aldı ve şehirleri savunan Rus ve Bulgarları yendi.",
+           "note_en": "Gurko took Stara and Nova Zagora on 22 July. Süleyman Pasha, who had shipped his Herzegovina corps from Bar to Dedeağaç, took up position on 26 July and defeated the Russians and Bulgarians defending the towns."}}
+NEW = {"Plevne'nin düşüşü (1877)": [
+        ("Maçka (1877)", "Battle of Mechka", "1877-12-11", WR, "Maçka (Mečka), Rusçuk yakını", 43.77, 26.12, "approx", "Bulgaristan",
+         RU, O, "Süleyman Hüsnü Paşa", "", "dis", "L", "kesin",
+         ["TDVIA:suleyman-husnu-pasa"], "", "Kuşatılmış Plevne'ye yardım için yürüyen Süleyman Paşa bu muharebeyi kaybetti.",
+         "Süleyman Pasha lost this battle while marching to the relief of besieged Plevna.", "land")]}
+RR = []
+for r in R:
+    RR.append(r)
+    RR += NEW.get(r[0], [])
+
 recs = []
-for i, r in enumerate(R, 1):
+for i, r in enumerate(RR, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ) = r
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,
            "verify": {"tdvia": True, "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": False},
            "state": O, "home_batch": HB}
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    for k, v in FIX.get(ntr, {}).items():
+        if k == "dispute": disp = v
+        elif k == "note": note = v
+        elif k == "note_en": note_en = v
+        else: rec[k] = v
+    rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
-meta = {"batch": "Parti 16 — Osmanlı: Tanzimat'tan Berlin'e (1839–1878)", "compiled": "2026-10-29", "status": "İlk tur.",
+meta = {"batch": "Parti 16 — Osmanlı: Tanzimat'tan Berlin'e (1839–1878)", "compiled": "2026-10-29", "status": "İkinci kaynak turu yapıldı.",
         "conventions": pilot["meta"]["conventions"], "source_keys": pilot["meta"]["source_keys"], "decisions": pilot["meta"]["decisions"]}
 (root / "data" / "osmanli-1839-1878.json").write_text(json.dumps({"meta": meta, "battles": recs, "left_out": LEFT}, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(recs), "kayıt;", sum(r["verify"]["tdvia2"] for r in recs), "iki maddeli")

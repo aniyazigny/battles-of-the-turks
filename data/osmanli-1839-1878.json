@@ -2,7 +2,7 @@
  "meta": {
   "batch": "Parti 16 — Osmanlı: Tanzimat'tan Berlin'e (1839–1878)",
   "compiled": "2026-10-29",
-  "status": "İlk tur.",
+  "status": "İkinci kaynak turu yapıldı.",
   "conventions": {
    "winner_first": "side_a kazanan taraftır; result alanı Türk (Selçuklu) tarafının sonucudur: W kazandı, L kaybetti, D belirsiz/berabere, C iç savaş (skora girmez).",
    "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",
@@ -155,20 +155,21 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:sinop"
+    "TDVIA:sinop",
+    "TDVIA:mehmed-emin-pasa-kibrisli"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
-   "dispute": "Sinop maddesi baskını \"1854 yılı başlarına\" koyar. Savaş 4 Ekim 1853'te ilân edilmişti; genel kabul gören tarih 30 Kasım 1853'tür. TDVİA'da ikinci bir madde bulunamadı.",
-   "note": "Limandaki Osmanlı donanması Rus baskınına uğradı; on iki gemi battı, 2000'den fazla asker şehid düştü.",
-   "note_en": "The Ottoman squadron in the harbour was attacked by the Russian fleet; twelve ships were sunk and more than 2,000 men killed."
+   "dispute": "Sinop ve Kıbrıslı Mehmed Emin Paşa maddeleri baskını \"1854 yılı başlarına\" koyar. Savaş 4 Ekim 1853'te ilân edilmişti; genel kabul gören tarih 30 Kasım 1853'tür.",
+   "note": "Limandaki Osmanlı donanması Rus baskınına uğradı; on iki gemi battı, 2000'den fazla asker şehid düştü. Kaptanıderyâ Mahmud Paşa bu yüzden görevden alındı.",
+   "note_en": "The Ottoman squadron in the harbour was attacked by the Russian fleet; twelve ships were sunk and more than 2,000 men killed. Grand Admiral Mahmud Pasha was dismissed over it."
   },
   {
    "id": 5,
@@ -768,7 +769,8 @@
    "status": "borderline",
    "sources": [
     "TDVIA:doksanuc-harbi",
-    "TDVIA:plevne-muharebeleri"
+    "TDVIA:plevne-muharebeleri",
+    "TDVIA:tirnova--bulgaristan"
    ],
    "verify": {
     "tdvia": true,
@@ -779,6 +781,7 @@
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
+   "dispute": "Tırnova'nın düşüşü: Doksanüç Harbi maddesi 1 Temmuz, Tırnova maddesi 24 Haziran 1877 der.",
    "note": "Ruslar Tuna'yı ciddi bir direnişle karşılaşmadan geçip Ziştovi'yi, 1 Temmuz'da Tırnova'yı aldı.",
    "note_en": "The Russians crossed the Danube without serious resistance and took Svishtov, then Tarnovo on 1 July."
   },
@@ -913,11 +916,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:doksanuc-harbi"
+    "TDVIA:doksanuc-harbi",
+    "TDVIA:suleyman-husnu-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -949,7 +953,9 @@
    "status": "kesin",
    "sources": [
     "TDVIA:doksanuc-harbi",
-    "TDVIA:bulgaristan"
+    "TDVIA:bulgaristan",
+    "TDVIA:suleyman-husnu-pasa",
+    "TDVIA:eski-zagra"
    ],
    "verify": {
     "tdvia": true,
@@ -960,8 +966,8 @@
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
-   "note": "Gurko 22 Temmuz'da Eski Zağra'yı aldı; Karadağ cephesinden gelen Süleyman Paşa onu yenip Balkanların güneyindeki yerleri geri aldı.",
-   "note_en": "Gurko took Stara Zagora on 22 July; Süleyman Pasha, arriving from the Montenegrin front, defeated him and recovered the places south of the Balkans."
+   "note": "Gurko 22 Temmuz'da Eski ve Yeni Zağra'yı aldı. Hersek'teki kolordusunu Bar'dan gemilerle Dedeağaç'a getiren Süleyman Paşa 26 Temmuz'da mevzi aldı ve şehirleri savunan Rus ve Bulgarları yendi.",
+   "note_en": "Gurko took Stara and Nova Zagora on 22 July. Süleyman Pasha, who had shipped his Herzegovina corps from Bar to Dedeağaç, took up position on 26 July and defeated the Russians and Bulgarians defending the towns."
   },
   {
    "id": 27,
@@ -984,11 +990,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:doksanuc-harbi"
+    "TDVIA:doksanuc-harbi",
+    "TDVIA:suleyman-husnu-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1144,6 +1151,41 @@
   },
   {
    "id": 32,
+   "name_tr": "Maçka (1877)",
+   "name_en": "Battle of Mechka",
+   "date": "1877-12-11",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Rus savaşı (Doksanüç Harbi, 1877–1878)",
+   "place": "Maçka (Mečka), Rusçuk yakını",
+   "lat": 43.77,
+   "lon": 26.12,
+   "loc": "approx",
+   "country": "Bulgaristan",
+   "side_a": "Rusya",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "Süleyman Hüsnü Paşa",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:suleyman-husnu-pasa"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1839-1878",
+   "note": "Kuşatılmış Plevne'ye yardım için yürüyen Süleyman Paşa bu muharebeyi kaybetti.",
+   "note_en": "Süleyman Pasha lost this battle while marching to the relief of besieged Plevna."
+  },
+  {
+   "id": 33,
    "name_tr": "Edirne (1878)",
    "name_en": "Russian occupation of Edirne (1878)",
    "date": "1878-01-20",
@@ -1180,7 +1222,7 @@
    "note_en": "When the governor destroyed the munitions depots and withdrew, the city surrendered without resistance."
   },
   {
-   "id": 33,
+   "id": 34,
    "name_tr": "Andrayoviç (1877)",
    "name_en": "Battle of Andrijevica (1877)",
    "date": "1877",
@@ -1215,7 +1257,7 @@
    "note_en": "When the Montenegrins took the field again, Mehmed Ali Pasha crossed the Lim and defeated them."
   },
   {
-   "id": 34,
+   "id": 35,
    "name_tr": "Nikşiç, Bar ve Ülgün'ün kaybı (1877–1878)",
    "name_en": "Montenegrin capture of Nikšić, Bar and Ulcinj",
    "date": "1878-01",
@@ -1250,7 +1292,7 @@
    "note_en": "Towards the end of the war Montenegro took Nikšić, Podgorica and Bar, and seized Ulcinj."
   },
   {
-   "id": 35,
+   "id": 36,
    "name_tr": "Doğubayazıt (1877)",
    "name_en": "Russian capture of Bayazid (1877)",
    "date": "1877-04-30",
@@ -1284,7 +1326,7 @@
    "home_batch": "osmanli-1839-1878"
   },
   {
-   "id": 36,
+   "id": 37,
    "name_tr": "Ardahan (1877)",
    "name_en": "Battle of Ardahan (1877)",
    "date": "1877-05-17",
@@ -1320,7 +1362,7 @@
    "note_en": "The Russians entered the town after heavy fighting."
   },
   {
-   "id": 37,
+   "id": 38,
    "name_tr": "Halyaz (Delibaba) (1877)",
    "name_en": "Battle of Taghir (Delibaba)",
    "date": "1877-06-21",
@@ -1355,7 +1397,7 @@
    "note_en": "The first battle of the counter-offensive against the Russians besieging Kars."
   },
   {
-   "id": 38,
+   "id": 39,
    "name_tr": "Zivin (1877)",
    "name_en": "Battle of Zivin",
    "date": "1877-06-25",
@@ -1392,7 +1434,7 @@
    "note_en": "The Russians fell back as far as Gyumri."
   },
   {
-   "id": 39,
+   "id": 40,
    "name_tr": "Gedikler (Kızıltepe) (1877)",
    "name_en": "Battle of Kızıltepe",
    "date": "1877-08-25",
@@ -1427,7 +1469,7 @@
    "note_en": "Won by a surprise attack."
   },
   {
-   "id": 40,
+   "id": 41,
    "name_tr": "Yahniler (1877)",
    "name_en": "Battle of Yahniler",
    "date": "1877-10-02",
@@ -1462,7 +1504,7 @@
    "note_en": "The three-day attack of the reinforced 70,000-strong Russian army was beaten off by 34,000 Ottoman troops."
   },
   {
-   "id": 41,
+   "id": 42,
    "name_tr": "Alacadağ (1877)",
    "name_en": "Battle of Aladzha",
    "date": "1877-10-15",
@@ -1497,7 +1539,7 @@
    "note_en": "The Russians took part of the Ottoman force prisoner; Ahmed Muhtar Pasha withdrew to Kars."
   },
   {
-   "id": 42,
+   "id": 43,
    "name_tr": "Deveboynu (1877)",
    "name_en": "Battle of Deve Boynu",
    "date": "1877-11-04",
@@ -1517,11 +1559,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:gazi-ahmed-muhtar-pasa"
+    "TDVIA:gazi-ahmed-muhtar-pasa",
+    "TDVIA:erzurum"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1532,7 +1575,7 @@
    "note_en": "Left with few troops, Ahmed Muhtar Pasha withdrew to Erzurum."
   },
   {
-   "id": 43,
+   "id": 44,
    "name_tr": "Aziziye (1877)",
    "name_en": "Battle of the Aziziye redoubts",
    "date": "1877-11-08",
@@ -1553,7 +1596,8 @@
    "status": "kesin",
    "sources": [
     "TDVIA:gazi-ahmed-muhtar-pasa",
-    "TDVIA:doksanuc-harbi"
+    "TDVIA:doksanuc-harbi",
+    "TDVIA:erzurum"
    ],
    "verify": {
     "tdvia": true,
@@ -1568,7 +1612,7 @@
    "note_en": "The Russians who stormed the redoubts were driven back to Deve Boynu in fighting joined by the people of Erzurum; Nene Hatun rallied the townsfolk."
   },
   {
-   "id": 44,
+   "id": 45,
    "name_tr": "Kars (1877)",
    "name_en": "Battle of Kars (1877)",
    "date": "1877-11-18",
