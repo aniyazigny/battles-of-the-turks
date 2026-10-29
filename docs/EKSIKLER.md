@@ -42,7 +42,9 @@ Son güncelleme: 2026-10-29
 
 ## 3. Harita eksikleri
 - [ ] Sınır tablosu 1000'de başlıyor: 893 ve 990 savaşlarında sınır boş (Sâmânîler, Hindûşâhîler ile 900'e uzatılmalı).
-- [ ] Altın Orda 1502'den sonra da görünüyor: Kazan, Astarhan, Nogay, Kırım ve Rus genişlemesi (Ukrayna/Çehrin 1677–78 de bu yüzden Altın Orda renginde).
+- [x] Altın Orda 1502'den sonra da görünüyordu → `tools/fix_borders_altinorda.py` (2026-10-29): Kazan 1437–1552, Astarhan 1466–1556, Nogay 1502–1634, Kırım bozkırı, Hîve 1512–, Sibir 1490–1582, Kazak Hanlığı 1465–; Rusya, Kiev (Lehistan-Litvanya 1362–1667, Rusya 1667–), Kalmuklar 1634–.
+- [ ] Doğu Türkistan ve Moğolistan: Çağatay Hanlığı ve Koço Uygurları 1690'a kadar aynı görünüyor (Yarkent/Kaşgar hanlığı, Cungarlar işlenmedi).
+- [ ] İran ve Irak 1405–1501: birçok şehir Timurlu görünüyor; Karakoyunlu ve Akkoyunlu yayılması eksik.
 - [ ] Kıbrıs 1489–1570 Venedik yerine Kıbrıs Krallığı rengi.
 
 ## 4. Veri alanı eksikleri

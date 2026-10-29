@@ -3,7 +3,7 @@
   "title": "Şehir bazlı hâkimiyet tablosu (harita sınırları için)",
   "compiled": "2026-10-28",
   "status": "Taslak. Sınırlar yaklaşıktır; kontrol bekliyor.",
-  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi.",
+  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü.",
   "spans": "[başlangıç, bitiş, devlet]: başlangıç dahil, bitiş hariç (ör. [1040, 1153, ...] 1040–1152 yılları).",
   "sources": "src alanı, el değiştirme tarihlerinin dayandığı TDVİA maddeleridir. 'yaklasik': true olan şehirlerin tarihleri kaba tahmindir ve kontrol edilecektir."
  },
@@ -571,6 +571,54 @@
    "en": "Transylvania",
    "group": "diger",
    "color": "#b5a596"
+  },
+  "kazan": {
+   "tr": "Kazan Hanlığı",
+   "en": "Khanate of Kazan",
+   "group": "turk-diger",
+   "color": "#a5915f"
+  },
+  "astarhan": {
+   "tr": "Astarhan Hanlığı",
+   "en": "Khanate of Astrakhan",
+   "group": "turk-diger",
+   "color": "#b09a72"
+  },
+  "nogay": {
+   "tr": "Nogay Ordası",
+   "en": "Nogai Horde",
+   "group": "turk-diger",
+   "color": "#a08a66"
+  },
+  "hive": {
+   "tr": "Hîve Hanlığı",
+   "en": "Khanate of Khiva",
+   "group": "turk-diger",
+   "color": "#bfa070"
+  },
+  "sibir": {
+   "tr": "Sibir Hanlığı",
+   "en": "Khanate of Sibir",
+   "group": "turk-diger",
+   "color": "#9c9070"
+  },
+  "kazak": {
+   "tr": "Kazak Hanlığı",
+   "en": "Kazakh Khanate",
+   "group": "turk-diger",
+   "color": "#b3a27a"
+  },
+  "rusya": {
+   "tr": "Rusya (Moskova)",
+   "en": "Russia (Muscovy)",
+   "group": "diger",
+   "color": "#a9aeb8"
+  },
+  "kalmuk": {
+   "tr": "Kalmuklar",
+   "en": "Kalmyks",
+   "group": "diger",
+   "color": "#b8ad9c"
   }
  },
  "cities": [
@@ -1074,14 +1122,30 @@
     ],
     [
      1221,
-     1690,
+     1370,
      "altin-orda"
+    ],
+    [
+     1370,
+     1505,
+     "timur"
+    ],
+    [
+     1505,
+     1512,
+     "ozbek"
+    ],
+    [
+     1512,
+     1690,
+     "hive"
     ]
    ],
    "src": [
     "cagri-bey",
     "atsiz-b-muhammed"
-   ]
+   ],
+   "yaklasik": true
   },
   {
    "id": "buhara",
@@ -1244,8 +1308,13 @@
     ],
     [
      1237,
-     1690,
+     1465,
      "altin-orda"
+    ],
+    [
+     1465,
+     1690,
+     "kazak"
     ]
    ],
    "src": [],
@@ -1264,8 +1333,18 @@
     ],
     [
      1236,
-     1690,
+     1437,
      "altin-orda"
+    ],
+    [
+     1437,
+     1552,
+     "kazan"
+    ],
+    [
+     1552,
+     1690,
+     "rusya"
     ]
    ],
    "src": [],
@@ -1289,8 +1368,18 @@
     ],
     [
      1237,
-     1690,
+     1502,
      "altin-orda"
+    ],
+    [
+     1502,
+     1634,
+     "nogay"
+    ],
+    [
+     1634,
+     1690,
+     "kalmuk"
     ]
    ],
    "src": [],
@@ -1314,8 +1403,13 @@
     ],
     [
      1240,
-     1690,
+     1441,
      "altin-orda"
+    ],
+    [
+     1441,
+     1690,
+     "kirim"
     ]
    ],
    "src": [],
@@ -1334,11 +1428,22 @@
     ],
     [
      1240,
-     1690,
+     1362,
      "altin-orda"
+    ],
+    [
+     1362,
+     1667,
+     "lehistan"
+    ],
+    [
+     1667,
+     1690,
+     "rusya"
     ]
    ],
-   "src": []
+   "src": [],
+   "yaklasik": true
   },
   {
    "id": "curcan",
@@ -5778,6 +5883,109 @@
     ]
    ],
    "src": [],
+   "yaklasik": true
+  },
+  {
+   "id": "astarhan",
+   "tr": "Astarhan",
+   "lat": 46.35,
+   "lon": 48.05,
+   "spans": [
+    [
+     1240,
+     1466,
+     "altin-orda"
+    ],
+    [
+     1466,
+     1556,
+     "astarhan"
+    ],
+    [
+     1556,
+     1690,
+     "rusya"
+    ]
+   ],
+   "src": [
+    "TDVIA:astarhan-hanligi"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "moskova",
+   "tr": "Moskova",
+   "lat": 55.75,
+   "lon": 37.62,
+   "spans": [
+    [
+     1240,
+     1480,
+     "altin-orda"
+    ],
+    [
+     1480,
+     1690,
+     "rusya"
+    ]
+   ],
+   "src": [
+    "TDVIA:altin-orda-hanligi"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "sibir",
+   "tr": "Sibir (İsker)",
+   "lat": 58.2,
+   "lon": 68.25,
+   "spans": [
+    [
+     1240,
+     1490,
+     "altin-orda"
+    ],
+    [
+     1490,
+     1582,
+     "sibir"
+    ],
+    [
+     1582,
+     1690,
+     "rusya"
+    ]
+   ],
+   "src": [
+    "TDVIA:sibir-hanligi"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "saraycik",
+   "tr": "Saraycık (Nogay)",
+   "lat": 47.5,
+   "lon": 51.7,
+   "spans": [
+    [
+     1240,
+     1502,
+     "altin-orda"
+    ],
+    [
+     1502,
+     1634,
+     "nogay"
+    ],
+    [
+     1634,
+     1690,
+     "kalmuk"
+    ]
+   ],
+   "src": [
+    "TDVIA:nogaylar"
+   ],
    "yaklasik": true
   },
   {
