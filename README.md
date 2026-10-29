@@ -7,6 +7,7 @@
 |---|---|
 | [docs/METODOLOJI.md](docs/METODOLOJI.md) | Yöntem: kapsam, tanımlar, kategoriler, kaynak politikası, iş akışı, veri şeması |
 | [docs/KAYNAKLAR.md](docs/KAYNAKLAR.md) | Kademeli bibliyografya ve kullanım durumu |
+| [docs/EKSIKLER.md](docs/EKSIKLER.md) | Açık eksiklerin ana listesi |
 | [docs/KARARLAR.md](docs/KARARLAR.md) | Tarihli karar günlüğü |
 | [docs/01-inceleme-ve-kaynak-plani.md](docs/01-inceleme-ve-kaynak-plani.md) | Orijinal sitenin incelemesi ve ilk plan |
 | [docs/02-pilot-buyuk-selcuklu.md](docs/02-pilot-buyuk-selcuklu.md) | Pilot 1'in bulguları |
