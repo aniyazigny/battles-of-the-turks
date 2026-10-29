@@ -101,3 +101,9 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 |---|---|---|
 | Hotin 1621 | Belirsiz (D) | Batı kaynakları: Leh zaferi |
 | Estergon 1605 | Ekim 1605, ihtilaflı (TDVİA içi) | 3 Ekim / 4 Kasım |
+
+## Kayıt kararları (Parti 11: Osmanlı 1640–1683, 2026-10-29)
+| Kayıt | Karar | Alternatif okuma |
+|---|---|---|
+| Saint Gotthard 1664 | Yenilgi | Fâzıl Ahmed Paşa maddesi: tam bozgun değil |
+| Kandiye 1647–1669 | Tek kayıt (teslim tarihi) | — |
