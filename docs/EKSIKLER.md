@@ -28,7 +28,7 @@ Son güncelleme: 2026-10-29
 | Osmanlı 1878–1912 | 19 | 6 |
 | Osmanlı 1912–1913 | 15 | 6 |
 | Osmanlı 1914–1918 | 41 | 18 |
-| Millî Mücadele 1919–1922 | 22 | 6 |
+| Millî Mücadele 1919–1922 | 23 | 4 |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).
@@ -53,7 +53,7 @@ Son güncelleme: 2026-10-29
 - [ ] **Osmanlı 1774–1812:** Kalafat, Tendra ve Kelegra deniz savaşları; Sırp isyanının diğer savaşları (Belgrad 1806, Mişar, Deligrad, Çegar 1809); Bozcaada ve Aynaroz 1807, Arpaçay 1807; Rusçuk 1811 ve Slobozia; Vehhâbîlerin Tâif'i (Şubat 1803) ve Mekke'yi (30 Nisan 1803) alması (Mekke maddesi; Şerîf Gālib Osmanlı tâbiiyetinde olduğundan borderline adayı).
 - [ ] **Osmanlı 1812–1839:** Tripoliçe 1821, Dervenaki 1822, Atina 1826–27, Osmanlı–İran savaşı 1821–23, Bosna isyanı (Hüseyin Kapudan), Vehhâbî seferinin diğer savaşları. Humus 1832 eklendi (2026-10-29).
 - [ ] **Osmanlı 1839–1878:** Karadağ seferi 1852–53; Kafkas cephesi 1853–54 (Ahıska, Başgedikler, Kürekdere); Kars müdafaası 29 Eylül 1855; Arkadi 1866; Aleksinaç ve Cuniş 1876; Batum 1877–78; Vidin, Rusçuk ve Silistre direnişleri; Şeynova–Kazanlık ve Filibe 1878.
-- [ ] **Millî Mücadele 1919–1922:** Antep savunması (sonuç için ikinci kaynak); Karakese 1918; Eskişehir harekâtları 1919–20; Pontus ve Koçgiri; Gediz Ekim 1920; Sarıkamış ve Gümrü 1920; Fransızlara karşı Adana–Pozantı çatışmaları.
+- [ ] **Millî Mücadele 1919–1922:** Antep savunması (sonuç için ikinci kaynak); Karakese 1918; Eskişehir harekâtları 1919–20; Pontus ve Koçgiri; Sarıkamış ve Gümrü 1920; Fransızlara karşı Adana–Pozantı çatışmaları.
 - [ ] **Osmanlı 1914–1918:** Galiçya, Romanya, Makedonya kolorduları; İran harekâtı (Hemedan); Şeria 1918; Nablus–Megiddo 1918; Van 1915; Aden–Lahic; Medine müdafaası boyunca çatışmalar; Hicaz demiryolu baskınları; Akabe 1917; Erzincan 1918.
 - [ ] **Osmanlı 1912–1913:** Hamidiye akınları; Elli ve Limni deniz muharebeleri; Şarköy ve Bolayır 1913; Priştine, Ohri, Pirlepe, Midilli, İmroz, Bozcaada işgalleri.
 - [ ] **Osmanlı 1878–1912:** Velestin ve Termopil 1897; Yemen isyanları 1891–97 ve 1902–04; Arnavut ve Malisör isyanları 1909–12; Derne ve Tobruk cephesi 1912; Girit 1897.

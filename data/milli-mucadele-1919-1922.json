@@ -2,7 +2,7 @@
  "meta": {
   "batch": "Parti 20 — Millî Mücadele (1919–1922)",
   "compiled": "2026-10-30",
-  "status": "İlk tur.",
+  "status": "İkinci kaynak turu yapıldı.",
   "conventions": {
    "winner_first": "side_a kazanan taraftır; result alanı Türk (Selçuklu) tarafının sonucudur: W kazandı, L kaybetti, D belirsiz/berabere, C iç savaş (skora girmez).",
    "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",
@@ -84,11 +84,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:milli-mucadele"
+    "TDVIA:milli-mucadele",
+    "TDVIA:balikesir-kongreleri"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -319,6 +320,41 @@
   },
   {
    "id": 9,
+   "name_tr": "Gediz taarruzu (1920)",
+   "name_en": "Gediz offensive (1920)",
+   "date": "1920-10",
+   "hijri": "",
+   "type": "land",
+   "war": "Millî Mücadele (1919–1922)",
+   "place": "Gediz",
+   "lat": 39.0,
+   "lon": 29.41,
+   "loc": "known",
+   "country": "Türkiye",
+   "side_a": "Yunanistan",
+   "side_b": "TBMM Hükümeti",
+   "turkic_cmd": "Ali Fuad Paşa (Batı Cephesi)",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:cebesoy-ali-fuat"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "TBMM Hükümeti (Millî Mücadele)",
+   "home_batch": "milli-mucadele-1919-1922",
+   "note": "Yunan ilerleyişini durdurmak için girişilen taarruzdan istenen sonuç alınamadı; Ali Fuad Paşa cephe kumandanlığından alındı (yerine 25 Ekim 1920'de İsmet Bey getirildi).",
+   "note_en": "The offensive launched to halt the Greek advance failed; Ali Fuad Pasha was removed from the front command (replaced by İsmet Bey on 25 October 1920)."
+  },
+  {
+   "id": 10,
    "name_tr": "Kars (1920)",
    "name_en": "Capture of Kars (1920)",
    "date": "1920-10-30",
@@ -356,7 +392,7 @@
    "note_en": "The corps routed the Armenian forces and retook Kars; the Treaty of Alexandropol of 3 December 1920 returned Kars, Sarıkamış, Kağızman, Kulp and Iğdır."
   },
   {
-   "id": 10,
+   "id": 11,
    "name_tr": "Konya ve Bozkır isyanları (1920)",
    "name_en": "Delibaş and Bozkır revolts (1920)",
    "date": "1920-11-15",
@@ -391,7 +427,7 @@
    "note_en": "The Delibaş revolt, begun in Konya on 3 October, spread as far as Isparta; the Bozkır and Konya risings were put down on 15 November."
   },
   {
-   "id": 11,
+   "id": 12,
    "name_tr": "Yozgat isyanları (1920)",
    "name_en": "Yozgat revolts (1920)",
    "date": "1920-12-30",
@@ -411,11 +447,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:milli-mucadele"
+    "TDVIA:milli-mucadele",
+    "TDVIA:cerkez-ethem"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -426,7 +463,7 @@
    "note_en": "The Yıldızeli, Yozgat and Bozkır revolts broke out in June 1920; the second Yozgat rising of 6 September was finally put down on 30 December."
   },
   {
-   "id": 12,
+   "id": 13,
    "name_tr": "Birinci İnönü (1921)",
    "name_en": "First Battle of İnönü",
    "date": "1921-01-10",
@@ -462,7 +499,7 @@
    "note_en": "The regular army under İsmet Bey defeated Greek forces superior in numbers and equipment."
   },
   {
-   "id": 13,
+   "id": 14,
    "name_tr": "Gediz (1921)",
    "name_en": "Suppression of Çerkez Ethem (1921)",
    "date": "1921-01",
@@ -482,11 +519,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:milli-mucadele"
+    "TDVIA:milli-mucadele",
+    "TDVIA:cerkez-ethem"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -497,7 +535,7 @@
    "note_en": "In the operation begun on 27 December 1920, Çerkez Ethem and his brothers saw all their forces crushed at Gediz and fled to the Greeks."
   },
   {
-   "id": 14,
+   "id": 15,
    "name_tr": "Ardahan (1921)",
    "name_en": "Recovery of Ardahan (1921)",
    "date": "1921-02-23",
@@ -534,7 +572,7 @@
    "note_en": "Ardahan, Çıldır and Posof were freed from Georgian occupation; the three provinces were recovered except Batum."
   },
   {
-   "id": 15,
+   "id": 16,
    "name_tr": "İkinci İnönü (1921)",
    "name_en": "Second Battle of İnönü",
    "date": "1921-04-01",
@@ -571,7 +609,7 @@
    "note_en": "The Greek army, which had taken Bilecik and Afyon on 23 March, was stopped on the İnönü ridges on 1 April."
   },
   {
-   "id": 16,
+   "id": 17,
    "name_tr": "Aslıhanlar (1921)",
    "name_en": "Battle of Aslıhanlar (1921)",
    "date": "1921-04-07",
@@ -606,7 +644,7 @@
    "note_en": "The Greeks were heavily defeated and Afyon was retaken."
   },
   {
-   "id": 17,
+   "id": 18,
    "name_tr": "Adapazarı'nın geri alınışı (1921)",
    "name_en": "Recovery of Adapazarı (1921)",
    "date": "1921-06-21",
@@ -641,7 +679,7 @@
    "note_en": "The town had been occupied by the Greeks on 25 March 1921."
   },
   {
-   "id": 18,
+   "id": 19,
    "name_tr": "Kütahya–Eskişehir (1921)",
    "name_en": "Battle of Kütahya–Eskişehir",
    "date": "1921-07-10",
@@ -678,7 +716,7 @@
    "note_en": "The Greeks attacked on 10 July; caught unprepared, the Turkish army evacuated Eskişehir on Mustafa Kemal Pasha's orders and fell back east of the Sakarya. Eskişehir was occupied on 20 July, Kütahya on 21 July."
   },
   {
-   "id": 19,
+   "id": 20,
    "name_tr": "Sakarya (1921)",
    "name_en": "Battle of the Sakarya",
    "date": "1921-09-12",
@@ -715,7 +753,7 @@
    "note_en": "The three-week battle ended on 12 September with a heavy Greek defeat; the Greeks fell back to the Eskişehir–Afyon line. On 19 September the Assembly made Mustafa Kemal Pasha marshal and gazi."
   },
   {
-   "id": 20,
+   "id": 21,
    "name_tr": "Büyük Taarruz (1922)",
    "name_en": "Great Offensive (1922)",
    "date": "1922-08-26",
@@ -753,7 +791,7 @@
    "note_en": "In the offensive launched from Afyon on the morning of 26 August, half the Greek forces were put out of action within two days; Afyon was freed on 27 August."
   },
   {
-   "id": 21,
+   "id": 22,
    "name_tr": "Başkumandanlık Muharebesi (1922)",
    "name_en": "Battle of Dumlupınar",
    "date": "1922-08-30",
@@ -791,7 +829,7 @@
    "note_en": "The encirclement was completed in a pitched battle directed by Mustafa Kemal Pasha himself; the Greek deputy commander-in-chief Trikoupis and many soldiers were captured."
   },
   {
-   "id": 22,
+   "id": 23,
    "name_tr": "İzmir'in kurtuluşu (1922)",
    "name_en": "Recapture of İzmir (1922)",
    "date": "1922-09-09",
@@ -854,7 +892,7 @@
    "source": "TDVIA:milli-mucadele"
   },
   {
-   "name": "Gediz (Ekim 1920) ve Batı Trakya'nın işgali (1920)",
+   "name": "Batı Trakya'nın işgali (1920)",
    "reason": "Muharebe ayrıntısı yok.",
    "source": "TDVIA:milli-mucadele"
   },

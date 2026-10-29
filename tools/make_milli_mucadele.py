@@ -127,13 +127,33 @@ LEFT = [
     {"name": "Eskişehir harekâtları (1919–1920)", "reason": "Cebesoy maddesi İngilizler'in İzmit'e çekilmesini toplu anar.", "source": "TDVIA:cebesoy-ali-fuat"},
     {"name": "Antep savunması (1920–1921)", "reason": "Gaziantep maddesi on aylık direnişi anar; sonucu (şehrin teslimi) maddede açık değil — ikinci kaynak gerekiyor.", "source": "TDVIA:gaziantep"},
     {"name": "Pontus isyanları ve Koçgiri isyanı", "reason": "Maddeler toplu anar; muharebe ayrıntısı yok.", "source": "TDVIA:milli-mucadele"},
-    {"name": "Gediz (Ekim 1920) ve Batı Trakya'nın işgali (1920)", "reason": "Muharebe ayrıntısı yok.", "source": "TDVIA:milli-mucadele"},
+    {"name": "Batı Trakya'nın işgali (1920)", "reason": "Muharebe ayrıntısı yok.", "source": "TDVIA:milli-mucadele"},
     {"name": "Büyük Taarruz sonrası şehir kurtuluşları (Eylül 1922)", "reason": "Takip harekâtı; İzmir kaydının notunda.", "source": "TDVIA:milli-mucadele"},
 ]
 
+# İkinci kaynak turu.
+EXTRA_SRC = {
+    "Akbaş baskını (1920)": ["TDVIA:balikesir-kongreleri"],  # baskını Balıkesir Kongresi kararlaştırdı
+    "Yozgat isyanları (1920)": ["TDVIA:cerkez-ethem"],  # 20 Haziran'da harekete geçip isyanı bir haftada bastırdı
+    "Gediz (1921)": ["TDVIA:cerkez-ethem"],  # Kütahya'dan Gediz'e çekilen Ethem'e karşı kuvvete başvuruldu
+}
+NEW = {
+    "Uşak (1920)": [
+        ("Gediz taarruzu (1920)", "Gediz offensive (1920)", "1920-10", WM, "Gediz", 39.00, 29.41, "known", "Türkiye",
+         GR, TB, "Ali Fuad Paşa (Batı Cephesi)", "", "dis", "L", "kesin",
+         ["TDVIA:cebesoy-ali-fuat"], "", "Yunan ilerleyişini durdurmak için girişilen taarruzdan istenen sonuç alınamadı; Ali Fuad Paşa cephe kumandanlığından alındı (yerine 25 Ekim 1920'de İsmet Bey getirildi).",
+         "The offensive launched to halt the Greek advance failed; Ali Fuad Pasha was removed from the front command (replaced by İsmet Bey on 25 October 1920).", "land"),
+    ],
+}
+RR = []
+for r in R:
+    RR.append(r)
+    RR.extend(NEW.get(r[0], []))
+
 recs = []
-for i, r in enumerate(R, 1):
+for i, r in enumerate(RR, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ) = r
+    src = src + [x for x in EXTRA_SRC.get(ntr, []) if x not in src]
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,
@@ -146,7 +166,7 @@ for i, r in enumerate(R, 1):
 dates = [r["date"] + ("-15" if len(r["date"]) == 7 else "") for r in recs]
 assert dates == sorted(dates), [d for a, d in zip(dates, dates[1:]) if d < a]
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
-meta = {"batch": "Parti 20 — Millî Mücadele (1919–1922)", "compiled": "2026-10-30", "status": "İlk tur.",
+meta = {"batch": "Parti 20 — Millî Mücadele (1919–1922)", "compiled": "2026-10-30", "status": "İkinci kaynak turu yapıldı.",
         "conventions": pilot["meta"]["conventions"], "source_keys": pilot["meta"]["source_keys"], "decisions": pilot["meta"]["decisions"]}
 (root / "data" / "milli-mucadele-1919-1922.json").write_text(json.dumps({"meta": meta, "battles": recs, "left_out": LEFT}, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(recs), "kayıt;", sum(r["verify"]["tdvia2"] for r in recs), "iki maddeli")
