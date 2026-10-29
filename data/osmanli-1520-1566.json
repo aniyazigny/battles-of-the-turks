@@ -189,11 +189,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:budin"
+    "TDVIA:budin",
+    "TDVIA:macaristan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -224,11 +225,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:viyana"
+    "TDVIA:viyana",
+    "TDVIA:avusturya"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -259,11 +261,12 @@
    "result": "W",
    "status": "ihtilafli",
    "sources": [
-    "TDVIA:suleyman-i"
+    "TDVIA:suleyman-i",
+    "TDVIA:macaristan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -365,11 +368,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:irakeyn-seferi"
+    "TDVIA:irakeyn-seferi",
+    "TDVIA:ibrahim-pasa-makbul"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -400,11 +404,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:irakeyn-seferi"
+    "TDVIA:irakeyn-seferi",
+    "TDVIA:ibrahim-pasa-makbul"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -650,11 +655,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:estergon"
+    "TDVIA:estergon",
+    "TDVIA:macaristan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -738,7 +744,7 @@
    "id": 21,
    "name_tr": "Temeşvar (1552)",
    "name_en": "Siege of Temesvár",
-   "date": "1552-07",
+   "date": "1552-07-26",
    "hijri": "",
    "type": "land",
    "war": "Osmanlı–Habsburg savaşları",
@@ -755,6 +761,8 @@
    "result": "W",
    "status": "kesin",
    "sources": [
+    "TDVIA:kara-ahmed-pasa",
+    "TDVIA:sokullu-mehmed-pasa",
     "TDVIA:egri",
     "TDVIA:suleyman-i"
    ],
@@ -767,8 +775,8 @@
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1520-1566",
-   "note": "Ardından Szolnok da alındı.",
-   "note_en": "Szolnok was taken afterwards."
+   "note": "28 Haziran–26 Temmuz 1552 arasında süren kuşatmadan sonra teslim alındı; ardından Lipova, Solimos ve Szolnok alındı.",
+   "note_en": "Surrendered after a siege from 28 June to 26 July 1552; Lipova, Solimos and Szolnok followed."
   },
   {
    "id": 22,
@@ -791,19 +799,20 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:egri"
+    "TDVIA:egri",
+    "TDVIA:sokullu-mehmed-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1520-1566",
-   "note": "Yaklaşık kırk gün süren kuşatma kaldırıldı.",
-   "note_en": "The siege, lasting about forty days, was lifted."
+   "note": "Kuşatma 9 Eylül 1552'de başladı ve yaklaşık kırk gün sonra kaldırıldı.",
+   "note_en": "The siege began on 9 September 1552 and was lifted about forty days later."
   },
   {
    "id": 23,
@@ -859,19 +868,20 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:suleyman-i"
+    "TDVIA:suleyman-i",
+    "TDVIA:bayezid-sehzade"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1520-1566",
-   "note": "Yenilen Bayezid Safevîlere sığındı.",
-   "note_en": "The defeated Bayezid took refuge with the Safavids."
+   "note": "30 Mayıs'ta başlayan savaş iki gün sürdü; yenilen Bayezid Safevîlere sığındı.",
+   "note_en": "The battle began on 30 May and lasted two days; the defeated Bayezid took refuge with the Safavids."
   },
   {
    "id": 25,
@@ -894,11 +904,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:cerbe"
+    "TDVIA:cerbe",
+    "TDVIA:piyale-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

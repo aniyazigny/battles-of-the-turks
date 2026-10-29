@@ -96,6 +96,17 @@ R = [
  "On 5 September a mine blew up the powder store; Zrínyi's sortie ended the defence. Süleyman died during the siege.", "land"),
 ]
 
+# İkinci kaynak turu (2026-10-29)
+EXTRA_SRC = {"Budin (1529)": ["TDVIA:macaristan"], "Viyana kuşatması (1529)": ["TDVIA:avusturya"], "Güns (Kőszeg)": ["TDVIA:macaristan"],
+             "Estergon": ["TDVIA:macaristan"], "Eğri kuşatması (1552)": ["TDVIA:sokullu-mehmed-pasa"], "Konya (1559)": ["TDVIA:bayezid-sehzade"],
+             "Cerbe": ["TDVIA:piyale-pasa"], "Tebriz (1534)": ["TDVIA:ibrahim-pasa-makbul"], "Bağdat (1534)": ["TDVIA:ibrahim-pasa-makbul"],
+             "Temeşvar (1552)": ["TDVIA:kara-ahmed-pasa", "TDVIA:sokullu-mehmed-pasa"]}
+FIX = {"Temeşvar (1552)": {"date": "1552-07-26", "sources": ["TDVIA:kara-ahmed-pasa", "TDVIA:sokullu-mehmed-pasa", "TDVIA:egri", "TDVIA:suleyman-i"],
+                           "note": "28 Haziran–26 Temmuz 1552 arasında süren kuşatmadan sonra teslim alındı; ardından Lipova, Solimos ve Szolnok alındı.",
+                           "note_en": "Surrendered after a siege from 28 June to 26 July 1552; Lipova, Solimos and Szolnok followed."},
+       "Eğri kuşatması (1552)": {"note": "Kuşatma 9 Eylül 1552'de başladı ve yaklaşık kırk gün sonra kaldırıldı.", "note_en": "The siege began on 9 September 1552 and was lifted about forty days later."},
+       "Konya (1559)": {"note": "30 Mayıs'ta başlayan savaş iki gün sürdü; yenilen Bayezid Safevîlere sığındı.", "note_en": "The battle began on 30 May and lasted two days; the defeated Bayezid took refuge with the Safavids."}}
+
 LEFT = [
  {"name": "Seydi Ali Reis'in Hint Okyanusu seferi (1554)", "reason": "Portekiz donanmasıyla çatışmaların sonucu indirilen metinde net değil; ikinci turda.", "source": "TDVIA:seydi-ali-reis"},
  {"name": "Gorjani (1537), Korfu (1537)", "reason": "TDVİA'da ayrıntı bu turda bulunamadı.", "source": "TDVIA:suleyman-i"},
@@ -112,6 +123,9 @@ for i, r in enumerate(R, 1):
            "state": O, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    rec.update(FIX.get(ntr, {}))
+    rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
