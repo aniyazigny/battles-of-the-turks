@@ -105,9 +105,16 @@ LEFT = [
  {"name": "Necid'e gönderilen Osmanlı kuvveti (1904)", "reason": "Lahsâ maddesi kuvvetin gönderildiğini anar; çatışma ayrıntısı yok.", "source": "TDVIA:lahsa"},
 ]
 
+# İkinci kaynak turu: ikinci TDVİA maddeleri.
+EXTRA_SRC = {
+    "Kosova'nın geri alınışı (1881)": ["TDVIA:arnavutluk"],  # 1881'de Bâbıâli'nin gönderdiği ordu ile dağıtıldı
+    "San‘a'nın geri alınışı (1905)": ["TDVIA:mutevekkil-alellah-yahya-hamiduddin"],  # Ahmed Feyzi Paşa karşısında şehri terketti
+}
+
 recs = []
 for i, r in enumerate(R, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ) = r
+    src = src + [x for x in EXTRA_SRC.get(ntr, []) if x not in src]
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,
@@ -118,7 +125,7 @@ for i, r in enumerate(R, 1):
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
-meta = {"batch": "Parti 17 — Osmanlı: Berlin'den Balkan Savaşı'na (1878–1912)", "compiled": "2026-10-29", "status": "İlk tur.",
+meta = {"batch": "Parti 17 — Osmanlı: Berlin'den Balkan Savaşı'na (1878–1912)", "compiled": "2026-10-29", "status": "İkinci kaynak turu yapıldı.",
         "conventions": pilot["meta"]["conventions"], "source_keys": pilot["meta"]["source_keys"], "decisions": pilot["meta"]["decisions"]}
 (root / "data" / "osmanli-1878-1912.json").write_text(json.dumps({"meta": meta, "battles": recs, "left_out": LEFT}, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(recs), "kayıt;", sum(r["verify"]["tdvia2"] for r in recs), "iki maddeli")

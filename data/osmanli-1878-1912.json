@@ -2,7 +2,7 @@
  "meta": {
   "batch": "Parti 17 — Osmanlı: Berlin'den Balkan Savaşı'na (1878–1912)",
   "compiled": "2026-10-29",
-  "status": "İlk tur.",
+  "status": "İkinci kaynak turu yapıldı.",
   "conventions": {
    "winner_first": "side_a kazanan taraftır; result alanı Türk (Selçuklu) tarafının sonucudur: W kazandı, L kaybetti, D belirsiz/berabere, C iç savaş (skora girmez).",
    "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",
@@ -46,11 +46,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:prizren"
+    "TDVIA:prizren",
+    "TDVIA:arnavutluk"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -295,11 +296,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:yemen"
+    "TDVIA:yemen",
+    "TDVIA:mutevekkil-alellah-yahya-hamiduddin"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

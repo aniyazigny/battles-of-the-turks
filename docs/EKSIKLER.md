@@ -25,7 +25,7 @@ Son güncelleme: 2026-10-29
 | Osmanlı 1774–1812 | 39 | 19 |
 | Osmanlı 1812–1839 | 29 | 5 |
 | Osmanlı 1839–1878 | 45 | 16 |
-| Osmanlı 1878–1912 | 19 | 8 |
+| Osmanlı 1878–1912 | 19 | 6 |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).
