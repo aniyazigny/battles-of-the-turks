@@ -161,3 +161,16 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Yenice-i Vardar 1912 | Madde 11 Kasım der; Batı literatürü 1–2 Kasım → tarih ay düzeyinde, `dispute` |
 | Edirne haritada | 26 Mart–21 Temmuz 1913 Bulgar işgali yıl çözünürlüğünde gösterilmez |
 | Bâbıâli Baskını | Hükümet darbesi; muharebe değil → dışarıda |
+
+## Kayıt kararları (Parti 19: Birinci Dünya Savaşı 1914–1918, 2026-10-30)
+| Kayıt | Karar |
+|---|---|
+| Şerîf Hüseyin isyanı (Medine, Mekke, Bi'riali, Tâif) | Mekke emîrinin isyanı; Müslüman vali/emîr isyanı kuralı → `ic`, sonuç `C` |
+| Arıburnu ve Seddülbahir çıkarmaları (25 Nisan 1915) | Çıkarma kuvvetleri kıyıda tutundu; Türk okumasıyla (P6) ilerleyiş durdurulduğu için `W`, `dispute` notuyla |
+| Kerevizdere ve Zığındere | Madde sonuç vermez → `D` |
+| Bitlis'in kurtarılışı 1916 | Madde yalnızca işgalin sona erdiğini yazar → borderline |
+| Ermeni kuvvetleri (1918) | Rus ordusu çekildikten sonra karşı taraf; `dis` |
+| Sarıkamış kayıpları | Enver Paşa maddesindeki 90.000 rakamı Sarıkamış Harekâtı maddesince düzeltilir → `dispute` |
+| Karadeniz baskını 1914 | Osmanlı donanmasını Alman Amiral Souchon yönetti; Osmanlı kaydı sayıldı |
+| Musul (Kasım 1918), Medine'nin teslimi (1919) | Mütarekeden sonra → dışarıda |
+| Şam ve Halep 1918 haritada | Faysal'ın Arap yönetimi Hâşimî (hicaz) rengiyle gösterilir |
