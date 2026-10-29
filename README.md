@@ -56,7 +56,7 @@
 - `data/osmanli-1912-1913.json`: Osmanlı 1912–1913 (Balkan Savaşları), 15 kayıt. Üretici: `tools/make_osmanli_1912_1913.py`.
 - `data/osmanli-1914-1918.json`: Osmanlı 1914–1918 (Birinci Dünya Savaşı), 41 kayıt. Üretici: `tools/make_osmanli_1914_1918.py`.
 - `data/milli-mucadele-1919-1922.json`: Millî Mücadele 1919–1922, 23 kayıt. Üretici: `tools/make_milli_mucadele.py`.
-- `data/gokturk-uygur.json`: Göktürkler, Türgişler, Karluklar ve Uygurlar 552–911, 26 kayıt. Üretici: `tools/make_gokturk_uygur.py`.
+- `data/gokturk-uygur.json`: Göktürkler, Türgişler, Karluklar ve Uygurlar 552–911, 27 kayıt. Üretici: `tools/make_gokturk_uygur.py`.
 - `data/akademik-kaynaklar.json`: `AKD:` anahtarıyla atıf yapılan akademik yayınların künyeleri.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 

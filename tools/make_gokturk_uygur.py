@@ -127,7 +127,7 @@ R = [
  "Beş gün süren savaşın son günü Karluklar Çin ordusuna arkadan saldırdı; iki ateş arasında kalan Çinliler ağır yenildi ve Batı Türkistan'dan çekildi.",
  "On the last of five days the Karluks attacked the Chinese army from the rear; caught between two fires, the Chinese were heavily defeated and withdrew from western Turkestan.", "land", KR),
 ("Çin'e yardım: Ch'ang-an ve Lo-yang (757)", "Uyghur intervention in the An Lushan rebellion (757)", "757", WUY, "Ch'ang-an ve Lo-yang", 34.27, 108.95, "region", "Çin",
- UY, "An Lu-shan isyancıları", "", "", "dis", "W", "kesin",
+ UY, "An Lu-shan isyancıları", "Yehhu (Yabgu), Moyen-çor Kağan'ın oğlu", "", "dis", "W", "kesin",
  ["TDVIA:toharistan", "TDVIA:uygurlar"], "",
  "757'nin ilk aylarında Uygur yardımcı kuvvetleri T'ang hânedanına yardıma geldi; Uygurlar Çin'de otorite kurmak için bu ülkeye yardım edip yıllık vergi aldılar.",
  "In early 757 Uyghur auxiliaries came to the aid of the Tang; the Uyghurs helped China and received annual tribute.", "land", UY),
@@ -154,13 +154,39 @@ LEFT = [
     {"name": "Uygur–Kırgız savaşları (821 sonrası)", "reason": "Uygurlar maddesi toplu anar.", "source": "TDVIA:uygurlar"},
 ]
 
+# İkinci kaynak turu: akademik kaynaklar (data/akademik-kaynaklar.json).
+EXTRA_SRC = {
+    "Türgiş seferi (711)": ["AKD:aydin-2007"],  # Kırgız seferinin ardından 711'de Türgişlere ve Demir Kapı'ya batı seferi
+    "Agu (716)": ["AKD:aydin-2007"],
+    "Mâverâünnehir'in alınışı (728)": ["AKD:koca-erdem"],  # Su-lu Arap ordularını üst üste yendi; Araplar'ın elinde yalnız Semerkant kaldı
+    "Doğu Göktürk'ün yıkılışı (630)": ["AKD:koca-erdem"],  # Dokuz Oğuz savaşı Bilge 32 yaşındayken, 716'da biter
+    "Çik seferi (750)": ["AKD:aydin-2007"],  # Şine Usu D 7: kaplan yılında (750) Kem'de Çikleri bozguna uğrattım
+    "Uygur Kağanlığı'nın yıkılışı (840)": ["AKD:aydin-2007"],
+    "Çin'e yardım: Ch'ang-an ve Lo-yang (757)": ["AKD:aydin-baybalik"],  # Moyen-çor oğlu Yehhu komutasında ordu; iki başkentin yağmasına izin
+}
+NEW = {
+    "Fergana (649)": [],
+    "İkinci Göktürk Kağanlığı'nın kuruluşu (682)": [
+        ("Kırgız seferi (710–711)", "Kyrgyz campaign of 710–711 (Battle of Songa)", "710", WG2, "Soŋa yış (Minusinsk havzasının güneyi)", 52.50, 91.50, "approx", "Rusya (Hakasya)",
+         GK, "Kırgızlar", "Kapgan Kağan; Tonyukuk, Tarduş Şad Bilge ve Kül Tigin", "Kırgız kağanı", "turk_arasi", "W", "kesin",
+         ["AKD:aydin-2007"], "Erhan Aydın'a göre Tonyukuk, Kül Tigin ve Bilge Kağan yazıtlarındaki Kırgız seferleri aynı seferdir (710'da başlayıp 711'de tamamlandı); Giraud 697 ve 709–710 olmak üzere iki sefer önerir.",
+         "Tabgaç, On Ok ve Kırgız kağanlarının birleşmesinden önce davranan Tonyukuk'un planıyla ordu Kögmen'i aşıp Kırgızları uykuda bastı; Kırgız kağanıyla Soŋa ormanlık dağında savaşıldı. Sefer başarıyla tamamlandı.",
+         "Acting before the Tabgach, On Ok and Kyrgyz khagans could unite, the army crossed the Kögmen on Tonyukuk's plan and surprised the Kyrgyz; the Kyrgyz khagan was fought at the Songa forest-mountain. The campaign succeeded.", "land", GK),
+    ],
+}
+RR = []
+for r in R:
+    RR.append(r)
+    RR.extend(NEW.get(r[0], []))
+
 recs = []
-for i, r in enumerate(R, 1):
+for i, r in enumerate(RR, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ, state) = r
+    src = src + [x for x in EXTRA_SRC.get(ntr, []) if x not in src]
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,
-           "verify": {"tdvia": True, "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": False},
+           "verify": {"tdvia": any(x.startswith("TDVIA:") for x in src), "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": any(x.startswith("AKD:") for x in src)},
            "state": state, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
@@ -169,7 +195,7 @@ for i, r in enumerate(R, 1):
 dates = [r["date"] for r in recs]
 assert dates == sorted(dates), [d for a, d in zip(dates, dates[1:]) if d < a]
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
-meta = {"batch": "Parti 21 — Göktürkler, Türgişler, Karluklar ve Uygurlar (552–911)", "compiled": "2026-10-30", "status": "İlk tur.",
+meta = {"batch": "Parti 21 — Göktürkler, Türgişler, Karluklar ve Uygurlar (552–911)", "compiled": "2026-10-30", "status": "İkinci kaynak turu yapıldı (akademik).",
         "conventions": pilot["meta"]["conventions"], "source_keys": pilot["meta"]["source_keys"], "decisions": pilot["meta"]["decisions"]}
 (root / "data" / "gokturk-uygur.json").write_text(json.dumps({"meta": meta, "battles": recs, "left_out": LEFT}, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(recs), "kayıt;", sum(r["verify"]["tdvia2"] for r in recs), "iki maddeli")

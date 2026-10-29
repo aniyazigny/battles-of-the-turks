@@ -2,7 +2,7 @@
  "meta": {
   "batch": "Parti 21 — Göktürkler, Türgişler, Karluklar ve Uygurlar (552–911)",
   "compiled": "2026-10-30",
-  "status": "İlk tur.",
+  "status": "İkinci kaynak turu yapıldı (akademik).",
   "conventions": {
    "winner_first": "side_a kazanan taraftır; result alanı Türk (Selçuklu) tarafının sonucudur: W kazandı, L kaybetti, D belirsiz/berabere, C iç savaş (skora girmez).",
    "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",
@@ -191,14 +191,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:asya",
-    "TDVIA:turfan"
+    "TDVIA:turfan",
+    "AKD:koca-erdem"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Göktürk Kağanlığı",
    "home_batch": "gokturk-uygur",
@@ -317,6 +318,42 @@
   },
   {
    "id": 9,
+   "name_tr": "Kırgız seferi (710–711)",
+   "name_en": "Kyrgyz campaign of 710–711 (Battle of Songa)",
+   "date": "710",
+   "hijri": "",
+   "type": "land",
+   "war": "İkinci Göktürk Kağanlığı (682–744)",
+   "place": "Soŋa yış (Minusinsk havzasının güneyi)",
+   "lat": 52.5,
+   "lon": 91.5,
+   "loc": "approx",
+   "country": "Rusya (Hakasya)",
+   "side_a": "Göktürk Kağanlığı",
+   "side_b": "Kırgızlar",
+   "turkic_cmd": "Kapgan Kağan; Tonyukuk, Tarduş Şad Bilge ve Kül Tigin",
+   "opp_cmd": "Kırgız kağanı",
+   "category": "turk_arasi",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "AKD:aydin-2007"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": true
+   },
+   "state": "Göktürk Kağanlığı",
+   "home_batch": "gokturk-uygur",
+   "dispute": "Erhan Aydın'a göre Tonyukuk, Kül Tigin ve Bilge Kağan yazıtlarındaki Kırgız seferleri aynı seferdir (710'da başlayıp 711'de tamamlandı); Giraud 697 ve 709–710 olmak üzere iki sefer önerir.",
+   "note": "Tabgaç, On Ok ve Kırgız kağanlarının birleşmesinden önce davranan Tonyukuk'un planıyla ordu Kögmen'i aşıp Kırgızları uykuda bastı; Kırgız kağanıyla Soŋa ormanlık dağında savaşıldı. Sefer başarıyla tamamlandı.",
+   "note_en": "Acting before the Tabgach, On Ok and Kyrgyz khagans could unite, the army crossed the Kögmen on Tonyukuk's plan and surprised the Kyrgyz; the Kyrgyz khagan was fought at the Songa forest-mountain. The campaign succeeded."
+  },
+  {
+   "id": 10,
    "name_tr": "Türgiş seferi (711)",
    "name_en": "Battle of Bolchu (711)",
    "date": "711",
@@ -337,14 +374,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:yabgu",
-    "TDVIA:talas-savasi"
+    "TDVIA:talas-savasi",
+    "AKD:aydin-2007"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Göktürk Kağanlığı",
    "home_batch": "gokturk-uygur",
@@ -352,7 +390,7 @@
    "note_en": "Kapghan Khagan defeated and subjugated the Türgesh; the Türgesh yabgu, shad and khagan were killed."
   },
   {
-   "id": 10,
+   "id": 11,
    "name_tr": "Togubalık (715)",
    "name_en": "Battle of Toghu Balık (715)",
    "date": "715",
@@ -387,7 +425,7 @@
    "note_en": "The Göktürks fought the Oğuz four times within a year; the first battle was at Toghu Balık near the Tola."
   },
   {
-   "id": 11,
+   "id": 12,
    "name_tr": "Agu (716)",
    "name_en": "Battle of Agu (716)",
    "date": "716",
@@ -407,14 +445,15 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:dokuz-oguzlar"
+    "TDVIA:dokuz-oguzlar",
+    "AKD:aydin-2007"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Göktürk Kağanlığı",
    "home_batch": "gokturk-uygur",
@@ -422,7 +461,7 @@
    "note_en": "The Oğuz and Tatars were routed in two clashes at Agu."
   },
   {
-   "id": 12,
+   "id": 13,
    "name_tr": "Kapgan Kağan'ın ölümü (716)",
    "name_en": "Death of Kapghan Khagan (716)",
    "date": "716-07-22",
@@ -457,7 +496,7 @@
    "note_en": "Kapghan Khagan, campaigning against the Bayırku around Lake Baikal, was killed; a succession struggle followed."
   },
   {
-   "id": 13,
+   "id": 14,
    "name_tr": "Semerkant seferi (721)",
    "name_en": "Türgesh campaign on Samarkand (720–721)",
    "date": "721",
@@ -493,7 +532,7 @@
    "note_en": "Under Suluk Khagan the Türgesh marched on Samarkand to aid the Sogdians; beaten at first, they then defeated the Arabs."
   },
   {
-   "id": 14,
+   "id": 15,
    "name_tr": "Mâverâünnehir'in alınışı (728)",
    "name_en": "Türgesh reconquest of Transoxiana (728)",
    "date": "728",
@@ -515,14 +554,15 @@
    "sources": [
     "TDVIA:semerkant",
     "TDVIA:maveraunnehir",
-    "TDVIA:buhara"
+    "TDVIA:buhara",
+    "AKD:koca-erdem"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Türgiş Kağanlığı",
    "home_batch": "gokturk-uygur",
@@ -530,7 +570,7 @@
    "note_en": "Joined by Sogdian forces, the Türgesh took the whole region except Samarkand and Dabusiya and besieged Samarkand; they briefly held Bukhara too."
   },
   {
-   "id": 15,
+   "id": 16,
    "name_tr": "Buhara ve Beykend (729)",
    "name_en": "Battles of Bukhara and Baykand (729)",
    "date": "729",
@@ -565,7 +605,7 @@
    "note_en": "With reinforcements arriving the khagan withdrew from Bukhara; Junayd beat the Turks near Baykand and captured the khagan's nephew (his son, per al-Baladhuri)."
   },
   {
-   "id": 16,
+   "id": 17,
    "name_tr": "Semerkant (731)",
    "name_en": "Battle of the Defile (731)",
    "date": "731-11",
@@ -601,7 +641,7 @@
    "note_en": "The Muslim army barely escaped disaster against the Turks and Sogdians while Junayd took Samarkand; reaching Bukhara in November 731, Junayd forced the khagan to withdraw."
   },
   {
-   "id": 17,
+   "id": 18,
    "name_tr": "Haristan (737)",
    "name_en": "Battle of Kharistan (737)",
    "date": "737",
@@ -637,7 +677,7 @@
    "note_en": "The Turkish khagan at first prevailed but was then defeated and his army scattered; al-Harith b. Surayj had joined the Turks. Suluk died in 738 and the Türgesh withdrew."
   },
   {
-   "id": 18,
+   "id": 19,
    "name_tr": "Ozmış Kağan'ın yenilgisi (743)",
    "name_en": "Fall of the Second Göktürk Khaganate (742–743)",
    "date": "743",
@@ -675,7 +715,7 @@
    "note_en": "The Karluk, Basmil and Uyghur tribes under Göktürk rule defeated and killed Ozmış Khagan; the Göktürk state fell in 744."
   },
   {
-   "id": 19,
+   "id": 20,
    "name_tr": "Basmıl'ın yenilgisi (745)",
    "name_en": "Uyghur defeat of the Basmil (745)",
    "date": "745",
@@ -712,7 +752,7 @@
    "note_en": "The Uyghur yabgu defeated the Basmil khagan and proclaimed himself khagan, founding the Uyghur Khaganate."
   },
   {
-   "id": 20,
+   "id": 21,
    "name_tr": "Oğuz ve Tatar isyanı (749)",
    "name_en": "Suppression of the Oğuz–Tatar revolt (749)",
    "date": "749",
@@ -747,7 +787,7 @@
    "note_en": "From early 749 until autumn the khagan fought the revolt, winning successes and capturing most of the Oğuz commoners."
   },
   {
-   "id": 21,
+   "id": 22,
    "name_tr": "Çik seferi (750)",
    "name_en": "Campaign against the Chik (750)",
    "date": "750",
@@ -767,14 +807,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:dokuz-oguzlar"
+    "TDVIA:dokuz-oguzlar",
+    "AKD:aydin-2007"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Uygur Kağanlığı",
    "home_batch": "gokturk-uygur",
@@ -782,7 +823,7 @@
    "note_en": "Campaign against the Chik on the Kem (upper Yenisei)."
   },
   {
-   "id": 22,
+   "id": 23,
    "name_tr": "Talas (751)",
    "name_en": "Battle of Talas",
    "date": "751-07",
@@ -820,7 +861,7 @@
    "note_en": "On the last of five days the Karluks attacked the Chinese army from the rear; caught between two fires, the Chinese were heavily defeated and withdrew from western Turkestan."
   },
   {
-   "id": 23,
+   "id": 24,
    "name_tr": "Çin'e yardım: Ch'ang-an ve Lo-yang (757)",
    "name_en": "Uyghur intervention in the An Lushan rebellion (757)",
    "date": "757",
@@ -834,21 +875,22 @@
    "country": "Çin",
    "side_a": "Uygur Kağanlığı",
    "side_b": "An Lu-shan isyancıları",
-   "turkic_cmd": "",
+   "turkic_cmd": "Yehhu (Yabgu), Moyen-çor Kağan'ın oğlu",
    "opp_cmd": "",
    "category": "dis",
    "result": "W",
    "status": "kesin",
    "sources": [
     "TDVIA:toharistan",
-    "TDVIA:uygurlar"
+    "TDVIA:uygurlar",
+    "AKD:aydin-baybalik"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Uygur Kağanlığı",
    "home_batch": "gokturk-uygur",
@@ -856,7 +898,7 @@
    "note_en": "In early 757 Uyghur auxiliaries came to the aid of the Tang; the Uyghurs helped China and received annual tribute."
   },
   {
-   "id": 24,
+   "id": 25,
    "name_tr": "Kırgızlar'ın bağlanması (758)",
    "name_en": "Uyghur subjugation of the Kyrgyz (758)",
    "date": "758",
@@ -889,7 +931,7 @@
    "home_batch": "gokturk-uygur"
   },
   {
-   "id": 25,
+   "id": 26,
    "name_tr": "Uygur Kağanlığı'nın yıkılışı (840)",
    "name_en": "Kyrgyz destruction of the Uyghur Khaganate (840)",
    "date": "840",
@@ -912,14 +954,15 @@
     "TDVIA:uygurlar",
     "TDVIA:kirgizlar",
     "TDVIA:asya",
-    "TDVIA:turfan"
+    "TDVIA:turfan",
+    "AKD:aydin-2007"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Uygur Kağanlığı",
    "home_batch": "gokturk-uygur",
@@ -927,7 +970,7 @@
    "note_en": "The Kyrgyz destroyed the Uyghur state in a violent assault and took the Ötüken; the Uyghurs scattered to Gansu, Turfan and Beshbalik."
   },
   {
-   "id": 26,
+   "id": 27,
    "name_tr": "Tun-huang (911)",
    "name_en": "Ganzhou Uyghur capture of Dunhuang (911)",
    "date": "911",

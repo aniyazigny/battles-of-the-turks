@@ -1,18 +1,18 @@
 # Parti 21: Göktürkler, Türgişler, Karluklar ve Uygurlar (552–911)
 
-Tarih: 2026-10-30 · Veri: `data/gokturk-uygur.json` (üretici: `tools/make_gokturk_uygur.py`) · Durum: **ilk tur**
+Tarih: 2026-10-30 · Veri: `data/gokturk-uygur.json` (üretici: `tools/make_gokturk_uygur.py`) · Durum: **ikinci kaynak turu yapıldı (akademik)**
 
 ## Özet
-- **26 kayıt**, 6 olay grubu dışarıda bırakıldı.
-- **Sonuç:** 15 galibiyet, 7 mağlubiyet, 4 iç savaş.
-- **Statü:** 25 kesin, 1 borderline (İkinci Göktürk Kağanlığı'nın kuruluşu 682).
-- **Doğrulama:** 14 kayıt iki ayrı TDVİA maddesinde.
+- **27 kayıt** (ikinci turda Kırgız seferi 710–711 eklendi), 5 olay grubu dışarıda bırakıldı.
+- **Sonuç:** 16 galibiyet, 7 mağlubiyet, 4 iç savaş.
+- **Statü:** 26 kesin, 1 borderline (İkinci Göktürk Kağanlığı'nın kuruluşu 682).
+- **Doğrulama:** 14 kayıt iki ayrı TDVİA maddesinde; 8 kayıt akademik kaynakla (`AKD:`) desteklendi. İkinci kaynağı olmayan 10 kayıt kaldı.
 - **Devletler:** Göktürk 8, Batı Göktürk 5, Türgiş 5, Uygur 6, Karluk 1 (Talas), Kan-chou Uygurları 1.
 
 Kayıtlar:
 - **Birinci Göktürk (552–630):** Juan-juan'ın yenilgisi 552 (Bumın); Doğu Göktürk'ün yıkılışı 630.
 - **Batı Göktürk:** Akhun Devleti'nin yıkılışı 557 (İstemi); Kerç 576; Tiflis 627–629 (Hazarlar); Fergana 649; Batı Göktürk'ün yıkılışı 657.
-- **İkinci Göktürk (682–744):** Kuruluş 682 (borderline); Türgiş seferi 711; Togubalık 715 ve Agu 716 (Oğuzlar); Kapgan'ın ölümü 716; Ozmış'ın yenilgisi 743.
+- **İkinci Göktürk (682–744):** Kuruluş 682 (borderline); Kırgız seferi 710–711; Türgiş seferi 711; Togubalık 715 ve Agu 716 (Oğuzlar); Kapgan'ın ölümü 716; Ozmış'ın yenilgisi 743.
 - **Türgişler ve Araplar:** Semerkant 721, Mâverâünnehir'in alınışı 728 (Su-lu); Buhara ve Beykend 729, Semerkant 731, Haristan 737 (Emevî zaferleri).
 - **Uygurlar:** Basmıl 745; Oğuz–Tatar isyanı 749; Çik seferi 750; Çin'e yardım (Ch'ang-an ve Lo-yang) 757; Kırgızlar'ın bağlanması 758; yıkılış 840; Kan-chou Uygurları'nın Tun-huang'ı alışı 911.
 - **Karluklar:** Talas 751.
@@ -30,13 +30,20 @@ Ayrıntı: `docs/KARARLAR.md` (Parti 21).
 - **Batı Göktürk'ün yıkılışı:** 656 / 657–658 / 658 / 659.
 - **Göktürk'ün sonu:** 742–743 / 744 / 745.
 
+## İkinci kaynak turu (akademik)
+| Kaynak | Desteklenen kayıtlar |
+|---|---|
+| Erhan Aydın, "Eski Türk Yazıtlarındaki Kırgız Seferleri Üzerine Notlar" (Sibirya Araştırmaları, 2007) | **Yeni:** Kırgız seferi 710–711 (Soŋa yış); Türgiş seferi 711; Agu 716; Çik seferi 750 (Şine Usu: "kaplan yılında Kem'de bozguna uğrattım"); Uygur'un yıkılışı 840 |
+| Erhan Aydın, "Baybalık Kentinin Yeri, Yapılış Tarihi ve Amacı" | Çin'e yardım 757 (komutan Moyen-çor'un oğlu Yehhu/Yabgu) |
+| Salim Koca, "Türkler ve İslâmiyet" (Erdem) | Mâverâünnehir'in alınışı 728; Doğu Göktürk'ün yıkılışı 630 |
+
 ## Haritadaki sınırlar (550–1000)
 `tools/extend_borders_552.py`: 1000 öncesi boş olan tabloya kaba bir katman eklendi. Bozkırda Göktürk, Batı Göktürk, Türgiş, Karluk, Uygur, Kırgız ve Hazar; İran ve Irak'ta Sâsânî, Emevî, Abbâsî, Sâmânî, Saffârî, Büveyhî; Suriye–Mısır'da Râşidîn, Emevî, Abbâsî, Fâtımî; Balkanlarda Bizans, Avar ve Tuna Bulgar dilimleri. Yeni nokta: Ötüken. Bütün dilimler yaklaşıktır.
 
 ## Bilinen eksikler
-- **12 tek maddeli kayıt:** Juan-juan 552, Kerç 576, Tiflis 627–629, Fergana 649, Togubalık 715, Agu 716, Kapgan'ın ölümü 716, Buhara ve Beykend 729, Oğuz–Tatar 749, Çik 750, Kırgızlar 758, Tun-huang 911.
-- **Dışarıda kalanlar:** Kırgız seferi 710; Sâsânî–Göktürk savaşları; Semerkant 701; Karluk isyanları; Beşbalık 791; Uygur–Kırgız savaşları 821 sonrası.
+- **İkinci kaynağı olmayan 10 kayıt:** Juan-juan 552, Kerç 576, Tiflis 627–629, Fergana 649, Togubalık 715, Kapgan'ın ölümü 716, Buhara ve Beykend 729, Oğuz–Tatar 749, Kırgızlar 758, Tun-huang 911.
+- **Dışarıda kalanlar:** Sâsânî–Göktürk savaşları; Semerkant 701; Karluk isyanları; Beşbalık 791; Uygur–Kırgız savaşları 821 sonrası.
 - **Kapsam kararı:** Hun, Akhun, Avar, Hazar, Tuna Bulgar, Peçenek, İdil Bulgar ve Kırgız devletlerinin ayrı partileri.
 
 ## Sonraki adımlar
-- [ ] İkinci kaynak turu (akademik kaynaklarla).
+- [x] İkinci kaynak turu (akademik; 8 kayıt desteklendi, Kırgız seferi eklendi).
