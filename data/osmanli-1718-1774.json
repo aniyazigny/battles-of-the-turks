@@ -424,6 +424,41 @@
   },
   {
    "id": 12,
+   "name_tr": "Kırım'ın istilâsı (1737)",
+   "name_en": "Russian invasion of Crimea (1737)",
+   "date": "1737",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Rus–Avusturya savaşı (1736–1739)",
+   "place": "Kırım",
+   "lat": 45.3,
+   "lon": 34.1,
+   "loc": "region",
+   "country": "Ukrayna",
+   "side_a": "Rusya",
+   "side_b": "Kırım Hanlığı (Osmanlı tâbiiyetinde)",
+   "turkic_cmd": "",
+   "opp_cmd": "Peter Lacy",
+   "category": "dis",
+   "result": "L",
+   "status": "borderline",
+   "sources": [
+    "TDVIA:kirim"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1718-1774",
+   "note": "Ruslar Lascy idaresinde 1737'de yeniden gelip tahribatı sürdürdü. Kırım Hanlığı kaydı (KARARLAR). (Kontrol turunda eklendi.)",
+   "note_en": "The Russians returned under Lacy in 1737 and continued the devastation. Crimean Khanate record (see KARARLAR)."
+  },
+  {
+   "id": 13,
    "name_tr": "Niş (1737)",
    "name_en": "Recapture of Niš (1737)",
    "date": "1737-10",
@@ -459,7 +494,112 @@
    "note_en": "Retaken without a fight."
   },
   {
-   "id": 13,
+   "id": 14,
+   "name_tr": "Dinyester (1738)",
+   "name_en": "Repulse of the Russians on the Dniester (1738)",
+   "date": "1738",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Rus–Avusturya savaşı (1736–1739)",
+   "place": "Dinyester",
+   "lat": 46.85,
+   "lon": 29.6,
+   "loc": "region",
+   "country": "Moldova",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Rusya",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mahmud-i--osmanli"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1718-1774",
+   "note": "Dinyester'i geçmek isteyen Ruslar 1738 başlarında püskürtüldü. (Kontrol turunda eklendi.)",
+   "note_en": "The Russians trying to cross the Dniester were repulsed in early 1738."
+  },
+  {
+   "id": 15,
+   "name_tr": "Azak denizi (1738)",
+   "name_en": "Destruction of the Russian Azov flotilla (1738)",
+   "date": "1738",
+   "hijri": "",
+   "type": "sea",
+   "war": "Osmanlı–Rus–Avusturya savaşı (1736–1739)",
+   "place": "Azak denizi ve Karadeniz",
+   "lat": 45.8,
+   "lon": 36.5,
+   "loc": "region",
+   "country": "Rusya / Ukrayna",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Rusya",
+   "turkic_cmd": "Kaptanıderyâ Süleyman Paşa",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mahmud-i--osmanli"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1718-1774",
+   "note": "Azak'tan Karadeniz'e çıkan Rus donanması Kaptanıderyâ Süleyman Paşa kumandasındaki Osmanlı filosu tarafından yakıldı. (Kontrol turunda eklendi.)",
+   "note_en": "The Russian flotilla sailing from Azov into the Black Sea was burned by the Ottoman fleet under Grand Admiral Süleyman Pasha."
+  },
+  {
+   "id": 16,
+   "name_tr": "Kırım'ın istilâsı (1738)",
+   "name_en": "Russian invasion of Crimea (1738)",
+   "date": "1738",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Rus–Avusturya savaşı (1736–1739)",
+   "place": "Kırım",
+   "lat": 45.3,
+   "lon": 34.1,
+   "loc": "region",
+   "country": "Ukrayna",
+   "side_a": "Rusya",
+   "side_b": "Kırım Hanlığı (Osmanlı tâbiiyetinde)",
+   "turkic_cmd": "",
+   "opp_cmd": "Peter Lacy",
+   "category": "dis",
+   "result": "L",
+   "status": "borderline",
+   "sources": [
+    "TDVIA:kirim"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1718-1774",
+   "note": "Ruslar Lascy idaresinde 1738'de de gelip tahribatı sürdürdü. Kırım Hanlığı kaydı (KARARLAR). (Kontrol turunda eklendi.)",
+   "note_en": "The Russians came again under Lacy in 1738 and continued the devastation. Crimean Khanate record (see KARARLAR)."
+  },
+  {
+   "id": 17,
    "name_tr": "Mehâdiye (1738)",
    "name_en": "Battle of Mehadia (1738)",
    "date": "1738-07",
@@ -493,7 +633,7 @@
    "home_batch": "osmanli-1718-1774"
   },
   {
-   "id": 14,
+   "id": 18,
    "name_tr": "Adakale (1738)",
    "name_en": "Siege of Ada Kaleh (1738)",
    "date": "1738-08",
@@ -529,7 +669,7 @@
    "note_en": "The fortress surrendered after about three months; Orșova had been taken first."
   },
   {
-   "id": 15,
+   "id": 19,
    "name_tr": "Hisarcık (1739)",
    "name_en": "Battle of Grocka (1739)",
    "date": "1739-07-22",
@@ -565,7 +705,7 @@
    "note_en": "After fierce fighting Belgrade was recovered; the Treaty of Belgrade followed in 1739."
   },
   {
-   "id": 16,
+   "id": 20,
    "name_tr": "Hotin'in kaybı (1739)",
    "name_en": "Battle of Stavuchany and loss of Khotyn (1739)",
    "date": "1739-08",
@@ -601,7 +741,7 @@
    "note_en": "Returned to the Ottomans by the Treaty of Belgrade."
   },
   {
-   "id": 17,
+   "id": 21,
    "name_tr": "Kerkük (1743)",
    "name_en": "Siege of Kirkuk (1743)",
    "date": "1743-07",
@@ -635,7 +775,7 @@
    "home_batch": "osmanli-1718-1774"
   },
   {
-   "id": 18,
+   "id": 22,
    "name_tr": "Musul (1743)",
    "name_en": "Siege of Mosul (1743)",
    "date": "1743-10",
@@ -671,7 +811,7 @@
    "note_en": "The fiercest assault came on 4 October 1743; the fortress held."
   },
   {
-   "id": 19,
+   "id": 23,
    "name_tr": "Kars (1744)",
    "name_en": "Siege of Kars (1744)",
    "date": "1744-09",
@@ -707,7 +847,7 @@
    "note_en": "The two-month siege begun on 29 July failed."
   },
   {
-   "id": 20,
+   "id": 24,
    "name_tr": "Kağaverd (1745)",
    "name_en": "Battle of Kars (1745)",
    "date": "1745-08-21",
@@ -743,7 +883,7 @@
    "note_en": "The commander fell ill and died when close to victory, and the army broke."
   },
   {
-   "id": 21,
+   "id": 25,
    "name_tr": "Hotin (1769)",
    "name_en": "Siege of Khotyn (1769)",
    "date": "1769-09",
@@ -780,7 +920,7 @@
    "note_en": "Some successes had been won against the first Russian siege in June 1769 (Mustafa III article)."
   },
   {
-   "id": 22,
+   "id": 26,
    "name_tr": "Mora (1770)",
    "name_en": "Orlov revolt in the Morea (1770)",
    "date": "1770-04-19",
@@ -816,7 +956,7 @@
    "note_en": "The Greek rebels and their Russian supporters were routed."
   },
   {
-   "id": 23,
+   "id": 27,
    "name_tr": "Sakız Boğazı (1770)",
    "name_en": "Battle of Chios (1770)",
    "date": "1770-07-05",
@@ -852,7 +992,7 @@
    "note_en": "Hasan Bey's ship and Spiridov's flagship burned; neither side won decisively."
   },
   {
-   "id": 24,
+   "id": 28,
    "name_tr": "Çeşme (1770)",
    "name_en": "Battle of Chesma",
    "date": "1770-07-06",
@@ -889,7 +1029,7 @@
    "note_en": "The fleet, packed into the harbour, was burned by fireships; only the admiral's galley escaped."
   },
   {
-   "id": 25,
+   "id": 29,
    "name_tr": "Kartal (1770)",
    "name_en": "Battle of Kagul",
    "date": "1770-08-01",
@@ -926,7 +1066,7 @@
    "dispute": "İvazzâde Halil Paşa maddesi savaşı \"Kartal (Larga) Muharebesi\" diye adlandırır ve 2 Ağustos 1770 tarihini verir; Larga ayrı bir savaştır (Temmuz 1770)."
   },
   {
-   "id": 26,
+   "id": 30,
    "name_tr": "Bender (1770)",
    "name_en": "Siege of Bender (1770)",
    "date": "1770-09",
@@ -962,7 +1102,7 @@
    "note_en": "Taken after a two-month siege."
   },
   {
-   "id": 27,
+   "id": 31,
    "name_tr": "Limni (1770)",
    "name_en": "Relief of Lemnos (1770)",
    "date": "1770",
@@ -998,7 +1138,7 @@
    "note_en": "With a band of volunteers he relieved the castle besieged by the Russians since 10 July."
   },
   {
-   "id": 28,
+   "id": 32,
    "name_tr": "Kırım'ın istilâsı (1771)",
    "name_en": "Russian conquest of Crimea (1771)",
    "date": "1771",
@@ -1034,7 +1174,7 @@
    "note_en": "Russian armies overran the peninsula; no detailed battle record."
   },
   {
-   "id": 29,
+   "id": 33,
    "name_tr": "Silistre (1773)",
    "name_en": "Siege of Silistra (1773)",
    "date": "1773-06",
@@ -1069,7 +1209,7 @@
    "note_en": "The Russian army withdrew with heavy losses."
   },
   {
-   "id": 30,
+   "id": 34,
    "name_tr": "Kozluca (1774)",
    "name_en": "Battle of Kozludzha",
    "date": "1774-06-25",

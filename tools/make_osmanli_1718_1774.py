@@ -152,6 +152,22 @@ KIRIM = {
   "Rusya", "Kırım Hanlığı (Osmanlı tâbiiyetinde)", "", "Burkhard Christoph von Münnich", "dis", "L", "borderline",
   ["TDVIA:mahmud-i--osmanli"], "", "13 Temmuz 1736'ya kadar Ruslar Orkapı ve Gözleve'yi aldı, Bahçesaray ve Akmescid'i tahrip etti. Kırım Hanlığı kaydı (KARARLAR).",
   "By 13 July 1736 the Russians had taken Perekop and Gözleve and devastated Bakhchisaray and Akmescit. Crimean Khanate record (see KARARLAR).", "land")],
+ "Banaluka (1737)": [("Kırım'ın istilâsı (1737)", "Russian invasion of Crimea (1737)", "1737", W3, "Kırım", 45.30, 34.10, "region", "Ukrayna",
+  "Rusya", "Kırım Hanlığı (Osmanlı tâbiiyetinde)", "", "Peter Lacy", "dis", "L", "borderline",
+  ["TDVIA:kirim"], "", "Ruslar Lascy idaresinde 1737'de yeniden gelip tahribatı sürdürdü. Kırım Hanlığı kaydı (KARARLAR). (Kontrol turunda eklendi.)",
+  "The Russians returned under Lacy in 1737 and continued the devastation. Crimean Khanate record (see KARARLAR).", "land")],
+ "Niş (1737)": [("Dinyester (1738)", "Repulse of the Russians on the Dniester (1738)", "1738", W3, "Dinyester", 46.85, 29.60, "region", "Moldova",
+  O, "Rusya", "", "", "dis", "W", "kesin",
+  ["TDVIA:mahmud-i--osmanli"], "", "Dinyester'i geçmek isteyen Ruslar 1738 başlarında püskürtüldü. (Kontrol turunda eklendi.)",
+  "The Russians trying to cross the Dniester were repulsed in early 1738.", "land"),
+  ("Azak denizi (1738)", "Destruction of the Russian Azov flotilla (1738)", "1738", W3, "Azak denizi ve Karadeniz", 45.80, 36.50, "region", "Rusya / Ukrayna",
+  O, "Rusya", "Kaptanıderyâ Süleyman Paşa", "", "dis", "W", "kesin",
+  ["TDVIA:mahmud-i--osmanli"], "", "Azak'tan Karadeniz'e çıkan Rus donanması Kaptanıderyâ Süleyman Paşa kumandasındaki Osmanlı filosu tarafından yakıldı. (Kontrol turunda eklendi.)",
+  "The Russian flotilla sailing from Azov into the Black Sea was burned by the Ottoman fleet under Grand Admiral Süleyman Pasha.", "sea"),
+  ("Kırım'ın istilâsı (1738)", "Russian invasion of Crimea (1738)", "1738", W3, "Kırım", 45.30, 34.10, "region", "Ukrayna",
+  "Rusya", "Kırım Hanlığı (Osmanlı tâbiiyetinde)", "", "Peter Lacy", "dis", "L", "borderline",
+  ["TDVIA:kirim"], "", "Ruslar Lascy idaresinde 1738'de de gelip tahribatı sürdürdü. Kırım Hanlığı kaydı (KARARLAR). (Kontrol turunda eklendi.)",
+  "The Russians came again under Lacy in 1738 and continued the devastation. Crimean Khanate record (see KARARLAR).", "land")],
 }
 recs = []
 RR = []

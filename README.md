@@ -48,7 +48,7 @@
 - `data/osmanli-1603-1640.json`: Osmanlı 1603–1640, 23 kayıt. Üretici: `tools/make_osmanli_1603_1640.py`.
 - `data/osmanli-1640-1683.json`: Osmanlı 1640–1683, 27 kayıt. Üretici: `tools/make_osmanli_1640_1683.py`.
 - `data/osmanli-1683-1718.json`: Osmanlı 1683–1718, 27 kayıt. Üretici: `tools/make_osmanli_1683_1718.py`.
-- `data/osmanli-1718-1774.json`: Osmanlı 1718–1774, 30 kayıt. Üretici: `tools/make_osmanli_1718_1774.py`.
+- `data/osmanli-1718-1774.json`: Osmanlı 1718–1774, 34 kayıt. Üretici: `tools/make_osmanli_1718_1774.py`.
 - `data/osmanli-1774-1812.json`: Osmanlı 1774–1812, 40 kayıt. Üretici: `tools/make_osmanli_1774_1812.py`.
 - `data/osmanli-1812-1839.json`: Osmanlı 1812–1839, 31 kayıt. Üretici: `tools/make_osmanli_1812_1839.py`.
 - `data/osmanli-1839-1878.json`: Osmanlı 1839–1878, 46 kayıt. Üretici: `tools/make_osmanli_1839_1878.py`.

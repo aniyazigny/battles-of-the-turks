@@ -21,7 +21,7 @@ Son güncelleme: 2026-10-30
 | Osmanlı 1603–1640 | 23 | 8 |
 | Osmanlı 1640–1683 | 27 | 10 |
 | Osmanlı 1683–1718 | 27 | 10 |
-| Osmanlı 1718–1774 | 30 | 3 |
+| Osmanlı 1718–1774 | 34 | 7 |
 | Osmanlı 1774–1812 | 40 | 19 |
 | Osmanlı 1812–1839 | 31 | 7 |
 | Osmanlı 1839–1878 | 46 | 16 |
@@ -49,8 +49,8 @@ Son güncelleme: 2026-10-30
 - [ ] **Osmanlı 1603–1640:** (Revan 1616 eklendi, 2026-10-30); Kalenderoğlu–Tekeli Mehmed Paşa (Ankara); Halil Paşa'nın Erzurum kuşatması 1627; Selmas/Urmiye yılı (Canbolatoğulları maddesi 1604 der).
 - [ ] **Osmanlı 1640–1683:** (Kandiye 1649 hücumu, Varvar Ali Paşa 1648, Haydaroğlu isyanı 1648 eklendi, 2026-10-30); Kandiye 1647–48; Para 1651 ve Foça 1649 deniz savaşları; Hotin'in geri alınışı 1674; Abaza Hasan'ın Aksaray zaferi (tarihi maddede yok). (Yeni Zerinvar 1664 eklendi, 2026-10-30.)
 - [ ] **Osmanlı 1683–1718:** Mora'nın kaybı 1685–87 (Koron, Navarin, Modon, Anabolu, Atina, İnebahtı). (Korfu 1716 eklendi, 2026-10-30.) Kırım Hanlığı: Orkapı 1689 ve Lemberg 1695 eklendi (2026-10-29).
-- [ ] **Osmanlı 1718–1774:** 1723–25 İran seferinin tek tek kuşatmaları; Larga 1770 (İvazzâde maddesi Kartal ile bir tutar), Yergöğü, Kılburun; Kırım Hanlığı: 1736 istilâsı eklendi; 1737 ve 1738 istilâları eksik.
-- [x] **Kapsam kararı:** Kırım Hanlığı savaşları → Osmanlı ordusuyla birlikte ya da padişah emriyle olanlar borderline (KARARLAR, 2026-10-29). Orkapı 1689, Lemberg 1695 ve 1736 istilâsı eklendi (borderline); 1737–38 eksik.
+- [ ] **Osmanlı 1718–1774:** 1723–25 İran seferinin tek tek kuşatmaları; Larga 1770 (İvazzâde maddesi Kartal ile bir tutar), Yergöğü, Kılburun; Kırım Hanlığı: 1736, 1737 ve 1738 istilâları eklendi (2026-10-30); Dinyester ve Azak denizi 1738 zaferleri eklendi.
+- [x] **Kapsam kararı:** Kırım Hanlığı savaşları → Osmanlı ordusuyla birlikte ya da padişah emriyle olanlar borderline (KARARLAR, 2026-10-29). Orkapı 1689, Lemberg 1695 ve 1736–1738 istilâları eklendi (borderline).
 - [ ] **Osmanlı 1774–1812:** Kalafat, Tendra ve Kelegra deniz savaşları; Sırp isyanının diğer savaşları (Belgrad 1806, Mişar, Deligrad, Çegar 1809); Aynaroz 1807 (Bozcaada 1807 eklendi, 2026-10-30), Arpaçay 1807; Rusçuk 1811 ve Slobozia; Vehhâbîlerin Tâif'i (Şubat 1803) ve Mekke'yi (30 Nisan 1803) alması (Mekke maddesi; Şerîf Gālib Osmanlı tâbiiyetinde olduğundan borderline adayı).
 - [ ] **Osmanlı 1812–1839:** Dervenaki 1822, (Tripoliçe 1821 ve geri alınışı 1825 eklendi, 2026-10-30) Atina 1826–27, Osmanlı–İran savaşı 1821–23, Bosna isyanı (Hüseyin Kapudan), Vehhâbî seferinin diğer savaşları. Humus 1832 eklendi (2026-10-29).
 - [ ] **Osmanlı 1839–1878:** (Karadağ seferi 1852–53 eklendi, 2026-10-30, borderline); Kafkas cephesi 1853–54 (Ahıska, Başgedikler, Kürekdere); Kars müdafaası 29 Eylül 1855; Arkadi 1866; Aleksinaç ve Cuniş 1876; Batum 1877–78; Vidin, Rusçuk ve Silistre direnişleri; Şeynova–Kazanlık ve Filibe 1878.
