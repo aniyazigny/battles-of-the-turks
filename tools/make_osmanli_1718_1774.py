@@ -105,8 +105,46 @@ LEFT = [
  {"name": "1723–1725 İran seferinin tek tek kuşatmaları (Tiflis, Revan, Tebriz, Hemedan)", "reason": "Ahmed III maddesi toplu anlatır; tarihler yok.", "source": "TDVIA:ahmed-iii"},
  {"name": "Gence, Tiflis ve Revan'ın Nâdir'e geçişi (1735)", "reason": "Arpaçayı kaydının notunda; ayrı kayıt açılmadı.", "source": "TDVIA:nadir-sah--iran"},
  {"name": "Kırım'ın 1736–1738 istilâları; Orkapı, Gözleve, Kılburun", "reason": "Kırım Hanlığı'nın savaşları için kapsam kararı bekleniyor.", "source": "TDVIA:kirim"},
- {"name": "Larga (1770), Yergöğü, Kılburun", "reason": "TDVİA'da adıyla bulunamadı.", "source": "TDVIA:mustafa-iii"},
+ {"name": "Larga (1770), Yergöğü, Kılburun", "reason": "TDVİA'da adıyla ayrı savaş olarak bulunamadı; İvazzâde Halil Paşa maddesi Larga'yı Kartal ile bir tutar.", "source": "TDVIA:ivazzade-halil-pasa"},
 ]
+
+# İkinci kaynak turu
+EXTRA_SRC = {"Nihâvend (1726)": ["TDVIA:ahmed-pasa", "TDVIA:damad-ibrahim-pasa-nevsehirli"],
+ "Bağdat (1733)": ["TDVIA:bagdat", "TDVIA:topal-osman-pasa--sadrazam"],
+ "Akderbend (1733)": ["TDVIA:topal-osman-pasa--sadrazam"],
+ "Özü'nün kaybı (1737)": ["TDVIA:abdullah-pasa-muhsinzade"],
+ "Banaluka (1737)": ["TDVIA:bosna-hersek"],
+ "Mehâdiye (1738)": ["TDVIA:haci-ivaz-pasa--sadrazam"],
+ "Hisarcık (1739)": ["TDVIA:haci-ivaz-pasa--sadrazam"],
+ "Musul (1743)": ["TDVIA:musul--irak"],
+ "Kars (1744)": ["TDVIA:kars"],
+ "Hotin (1769)": ["TDVIA:ivazzade-halil-pasa", "TDVIA:ali-pasa-moldovanci"],
+ "Kartal (1770)": ["TDVIA:ivazzade-halil-pasa"],
+ "Bender (1770)": ["TDVIA:ivazzade-halil-pasa"],
+ "Limni (1770)": ["TDVIA:limni"],
+ "Kozluca (1774)": ["TDVIA:kucuk-kaynarca-antlasmasi", "TDVIA:osmanlilar"]}
+FIX = {"Nihâvend (1726)": {"turkic_cmd": "Bağdat Valisi Ahmed Paşa",
+        "dispute": "Safevîler maddesi Eşref Han'ın savaşa yanaşmadan barış imzaladığını söyler; Ahmed III, Ahmed Paşa ve Damad İbrâhim Paşa maddeleri Kasım 1726'da savaş olduğunu yazar."},
+ "Bağdat (1733)": {"place": "Dücum, Sâmerrâ yöresi (Bağdat'ın kuzeyi)", "lat": 34.20, "lon": 43.87, "loc": "approx",
+        "dispute": "Topal Osman Paşa maddesi 19 Temmuz, Bağdat maddesi 20 Temmuz 1733 der.",
+        "note": "Yedi aydır Bağdat'ı kuşatan Nâdir, Sâmerrâ yakınındaki Dücum'da Topal Osman Paşa'ya yenildi ve yaralı olarak çekildi; Bağdat Valisi Ahmed Paşa'nın savunduğu şehir kurtuldu.",
+        "note_en": "Nader, who had besieged Baghdad for seven months, was defeated by Topal Osman Pasha at Dujum near Samarra and withdrew wounded; the city held by Governor Ahmed Pasha was relieved."},
+ "Akderbend (1733)": {"turkic_cmd": "Topal Osman Paşa",
+        "dispute": "Nâdir Şah maddesi Aralık, Topal Osman Paşa maddesi Kasım 1733 der.",
+        "note": "Kışlağa çekilen ordunun askeri büyük ölçüde terhis edilmişti; Topal Osman Paşa savaş sırasında öldü ve Kerkük'te gömüldü.",
+        "note_en": "Much of the army had been dismissed for the winter; Topal Osman Pasha died during the battle and was buried at Kirkuk."},
+ "Özü'nün kaybı (1737)": {"note": "Bender seraskeri Abdullah Paşa'nın gönderdiği 3000 askerden başka yardım gelmedi.",
+        "note_en": "No help arrived beyond the 3,000 men sent by Abdullah Pasha, commander at Bender."},
+ "Mehâdiye (1738)": {"turkic_cmd": "Yeğen Mehmed Paşa, Hacı İvaz Mehmed Paşa"},
+ "Hisarcık (1739)": {"date": "1739-07-22"},
+ "Musul (1743)": {"turkic_cmd": "Musul Valisi Hüseyin Celil Paşa",
+        "note": "En şiddetli hücum 4 Ekim 1743'te yapıldı; kale düşmedi.", "note_en": "The fiercest assault came on 4 October 1743; the fortress held."},
+ "Hotin (1769)": {"turkic_cmd": "Moldovancı Ali Paşa"},
+ "Kartal (1770)": {"turkic_cmd": "Sadrazam İvazzâde Halil Paşa", "status": "kesin",
+        "dispute": "İvazzâde Halil Paşa maddesi savaşı \"Kartal (Larga) Muharebesi\" diye adlandırır ve 2 Ağustos 1770 tarihini verir; Larga ayrı bir savaştır (Temmuz 1770).",
+        "note": "Serdâr-ı ekrem olarak kumanda eden sadrazam yenilip ordugâhı terk etmek zorunda kaldı.",
+        "note_en": "The grand vizier, commanding in person, was defeated and had to abandon his camp."},
+ "Kozluca (1774)": {"date": "1774-06-25"}}
 
 recs = []
 for i, r in enumerate(R, 1):
@@ -118,10 +156,13 @@ for i, r in enumerate(R, 1):
            "state": O, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    rec.update(FIX.get(ntr, {}))
+    rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
-meta = {"batch": "Parti 13 — Osmanlı: Lâle Devri'nden Küçük Kaynarca'ya (1718–1774)", "compiled": "2026-10-29", "status": "İlk tur.",
+meta = {"batch": "Parti 13 — Osmanlı: Lâle Devri'nden Küçük Kaynarca'ya (1718–1774)", "compiled": "2026-10-29", "status": "İkinci kaynak turu yapıldı.",
         "conventions": pilot["meta"]["conventions"], "source_keys": pilot["meta"]["source_keys"], "decisions": pilot["meta"]["decisions"]}
 (root / "data" / "osmanli-1718-1774.json").write_text(json.dumps({"meta": meta, "battles": recs, "left_out": LEFT}, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(recs), "kayıt;", sum(r["verify"]["tdvia2"] for r in recs), "iki maddeli")

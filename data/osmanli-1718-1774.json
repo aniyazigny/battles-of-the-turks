@@ -2,7 +2,7 @@
  "meta": {
   "batch": "Parti 13 — Osmanlı: Lâle Devri'nden Küçük Kaynarca'ya (1718–1774)",
   "compiled": "2026-10-29",
-  "status": "İlk tur.",
+  "status": "İkinci kaynak turu yapıldı.",
   "conventions": {
    "winner_first": "side_a kazanan taraftır; result alanı Türk (Selçuklu) tarafının sonucudur: W kazandı, L kaybetti, D belirsiz/berabere, C iç savaş (skora girmez).",
    "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",
@@ -75,17 +75,19 @@
    "country": "İran",
    "side_a": "Eşref Han (Afgan Hotakîler)",
    "side_b": "Osmanlı Devleti",
-   "turkic_cmd": "",
+   "turkic_cmd": "Bağdat Valisi Ahmed Paşa",
    "opp_cmd": "Eşref Han",
    "category": "dis",
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:ahmed-iii"
+    "TDVIA:ahmed-iii",
+    "TDVIA:ahmed-pasa",
+    "TDVIA:damad-ibrahim-pasa-nevsehirli"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -93,7 +95,8 @@
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1718-1774",
    "note": "Ardından 1727 Hemedan antlaşması yapıldı.",
-   "note_en": "The Treaty of Hamadan followed in 1727."
+   "note_en": "The Treaty of Hamadan followed in 1727.",
+   "dispute": "Safevîler maddesi Eşref Han'ın savaşa yanaşmadan barış imzaladığını söyler; Ahmed III, Ahmed Paşa ve Damad İbrâhim Paşa maddeleri Kasım 1726'da savaş olduğunu yazar."
   },
   {
    "id": 3,
@@ -139,10 +142,10 @@
    "hijri": "",
    "type": "land",
    "war": "Osmanlı–İran savaşları (1723–1746)",
-   "place": "Bağdat ve Kerkük yöresi",
-   "lat": 33.31,
-   "lon": 44.36,
-   "loc": "known",
+   "place": "Dücum, Sâmerrâ yöresi (Bağdat'ın kuzeyi)",
+   "lat": 34.2,
+   "lon": 43.87,
+   "loc": "approx",
    "country": "Irak",
    "side_a": "Osmanlı Devleti",
    "side_b": "Nâdir (Safevî naibi)",
@@ -152,19 +155,22 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:nadir-sah--iran"
+    "TDVIA:nadir-sah--iran",
+    "TDVIA:bagdat",
+    "TDVIA:topal-osman-pasa--sadrazam"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1718-1774",
-   "note": "Bağdat'ı kuşatan Nâdir, yardıma gelen Topal Osman Paşa karşısında yaralı olarak Hemedan'a çekildi.",
-   "note_en": "Nader, besieging Baghdad, withdrew wounded to Hamadan before Topal Osman Pasha's relief army."
+   "note": "Yedi aydır Bağdat'ı kuşatan Nâdir, Sâmerrâ yakınındaki Dücum'da Topal Osman Paşa'ya yenildi ve yaralı olarak çekildi; Bağdat Valisi Ahmed Paşa'nın savunduğu şehir kurtuldu.",
+   "note_en": "Nader, who had besieged Baghdad for seven months, was defeated by Topal Osman Pasha at Dujum near Samarra and withdrew wounded; the city held by Governor Ahmed Pasha was relieved.",
+   "dispute": "Topal Osman Paşa maddesi 19 Temmuz, Bağdat maddesi 20 Temmuz 1733 der."
   },
   {
    "id": 5,
@@ -181,23 +187,27 @@
    "country": "Irak",
    "side_a": "Nâdir (Safevî naibi)",
    "side_b": "Osmanlı Devleti",
-   "turkic_cmd": "",
+   "turkic_cmd": "Topal Osman Paşa",
    "opp_cmd": "Nâdir",
    "category": "dis",
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:nadir-sah--iran"
+    "TDVIA:nadir-sah--iran",
+    "TDVIA:topal-osman-pasa--sadrazam"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
-   "home_batch": "osmanli-1718-1774"
+   "home_batch": "osmanli-1718-1774",
+   "dispute": "Nâdir Şah maddesi Aralık, Topal Osman Paşa maddesi Kasım 1733 der.",
+   "note": "Kışlağa çekilen ordunun askeri büyük ölçüde terhis edilmişti; Topal Osman Paşa savaş sırasında öldü ve Kerkük'te gömüldü.",
+   "note_en": "Much of the army had been dismissed for the winter; Topal Osman Pasha died during the battle and was buried at Kirkuk."
   },
   {
    "id": 6,
@@ -292,17 +302,20 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mahmud-i--osmanli"
+    "TDVIA:mahmud-i--osmanli",
+    "TDVIA:abdullah-pasa-muhsinzade"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
-   "home_batch": "osmanli-1718-1774"
+   "home_batch": "osmanli-1718-1774",
+   "note": "Bender seraskeri Abdullah Paşa'nın gönderdiği 3000 askerden başka yardım gelmedi.",
+   "note_en": "No help arrived beyond the 3,000 men sent by Abdullah Pasha, commander at Bender."
   },
   {
    "id": 9,
@@ -359,11 +372,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mahmud-i--osmanli"
+    "TDVIA:mahmud-i--osmanli",
+    "TDVIA:bosna-hersek"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -424,17 +438,18 @@
    "country": "Romanya",
    "side_a": "Osmanlı Devleti",
    "side_b": "Habsburglar",
-   "turkic_cmd": "Yeğen Mehmed Paşa",
+   "turkic_cmd": "Yeğen Mehmed Paşa, Hacı İvaz Mehmed Paşa",
    "opp_cmd": "",
    "category": "dis",
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-pasa-yegen"
+    "TDVIA:mehmed-pasa-yegen",
+    "TDVIA:haci-ivaz-pasa--sadrazam"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -482,7 +497,7 @@
    "id": 14,
    "name_tr": "Hisarcık (1739)",
    "name_en": "Battle of Grocka (1739)",
-   "date": "1739-07",
+   "date": "1739-07-22",
    "hijri": "",
    "type": "land",
    "war": "Osmanlı–Rus–Avusturya savaşı (1736–1739)",
@@ -499,11 +514,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mahmud-i--osmanli"
+    "TDVIA:mahmud-i--osmanli",
+    "TDVIA:haci-ivaz-pasa--sadrazam"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -598,25 +614,26 @@
    "country": "Irak",
    "side_a": "Osmanlı Devleti",
    "side_b": "Nâdir Şah (Afşarlar)",
-   "turkic_cmd": "",
+   "turkic_cmd": "Musul Valisi Hüseyin Celil Paşa",
    "opp_cmd": "Nâdir Şah",
    "category": "dis",
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:nadir-sah--iran"
+    "TDVIA:nadir-sah--iran",
+    "TDVIA:musul--irak"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1718-1774",
-   "note": "27 Eylül'de başlayan kuşatma bir hafta sonra kaldırıldı.",
-   "note_en": "The siege begun on 27 September was lifted a week later."
+   "note": "En şiddetli hücum 4 Ekim 1743'te yapıldı; kale düşmedi.",
+   "note_en": "The fiercest assault came on 4 October 1743; the fortress held."
   },
   {
    "id": 18,
@@ -639,11 +656,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:nadir-sah--iran"
+    "TDVIA:nadir-sah--iran",
+    "TDVIA:kars"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -704,17 +722,19 @@
    "country": "Ukrayna",
    "side_a": "Rusya",
    "side_b": "Osmanlı Devleti",
-   "turkic_cmd": "",
+   "turkic_cmd": "Moldovancı Ali Paşa",
    "opp_cmd": "Aleksandr Golitsyn",
    "category": "dis",
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:hotin"
+    "TDVIA:hotin",
+    "TDVIA:ivazzade-halil-pasa",
+    "TDVIA:ali-pasa-moldovanci"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -848,25 +868,27 @@
    "country": "Moldova",
    "side_a": "Rusya",
    "side_b": "Osmanlı Devleti",
-   "turkic_cmd": "",
+   "turkic_cmd": "Sadrazam İvazzâde Halil Paşa",
    "opp_cmd": "Pyotr Rumyantsev",
    "category": "dis",
    "result": "L",
-   "status": "borderline",
+   "status": "kesin",
    "sources": [
-    "TDVIA:abaza-mehmed-pasa"
+    "TDVIA:abaza-mehmed-pasa",
+    "TDVIA:ivazzade-halil-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1718-1774",
-   "note": "TDVİA'da yalnızca bir paşanın biyografisinde anılır; ayrıntı yok.",
-   "note_en": "Only mentioned in a pasha's biography in TDVİA; no details."
+   "note": "Serdâr-ı ekrem olarak kumanda eden sadrazam yenilip ordugâhı terk etmek zorunda kaldı.",
+   "note_en": "The grand vizier, commanding in person, was defeated and had to abandon his camp.",
+   "dispute": "İvazzâde Halil Paşa maddesi savaşı \"Kartal (Larga) Muharebesi\" diye adlandırır ve 2 Ağustos 1770 tarihini verir; Larga ayrı bir savaştır (Temmuz 1770)."
   },
   {
    "id": 25,
@@ -889,11 +911,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:bender-kalesi"
+    "TDVIA:bender-kalesi",
+    "TDVIA:ivazzade-halil-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -924,11 +947,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:cezayirli-gazi-hasan-pasa"
+    "TDVIA:cezayirli-gazi-hasan-pasa",
+    "TDVIA:limni"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1013,7 +1037,7 @@
    "id": 29,
    "name_tr": "Kozluca (1774)",
    "name_en": "Battle of Kozludzha",
-   "date": "1774-06",
+   "date": "1774-06-25",
    "hijri": "",
    "type": "land",
    "war": "Osmanlı–Rus savaşı (1768–1774)",
@@ -1030,11 +1054,13 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:abdulhamid-i"
+    "TDVIA:abdulhamid-i",
+    "TDVIA:kucuk-kaynarca-antlasmasi",
+    "TDVIA:osmanlilar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1063,8 +1089,8 @@
   },
   {
    "name": "Larga (1770), Yergöğü, Kılburun",
-   "reason": "TDVİA'da adıyla bulunamadı.",
-   "source": "TDVIA:mustafa-iii"
+   "reason": "TDVİA'da adıyla ayrı savaş olarak bulunamadı; İvazzâde Halil Paşa maddesi Larga'yı Kartal ile bir tutar.",
+   "source": "TDVIA:ivazzade-halil-pasa"
   }
  ]
 }

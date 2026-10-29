@@ -57,6 +57,6 @@
 3. ~~Pilot kayıtlarının ikinci kaynakla kontrolü~~ ✅ (13 kayıt Türk akademik literatürüyle kontrol bekliyor)
 4. Anadolu Selçukluları ✅ (46/64 kayıt iki maddeyle); beylikler ve atabeylikler ✅ ilk tur
 5. Karahanlı, Gazneli ✅ ilk tur; Göktürk, Uygur
-6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅, 1603–1640 ✅, 1640–1683 ✅, 1683–1718 ✅, 1718–1774 ✅ ilk tur
+6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅, 1603–1640 ✅, 1640–1683 ✅, 1683–1718 ✅, 1718–1774 ✅
 7. Türkiye Cumhuriyeti
 8. Arayüz (harita, filtreler, tablolar, indirme seçenekleri)
