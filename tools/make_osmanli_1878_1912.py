@@ -31,6 +31,10 @@ R = [
  O, GR, ED, "", "dis", "W", "kesin",
  ["TDVIA:izzet-pasa-ahmed", "TDVIA:tesalya"], "", "Muharebe planlarının hazırlanmasında Ahmed İzzet Bey'in büyük emeği geçti.",
  "Ahmed İzzet Bey played a large part in drawing up the battle plans.", "land"),
+("Velestin (1897)", "Battle of Velestino (1897)", "1897-05-06", WG, "Velestin", 39.38, 22.75, "known", "Yunanistan",
+ O, GR, ED, "", "dis", "W", "kesin",
+ ["TDVIA:velestin"], "", "Çatalca zaferinden sonra 6 Mayıs 1897'de Velestin tepeleri ve istasyonu alındı, 8 Mayıs'ta Volos Limanı'na girildi. (Kontrol turunda eklendi.)",
+ "After the victory at Pharsala the Velestino heights and station were taken on 6 May 1897, and Volos harbour was entered on 8 May.", "land"),
 ("Tırhala (1897)", "Ottoman capture of Trikala (1897)", "1897-05-12", WG, "Tırhala (Trikala)", 39.56, 21.77, "known", "Yunanistan",
  O, GR, ED, "", "dis", "W", "kesin",
  ["TDVIA:gazi-edhem-pasa"], "", "", "", "land"),
@@ -96,7 +100,7 @@ R = [
 
 LEFT = [
  {"name": "Girit'e Yunan çıkarması (1897)", "reason": "Girit maddesi çıkarmayı ve beyannâmeyi anar; muharebe yok.", "source": "TDVIA:girit"},
- {"name": "Velestin ve Termopil (1897)", "reason": "Edhem Paşa maddesi Termopil'in aşıldığını anar; muharebe ayrıntısı yok.", "source": "TDVIA:gazi-edhem-pasa"},
+ {"name": "Termopil (1897)", "reason": "Edhem Paşa maddesi Termopil'in aşıldığını anar; muharebe ayrıntısı yok.", "source": "TDVIA:gazi-edhem-pasa"},
  {"name": "Tellülkebîr (1882)", "reason": "Mısır ordusu ile İngiltere arasında; padişah Urâbî'yi desteklemedi → Osmanlı devletinin savaşı sayılmadı.", "source": "TDVIA:urabi-pasa"},
  {"name": "Yemen isyanları 1891–1897 ve 1902–1904", "reason": "Yemen maddesi toplu anar; muharebe adı yok.", "source": "TDVIA:yemen"},
  {"name": "Arnavut ve Malisör isyanları (1909–1912)", "reason": "Arnavutluk ve Enver Paşa maddelerinde muharebe ayrıntısı yok.", "source": "TDVIA:arnavutluk"},

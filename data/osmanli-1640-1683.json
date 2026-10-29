@@ -169,6 +169,148 @@
   },
   {
    "id": 5,
+   "name_tr": "Varvar Ali Paşa isyanı (1648)",
+   "name_en": "Revolt of Varvar Ali Pasha (1648)",
+   "date": "1648-05-20",
+   "hijri": "",
+   "type": "land",
+   "war": "Celâlî isyanları",
+   "place": "Çerkeş ve Ankara yöresi",
+   "lat": 40.81,
+   "lon": 32.89,
+   "loc": "region",
+   "country": "Türkiye",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Varvar Ali Paşa",
+   "turkic_cmd": "İpşir Mustafa Paşa",
+   "opp_cmd": "Varvar Ali Paşa",
+   "category": "ic",
+   "result": "C",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:ibrahim--padisah",
+    "TDVIA:celali-isyanlari",
+    "TDVIA:haydaroglu-mehmed"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1640-1683",
+   "note": "Azledilen Sivas Valisi Varvar Ali Paşa Çerkeş'te kendisini kuşatan hükümet kuvvetlerini dağıttıysa da İpşir Mustafa Paşa onu yenip yakaladı ve idam ettirdi (26 Rebîülâhir 1058 / 20 Mayıs 1648). (Kontrol turunda eklendi.)",
+   "note_en": "The dismissed governor of Sivas, Varvar Ali Pasha, scattered the government forces surrounding him at Çerkeş, but İpşir Mustafa Pasha defeated, captured and executed him (20 May 1648)."
+  },
+  {
+   "id": 6,
+   "name_tr": "Afyonkarahisar (1648)",
+   "name_en": "Defeat of Ahmed Pasha by Haydaroğlu (1648)",
+   "date": "1648-08",
+   "hijri": "",
+   "type": "land",
+   "war": "Celâlî isyanları",
+   "place": "Afyonkarahisar yakını",
+   "lat": 38.76,
+   "lon": 30.54,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Haydaroğlu Mehmed (Celâlîler)",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "Anadolu Beylerbeyi Ahmed Paşa",
+   "opp_cmd": "Haydaroğlu Mehmed, Katırcıoğlu",
+   "category": "ic",
+   "result": "C",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:haydaroglu-mehmed"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1640-1683",
+   "note": "Haydaroğlu üzerine gönderilen Anadolu Beylerbeyi Ahmed Paşa Afyonkarahisar yakınlarında yenildi ve Katırcıoğlu tarafından öldürüldü (Şâban 1058 / Ağustos-Eylül 1648). (Kontrol turunda eklendi.)",
+   "note_en": "Ahmed Pasha, governor of Anatolia, sent against Haydaroğlu, was defeated near Afyonkarahisar and killed by Katırcıoğlu (Aug–Sep 1648)."
+  },
+  {
+   "id": 7,
+   "name_tr": "Isparta (1648)",
+   "name_en": "Capture of Haydaroğlu (1648)",
+   "date": "1648",
+   "hijri": "",
+   "type": "land",
+   "war": "Celâlî isyanları",
+   "place": "Isparta yakını",
+   "lat": 37.76,
+   "lon": 30.55,
+   "loc": "approx",
+   "country": "Türkiye",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Haydaroğlu Mehmed (Celâlîler)",
+   "turkic_cmd": "Abaza Hasan Ağa (Hamîd-ili mütesellimi)",
+   "opp_cmd": "Haydaroğlu Mehmed",
+   "category": "ic",
+   "result": "C",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:haydaroglu-mehmed"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1640-1683",
+   "note": "Abaza Hasan Ağa Haydaroğlu'nun kuvvetlerini Isparta yakınlarında ani bir baskınla dağıttı; yaralı kaçan Haydaroğlu bir köyde teslim alınıp İstanbul'da idam edildi. (Kontrol turunda eklendi.)",
+   "note_en": "Abaza Hasan Agha scattered Haydaroğlu's forces in a surprise attack near Isparta; the wounded Haydaroğlu was captured in a village and executed in Istanbul."
+  },
+  {
+   "id": 8,
+   "name_tr": "Kandiye kuşatması (1649)",
+   "name_en": "Third assault on Candia (1649)",
+   "date": "1649-09-13",
+   "hijri": "",
+   "type": "land",
+   "war": "Girit savaşı (1645–1669)",
+   "place": "Kandiye",
+   "lat": 35.34,
+   "lon": 25.13,
+   "loc": "known",
+   "country": "Yunanistan",
+   "side_a": "Venedik",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "Deli Hüseyin Paşa",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:huseyin-pasa-deli"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1640-1683",
+   "note": "Nisan 1647'de kuşatılmaya başlanan Kandiye Kalesi'ne 13 Eylül 1649'da yapılan üçüncü hücumdan da sonuç alınamadı. (Kontrol turunda eklendi.)",
+   "note_en": "The third assault on the fortress of Candia, besieged since April 1647, failed on 13 September 1649."
+  },
+  {
+   "id": 9,
    "name_tr": "Çanakkale (1654)",
    "name_en": "Battle of the Dardanelles (1654)",
    "date": "1654",
@@ -204,7 +346,7 @@
    "note_en": "The six-hour sea battle ended in Ottoman victory and reopened the Straits. The year is inferred from the articles (Murad Pasha became admiral in November 1653)."
   },
   {
-   "id": 6,
+   "id": 10,
    "name_tr": "Değirmenlik (1654)",
    "name_en": "Battle off Milos (1654)",
    "date": "1654",
@@ -240,7 +382,7 @@
    "note_en": "The reinforced Venetian fleet was forced to withdraw."
   },
   {
-   "id": 7,
+   "id": 11,
    "name_tr": "Çanakkale (1656)",
    "name_en": "Battle of the Dardanelles (1656)",
    "date": "1656-06-26",
@@ -276,7 +418,7 @@
    "note_en": "Some sources call it a second Lepanto; Venice occupied Tenedos, Lemnos and Samothrace."
   },
   {
-   "id": 8,
+   "id": 12,
    "name_tr": "Bozcaada ve Limni (1657)",
    "name_en": "Recapture of Tenedos and Lemnos (1657)",
    "date": "1657-08-30",
@@ -312,7 +454,7 @@
    "note_en": "A force landed on 25 August and besieged the castle; the Venetians evacuated the island on 30 August. The Straits were secured."
   },
   {
-   "id": 9,
+   "id": 13,
    "name_tr": "Yanova (1658)",
    "name_en": "Siege of Ineu (1658)",
    "date": "1658-09",
@@ -348,7 +490,7 @@
    "note_en": "The castle, reached on 30 August, surrendered on terms."
   },
   {
-   "id": 10,
+   "id": 14,
    "name_tr": "Ilgın (1658)",
    "name_en": "Battle of Ilgın (1658)",
    "date": "1658-12-11",
@@ -384,7 +526,7 @@
    "note_en": "Abaza withdrew to Aleppo for the winter and was killed there."
   },
   {
-   "id": 11,
+   "id": 15,
    "name_tr": "Varad (1660)",
    "name_en": "Siege of Várad (1660)",
    "date": "1660-08",
@@ -421,7 +563,7 @@
    "note_en": "Surrendered after a 45-day siege; the province of Várad was created."
   },
   {
-   "id": 12,
+   "id": 16,
    "name_tr": "Uyvar (1663)",
    "name_en": "Siege of Érsekújvár (1663)",
    "date": "1663-09-24",
@@ -457,7 +599,7 @@
    "note_en": "Besieged from 17 August, the fortress surrendered on terms; Nógrád, Nitra and Léva followed."
   },
   {
-   "id": 13,
+   "id": 17,
    "name_tr": "Yeni Zerinvar (1664)",
    "name_en": "Siege of Novi Zrin (1664)",
    "date": "1664",
@@ -492,7 +634,7 @@
    "note_en": "Fazıl Ahmed Pasha took the forts of Komran, Egerseg, Egervar, Kemendvar and Zerinvar and reached the Rába."
   },
   {
-   "id": 14,
+   "id": 18,
    "name_tr": "Saint Gotthard (1664)",
    "name_en": "Battle of Saint Gotthard",
    "date": "1664-08-01",
@@ -528,7 +670,7 @@
    "note_en": "A clear defeat, though according to the Fazıl Ahmed Pasha article not a complete rout; the Peace of Vasvár followed nine days later."
   },
   {
-   "id": 15,
+   "id": 19,
    "name_tr": "Kandiye (1669)",
    "name_en": "Siege of Candia",
    "date": "1669-09-06",
@@ -565,7 +707,7 @@
    "note_en": "The long siege, whose last phase began in 1667, ended with an eighteen-article capitulation; the conquest of Crete was complete."
   },
   {
-   "id": 16,
+   "id": 20,
    "name_tr": "Kamaniçe (1672)",
    "name_en": "Siege of Kamianets (1672)",
    "date": "1672-08-27",
@@ -601,7 +743,7 @@
    "note_en": "Taken after a nine-day siege; the Treaty of Buczacz gave Podolia to the Ottomans."
   },
   {
-   "id": 17,
+   "id": 21,
    "name_tr": "Hotin (1673)",
    "name_en": "Battle of Khotyn (1673)",
    "date": "1673-11-10",
@@ -638,7 +780,7 @@
    "dispute": "Tarih: Fâzıl Ahmed Paşa maddesi 30 Receb 1084 / 10 Kasım 1673, Hotin maddesi 11 Kasım der."
   },
   {
-   "id": 18,
+   "id": 22,
    "name_tr": "Human (1674)",
    "name_en": "Capture of Uman (1674)",
    "date": "1674-08",
@@ -671,7 +813,7 @@
    "home_batch": "osmanli-1640-1683"
   },
   {
-   "id": 19,
+   "id": 23,
    "name_tr": "İzvança (1676)",
    "name_en": "Battle of Żurawno (1676)",
    "date": "1676-10",
@@ -706,7 +848,7 @@
    "note_en": "After the fighting the Polish king accepted the treaty."
   },
   {
-   "id": 20,
+   "id": 24,
    "name_tr": "Çehrin (1677)",
    "name_en": "First Chyhyryn campaign (1677)",
    "date": "1677-08",
@@ -741,7 +883,7 @@
    "note_en": "The three-week campaign failed; many guns were lost."
   },
   {
-   "id": 21,
+   "id": 25,
    "name_tr": "Çehrin (1678)",
    "name_en": "Siege of Chyhyryn (1678)",
    "date": "1678-08-21",
@@ -777,7 +919,7 @@
    "note_en": "Taken on the 33rd day of the siege by mines and a general assault; the fortress was razed."
   },
   {
-   "id": 22,
+   "id": 26,
    "name_tr": "Viyana kuşatması (1683)",
    "name_en": "Siege of Vienna (1683)",
    "date": "1683-09-12",
@@ -813,7 +955,7 @@
    "note_en": "The siege of 14 July–12 September turned into a heavy defeat when Sobieski's relief army arrived."
   },
   {
-   "id": 23,
+   "id": 27,
    "name_tr": "Estergon (1683)",
    "name_en": "Loss of Esztergom (1683)",
    "date": "1683-10",

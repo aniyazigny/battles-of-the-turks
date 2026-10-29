@@ -242,6 +242,41 @@
   },
   {
    "id": 7,
+   "name_tr": "Revan (1616)",
+   "name_en": "Siege of Erivan (1616)",
+   "date": "1616",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Safevî savaşı (1615–1618)",
+   "place": "Revan",
+   "lat": 40.18,
+   "lon": 44.51,
+   "loc": "known",
+   "country": "Ermenistan",
+   "side_a": "Safevîler",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "Öküz Mehmed Paşa",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:ahmed-i"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1603-1640",
+   "note": "Öküz Mehmed Paşa bir İran ordusunu yenip Revan'ı kuşattıysa da muhasara topları olmadığı ve şiddetli direniş yüzünden orduyu Erzurum'a çekti; sefer başarısız oldu, paşa azledildi. (Kontrol turunda eklendi.)",
+   "note_en": "Öküz Mehmed Pasha beat an Iranian army and besieged Erivan, but lacking siege guns and facing stiff resistance he withdrew to Erzurum; the campaign failed and he was dismissed."
+  },
+  {
+   "id": 8,
    "name_tr": "İran cephesi (1618)",
    "name_en": "Battle of Serav (1618)",
    "date": "1618-09-10",
@@ -276,7 +311,7 @@
    "note_en": "TDVİA does not name the place; peace followed."
   },
   {
-   "id": 8,
+   "id": 9,
    "name_tr": "Hotin (1621)",
    "name_en": "Battle of Khotyn (1621)",
    "date": "1621-09",
@@ -312,7 +347,7 @@
    "note_en": "Assaults on the Polish–Cossack camp failed; the peace favoured the Ottomans and Khotyn went to Moldavia."
   },
   {
-   "id": 9,
+   "id": 10,
    "name_tr": "Bağdat'ın kaybı (1624)",
    "name_en": "Loss of Baghdad (1624)",
    "date": "1624",
@@ -348,7 +383,7 @@
    "note_en": "The city passed to the Safavids during Bekir Subaşı's revolt."
   },
   {
-   "id": 10,
+   "id": 11,
    "name_tr": "Karasu (Kayseri) 1624",
    "name_en": "Battle of Karasu (1624)",
    "date": "1624-09-05",
@@ -386,7 +421,7 @@
    "dispute": "Komutan: Hüsrev Paşa ve Hâfız Ahmed Paşa maddeleri Sadrazam Çerkez Mehmed Paşa der; Abaza Paşa maddesi Hâfız Paşa der."
   },
   {
-   "id": 11,
+   "id": 12,
    "name_tr": "Cennetoğlu (1625)",
    "name_en": "Defeat of Cennetoğlu (1625)",
    "date": "1625-12",
@@ -421,7 +456,7 @@
    "note_en": "Cennetoğlu, who had scattered government troops at Balıkesir, was beaten at Manisa and executed at Birgi."
   },
   {
-   "id": 12,
+   "id": 13,
    "name_tr": "Bağdat kuşatması (1625–26)",
    "name_en": "Siege of Baghdad (1625–26)",
    "date": "1626-07",
@@ -459,7 +494,7 @@
    "note_en": "The siege begun on 13 November 1625 lasted seven months and twenty days and failed."
   },
   {
-   "id": 13,
+   "id": 14,
    "name_tr": "Ahıska seferi (1626)",
    "name_en": "Abaza's attack on the Akhaltsikhe army (1626)",
    "date": "1626",
@@ -494,7 +529,7 @@
    "note_en": "Abaza sallied from Erzurum and attacked the army marching to Akhaltsikhe."
   },
   {
-   "id": 14,
+   "id": 15,
    "name_tr": "Erzurum (1628)",
    "name_en": "Siege of Erzurum (1628)",
    "date": "1628-09-22",
@@ -531,7 +566,7 @@
    "note_en": "Besieged from 6 September, Abaza surrendered after four days of negotiation."
   },
   {
-   "id": 15,
+   "id": 16,
    "name_tr": "Mihriban (1630)",
    "name_en": "Battle of Mahidasht (1630)",
    "date": "1630-05-05",
@@ -567,7 +602,7 @@
    "note_en": "An Ottoman force defeated Zeynel Khan's army and took the castle."
   },
   {
-   "id": 16,
+   "id": 17,
    "name_tr": "Bağdat kuşatması (1630)",
    "name_en": "Siege of Baghdad (1630)",
    "date": "1630-11-14",
@@ -603,7 +638,7 @@
    "note_en": "The siege begun on 6 October was lifted after thirty-nine days."
   },
   {
-   "id": 17,
+   "id": 18,
    "name_tr": "Van (1633)",
    "name_en": "Siege of Van (1633)",
    "date": "1633",
@@ -638,7 +673,7 @@
    "note_en": "The Safavid siege was raised."
   },
   {
-   "id": 18,
+   "id": 19,
    "name_tr": "Revan (1635)",
    "name_en": "Siege of Erivan (1635)",
    "date": "1635-08-08",
@@ -674,7 +709,7 @@
    "note_en": "Surrendered after a siege begun on 28–29 July; the Erivan Kiosk was built to commemorate it."
   },
   {
-   "id": 19,
+   "id": 20,
    "name_tr": "Ahıska (1635)",
    "name_en": "Siege of Akhaltsikhe (1635)",
    "date": "1635",
@@ -710,7 +745,7 @@
    "note_en": "Taken after a 23-day siege."
   },
   {
-   "id": 20,
+   "id": 21,
    "name_tr": "Revan'ın kaybı (1636)",
    "name_en": "Loss of Erivan (1636)",
    "date": "1636-04-01",
@@ -744,7 +779,7 @@
    "home_batch": "osmanli-1603-1640"
   },
   {
-   "id": 21,
+   "id": 22,
    "name_tr": "Azak'ın kaybı (1637)",
    "name_en": "Loss of Azov (1637)",
    "date": "1637",
@@ -779,7 +814,7 @@
    "note_en": "The Cossacks seized the fortress and held it until 1642."
   },
   {
-   "id": 22,
+   "id": 23,
    "name_tr": "Bağdat'ın fethi (1638)",
    "name_en": "Siege of Baghdad (1638)",
    "date": "1638-12-24",

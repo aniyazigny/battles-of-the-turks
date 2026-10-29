@@ -1171,6 +1171,42 @@
   },
   {
    "id": 33,
+   "name_tr": "Bozcaada (1807)",
+   "name_en": "Russian occupation of Tenedos (1807)",
+   "date": "1807-03",
+   "hijri": "",
+   "type": "sea",
+   "war": "Osmanlı–Rus savaşı (1806–1812)",
+   "place": "Bozcaada",
+   "lat": 39.83,
+   "lon": 26.07,
+   "loc": "known",
+   "country": "Türkiye",
+   "side_a": "Rusya",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:bozcaada",
+    "TDVIA:dervis-mehmed-pasa--19-yy"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1774-1812",
+   "note": "İngiliz donanmasıyla birlikte Akdeniz'e gelen Rus donanması Bozcaada önüne demirledi (14 Mart 1807'de dokuz Rus gemisi); Ruslar adayı kısa bir süre işgal etti. (Kontrol turunda eklendi.)",
+   "note_en": "The Russian fleet, which came into the Mediterranean with the British, anchored off Tenedos (nine ships on 14 March 1807); the Russians briefly occupied the island."
+  },
+  {
+   "id": 34,
    "name_tr": "İngilizlerin Mısır seferi (1807)",
    "name_en": "Alexandria expedition of 1807",
    "date": "1807-03",
@@ -1207,7 +1243,7 @@
    "note_en": "Alexandria was surrendered to the British in March 1807; after Mehmed Ali's success and negotiations they withdrew on 19 September 1807."
   },
   {
-   "id": 34,
+   "id": 35,
    "name_tr": "Yergöğü (1809)",
    "name_en": "Battle of Giurgiu (1809)",
    "date": "1809-09",
@@ -1240,7 +1276,7 @@
    "home_batch": "osmanli-1774-1812"
   },
   {
-   "id": 35,
+   "id": 36,
    "name_tr": "İsmâil'in kaybı (1809)",
    "name_en": "Fall of Izmail (1809)",
    "date": "1809",
@@ -1275,7 +1311,7 @@
    "note_en": "The article only mentions the occupation."
   },
   {
-   "id": 36,
+   "id": 37,
    "name_tr": "Silistre (1809)",
    "name_en": "Battle of Silistra (1809)",
    "date": "1809-10-24",
@@ -1310,7 +1346,7 @@
    "note_en": "The army then returned to Shumen for the winter."
   },
   {
-   "id": 37,
+   "id": 38,
    "name_tr": "İbrâil'in kaybı (1809)",
    "name_en": "Siege of Brăila (1809)",
    "date": "1809-12-02",
@@ -1345,7 +1381,7 @@
    "note_en": "Besieged and bombarded, the fortress surrendered for lack of food."
   },
   {
-   "id": 38,
+   "id": 39,
    "name_tr": "Varna (1810)",
    "name_en": "Siege of Varna (1810)",
    "date": "1810-06",
@@ -1381,7 +1417,7 @@
    "note_en": "The Russian assault was repulsed with heavy losses."
   },
   {
-   "id": 39,
+   "id": 40,
    "name_tr": "Rusçuk'un kaybı (1810)",
    "name_en": "Siege of Ruse (1810)",
    "date": "1810-09-26",

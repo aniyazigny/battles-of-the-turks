@@ -17,15 +17,15 @@ Son güncelleme: 2026-10-30
 | Osmanlı 1402–1481 | 46 | 11 |
 | Osmanlı 1481–1520 | 26 | 9 |
 | Osmanlı 1520–1566 | 30 | 5 |
-| Osmanlı 1566–1606 | 27 | 9 |
-| Osmanlı 1603–1640 | 22 | 7 |
-| Osmanlı 1640–1683 | 23 | 7 |
+| Osmanlı 1566–1606 | 28 | 9 |
+| Osmanlı 1603–1640 | 23 | 8 |
+| Osmanlı 1640–1683 | 27 | 10 |
 | Osmanlı 1683–1718 | 27 | 10 |
 | Osmanlı 1718–1774 | 30 | 3 |
-| Osmanlı 1774–1812 | 39 | 19 |
+| Osmanlı 1774–1812 | 40 | 19 |
 | Osmanlı 1812–1839 | 31 | 7 |
 | Osmanlı 1839–1878 | 46 | 16 |
-| Osmanlı 1878–1912 | 19 | 6 |
+| Osmanlı 1878–1912 | 20 | 7 |
 | Osmanlı 1912–1913 | 15 | 6 |
 | Osmanlı 1914–1918 | 41 | 18 |
 | Millî Mücadele 1919–1922 | 23 | 4 |
@@ -45,19 +45,19 @@ Son güncelleme: 2026-10-30
 - [ ] **Osmanlı 1402–1481:** İskender Bey savaşları (Torvioll 1444, Otonetë, Kruya 1466–67); Bosna 1463; İşkodra 1474 ve 1478–79; Demirkapı 1442, Kunoviçe 1444, Akdere 1476. (Kefalonya, Zanta ve Ayamavra 1479 eklendi, 2026-10-30.)
 - [ ] **Osmanlı 1481–1520:** Kefalonya 1500; Macar akınları. (Krbava 1493 eklendi, 2026-10-30.)
 - [ ] **Osmanlı 1520–1566:** Seydi Ali Reis 1554; Safevî seferleri 1548, 1553–55. (Korfu ve Gorjani 1537 eklendi, 2026-10-30.)
-- [ ] **Osmanlı 1566–1606:** Revan 1604; Kalugareni ve Yergöğü 1595 ayrı kayıt; diğer Celâlî çatışmaları. (Cehennem deresi 1600 eklendi, 2026-10-30.)
-- [ ] **Osmanlı 1603–1640:** Kalenderoğlu–Tekeli Mehmed Paşa (Ankara); Halil Paşa'nın Erzurum kuşatması 1627; Selmas/Urmiye yılı (Canbolatoğulları maddesi 1604 der).
-- [ ] **Osmanlı 1640–1683:** Kandiye kuşatmasının ilk evreleri 1647–48; Para 1651 ve Foça 1649 deniz savaşları; Hotin'in geri alınışı 1674; Varvar Ali Paşa 1648 ve Abaza Hasan'ın Aksaray zaferi. (Yeni Zerinvar 1664 eklendi, 2026-10-30.)
+- [ ] **Osmanlı 1566–1606:** (Revan 1604 eklendi, 2026-10-30); Kalugareni ve Yergöğü 1595 ayrı kayıt; diğer Celâlî çatışmaları. (Cehennem deresi 1600 eklendi, 2026-10-30.)
+- [ ] **Osmanlı 1603–1640:** (Revan 1616 eklendi, 2026-10-30); Kalenderoğlu–Tekeli Mehmed Paşa (Ankara); Halil Paşa'nın Erzurum kuşatması 1627; Selmas/Urmiye yılı (Canbolatoğulları maddesi 1604 der).
+- [ ] **Osmanlı 1640–1683:** (Kandiye 1649 hücumu, Varvar Ali Paşa 1648, Haydaroğlu isyanı 1648 eklendi, 2026-10-30); Kandiye 1647–48; Para 1651 ve Foça 1649 deniz savaşları; Hotin'in geri alınışı 1674; Abaza Hasan'ın Aksaray zaferi (tarihi maddede yok). (Yeni Zerinvar 1664 eklendi, 2026-10-30.)
 - [ ] **Osmanlı 1683–1718:** Mora'nın kaybı 1685–87 (Koron, Navarin, Modon, Anabolu, Atina, İnebahtı). (Korfu 1716 eklendi, 2026-10-30.) Kırım Hanlığı: Orkapı 1689 ve Lemberg 1695 eklendi (2026-10-29).
 - [ ] **Osmanlı 1718–1774:** 1723–25 İran seferinin tek tek kuşatmaları; Larga 1770 (İvazzâde maddesi Kartal ile bir tutar), Yergöğü, Kılburun; Kırım Hanlığı: 1736 istilâsı eklendi; 1737 ve 1738 istilâları eksik.
 - [x] **Kapsam kararı:** Kırım Hanlığı savaşları → Osmanlı ordusuyla birlikte ya da padişah emriyle olanlar borderline (KARARLAR, 2026-10-29). Orkapı 1689, Lemberg 1695 ve 1736 istilâsı eklendi (borderline); 1737–38 eksik.
-- [ ] **Osmanlı 1774–1812:** Kalafat, Tendra ve Kelegra deniz savaşları; Sırp isyanının diğer savaşları (Belgrad 1806, Mişar, Deligrad, Çegar 1809); Bozcaada ve Aynaroz 1807, Arpaçay 1807; Rusçuk 1811 ve Slobozia; Vehhâbîlerin Tâif'i (Şubat 1803) ve Mekke'yi (30 Nisan 1803) alması (Mekke maddesi; Şerîf Gālib Osmanlı tâbiiyetinde olduğundan borderline adayı).
+- [ ] **Osmanlı 1774–1812:** Kalafat, Tendra ve Kelegra deniz savaşları; Sırp isyanının diğer savaşları (Belgrad 1806, Mişar, Deligrad, Çegar 1809); Aynaroz 1807 (Bozcaada 1807 eklendi, 2026-10-30), Arpaçay 1807; Rusçuk 1811 ve Slobozia; Vehhâbîlerin Tâif'i (Şubat 1803) ve Mekke'yi (30 Nisan 1803) alması (Mekke maddesi; Şerîf Gālib Osmanlı tâbiiyetinde olduğundan borderline adayı).
 - [ ] **Osmanlı 1812–1839:** Dervenaki 1822, (Tripoliçe 1821 ve geri alınışı 1825 eklendi, 2026-10-30) Atina 1826–27, Osmanlı–İran savaşı 1821–23, Bosna isyanı (Hüseyin Kapudan), Vehhâbî seferinin diğer savaşları. Humus 1832 eklendi (2026-10-29).
 - [ ] **Osmanlı 1839–1878:** (Karadağ seferi 1852–53 eklendi, 2026-10-30, borderline); Kafkas cephesi 1853–54 (Ahıska, Başgedikler, Kürekdere); Kars müdafaası 29 Eylül 1855; Arkadi 1866; Aleksinaç ve Cuniş 1876; Batum 1877–78; Vidin, Rusçuk ve Silistre direnişleri; Şeynova–Kazanlık ve Filibe 1878.
 - [ ] **Millî Mücadele 1919–1922:** Antep savunması (sonuç için ikinci kaynak); Karakese 1918; Eskişehir harekâtları 1919–20; Pontus ve Koçgiri; Sarıkamış ve Gümrü 1920; Fransızlara karşı Adana–Pozantı çatışmaları.
 - [ ] **Osmanlı 1914–1918:** Galiçya, Romanya, Makedonya kolorduları; İran harekâtı (Hemedan); Şeria 1918; Nablus–Megiddo 1918; Van 1915; Aden–Lahic; Medine müdafaası boyunca çatışmalar; Hicaz demiryolu baskınları; Akabe 1917; Erzincan 1918.
 - [ ] **Osmanlı 1912–1913:** Hamidiye akınları; Elli ve Limni deniz muharebeleri; Şarköy ve Bolayır 1913; Priştine, Ohri, Pirlepe, Midilli, İmroz, Bozcaada işgalleri.
-- [ ] **Osmanlı 1878–1912:** Velestin ve Termopil 1897; Yemen isyanları 1891–97 ve 1902–04; Arnavut ve Malisör isyanları 1909–12; Derne ve Tobruk cephesi 1912; Girit 1897.
+- [ ] **Osmanlı 1878–1912:** Termopil 1897 (Velestin 1897 eklendi, 2026-10-30); Yemen isyanları 1891–97 ve 1902–04; Arnavut ve Malisör isyanları 1909–12; Derne ve Tobruk cephesi 1912; Girit 1897.
 - [ ] **Türkistan hanlıkları 1839–1880:** Hokand, Buhara ve Hîve'nin Rus işgaline karşı savaşları (Taşkent 1865, Semerkant 1868, Hîve 1873) Osmanlı tablosu dışında; kapsam kararı ve harita (Semerkant, Taşkent Rusya) bekliyor.
 - [x] **Göktürkler ve Uygurlar:** Parti 21 ilk tur (2026-10-30, 26 kayıt).
 - [ ] **Göktürk–Uygur eksikleri:** Sâsânî–Göktürk savaşları 569–571 ve 588–589, Kapgan'ın Semerkant müdahalesi 701, Karluk isyanları 711–714, Beşbalık 791, Uygur–Tibet savaşları, Uygur–Kırgız savaşları 821 sonrası; Orhon yazıtları için akademik kaynak (Erhan Aydın, Ahmet Taşağıl).

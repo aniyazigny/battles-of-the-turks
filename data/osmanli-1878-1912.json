@@ -171,6 +171,41 @@
   },
   {
    "id": 5,
+   "name_tr": "Velestin (1897)",
+   "name_en": "Battle of Velestino (1897)",
+   "date": "1897-05-06",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Yunan savaşı (1897)",
+   "place": "Velestin",
+   "lat": 39.38,
+   "lon": 22.75,
+   "loc": "known",
+   "country": "Yunanistan",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Yunanistan",
+   "turkic_cmd": "Gazi Edhem Paşa",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:velestin"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1878-1912",
+   "note": "Çatalca zaferinden sonra 6 Mayıs 1897'de Velestin tepeleri ve istasyonu alındı, 8 Mayıs'ta Volos Limanı'na girildi. (Kontrol turunda eklendi.)",
+   "note_en": "After the victory at Pharsala the Velestino heights and station were taken on 6 May 1897, and Volos harbour was entered on 8 May."
+  },
+  {
+   "id": 6,
    "name_tr": "Tırhala (1897)",
    "name_en": "Ottoman capture of Trikala (1897)",
    "date": "1897-05-12",
@@ -203,7 +238,7 @@
    "home_batch": "osmanli-1878-1912"
   },
   {
-   "id": 6,
+   "id": 7,
    "name_tr": "Dömeke (1897)",
    "name_en": "Battle of Domokos",
    "date": "1897-05-17",
@@ -240,7 +275,7 @@
    "note_en": "The Greek army was heavily routed; the Thermopylae pass was then crossed in 24 hours, opening the road to Athens."
   },
   {
-   "id": 7,
+   "id": 8,
    "name_tr": "San‘a (1905)",
    "name_en": "Fall of Sanaa (1905)",
    "date": "1905-04",
@@ -276,7 +311,7 @@
    "note_en": "Famine broke out in besieged Sanaa; Imam Yahya took the city and its surroundings with the tribal forces he had raised."
   },
   {
-   "id": 8,
+   "id": 9,
    "name_tr": "San‘a'nın geri alınışı (1905)",
    "name_en": "Ottoman recapture of Sanaa (1905)",
    "date": "1905-09-01",
@@ -312,7 +347,7 @@
    "note_en": "In the operations of 15 July–1 September 1905, supported by the forces at Taizz, Sanaa was entered and the rebel tribal chiefs were dealt with."
   },
   {
-   "id": 9,
+   "id": 10,
    "name_tr": "Otuzbir Mart (1909)",
    "name_en": "Suppression of the 31 March Incident",
    "date": "1909-04-24",
@@ -350,7 +385,7 @@
    "note_en": "The Action Army from Salonica reached Yeşilköy on 19 April, entered the city on the night of 23–24 April and was in full control on 24 April. The articles do not describe the extent of the fighting, so the record is borderline."
   },
   {
-   "id": 10,
+   "id": 11,
    "name_tr": "Ebhâ (1911)",
    "name_en": "Relief of Abha (1911)",
    "date": "1911-06-11",
@@ -386,7 +421,7 @@
    "note_en": "Idrisi's seven-month siege, begun when he rose in 1910, was lifted by a force sent by the Sharif of Mecca on Ottoman orders."
   },
   {
-   "id": 11,
+   "id": 12,
    "name_tr": "San‘a kuşatmasının kaldırılması (1911)",
    "name_en": "Relief of Sanaa (1911)",
    "date": "1911",
@@ -423,7 +458,7 @@
    "note_en": "An army of 50,000 lifted the siege of Sanaa; the Treaty of Daan was signed with Imam Yahya (9 October 1911)."
   },
   {
-   "id": 12,
+   "id": 13,
    "name_tr": "Preveze (1911)",
    "name_en": "Naval action off Preveza (1911)",
    "date": "1911-09",
@@ -458,7 +493,7 @@
    "note_en": "The torpedo boats Tokat and Alpagu were attacked the day before the declaration of war; the Tokat was put out of action, and the Alpagu, which fled to Preveza, was sunk there together with the torpedo boat Hamidiye."
   },
   {
-   "id": 13,
+   "id": 14,
    "name_tr": "Tobruk (1911)",
    "name_en": "Italian capture of Tobruk",
    "date": "1911-10-08",
@@ -491,7 +526,7 @@
    "home_batch": "osmanli-1878-1912"
   },
   {
-   "id": 14,
+   "id": 15,
    "name_tr": "Trablusgarp (1911)",
    "name_en": "Italian capture of Tripoli (1911)",
    "date": "1911-10-09",
@@ -527,7 +562,7 @@
    "note_en": "As resisting the bombardment was impossible, the town had to surrender."
   },
   {
-   "id": 15,
+   "id": 16,
    "name_tr": "Derne (1911)",
    "name_en": "Italian capture of Derna (1911)",
    "date": "1911-10-16",
@@ -563,7 +598,7 @@
    "note_en": "Bombarded on 30 September, the town was occupied on 16 October."
   },
   {
-   "id": 16,
+   "id": 17,
    "name_tr": "Bingazi (1911)",
    "name_en": "Italian capture of Benghazi (1911)",
    "date": "1911-10-21",
@@ -597,7 +632,7 @@
    "home_batch": "osmanli-1878-1912"
   },
   {
-   "id": 17,
+   "id": 18,
    "name_tr": "Trablus önü (1911)",
    "name_en": "Battle outside Tripoli (23 October 1911)",
    "date": "1911-10-23",
@@ -632,7 +667,7 @@
    "note_en": "The Italian forces were defeated with heavy losses; Italy then proclaimed the annexation of Tripolitania and Cyrenaica (5 November 1911)."
   },
   {
-   "id": 18,
+   "id": 19,
    "name_tr": "Beyrut (1912)",
    "name_en": "Bombardment of Beirut (1912)",
    "date": "1912-02-24",
@@ -667,7 +702,7 @@
    "note_en": "Italian warships sank the vessels in the harbour and shelled the town."
   },
   {
-   "id": 19,
+   "id": 20,
    "name_tr": "Rodos (1912)",
    "name_en": "Italian occupation of Rhodes",
    "date": "1912-05-17",
@@ -710,7 +745,7 @@
    "source": "TDVIA:girit"
   },
   {
-   "name": "Velestin ve Termopil (1897)",
+   "name": "Termopil (1897)",
    "reason": "Edhem Paşa maddesi Termopil'in aşıldığını anar; muharebe ayrıntısı yok.",
    "source": "TDVIA:gazi-edhem-pasa"
   },

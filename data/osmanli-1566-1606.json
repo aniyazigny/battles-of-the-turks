@@ -987,6 +987,42 @@
    "home_batch": "osmanli-1566-1606",
    "note": "Ardından Nahcıvan boşaltıldı, Revan kuşatıldı.",
    "note_en": "Nakhchivan was then evacuated and Erivan besieged."
+  },
+  {
+   "id": 28,
+   "name_tr": "Revan'ın kaybı (1604)",
+   "name_en": "Siege of Erivan (1603–1604)",
+   "date": "1604",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Safevî savaşı (1603–1612)",
+   "place": "Revan",
+   "lat": 40.18,
+   "lon": 44.51,
+   "loc": "known",
+   "country": "Ermenistan",
+   "side_a": "Safevîler",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "",
+   "opp_cmd": "Şah I. Abbas",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:ahmed-i",
+    "TDVIA:abbas-i"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1566-1606",
+   "note": "Şah Abbas Revan'ı muhasara sonunda teslim aldı, Kars'a girdi ve ancak Ahıska önlerinde durdurulabildi. (Kontrol turunda eklendi.)",
+   "note_en": "Shah Abbas took Erivan after a siege, entered Kars and was only stopped before Akhaltsikhe."
   }
  ],
  "left_out": [

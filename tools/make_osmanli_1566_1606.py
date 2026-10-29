@@ -92,6 +92,10 @@ R = [
 ("Tebriz'in kaybı (1603)", "Loss of Tabriz (1603)", "1603-10-21", "Osmanlı–Safevî savaşı (1603–1612)", "Tebriz", 38.08, 46.29, "known", "İran",
  "Safevîler", O, "", "Şah Abbas", "dis", "L", "kesin",
  ["TDVIA:mehmed-iii"], "", "Ardından Nahcıvan boşaltıldı, Revan kuşatıldı.", "Nakhchivan was then evacuated and Erivan besieged.", "land"),
+("Revan'ın kaybı (1604)", "Siege of Erivan (1603–1604)", "1604", "Osmanlı–Safevî savaşı (1603–1612)", "Revan", 40.18, 44.51, "known", "Ermenistan",
+ "Safevîler", O, "", "Şah I. Abbas", "dis", "L", "kesin",
+ ["TDVIA:ahmed-i", "TDVIA:abbas-i"], "", "Şah Abbas Revan'ı muhasara sonunda teslim aldı, Kars'a girdi ve ancak Ahıska önlerinde durdurulabildi. (Kontrol turunda eklendi.)",
+ "Shah Abbas took Erivan after a siege, entered Kars and was only stopped before Akhaltsikhe.", "land"),
 ]
 
 # İkinci kaynak turu (2026-10-29)
