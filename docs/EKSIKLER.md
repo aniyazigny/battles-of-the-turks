@@ -22,6 +22,7 @@ Son güncelleme: 2026-10-29
 | Osmanlı 1640–1683 | 22 | 6 |
 | Osmanlı 1683–1718 | 24 | 8 |
 | Osmanlı 1718–1774 | 29 | 2 |
+| Osmanlı 1774–1812 | 36 | 21 |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).
@@ -42,7 +43,8 @@ Son güncelleme: 2026-10-29
 - [ ] **Osmanlı 1640–1683:** Kandiye kuşatmasının ilk evreleri 1647–48; Para 1651 ve Foça 1649 deniz savaşları; Hotin'in geri alınışı 1674; Varvar Ali Paşa 1648 ve Abaza Hasan'ın Aksaray zaferi; Yeni Zerinvar 1664.
 - [ ] **Osmanlı 1683–1718:** Mora'nın kaybı 1685–87 (Koron, Navarin, Modon, Anabolu, Atina, İnebahtı); Korfu 1716; Kırım Hanlığı savaşları (Orkapı 1689, Lemberg 1695) için kapsam kararı.
 - [ ] **Osmanlı 1718–1774:** 1723–25 İran seferinin tek tek kuşatmaları; Larga 1770 (İvazzâde maddesi Kartal ile bir tutar), Yergöğü, Kılburun; Kırım Hanlığı'nın 1736–38 savaşları (kapsam kararı).
-- [ ] **Kapsam kararı:** Kırım Hanlığı savaşları (Osmanlı'ya bağlı; Orkapı 1689, 1736–38 istilâları vb.) nasıl kaydedilecek?
+- [x] **Kapsam kararı:** Kırım Hanlığı savaşları → Osmanlı ordusuyla birlikte ya da padişah emriyle olanlar borderline (KARARLAR, 2026-10-29). Orkapı 1689, Lemberg 1695 ve 1736–38 istilâları bu kurala göre eklenecek.
+- [ ] **Osmanlı 1774–1812:** Yergöğü 1790, Kalafat, Tendra ve Kelegra deniz savaşları; Sırp isyanının diğer savaşları (Belgrad 1806, Mişar, Deligrad, Çegar 1809); Bozcaada ve Aynaroz 1807, Arpaçay 1807; Rusçuk 1811 ve Slobozia.
 - [ ] **Göktürkler ve Uygurlar:** hiç başlanmadı (Osmanlı bitince).
 
 ## 3. Harita eksikleri
@@ -50,6 +52,7 @@ Son güncelleme: 2026-10-29
 - [x] Altın Orda 1502'den sonra da görünüyordu → `tools/fix_borders_altinorda.py` (2026-10-29): Kazan 1437–1552, Astarhan 1466–1556, Nogay 1502–1634, Kırım bozkırı, Hîve 1512–, Sibir 1490–1582, Kazak Hanlığı 1465–; Rusya, Kiev (Lehistan-Litvanya 1362–1667, Rusya 1667–), Kalmuklar 1634–.
 - [ ] Doğu Türkistan ve Moğolistan: Çağatay Hanlığı ve Koço Uygurları 1690'a kadar aynı görünüyor (Yarkent/Kaşgar hanlığı, Cungarlar işlenmedi).
 - [x] İran ve Irak 1405–1501 → `tools/fix_borders_iran_1405.py` (2026-10-29): Karakoyunlu Tebriz 1408, Irâk-ı Acem 1447–52, Kirman 1453; Akkoyunlu 1468–70'ten 1503'e; Celâyirli Bağdat 1405–1410; Horasan 1507–1510 Şeybânî; Van ve Revan'ın 1335 öncesi boş görünen dilimleri dolduruldu.
+- [x] Lahsâ 1253 sonrası Uyûnî görünüyordu → `tools/extend_borders_1812.py` (2026-10-29).
 - [ ] Kıbrıs 1489–1570 Venedik yerine Kıbrıs Krallığı rengi.
 
 ## 4. Veri alanı eksikleri

@@ -114,3 +114,12 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Nâdir Şah ve Afşarlar | Türk hânedanı ama kapsam listesinde yok → `dis`, haritada `turk-diger` |
 | Sakız Boğazı 1770 | Belirsiz (D) |
 | Kartal 1770 | Borderline (TDVİA'da yalnızca anılıyor) |
+
+## Kayıt kararları (Parti 14: Osmanlı 1774–1812, 2026-10-29)
+| Kayıt | Karar |
+|---|---|
+| Kölemen beyleri, Pazvandoğlu | Osmanlı yöneticileri ve âyanı → `ic` |
+| Sırp isyancıları (Kara Yorgi) | `dis` (Mora Rumları 1770 gibi) |
+| Yılan Adası 1788 | TDVİA'ya göre W; Batı okuması `dispute`'ta |
+| Kaçarlar, Azerbaycan hanlıkları | Türk hânedanları ama kapsam dışı → haritada `turk-diger` |
+| Kırım Hanlığı | Osmanlı ordusuyla birlikte ya da padişah emriyle yaptığı savaşlar Osmanlı tablosuna borderline girer; kendi başına yaptıkları dışarıda (2026-10-29, kullanıcı itiraz etmedi) |
