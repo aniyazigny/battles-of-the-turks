@@ -68,6 +68,14 @@
 - `tools/match_rom.py`: Kayıtları "Where the Romans Fought" veri setiyle eşleştirir.
 - `tools/kw.py`: İndirilmiş maddelerde verilen ifadenin geçtiği cümleleri listeler.
 - `tools/tdvia_search.py`: TDVİA'da başlık veya içerik araması yapar, madde adreslerini verir.
+- `tools/build_demo.py`: Parti verilerini, sınır tablosunu ve hicrî tarihleri `site/index.html` içine gömer.
+- `tools/validate.py`: Bütün partilerde şema ve tutarlılık denetimi (alanlar, değerler, iç savaşta C, kazanan–devlet tutarlılığı, ad tekrarı).
+- `tools/check_coords.py`: Koordinatın `country` alanındaki ülkenin sınır kutusunda olup olmadığını denetler.
+- `tools/eksikler.py`: Tek kaynaklı kayıtları ve dışarıda kalanları listeler.
+- `tools/second_source_candidates.py`: Tek kaynaklı kayıtlar için TDVİA'da ikinci madde adaylarını arar (elle doğrulanır).
+- `tools/fill_hijri.py`: Hicrî tarihleri kayıtların kendi maddelerinden çıkarır (`data/hicri.json`).
+- `tools/insert_record.py`: Kontrol turlarında üretici dosyalarına kayıt ekleme yardımcısı.
+- `tools/extend_borders_*.py`, `tools/fix_borders_*.py`: Sınır tablosunu dönem dönem uzatan ve düzelten tek seferlik betikler.
 
 ## Yol haritası
 1. ~~Orijinal sitenin incelenmesi~~ ✅
