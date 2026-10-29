@@ -12,7 +12,7 @@ Son güncelleme: 2026-10-30
 | Pilot Büyük Selçuklu | 80 | 12 |
 | Anadolu Selçukluları | 72 | 26 |
 | Beylikler ve atabeylikler | 62 | 34 |
-| Gazneli ve Karahanlı | 32 | 9 |
+| Gazneli ve Karahanlı | 37 | 13 |
 | Osmanlı kuruluş | 31 | 11 |
 | Osmanlı 1402–1481 | 46 | 11 |
 | Osmanlı 1481–1520 | 26 | 9 |
@@ -36,7 +36,7 @@ Son güncelleme: 2026-10-30
 
 ## 2. Kapsam eksikleri (henüz kayıt olmayan savaşlar)
 - [ ] **Anadolu Selçukluları:** Lâdik ve Efes 1147, Akşehir 1190, Sivrihisar, Turbessel 1150–51, İznik–Selçuklu savaşı 1225–31, Azat Musa'nın Gürcistan seferi; Hyelion ve Leimocheir 1177 (Roma veri setiyle kontrol).
-- [ ] **Gazneliler:** Rama-Ganga 1019 (Triloçanpal), Gazne 1148 (Gurlu Sûrî), Tausi nehri 1019, Saffârî savaşı, İkinci Lamgân, Lahor 1186; Mathura, Thanesar, Gwalior seferleri.
+- [ ] **Gazneliler:** Rama-Ganga 1019 (Triloçanpal), Gazne 1148 (Gurlu Sûrî), Tausi nehri 1019, Saffârî savaşı, İkinci Lamgân, Lahor 1186; Mathura seferi. (Nagarkot 1009, Thânesâr 1014, Lokhot 1021, Gevâliyâr–Kālincâr 1022 ve Hânsî–Thânesâr–Nagarkot'un kaybı c. 1043 eklendi, 2026-10-30.)
 - [ ] **Karahanlılar:** iç savaşlar.
 - [ ] **Zengîler:** Ayıntab, Maraş 1161, Kınnesrîn, Busrâ 1147, Butayha, Hûle 1157, Şeyzer 1157, Ba'lebek, Hama 1130, Dimyat 1169, İskenderiye 1167; Fâmiye, Banyas 1157. (Banyas 1164 eklendi, 2026-10-30.)
 - [ ] **Dımaşk:** 1129 Haçlı saldırısı, Böri dönemi.

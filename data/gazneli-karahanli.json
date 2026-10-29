@@ -457,6 +457,42 @@
   },
   {
    "id": 13,
+   "name_tr": "Nagarkot (1009)",
+   "name_en": "Siege of Nagarkot (1009)",
+   "date": "1009",
+   "hijri": "",
+   "type": "land",
+   "war": "Mahmud'un Hint seferleri",
+   "place": "Nagarkot (Bhim Nagar, Kangra)",
+   "lat": 32.1,
+   "lon": 76.27,
+   "loc": "known",
+   "country": "Hindistan",
+   "side_a": "Gazneliler",
+   "side_b": "Hindûşâhîler (Anandpal)",
+   "turkic_cmd": "Mahmud",
+   "opp_cmd": "Anandpal",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mahmud-i-gaznevi",
+    "TDVIA:hindusahiler"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Gazneliler",
+   "home_batch": "gazneli-karahanli",
+   "note": "Vayhand savaşından kaçanların sığındığı Nagarkot Kalesi üç (Hindûşâhîler maddesine göre birkaç) günlük kuşatmadan sonra alındı. (Kontrol turunda eklendi.)",
+   "note_en": "The fortress of Nagarkot, where the fugitives from Vayhand had taken refuge, fell after a three-day siege."
+  },
+  {
+   "id": 14,
    "name_tr": "Mültan (1010)",
    "name_en": "Multan (1010)",
    "date": "1010",
@@ -492,7 +528,7 @@
    "note_en": "The region submitted without serious resistance."
   },
   {
-   "id": 14,
+   "id": 15,
    "name_tr": "Nandana (Triloçanpâl)",
    "name_en": "Battle of Nandana (1014)",
    "date": "1014",
@@ -529,7 +565,43 @@
    "note_en": "After a hard battle Nandana fortress was taken; Mahmud then advanced towards Kashmir (Palabıyık 2007: ninth campaign, 405/1014)."
   },
   {
-   "id": 15,
+   "id": 16,
+   "name_tr": "Thânesâr (1014)",
+   "name_en": "Sack of Thanesar (1014)",
+   "date": "1014",
+   "hijri": "",
+   "type": "land",
+   "war": "Mahmud'un Hint seferleri",
+   "place": "Thânesâr",
+   "lat": 29.97,
+   "lon": 76.83,
+   "loc": "known",
+   "country": "Hindistan",
+   "side_a": "Gazneliler",
+   "side_b": "Thânesâr racası",
+   "turkic_cmd": "Mahmud",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "borderline",
+   "sources": [
+    "TDVIA:mahmud-i-gaznevi",
+    "AKD:palabiyik-2007"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": true
+   },
+   "state": "Gazneliler",
+   "home_batch": "gazneli-karahanli",
+   "note": "Onuncu seferde racanın antlaşma teklifi kabul edilmedi; şehre girilip tapınaklar tahrip edildi. Muharebe adı geçmediği için borderline. (Kontrol turunda eklendi.)",
+   "note_en": "On the tenth expedition the raja's offer of terms was refused; the city was entered and its temples destroyed. Borderline, as no battle is named."
+  },
+  {
+   "id": 17,
    "name_tr": "Lokhot kuşatması",
    "name_en": "Siege of Lohkot (1015)",
    "date": "1015",
@@ -565,7 +637,7 @@
    "note_en": "Lifted because of severe winter."
   },
   {
-   "id": 16,
+   "id": 18,
    "name_tr": "Hârizm'in fethi (Hezâresb)",
    "name_en": "Conquest of Khwarazm (1017)",
    "date": "1017",
@@ -601,7 +673,7 @@
    "note_en": "The campaign was justified as revenge for his brother-in-law Ma'mun; Altuntash became governor. Place and day not given."
   },
   {
-   "id": 17,
+   "id": 19,
    "name_tr": "Kannevc seferi",
    "name_en": "Kannauj campaign (1018)",
    "date": "1018-12",
@@ -638,7 +710,7 @@
    "note_en": "Left Ghazna on 27 September 1018; 20,000 volunteers from Transoxiana joined (Ghaznavids article; figure not used)."
   },
   {
-   "id": 18,
+   "id": 20,
    "name_tr": "Belh (1019)",
    "name_en": "Battle of Balkh (1019)",
    "date": "1019",
@@ -675,7 +747,7 @@
    "opp_state": "Karahanlılar"
   },
   {
-   "id": 19,
+   "id": 21,
    "name_tr": "Ganda'ya karşı (Bari)",
    "name_en": "Campaign against Ganda (1019)",
    "date": "1019",
@@ -711,7 +783,79 @@
    "note_en": "Bari was taken. According to Palabıyık (2007), on the thirteenth campaign (410/1019) the troops crossed the Ramganga on inflated skins and won a great victory over Ganda and his allies."
   },
   {
-   "id": 20,
+   "id": 22,
+   "name_tr": "Lokhot (1021)",
+   "name_en": "Second siege of Lohkot (1021)",
+   "date": "1021",
+   "hijri": "",
+   "type": "land",
+   "war": "Mahmud'un Hint seferleri",
+   "place": "Lokhot (Loharin)",
+   "lat": 33.9,
+   "lon": 74.3,
+   "loc": "approx",
+   "country": "Hindistan",
+   "side_a": "Keşmir",
+   "side_b": "Gazneliler",
+   "turkic_cmd": "Mahmud",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mahmud-i-gaznevi",
+    "AKD:palabiyik-2007"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": true
+   },
+   "state": "Gazneliler",
+   "home_batch": "gazneli-karahanli",
+   "note": "On dördüncü seferde Lokhot Kalesi yeniden kuşatıldı; kış yüzünden kuşatma kaldırıldı ve Keşmir alınamadı. (Kontrol turunda eklendi.)",
+   "note_en": "On the fourteenth expedition Lohkot was besieged again; the siege was lifted because of winter and Kashmir was not taken."
+  },
+  {
+   "id": 23,
+   "name_tr": "Gevâliyâr ve Kālincâr (1022)",
+   "name_en": "Campaign against Gwalior and Kalinjar (1022)",
+   "date": "1022",
+   "hijri": "",
+   "type": "land",
+   "war": "Mahmud'un Hint seferleri",
+   "place": "Gevâliyâr (Gwalior) ve Kālincâr",
+   "lat": 26.22,
+   "lon": 78.17,
+   "loc": "region",
+   "country": "Hindistan",
+   "side_a": "Gazneliler",
+   "side_b": "Ganda (Kālincâr) ve Arcan (Gevâliyâr)",
+   "turkic_cmd": "Mahmud",
+   "opp_cmd": "Ganda, Arcan",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mahmud-i-gaznevi",
+    "AKD:palabiyik-2007"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": true
+   },
+   "state": "Gazneliler",
+   "home_batch": "gazneli-karahanli",
+   "note": "On beşinci seferde önce Gevâliyâr kuşatıldı, racası Arcan barış imzalayıp tâbi oldu; ardından Kālincâr'a yürünerek Ganda'nın barış teklifi kabul edildi ve itaat altına alındı. (Kontrol turunda eklendi.)",
+   "note_en": "On the fifteenth expedition Gwalior was besieged first and its raja Arjan submitted; Mahmud then marched on Kalinjar and accepted Ganda's submission."
+  },
+  {
+   "id": 24,
    "name_tr": "Somnat",
    "name_en": "Siege of Somnath (1026)",
    "date": "1026-01-08",
@@ -748,7 +892,7 @@
    "note_en": "The army left Ghazna in October 1025. The victory brought Mahmud great prestige in the Islamic world. The source figure of 30,000 horsemen is not used."
   },
   {
-   "id": 21,
+   "id": 25,
    "name_tr": "İndus üzerinde Câtlar",
    "name_en": "River battle against the Jats (1027)",
    "date": "1027",
@@ -784,7 +928,7 @@
    "note_en": "A river fleet of 1,400 boats was built at Multan (source figure)."
   },
   {
-   "id": 22,
+   "id": 26,
    "name_tr": "Rey'in alınması",
    "name_en": "Capture of Rayy (1029)",
    "date": "1029",
@@ -820,7 +964,7 @@
    "note_en": "Persian Iraq was added to the Ghaznavid realm. No detail of fighting."
   },
   {
-   "id": 23,
+   "id": 27,
    "name_tr": "Debûsiye",
    "name_en": "Battle of Dabusiyya (1032)",
    "date": "1032",
@@ -856,7 +1000,7 @@
    "opp_state": "Karahanlılar"
   },
   {
-   "id": 24,
+   "id": 28,
    "name_tr": "Sarsûtî Kalesi",
    "name_en": "Siege of Sarsuti (1033)",
    "date": "1033",
@@ -892,7 +1036,7 @@
    "note_en": "No detail; the fortress was taken."
   },
   {
-   "id": 25,
+   "id": 29,
    "name_tr": "Mevdûd–Muhammed",
    "name_en": "Mawdud against Muhammad (1041)",
    "date": "1041-04-08",
@@ -928,7 +1072,42 @@
    "note_en": "Mawdud avenged the killing of his father Mas'ud."
   },
   {
-   "id": 26,
+   "id": 30,
+   "name_tr": "Hânsî, Thânesâr ve Nagarkot'un kaybı (c. 1043)",
+   "name_en": "Loss of Hansi, Thanesar and Nagarkot (c. 1043)",
+   "date": "c. 1043",
+   "hijri": "",
+   "type": "land",
+   "war": "Gazneli–Hint racaları",
+   "place": "Hânsî, Thânesâr ve Nagarkot",
+   "lat": 29.97,
+   "lon": 76.83,
+   "loc": "region",
+   "country": "Hindistan",
+   "side_a": "Birleşik Hint ordusu (üç raca)",
+   "side_b": "Gazneliler",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:mevdud-b-mesud-i-gaznevi"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Gazneliler",
+   "home_batch": "gazneli-karahanli",
+   "note": "Birleşen üç raca Gazneliler'in elindeki Hânsî, Thânesâr, Nagarkot ve diğer bazı yerleri geri aldı; ardından Lahor yedi ay kuşatıldı. (Kontrol turunda eklendi.)",
+   "note_en": "Three allied rajas retook Hansi, Thanesar, Nagarkot and other places from the Ghaznavids, then besieged Lahore for seven months."
+  },
+  {
+   "id": 31,
    "name_tr": "Lahor müdafaası",
    "name_en": "Defence of Lahore (c. 1043)",
    "date": "c. 1043",
@@ -963,7 +1142,7 @@
    "note_en": "The city was besieged for seven months but did not fall; by rule the defender wins."
   },
   {
-   "id": 27,
+   "id": 32,
    "name_tr": "Ecüdhen",
    "name_en": "Siege of Ajodhan (1079)",
    "date": "1079-08-13",
@@ -998,7 +1177,7 @@
    "note_en": "Another fortress was then taken after a three-month siege (November 1079 – 1080)."
   },
   {
-   "id": 28,
+   "id": 33,
    "name_tr": "Gazne (Seyfeddin Sûrî)",
    "name_en": "Recapture of Ghazna (1149)",
    "date": "1149",
@@ -1033,7 +1212,7 @@
    "note_en": "Sayf al-Din Suri was executed and his head sent to Sanjar."
   },
   {
-   "id": 29,
+   "id": 34,
    "name_tr": "Gazne (Cihansûz)",
    "name_en": "Sack of Ghazna (1150)",
    "date": "1150",
@@ -1070,7 +1249,7 @@
    "note_en": "The Ghurids burned Ghazna; Bahram Shah withdrew to India and returned in 1152."
   },
   {
-   "id": 30,
+   "id": 35,
    "name_tr": "Karahıtaylara karşı zafer",
    "name_en": "Victory over the Qara Khitai (c. 1128)",
    "date": "1128",
@@ -1106,7 +1285,7 @@
    "note_en": "When the Qara Khitai first entered the Balasagun, Khotan and Kashgar region they were defeated by the Eastern Qarakhanid ruler Arslan Khan Ahmad b. Hasan."
   },
   {
-   "id": 31,
+   "id": 36,
    "name_tr": "Hucend",
    "name_en": "Battle of Khujand (1137)",
    "date": "1137-06",
@@ -1143,7 +1322,7 @@
    "note_en": "Mahmud Khan fled to Samarkand; Qatwan followed four years later (pilot #80)."
   },
   {
-   "id": 32,
+   "id": 37,
    "name_tr": "Karluklara yenilgi",
    "name_en": "Defeat by the Qarluqs (1156)",
    "date": "1156",
