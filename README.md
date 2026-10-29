@@ -51,7 +51,7 @@
 - `data/osmanli-1718-1774.json`: Osmanlı 1718–1774, 30 kayıt. Üretici: `tools/make_osmanli_1718_1774.py`.
 - `data/osmanli-1774-1812.json`: Osmanlı 1774–1812, 39 kayıt. Üretici: `tools/make_osmanli_1774_1812.py`.
 - `data/osmanli-1812-1839.json`: Osmanlı 1812–1839, 29 kayıt. Üretici: `tools/make_osmanli_1812_1839.py`.
-- `data/osmanli-1839-1878.json`: Osmanlı 1839–1878, 45 kayıt. Üretici: `tools/make_osmanli_1839_1878.py`.
+- `data/osmanli-1839-1878.json`: Osmanlı 1839–1878, 46 kayıt. Üretici: `tools/make_osmanli_1839_1878.py`.
 - `data/osmanli-1878-1912.json`: Osmanlı 1878–1912, 19 kayıt. Üretici: `tools/make_osmanli_1878_1912.py`.
 - `data/osmanli-1912-1913.json`: Osmanlı 1912–1913 (Balkan Savaşları), 15 kayıt. Üretici: `tools/make_osmanli_1912_1913.py`.
 - `data/osmanli-1914-1918.json`: Osmanlı 1914–1918 (Birinci Dünya Savaşı), 41 kayıt. Üretici: `tools/make_osmanli_1914_1918.py`.

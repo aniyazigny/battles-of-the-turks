@@ -222,7 +222,6 @@ R = [
 ]
 
 LEFT = [
- {"name": "Karadağ seferi (1852–1853)", "reason": "Ömer Lutfi Paşa maddesi seferi ve 3 Mart 1853 anlaşmasını anar; muharebe adı yok.", "source": "TDVIA:omer-lutfi-pasa"},
  {"name": "Kafkas cephesi 1853–1854 (Ahıska, Başgedikler, Kürekdere)", "reason": "İndirilen maddelerde adıyla bulunamadı; Şeyh Şâmil maddesi yalnızca Kars-Gümrü yönündeki muharebeleri toplu anar.", "source": "TDVIA:seyh-samil"},
  {"name": "Kars müdafaası (29 Eylül 1855)", "reason": "Yalnızca kaynakçada (\"1855 Kars Zaferi\") geçiyor.", "source": "TDVIA:namik-kemal"},
  {"name": "Lübnan ve Şam olayları (1860)", "reason": "Topluluklar arası çatışma; Osmanlı devletinin savaşı sayılmadı.", "source": "TDVIA:lubnan"},
@@ -251,7 +250,13 @@ FIX = {"Sinop (1853)": {
        "Eski Zağra (1877)": {
            "note": "Gurko 22 Temmuz'da Eski ve Yeni Zağra'yı aldı. Hersek'teki kolordusunu Bar'dan gemilerle Dedeağaç'a getiren Süleyman Paşa 26 Temmuz'da mevzi aldı ve şehirleri savunan Rus ve Bulgarları yendi.",
            "note_en": "Gurko took Stara and Nova Zagora on 22 July. Süleyman Pasha, who had shipped his Herzegovina corps from Bar to Dedeağaç, took up position on 26 July and defeated the Russians and Bulgarians defending the towns."}}
-NEW = {"Plevne'nin düşüşü (1877)": [
+NEW = {"Akkâ (1840)": [
+        ("Karadağ seferi (1852–1853)", "Omer Pasha's Montenegrin campaign (1852–1853)", "1852-12", WK, "Karadağ", 42.44, 19.26, "region", "Karadağ",
+         O, KD, OM, "Danilo", "dis", "D", "borderline",
+         ["TDVIA:omer-lutfi-pasa", "TDVIA:karadag"], "",
+         "Danilo'nun tâbilik bağlarını kesmesi ve sınır köylerine saldırılar üzerine Ömer Paşa kumandasındaki ordu Karadağ'a girdi; 3 Mart 1853'te savaş öncesi şartlara dönülerek anlaşma yapıldı. Muharebe adı geçmediği ve sonuç belirsiz kaldığı için borderline, `D`. (İkinci kontrol turunda dışarıdan alındı.)",
+         "After Danilo cut his vassal ties and border villages were raided, an army under Omer Pasha entered Montenegro; an agreement restoring the pre-war situation was signed on 3 March 1853. Borderline and inconclusive, as no battle is named.", "land")],
+       "Plevne'nin düşüşü (1877)": [
         ("Maçka (1877)", "Battle of Mechka", "1877-12-11", WR, "Maçka (Mečka), Rusçuk yakını", 43.77, 26.12, "approx", "Bulgaristan",
          RU, O, "Süleyman Hüsnü Paşa", "", "dis", "L", "kesin",
          ["TDVIA:suleyman-husnu-pasa"], "", "Kuşatılmış Plevne'ye yardım için yürüyen Süleyman Paşa bu muharebeyi kaybetti.",
