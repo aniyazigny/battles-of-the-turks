@@ -145,15 +145,49 @@ R = [
 
 LEFT = [
  {"name": "Kırım'ın ilhakı (1783)", "reason": "Savaşsız ilhak; haritada işlendi.", "source": "TDVIA:yas-antlasmasi"},
- {"name": "Yergöğü (1790), Kalafat ve Tendra/Kelegra deniz savaşları (1790–1791)", "reason": "TDVİA'da adıyla bulunamadı.", "source": ""},
+ {"name": "Kalafat ve Tendra/Kelegra deniz savaşları (1790–1791)", "reason": "TDVİA'da adıyla bulunamadı.", "source": ""},
+ {"name": "Yergöğü'nün kaybı (27 Eylül 1810)", "reason": "Yergöğü maddesi yalnızca tarihini verir; Rusçuk'un kaybıyla aynı harekât.", "source": "TDVIA:yergogu"},
  {"name": "Sırp isyanının diğer savaşları (Belgrad 1806, Mişar, Deligrad, Çegar 1809)", "reason": "İndirilen maddelerde adıyla bulunamadı.", "source": "TDVIA:sirbistan"},
  {"name": "Bozcaada ve Aynaroz deniz savaşları (1807), Arpaçay (1807)", "reason": "TDVİA'da adıyla bulunamadı.", "source": "TDVIA:bozcaada"},
  {"name": "Rusçuk (1811) ve Slobozia kuşatması", "reason": "Rusçuk maddesi 1811 yenilgilerini taraf belirtmeden anar.", "source": "TDVIA:ruscuk"},
  {"name": "Vehhâbîlerin Mekke ve Medine'yi alması (1803–1806)", "reason": "Savaş kaydı yok; Mısır'ın Vehhâbî seferi Parti 15'te.", "source": "TDVIA:selim-iii"},
 ]
 
+# İkinci kaynak turu
+NEW = {  # yeni kayıt: hangi kayıttan sonra gelecek
+ "Bender'in kaybı (1789)": ("Yergöğü (1790)", "Battle of Giurgiu (1790)", "1790-06-08", W7, "Yergöğü", 43.90, 25.97, "known", "Romanya",
+  O, HA, "", "", "dis", "W", "kesin",
+  ["TDVIA:yergogu"], "", "Yergöğü'ne kadar inen Avusturya kuvvetleri geri püskürtüldü; Avusturya ile mütareke de burada yapıldı (19 Eylül 1790).",
+  "The Austrian forces that had come down to Giurgiu were driven back; the armistice with Austria was also signed here (19 September 1790).", "land"),
+ "Arîş (1799)": ("Dimyat (1799)", "Battle of Damietta (1799)", "1799-10", WF, "Dimyat", 31.42, 31.81, "known", "Mısır",
+  FR, O, "", "Jean-Baptiste Kléber", "dis", "L", "kesin",
+  ["TDVIA:dimyat"], "", "Karaya çıkan Osmanlı kuvvetleri yenildi.", "The Ottoman landing force was defeated.", "land"),
+ "Silistre (1809)": ("İbrâil'in kaybı (1809)", "Siege of Brăila (1809)", "1809-12-02", W8, "İbrâil", 45.27, 27.96, "known", "Romanya",
+  RU, O, "", "General Essen", "dis", "L", "kesin",
+  ["TDVIA:ibrail"], "", "Kuşatılıp topa tutulan kale yiyecek sıkıntısı yüzünden teslim oldu.", "Besieged and bombarded, the fortress surrendered for lack of food.", "land"),
+}
+EXTRA_SRC = {"Mehâdiye (1788)": ["TDVIA:hasan-pasa-kethuda"], "Şebeş (1788)": ["TDVIA:hasan-pasa-kethuda"],
+ "Özü'nün kaybı (1788)": ["TDVIA:ozu"], "Fokşan (1789)": ["TDVIA:hasan-pasa-kethuda"], "Boza (Rimnik) (1789)": ["TDVIA:hasan-pasa-kethuda"],
+ "İsmâil önü (1789)": ["TDVIA:hasan-pasa-kethuda"], "Arîş (1799)": ["TDVIA:aris"], "Dimyat (1803)": ["TDVIA:dimyat"]}
+FIX = {"Mehâdiye (1788)": {"turkic_cmd": "Vidin seraskeri Hasan Paşa (Kethüdâ), Koca Yûsuf Paşa"},
+ "Şebeş (1788)": {"turkic_cmd": "Vidin seraskeri Hasan Paşa (Kethüdâ), Koca Yûsuf Paşa"},
+ "Özü'nün kaybı (1788)": {"opp_cmd": "Aleksandr Suvorov",
+  "note": "Aralık 1788'deki Rus hücumuna kale müdafileri şiddetli kışın da etkisiyle fazla dayanamadı; Ruslar sivil halkı katletti. Donanmanın yardımı sığ sahiller yüzünden ulaşamamıştı. I. Abdülhamid haberi okurken felç geçirip öldü (7 Nisan 1789).",
+  "note_en": "The defenders could not hold out long against the Russian assault of December 1788, made worse by the harsh winter; the Russians massacred the civilians. Naval relief had failed to reach the fort because of the shallow shore. Abdülhamid I suffered a fatal stroke while reading the news (7 April 1789)."},
+ "Fokşan (1789)": {"turkic_cmd": "Kemankeş Mustafa Paşa"},
+ "Boza (Rimnik) (1789)": {"place": "Rimnik nehri yakını, Martineşti", "turkic_cmd": "Sadrazam Kethüdâ (Cenaze) Hasan Paşa",
+  "note": "Fokşan'ın intikamını almak ve Bender ile Akkirman'ı kurtarmak için girişilen harekâtta sadrazam Rimnik nehri yakınında Martineşti'de bozguna uğradı ve azledildi (23 Kasım 1789).",
+  "note_en": "In an operation to avenge Focșani and relieve Bender and Akkerman, the grand vizier was routed at Mărtinești near the Rymnik and was dismissed (23 November 1789)."},
+ "Arîş (1799)": {"status": "ihtilafli",
+  "dispute": "Yûsuf Ziyâ Paşa maddesi sadrazamın 28 Aralık 1799'da Arîş kuşatmasını zaferle bitirdiğini yazar; Arîş maddesi ise Napolyon'un 18 Şubat 1799'da aldığı şehrin 17 Kasım 1799'da özel bir anlaşmayla geri alındığını söyler."},
+ "Dimyat (1803)": {"dispute": "Hüsrev Paşa maddesi yenilen paşanın Dimyat'ı bırakıp Abaza Kalesi'ne kaçtığını, Dimyat maddesi ise Dimyat'a sığınıp şehri tahkim ettiğini ve yakalanarak Kahire'ye götürüldüğünü yazar."}}
+
 recs = []
-for i, r in enumerate(R, 1):
+RR = []
+for r in R:
+    RR.append(r)
+    if r[0] in NEW: RR.append(NEW[r[0]])
+for i, r in enumerate(RR, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ) = r
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
@@ -162,10 +196,13 @@ for i, r in enumerate(R, 1):
            "state": O, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
+    rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
+    rec.update(FIX.get(ntr, {}))
+    rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))
-meta = {"batch": "Parti 14 — Osmanlı: Küçük Kaynarca'dan Bükreş'e (1774–1812)", "compiled": "2026-10-29", "status": "İlk tur.",
+meta = {"batch": "Parti 14 — Osmanlı: Küçük Kaynarca'dan Bükreş'e (1774–1812)", "compiled": "2026-10-29", "status": "İkinci kaynak turu yapıldı.",
         "conventions": pilot["meta"]["conventions"], "source_keys": pilot["meta"]["source_keys"], "decisions": pilot["meta"]["decisions"]}
 (root / "data" / "osmanli-1774-1812.json").write_text(json.dumps({"meta": meta, "battles": recs, "left_out": LEFT}, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(recs), "kayıt;", sum(r["verify"]["tdvia2"] for r in recs), "iki maddeli")

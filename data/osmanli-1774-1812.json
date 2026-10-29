@@ -2,7 +2,7 @@
  "meta": {
   "batch": "Parti 14 — Osmanlı: Küçük Kaynarca'dan Bükreş'e (1774–1812)",
   "compiled": "2026-10-29",
-  "status": "İlk tur.",
+  "status": "İkinci kaynak turu yapıldı.",
   "conventions": {
    "winner_first": "side_a kazanan taraftır; result alanı Türk (Selçuklu) tarafının sonucudur: W kazandı, L kaybetti, D belirsiz/berabere, C iç savaş (skora girmez).",
    "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",
@@ -147,17 +147,18 @@
    "country": "Romanya",
    "side_a": "Osmanlı Devleti",
    "side_b": "Habsburglar",
-   "turkic_cmd": "Koca Yûsuf Paşa, Kethüdâ Hasan Paşa",
+   "turkic_cmd": "Vidin seraskeri Hasan Paşa (Kethüdâ), Koca Yûsuf Paşa",
    "opp_cmd": "",
    "category": "dis",
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:yusuf-pasa-koca"
+    "TDVIA:yusuf-pasa-koca",
+    "TDVIA:hasan-pasa-kethuda"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -180,17 +181,18 @@
    "country": "Romanya",
    "side_a": "Osmanlı Devleti",
    "side_b": "Habsburglar",
-   "turkic_cmd": "Koca Yûsuf Paşa, Kethüdâ Hasan Paşa",
+   "turkic_cmd": "Vidin seraskeri Hasan Paşa (Kethüdâ), Koca Yûsuf Paşa",
    "opp_cmd": "",
    "category": "dis",
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:yusuf-pasa-koca"
+    "TDVIA:yusuf-pasa-koca",
+    "TDVIA:hasan-pasa-kethuda"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -252,14 +254,15 @@
    "side_a": "Rusya",
    "side_b": "Osmanlı Devleti",
    "turkic_cmd": "",
-   "opp_cmd": "Grigory Potemkin",
+   "opp_cmd": "Aleksandr Suvorov",
    "category": "dis",
    "result": "L",
    "status": "kesin",
    "sources": [
     "TDVIA:cezayirli-gazi-hasan-pasa",
     "TDVIA:abdulhamid-i",
-    "TDVIA:yusuf-pasa-koca"
+    "TDVIA:yusuf-pasa-koca",
+    "TDVIA:ozu"
    ],
    "verify": {
     "tdvia": true,
@@ -271,8 +274,8 @@
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",
    "dispute": "İsmâil maddesi Özü'nün 1789'da düştüğünü yazar; Abdülhamid I maddesine göre haber padişaha Nisan 1789'dan önce ulaşmıştı.",
-   "note": "Donanmanın yardımı sığ sahiller yüzünden kaleye ulaşamadı. I. Abdülhamid Özü'nün işgalini bildiren yazıyı okurken felç geçirip öldü (7 Nisan 1789).",
-   "note_en": "Naval relief could not reach the fortress because of the shallow shore. Abdülhamid I suffered a fatal stroke while reading the report of its loss (7 April 1789)."
+   "note": "Aralık 1788'deki Rus hücumuna kale müdafileri şiddetli kışın da etkisiyle fazla dayanamadı; Ruslar sivil halkı katletti. Donanmanın yardımı sığ sahiller yüzünden ulaşamamıştı. I. Abdülhamid haberi okurken felç geçirip öldü (7 Nisan 1789).",
+   "note_en": "The defenders could not hold out long against the Russian assault of December 1788, made worse by the harsh winter; the Russians massacred the civilians. Naval relief had failed to reach the fort because of the shallow shore. Abdülhamid I suffered a fatal stroke while reading the news (7 April 1789)."
   },
   {
    "id": 8,
@@ -322,14 +325,15 @@
    "country": "Romanya",
    "side_a": "Rusya ve Habsburglar",
    "side_b": "Osmanlı Devleti",
-   "turkic_cmd": "",
+   "turkic_cmd": "Kemankeş Mustafa Paşa",
    "opp_cmd": "Aleksandr Suvorov, Saksonya-Coburg Prensi",
    "category": "dis",
    "result": "L",
    "status": "kesin",
    "sources": [
     "TDVIA:yusuf-pasa-koca",
-    "TDVIA:cezayirli-gazi-hasan-pasa"
+    "TDVIA:cezayirli-gazi-hasan-pasa",
+    "TDVIA:hasan-pasa-kethuda"
    ],
    "verify": {
     "tdvia": true,
@@ -349,21 +353,22 @@
    "hijri": "",
    "type": "land",
    "war": "Osmanlı–Rus–Avusturya savaşı (1787–1792)",
-   "place": "Rimnik nehri ve Boza suyu",
+   "place": "Rimnik nehri yakını, Martineşti",
    "lat": 45.38,
    "lon": 27.05,
    "loc": "approx",
    "country": "Romanya",
    "side_a": "Rusya ve Habsburglar",
    "side_b": "Osmanlı Devleti",
-   "turkic_cmd": "Kethüdâ (Cenaze) Hasan Paşa",
+   "turkic_cmd": "Sadrazam Kethüdâ (Cenaze) Hasan Paşa",
    "opp_cmd": "Aleksandr Suvorov, Saksonya-Coburg Prensi",
    "category": "dis",
    "result": "L",
    "status": "kesin",
    "sources": [
     "TDVIA:yusuf-pasa-koca",
-    "TDVIA:cezayirli-gazi-hasan-pasa"
+    "TDVIA:cezayirli-gazi-hasan-pasa",
+    "TDVIA:hasan-pasa-kethuda"
    ],
    "verify": {
     "tdvia": true,
@@ -374,8 +379,8 @@
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",
-   "note": "Ordu Remnik nehrini geçerken ve Boza suyu kıyısında ağır bozguna uğradı; serasker azledildi.",
-   "note_en": "The army was routed while crossing the Rymnik and on the Buzău; the commander was dismissed."
+   "note": "Fokşan'ın intikamını almak ve Bender ile Akkirman'ı kurtarmak için girişilen harekâtta sadrazam Rimnik nehri yakınında Martineşti'de bozguna uğradı ve azledildi (23 Kasım 1789).",
+   "note_en": "In an operation to avenge Focșani and relieve Bender and Akkerman, the grand vizier was routed at Mărtinești near the Rymnik and was dismissed (23 November 1789)."
   },
   {
    "id": 11,
@@ -398,11 +403,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:cezayirli-gazi-hasan-pasa"
+    "TDVIA:cezayirli-gazi-hasan-pasa",
+    "TDVIA:hasan-pasa-kethuda"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -520,6 +526,41 @@
   },
   {
    "id": 15,
+   "name_tr": "Yergöğü (1790)",
+   "name_en": "Battle of Giurgiu (1790)",
+   "date": "1790-06-08",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Rus–Avusturya savaşı (1787–1792)",
+   "place": "Yergöğü",
+   "lat": 43.9,
+   "lon": 25.97,
+   "loc": "known",
+   "country": "Romanya",
+   "side_a": "Osmanlı Devleti",
+   "side_b": "Habsburglar",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:yergogu"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1774-1812",
+   "note": "Yergöğü'ne kadar inen Avusturya kuvvetleri geri püskürtüldü; Avusturya ile mütareke de burada yapıldı (19 Eylül 1790).",
+   "note_en": "The Austrian forces that had come down to Giurgiu were driven back; the armistice with Austria was also signed here (19 September 1790)."
+  },
+  {
+   "id": 16,
    "name_tr": "İsmâil'in kaybı (1790)",
    "name_en": "Siege of Izmail (1790)",
    "date": "1790-12-22",
@@ -555,7 +596,7 @@
    "note_en": "Returned by the Treaty of Jassy."
   },
   {
-   "id": 16,
+   "id": 17,
    "name_tr": "Anapa (1791)",
    "name_en": "Siege of Anapa (1791)",
    "date": "1791-07-26",
@@ -590,7 +631,7 @@
    "note_en": "Besieged three times during the war, it fell at the third."
   },
   {
-   "id": 17,
+   "id": 18,
    "name_tr": "Maçin (1791)",
    "name_en": "Battle of Măcin",
    "date": "1791-07-09",
@@ -629,7 +670,7 @@
    "note_en": "After the general rout the army refused to fight on and an armistice was accepted (11 August 1791)."
   },
   {
-   "id": 18,
+   "id": 19,
    "name_tr": "Vidin kuşatması (1798)",
    "name_en": "Siege of Vidin (1798)",
    "date": "1798",
@@ -665,7 +706,7 @@
    "note_en": "The months-long siege ended in failure; a settlement followed, Pazvandoğlu being made a vizier (1799)."
   },
   {
-   "id": 19,
+   "id": 20,
    "name_tr": "Ehramlar (1798)",
    "name_en": "Battle of the Pyramids",
    "date": "1798-07",
@@ -701,7 +742,7 @@
    "note_en": "After taking Alexandria in July 1798 the French defeated Murad Bey's army of untrained peasants."
   },
   {
-   "id": 20,
+   "id": 21,
    "name_tr": "Yafa (1799)",
    "name_en": "Siege of Jaffa (1799)",
    "date": "1799-03",
@@ -737,7 +778,7 @@
    "note_en": "The 4,000 prisoners were shot on the beach."
   },
   {
-   "id": 21,
+   "id": 22,
    "name_tr": "Akkâ (1799)",
    "name_en": "Siege of Acre (1799)",
    "date": "1799-05",
@@ -774,7 +815,7 @@
    "note_en": "The siege begun on 18–19 March was resisted with help from the British fleet; Bonaparte withdrew and left Egypt in August."
   },
   {
-   "id": 22,
+   "id": 23,
    "name_tr": "Ebûkır (1799)",
    "name_en": "Battle of Abukir (1799)",
    "date": "1799-07-25",
@@ -809,7 +850,7 @@
    "note_en": "The landed Ottoman force was defeated and the castle passed to the French."
   },
   {
-   "id": 23,
+   "id": 24,
    "name_tr": "Arîş (1799)",
    "name_en": "Siege of El Arish (1799)",
    "date": "1799-12-28",
@@ -827,9 +868,44 @@
    "opp_cmd": "",
    "category": "dis",
    "result": "W",
+   "status": "ihtilafli",
+   "sources": [
+    "TDVIA:yusuf-ziya-pasa",
+    "TDVIA:aris"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1774-1812",
+   "dispute": "Yûsuf Ziyâ Paşa maddesi sadrazamın 28 Aralık 1799'da Arîş kuşatmasını zaferle bitirdiğini yazar; Arîş maddesi ise Napolyon'un 18 Şubat 1799'da aldığı şehrin 17 Kasım 1799'da özel bir anlaşmayla geri alındığını söyler."
+  },
+  {
+   "id": 25,
+   "name_tr": "Dimyat (1799)",
+   "name_en": "Battle of Damietta (1799)",
+   "date": "1799-10",
+   "hijri": "",
+   "type": "land",
+   "war": "Fransa'nın Mısır seferi (1798–1801)",
+   "place": "Dimyat",
+   "lat": 31.42,
+   "lon": 31.81,
+   "loc": "known",
+   "country": "Mısır",
+   "side_a": "Fransa",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "",
+   "opp_cmd": "Jean-Baptiste Kléber",
+   "category": "dis",
+   "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:yusuf-ziya-pasa"
+    "TDVIA:dimyat"
    ],
    "verify": {
     "tdvia": true,
@@ -839,10 +915,12 @@
     "academic": false
    },
    "state": "Osmanlı Devleti",
-   "home_batch": "osmanli-1774-1812"
+   "home_batch": "osmanli-1774-1812",
+   "note": "Karaya çıkan Osmanlı kuvvetleri yenildi.",
+   "note_en": "The Ottoman landing force was defeated."
   },
   {
-   "id": 24,
+   "id": 26,
    "name_tr": "Heliopolis (1800)",
    "name_en": "Battle of Heliopolis",
    "date": "1800-03-20",
@@ -878,7 +956,7 @@
    "note_en": "The French caught the grand vizier's forces unprepared and routed them."
   },
   {
-   "id": 25,
+   "id": 27,
    "name_tr": "Haneke (1801)",
    "name_en": "Battle of El Khanka (1801)",
    "date": "1801-05-31",
@@ -913,7 +991,7 @@
    "note_en": "The French then evacuated Egypt, which was handed to Governor Husrev Pasha (February 1802)."
   },
   {
-   "id": 26,
+   "id": 28,
    "name_tr": "Dimyat (1803)",
    "name_en": "Battle of Damietta (1803)",
    "date": "1803-07-04",
@@ -933,11 +1011,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:husrev-pasa-koca"
+    "TDVIA:husrev-pasa-koca",
+    "TDVIA:dimyat"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -945,10 +1024,11 @@
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",
    "note": "Yenilen Hüsrev Paşa Dimyat'ı bırakıp kaçtı.",
-   "note_en": "The defeated Husrev Pasha abandoned Damietta and fled."
+   "note_en": "The defeated Husrev Pasha abandoned Damietta and fled.",
+   "dispute": "Hüsrev Paşa maddesi yenilen paşanın Dimyat'ı bırakıp Abaza Kalesi'ne kaçtığını, Dimyat maddesi ise Dimyat'a sığınıp şehri tahkim ettiğini ve yakalanarak Kahire'ye götürüldüğünü yazar."
   },
   {
-   "id": 27,
+   "id": 29,
    "name_tr": "Böğürdelen (1806)",
    "name_en": "Fall of Šabac (1806)",
    "date": "1806-01-26",
@@ -983,7 +1063,7 @@
    "note_en": "The fortress was surrendered to Karađorđe."
   },
   {
-   "id": 28,
+   "id": 30,
    "name_tr": "Hotin'in kaybı (1806)",
    "name_en": "Occupation of Khotyn (1806)",
    "date": "1806",
@@ -1018,7 +1098,7 @@
    "note_en": "The article only mentions the occupation; no battle details."
   },
   {
-   "id": 29,
+   "id": 31,
    "name_tr": "Akkirman'ın kaybı (1806)",
    "name_en": "Fall of Akkerman (1806)",
    "date": "1806-11-30",
@@ -1053,7 +1133,7 @@
    "note_en": "The Tatars abandoned the town; it was ceded to Russia by the Treaty of Bucharest (1812)."
   },
   {
-   "id": 30,
+   "id": 32,
    "name_tr": "Çanakkale Boğazı (1807)",
    "name_en": "Duckworth's passage of the Dardanelles (1807)",
    "date": "1807-02-19",
@@ -1090,7 +1170,7 @@
    "note_en": "The British fleet passed the strait without much difficulty but withdrew from before Istanbul at the end of February without result."
   },
   {
-   "id": 31,
+   "id": 33,
    "name_tr": "İngilizlerin Mısır seferi (1807)",
    "name_en": "Alexandria expedition of 1807",
    "date": "1807-03",
@@ -1127,7 +1207,7 @@
    "note_en": "Alexandria was surrendered to the British in March 1807; after Mehmed Ali's success and negotiations they withdrew on 19 September 1807."
   },
   {
-   "id": 32,
+   "id": 34,
    "name_tr": "Yergöğü (1809)",
    "name_en": "Battle of Giurgiu (1809)",
    "date": "1809-09",
@@ -1160,7 +1240,7 @@
    "home_batch": "osmanli-1774-1812"
   },
   {
-   "id": 33,
+   "id": 35,
    "name_tr": "İsmâil'in kaybı (1809)",
    "name_en": "Fall of Izmail (1809)",
    "date": "1809",
@@ -1195,7 +1275,7 @@
    "note_en": "The article only mentions the occupation."
   },
   {
-   "id": 34,
+   "id": 36,
    "name_tr": "Silistre (1809)",
    "name_en": "Battle of Silistra (1809)",
    "date": "1809-10-24",
@@ -1230,7 +1310,42 @@
    "note_en": "The army then returned to Shumen for the winter."
   },
   {
-   "id": 35,
+   "id": 37,
+   "name_tr": "İbrâil'in kaybı (1809)",
+   "name_en": "Siege of Brăila (1809)",
+   "date": "1809-12-02",
+   "hijri": "",
+   "type": "land",
+   "war": "Osmanlı–Rus savaşı (1806–1812)",
+   "place": "İbrâil",
+   "lat": 45.27,
+   "lon": 27.96,
+   "loc": "known",
+   "country": "Romanya",
+   "side_a": "Rusya",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "",
+   "opp_cmd": "General Essen",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:ibrail"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1774-1812",
+   "note": "Kuşatılıp topa tutulan kale yiyecek sıkıntısı yüzünden teslim oldu.",
+   "note_en": "Besieged and bombarded, the fortress surrendered for lack of food."
+  },
+  {
+   "id": 38,
    "name_tr": "Varna (1810)",
    "name_en": "Siege of Varna (1810)",
    "date": "1810-06",
@@ -1266,7 +1381,7 @@
    "note_en": "The Russian assault was repulsed with heavy losses."
   },
   {
-   "id": 36,
+   "id": 39,
    "name_tr": "Rusçuk'un kaybı (1810)",
    "name_en": "Siege of Ruse (1810)",
    "date": "1810-09-26",
@@ -1310,9 +1425,14 @@
    "source": "TDVIA:yas-antlasmasi"
   },
   {
-   "name": "Yergöğü (1790), Kalafat ve Tendra/Kelegra deniz savaşları (1790–1791)",
+   "name": "Kalafat ve Tendra/Kelegra deniz savaşları (1790–1791)",
    "reason": "TDVİA'da adıyla bulunamadı.",
    "source": ""
+  },
+  {
+   "name": "Yergöğü'nün kaybı (27 Eylül 1810)",
+   "reason": "Yergöğü maddesi yalnızca tarihini verir; Rusçuk'un kaybıyla aynı harekât.",
+   "source": "TDVIA:yergogu"
   },
   {
    "name": "Sırp isyanının diğer savaşları (Belgrad 1806, Mişar, Deligrad, Çegar 1809)",
