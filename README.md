@@ -29,6 +29,7 @@
 | [docs/19-osmanli-1878-1912.md](docs/19-osmanli-1878-1912.md) | Parti 17: Berlin'den Balkan Savaşı'na (1878–1912) |
 | [docs/20-osmanli-1912-1913.md](docs/20-osmanli-1912-1913.md) | Parti 18: Balkan Savaşları (1912–1913) |
 | [docs/21-osmanli-1914-1918.md](docs/21-osmanli-1914-1918.md) | Parti 19: Birinci Dünya Savaşı (1914–1918) |
+| [docs/22-milli-mucadele.md](docs/22-milli-mucadele.md) | Parti 20: Millî Mücadele (1919–1922) |
 | [docs/06-dogrulama-turu.md](docs/06-dogrulama-turu.md) | Roma veri seti, akademik yayınlar ve Wikipedia ile doğrulama turu |
 
 ## Veri
@@ -51,6 +52,7 @@
 - `data/osmanli-1878-1912.json`: Osmanlı 1878–1912, 19 kayıt. Üretici: `tools/make_osmanli_1878_1912.py`.
 - `data/osmanli-1912-1913.json`: Osmanlı 1912–1913 (Balkan Savaşları), 15 kayıt. Üretici: `tools/make_osmanli_1912_1913.py`.
 - `data/osmanli-1914-1918.json`: Osmanlı 1914–1918 (Birinci Dünya Savaşı), 41 kayıt. Üretici: `tools/make_osmanli_1914_1918.py`.
+- `data/milli-mucadele-1919-1922.json`: Millî Mücadele 1919–1922, 22 kayıt. Üretici: `tools/make_milli_mucadele.py`.
 - `data/akademik-kaynaklar.json`: `AKD:` anahtarıyla atıf yapılan akademik yayınların künyeleri.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 
@@ -69,6 +71,6 @@
 3. ~~Pilot kayıtlarının ikinci kaynakla kontrolü~~ ✅ (13 kayıt Türk akademik literatürüyle kontrol bekliyor)
 4. Anadolu Selçukluları ✅ (46/64 kayıt iki maddeyle); beylikler ve atabeylikler ✅ ilk tur
 5. Karahanlı, Gazneli ✅ ilk tur; Göktürk, Uygur
-6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅, 1603–1640 ✅, 1640–1683 ✅, 1683–1718 ✅, 1718–1774 ✅, 1774–1812 ✅, 1812–1839 ✅, 1839–1878 ✅, 1878–1912 ✅, 1912–1913 ✅, 1914–1918 ✅
+6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅, 1603–1640 ✅, 1640–1683 ✅, 1683–1718 ✅, 1718–1774 ✅, 1774–1812 ✅, 1812–1839 ✅, 1839–1878 ✅, 1878–1912 ✅, 1912–1913 ✅, 1914–1918 ✅, Millî Mücadele 1919–1922 ✅ ilk tur
 7. Türkiye Cumhuriyeti
 8. Arayüz (harita, filtreler, tablolar, indirme seçenekleri)

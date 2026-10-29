@@ -175,3 +175,14 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Karadeniz baskını 1914 | Osmanlı donanmasını Alman Amiral Souchon yönetti; Osmanlı kaydı sayıldı |
 | Musul (Kasım 1918), Medine'nin teslimi (1919) | Mütarekeden sonra → dışarıda |
 | Şam ve Halep 1918 haritada | Faysal'ın Arap yönetimi Hâşimî (hicaz) rengiyle gösterilir |
+
+## Kayıt kararları (Parti 20: Millî Mücadele 1919–1922, 2026-10-30)
+| Kayıt | Karar |
+|---|---|
+| Devlet alanı (`state`) | "TBMM Hükümeti (Millî Mücadele)"; 1919 kayıtlarında taraf "Kuvâ-yi Milliye", 1920 sonrası "TBMM Hükümeti" |
+| Anzavur, Düzce, Delibaş/Bozkır, Yozgat isyanları, Çerkez Ethem | Müslüman tebaanın Ankara'ya karşı isyanı → `ic`, sonuç `C` |
+| Akbaş baskını 1920 | Cephanelik baskını; muharebe değil → borderline |
+| Sakarya | Tarih maddenin verdiği bitiş günü (12 Eylül 1921); "üç hafta süren" notta |
+| Antep savunması | Madde sonucu (teslim) açıkça yazmadığından dışarıda; ikinci kaynakla eklenecek |
+| Harita | TBMM Hükümeti 1920'den itibaren ayrı renk (yeşil); İstanbul ve Gelibolu 1922'ye kadar Osmanlı |
+| Lahsâ | 8 Temmuz 1913'te İbn Suûd'a geçti (Lahsâ maddesi) → harita düzeltildi |
