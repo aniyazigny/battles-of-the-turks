@@ -11,7 +11,7 @@ Son güncelleme: 2026-10-30
 |---|---|---|
 | Pilot Büyük Selçuklu | 80 | 12 |
 | Anadolu Selçukluları | 72 | 26 |
-| Beylikler ve atabeylikler | 62 | 34 |
+| Beylikler ve atabeylikler | 72 | 41 |
 | Gazneli ve Karahanlı | 37 | 13 |
 | Osmanlı kuruluş | 31 | 11 |
 | Osmanlı 1402–1481 | 46 | 11 |
@@ -35,10 +35,10 @@ Son güncelleme: 2026-10-30
 - [ ] Tek maddeli kayıtlar için Türk akademik literatürü (Köymen, Kafesoğlu, Sevim, Turan, Demirkent, Kaymaz; DergiPark).
 
 ## 2. Kapsam eksikleri (henüz kayıt olmayan savaşlar)
-- [ ] **Anadolu Selçukluları:** Lâdik ve Efes 1147, Akşehir 1190, Sivrihisar, Turbessel 1150–51, İznik–Selçuklu savaşı 1225–31, Azat Musa'nın Gürcistan seferi; Hyelion ve Leimocheir 1177 (Roma veri setiyle kontrol).
+- [ ] **Anadolu Selçukluları:** (Lâdik ve Efes 1147 "Menderes ve Honaz" kaydında; Akşehir 1190 için TDVİA'da ayrıntı yok, Konya 1190 kaydında), Sivrihisar, Turbessel 1150–51, İznik–Selçuklu savaşı 1225–31, Azat Musa'nın Gürcistan seferi; Hyelion ve Leimocheir 1177 (Roma veri setiyle kontrol).
 - [ ] **Gazneliler:** Rama-Ganga 1019 (Triloçanpal), Gazne 1148 (Gurlu Sûrî), Tausi nehri 1019, Saffârî savaşı, İkinci Lamgân, Lahor 1186; Mathura seferi. (Nagarkot 1009, Thânesâr 1014, Lokhot 1021, Gevâliyâr–Kālincâr 1022 ve Hânsî–Thânesâr–Nagarkot'un kaybı c. 1043 eklendi, 2026-10-30.)
 - [ ] **Karahanlılar:** iç savaşlar.
-- [ ] **Zengîler:** Ayıntab, Maraş 1161, Kınnesrîn, Busrâ 1147, Butayha, Hûle 1157, Şeyzer 1157, Ba'lebek, Hama 1130, Dimyat 1169, İskenderiye 1167; Fâmiye, Banyas 1157. (Banyas 1164 eklendi, 2026-10-30.)
+- [ ] **Zengîler:** Ayıntab, Maraş 1161, Kınnesrîn, Busrâ 1147 (madde savaş anlatmıyor), Butayha, Hûle 1157, Şeyzer 1157 (madde yalnız depremi anar), İskenderiye 1167; Fâmiye, Banyas 1157. (2026-10-30'da eklendi: Banyas 1164, Hama 1130, Humus 1135, Kefertâb–Esârib–Bizâa 1138, Ba'lebek 1139, Suruç 1145, Ca'ber 1146, Dımaşk 1154, Bilbîs 1164, Mısır 1169, Dimyat 1169.)
 - [ ] **Dımaşk:** 1129 Haçlı saldırısı, Böri dönemi.
 - [ ] **Beylikler ve Selçuklu emîrleri:** Gerger, Nehrülkelb, Kerec-i Ebû Dülef, Rakhsi, Musul kuşatmaları 1096/1104/1108, Maarretünnu'mân. (Artah 1068 ve 1069, Kınnesrîn 1097, Tel Bâşir 1108 eklendi, 2026-10-30.)
 - [ ] **Osmanlı kuruluş:** Karesi'nin ilhakı, Çimpe ve Gelibolu 1354; İncügez, Çatalca, Aydos; 1302–1310 beylik savaşları (Katalanlar).

@@ -1182,6 +1182,42 @@
    "id": 32
   },
   {
+   "name_tr": "Hama (1130)",
+   "name_en": "Seizure of Hama (1130)",
+   "date": "1130-09-24",
+   "hijri": "",
+   "type": "land",
+   "war": "Zengî'nin Suriye siyaseti",
+   "place": "Hama",
+   "lat": 35.13,
+   "lon": 36.75,
+   "loc": "known",
+   "country": "Suriye",
+   "side_a": "Zengîler",
+   "side_b": "Böriler (Dımaşk; Sevinç)",
+   "turkic_cmd": "İmâdüddin Zengî",
+   "opp_cmd": "Sevinç b. Böri",
+   "category": "turk_arasi",
+   "result": "W",
+   "status": "borderline",
+   "sources": [
+    "TDVIA:zengi-imaduddin"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Zengî, askerleriyle Halep'e gelen Dımaşk Atabegi Böri'nin oğlu Sevinç'i hapsettirip savunmasız kalan Hama'yı kolayca aldı (18 Şevval 524 / 24 Eylül 1130). Muharebe değil hile ile alındığından borderline. (Kontrol turunda eklendi.)",
+   "note_en": "Zengi imprisoned Sevinch, son of the atabeg of Damascus, who had come to Aleppo with his troops, and easily took the undefended Hama. Borderline, as it was taken by ruse rather than battle.",
+   "opp_state": "Böriler (Dımaşk Atabegliği)",
+   "id": 33
+  },
+  {
    "name_tr": "Karaca Sâkî'ye yenilgi",
    "name_en": "Defeat by Qaraja al-Saqi",
    "date": "c. 1132",
@@ -1215,7 +1251,7 @@
    "note": "Zengî, Mesud'a katılmak üzere yola çıkmıştı. Atabeylik ile sultanlık arası olduğu için Türk devletleri arası sayıldı.",
    "note_en": "Zengi had set out to join Mas'ud. Counted as inter-Turkic because it was between an atabegate and the sultanate.",
    "opp_state": "Irak Selçukluları",
-   "id": 33
+   "id": 34
   },
   {
    "name_tr": "Âmid (Dâvûd'a karşı)",
@@ -1251,7 +1287,43 @@
    "note": "Âmid kuşatıldı ama alınamadı.",
    "note_en": "Amida was besieged but not taken.",
    "opp_state": "Artuklular",
-   "id": 34
+   "id": 35
+  },
+  {
+   "name_tr": "Humus kuşatması (1135)",
+   "name_en": "Siege of Homs (1135)",
+   "date": "1135-08",
+   "hijri": "",
+   "type": "land",
+   "war": "Zengî'nin Suriye siyaseti",
+   "place": "Humus",
+   "lat": 34.73,
+   "lon": 36.71,
+   "loc": "known",
+   "country": "Suriye",
+   "side_a": "Humus (Böriler)",
+   "side_b": "Zengîler",
+   "turkic_cmd": "İmâdüddin Zengî",
+   "opp_cmd": "",
+   "category": "turk_arasi",
+   "result": "D",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:zengi-imaduddin"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Humus'u kuşatan Zengî, Musul'un halife tarafından kuşatılacağı haberi üzerine kuşatmayı kaldırıp Musul'a döndü (Ağustos 1135 başları). (Kontrol turunda eklendi.)",
+   "note_en": "Zengi, besieging Homs, lifted the siege and returned to Mosul on news that the caliph was about to besiege it.",
+   "opp_state": "Böriler (Dımaşk Atabegliği)",
+   "id": 36
   },
   {
    "name_tr": "Ba'rîn",
@@ -1287,7 +1359,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kral Foulque baskından güçlükle kurtuldu; Bizans seferi haberiyle kaleyi emanla teslim etti.",
    "note_en": "King Fulk barely escaped; on news of the Byzantine campaign he surrendered the castle on terms.",
-   "id": 35
+   "id": 37
   },
   {
    "name_tr": "Urfa'nın fethi",
@@ -1324,7 +1396,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "İlk Haçlı devleti sona erdi; haber Avrupa'da İkinci Haçlı Seferi'ne yol açtı.",
    "note_en": "The first Crusader state ended; the news led to the Second Crusade.",
-   "id": 36
+   "id": 38
   },
   {
    "name_tr": "Bire kuşatması",
@@ -1359,7 +1431,78 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kale düşmek üzereyken Musul nâibinin öldürüldüğü haberiyle kuşatma kaldırıldı.",
    "note_en": "Lifted, with the castle about to fall, on news that his deputy in Mosul had been killed.",
-   "id": 37
+   "id": 39
+  },
+  {
+   "name_tr": "Suruç (1145)",
+   "name_en": "Capture of Saruj (1145)",
+   "date": "1145-01",
+   "hijri": "",
+   "type": "land",
+   "war": "Zengî'nin Haçlılarla mücadelesi",
+   "place": "Suruç",
+   "lat": 36.98,
+   "lon": 38.42,
+   "loc": "known",
+   "country": "Türkiye",
+   "side_a": "Zengîler",
+   "side_b": "Urfa Kontluğu",
+   "turkic_cmd": "İmâdüddin Zengî",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:zengi-imaduddin"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Urfa'dan Suruç'a gelen Zengî, garnizonun terk ettiği şehri kolayca aldı (Receb 539 / Ocak 1145). (Kontrol turunda eklendi.)",
+   "note_en": "Coming from Edessa, Zengi easily took Saruj, abandoned by its garrison.",
+   "id": 40
+  },
+  {
+   "name_tr": "Ca'ber kuşatması (1146)",
+   "name_en": "Siege of Qal'at Ja'bar (1146)",
+   "date": "1146-09-14",
+   "hijri": "",
+   "type": "land",
+   "war": "Zengî'nin el-Cezîre siyaseti",
+   "place": "Ca'ber Kalesi",
+   "lat": 35.89,
+   "lon": 38.48,
+   "loc": "known",
+   "country": "Suriye",
+   "side_a": "Ukaylîler (Sâlim el-Ukaylî)",
+   "side_b": "Zengîler",
+   "turkic_cmd": "İmâdüddin Zengî",
+   "opp_cmd": "Sâlim el-Ukaylî",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:zengi-imaduddin",
+    "TDVIA:caber-kalesi"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "17 Mayıs 1146'dan beri kuşatılan kalenin önünde Zengî 14–15 Eylül 1146 gecesi kölesi Yarınkuş tarafından öldürüldü; kuşatma kaldırıldı. (Kontrol turunda eklendi.)",
+   "note_en": "Zengi, besieging the castle since 17 May 1146, was murdered by his slave Yarınkuş on the night of 14–15 September 1146; the siege was abandoned.",
+   "id": 41
   },
   {
    "name_tr": "Urfa (1146)",
@@ -1395,7 +1538,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Josselin iç kale dışında şehri ele geçirmişti; Nûreddin şehri geri aldı.",
    "note_en": "Joscelin had seized the town except the citadel; Nur al-Din retook it.",
-   "id": 38
+   "id": 42
   },
   {
    "name_tr": "Yağra",
@@ -1429,7 +1572,7 @@
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
-   "id": 39
+   "id": 43
   },
   {
    "name_tr": "İnnib (İnab)",
@@ -1466,7 +1609,7 @@
    "dispute": "Yer: Şîrkûh maddesi 'Azâz yakınlarındaki İnnib' der; Batı kaynaklarına göre İnab, Efâmiye yakınındadır.",
    "note": "Efâmiye kalesi ardından teslim oldu.",
    "note_en": "Apamea castle surrendered afterwards.",
-   "id": 40
+   "id": 44
   },
   {
    "name_tr": "Josselin'e yenilgi",
@@ -1503,7 +1646,7 @@
    "note": "Ardından Türkmenler Josselin'i yakalayıp Nûreddin'e teslim etti (Mayıs 1150).",
    "note_en": "Turkmens then captured Joscelin and handed him over to Nur al-Din (May 1150).",
    "dispute": "Tarih: Gaziantep maddesi 1149; Nûreddin maddesi yenilgiyi Josselin'in Mayıs 1150'de teslim alınmasından önceye koyar.",
-   "id": 41
+   "id": 45
   },
   {
    "name_tr": "Banyas (1153)",
@@ -1538,7 +1681,44 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Askalân'ı kurtarma girişimi; savaştan sonuç alınamadı.",
    "note_en": "An attempt to relieve Ascalon; the battle was inconclusive.",
-   "id": 42
+   "id": 46
+  },
+  {
+   "name_tr": "Dımaşk'ın alınışı (1154)",
+   "name_en": "Nur al-Din's capture of Damascus (1154)",
+   "date": "1154",
+   "hijri": "",
+   "type": "land",
+   "war": "Nûreddin'in Suriye siyaseti",
+   "place": "Dımaşk",
+   "lat": 33.51,
+   "lon": 36.29,
+   "loc": "known",
+   "country": "Suriye",
+   "side_a": "Zengîler (Nûreddin)",
+   "side_b": "Böriler (Mücîrüddin Abak)",
+   "turkic_cmd": "Nûreddin Mahmud Zengî; Şîrkûh",
+   "opp_cmd": "Mücîrüddin Abak",
+   "category": "turk_arasi",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:nureddin-zengi-mahmud",
+    "TDVIA:sirkuh-el-mansur"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Mücîrüddin kumandanlarını uzaklaştırınca Nûreddin şehri kolayca aldı; Şîrkûh ağabeyi Necmeddin Eyyûb ile temas kurarak şehrin alınmasını sağladı (549/1154). (Kontrol turunda eklendi.)",
+   "note_en": "With Mujir al-Din having dismissed his commanders, Nur al-Din took the city easily; Shirkuh arranged it through his brother Najm al-Din Ayyub.",
+   "opp_state": "Böriler (Dımaşk Atabegliği)",
+   "id": 47
   },
   {
    "name_tr": "Hârim kuşatması (1156)",
@@ -1571,7 +1751,7 @@
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
-   "id": 43
+   "id": 48
   },
   {
    "name_tr": "Hısnülekrâd (el-Bukay'a)",
@@ -1607,7 +1787,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Ordu dinlenirken baskına uğradı; Nûreddin yakalanmaktan güçlükle kurtuldu. Ardından cihad çağrısı yaptı ve ertesi yıl Hârim'i aldı.",
    "note_en": "The army was surprised while resting; Nur al-Din barely escaped capture. He then called for jihad and took Harim the next year.",
-   "id": 44
+   "id": 49
   },
   {
    "name_tr": "Hârim (1164)",
@@ -1644,7 +1824,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Hârim kalesi alındı. Bu baskı Haçlıları Mısır'da Şîrkûh'un kuşatmasını kaldırmaya zorladı.",
    "note_en": "Harim castle was taken. The pressure forced the Crusaders to lift their siege of Shirkuh in Egypt.",
-   "id": 45
+   "id": 50
   },
   {
    "name_tr": "Banyas (1164)",
@@ -1679,7 +1859,42 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Hârim'in ardından 1148-49'dan beri Haçlılar'ın elindeki Banyas fethedildi (Zilhicce 559 / Ekim-Kasım 1164). (Kontrol turunda eklendi.)",
    "note_en": "After Harim, Banias, held by the Crusaders since 1148–49, was taken (October–November 1164).",
-   "id": 46
+   "id": 51
+  },
+  {
+   "name_tr": "Bilbîs (1164)",
+   "name_en": "Siege of Bilbeis (1164)",
+   "date": "1164",
+   "hijri": "",
+   "type": "land",
+   "war": "Nûreddin'in Mısır seferleri",
+   "place": "Bilbîs",
+   "lat": 30.42,
+   "lon": 31.56,
+   "loc": "known",
+   "country": "Mısır",
+   "side_a": "Zengîler (Şîrkûh)",
+   "side_b": "Şâver ve Kudüs Krallığı (Amaury)",
+   "turkic_cmd": "Şîrkûh",
+   "opp_cmd": "Şâver, I. Amaury",
+   "category": "dis",
+   "result": "D",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:sirkuh-el-mansur"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Haçlılar'la birleşen Şâver'in ordusu Bilbîs'teki Şîrkûh'u kuşattı; Nûreddin'in Hârim ve Banyas'a yürümesi üzerine Haçlılar Şîrkûh'la anlaşıp kuşatmayı kaldırdı. (Kontrol turunda eklendi.)",
+   "note_en": "Shawar's army, joined by the Crusaders, besieged Shirkuh in Bilbeis; when Nur al-Din marched on Harim and Banias the Crusaders came to terms with Shirkuh and lifted the siege.",
+   "id": 52
   },
   {
    "name_tr": "Bâbeyn",
@@ -1715,7 +1930,79 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Şîrkûh Kürt kökenlidir ama Nûreddin'in komutanı olarak savaştı; K3 gereği Zengîlere yazıldı.",
    "note_en": "Shirkuh was of Kurdish origin but fought as Nur al-Din's commander; under K3 recorded for the Zengids.",
-   "id": 47
+   "id": 53
+  },
+  {
+   "name_tr": "Mısır'ın alınışı (1169)",
+   "name_en": "Shirkuh's third Egyptian campaign (1168–1169)",
+   "date": "1169-01-18",
+   "hijri": "",
+   "type": "land",
+   "war": "Nûreddin'in Mısır seferleri",
+   "place": "Kahire",
+   "lat": 30.05,
+   "lon": 31.25,
+   "loc": "known",
+   "country": "Mısır",
+   "side_a": "Zengîler (Şîrkûh)",
+   "side_b": "Kudüs Krallığı (Amaury)",
+   "turkic_cmd": "Şîrkûh",
+   "opp_cmd": "I. Amaury",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:sirkuh-el-mansur"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "4 Kasım 1168'de Bilbîs'i alıp Kahire'yi kuşatan Amaury, Şîrkûh'un geldiğini öğrenip çekildi; Şîrkûh Kahire'ye girip Fâtımî veziri oldu (18 Ocak 1169). (Kontrol turunda eklendi.)",
+   "note_en": "Amaury, who had taken Bilbeis on 4 November 1168 and besieged Cairo, withdrew on Shirkuh's approach; Shirkuh entered Cairo and became Fatimid vizier (18 January 1169).",
+   "id": 54
+  },
+  {
+   "name_tr": "Dimyat (1169)",
+   "name_en": "Siege of Damietta (1169)",
+   "date": "1169-12",
+   "hijri": "",
+   "type": "land",
+   "war": "Nûreddin'in Mısır seferleri",
+   "place": "Dimyat",
+   "lat": 31.42,
+   "lon": 31.81,
+   "loc": "known",
+   "country": "Mısır",
+   "side_a": "Zengîler (Selâhaddin)",
+   "side_b": "Kudüs Krallığı ve Bizans",
+   "turkic_cmd": "Selâhaddîn-i Eyyûbî",
+   "opp_cmd": "I. Amaury",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:dimyat",
+    "TDVIA:nureddin-zengi-mahmud",
+    "TDVIA:selahaddin-i-eyyubi"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Haçlılar ve Bizanslılar Dimyat'ı elli gün kuşattıysa da Selâhaddin karşısında başarı elde edemedi (Kasım–Aralık 1169). Selâhaddin o sırada Nûreddin adına Fâtımî veziriydi. (Kontrol turunda eklendi.)",
+   "note_en": "The Crusaders and Byzantines besieged Damietta for fifty days but failed against Saladin (Nov–Dec 1169), then vizier on Nur al-Din's behalf.",
+   "id": 55
   },
   {
    "name_tr": "Kilikya (Mleh'e destek)",
@@ -1750,7 +2037,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Mleh Adana, Misis ve Tarsus'u aldı. Tarih yaklaşık.",
    "note_en": "Mleh took Adana, Mamistra and Tarsus. Date approximate.",
-   "id": 48
+   "id": 56
   },
   {
    "name_tr": "Gürcülere karşı zafer (1131)",
@@ -1785,7 +2072,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Yer ve ayrıntı kaynakta az.",
    "note_en": "Little detail on place or course in the source.",
-   "id": 49
+   "id": 57
   },
   {
    "name_tr": "Ani baskını (1154)",
@@ -1819,7 +2106,7 @@
    },
    "state": "Saltuklular",
    "home_batch": "beylikler-atabeylikler",
-   "id": 50
+   "id": 58
   },
   {
    "name_tr": "Ani (1161)",
@@ -1855,7 +2142,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Saltuk savaş başlamadan ordugâhtan ayrıldı; yenilginin sebebi buydu. Esir sayısı kaynakta 9000'dir; alınmadı.",
    "note_en": "Saltuk left the camp before the battle, which caused the defeat. The source gives 9,000 prisoners; not used.",
-   "id": 51
+   "id": 59
   },
   {
    "name_tr": "Lukri",
@@ -1892,7 +2179,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Bir aydan uzun süren savaşın sonunda kralın ordugâhı yağmalandı.",
    "note_en": "After more than a month of fighting the king's camp was plundered.",
-   "id": 52
+   "id": 60
   },
   {
    "name_tr": "Koyun Adaları (deniz savaşı)",
@@ -1928,7 +2215,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Adaları kurtarmaya gelen Bizans donanması yenildi; Çaka Bey'in ilk deniz zaferi.",
    "note_en": "A Byzantine fleet sent to recover the islands was defeated; Tzachas's first naval victory.",
-   "id": 53
+   "id": 61
   },
   {
    "name_tr": "Sakız (1090)",
@@ -1963,7 +2250,7 @@
    "state": "Çaka Bey (İzmir Beyliği)",
    "home_batch": "beylikler-atabeylikler",
    "dispute": "TDVİA (Çaka Bey): Dalassenos Sakız'daki kara savaşında yenildi. Alternatif okuma: Roma veri seti (Anna Komnene) Bizans zaferi kaydeder. Karar [P6]: TDVİA.",
-   "id": 54
+   "id": 62
   },
   {
    "name_tr": "Midilli (1092)",
@@ -1998,7 +2285,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var.",
    "note_en": "Recorded only in the Roman dataset, based on Byzantine sources.",
-   "id": 55
+   "id": 63
   },
   {
    "name_tr": "Efes (1097)",
@@ -2033,7 +2320,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var. Haçlıların İznik'i almasından sonraki Bizans Ege seferi.",
    "note_en": "Recorded only in the Roman dataset, based on Byzantine sources. Part of the Byzantine Aegean campaign after the fall of Nicaea.",
-   "id": 56
+   "id": 64
   },
   {
    "name_tr": "Kastamonu (1132)",
@@ -2070,7 +2357,7 @@
    "dispute": "Tarih: TDVİA 1132, Roma veri seti 1133.",
    "note": "İmparator şehri alıp esirlerle İstanbul'a döndü.",
    "note_en": "The emperor took the town and returned to Constantinople with captives.",
-   "id": 57
+   "id": 65
   },
   {
    "name_tr": "Kastamonu (1133)",
@@ -2105,7 +2392,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Kuşatmada açlık baş gösterince halk kapıları açtı (527/1133).",
    "note_en": "When hunger set in during the siege the townspeople opened the gates (527/1133).",
-   "id": 58
+   "id": 66
   },
   {
    "name_tr": "Çankırı (1135)",
@@ -2141,7 +2428,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "İlk kuşatma Selçuklu birliğinin ayrılmasıyla kaldırıldı; ertesi bahar Kastamonu barışla, Çankırı kuşatmayla alındı.",
    "note_en": "The first siege was lifted when the Seljuk contingent withdrew; next spring Kastamon was taken peacefully and Gangra by siege.",
-   "id": 59
+   "id": 67
   },
   {
    "name_tr": "Niksar (1140)",
@@ -2177,7 +2464,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Dânişmendlilerin merkezini almayı amaçlayan sefer başarısız oldu.",
    "note_en": "The campaign against the Danishmendid capital failed.",
-   "id": 60
+   "id": 68
   },
   {
    "name_tr": "Bizâa (Buzâa, 1138)",
@@ -2213,7 +2500,7 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "Şehir emanla teslim oldu; Zengî Eylül-Ekim 1138'de geri aldı.",
    "note_en": "The town surrendered on terms; Zengi recovered it in September–October 1138.",
-   "id": 61
+   "id": 69
   },
   {
    "name_tr": "Halep müdafaası (1138)",
@@ -2248,7 +2535,78 @@
    "home_batch": "beylikler-atabeylikler",
    "note": "İmparator üç günlük kuşatmadan sonra başarısız ayrıldı.",
    "note_en": "The emperor withdrew unsuccessfully after a three-day siege.",
-   "id": 62
+   "id": 70
+  },
+  {
+   "name_tr": "Kefertâb, Esârib ve Bizâa'nın geri alınışı (1138)",
+   "name_en": "Recovery of Kafartab, al-Atharib and Buza'a (1138)",
+   "date": "1138-09",
+   "hijri": "",
+   "type": "land",
+   "war": "Zengî'nin Haçlılarla mücadelesi",
+   "place": "Kefertâb, Esârib ve Bizâa",
+   "lat": 36.1,
+   "lon": 37.0,
+   "loc": "region",
+   "country": "Suriye",
+   "side_a": "Zengîler",
+   "side_b": "Antakya Prinkepsliği ve Bizans",
+   "turkic_cmd": "İmâdüddin Zengî",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:zengi-imaduddin"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "İmparatorun seferi sırasında Haçlılar'ın aldığı Kefertâb, Esârib ve Bizâa geri alındı (Muharrem–Safer 533 / Eylül–Ekim 1138). (Kontrol turunda eklendi.)",
+   "note_en": "Kafartab, al-Atharib and Buza'a, taken by the Crusaders during the emperor's campaign, were recovered (Sept–Oct 1138).",
+   "id": 71
+  },
+  {
+   "name_tr": "Ba'lebek (1139)",
+   "name_en": "Siege of Baalbek (1139)",
+   "date": "1139",
+   "hijri": "",
+   "type": "land",
+   "war": "Zengî'nin Suriye siyaseti",
+   "place": "Ba'lebek",
+   "lat": 34.01,
+   "lon": 36.21,
+   "loc": "known",
+   "country": "Lübnan",
+   "side_a": "Zengîler",
+   "side_b": "Böriler (Dımaşk Atabegliği)",
+   "turkic_cmd": "İmâdüddin Zengî",
+   "opp_cmd": "",
+   "category": "turk_arasi",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:zengi-imaduddin"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Zengîler",
+   "home_batch": "beylikler-atabeylikler",
+   "note": "Zengî Ba'lebek'i ele geçirip Necmeddin Eyyûb'a iktâ etti. (Kontrol turunda eklendi.)",
+   "note_en": "Zengi took Baalbek and granted it to Najm al-Din Ayyub.",
+   "opp_state": "Böriler (Dımaşk Atabegliği)",
+   "id": 72
   }
  ],
  "left_out": [
