@@ -240,8 +240,16 @@ EXTRA_SRC = {"Sinop (1853)": ["TDVIA:mehmed-emin-pasa-kibrisli"],
              "Şıpka (Temmuz 1877)": ["TDVIA:suleyman-husnu-pasa"],
              "Şıpka (Ağustos 1877)": ["TDVIA:suleyman-husnu-pasa"],
              "Ziştovi (1877)": ["TDVIA:tirnova--bulgaristan"],
-             "Deveboynu (1877)": ["TDVIA:erzurum"],
-             "Aziziye (1877)": ["TDVIA:erzurum"]}
+             "Deveboynu (1877)": ["TDVIA:erzurum", "AKD:akcakaya-2023"],
+             "Aziziye (1877)": ["TDVIA:erzurum"],
+             # Akcakaya 2023 (Mehmed Arif Bey'in hatıratında 93 Harbi Kafkas Cephesi), ikinci kaynak turu 2026-10-30
+             "Doğubayazıt (1877)": ["AKD:akcakaya-2023"],  # Ruslar 30 Nisan'da şehri aldı
+             "Ardahan (1877)": ["AKD:akcakaya-2023"],  # Ruslar Ardahan'da kolay bir galibiyet elde etti
+             "Halyaz (Delibaba) (1877)": ["AKD:akcakaya-2023"],  # Halyaz Muharebesi; Tergukasov Eleşkirt yönüne çekildi
+             "Zivin (1877)": ["AKD:akcakaya-2023"],  # 24 Haziran taarruzu durduruldu, Ruslar 29 Haziran'dan itibaren çekildi
+             "Gedikler (Kızıltepe) (1877)": ["AKD:akcakaya-2023"],  # 25 Ağustos taarruzu, Ruslar geri atıldı
+             "Yahniler (1877)": ["AKD:akcakaya-2023"],  # 2–4 Ekim, Ruslar mevzilerine geri sürüldü
+             "Alacadağ (1877)": ["AKD:akcakaya-2023"]}  # 15 Ekim, cephe yarıldı, 7000 esir
 FIX = {"Sinop (1853)": {
            "dispute": "Sinop ve Kıbrıslı Mehmed Emin Paşa maddeleri baskını \"1854 yılı başlarına\" koyar. Savaş 4 Ekim 1853'te ilân edilmişti; genel kabul gören tarih 30 Kasım 1853'tür.",
            "note": "Limandaki Osmanlı donanması Rus baskınına uğradı; on iki gemi battı, 2000'den fazla asker şehid düştü. Kaptanıderyâ Mahmud Paşa bu yüzden görevden alındı.",
@@ -281,6 +289,7 @@ for i, r in enumerate(RR, 1):
         elif k == "note_en": note_en = v
         else: rec[k] = v
     rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
+    rec["verify"]["academic"] = any(x.startswith("AKD:") for x in rec["sources"])
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
     recs.append(rec)

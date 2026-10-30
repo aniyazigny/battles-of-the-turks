@@ -204,6 +204,15 @@ EXTRA_SRC = {
     "Kars (1918)": ["TDVIA:kars"],
     "Şam (1918)": ["TDVIA:osmanlilar"],
     "Halep (1918)": ["TDVIA:osmanlilar"],
+    # Akademik ikinci kaynak turu (2026-10-30)
+    "Erzurum (1916)": ["AKD:capak-2014"],  # Ruslar 16 Şubat 1916'da Erzurum'u aldı
+    "Muş (1916)": ["AKD:capak-2014"],  # 17 Şubat 1916
+    "Bitlis (1916)": ["AKD:capak-2014"],  # 3 Mart 1916
+    "Muş'un kurtarılışı (1916)": ["AKD:capak-2014"],  # 7 Ağustos 1916
+    "Bitlis'in kurtarılışı (1916)": ["AKD:capak-2014"],  # 8 Ağustos 1916 (Mustafa Kemal'in telgrafı)
+    "Trabzon (1916)": ["AKD:caykiran-2021"],  # işgal 8 Nisan 1916 – 24 Şubat 1918
+    "Kûtülamâre (1917)": ["AKD:atabey-2019"],  # Kût 24 Şubat 1917'de düştü
+    "Bakü (1918)": ["AKD:ak-2019"],  # Sabah, 17 Eylül 1918: "Bakü Zabt İdildi"
 }
 FIX = {
     "Kerevizdere (1915)": {"result": "W", "side_b": "Fransa",
@@ -214,6 +223,8 @@ FIX = {
     "Tâif (1916)": {"dispute": "Tâif ve Şerîf Hüseyin maddeleri 17 Eylül, Fahreddin Paşa maddesi 22 Eylül 1916 der."},
     "Kudüs (1917)": {"dispute": "Birinci Dünya Savaşı maddesi Allenby'nin 9 Aralık'ta Kudüs'e girdiğini, Osmanlılar maddesi şehrin 11 Aralık 1917'de düştüğünü yazar."},
     "Kars (1918)": {"dispute": "Kâzım Karabekir maddesi 25 Nisan, Kars maddesi 23 Nisan 1918 der."},
+    "Bitlis (1916)": {"dispute": "Çapak 2014 (Azizan Şehitliği kitabesine dayanarak) 3 Mart 1916 der; kayıttaki 1 Mart TDVİA Bitlis maddesine göredir."},
+    "Trabzon (1916)": {"dispute": "Çaykıran 2021 işgalin başlangıcını 8 Nisan 1916 verir (muhtemelen Rumî/Jülyen takvim farkı); TDVİA 18 Nisan der."},
 }
 NEW = {
     "Medine (1916)": [
@@ -239,7 +250,7 @@ for i, r in enumerate(RR, 1):
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,
-           "verify": {"tdvia": True, "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": False},
+           "verify": {"tdvia": True, "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": any(s.startswith("AKD:") for s in src)},
            "state": O, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en

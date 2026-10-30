@@ -276,3 +276,16 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Çelik 2013 (`AKD:celik-2013`) | Mercülhicâre 722–723, Nehrürrân ve Belencer 722, İrmîniye 723–724 (Elzem, Kür–Aras arası), Mugan 725–726, Belencer ve Beyzâ 729, Erdebil 730. Allân 727'ye eklenmedi: Çelik 726–727'de hakanın Azerbaycan akınının püskürtüldüğünü yazar, yer farklı |
 | Yücel 2006 (`AKD:yucel-2006`) | Rus zaferi 1103, Aksu 1184, Kayalı 1185, Edirne 1078; yeni kayıtlar Pereyaslavl 1061, Alta 1068, Torçesk 1093 |
 | Torçesk 1093 | Şehir Rus hizmetindeki Uzlar'ın yerleşimiydi; karşı taraf "Kiev knezliği (Torçesk Uzları)", kategori `dis` |
+
+## Akademik ikinci kaynak turu 2 (2026-10-30)
+Tüm partilerde tek kaynaklı kayıt: 244 → 232.
+| Kaynak | Desteklediği kayıtlar |
+|---|---|
+| Yurdakul 2023, Dıngıl Ilgın 2022 (zaten kayıtlı) | Birinci Balkan seferi 441–443, Marcianopolis 447; Aquileia 452, Milano ve Ticinum 452 |
+| TDVİA Filibe; Kuteybe b. Müslim, Toharistan | Filibe c. 834; Nîzek isyanı 709 |
+| Akcakaya 2023 (`AKD:akcakaya-2023`, Mehmed Arif Bey hatıratı) | 93 Harbi Kafkas cephesi: Doğubayazıt, Ardahan, Halyaz, Zivin, Gedikler, Yahniler, Alacadağ, Deveboynu (1877) |
+| Çapak 2014 (`AKD:capak-2014`) | Erzurum, Muş, Bitlis 1916 işgalleri; Muş ve Bitlis'in kurtarılışı (7–8 Ağustos 1916). Bitlis'in düşüşü için 3 Mart verir (TDVİA 1 Mart) → `dispute` |
+| Çaykıran 2021 (`AKD:caykiran-2021`) | Trabzon 1916; işgal başlangıcı 8 Nisan (TDVİA 18 Nisan) → `dispute` |
+| Atabey 2019 (`AKD:atabey-2019`) | Kûtülamâre 1917 (24 Şubat) |
+| Ak 2019 (`AKD:ak-2019`) | Bakü 1918 |
+| Bakılıp kullanılmayan | Ege Tarih Dergisi Hokand kroniği (taranmış görüntü, metin yok); OMÜ Hîve bölümü (sunucuya erişilemedi); Atatürk Araştırma Merkezi Bitlis ve Gazi Akademik Bakış Trabzon makaleleri (DergiPark 429 hız sınırı, sonra denenecek) |

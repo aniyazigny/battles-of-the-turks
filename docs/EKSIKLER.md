@@ -66,7 +66,7 @@ Son güncelleme: 2026-10-30
 - [x] **Hazarlar, Peçenekler, İdil Bulgarları, Kırgızlar:** Parti 23 ilk tur (2026-10-30, 31 kayıt).
 - [ ] **Parti 23 eksikleri:** 11 tek maddeli kayıt için akademik kaynak (Kurat, Kafalı; Hazar–Arap savaşları 722–730 Çelik 2013 ile güçlendirildi); Hazar akını 799, Kiev 968, Peçenek akınları 1035–36 ve 1197'ye kadar.
 - [x] **Avrupa Hunları, Akhunlar, Avarlar, Tuna Bulgarları:** Parti 24 ilk tur (2026-10-30, 24 kayıt).
-- [ ] **Parti 24 eksikleri:** 15 tek kaynaklı kayıt (Sofya 809, Nikephoros 811 ve Edirne 813 Uçar 2021 ile güçlendirildi); Avrupa Hunları 375–434 (Ahmetbeyoğlu); Avarlar'ın Pannonia ve Bizans savaşları 568–602; Akhunlar'ın Hindistan seferleri.
+- [ ] **Parti 24 eksikleri:** 9 tek kaynaklı kayıt (Sofya 809, Nikephoros 811, Edirne 813 Uçar 2021; Attila 441, 447, 452 Yurdakul ve Dıngıl Ilgın; Filibe 834 ve Nîzek 709 TDVİA ile güçlendirildi); Avrupa Hunları 375–434 (Ahmetbeyoğlu); Avarlar'ın Pannonia ve Bizans savaşları 568–602; Akhunlar'ın Hindistan seferleri.
 - [x] **Asya Hunları (MÖ):** Kapsam dışı (kullanıcı kararı 2026-10-30: "Milattan önce tarihlere gitmeye gerek yok").
 - [x] **Kıpçaklar:** Parti 25 ilk tur (2026-10-30, 6 kayıt; kapsam kullanıcı onayıyla).
 - [ ] **Parti 25 eksikleri:** Alta 1068, 1061 ve Torçesk 1093 Yücel 2006 ile eklendi (2026-10-30); bu üçü tek kaynaklı. Salnitsa 1111 ve Stugna 1093 için kaynak gerekir (Kurat).

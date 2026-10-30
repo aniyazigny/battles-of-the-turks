@@ -81,7 +81,8 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "AKD:erkoc-447"
+    "AKD:erkoc-447",
+    "AKD:yurdakul-2023"
    ],
    "verify": {
     "tdvia": false,
@@ -187,7 +188,8 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "AKD:erkoc-447"
+    "AKD:erkoc-447",
+    "AKD:yurdakul-2023"
    ],
    "verify": {
     "tdvia": false,
@@ -296,7 +298,8 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "AKD:yurdakul-2023"
+    "AKD:yurdakul-2023",
+    "AKD:dingil-ilgin-2022"
    ],
    "verify": {
     "tdvia": false,
@@ -332,7 +335,8 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "AKD:yurdakul-2023"
+    "AKD:yurdakul-2023",
+    "AKD:dingil-ilgin-2022"
    ],
    "verify": {
     "tdvia": false,
@@ -582,11 +586,13 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:belh"
+    "TDVIA:belh",
+    "TDVIA:kuteybe-b-muslim",
+    "TDVIA:toharistan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -864,11 +870,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:bulgaristan"
+    "TDVIA:bulgaristan",
+    "TDVIA:filibe"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

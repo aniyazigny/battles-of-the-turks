@@ -554,14 +554,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:erzurum"
+    "TDVIA:erzurum",
+    "AKD:capak-2014"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918"
@@ -587,14 +588,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mus"
+    "TDVIA:mus",
+    "AKD:capak-2014"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918"
@@ -620,17 +622,19 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:bitlis"
+    "TDVIA:bitlis",
+    "AKD:capak-2014"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
-   "home_batch": "osmanli-1914-1918"
+   "home_batch": "osmanli-1914-1918",
+   "dispute": "Çapak 2014 (Azizan Şehitliği kitabesine dayanarak) 3 Mart 1916 der; kayıttaki 1 Mart TDVİA Bitlis maddesine göredir."
   },
   {
    "id": 18,
@@ -688,17 +692,19 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:trabzon"
+    "TDVIA:trabzon",
+    "AKD:caykiran-2021"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918",
+   "dispute": "Çaykıran 2021 işgalin başlangıcını 8 Nisan 1916 verir (muhtemelen Rumî/Jülyen takvim farkı); TDVİA 18 Nisan der.",
    "note": "Ruslar 14 Nisan'da Karadere savunma hattını yarıp 18 Nisan'da şehre girdi; işgal 24 Şubat 1918'e kadar sürdü.",
    "note_en": "The Russians broke the Karadere line on 14 April and entered the city on 18 April; the occupation lasted until 24 February 1918."
   },
@@ -940,14 +946,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:mus"
+    "TDVIA:mus",
+    "AKD:capak-2014"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918",
@@ -975,14 +982,15 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:bitlis"
+    "TDVIA:bitlis",
+    "AKD:capak-2014"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918",
@@ -1046,14 +1054,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:kutulamare"
+    "TDVIA:kutulamare",
+    "AKD:atabey-2019"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918"
@@ -1363,14 +1372,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:azerbaycan"
+    "TDVIA:azerbaycan",
+    "AKD:ak-2019"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918",

@@ -1349,14 +1349,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:dogubayazit",
-    "TDVIA:doksanuc-harbi"
+    "TDVIA:doksanuc-harbi",
+    "AKD:akcakaya-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878"
@@ -1383,14 +1384,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:gazi-ahmed-muhtar-pasa",
-    "TDVIA:doksanuc-harbi"
+    "TDVIA:doksanuc-harbi",
+    "AKD:akcakaya-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
@@ -1418,14 +1420,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:gazi-ahmed-muhtar-pasa"
+    "TDVIA:gazi-ahmed-muhtar-pasa",
+    "AKD:akcakaya-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
@@ -1454,14 +1457,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:gazi-ahmed-muhtar-pasa",
-    "TDVIA:doksanuc-harbi"
+    "TDVIA:doksanuc-harbi",
+    "AKD:akcakaya-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
@@ -1490,14 +1494,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:gazi-ahmed-muhtar-pasa"
+    "TDVIA:gazi-ahmed-muhtar-pasa",
+    "AKD:akcakaya-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
@@ -1525,14 +1530,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:gazi-ahmed-muhtar-pasa"
+    "TDVIA:gazi-ahmed-muhtar-pasa",
+    "AKD:akcakaya-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
@@ -1560,14 +1566,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:gazi-ahmed-muhtar-pasa"
+    "TDVIA:gazi-ahmed-muhtar-pasa",
+    "AKD:akcakaya-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
@@ -1596,14 +1603,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:gazi-ahmed-muhtar-pasa",
-    "TDVIA:erzurum"
+    "TDVIA:erzurum",
+    "AKD:akcakaya-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",

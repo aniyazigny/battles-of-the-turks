@@ -140,6 +140,14 @@ EXTRA_SRC = {
     "Sofya (809)": ["AKD:ucar-811"],
     "Nikephoros'un yenilgisi (811)": ["AKD:ucar-811"],
     "Edirne (813)": ["AKD:ucar-811"],
+    # Yurdakul 2023: 441 yazından 442 baharına süren sefer ve 443 Anatolius barışı; 447'de Marcianopolis'in alınışı
+    "Birinci Balkan seferi (441–443)": ["AKD:yurdakul-2023"],
+    "Marcianopolis (447)": ["AKD:yurdakul-2023"],
+    # Dıngıl Ilgın 2022: 452'de Aquileia kuşatması, Venedik'ten Milano'ya kadar şehirlerin harap edilmesi
+    "Aquileia (452)": ["AKD:dingil-ilgin-2022"],
+    "Milano ve Ticinum (452)": ["AKD:dingil-ilgin-2022"],
+    "Filibe (c. 834)": ["TDVIA:filibe"],  # Bulgar Hanı Malamir (831-836) Filibe'yi topraklarına kattı
+    "Nîzek isyanı (709)": ["TDVIA:kuteybe-b-muslim", "TDVIA:toharistan"],  # isyan ve Nîzek'in ortadan kaldırılması (91/709-10)
 }
 
 LEFT = [
