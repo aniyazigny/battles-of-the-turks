@@ -270,12 +270,28 @@ OPP_STATE = {"Âmid (Kürboğa'ya karşı)": "Büyük Selçuklu", "Dârâ (Aksun
 # İkinci kaynak turu (2026-10-28): kayıt adına göre ek kaynaklar ve düzeltmeler
 EXTRA_SRC = {"Niksar (1140)": ["TDVIA:niksar"], "Sivas (Sebasteia)": ["ROM"], "Hârim (1164)": ["ROM"], "Suruç (I)": ["AKD:celik-2021"], "Suruç (II)": ["AKD:celik-2021"], "Şiran (Bayburt yakını)": ["AKD:celik-2021"], "Harput Kalesi'nin geri alınması": ["AKD:celik-2021"], "Azâz kuşatması (1123–24)": ["AKD:celik-2021"], "Serûc (Josselin'in esareti)": ["TDVIA:artuklular", "AKD:celik-2021"], "Turuş (Kral Baudouin'in esareti)": ["TDVIA:artuklular", "AKD:celik-2021"],
              "Menbic": ["TDVIA:menbic", "AKD:erdem-2018", "AKD:celik-2021"], "Serce (Artuklulara karşı)": ["TDVIA:artuklular"], "Josselin'e yenilgi": ["TDVIA:gaziantep"],
-             "Dımaşk (1148)": ["TDVIA:nureddin-zengi-mahmud"]}
+             "Dımaşk (1148)": ["TDVIA:nureddin-zengi-mahmud"],
+             # Kaynak turu 2026-10-30
+             "Hama (1130)": ["TDVIA:hama", "AKD:kucuksipahioglu-2014", "AKD:akdemir-2022"],  # Zengî savunmasız Hama'yı Eylül 1130'da aldı
+             "Bire kuşatması": ["TDVIA:birecik", "AKD:kucuksipahioglu-2014", "AKD:akdemir-2022"],  # kuşatma Nasîrüddin Çakır'ın ölümü haberiyle kalktı
+             "Kefertâb, Esârib ve Bizâa'nın geri alınışı (1138)": ["TDVIA:savar"],  # Savar Esârib'deki Bizans garnizonunu kılıçtan geçirdi
+             "Ba'lebek (1139)": ["TDVIA:balebek", "AKD:akdemir-2022"],  # Zengî şehri alıp Eyyûb'u vali yaptı
+             "Esârib'in fethi": ["AKD:akdemir-2022"],  # 1130'da Haçlılar'daki Esârib Kalesi alındı
+             "Âmid (Dâvûd'a karşı)": ["AKD:kucuksipahioglu-2014"],  # Zengî 1134 baharında Âmid'i almaya çalıştı
+             "Suruç (1145)": ["AKD:kucuksipahioglu-2014", "AKD:akdemir-2022"],  # 1145'te Suruç alındı
+             "Pons'un yenilgisi (1137)": ["AKD:kucuksipahioglu-2014"],  # Trablus kontu Pons 1137'de öldürüldü
+             "Banyas (1164)": ["AKD:altan-2014"],  # Artâh zaferinin ardından Hârim (Ağustos) ve Banyas (Ekim–Kasım 1164)
+             "Bilbîs (1164)": ["AKD:altan-2014"],  # Şîrkûh Bilbîs'i aldı; Kudüs kralı yardıma geldi
+             "Mısır'ın alınışı (1169)": ["AKD:altan-2014"],  # Amaury 2 Ocak 1169'da çekildi; Şîrkûh 8 Ocak'ta Kahire'ye girdi, vezir oldu
+             "Kilikya (Mleh'e destek)": ["AKD:turan-2017"]}  # Mleh Nûreddin'e sığındı, Misis, Adana ve Tarsus'u aldı
 FIX = {"Suruç (I)": {"date": "1101", "dispute": "Tarih: Belek maddesi 1100 verir; Sökmen maddesi tarih vermez. Çelik (2021) iki Suruç çarpışmasını da 1101'e koyar; burada Çelik'e uyuldu."},
        "Azâz kuşatması (1123–24)": {"status": "kesin", "note": "Belek komutasındaki kuvvetler kaleyi kuşattı; Joscelin'in yardıma gelmesi ve garnizonun huruç hareketi üzerine Belek iki ateş arasında kalmamak için çekildi (Çelik 2021).", "note_en": "Forces under Belek besieged the castle; when Joscelin came to its relief and the garrison sallied, Belek withdrew to avoid being caught between them (Çelik 2021)."},
        "Serce (Artuklulara karşı)": {"date": "1130", "note": "Dâvûd ve Timurtaş yenilip Serce ile Dârâ'yı Zengî'ye bıraktı (Artuklular maddesi). Kaynaktaki sayılar (20.000 Türkmene karşı 4000) alınmadı.",
                                      "note_en": "Dawud and Timurtash were defeated and ceded Serce and Dara to Zengi (Artuqids article). The source figures (4,000 against 20,000 Turkmens) are not used."},
        "Josselin'e yenilgi": {"date": "1149/1150", "dispute": "Tarih: Gaziantep maddesi 1149; Nûreddin maddesi yenilgiyi Josselin'in Mayıs 1150'de teslim alınmasından önceye koyar."},
+       "Bire kuşatması": {"dispute": "Birecik maddesi kuşatmayı Urfa'nın fethiyle aynı yıla (1144) koyar; Zengî maddesine göre 1145."},
+       "Ba'lebek (1139)": {"dispute": "Ba'lebek maddesi Zengî'nin şehri 1136'da aldığını yazar; Zengî maddesi ve Akdemir (2022) kuşatmayı 1139'a koyar."},
+       "Kilikya (Mleh'e destek)": {"dispute": "Turan (2017, Runciman'a dayanarak) Mleh'in Çukurova akınını 1170'e koyar; kayıttaki 1173 yaklaşıktır."},
        "Menbic": {"dispute": "Menbic maddesi Belek'in Safer 518 / Nisan 1124'te Menbic'e geldiğini yazar; savaş Belek maddesine göre 5 Mayıs 1124'tedir."}}
 
 LEFT = [

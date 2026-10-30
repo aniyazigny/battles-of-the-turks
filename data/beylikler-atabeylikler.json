@@ -1023,14 +1023,15 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:haclilar"
+    "TDVIA:haclilar",
+    "AKD:kucuksipahioglu-2014"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Böriler (Dımaşk Atabegliği)",
    "home_batch": "beylikler-atabeylikler",
@@ -1166,14 +1167,15 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:zengi-imaduddin"
+    "TDVIA:zengi-imaduddin",
+    "AKD:akdemir-2022"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
@@ -1201,14 +1203,17 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:zengi-imaduddin"
+    "TDVIA:zengi-imaduddin",
+    "TDVIA:hama",
+    "AKD:kucuksipahioglu-2014",
+    "AKD:akdemir-2022"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
@@ -1273,14 +1278,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:zengi-imaduddin"
+    "TDVIA:zengi-imaduddin",
+    "AKD:kucuksipahioglu-2014"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
@@ -1418,19 +1424,23 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:zengi-imaduddin"
+    "TDVIA:zengi-imaduddin",
+    "TDVIA:birecik",
+    "AKD:kucuksipahioglu-2014",
+    "AKD:akdemir-2022"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
    "note": "Kale düşmek üzereyken Musul nâibinin öldürüldüğü haberiyle kuşatma kaldırıldı.",
    "note_en": "Lifted, with the castle about to fall, on news that his deputy in Mosul had been killed.",
+   "dispute": "Birecik maddesi kuşatmayı Urfa'nın fethiyle aynı yıla (1144) koyar; Zengî maddesine göre 1145.",
    "id": 39
   },
   {
@@ -1453,14 +1463,16 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:zengi-imaduddin"
+    "TDVIA:zengi-imaduddin",
+    "AKD:kucuksipahioglu-2014",
+    "AKD:akdemir-2022"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
@@ -1846,14 +1858,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:nureddin-zengi-mahmud"
+    "TDVIA:nureddin-zengi-mahmud",
+    "AKD:altan-2014"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
@@ -1881,14 +1894,15 @@
    "result": "D",
    "status": "kesin",
    "sources": [
-    "TDVIA:sirkuh-el-mansur"
+    "TDVIA:sirkuh-el-mansur",
+    "AKD:altan-2014"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
@@ -1952,14 +1966,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:sirkuh-el-mansur"
+    "TDVIA:sirkuh-el-mansur",
+    "AKD:altan-2014"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
@@ -2024,19 +2039,21 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:nureddin-zengi-mahmud"
+    "TDVIA:nureddin-zengi-mahmud",
+    "AKD:turan-2017"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
    "note": "Mleh Adana, Misis ve Tarsus'u aldı. Tarih yaklaşık.",
    "note_en": "Mleh took Adana, Mamistra and Tarsus. Date approximate.",
+   "dispute": "Turan (2017, Runciman'a dayanarak) Mleh'in Çukurova akınını 1170'e koyar; kayıttaki 1173 yaklaşıktır.",
    "id": 56
   },
   {
@@ -2558,11 +2575,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:zengi-imaduddin"
+    "TDVIA:zengi-imaduddin",
+    "TDVIA:savar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -2593,20 +2611,23 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:zengi-imaduddin"
+    "TDVIA:zengi-imaduddin",
+    "TDVIA:balebek",
+    "AKD:akdemir-2022"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",
    "note": "Zengî Ba'lebek'i ele geçirip Necmeddin Eyyûb'a iktâ etti. (Kontrol turunda eklendi.)",
    "note_en": "Zengi took Baalbek and granted it to Najm al-Din Ayyub.",
    "opp_state": "Böriler (Dımaşk Atabegliği)",
+   "dispute": "Ba'lebek maddesi Zengî'nin şehri 1136'da aldığını yazar; Zengî maddesi ve Akdemir (2022) kuşatmayı 1139'a koyar.",
    "id": 72
   }
  ],

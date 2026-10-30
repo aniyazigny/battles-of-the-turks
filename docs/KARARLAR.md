@@ -318,3 +318,13 @@ Yöntem: her devletin haritadaki ilk ve son yılı tarihî ömrüyle karşılaş
 | 400–550 | `tools/extend_borders_400.py`; İdil boyu ve Sır Derya ağzı 552 öncesi kaynak olmadığı için boş |
 | Tuna ve Turla | Silistre, Rusçuk, İbrail ve Hotin noktaları; bu kalelerdeki savaşlar önceden Eflak'a veya Lehistan'a düşüyordu |
 | Bükreş | 550–568 Avar değil; Avarlar 568'de geldi |
+
+## Kaynak turu: Türk beylikleri ve atabeylikleri (2026-10-30)
+| Kaynak | Desteklediği kayıtlar |
+|---|---|
+| TDVİA Hama, Birecik, Savar, Ba'lebek | Hama 1130, Bire 1145, Esârib–Kefertâb 1138, Ba'lebek 1139 (Ba'lebek maddesi 1136 der → `dispute`; Birecik maddesi 1144 der → `dispute`) |
+| Küçüksipahioğlu 2014 (`AKD:kucuksipahioglu-2014`) | Hama 1130, Âmid 1134, Pons 1137, Suruç ve Bire 1145 |
+| Akdemir 2022 (`AKD:akdemir-2022`) | Esârib 1130, Hama 1130, Ba'lebek 1139, Suruç ve Bire 1145 |
+| Altan 2014 (`AKD:altan-2014`) | Bilbîs 1164, Banyas 1164, Mısır 1169 |
+| Turan 2017 (`AKD:turan-2017`) | Kilikya (Mleh) — akını 1170'e koyar → `dispute` |
+| Kalan 21 tek kaynaklı | Tuğtegin'in savaşları (1108–1126), Hârûn b. Han (1068–69), Çaka Bey (ROM), Saltuklu 1131 vb.; Alptekin'in *Dımaşk Atabegliği* ve Küçüksipahioğlu'nun Tuğtegin makalesi (Şarkiyat Mecmuası 2024) aday |
