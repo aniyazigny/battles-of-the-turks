@@ -289,3 +289,11 @@ Tüm partilerde tek kaynaklı kayıt: 244 → 232.
 | Atabey 2019 (`AKD:atabey-2019`) | Kûtülamâre 1917 (24 Şubat) |
 | Ak 2019 (`AKD:ak-2019`) | Bakü 1918 |
 | Bakılıp kullanılmayan | Ege Tarih Dergisi Hokand kroniği (taranmış görüntü, metin yok); OMÜ Hîve bölümü (sunucuya erişilemedi); Atatürk Araştırma Merkezi Bitlis ve Gazi Akademik Bakış Trabzon makaleleri (DergiPark 429 hız sınırı, sonra denenecek) |
+
+## Harita: Çin, Tibet ve Moğolistan (kullanıcı geri bildirimi, 2026-10-30)
+| Konu | Karar |
+|---|---|
+| Sorun | Doğuda yalnız Koço, Kâşgar ve Ötüken noktaları vardı; Çin birkaç hücreden ibaretti, Gansu koridoru ve Batı Moğolistan boş görünüyordu |
+| Çözüm | `tools/fix_borders_cin.py`: Kumul, Kan-chou, Çang-an, Yinşan, Pekin, Hangçou, Çengdu, Lhasa, Hoten, Gulca ve Batı Moğolistan noktaları; Sui, T'ang, Song, Cin (Cürçen), Tangut, Ming, Çing ile Kuzey/Güney Çin hanedanları ve Tibet. Tibet ve Çin hücreleri Hindistan'a ve Güneydoğu Asya'ya taşmasın diye Bengal, Birmanya ve Hindiçin'e boş hücre |
+| Yan düzeltme | Gürgenç (Hârizm) 550–712 Sâsânî değil, Afrîgîler |
+| Sınırlılık | Hanedan yılları genel tarih bilgisi, yaklaşık; Voronoi yöntemi nedeniyle seyrek noktalı bozkırda (ör. 659–704 Balasagun T'ang) bölgeler olduğundan geniş görünebilir |

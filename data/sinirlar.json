@@ -3,7 +3,7 @@
   "title": "Şehir bazlı hâkimiyet tablosu (harita sınırları için)",
   "compiled": "2026-10-28",
   "status": "Taslak. Sınırlar yaklaşıktır; kontrol bekliyor.",
-  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya. 1840–1880: Suriye ve Girit 1840'ta Osmanlı'ya döndü; Romanya 1858; Belgrad 1867 Sırbistan; Berlin 1878: Bulgaristan, Bosna (Avusturya), Kars (Rusya), Kıbrıs (İngiltere), Niş (Sırbistan). 1880–1913: Tunus 1881 Fransa; Mısır 1882 İngiliz işgali; Doğu Rumeli 1885 Bulgaristan; Girit 1898 özerk; Trablusgarp 1911 ve Rodos 1912 İtalya. 1913–1914: Balkan Savaşları — Selânik, Yanya, Midilli, Sakız, Girit Yunanistan; Üsküp, Manastır, Priştine Sırbistan; Avlonya, Kruya, İşkodra Arnavutluk. 1914–1919: Birinci Dünya Savaşı — Basra 1914, Bağdat ve Kudüs 1917, Şam, Halep, Trablusşam 1918; Mekke 1916 Hâşimî; Erzurum, Trabzon, Van Rus işgali ve 1918'de geri alınış; Kafkas cumhuriyetleri 1918. 1919–1923: Millî Mücadele — TBMM Hükümeti 1920; Yunan, Fransız ve Ermeni işgalleri ve kurtuluşlar; Lahsâ 1913 Suûdî. 550–1000 (kaba katman): Göktürk, Batı Göktürk, Türgiş, Karluk, Uygur, Kırgız, Hazar, Akhun, Sâsânî, Emevî, Abbâsî, Sâmânî, Saffârî, Büveyhî, Hamdânî, Fâtımî, Tuna Bulgar ve Bizans dilimleri; Ötüken noktası eklendi. Kontrol turu 1: Yenişehir (Teselya 1881) ve Kırkkilise noktaları; Kıbrıs 1489–1570 Venedik. Doğu Türkistan ve Moğolistan 1218 sonrası: Moğolistan Hanlığı, Yarkent Hanlığı, Cungarlar, Çing, Yâkub Beg dilimleri. Lahsâ 1818–1913: Benî Hâlid, Suûdî (yaklaşık 1830–1841), 1871'den Osmanlı. Türkistan: Semerkant 1868, Merv 1884 Rusya; Buhara ve Hîve 1920'ye kadar hanlık; Belh 1751 Dürrânî, 1826–1841 Buhara, sonra Afgan. Pencap 1000 öncesi: Mültan Emevî/Abbâsî/Karmatî, Lahor Hindûşâhî (kaba). Türkistan hanlıkları: Hokand, Taşkent, Çimkent, Akmescid, Göktepe ve Kızılsu noktaları; Buhara ve Semerkant 1785 sonrası Mangıt. 1923'e uzanan eskimiş son dilimler güncellendi (Habsburg mirası 1918, Sovyet dönemi, Afganistan, Çin Cumhuriyeti).",
+  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya. 1840–1880: Suriye ve Girit 1840'ta Osmanlı'ya döndü; Romanya 1858; Belgrad 1867 Sırbistan; Berlin 1878: Bulgaristan, Bosna (Avusturya), Kars (Rusya), Kıbrıs (İngiltere), Niş (Sırbistan). 1880–1913: Tunus 1881 Fransa; Mısır 1882 İngiliz işgali; Doğu Rumeli 1885 Bulgaristan; Girit 1898 özerk; Trablusgarp 1911 ve Rodos 1912 İtalya. 1913–1914: Balkan Savaşları — Selânik, Yanya, Midilli, Sakız, Girit Yunanistan; Üsküp, Manastır, Priştine Sırbistan; Avlonya, Kruya, İşkodra Arnavutluk. 1914–1919: Birinci Dünya Savaşı — Basra 1914, Bağdat ve Kudüs 1917, Şam, Halep, Trablusşam 1918; Mekke 1916 Hâşimî; Erzurum, Trabzon, Van Rus işgali ve 1918'de geri alınış; Kafkas cumhuriyetleri 1918. 1919–1923: Millî Mücadele — TBMM Hükümeti 1920; Yunan, Fransız ve Ermeni işgalleri ve kurtuluşlar; Lahsâ 1913 Suûdî. 550–1000 (kaba katman): Göktürk, Batı Göktürk, Türgiş, Karluk, Uygur, Kırgız, Hazar, Akhun, Sâsânî, Emevî, Abbâsî, Sâmânî, Saffârî, Büveyhî, Hamdânî, Fâtımî, Tuna Bulgar ve Bizans dilimleri; Ötüken noktası eklendi. Kontrol turu 1: Yenişehir (Teselya 1881) ve Kırkkilise noktaları; Kıbrıs 1489–1570 Venedik. Doğu Türkistan ve Moğolistan 1218 sonrası: Moğolistan Hanlığı, Yarkent Hanlığı, Cungarlar, Çing, Yâkub Beg dilimleri. Lahsâ 1818–1913: Benî Hâlid, Suûdî (yaklaşık 1830–1841), 1871'den Osmanlı. Türkistan: Semerkant 1868, Merv 1884 Rusya; Buhara ve Hîve 1920'ye kadar hanlık; Belh 1751 Dürrânî, 1826–1841 Buhara, sonra Afgan. Pencap 1000 öncesi: Mültan Emevî/Abbâsî/Karmatî, Lahor Hindûşâhî (kaba). Türkistan hanlıkları: Hokand, Taşkent, Çimkent, Akmescid, Göktepe ve Kızılsu noktaları; Buhara ve Semerkant 1785 sonrası Mangıt. 1923'e uzanan eskimiş son dilimler güncellendi (Habsburg mirası 1918, Sovyet dönemi, Afganistan, Çin Cumhuriyeti). Çin, Tibet ve Moğolistan: Kumul, Kan-chou, Çang-an, Yinşan, Pekin, Lhasa, Hoten, Gulca ve Batı Moğolistan noktaları (Sui, T'ang, Song, Cin, Tangut, Ming, Çing hanedanları).",
   "spans": "[başlangıç, bitiş, devlet]: başlangıç dahil, bitiş hariç (ör. [1040, 1153, ...] 1040–1152 yılları).",
   "sources": "src alanı, el değiştirme tarihlerinin dayandığı TDVİA maddeleridir. 'yaklasik': true olan şehirlerin tarihleri kaba tahmindir ve kontrol edilecektir."
  },
@@ -973,6 +973,72 @@
    "en": "Republic of China",
    "group": "diger",
    "color": "#c9a35a"
+  },
+  "kuzey-cin": {
+   "tr": "Kuzey Çin hanedanları",
+   "en": "Northern Chinese dynasties",
+   "group": "diger",
+   "color": "#c49a8a"
+  },
+  "sui": {
+   "tr": "Çin (Sui)",
+   "en": "China (Sui)",
+   "group": "diger",
+   "color": "#c49a8a"
+  },
+  "song": {
+   "tr": "Çin (Song)",
+   "en": "China (Song)",
+   "group": "diger",
+   "color": "#c49a8a"
+  },
+  "ming": {
+   "tr": "Çin (Ming)",
+   "en": "China (Ming)",
+   "group": "diger",
+   "color": "#c49a8a"
+  },
+  "jin": {
+   "tr": "Cin (Cürçen) Devleti",
+   "en": "Jin (Jurchen) dynasty",
+   "group": "diger",
+   "color": "#b5a08a"
+  },
+  "bati-xia": {
+   "tr": "Tangutlar (Batı Hsia)",
+   "en": "Western Xia (Tangut)",
+   "group": "diger",
+   "color": "#b0a38f"
+  },
+  "tibet": {
+   "tr": "Tibet",
+   "en": "Tibet",
+   "group": "diger",
+   "color": "#b8a0c0"
+  },
+  "hoten-krl": {
+   "tr": "Hoten Krallığı",
+   "en": "Kingdom of Khotan",
+   "group": "diger",
+   "color": "#a9b0a0"
+  },
+  "kancou": {
+   "tr": "Kan-chou Uygurları",
+   "en": "Ganzhou Uyghurs",
+   "group": "turk-diger",
+   "color": "#7fa59a"
+  },
+  "guney-cin": {
+   "tr": "Güney Çin hanedanları",
+   "en": "Southern Chinese dynasties",
+   "group": "diger",
+   "color": "#c49a8a"
+  },
+  "afrigi": {
+   "tr": "Hârizm (Afrîgîler)",
+   "en": "Khwarazm (Afrighids)",
+   "group": "diger",
+   "color": "#a8a48c"
   }
  },
  "cities": [
@@ -1816,7 +1882,7 @@
     [
      550,
      712,
-     "sasani"
+     "afrigi"
     ],
     [
      712,
@@ -9995,12 +10061,6 @@
    "lon": 85.0
   },
   {
-   "id": "v-mogol",
-   "void": true,
-   "lat": 46.0,
-   "lon": 98.0
-  },
-  {
    "id": "v-tibet",
    "void": true,
    "lat": 33.0,
@@ -10666,6 +10726,719 @@
     "turkmenistan"
    ],
    "yaklasik": true
+  },
+  {
+   "id": "kumul",
+   "tr": "Kumul (Hami)",
+   "lat": 42.83,
+   "lon": 93.51,
+   "spans": [
+    [
+     552,
+     630,
+     "gokturk"
+    ],
+    [
+     630,
+     781,
+     "tang"
+    ],
+    [
+     781,
+     866,
+     "tibet"
+    ],
+    [
+     866,
+     1368,
+     "uygur"
+    ],
+    [
+     1368,
+     1514,
+     "mogolistan-han"
+    ],
+    [
+     1514,
+     1678,
+     "yarkent"
+    ],
+    [
+     1678,
+     1697,
+     "cungar"
+    ],
+    [
+     1697,
+     1912,
+     "qing"
+    ],
+    [
+     1912,
+     1923,
+     "cin-cum"
+    ]
+   ],
+   "src": [
+    "cin--ulke"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "kancou",
+   "tr": "Kan-chou (Gansu koridoru)",
+   "lat": 38.93,
+   "lon": 100.45,
+   "spans": [
+    [
+     550,
+     581,
+     "kuzey-cin"
+    ],
+    [
+     581,
+     618,
+     "sui"
+    ],
+    [
+     618,
+     764,
+     "tang"
+    ],
+    [
+     764,
+     848,
+     "tibet"
+    ],
+    [
+     848,
+     894,
+     "tang"
+    ],
+    [
+     894,
+     1028,
+     "kancou"
+    ],
+    [
+     1028,
+     1227,
+     "bati-xia"
+    ],
+    [
+     1227,
+     1368,
+     "mogol-imp"
+    ],
+    [
+     1368,
+     1644,
+     "ming"
+    ],
+    [
+     1644,
+     1912,
+     "qing"
+    ],
+    [
+     1912,
+     1923,
+     "cin-cum"
+    ]
+   ],
+   "src": [
+    "cin--ulke"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "cangan",
+   "tr": "Çang-an (Şian)",
+   "lat": 34.27,
+   "lon": 108.95,
+   "spans": [
+    [
+     550,
+     581,
+     "kuzey-cin"
+    ],
+    [
+     581,
+     618,
+     "sui"
+    ],
+    [
+     618,
+     907,
+     "tang"
+    ],
+    [
+     907,
+     960,
+     "kuzey-cin"
+    ],
+    [
+     960,
+     1127,
+     "song"
+    ],
+    [
+     1127,
+     1234,
+     "jin"
+    ],
+    [
+     1234,
+     1368,
+     "mogol-imp"
+    ],
+    [
+     1368,
+     1644,
+     "ming"
+    ],
+    [
+     1644,
+     1912,
+     "qing"
+    ],
+    [
+     1912,
+     1923,
+     "cin-cum"
+    ]
+   ],
+   "src": [
+    "cin--ulke"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "yinsan",
+   "tr": "Yinşan ve Ordos (İç Moğolistan)",
+   "lat": 40.84,
+   "lon": 111.75,
+   "spans": [
+    [
+     550,
+     552,
+     "juan-juan"
+    ],
+    [
+     552,
+     630,
+     "gokturk"
+    ],
+    [
+     630,
+     682,
+     "tang"
+    ],
+    [
+     682,
+     744,
+     "gokturk"
+    ],
+    [
+     744,
+     840,
+     "uygur-kag"
+    ],
+    [
+     840,
+     916,
+     "kuzey-cin"
+    ],
+    [
+     916,
+     1125,
+     "kitan"
+    ],
+    [
+     1125,
+     1215,
+     "jin"
+    ],
+    [
+     1215,
+     1368,
+     "mogol-imp"
+    ],
+    [
+     1368,
+     1635,
+     "mogolistan"
+    ],
+    [
+     1635,
+     1912,
+     "qing"
+    ],
+    [
+     1912,
+     1923,
+     "cin-cum"
+    ]
+   ],
+   "src": [
+    "cin--ulke"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "pekin",
+   "tr": "Pekin",
+   "lat": 39.9,
+   "lon": 116.4,
+   "spans": [
+    [
+     550,
+     581,
+     "kuzey-cin"
+    ],
+    [
+     581,
+     618,
+     "sui"
+    ],
+    [
+     618,
+     907,
+     "tang"
+    ],
+    [
+     907,
+     938,
+     "kuzey-cin"
+    ],
+    [
+     938,
+     1125,
+     "kitan"
+    ],
+    [
+     1125,
+     1215,
+     "jin"
+    ],
+    [
+     1215,
+     1368,
+     "mogol-imp"
+    ],
+    [
+     1368,
+     1644,
+     "ming"
+    ],
+    [
+     1644,
+     1912,
+     "qing"
+    ],
+    [
+     1912,
+     1923,
+     "cin-cum"
+    ]
+   ],
+   "src": [
+    "cin--ulke"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "lhasa",
+   "tr": "Lhasa (Tibet)",
+   "lat": 29.65,
+   "lon": 91.1,
+   "spans": [
+    [
+     550,
+     1240,
+     "tibet"
+    ],
+    [
+     1240,
+     1354,
+     "mogol-imp"
+    ],
+    [
+     1354,
+     1720,
+     "tibet"
+    ],
+    [
+     1720,
+     1912,
+     "qing"
+    ],
+    [
+     1912,
+     1923,
+     "tibet"
+    ]
+   ],
+   "src": [
+    "tibet"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "hoten",
+   "tr": "Hoten",
+   "lat": 37.11,
+   "lon": 79.93,
+   "spans": [
+    [
+     550,
+     648,
+     "hoten-krl"
+    ],
+    [
+     648,
+     790,
+     "tang"
+    ],
+    [
+     790,
+     851,
+     "tibet"
+    ],
+    [
+     851,
+     1006,
+     "hoten-krl"
+    ],
+    [
+     1006,
+     1211,
+     "karahanli"
+    ],
+    [
+     1211,
+     1218,
+     "karahitay"
+    ],
+    [
+     1218,
+     1347,
+     "cagatay"
+    ],
+    [
+     1347,
+     1514,
+     "mogolistan-han"
+    ],
+    [
+     1514,
+     1678,
+     "yarkent"
+    ],
+    [
+     1678,
+     1759,
+     "cungar"
+    ],
+    [
+     1759,
+     1865,
+     "qing"
+    ],
+    [
+     1865,
+     1877,
+     "yakub"
+    ],
+    [
+     1877,
+     1912,
+     "qing"
+    ],
+    [
+     1912,
+     1923,
+     "cin-cum"
+    ]
+   ],
+   "src": [
+    "hoten"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "gulca",
+   "tr": "Gulca (İli vadisi)",
+   "lat": 43.91,
+   "lon": 81.28,
+   "spans": [
+    [
+     552,
+     659,
+     "bati-gokturk"
+    ],
+    [
+     659,
+     704,
+     "tang"
+    ],
+    [
+     704,
+     766,
+     "turgis"
+    ],
+    [
+     766,
+     840,
+     "karluk"
+    ],
+    [
+     840,
+     1134,
+     "karahanli"
+    ],
+    [
+     1134,
+     1218,
+     "karahitay"
+    ],
+    [
+     1218,
+     1347,
+     "cagatay"
+    ],
+    [
+     1347,
+     1680,
+     "mogolistan-han"
+    ],
+    [
+     1680,
+     1758,
+     "cungar"
+    ],
+    [
+     1758,
+     1871,
+     "qing"
+    ],
+    [
+     1871,
+     1881,
+     "rusya"
+    ],
+    [
+     1881,
+     1912,
+     "qing"
+    ],
+    [
+     1912,
+     1923,
+     "cin-cum"
+    ]
+   ],
+   "src": [
+    "cin--ulke"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "bati-mogol",
+   "tr": "Batı Moğolistan (Kobdo)",
+   "lat": 47.0,
+   "lon": 96.0,
+   "spans": [
+    [
+     552,
+     630,
+     "gokturk"
+    ],
+    [
+     630,
+     682,
+     "tang"
+    ],
+    [
+     682,
+     744,
+     "gokturk"
+    ],
+    [
+     744,
+     840,
+     "uygur-kag"
+    ],
+    [
+     840,
+     920,
+     "kirgiz"
+    ],
+    [
+     920,
+     1206,
+     "mogolistan"
+    ],
+    [
+     1206,
+     1368,
+     "mogol-imp"
+    ],
+    [
+     1368,
+     1634,
+     "mogolistan"
+    ],
+    [
+     1634,
+     1757,
+     "cungar"
+    ],
+    [
+     1757,
+     1911,
+     "qing"
+    ],
+    [
+     1911,
+     1923,
+     "mogolistan"
+    ]
+   ],
+   "src": [],
+   "yaklasik": true
+  },
+  {
+   "id": "hangcou",
+   "tr": "Hangçou (Güney Çin)",
+   "lat": 30.27,
+   "lon": 120.15,
+   "spans": [
+    [
+     550,
+     589,
+     "guney-cin"
+    ],
+    [
+     589,
+     618,
+     "sui"
+    ],
+    [
+     618,
+     907,
+     "tang"
+    ],
+    [
+     907,
+     960,
+     "guney-cin"
+    ],
+    [
+     960,
+     1279,
+     "song"
+    ],
+    [
+     1279,
+     1368,
+     "mogol-imp"
+    ],
+    [
+     1368,
+     1644,
+     "ming"
+    ],
+    [
+     1644,
+     1912,
+     "qing"
+    ],
+    [
+     1912,
+     1923,
+     "cin-cum"
+    ]
+   ],
+   "src": [
+    "cin--ulke"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "cengdu",
+   "tr": "Çengdu (Siçuan)",
+   "lat": 30.67,
+   "lon": 104.07,
+   "spans": [
+    [
+     550,
+     581,
+     "kuzey-cin"
+    ],
+    [
+     581,
+     618,
+     "sui"
+    ],
+    [
+     618,
+     907,
+     "tang"
+    ],
+    [
+     907,
+     965,
+     "guney-cin"
+    ],
+    [
+     965,
+     1271,
+     "song"
+    ],
+    [
+     1271,
+     1368,
+     "mogol-imp"
+    ],
+    [
+     1368,
+     1644,
+     "ming"
+    ],
+    [
+     1644,
+     1912,
+     "qing"
+    ],
+    [
+     1912,
+     1923,
+     "cin-cum"
+    ]
+   ],
+   "src": [
+    "cin--ulke"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "v-bengal",
+   "void": true,
+   "lat": 24.5,
+   "lon": 89.0
+  },
+  {
+   "id": "v-birmanya",
+   "void": true,
+   "lat": 21.0,
+   "lon": 96.0
+  },
+  {
+   "id": "v-hindicin",
+   "void": true,
+   "lat": 17.0,
+   "lon": 104.0
   }
  ]
 }
