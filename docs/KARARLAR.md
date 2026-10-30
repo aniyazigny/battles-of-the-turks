@@ -297,3 +297,16 @@ Tüm partilerde tek kaynaklı kayıt: 244 → 232.
 | Çözüm | `tools/fix_borders_cin.py`: Kumul, Kan-chou, Çang-an, Yinşan, Pekin, Hangçou, Çengdu, Lhasa, Hoten, Gulca ve Batı Moğolistan noktaları; Sui, T'ang, Song, Cin (Cürçen), Tangut, Ming, Çing ile Kuzey/Güney Çin hanedanları ve Tibet. Tibet ve Çin hücreleri Hindistan'a ve Güneydoğu Asya'ya taşmasın diye Bengal, Birmanya ve Hindiçin'e boş hücre |
 | Yan düzeltme | Gürgenç (Hârizm) 550–712 Sâsânî değil, Afrîgîler |
 | Sınırlılık | Hanedan yılları genel tarih bilgisi, yaklaşık; Voronoi yöntemi nedeniyle seyrek noktalı bozkırda (ör. 659–704 Balasagun T'ang) bölgeler olduğundan geniş görünebilir |
+
+## Harita: sistematik tarama (2026-10-30)
+Yöntem: her devletin haritadaki ilk ve son yılı tarihî ömrüyle karşılaştırıldı; geç başlayan, erken biten ve boşluklu şehirler listelendi. Düzeltmeler `tools/fix_borders_tarama.py`'de.
+| Sorun | Düzeltme |
+|---|---|
+| İran ve Horasan 1335–1370 İlhanlı | Kertler, Serbedârîler, Muzafferîler, Celâyirliler, Çağatay, "yerel hânedanlar"; Timur'un geliş yılları şehir bazında (1381–1393) |
+| Karakoyunlular 1335'te başlıyordu | 1375 (Kara Mehmed); öncesi yerel beylikler |
+| Lahor ve Multan 1206 sonrası boş | Delhi Sultanlığı, Bâbürlüler, Dürrânîler, Sihler, İngiltere |
+| Merv 1785–1884 Özbek | Buhara (Mangıt), Hîve, Teke Türkmenleri |
+| Kıpçaklar 1000'de başlıyordu | 1060; öncesi Peçenekler |
+| Viyana 1000'den Habsburg; Hafsîler 1000'den | Kutsal Roma 1000–1278; Zîrîler, Muvahhidler 1229'a kadar; Güney İtalya 1071'e kadar Bizans; Toledo 1085'e kadar Endülüs |
+| Boş erken dönemler | Macaristan şehirleri 895'ten; Revan, Ahıska, Fergana, Taşkent, Çimkent, Akmescid, Göktepe, Kızılsu, Astarhan, Saraycık, Sibir, Azak, Moskova, Yanya, İşkodra, Midilli, Sakız, Mekke, Gûr, Alamut |
+| Kalan sınırlılık | "Yerel hânedanlar" etiketi parçalı dönemler için toplu ad; Kazak bozkırının kuzeyi seyrek noktalı |
