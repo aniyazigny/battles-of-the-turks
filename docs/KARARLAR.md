@@ -206,3 +206,21 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Kaynak | Hicrî tarih hesaplanmaz; yalnızca kaydın TDVİA maddesinde "<hicrî> / <miladî>" biçiminde yan yana yazılmış ve miladî kısmı kaydın tarihiyle uyuşan ifade alınır (`tools/fill_hijri.py` → `data/hicri.json`). |
 | Kesinlik | Çıktı kaydın kesinliğini aşmaz: yalnız yılı bilinen kayda hicrî yıl, ayı bilinene ay ve yıl, günü bilinene gün de uyuşuyorsa tam tarih. |
 | Gösterim | `build_demo.py` kaydın kendi `hijri` alanı boşsa bu dosyadaki değeri kullanır. |
+
+## Kapsam kararları (2026-10-30)
+| Konu | Karar |
+|---|---|
+| Türkistan hanlıkları | Kullanıcı onayı: Hokand, Buhara, Hîve, Kazak ve Türkmen direnişinin Rus işgaline karşı savaşları girer (Parti 22) |
+| Erken Türk devletleri | Kullanıcı onayı: Asya ve Avrupa Hunları, Akhunlar, Avarlar, Hazarlar, Tuna Bulgarları, Peçenekler, İdil Bulgarları ve Kırgızlar ayrı partiler olarak girer. Sıra: TDVİA maddesi olanlar önce (Hazar, Peçenek, İdil Bulgar, Kırgız), akademik kaynak gerektirenler sonra (Hun, Akhun, Avar, Tuna Bulgar) |
+
+## Kayıt kararları (Parti 22: Türkistan hanlıkları ve Rus istilâsı 1837–1881, 2026-10-30)
+| Kayıt | Karar |
+|---|---|
+| Devletler | Hokand Hanlığı, Buhara Emirliği (Mangıtlar), Hîve Hanlığı, Kazaklar (Kenesarı), Türkmenler (Teke) |
+| Rusya'ya karşı bütün savaşlar | `dis` |
+| Mey-Tuble c. 1847 | Ruslar'ın kışkırttığı Kırgız baskını → `turk_arasi`, Kazak mağlubiyeti |
+| Irgız ve Turgay 1838, Karatav 1845 | Muharebe adı yok → borderline |
+| Çimkent 1864 | İki kayıt: 7 Temmuz hücumu püskürtüldü (W); on sekiz günlük savunmadan sonra teslim (L) |
+| Hucend 1866 | Hucend maddesine göre Buhara'nın elindeydi → Buhara kaydı, `dispute` notuyla |
+| Merv 1884, Mergīnân 1875, Evliyaata 1864 | Muharebe anlatılmıyor → dışarıda |
+| 1916 isyanı ve Basmacılar | Hanlıkların yıkılışından sonra → dışarıda (ayrı kapsam) |

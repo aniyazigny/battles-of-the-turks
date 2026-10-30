@@ -33,6 +33,7 @@
 | [docs/21-osmanli-1914-1918.md](docs/21-osmanli-1914-1918.md) | Parti 19: Birinci Dünya Savaşı (1914–1918) |
 | [docs/22-milli-mucadele.md](docs/22-milli-mucadele.md) | Parti 20: Millî Mücadele (1919–1922) |
 | [docs/23-gokturk-uygur.md](docs/23-gokturk-uygur.md) | Parti 21: Göktürkler, Türgişler, Karluklar ve Uygurlar (552–911) |
+| [docs/24-turkistan-hanliklari.md](docs/24-turkistan-hanliklari.md) | Parti 22: Türkistan hanlıkları ve Rus istilâsı (1837–1881) |
 | [docs/06-dogrulama-turu.md](docs/06-dogrulama-turu.md) | Roma veri seti, akademik yayınlar ve Wikipedia ile doğrulama turu |
 
 ## Veri
@@ -57,6 +58,7 @@
 - `data/osmanli-1914-1918.json`: Osmanlı 1914–1918 (Birinci Dünya Savaşı), 41 kayıt. Üretici: `tools/make_osmanli_1914_1918.py`.
 - `data/milli-mucadele-1919-1922.json`: Millî Mücadele 1919–1922, 23 kayıt. Üretici: `tools/make_milli_mucadele.py`.
 - `data/gokturk-uygur.json`: Göktürkler, Türgişler, Karluklar ve Uygurlar 552–911, 27 kayıt. Üretici: `tools/make_gokturk_uygur.py`.
+- `data/turkistan-hanliklari.json`: Türkistan hanlıkları ve Rus istilâsı 1837–1881, 28 kayıt. Üretici: `tools/make_turkistan_hanliklari.py`.
 - `data/akademik-kaynaklar.json`: `AKD:` anahtarıyla atıf yapılan akademik yayınların künyeleri.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 
@@ -84,5 +86,6 @@
 4. Anadolu Selçukluları ✅ (46/64 kayıt iki maddeyle); beylikler ve atabeylikler ✅ ilk tur
 5. Karahanlı, Gazneli ✅ ilk tur; Göktürk, Uygur
 6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅, 1603–1640 ✅, 1640–1683 ✅, 1683–1718 ✅, 1718–1774 ✅, 1774–1812 ✅, 1812–1839 ✅, 1839–1878 ✅, 1878–1912 ✅, 1912–1913 ✅, 1914–1918 ✅, Millî Mücadele 1919–1922 ✅
-7. Türkiye Cumhuriyeti
-8. Arayüz (harita, filtreler, tablolar, indirme seçenekleri)
+7. Türkistan hanlıkları ve Rus istilâsı 1837–1881 ✅ ilk tur; erken Türk devletleri (Hazar, Peçenek, İdil Bulgar, Kırgız, Hun, Akhun, Avar, Tuna Bulgar)
+8. Türkiye Cumhuriyeti
+9. Arayüz (harita, filtreler, tablolar, indirme seçenekleri)
