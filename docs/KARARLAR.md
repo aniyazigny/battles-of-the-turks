@@ -256,3 +256,13 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Başka partilerdeki Kıpçak muharebeleri | Tekrar kayıt açılmadı; Levunion 1091'de `side_a` "Bizans ve Kumanlar" yapıldı |
 | Asen ve Petar 1186–87 | Kuman ordusu yardımcı kuvvet → borderline, Kıpçak kaydı |
 | Kalka 1223 | Kıpçak–Rus ittifakı yenildi → Kıpçak kaydı, `dis` |
+
+## Arayüz turu 1 (kullanıcı geri bildirimi, 2026-10-30)
+| Konu | Karar |
+|---|---|
+| MÖ tarihler | Kapsam dışı (kullanıcı: "Milattan önce tarihlere gitmeye gerek yok"); Asya Hunları alınmaz |
+| Sınır lejantı | Yalnız seçili yılda haritanın görünen kısmında toprağı olan devletler; Türk / diğer olarak iki bölüm, bölge sayısına göre sıralı, ilk 10 + 8 gösterilir, gerisi "+N devlet daha" ile açılır. Lejant öğesinin üstüne gelince devletin bölgeleri haritada öne çıkar |
+| Renkler | `sinirlar.json` rengi esastır; görünen iki devletin rengi çok yakınsa (Lab uzaklığı < 20, komşu olmayanlarda gevşek) sonraki devlete kendi grubunun paletinden en ayırt edici renk verilir; atanan renk oturum boyunca hatırlanır. Lejant kareleri haritadaki saydamlıkla aynı tonda çizilir |
+| Savaş listesi filtreleri | Arama (ad, yer, harp, taraflar, komutanlar), Türk devleti (Türk devletleri arası savaşlarda `opp_state` de eşleşir), rakip (ilk ada göre gruplanır, metin içinde aranır), yıl aralığı (harita kaydırıcılarıyla eş), sonuç, kategori, tür. Filtreler haritaya ve istatistik kartlarına da uygulanır; harita üstünde etkin filtreler ve "temizle" bağlantısı görünür |
+| Liste uzunluğu | 100'er satır gösterilir, "daha göster" ile genişler; "Türk devleti" sütunu eklendi |
+| Eskimiş sınır dilimleri | 1923'e uzanan son dilimler güncellendi (`tools/fix_borders_modern.py`): Habsburg mirası 1918, Sırp-Hırvat-Sloven Krallığı, Polonya, Sovyet dönemi, Kalmukların Rusya'ya bağlanması 1771, Afganistan 1826, Çin Cumhuriyeti 1912 |

@@ -3,7 +3,7 @@
   "title": "Şehir bazlı hâkimiyet tablosu (harita sınırları için)",
   "compiled": "2026-10-28",
   "status": "Taslak. Sınırlar yaklaşıktır; kontrol bekliyor.",
-  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya. 1840–1880: Suriye ve Girit 1840'ta Osmanlı'ya döndü; Romanya 1858; Belgrad 1867 Sırbistan; Berlin 1878: Bulgaristan, Bosna (Avusturya), Kars (Rusya), Kıbrıs (İngiltere), Niş (Sırbistan). 1880–1913: Tunus 1881 Fransa; Mısır 1882 İngiliz işgali; Doğu Rumeli 1885 Bulgaristan; Girit 1898 özerk; Trablusgarp 1911 ve Rodos 1912 İtalya. 1913–1914: Balkan Savaşları — Selânik, Yanya, Midilli, Sakız, Girit Yunanistan; Üsküp, Manastır, Priştine Sırbistan; Avlonya, Kruya, İşkodra Arnavutluk. 1914–1919: Birinci Dünya Savaşı — Basra 1914, Bağdat ve Kudüs 1917, Şam, Halep, Trablusşam 1918; Mekke 1916 Hâşimî; Erzurum, Trabzon, Van Rus işgali ve 1918'de geri alınış; Kafkas cumhuriyetleri 1918. 1919–1923: Millî Mücadele — TBMM Hükümeti 1920; Yunan, Fransız ve Ermeni işgalleri ve kurtuluşlar; Lahsâ 1913 Suûdî. 550–1000 (kaba katman): Göktürk, Batı Göktürk, Türgiş, Karluk, Uygur, Kırgız, Hazar, Akhun, Sâsânî, Emevî, Abbâsî, Sâmânî, Saffârî, Büveyhî, Hamdânî, Fâtımî, Tuna Bulgar ve Bizans dilimleri; Ötüken noktası eklendi. Kontrol turu 1: Yenişehir (Teselya 1881) ve Kırkkilise noktaları; Kıbrıs 1489–1570 Venedik. Doğu Türkistan ve Moğolistan 1218 sonrası: Moğolistan Hanlığı, Yarkent Hanlığı, Cungarlar, Çing, Yâkub Beg dilimleri. Lahsâ 1818–1913: Benî Hâlid, Suûdî (yaklaşık 1830–1841), 1871'den Osmanlı. Türkistan: Semerkant 1868, Merv 1884 Rusya; Buhara ve Hîve 1920'ye kadar hanlık; Belh 1751 Dürrânî, 1826–1841 Buhara, sonra Afgan. Pencap 1000 öncesi: Mültan Emevî/Abbâsî/Karmatî, Lahor Hindûşâhî (kaba). Türkistan hanlıkları: Hokand, Taşkent, Çimkent, Akmescid, Göktepe ve Kızılsu noktaları; Buhara ve Semerkant 1785 sonrası Mangıt.",
+  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya. 1840–1880: Suriye ve Girit 1840'ta Osmanlı'ya döndü; Romanya 1858; Belgrad 1867 Sırbistan; Berlin 1878: Bulgaristan, Bosna (Avusturya), Kars (Rusya), Kıbrıs (İngiltere), Niş (Sırbistan). 1880–1913: Tunus 1881 Fransa; Mısır 1882 İngiliz işgali; Doğu Rumeli 1885 Bulgaristan; Girit 1898 özerk; Trablusgarp 1911 ve Rodos 1912 İtalya. 1913–1914: Balkan Savaşları — Selânik, Yanya, Midilli, Sakız, Girit Yunanistan; Üsküp, Manastır, Priştine Sırbistan; Avlonya, Kruya, İşkodra Arnavutluk. 1914–1919: Birinci Dünya Savaşı — Basra 1914, Bağdat ve Kudüs 1917, Şam, Halep, Trablusşam 1918; Mekke 1916 Hâşimî; Erzurum, Trabzon, Van Rus işgali ve 1918'de geri alınış; Kafkas cumhuriyetleri 1918. 1919–1923: Millî Mücadele — TBMM Hükümeti 1920; Yunan, Fransız ve Ermeni işgalleri ve kurtuluşlar; Lahsâ 1913 Suûdî. 550–1000 (kaba katman): Göktürk, Batı Göktürk, Türgiş, Karluk, Uygur, Kırgız, Hazar, Akhun, Sâsânî, Emevî, Abbâsî, Sâmânî, Saffârî, Büveyhî, Hamdânî, Fâtımî, Tuna Bulgar ve Bizans dilimleri; Ötüken noktası eklendi. Kontrol turu 1: Yenişehir (Teselya 1881) ve Kırkkilise noktaları; Kıbrıs 1489–1570 Venedik. Doğu Türkistan ve Moğolistan 1218 sonrası: Moğolistan Hanlığı, Yarkent Hanlığı, Cungarlar, Çing, Yâkub Beg dilimleri. Lahsâ 1818–1913: Benî Hâlid, Suûdî (yaklaşık 1830–1841), 1871'den Osmanlı. Türkistan: Semerkant 1868, Merv 1884 Rusya; Buhara ve Hîve 1920'ye kadar hanlık; Belh 1751 Dürrânî, 1826–1841 Buhara, sonra Afgan. Pencap 1000 öncesi: Mültan Emevî/Abbâsî/Karmatî, Lahor Hindûşâhî (kaba). Türkistan hanlıkları: Hokand, Taşkent, Çimkent, Akmescid, Göktepe ve Kızılsu noktaları; Buhara ve Semerkant 1785 sonrası Mangıt. 1923'e uzanan eskimiş son dilimler güncellendi (Habsburg mirası 1918, Sovyet dönemi, Afganistan, Çin Cumhuriyeti).",
   "spans": "[başlangıç, bitiş, devlet]: başlangıç dahil, bitiş hariç (ör. [1040, 1153, ...] 1040–1152 yılları).",
   "sources": "src alanı, el değiştirme tarihlerinin dayandığı TDVİA maddeleridir. 'yaklasik': true olan şehirlerin tarihleri kaba tahmindir ve kontrol edilecektir."
  },
@@ -931,6 +931,48 @@
    "en": "Turkmen tribes (Teke)",
    "group": "turk-diger",
    "color": "#a99a6c"
+  },
+  "avusturya": {
+   "tr": "Avusturya",
+   "en": "Austria",
+   "group": "diger",
+   "color": "#8f86a6"
+  },
+  "cekoslovakya": {
+   "tr": "Çekoslovakya",
+   "en": "Czechoslovakia",
+   "group": "diger",
+   "color": "#7f9bb3"
+  },
+  "shs": {
+   "tr": "Sırp-Hırvat-Sloven Krallığı",
+   "en": "Kingdom of Serbs, Croats and Slovenes",
+   "group": "diger",
+   "color": "#9a8fb8"
+  },
+  "polonya": {
+   "tr": "Polonya",
+   "en": "Poland",
+   "group": "diger",
+   "color": "#b3858f"
+  },
+  "sovyet": {
+   "tr": "Sovyet Rusya",
+   "en": "Soviet Russia",
+   "group": "diger",
+   "color": "#a3605a"
+  },
+  "afganistan": {
+   "tr": "Afganistan Emirliği",
+   "en": "Emirate of Afghanistan",
+   "group": "diger",
+   "color": "#9fae7a"
+  },
+  "cin-cum": {
+   "tr": "Çin Cumhuriyeti",
+   "en": "Republic of China",
+   "group": "diger",
+   "color": "#c9a35a"
   }
  },
  "cities": [
@@ -1017,8 +1059,13 @@
     ],
     [
      1884,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -1308,8 +1355,13 @@
     ],
     [
      1750,
-     1923,
+     1826,
      "durrani"
+    ],
+    [
+     1826,
+     1923,
+     "afganistan"
     ]
    ],
    "src": [
@@ -1385,8 +1437,13 @@
     ],
     [
      1750,
-     1923,
+     1826,
      "durrani"
+    ],
+    [
+     1826,
+     1923,
+     "afganistan"
     ]
    ],
    "src": [
@@ -1477,13 +1534,8 @@
     ],
     [
      1826,
-     1841,
-     "ozbek"
-    ],
-    [
-     1841,
      1923,
-     "durrani"
+     "afganistan"
     ]
    ],
    "src": [
@@ -1540,8 +1592,23 @@
     ],
     [
      1504,
-     1923,
+     1738,
      "babur"
+    ],
+    [
+     1738,
+     1747,
+     "afsar"
+    ],
+    [
+     1747,
+     1826,
+     "durrani"
+    ],
+    [
+     1826,
+     1923,
+     "afganistan"
     ]
    ],
    "src": [
@@ -1597,8 +1664,23 @@
     ],
     [
      1504,
-     1923,
+     1738,
      "babur"
+    ],
+    [
+     1738,
+     1747,
+     "afsar"
+    ],
+    [
+     1747,
+     1826,
+     "durrani"
+    ],
+    [
+     1826,
+     1923,
+     "afganistan"
     ]
    ],
    "src": [
@@ -1701,8 +1783,23 @@
     ],
     [
      1504,
-     1923,
+     1738,
      "babur"
+    ],
+    [
+     1738,
+     1747,
+     "afsar"
+    ],
+    [
+     1747,
+     1826,
+     "durrani"
+    ],
+    [
+     1826,
+     1923,
+     "afganistan"
     ]
    ],
    "src": [
@@ -1779,7 +1876,7 @@
     [
      1920,
      1923,
-     "rusya"
+     "sovyet"
     ]
    ],
    "src": [
@@ -1858,7 +1955,7 @@
     [
      1920,
      1923,
-     "rusya"
+     "sovyet"
     ]
    ],
    "src": [
@@ -1936,8 +2033,13 @@
     ],
     [
      1868,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -2016,8 +2118,13 @@
     ],
     [
      1877,
-     1923,
+     1912,
      "qing"
+    ],
+    [
+     1912,
+     1923,
+     "cin-cum"
     ]
    ],
    "src": [
@@ -2097,8 +2204,13 @@
     ],
     [
      1864,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -2164,8 +2276,13 @@
     ],
     [
      1877,
-     1923,
+     1912,
      "qing"
+    ],
+    [
+     1912,
+     1923,
+     "cin-cum"
     ]
    ],
    "src": [
@@ -2214,8 +2331,18 @@
     ],
     [
      1465,
-     1923,
+     1847,
      "kazak"
+    ],
+    [
+     1847,
+     1918,
+     "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [],
@@ -2259,8 +2386,13 @@
     ],
     [
      1552,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [],
@@ -2309,8 +2441,18 @@
     ],
     [
      1634,
-     1923,
+     1771,
      "kalmuk"
+    ],
+    [
+     1771,
+     1918,
+     "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [],
@@ -2359,8 +2501,13 @@
     ],
     [
      1783,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [],
@@ -2399,8 +2546,13 @@
     ],
     [
      1667,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [],
@@ -4490,8 +4642,13 @@
     ],
     [
      1918,
-     1923,
+     1920,
      "azerbaycan"
+    ],
+    [
+     1920,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -4686,8 +4843,13 @@
     ],
     [
      1918,
-     1923,
+     1920,
      "azerbaycan"
+    ],
+    [
+     1920,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [],
@@ -4766,8 +4928,13 @@
     ],
     [
      1918,
-     1923,
+     1921,
      "gurcistan-cum"
+    ],
+    [
+     1921,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -4788,8 +4955,23 @@
     ],
     [
      1000,
-     1923,
+     1810,
      "gurcistan"
+    ],
+    [
+     1810,
+     1918,
+     "rusya"
+    ],
+    [
+     1918,
+     1921,
+     "gurcistan-cum"
+    ],
+    [
+     1921,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -5973,8 +6155,13 @@
     ],
     [
      1918,
-     1923,
+     1920,
      "hicaz"
+    ],
+    [
+     1920,
+     1923,
+     "fransa"
     ]
    ],
    "src": [
@@ -6072,8 +6259,13 @@
     ],
     [
      1918,
-     1923,
+     1920,
      "hicaz"
+    ],
+    [
+     1920,
+     1923,
+     "fransa"
     ]
    ],
    "src": [
@@ -7735,8 +7927,13 @@
     ],
     [
      1912,
-     1923,
+     1918,
      "sirbistan"
+    ],
+    [
+     1918,
+     1923,
+     "shs"
     ]
    ],
    "src": [
@@ -7772,8 +7969,13 @@
     ],
     [
      1912,
-     1923,
+     1918,
      "sirbistan"
+    ],
+    [
+     1918,
+     1923,
+     "shs"
     ]
    ],
    "src": [
@@ -7814,8 +8016,13 @@
     ],
     [
      1878,
-     1923,
+     1918,
      "sirbistan"
+    ],
+    [
+     1918,
+     1923,
+     "shs"
     ]
    ],
    "src": [
@@ -7851,8 +8058,13 @@
     ],
     [
      1912,
-     1923,
+     1918,
      "sirbistan"
+    ],
+    [
+     1918,
+     1923,
+     "shs"
     ]
    ],
    "src": [
@@ -7953,8 +8165,13 @@
     ],
     [
      1867,
-     1923,
+     1918,
      "sirbistan"
+    ],
+    [
+     1918,
+     1923,
+     "shs"
     ]
    ],
    "src": [],
@@ -7988,8 +8205,13 @@
     ],
     [
      1878,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "shs"
     ]
    ],
    "src": [],
@@ -8065,8 +8287,13 @@
     ],
     [
      1686,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "macar"
     ]
    ],
    "src": [],
@@ -8207,8 +8434,13 @@
     ],
     [
      1830,
-     1923,
+     1918,
      "sirbistan"
+    ],
+    [
+     1918,
+     1923,
+     "shs"
     ]
    ],
    "src": [
@@ -8318,8 +8550,13 @@
     ],
     [
      1783,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -8375,8 +8612,13 @@
     ],
     [
      1783,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [],
@@ -8474,8 +8716,13 @@
     ],
     [
      1481,
-     1923,
+     1861,
      "napoli"
+    ],
+    [
+     1861,
+     1923,
+     "italya"
     ]
    ],
    "src": [
@@ -8761,8 +9008,13 @@
    "spans": [
     [
      1000,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "avusturya"
     ]
    ],
    "src": [],
@@ -8781,8 +9033,13 @@
     ],
     [
      1526,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "cekoslovakya"
     ]
    ],
    "src": [],
@@ -8806,8 +9063,13 @@
     ],
     [
      1716,
-     1923,
+     1919,
      "habsburg"
+    ],
+    [
+     1919,
+     1923,
+     "romanya"
     ]
    ],
    "src": [],
@@ -8841,8 +9103,13 @@
     ],
     [
      1683,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "macar"
     ]
    ],
    "src": [],
@@ -8871,8 +9138,13 @@
     ],
     [
      1689,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "macar"
     ]
    ],
    "src": [],
@@ -8986,8 +9258,18 @@
     ],
     [
      1530,
-     1923,
+     1798,
      "latin"
+    ],
+    [
+     1798,
+     1800,
+     "fransa"
+    ],
+    [
+     1800,
+     1923,
+     "ingiltere"
     ]
    ],
    "src": [],
@@ -9016,8 +9298,13 @@
    "spans": [
     [
      1000,
-     1923,
+     1912,
      "fas"
+    ],
+    [
+     1912,
+     1923,
+     "fransa"
     ]
    ],
    "src": [],
@@ -9061,8 +9348,13 @@
     ],
     [
      1598,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "macar"
     ]
    ],
    "src": [],
@@ -9091,8 +9383,13 @@
     ],
     [
      1690,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "macar"
     ]
    ],
    "src": [],
@@ -9121,8 +9418,13 @@
     ],
     [
      1687,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "macar"
     ]
    ],
    "src": [],
@@ -9246,8 +9548,13 @@
     ],
     [
      1918,
-     1923,
+     1920,
      "ermenistan"
+    ],
+    [
+     1920,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [],
@@ -9281,8 +9588,13 @@
     ],
     [
      1829,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [],
@@ -9311,8 +9623,13 @@
     ],
     [
      1685,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "cekoslovakya"
     ]
    ],
    "src": [],
@@ -9341,8 +9658,13 @@
     ],
     [
      1692,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "romanya"
     ]
    ],
    "src": [],
@@ -9371,8 +9693,13 @@
     ],
     [
      1793,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [],
@@ -9391,8 +9718,13 @@
     ],
     [
      1772,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "polonya"
     ]
    ],
    "src": [],
@@ -9406,8 +9738,18 @@
    "spans": [
     [
      1000,
-     1923,
+     1815,
      "lehistan"
+    ],
+    [
+     1815,
+     1918,
+     "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "polonya"
     ]
    ],
    "src": [],
@@ -9431,8 +9773,13 @@
     ],
     [
      1556,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -9453,8 +9800,13 @@
     ],
     [
      1480,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -9480,8 +9832,13 @@
     ],
     [
      1582,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -9507,8 +9864,18 @@
     ],
     [
      1634,
-     1923,
+     1771,
      "kalmuk"
+    ],
+    [
+     1771,
+     1918,
+     "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -9549,8 +9916,13 @@
     ],
     [
      1736,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [],
@@ -9574,8 +9946,13 @@
     ],
     [
      1690,
-     1923,
+     1918,
      "habsburg"
+    ],
+    [
+     1918,
+     1923,
+     "romanya"
     ]
    ],
    "src": [],
@@ -9785,8 +10162,13 @@
     ],
     [
      1812,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -9833,8 +10215,13 @@
     ],
     [
      1788,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -10128,8 +10515,13 @@
     ],
     [
      1876,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -10151,8 +10543,13 @@
     ],
     [
      1865,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -10174,8 +10571,13 @@
     ],
     [
      1864,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -10197,8 +10599,13 @@
     ],
     [
      1853,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -10219,8 +10626,13 @@
     ],
     [
      1881,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [
@@ -10241,8 +10653,13 @@
     ],
     [
      1869,
-     1923,
+     1918,
      "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "sovyet"
     ]
    ],
    "src": [

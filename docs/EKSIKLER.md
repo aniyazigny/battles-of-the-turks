@@ -67,7 +67,7 @@ Son güncelleme: 2026-10-30
 - [ ] **Parti 23 eksikleri:** 14 tek maddeli kayıt için akademik kaynak (Kurat, Kafalı); Hazar akını 799, Kiev 968, Peçenek akınları 1035–36 ve 1197'ye kadar.
 - [x] **Avrupa Hunları, Akhunlar, Avarlar, Tuna Bulgarları:** Parti 24 ilk tur (2026-10-30, 24 kayıt).
 - [ ] **Parti 24 eksikleri:** 13 tek maddeli kayıt; Avrupa Hunları 375–434 (Ahmetbeyoğlu); Avarlar'ın Pannonia ve Bizans savaşları 568–602; Akhunlar'ın Hindistan seferleri.
-- [ ] **Asya Hunları (MÖ):** Negatif yıl için şema ve zaman çizelgesi kararı gerekir (arayüz turuna bırakıldı).
+- [x] **Asya Hunları (MÖ):** Kapsam dışı (kullanıcı kararı 2026-10-30: "Milattan önce tarihlere gitmeye gerek yok").
 - [x] **Kıpçaklar:** Parti 25 ilk tur (2026-10-30, 6 kayıt; kapsam kullanıcı onayıyla).
 - [ ] **Parti 25 eksikleri:** Rus–Kuman savaşları (Alta 1068, Salnitsa 1111 vb.) TDVİA'da yok; akademik kaynak gerekir (Kurat). 3 tek maddeli kayıt.
 

@@ -51,6 +51,23 @@ input[type=range]{width:140px;accent-color:var(--accent)}
 .realms b{font-weight:600;margin-right:2px}
 .realms .sq{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 .realms .note{color:var(--muted);flex-basis:100%}
+.realms .sec{color:var(--muted);text-transform:uppercase;font-size:11px;letter-spacing:.06em;flex-basis:100%;margin-top:4px}
+.realms .it{cursor:default;padding:1px 4px;border-radius:4px}
+.realms .it:hover{background:var(--paper)}
+.realms .it small{color:var(--muted)}
+.realms button{border:0;background:none;color:var(--accent);cursor:pointer;font:inherit;padding:0}
+.map.hl .realm{opacity:.12}
+.map.hl .realm.on{opacity:1}
+.lbar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;font:14px "IBM Plex Sans Condensed",sans-serif;margin:0 0 10px;padding:10px 12px;background:var(--paper);border:1px solid var(--line);border-radius:8px}
+.lbar select,.lbar input[type=search],.lbar input[type=number]{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:3px 6px}
+.lbar input[type=number]{width:72px}
+.lbar input[type=search]{width:180px}
+.lbar select{max-width:230px}
+.lcount{font:14px "IBM Plex Sans Condensed",sans-serif;color:var(--muted);margin:0 0 6px}
+.lcount button,.more{border:1px solid var(--line);background:var(--paper);color:var(--accent);border-radius:999px;padding:2px 12px;cursor:pointer;font:14px "IBM Plex Sans Condensed",sans-serif}
+.more{display:block;margin:12px auto 0}
+.fnote{font:13px "IBM Plex Sans Condensed",sans-serif;color:var(--accent);margin:-4px 0 10px}
+.fnote button{border:0;background:none;color:var(--accent);text-decoration:underline;cursor:pointer;font:inherit;padding:0}
 .legend{position:absolute;left:10px;bottom:10px;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font:12px "IBM Plex Sans Condensed",sans-serif;display:flex;gap:10px;flex-wrap:wrap}
 .sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
 .panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px;max-height:600px;overflow:auto;font-size:15px}
@@ -105,6 +122,7 @@ ul.lo{padding-left:18px;font-size:15px}
   </div>
   <label class="grp"><input type="checkbox" id="showRealms" checked> Devlet sınırları</label>
 </div>
+<div class="fnote" id="fnote"></div>
 <div class="mapbox">
   <div class="map" id="map">
     <div class="legend">
@@ -122,9 +140,20 @@ ul.lo{padding-left:18px;font-size:15px}
 <div class="wdl" id="wdl"></div>
 
 <h2>Tüm savaşlar</h2>
+<div class="lbar">
+  <div class="grp"><label for="f-q">Ara</label><input type="search" id="f-q" placeholder="savaş, yer, komutan…"></div>
+  <div class="grp"><label for="f-ts">Türk devleti</label><select id="f-ts"><option value="">Tümü</option></select></div>
+  <div class="grp"><label for="f-op">Rakip</label><select id="f-op"><option value="">Tümü</option></select></div>
+  <div class="grp"><label>Yıl</label><input type="number" id="f-y1"> – <input type="number" id="f-y2"></div>
+  <div class="grp" id="f-res"><label>Sonuç</label></div>
+  <div class="grp" id="f-cat2"><label>Kategori</label></div>
+  <div class="grp" id="f-ty"><label>Tür</label></div>
+</div>
+<div class="lcount" id="lcount"></div>
 <div class="tblwrap"><table id="list"><thead><tr>
-  <th data-k="y">Yıl</th><th data-k="name_tr">Savaş</th><th data-k="place">Yer</th><th data-k="opp">Rakip</th><th data-k="category">Kategori</th><th data-k="result">Sonuç</th><th data-k="status">Statü</th>
+  <th data-k="y">Yıl</th><th data-k="name_tr">Savaş</th><th data-k="state">Türk devleti</th><th data-k="place">Yer</th><th data-k="opp">Rakip</th><th data-k="category">Kategori</th><th data-k="result">Sonuç</th><th data-k="status">Statü</th>
 </tr></thead><tbody></tbody></table></div>
+<button class="more" id="more" hidden></button>
 
 <h2>Dışarıda bırakılanlar</h2>
 <ul class="lo" id="lo"></ul>
@@ -146,8 +175,14 @@ const COL={W:"var(--win)",L:"var(--loss)",D:"var(--draw)",C:"var(--civil)"};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const B=DATA.battles.map(b=>{const y=+b.date.match(/\d{3,4}/)[0];const opp=b.result==="L"?b.side_a:b.side_b;return {...b,y,opp}});
 const Y0=d3.min(B,b=>b.y), Y1=d3.max(B,b=>b.y);
-const S={cat:new Set(Object.keys(CAT)),st:new Set(Object.keys(ST)),from:Y0,to:Y1};
-const filtered=()=>B.filter(b=>S.cat.has(b.category)&&S.st.has(b.status)&&b.y>=S.from&&b.y<=S.to);
+const TY={land:"Kara",sea:"Deniz"};
+// Rakip adı serbest metindir; seçenekler ilk addan türetilir, eşleşme metin içinde aranır ("Habsburglar" → "Rusya ve Habsburglar" da gelir)
+const oppKey=o=>o.split(/[,(]/)[0].split(/ ve /)[0].trim();
+for(const b of B){b.ok=oppKey(b.opp);b.hay=[b.name_tr,b.name_en,b.place,b.war,b.side_a,b.side_b,b.turkic_cmd,b.opp_cmd,b.country].join(" ").toLocaleLowerCase("tr")}
+const S={cat:new Set(Object.keys(CAT)),st:new Set(Object.keys(ST)),res:new Set(Object.keys(RES)),ty:new Set(Object.keys(TY)),from:Y0,to:Y1,ts:"",op:"",q:""};
+// Türk devleti filtresi, Türk devletleri arası savaşlarda karşı taraftaki Türk devletini de (opp_state) kapsar
+const filtered=()=>B.filter(b=>S.cat.has(b.category)&&S.st.has(b.status)&&S.res.has(b.result)&&S.ty.has(b.type)&&b.y>=S.from&&b.y<=S.to
+  &&(!S.ts||b.state===S.ts||b.opp_state===S.ts)&&(!S.op||b.opp.includes(S.op))&&(!S.q||b.hay.includes(S.q)));
 
 function srcLink(k){
   if(k.startsWith("TDVIA:")){const s=k.slice(6);return `<a href="https://islamansiklopedisi.org.tr/${s}" target="_blank" rel="noopener">TDVİA: ${esc(s)}</a>`}
@@ -185,19 +220,40 @@ function recHTML(b){
 })();
 
 // filters
+const chipEls=[];
 function chips(id,obj,set){
   const g=document.getElementById(id);
   for(const [k,l] of Object.entries(obj)){
     const b=document.createElement("button");b.className="chip";b.textContent=l;b.setAttribute("aria-pressed","true");
-    b.onclick=()=>{set.has(k)?set.delete(k):set.add(k);b.setAttribute("aria-pressed",set.has(k));render()};g.appendChild(b);
+    b.onclick=()=>{set.has(k)?set.delete(k):set.add(k);render()};g.appendChild(b);chipEls.push([b,set,k]);
   }
 }
-chips("f-cat",CAT,S.cat);chips("f-st",ST,S.st);
-const y1=document.getElementById("y1"),y2=document.getElementById("y2");
-for(const el of [y1,y2]){el.min=Y0;el.max=Y1;el.step=1}
-y1.value=Y0;y2.value=Y1;
+chips("f-cat",CAT,S.cat);chips("f-st",ST,S.st);chips("f-res",RES,S.res);chips("f-cat2",CAT,S.cat);chips("f-ty",TY,S.ty);
+const y1=document.getElementById("y1"),y2=document.getElementById("y2"),fy1=document.getElementById("f-y1"),fy2=document.getElementById("f-y2");
+for(const el of [y1,y2,fy1,fy2]){el.min=Y0;el.max=Y1;el.step=1}
+y1.value=fy1.value=Y0;y2.value=fy2.value=Y1;
 function readYears(){let a=+y1.value,b=+y2.value;if(a>b)[a,b]=[b,a];S.from=a;S.to=b;render()}
 y1.oninput=y2.oninput=readYears;
+fy1.onchange=fy2.onchange=()=>{const c=v=>Math.max(Y0,Math.min(Y1,+v||Y0));y1.value=c(fy1.value);y2.value=fy2.value===""?Y1:c(fy2.value);readYears()};
+// liste filtreleri
+const fts=document.getElementById("f-ts"),fop=document.getElementById("f-op"),fq=document.getElementById("f-q");
+{const n=d3.rollup([...B.map(b=>b.state),...B.map(b=>b.opp_state).filter(Boolean)],v=>v.length,s=>s);
+ fts.insertAdjacentHTML("beforeend",[...n].sort((a,b)=>b[1]-a[1]).map(([s,c])=>`<option value="${esc(s)}">${esc(s)} (${c})</option>`).join(""));
+ const NI=B.filter(b=>b.category!=="ic"),o=new Map([...new Set(NI.map(b=>b.ok))].map(k=>[k,NI.filter(b=>b.opp.includes(k)).length])),many=[...o].filter(x=>x[1]>=2).sort((a,b)=>b[1]-a[1]),one=[...o].filter(x=>x[1]<2).sort((a,b)=>a[0].localeCompare(b[0],"tr"));
+ fop.insertAdjacentHTML("beforeend",`<optgroup label="En sık">${many.map(([s,c])=>`<option value="${esc(s)}">${esc(s)} (${c})</option>`).join("")}</optgroup><optgroup label="Diğer (A–Z)">${one.map(([s])=>`<option value="${esc(s)}">${esc(s)}</option>`).join("")}</optgroup>`)}
+fts.onchange=()=>{S.ts=fts.value;render()};fop.onchange=()=>{S.op=fop.value;render()};
+let qT;fq.oninput=()=>{clearTimeout(qT);qT=setTimeout(()=>{S.q=fq.value.trim().toLocaleLowerCase("tr");render()},200)};
+function clearFilters(){
+  for(const [set,keys] of [[S.cat,CAT],[S.st,ST],[S.res,RES],[S.ty,TY]])for(const k in keys)set.add(k);
+  S.ts=S.op=S.q="";fts.value=fop.value=fq.value="";y1.value=Y0;y2.value=Y1;readYears();
+}
+function syncControls(){
+  for(const [b,set,k] of chipEls)b.setAttribute("aria-pressed",set.has(k));
+  fy1.value=S.from;fy2.value=S.to;
+  const act=[S.ts&&`Türk devleti: ${S.ts}`,S.op&&`Rakip: ${S.op}`,S.q&&`Arama: “${fq.value.trim()}”`,
+    S.res.size<4&&`Sonuç: ${[...S.res].map(k=>RES[k]).join(", ")}`,S.ty.size<2&&`Tür: ${[...S.ty].map(k=>TY[k]).join(", ")}`].filter(Boolean);
+  document.getElementById("fnote").innerHTML=act.length?`Liste filtreleri haritaya da uygulanıyor — ${esc(act.join(" · "))} · <button onclick="clearFilters()">Tüm filtreleri temizle</button>`:"";
+}
 let timer=null;
 document.getElementById("play").onclick=function(){
   if(timer){clearInterval(timer);timer=null;this.textContent="▶ Oynat";return}
@@ -212,8 +268,9 @@ const g=svg.append("g"), gLand=g.append("g"), gRealm=g.append("g").attr("clip-pa
 const gTurk=gRealm.append("g").attr("opacity",.5), gOther=gRealm.append("g").attr("opacity",.3), gEdge=gRealm.append("g");
 const proj=d3.geoMercator().fitExtent([[40,30],[W-40,H-30]],{type:"MultiPoint",coordinates:[...B.map(b=>[b.lon,b.lat]),[27,41.5],[70,33],[31,30]]});
 const path=d3.geoPath(proj);
-let K=1;
-svg.call(d3.zoom().scaleExtent([1,10]).on("zoom",e=>{K=e.transform.k;g.attr("transform",e.transform);gDots.selectAll(".dot").attr("transform",d=>`translate(${d.x},${d.y}) scale(${1/K})`)}));
+let K=1,T=d3.zoomIdentity,legT;
+svg.call(d3.zoom().scaleExtent([1,10]).on("zoom",e=>{K=e.transform.k;T=e.transform;g.attr("transform",T);gDots.selectAll(".dot").attr("transform",d=>`translate(${d.x},${d.y}) scale(${1/K})`);
+  clearTimeout(legT);legT=setTimeout(()=>renderLegend(),120)}));
 d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json").then(w=>{
   gLand.selectAll("path").data(topojson.feature(w,w.objects.countries).features).join("path").attr("class","country").attr("d",path);
   svg.append("defs").append("clipPath").attr("id","landclip").append("path").attr("d",path(topojson.feature(w,w.objects.land)));
@@ -249,7 +306,29 @@ for(const a of cells){for(const j of vor.delaunay.neighbors(a.i)){if(j<=a.i)cont
   if(common.length>=2)edges.push({i:a.i,j,line:noisyEdge(common[0],common[1])})}}
 const edgeLine=d3.line().curve(d3.curveBasis);
 const ownerAt=(c,y)=>{if(c.void)return null;const s=c.spans.find(([a,b])=>y>=a&&y<b);return s?s[2]:null};
-const realmCol=k=>RS[k].color;
+// Renkler: her devletin data/sinirlar.json'daki rengi esastır. Haritada görünen iki devletin rengi birbirine
+// çok yakınsa (örneğin aynı rengi paylaşan beylikler) sonraki devlete kendi grubunun paletinden en ayırt edici renk verilir.
+// Atanan renk hatırlanır; oynatma sırasında renkler kare kare değişmez.
+const isTurk=k=>RS[k].group!=="diger";
+const PAL={turk:[],diger:[]};
+for(const l of [42,55,68])for(let h=0;h<360;h+=15){const c=d3.hcl(h,l===68?45:55,l).formatHex();
+  ((h<=75||h>=300)?PAL.turk:PAL.diger).push(c)}
+const memo=new Map();let COLS={};
+const dE=(a,b)=>{const x=d3.lab(a),y=d3.lab(b);return Math.hypot(x.l-y.l,x.a-y.a,x.b-y.b)};
+function assignColors(own){
+  const n=d3.rollup(own.filter(Boolean),v=>v.length,k=>k),nb=new Map([...n.keys()].map(k=>[k,new Set()]));
+  for(const e of edges){const a=own[e.i],b=own[e.j];if(a&&b&&a!==b){nb.get(a).add(b);nb.get(b).add(a)}}
+  const out={},keys=[...n.keys()].sort((a,b)=>n.get(b)-n.get(a));
+  const score=(c,k)=>d3.min(Object.entries(out),([o,oc])=>dE(c,oc)/(nb.get(k).has(o)?1:1.8))??99;
+  for(const k of keys){
+    const cands=[memo.get(k),RS[k].color].filter(Boolean);
+    let best=cands.find(c=>score(c,k)>=20);
+    if(!best)best=d3.greatest(PAL[isTurk(k)?"turk":"diger"],c=>score(c,k));
+    out[k]=best;memo.set(k,best);
+  }
+  return out;
+}
+const realmCol=k=>COLS[k]||RS[k].color;
 const showRealms=document.getElementById("showRealms");
 showRealms.onchange=()=>render();
 function renderRealms(year){
@@ -257,6 +336,7 @@ function renderRealms(year){
   gRealm.attr("display",on?null:"none");
   document.getElementById("map").classList.toggle("realms-on",on);
   const own=cells.map(d=>ownerAt(d.c,year));
+  COLS=assignColors(own);
   const draw=(sel,test)=>sel.selectAll("path").data(cells.filter(d=>own[d.i]&&test(RS[own[d.i]].group)),d=>d.c.id)
     .join("path").attr("class","realm").attr("d",d=>"M"+d.pts.join("L")+"Z")
     .attr("fill",d=>realmCol(own[d.i])).attr("stroke",d=>realmCol(own[d.i]))
@@ -266,17 +346,30 @@ function renderRealms(year){
   draw(gTurk,gr=>gr!=="diger");draw(gOther,gr=>gr==="diger");
   gEdge.selectAll("path").data(edges.filter(e=>own[e.i]!==own[e.j]&&(own[e.i]||own[e.j])))
     .join("path").attr("class","realm-edge").attr("d",e=>edgeLine(e.line));
-  // lejant
-  const present=[...new Set(own.filter(Boolean))];
-  const GROUPS={beylik:"Türk beylik ve atabeylikleri","turk-diger":"Kapsam dışı Türk devletleri"};
-  const item=(col,label)=>`<span><i class="sq" style="background:${col};opacity:.75"></i>${esc(label)}</span>`;
-  let h=`<b>Sınırlar · ${year}</b>`;
-  for(const k of present.filter(k=>RS[k].group==="turk"))h+=item(RS[k].color,RS[k].tr);
-  for(const gk of Object.keys(GROUPS)){const ks=present.filter(k=>RS[k].group===gk);
-    if(ks.length)h+=item(RS[ks[0]].color,`${GROUPS[gk]} (${ks.map(k=>RS[k].tr).join(", ")})`)}
-  for(const k of present.filter(k=>RS[k].group==="diger"))h+=item(RS[k].color,RS[k].tr);
-  h+=`<span class="note">Sınırlar yaklaşıktır: her bölge en yakın büyük şehre göre çizilir ve o şehri fiilen yöneten devletin rengini alır. Haritadaki yıl, seçili aralığın son yılıdır.</span>`;
-  document.getElementById("realms").innerHTML=on?h:"";
+  lastOwn=own;lastYear=year;renderLegend();
+}
+// Lejant: yalnız o yıl haritanın görünen kısmında toprağı olan devletler, kapladıkları bölge sayısına göre sıralı.
+// Fareyle bir devletin üstüne gelince haritada o devletin bölgeleri öne çıkar.
+let lastOwn=[],lastYear=null,legOpen=false;
+const LEG_MAX={turk:10,diger:8};
+function renderLegend(){
+  const box=document.getElementById("realms");
+  if(!showRealms.checked){box.innerHTML="";return}
+  const vis=lastOwn.map((k,i)=>{if(!k)return null;const [x,y]=T.apply(cellPts[i]);return x>=0&&x<=W&&y>=0&&y<=H?k:null});
+  const n=[...d3.rollup(vis.filter(Boolean),v=>v.length,k=>k)].sort((a,b)=>b[1]-a[1]);
+  const GL={turk:"",beylik:"beylik","turk-diger":""};
+  const item=k=>`<span class="it" data-k="${esc(k)}"><i class="sq" style="background:color-mix(in srgb,${realmCol(k)} ${isTurk(k)?55:35}%,var(--land));border:1px solid ${realmCol(k)}"></i>${esc(RS[k].tr)}${GL[RS[k].group]?` <small>${GL[RS[k].group]}</small>`:""}</span>`;
+  const sec=(title,ks,max)=>{if(!ks.length)return "";const show=legOpen?ks:ks.slice(0,max);
+    return `<span class="sec">${title}</span>`+show.map(item).join("")+(ks.length>show.length?`<button onclick="legOpen=true;renderLegend()">+${ks.length-show.length} devlet daha</button>`:"")};
+  const tk=n.filter(([k])=>isTurk(k)).map(([k])=>k),ok=n.filter(([k])=>!isTurk(k)).map(([k])=>k);
+  box.innerHTML=`<b>Sınırlar · ${lastYear}</b>`+sec("Türk devletleri",tk,LEG_MAX.turk)+sec("Diğer devletler",ok,LEG_MAX.diger)
+    +(legOpen&&(tk.length>LEG_MAX.turk||ok.length>LEG_MAX.diger)?`<button onclick="legOpen=false;renderLegend()">daha az göster</button>`:"")
+    +`<span class="note">Yalnız haritanın görünen kısmındaki devletler listelenir; yakınlaştırınca liste daralır. Sınırlar yaklaşıktır: her bölge en yakın büyük şehre göre çizilir ve o şehri fiilen yöneten devletin rengini alır. Haritadaki yıl, seçili aralığın son yılıdır.</span>`;
+  const map=document.getElementById("map");
+  box.querySelectorAll(".it").forEach(el=>{
+    el.onmouseenter=()=>{map.classList.add("hl");gRealm.selectAll(".realm").classed("on",d=>lastOwn[d.i]===el.dataset.k)};
+    el.onmouseleave=()=>map.classList.remove("hl");
+  });
 }
 const tip=document.getElementById("tip");
 const arc=d3.arc().innerRadius(0), pie=d3.pie().sort(null).value(d=>d[1]);
@@ -284,6 +377,7 @@ const arc=d3.arc().innerRadius(0), pie=d3.pie().sort(null).value(d=>d[1]);
 function render(){
   const F=filtered();
   document.getElementById("ylab").textContent=`${S.from} – ${S.to}`;
+  syncControls();
   renderRealms(S.to);
   const groups=d3.groups(F,b=>b.lat+","+b.lon).map(([k,bs])=>{const [x,y]=proj([bs[0].lon,bs[0].lat]);return {k,bs,x,y}}).sort((a,b)=>b.bs.length-a.bs.length);
   const dots=gDots.selectAll(".dot").data(groups,d=>d.k).join(enter=>{const e=enter.append("g").attr("class","dot");return e})
@@ -320,15 +414,24 @@ function renderWDL(F){
   box.innerHTML=h||'<p class="meta">Filtreye uyan kayıt yok.</p>';
 }
 
-let sortK="y",sortD=1;
+let sortK="y",sortD=1,shown=100;
+const PAGE=100;
 document.querySelectorAll("#list th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;sortD=sortK===k?-sortD:1;sortK=k;render()});
-function renderList(F){
+let lastF=[];
+document.getElementById("more").onclick=()=>{shown+=PAGE;renderList(lastF,true)};
+function renderList(F,keep){
+  if(!keep)shown=PAGE;lastF=F;
   const tb=document.querySelector("#list tbody");
-  const rows=[...F].sort((a,b)=>(a[sortK]>b[sortK]?1:a[sortK]<b[sortK]?-1:a.y-b.y||String(a.id).localeCompare(String(b.id)))*sortD);
-  tb.innerHTML=rows.map(b=>`<tr class="row" data-id="${b.id}"><td class="num">${b.y}</td><td>${esc(b.name_tr)}</td><td>${esc(b.place)}</td><td>${esc(b.opp)}</td><td>${CAT[b.category]}</td><td><span class="tag ${b.result}">${RES[b.result]}</span></td><td><span class="tag st ${b.status}">${ST[b.status]}</span></td></tr>`).join("");
+  document.getElementById("lcount").innerHTML=F.length===B.length?`${B.length} savaşın tamamı gösteriliyor.`
+    :`${B.length} savaştan <b>${F.length}</b> tanesi filtreye uyuyor. <button onclick="clearFilters()">Filtreleri temizle</button>`;
+  const more=document.getElementById("more");
+  const all=[...F].sort((a,b)=>(a[sortK]>b[sortK]?1:a[sortK]<b[sortK]?-1:a.y-b.y||String(a.id).localeCompare(String(b.id)))*sortD);
+  const rows=all.slice(0,shown);
+  more.hidden=all.length<=shown;more.textContent=`${Math.min(PAGE,all.length-shown)} savaş daha göster (${all.length-shown} kaldı)`;
+  tb.innerHTML=rows.map(b=>`<tr class="row" data-id="${b.id}"><td class="num">${b.y}</td><td>${esc(b.name_tr)}</td><td>${esc(b.state)}</td><td>${esc(b.place)}</td><td>${esc(b.opp)}</td><td>${CAT[b.category]}</td><td><span class="tag ${b.result}">${RES[b.result]}</span></td><td><span class="tag st ${b.status}">${ST[b.status]}</span></td></tr>`).join("");
   tb.querySelectorAll("tr.row").forEach(tr=>tr.onclick=()=>{
     const nx=tr.nextElementSibling;if(nx&&nx.classList.contains("detail")){nx.remove();return}
-    const b=B.find(x=>x.id==tr.dataset.id);tr.insertAdjacentHTML("afterend",`<tr class="detail"><td colspan="7">${recHTML(b)}</td></tr>`);
+    const b=B.find(x=>x.id==tr.dataset.id);tr.insertAdjacentHTML("afterend",`<tr class="detail"><td colspan="8">${recHTML(b)}</td></tr>`);
   });
 }
 
