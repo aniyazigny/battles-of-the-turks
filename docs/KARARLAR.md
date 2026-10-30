@@ -355,3 +355,12 @@ Kullanıcı geri bildirimi: iki ayrı yıl kaydırıcısı kafa karıştırıyor
   - Hun–Avar–Bulgar için ek kaynak bulunamadı.
   - Cecota 2011 (Bulgarlar ve 717–718 Arap kuşatması) kaynakların olayların seyrini kesin kurmaya izin vermediğini söylediği için kullanılmadı.
   - Keserci, Temmuz 1864 Çimkent kuşatmasını yazar ama Rusların püskürtüldüğünü söylemez. Bu yüzden Temmuz 1864 kaydına eklenmedi.
+
+## Harita: 400–1000 boşlukları (2026-10-30)
+Tablo 400'e uzatıldıktan sonra İtalya, Kuzey Afrika, Malta, İspanya, Pannonia, Pencap, Gūr, Ahsâ ve Ural ağzındaki şehirlerin ilk dilimi hâlâ 712–1000 arasında başlıyordu. Bu bölgeler o dönemlerde haritada boş görünüyordu. Kuzey İtalya'da ise hiç nokta yoktu. `tools/fix_borders_erken.py`:
+- Germen kavimleri devleti Got ve Vandal krallıklarını da kapsayacak şekilde genişletildi. Ağlebîler (800–909) yeni devlet olarak eklendi.
+- Pannonia'da Avarlar'dan sonra Tuna'nın batısı 796–895 Frank, doğusu 805–895 Bulgar oldu. Buda'daki 796–895 boşluğu kapandı.
+- Malta'nın 1000–1530 İspanya dilimi düzeltildi: 1000–1091 Kelbî emirliği, 1091–1283 Sicilya–Napoli, 1283'ten Aragon.
+- Lahor 500–540 Akhun (Toramana ve Mihirakula).
+- Milano ve Venedik noktaları eklendi.
+- `check_battle_owners.py`: bir yeni uyuşmazlık çıktı, zararsız. Nice 1543 artık Milano'ya (İspanya) düşüyor; şehir Savoya'nındı.
