@@ -328,3 +328,12 @@ Yöntem: her devletin haritadaki ilk ve son yılı tarihî ömrüyle karşılaş
 | Altan 2014 (`AKD:altan-2014`) | Bilbîs 1164, Banyas 1164, Mısır 1169 |
 | Turan 2017 (`AKD:turan-2017`) | Kilikya (Mleh) — akını 1170'e koyar → `dispute` |
 | Kalan 21 tek kaynaklı | Tuğtegin'in savaşları (1108–1126), Hârûn b. Han (1068–69), Çaka Bey (ROM), Saltuklu 1131 vb.; Alptekin'in *Dımaşk Atabegliği* ve Küçüksipahioğlu'nun Tuğtegin makalesi (Şarkiyat Mecmuası 2024) aday |
+
+## Kaynak turu: Anadolu Selçukluları (2026-10-30)
+| Kaynak | Desteklediği kayıtlar |
+|---|---|
+| Balık 2021a, 2021b (`AKD:balik-2021a`, `AKD:balik-2021b`) | Menderes ve Honaz 1148 (1 Ocak Menderes geçişi, 7–8 Ocak Kazıkbeli pususu) |
+| Aktaş 2015 (`AKD:aktas-2015`) | Ra'bân 1179 |
+| Bingöl ve Çopur 2025 (`AKD:bingol-copur-2025`) | Kilikya seferi 1225 |
+| İnce 2019 (zaten kayıtlı) | Lâdik 1119; Uluborlu (İnce 1121 der → `dispute`) |
+| Kalan 15 tek kaynaklı | Aksaray 1155 ve Yağıbasan 1162 (Işık 2019 ve Aktaş genel anlatır, muharebe yok), Hârizmliler 1238–1240, el-Kâmil 1234, Tarsus 1246, Roma verisine dayanan 1113–1179 Bizans çatışmaları |

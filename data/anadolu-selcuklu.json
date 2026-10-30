@@ -670,14 +670,16 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:haclilar"
+    "TDVIA:haclilar",
+    "AKD:balik-2021a",
+    "AKD:balik-2021b"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
@@ -1037,14 +1039,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:kilicarslan-ii"
+    "TDVIA:kilicarslan-ii",
+    "AKD:aktas-2015"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
@@ -1692,14 +1695,15 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:keykubad-i"
+    "TDVIA:keykubad-i",
+    "AKD:bingol-copur-2025"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
@@ -2410,14 +2414,15 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "ROM"
+    "ROM",
+    "AKD:ince-2019"
    ],
    "verify": {
     "tdvia": false,
     "tdvia2": false,
     "wp": false,
     "rom": true,
-    "academic": false
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
@@ -2445,19 +2450,21 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "ROM"
+    "ROM",
+    "AKD:ince-2019"
    ],
    "verify": {
     "tdvia": false,
     "tdvia2": false,
     "wp": false,
     "rom": true,
-    "academic": false
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
    "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var. TDVİA (Mesud I) Sozopolis'i yalnızca 1131'de Mesud'un alamadığı şehir olarak anar.",
-   "note_en": "Recorded only in the Roman dataset. TDVİA (Mas'ud I) mentions Sozopolis only as a town Mas'ud failed to take in 1131."
+   "note_en": "Recorded only in the Roman dataset. TDVİA (Mas'ud I) mentions Sozopolis only as a town Mas'ud failed to take in 1131.",
+   "dispute": "İnce (2019) Ioannes'in Uluborlu seferini 1121'e koyar; kayıttaki 1120 Roma veri setine göredir."
   },
   {
    "id": 68,

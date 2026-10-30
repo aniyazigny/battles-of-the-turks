@@ -290,7 +290,14 @@ EXTRA_SRC = {
  61: ["TDVIA:baybars-i", "TDVIA:muinuddin-suleyman-pervane"], 62: ["TDVIA:karamanogullari"], 63: ["TDVIA:germiyanogullari"],
  26: ["AKD:ince-2019"], 40: ["AKD:citak-2025"], 41: ["AKD:citak-2025"], 42: ["AKD:gokhan-2012", "AKD:citak-2025"],
  16: ["TDVIA:selcuklular"], 21: ["TDVIA:selcuklular"], 33: ["TDVIA:selcuklular"], 53: ["TDVIA:selcuklular"],
+ # Akademik kaynak turu (2026-10-30)
+ "Menderes ve Honaz (Fransız ordusu)": ["AKD:balik-2021a", "AKD:balik-2021b"],  # 1 Ocak 1148 Menderes geçişi, 7–8 Ocak Kazıkbeli (Honaz) pususu
+ "Ra'bân (Takıyyüddin Ömer)": ["AKD:aktas-2015"],  # Ra'bân'ı almak için harekete geçen Selçuklu kuvvetleri Takıyyüddin Ömer'e yenildi
+ "Kilikya seferi (Mut, Silifke)": ["AKD:bingol-copur-2025"],  # 1225 Kilikya harekâtı
+ "Lâdik (Laodikeia, 1119)": ["AKD:ince-2019"],  # II. Ioannes 1119'da Denizli'yi (Lâdik) kolayca aldı
+ "Uluborlu (Sozopolis, 1120)": ["AKD:ince-2019"],  # Ioannes'in ilk hedefi Uluborlu
 }
+FIX_N = {"Uluborlu (Sozopolis, 1120)": {"dispute": "İnce (2019) Ioannes'in Uluborlu seferini 1121'e koyar; kayıttaki 1120 Roma veri setine göredir."}}
 FIX = {
  40: {"dispute": "Tarih: İbn Bîbî ve TDVİA 2 Kasım 1214; Anonim Selçuknâme 17 Şevval 612 / 8 Şubat 1216 verir ve önceden bir anlaşma yapıldığından söz etmez (Çıtak 2025)."},
  42: {"dispute": "Tarih: TDVİA ve Gökhan (2012) 1216; Ayan 613/1217; Süryânî Mihail'e ek yapan bir müstensih 1218 verir. Gökhan'a göre kuşatma sırasında Ermeniler bir huruçla mancınıkları yaktı, ancak ardından meydan savaşında yenildiler ve Leon barış istedi."},
@@ -328,6 +335,7 @@ for i, r in enumerate(R, 1):
     if note: rec["note"], rec["note_en"] = note, note_en
     if cat == "turk_arasi": rec["opp_state"] = "Dânişmendliler"
     rec.update(FIX.get(i, {}))
+    rec.update(FIX_N.get(ntr, {}))
     if ntr in ROM_MATCH:
         if "ROM" not in rec["sources"]: rec["sources"].append("ROM")
         if ntr in ROM_NOTE: rec["dispute"] = ((rec.get("dispute") or "") + ROM_NOTE[ntr]).strip()
