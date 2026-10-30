@@ -186,14 +186,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:kazakistan"
+    "TDVIA:kazakistan",
+    "AKD:tansu-ozdemir-2017"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Kazaklar (Kenesarı)",
    "home_batch": "turkistan-hanliklari",
@@ -221,14 +222,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:kazakistan"
+    "TDVIA:kazakistan",
+    "AKD:tansu-ozdemir-2017"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Kazaklar (Kenesarı)",
    "home_batch": "turkistan-hanliklari",
@@ -256,14 +258,15 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:kazakistan"
+    "TDVIA:kazakistan",
+    "AKD:tansu-ozdemir-2017"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Kazaklar (Kenesarı)",
    "home_batch": "turkistan-hanliklari",
@@ -291,18 +294,19 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:kazakistan"
+    "TDVIA:kazakistan",
+    "AKD:tansu-ozdemir-2017"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Kazaklar (Kenesarı)",
    "home_batch": "turkistan-hanliklari",
-   "dispute": "Madde yıl vermez; olay 1845 sonbaharından sonraki ikinci çekilmeden (bir yıl sonra Alatav) sonra anlatılır.",
+   "dispute": "TDVİA maddesi yıl vermez; olay 1845 sonbaharından sonraki ikinci çekilmeden (bir yıl sonra Alatav) sonra anlatılır. Tansü ve Özdemir 1847 verir ve Kenesarı'nın kuvvetlerinin Almalı geçidinde kuşatıldığını yazar.",
    "note": "Alatav'a çekilen Kenasarı'ya Ruslar'ın kışkırtmasıyla Kırgızlar saldırdı; Mey-Tuble vahasına çekilen Kenasarı ikinci baskında esir alınıp öldürüldü.",
    "note_en": "Kenesary, withdrawn to the Alatau, was attacked by the Kyrgyz at Russian instigation; retreating to the Mey-Tuble oasis, he was captured and killed in a second raid."
   },
@@ -795,11 +799,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:hokand-hanligi"
+    "TDVIA:hokand-hanligi",
+    "TDVIA:endican"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

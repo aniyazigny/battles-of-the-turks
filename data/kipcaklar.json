@@ -1,8 +1,8 @@
 {
  "meta": {
-  "batch": "Parti 25 — Kıpçaklar / Kumanlar (1103–1239)",
+  "batch": "Parti 25 — Kıpçaklar / Kumanlar (1061–1239)",
   "compiled": "2026-10-30",
-  "status": "İlk tur.",
+  "status": "İlk tur; ikinci kaynak turunda Yücel 2006 (Belleten) eklendi, 1061, 1068 ve 1093 kayıtları ondan alındı.",
   "conventions": {
    "winner_first": "side_a kazanan taraftır; result alanı Türk (Selçuklu) tarafının sonucudur: W kazandı, L kaybetti, D belirsiz/berabere, C iç savaş (skora girmez).",
    "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",
@@ -27,6 +27,111 @@
  "battles": [
   {
    "id": 1,
+   "name_tr": "Pereyaslavl akını (1061)",
+   "name_en": "Cuman victory over the Rus (1061)",
+   "date": "1061",
+   "hijri": "",
+   "type": "land",
+   "war": "Kıpçak–Rus savaşları (1061–1185)",
+   "place": "Pereyaslavl knezliği",
+   "lat": 50.07,
+   "lon": 31.45,
+   "loc": "region",
+   "country": "Ukrayna",
+   "side_a": "Kıpçaklar (Kumanlar)",
+   "side_b": "Rus knezlikleri",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "AKD:yucel-2006"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": true
+   },
+   "state": "Kıpçaklar (Kumanlar)",
+   "home_batch": "kipcaklar",
+   "note": "1054–1055'te savaşmadan dönen Kumanlar 1061'de Pereyaslavl topraklarına yeniden geldiklerinde Ruslar'ı yendiler.",
+   "note_en": "Having turned back without fighting in 1054–1055, the Cumans returned to the Pereyaslavl lands in 1061 and defeated the Rus."
+  },
+  {
+   "id": 2,
+   "name_tr": "Alta (1068)",
+   "name_en": "Battle of the Alta River (1068)",
+   "date": "1068",
+   "hijri": "",
+   "type": "land",
+   "war": "Kıpçak–Rus savaşları (1061–1185)",
+   "place": "Alta ırmağı (Pereyaslavl yakını)",
+   "lat": 50.05,
+   "lon": 31.5,
+   "loc": "approx",
+   "country": "Ukrayna",
+   "side_a": "Kıpçaklar (Kumanlar)",
+   "side_b": "Rus knezlikleri",
+   "turkic_cmd": "",
+   "opp_cmd": "Kiev, Çernigov ve Pereyaslavl knezleri",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "AKD:yucel-2006"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": true
+   },
+   "state": "Kıpçaklar (Kumanlar)",
+   "home_batch": "kipcaklar",
+   "note": "Kaçan Uz ve Peçenek gruplarını hizmetine aldıkları gerekçesiyle Pereyaslavl'e yürüyen Kumanlar birleşik Rus knezlerini Alta ırmağında ağır bir yenilgiye uğrattı; Çernigov topraklarına kadar sokulmaları üzerine Kiev knezi Lehistan'a kaçtı.",
+   "note_en": "Marching on Pereyaslavl because the Rus had taken fugitive Uz and Pecheneg groups into their service, the Cumans heavily defeated the united Rus princes on the Alta; as they pushed into the Chernigov lands the prince of Kiev fled to Poland."
+  },
+  {
+   "id": 3,
+   "name_tr": "Torçesk kuşatması (1093)",
+   "name_en": "Siege of Torchesk (1093)",
+   "date": "1093",
+   "hijri": "",
+   "type": "land",
+   "war": "Kıpçak–Rus savaşları (1061–1185)",
+   "place": "Torçesk",
+   "lat": 49.85,
+   "lon": 30.8,
+   "loc": "approx",
+   "country": "Ukrayna",
+   "side_a": "Kıpçaklar (Kumanlar)",
+   "side_b": "Kiev knezliği (Torçesk Uzları)",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "AKD:yucel-2006"
+   ],
+   "verify": {
+    "tdvia": false,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": true
+   },
+   "state": "Kıpçaklar (Kumanlar)",
+   "home_batch": "kipcaklar",
+   "note": "Kumanlar Torçesk'i dokuz hafta kuşatıp aldılar ve şehirdeki Uzlar'ı beraberlerinde götürdüler; ertesi yıl Ruslar'la barış yapıldı. Şehir, Rus hizmetindeki Uzlar'ın (Torklar) yerleşimiydi.",
+   "note_en": "The Cumans besieged Torchesk for nine weeks, took it and carried off the Uz living there; peace with the Rus followed in 1094. The town was a settlement of the Uz (Torks) in Rus service."
+  },
+  {
+   "id": 4,
    "name_tr": "Rus zaferi (1103)",
    "name_en": "Rus victory over the Cumans (1103)",
    "date": "1103",
@@ -46,14 +151,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:kipcaklar"
+    "TDVIA:kipcaklar",
+    "AKD:yucel-2006"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Kıpçaklar (Kumanlar)",
    "home_batch": "kipcaklar",
@@ -61,7 +167,7 @@
    "note_en": "The Rus won a great success over the Cumans, who answered with fierce raids in 1105–1111."
   },
   {
-   "id": 2,
+   "id": 5,
    "name_tr": "Aksu (1184)",
    "name_en": "Battle of the Orel (1184)",
    "date": "1184",
@@ -81,14 +187,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:kipcaklar"
+    "TDVIA:kipcaklar",
+    "AKD:yucel-2006"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Kıpçaklar (Kumanlar)",
    "home_batch": "kipcaklar",
@@ -96,7 +203,7 @@
    "note_en": "The Cumans of the Aksu, raiding around Kiev, were beaten by the united army of the southern Rus principalities."
   },
   {
-   "id": 3,
+   "id": 6,
    "name_tr": "Kayalı (1185)",
    "name_en": "Battle of the Kayala (1185)",
    "date": "1185",
@@ -116,14 +223,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:kipcaklar"
+    "TDVIA:kipcaklar",
+    "AKD:yucel-2006"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Kıpçaklar (Kumanlar)",
    "home_batch": "kipcaklar",
@@ -131,7 +239,7 @@
    "note_en": "Igor Svyatoslavich's army, campaigning against the Cumans, was surrounded and destroyed on the Kayala; the campaign is the subject of the Lay of Igor's Campaign."
   },
   {
-   "id": 4,
+   "id": 7,
    "name_tr": "Asen ve Petar'ın ayaklanması (1186–1187)",
    "name_en": "Cuman-backed Asen rising (1186–1187)",
    "date": "1186",
@@ -167,7 +275,7 @@
    "note_en": "The brothers Peter and Asen, who had fled across the Danube to the Cumans, retook northern Bulgaria with a Cuman army and forced Byzantium to make peace in 1187; borderline as the Cumans were auxiliaries."
   },
   {
-   "id": 5,
+   "id": 8,
    "name_tr": "Kalka (1223)",
    "name_en": "Battle of the Kalka River",
    "date": "1223",
@@ -203,7 +311,7 @@
    "note_en": "Allied with the Rus against the Mongol invasion, the Cumans were defeated by two Mongol tümens under Jebe and Subutai."
   },
   {
-   "id": 6,
+   "id": 9,
    "name_tr": "Batu'nun Deşt-i Kıpçak seferi (1237–1239)",
    "name_en": "Mongol conquest of the Cumans (1237–1239)",
    "date": "1237",
@@ -244,7 +352,7 @@
  "left_out": [
   {
    "name": "Rus bozkırlarının alınışı (1061 sonrası)",
-   "reason": "Kıpçaklar maddesi süreci toplu anar.",
+   "reason": "Kıpçaklar maddesi süreci toplu anar; 1061, 1068 ve 1093 savaşları Yücel 2006'dan ayrı kayıt olarak alındı.",
    "source": "TDVIA:kipcaklar"
   },
   {

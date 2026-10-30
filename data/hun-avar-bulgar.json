@@ -688,14 +688,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:bulgaristan"
+    "TDVIA:bulgaristan",
+    "AKD:ucar-811"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Tuna Bulgar Hanlığı",
    "home_batch": "hun-avar-bulgar"
@@ -721,14 +722,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:bizans"
+    "TDVIA:bizans",
+    "AKD:ucar-811"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Tuna Bulgar Hanlığı",
    "home_batch": "hun-avar-bulgar",
@@ -756,14 +758,15 @@
    "result": "W",
    "status": "ihtilafli",
    "sources": [
-    "TDVIA:bulgaristan"
+    "TDVIA:bulgaristan",
+    "AKD:ucar-811"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Tuna Bulgar Hanlığı",
    "home_batch": "hun-avar-bulgar",
@@ -880,7 +883,7 @@
  "left_out": [
   {
    "name": "Asya Hunları (MÖ 209–MS 216)",
-   "reason": "Negatif (MÖ) yıl desteği gerektirir; şema kararı bekliyor. TDVİA Asya maddesi Mete dönemi genişlemesini toplu anar.",
+   "reason": "Kapsam dışı: MÖ tarihler alınmaz (kullanıcı kararı 2026-10-30).",
    "source": "TDVIA:asya"
   },
   {

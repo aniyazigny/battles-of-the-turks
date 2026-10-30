@@ -228,14 +228,15 @@
    "sources": [
     "TDVIA:hazarlar",
     "TDVIA:yezid-ii",
-    "TDVIA:cerrah-b-abdullah"
+    "TDVIA:cerrah-b-abdullah",
+    "AKD:celik-2013"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Hazar Kağanlığı",
    "home_batch": "bozkir-devletleri",
@@ -265,14 +266,15 @@
    "sources": [
     "TDVIA:cerrah-b-abdullah",
     "TDVIA:hazarlar",
-    "TDVIA:yezid-ii"
+    "TDVIA:yezid-ii",
+    "AKD:celik-2013"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Hazar Kağanlığı",
    "home_batch": "bozkir-devletleri",
@@ -300,14 +302,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:cerrah-b-abdullah"
+    "TDVIA:cerrah-b-abdullah",
+    "AKD:celik-2013"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Hazar Kağanlığı",
    "home_batch": "bozkir-devletleri",
@@ -335,14 +338,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:cerrah-b-abdullah"
+    "TDVIA:cerrah-b-abdullah",
+    "AKD:celik-2013"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Hazar Kağanlığı",
    "home_batch": "bozkir-devletleri",
@@ -405,14 +409,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:cerrah-b-abdullah"
+    "TDVIA:cerrah-b-abdullah",
+    "AKD:celik-2013"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Hazar Kağanlığı",
    "home_batch": "bozkir-devletleri",
@@ -441,14 +446,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:cerrah-b-abdullah",
-    "TDVIA:hazarlar"
+    "TDVIA:hazarlar",
+    "AKD:celik-2013"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Hazar Kağanlığı",
    "home_batch": "bozkir-devletleri",
@@ -910,14 +916,15 @@
    "sources": [
     "TDVIA:pecenekler",
     "TDVIA:kipcaklar",
-    "TDVIA:edirne"
+    "TDVIA:edirne",
+    "AKD:yucel-2006"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Peçenekler",
    "home_batch": "bozkir-devletleri",

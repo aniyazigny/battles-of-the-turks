@@ -36,7 +36,7 @@
 | [docs/24-turkistan-hanliklari.md](docs/24-turkistan-hanliklari.md) | Parti 22: Türkistan hanlıkları ve Rus istilâsı (1837–1881) |
 | [docs/25-bozkir-devletleri.md](docs/25-bozkir-devletleri.md) | Parti 23: Hazarlar, Peçenekler, İdil Bulgarları ve Kırgızlar (652–1361) |
 | [docs/26-hun-avar-bulgar.md](docs/26-hun-avar-bulgar.md) | Parti 24: Avrupa Hunları, Akhunlar, Avarlar ve Tuna Bulgarları (427–834) |
-| [docs/27-kipcaklar.md](docs/27-kipcaklar.md) | Parti 25: Kıpçaklar / Kumanlar (1103–1239) |
+| [docs/27-kipcaklar.md](docs/27-kipcaklar.md) | Parti 25: Kıpçaklar / Kumanlar (1061–1239) |
 | [docs/06-dogrulama-turu.md](docs/06-dogrulama-turu.md) | Roma veri seti, akademik yayınlar ve Wikipedia ile doğrulama turu |
 
 ## Veri

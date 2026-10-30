@@ -134,9 +134,16 @@ R = [
 ]
 
 OPP_STATE = {"Avar topraklarının alınışı (805)": AV}
+# İkinci kaynak turu (2026-10-30): Uçar 2021, 811 Kroniği çevirisinin girişinde Krum'un 809'da Sofya'yı alışını, Nikephoros'un 811
+# seferini ve ölümünü, ikinci fragmanın 813–814 Trakya savaşlarını ve Edirne'nin istilâsını anar.
+EXTRA_SRC = {
+    "Sofya (809)": ["AKD:ucar-811"],
+    "Nikephoros'un yenilgisi (811)": ["AKD:ucar-811"],
+    "Edirne (813)": ["AKD:ucar-811"],
+}
 
 LEFT = [
-    {"name": "Asya Hunları (MÖ 209–MS 216)", "reason": "Negatif (MÖ) yıl desteği gerektirir; şema kararı bekliyor. TDVİA Asya maddesi Mete dönemi genişlemesini toplu anar.", "source": "TDVIA:asya"},
+    {"name": "Asya Hunları (MÖ 209–MS 216)", "reason": "Kapsam dışı: MÖ tarihler alınmaz (kullanıcı kararı 2026-10-30).", "source": "TDVIA:asya"},
     {"name": "Avrupa Hunları'nın Got yenilgisi (375) ve Uldız–Rua dönemi", "reason": "Erkoç yalnızca 375 istilâsını anar; muharebe ayrıntısı için Ahmetbeyoğlu (Avrupa Hun İmparatorluğu, TTK 2001) gerekir.", "source": "AKD:erkoc-447"},
     {"name": "Orleans (451)", "reason": "Kuşatmanın olup olmadığı tartışmalı (Yurdakul).", "source": "AKD:yurdakul-2023"},
     {"name": "Kubâd'ın Akhun ordusuyla tahta dönüşü (498)", "reason": "Sâsânîler maddesine göre Câmasb savaş yapmadan tahtı bıraktı.", "source": "TDVIA:sasaniler"},
@@ -148,6 +155,7 @@ LEFT = [
 recs = []
 for i, r in enumerate(R, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ, state) = r
+    src = src + [x for x in EXTRA_SRC.get(ntr, []) if x not in src]
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,

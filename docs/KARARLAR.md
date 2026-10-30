@@ -266,3 +266,13 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Savaş listesi filtreleri | Arama (ad, yer, harp, taraflar, komutanlar), Türk devleti (Türk devletleri arası savaşlarda `opp_state` de eşleşir), rakip (ilk ada göre gruplanır, metin içinde aranır), yıl aralığı (harita kaydırıcılarıyla eş), sonuç, kategori, tür. Filtreler haritaya ve istatistik kartlarına da uygulanır; harita üstünde etkin filtreler ve "temizle" bağlantısı görünür |
 | Liste uzunluğu | 100'er satır gösterilir, "daha göster" ile genişler; "Türk devleti" sütunu eklendi |
 | Eskimiş sınır dilimleri | 1923'e uzanan son dilimler güncellendi (`tools/fix_borders_modern.py`): Habsburg mirası 1918, Sırp-Hırvat-Sloven Krallığı, Polonya, Sovyet dönemi, Kalmukların Rusya'ya bağlanması 1771, Afganistan 1826, Çin Cumhuriyeti 1912 |
+
+## İkinci kaynak turu, Parti 22–25 (2026-10-30)
+| Kaynak | Desteklediği kayıtlar |
+|---|---|
+| Tansü ve Özdemir 2017 (`AKD:tansu-ozdemir-2017`) | Lebedev 1843, Kenesarı 1844, Karatav 1845, Mey-Tuble 1847 (yıl akademik kaynağa göre 1847) |
+| TDVİA Endican | Endican 1876 |
+| Uçar 2021 (`AKD:ucar-811`) | Sofya 809, Nikephoros 811, Edirne 813 |
+| Çelik 2013 (`AKD:celik-2013`) | Mercülhicâre 722–723, Nehrürrân ve Belencer 722, İrmîniye 723–724 (Elzem, Kür–Aras arası), Mugan 725–726, Belencer ve Beyzâ 729, Erdebil 730. Allân 727'ye eklenmedi: Çelik 726–727'de hakanın Azerbaycan akınının püskürtüldüğünü yazar, yer farklı |
+| Yücel 2006 (`AKD:yucel-2006`) | Rus zaferi 1103, Aksu 1184, Kayalı 1185, Edirne 1078; yeni kayıtlar Pereyaslavl 1061, Alta 1068, Torçesk 1093 |
+| Torçesk 1093 | Şehir Rus hizmetindeki Uzlar'ın yerleşimiydi; karşı taraf "Kiev knezliği (Torçesk Uzları)", kategori `dis` |

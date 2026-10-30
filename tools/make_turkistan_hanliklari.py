@@ -52,7 +52,7 @@ R = [
  "Unable to withstand the attacks of the Orenburg and Siberian armies lasting until autumn, Kenesary's forces abandoned Karatau; no single battle is named.", "land", KZ),
 ("Mey-Tuble (c. 1847)", "Death of Kenesary (c. 1847)", "c. 1847", WKN, "Mey-Tuble vahası (yukarı Çu)", 42.80, 75.50, "approx", "Kırgızistan",
  "Kırgızlar", KZ, "Sultan Kenesarı Kasımoğlu", "", "turk_arasi", "L", "kesin",
- ["TDVIA:kazakistan"], "Madde yıl vermez; olay 1845 sonbaharından sonraki ikinci çekilmeden (bir yıl sonra Alatav) sonra anlatılır.",
+ ["TDVIA:kazakistan"], "TDVİA maddesi yıl vermez; olay 1845 sonbaharından sonraki ikinci çekilmeden (bir yıl sonra Alatav) sonra anlatılır. Tansü ve Özdemir 1847 verir ve Kenesarı'nın kuvvetlerinin Almalı geçidinde kuşatıldığını yazar.",
  "Alatav'a çekilen Kenasarı'ya Ruslar'ın kışkırtmasıyla Kırgızlar saldırdı; Mey-Tuble vahasına çekilen Kenasarı ikinci baskında esir alınıp öldürüldü.",
  "Kenesary, withdrawn to the Alatau, was attacked by the Kyrgyz at Russian instigation; retreating to the Mey-Tuble oasis, he was captured and killed in a second raid.", "land", KZ),
 ("Akmescid (1853)", "Siege of Ak-Mechet (1853)", "1853", WRI, "Akmescid (Kızılorda)", 44.85, 65.51, "known", "Kazakistan",
@@ -153,7 +153,16 @@ LEFT = [
     {"name": "1916 Türkistan ve Yedisu isyanı; Basmacı Hareketi (1918–1923)", "reason": "Hanlıkların yıkılışından sonraki ayaklanmalar; ayrı kapsam kararı gerekir.", "source": "TDVIA:kirgizistan"},
 ]
 
-EXTRA_SRC = {}
+# İkinci kaynak turu (2026-10-30): Tansü ve Özdemir 2017 (Kenesarı İsyanı) Lebedov'un 1843 bozgununu, 14 Ağustos 1844 baskınını,
+# 1845 sonbaharında Karatav'ın boşaltılmasını ve Kenesarı'nın 1847'de Ormon Han'ın Kırgızları'nca öldürülmesini yazar.
+# Endican maddesi Rusya'nın şehri 1876'da aldığını yazar.
+EXTRA_SRC = {
+    "Lebedev ve Bisyanov'un yenilgisi (1843)": ["AKD:tansu-ozdemir-2017"],
+    "Kenesarı'nın 1844 zaferi": ["AKD:tansu-ozdemir-2017"],
+    "Karatav'ın boşaltılması (1845)": ["AKD:tansu-ozdemir-2017"],
+    "Mey-Tuble (c. 1847)": ["AKD:tansu-ozdemir-2017"],
+    "Endican (1876)": ["TDVIA:endican"],
+}
 
 recs = []
 for i, r in enumerate(R, 1):

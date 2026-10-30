@@ -184,6 +184,14 @@ EXTRA_SRC = {
     "Samara (1223)": ["TDVIA:bulgar"],  # Moğol ordusuna saldırıp onları yendiler
     "Bulgar (1236)": ["TDVIA:bulgar"],  # Batu Han'ın emriyle bütün şehirleri yakılıp yıkıldı
     "Pulat Timur'un saldırısı (1361)": ["TDVIA:bulgar"],  # Pulat Timur'un saldırısıyla şehirleri yıkıldı
+    # Çelik 2013 (Cerrâh b. Abdullah, İstem 21), ikinci kaynak turu 2026-10-30
+    "Mercülhicâre (722–723)": ["AKD:celik-2013"],  # Sübeyt en-Nehrânî'nin ordusu Hazarlar'a yenildi (104/722-723)
+    "Nehrürrân ve Belencer (722)": ["AKD:celik-2013"],  # Ran nehri savaşı, Belencer'in fethi (104/722-723)
+    "İrmîniye akını (723–724)": ["AKD:celik-2013"],  # Ramazan 105: hakan Ermeniyye'ye yürüdü, Elzem'de (Kür–Aras arası) yenildi
+    "Mugan (725–726)": ["AKD:celik-2013"],  # Cerrâh 107/725-726'da Hazarlar'a yenilip azledildi
+    "Belencer ve Beyzâ (729)": ["AKD:celik-2013"],  # ikinci valilik: Tiflis üzerinden Belencer ve el-Beyzâ (111/729-730)
+    "Erdebil (730)": ["AKD:celik-2013"],  # Erdebil yakınında yenilip şehid düştü (112/730)
+    "Edirne (1078)": ["AKD:yucel-2006"],  # Kumanlar 1078'de isyan eden Peçenekler'le birlikte Edirne'yi kuşattı
 }
 
 recs = []
