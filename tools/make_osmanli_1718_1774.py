@@ -124,6 +124,10 @@ EXTRA_SRC = {"İran seferi (1723–1725)": ["TDVIA:azerbaycan"],  # kontrol turu
  "Bender (1770)": ["TDVIA:ivazzade-halil-pasa"],
  "Limni (1770)": ["TDVIA:limni"],
  "Kozluca (1774)": ["TDVIA:kucuk-kaynarca-antlasmasi", "TDVIA:osmanlilar"]}
+# Üçüncü kaynak turu (2026-10-31): toplu TDVİA taraması
+EXTRA_SRC.update({
+    "Kırım'ın istilâsı (1736)": ["TDVIA:kirim"],  # Rus kuvvetleri ilk defa 1736'da Münnich kumandasında Kırım yarımadasını istilâ etti
+})
 FIX = {"Nihâvend (1726)": {"turkic_cmd": "Bağdat Valisi Ahmed Paşa",
         "dispute": "Safevîler maddesi Eşref Han'ın savaşa yanaşmadan barış imzaladığını söyler; Ahmed III, Ahmed Paşa ve Damad İbrâhim Paşa maddeleri Kasım 1726'da savaş olduğunu yazar."},
  "Bağdat (1733)": {"place": "Dücum, Sâmerrâ yöresi (Bağdat'ın kuzeyi)", "lat": 34.20, "lon": 43.87, "loc": "approx",

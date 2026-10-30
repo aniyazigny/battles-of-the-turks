@@ -390,3 +390,23 @@ Tablo 400'e uzatıldıktan sonra İtalya, Kuzey Afrika, Malta, İspanya, Pannoni
 - Pilot verisinin üretici betiği yok; kaynaklar doğrudan `data/pilot-buyuk-selcuklu.json`'a eklendi.
 - Tek kaynaklı kayıt 184'ten 180'e indi.
 - Göktürk–Uygur kalanları (Fergana 649, Kırgız 710–711, Togubalık 715, Kapgan 716, Buhara 729, Kırgızlar 758, Tun-huang 911) için TDVİA'da (Uygurlar, Kansu Uygurları, Tatarlar, Oğuzlar, Kuteybe, Buhara, Tonyukuk) ikinci kaynak yok. Aydın'ın yazıt makaleleri Togubalık'ı yalnız yer adı olarak anar.
+
+## Toplu TDVİA taraması (2026-10-31)
+Kalan tek kaynaklı kayıtlar için yer, kişi, devlet ve savaş adlı yaklaşık 90 yeni TDVİA maddesi indirildi. Her kayıt için tarih ve yer adını birlikte arayan düzenli ifadeler, kaydın kendi kaynağı dışındaki bütün `raw/` metinlerinde tarandı (betik oturum notlarında; veriye dokunmaz). Eşleşmeler tek tek okunup kayıtla uyuşanlar eklendi. 180 → 157.
+- Eklenenler (kayıt → madde):
+  - **Kuruluş:** Ermeni Beli → Osman I; Pikridion → Bizans; Pločnik → Kosova.
+  - **1402–1520:** Hermannstadt 1442 → Çandarlı Halil Paşa; İnebahtı 1499 → Osmanlılar; Turnadağ → Dulkadıroğulları.
+  - **1520–1640:** Gorjani 1537 → Çekoslovakya; Cezayir 1541 → Barbaros Hayreddin Paşa; Meşale 1583 → Şirvan; Yanıkkale 1598 → Mehmed III; Tokat 1602 → Tokat; Estergon 1604 → Lala Mehmed Paşa; Azak 1637 → Rusya.
+  - **1640–1912:** Resmo 1646 → Deli Hüseyin Paşa; İzvança 1676 ve Çehrin 1677 → Melek İbrâhim Paşa; Uyvar 1685 → Osmanlılar; Niş 1689 → Niş; Kırım 1736 → Kırım; Tripoliçe 1821 → Yunanistan; Beyrut 1912 → İtalya.
+  - **Diğer:** Tûs 995 → Sîmcûrîler; Pereyaslavl 1061 → Kıpçaklar.
+- **Ermeni Beli:** Kayıt Roma veri setinden gelmişti; notu "TDVİA'da ayrı kayıt yok" diyordu. Osman I maddesi çatışmayı anar ve "yerel önemsiz bir karşılaşma" sayar; not buna göre yazıldı. Sonuç `D`, durum `borderline` kaldı.
+- **Farklar `dispute`'a yazıldı:**
+  - Turnadağ: Dulkadıroğulları maddesi yer olarak Ördekli'yi ve 13 Haziran tarihini verir.
+  - Niş: Niş maddesi 24 Eylül 1688 der. Ay ve gün aynı olduğu için maddedeki yıl hatalı sayıldı; kayıt 1689'da kaldı.
+- **Elenen adaylar:**
+  - Azak 1641: Evliya Çelebi yalnız sefere katıldığını yazar.
+  - Afyonkarahisar 1648: Isparta maddesi Haydaroğlu'nun Afyon baskınını anlatır; Ahmed Paşa'nın yenilgisinden söz etmez.
+  - Gazze 1516: Selim I maddesi yalnız padişahın Gazze'ye girişini anlatır.
+  - Selmas 1605: Gazi Giray II maddesindeki "Selmas Han" bir kişidir.
+  - Tobruk 1911: Enver Paşa maddesi yalnız Tobruk'a varışı yazar.
+  - Gazne 1149: Gurlular maddesi 1148'deki ele geçirmeyi anlatır.

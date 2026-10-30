@@ -135,6 +135,10 @@ R = [
 
 EXTRA_SRC = {n: ["AKD:palabiyik-2007"] for n in ("Peşâver (Caypal)", "Vayhand ovası (Anandpâl)", "Nandana (Triloçanpâl)", "Lokhot kuşatması",
                                               "Kannevc seferi", "Ganda'ya karşı (Bari)", "Somnat", "İndus üzerinde Câtlar")}
+# Üçüncü kaynak turu (2026-10-31): toplu TDVİA taraması
+EXTRA_SRC.update({
+    "Tûs (Ebû Ali Sîmcûrî)": ["TDVIA:simcuriler"],  # Ebû Ali Tûs'ta yapılan savaşta yenilince (22 Temmuz 995) Hârizm'e kaçtı
+})
 FIX = {"Peşâver (Caypal)": {"dispute": "Tarih: TDVİA zaferi 392'ye (1002) koyar; Palabıyık (2007) bu ikinci seferi Vayhand seferi olarak 391-2/1001-2'ye tarihler ve Caypal'ın esir alındığını yazar; yaygın tarih 27 Kasım 1001'dir."},
        "Ganda'ya karşı (Bari)": {"status": "kesin", "note": "Bari alındı. Palabıyık'a (2007) göre on üçüncü seferde (410/1019) askerler Ramganga nehrini tulumlarla geçti ve Ganda ile müttefiklerine karşı büyük bir zafer kazanıldı.", "note_en": "Bari was taken. According to Palabıyık (2007), on the thirteenth campaign (410/1019) the troops crossed the Ramganga on inflated skins and won a great victory over Ganda and his allies."}}
 # İkinci kaynak turu (2026-10-29)

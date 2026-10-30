@@ -167,6 +167,10 @@ EXTRA_SRC = {"Albulena": ["TDVIA:iskender-bey"], "Eflak seferi (1462)": ["TDVIA:
              "Eğriboz": ["TDVIA:egriboz"], "Karaman seferi (1474)": ["TDVIA:karamanogullari"], "Akdere (Vaslui, 1475)": ["TDVIA:bogdan"],
              "Kefe": ["TDVIA:kefe"], "Akçahisar (Kruya, 1478)": ["TDVIA:arnavutluk"], "Otranto (1480)": ["TDVIA:otranto-seferi", "TDVIA:gedik-ahmed-pasa"],
              "Otranto (1481)": ["TDVIA:otranto-seferi"], "İzlâdi (Zlatitsa)": ["TDVIA:macaristan"]}
+# Üçüncü kaynak turu (2026-10-31): toplu TDVİA taraması
+EXTRA_SRC.update({
+    "Hermannstadt (Sibiu, 1442)": ["TDVIA:candarli-halil-pasa"],  # Osmanlı kuvvetleri Hermannstadt ve Vasag'da Jan Hünyad'a yenildi
+})
 FIX = {"Edirne (1411)": {"date": "1411-02-17", "note": "Mûsâ âni bir saldırıyla Edirne'yi aldı; Süleyman öldürüldü (22 Şevval 813; Mehmed I maddesi).",
                          "note_en": "Musa took Edirne in a surprise attack; Süleyman was killed (17 February 1411; Mehmed I article)."},
        "İzlâdi (Zlatitsa)": {"result": "D", "dispute": "TDVİA'nın kendi maddeleri çelişiyor: Varna Muharebesi maddesi Murad'ın Macar birliklerini Zlatitsa geçidinde zorlukla durdurduğunu, Macaristan maddesi ise İzlâdi'yi Hunyadi'nin Osmanlılara karşı ilk ciddi başarılarından biri olarak anar. Batı kaynakları da çekilişte Kunoviçe'de Haçlı başarısı yazar. P6 TDVİA'nın kendi içindeki çelişkiyi çözmediği için sonuç belirsiz (D)."},

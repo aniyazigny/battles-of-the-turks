@@ -619,11 +619,12 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:murad-ii"
+    "TDVIA:murad-ii",
+    "TDVIA:candarli-halil-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

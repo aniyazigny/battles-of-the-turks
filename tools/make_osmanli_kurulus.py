@@ -126,6 +126,12 @@ EXTRA_SRC = {"Kulaca Hisar": ["TDVIA:osman-i"], "Savra (Muzakiye ovası)": ["TDV
              "Selânik'in teslimi": ["TDVIA:selanik"], "Bileća": ["TDVIA:bosna-hersek"], "Karacahisar": ["TDVIA:eskisehir"],
              "Akçay": ["TDVIA:alaeddin-bey--karamanogullari", "AKD:safakci-2023"],
              "Çorumlu (Kırkdilim)": ["AKD:derinoz-2022", "AKD:eroglu-sehzadeler"], "Argeş (Rovine)": ["AKD:heper-2023"]}
+# Üçüncü kaynak turu (2026-10-31): toplu TDVİA taraması
+EXTRA_SRC.update({
+    "Pikridion (Savcı Bey isyanı)": ["TDVIA:bizans"],  # Andronikos Savcı Bey ile birlikte babalarına karşı isyan etti (1373)
+    "Pločnik": ["TDVIA:kosova"],  # Osmanlı akıncılarının Ploçnik'te yenilmesi
+    "Ermeni Beli": ["TDVIA:osman-i"],  # Ermenibeli çatışması yerel, önemsiz bir karşılaşma
+})
 FIX = {"Argeş (Rovine)": {"dispute": "TDVİA: Mircea yenildi ve yerine Vlad getirildi. Heper (2023): Argeş ya da Rovine civarındaki savaştan sonra Mircea ile anlaşılıp Eflak'ta hâkimiyet sağlandı; savaşın yeri ve tarihi literatürde tartışmalıdır. Alternatif okuma: Romen kaynakları Rovine'yi Mircea'nın zaferi sayar. Karar [P6]: Osmanlı zaferi."},
        "Manastır": {"dispute": "Tarih: Manastır maddesi 784-785 (1382-83), bazı rivayetlere göre 787 (1385) verir."},
        "Niş": {"note": "Yirmi beş gün süren ağır bir kuşatmadan sonra yağma ilânıyla alındı (Niş maddesi).", "note_en": "Taken after a heavy 25-day siege following a declaration of plunder (Niš article)."},
@@ -136,6 +142,7 @@ FIX = {"Argeş (Rovine)": {"dispute": "TDVİA: Mircea yenildi ve yerine Vlad get
                  "note_en": "Defeated in a two-day battle, Alaeddin Bey took refuge in Konya castle; the city surrendered on the tenth day of the siege and he was captured and killed."},
        "Çorumlu (Kırkdilim)": {"note": "Üç gün süren savaşı Osmanlılar kaybetti (Derinöz 2022). Osmanlı kroniklerine (Neşrî) dayanan yaygın görüşe göre Şehzade Ertuğrul burada şehit düştü; Eroğlu ise savaşı ayrıntılı anlatan Esterâbâdî'nin Ertuğrul'dan hiç söz etmediğine dikkat çekerek bunu sorgular.",
                                "note_en": "The Ottomans lost a three-day battle (Derinöz 2022). The common view based on Ottoman chronicles (Neşri) is that Prince Ertuğrul fell here; Eroğlu questions this, noting that Astarabadi, who describes the battle in detail, never mentions him."}}
+FIX["Ermeni Beli"] = {"note": "Roma veri setinden (Bizans kaynakları) geldi. Osman I maddesi Ermenibeli çatışmasını yerel ve önemsiz bir karşılaşma sayar; Osmanlı rivayetine göre Osman bu çatışmanın ardından gazâ kılıcı kuşanıp bölge tekfurlarına karşı aktif gazâya başladı. Saru Batu Savcı Bey'in şehit düştüğü çarpışmayla ilişkilendirilir."}
 OPP_STATE = {"Frenkyazısı": KAR, "Akçay": KAR, "Çorumlu (Kırkdilim)": KB, "Eretna kuvvetlerine karşı": ERT}
 LEFT = [
  {"name": "Bilecik ve Yarhisar (1299)", "reason": "Rivayete göre hile ile alındı; meydan savaşı yok.", "source": "TDVIA:osman-i"},

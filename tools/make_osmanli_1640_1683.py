@@ -103,6 +103,12 @@ R = [
 EXTRA_SRC = {"Isparta (1648)": ["TDVIA:isparta"], "Estergon (1683)": ["TDVIA:estergon"],  # kontrol turu
              "Azak (1642)": ["TDVIA:azak"], "Çanakkale (1654)": ["TDVIA:kara-murad-pasa"], "Çanakkale (1656)": ["TDVIA:kenan-pasa"],
              "Varad (1660)": ["TDVIA:koprulu-mehmed-pasa"], "Hotin (1673)": ["TDVIA:hotin"]}
+# Üçüncü kaynak turu (2026-10-31): toplu TDVİA taraması
+EXTRA_SRC.update({
+    "Resmo (1646)": ["TDVIA:huseyin-pasa-deli"],  # kırk günlük kuşatmadan sonra 14 Kasım 1646'da fethedildi
+    "İzvança (1676)": ["TDVIA:ibrahim-pasa-melek"],  # İzvança civarındaki savaşta kazanılan başarılar
+    "Çehrin (1677)": ["TDVIA:ibrahim-pasa-melek"],  # 23 gün kuşatıldı, Rus yardımı gelince kaldırıldı
+})
 FIX = {"Çanakkale (1654)": {"note": "Altı saat süren deniz savaşı Osmanlı galibiyetiyle bitti; Boğaz Osmanlı gemilerine açıldı. Yıl maddelerdeki olay sırasından çıkarıldı (Murad Paşa Kasım 1653'te kaptan-ı deryâ oldu).",
                             "note_en": "The six-hour sea battle ended in Ottoman victory and reopened the Straits. The year is inferred from the articles (Murad Pasha became admiral in November 1653)."},
        "Çanakkale (1656)": {"note": "Bazı kaynaklarda ikinci bir İnebahtı hezimeti sayılır; Venedikliler Bozcaada, Limni ve Semadirek'i işgal etti.",

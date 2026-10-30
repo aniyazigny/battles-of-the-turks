@@ -298,11 +298,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:kemal-reis"
+    "TDVIA:kemal-reis",
+    "TDVIA:osmanlilar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -760,11 +761,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:selim-i"
+    "TDVIA:selim-i",
+    "TDVIA:dulkadirogullari"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -773,7 +775,8 @@
    "home_batch": "osmanli-1481-1520",
    "note": "Alâüddevle savaşta öldü; Dulkadır beyliği Osmanlı himayesine girdi.",
    "note_en": "Alaüddevle was killed; the Dulkadir beylik came under Ottoman protection.",
-   "opp_state": "Dulkadıroğulları"
+   "opp_state": "Dulkadıroğulları",
+   "dispute": "Dulkadıroğulları maddesi savaşı Göksun ile Andırın arasında Ördekli mevkiine ve 13 Haziran 1515'e koyar; Selim I maddesi yer vermeden 12 Haziran der."
   },
   {
    "id": 22,

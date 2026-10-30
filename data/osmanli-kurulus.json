@@ -46,10 +46,11 @@
    "result": "D",
    "status": "borderline",
    "sources": [
-    "ROM"
+    "ROM",
+    "TDVIA:osman-i"
    ],
    "verify": {
-    "tdvia": false,
+    "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": true,
@@ -57,7 +58,7 @@
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-kurulus",
-   "note": "Yalnızca Roma veri setinde (Bizans kaynakları) var; sonuç belirsiz. Osmanlı rivayetinde Saru Batu Savcı Bey'in şehit düştüğü çarpışmayla ilişkilendirilir; TDVİA'da ayrı bir kayıt bulunamadı.",
+   "note": "Roma veri setinden (Bizans kaynakları) geldi. Osman I maddesi Ermenibeli çatışmasını yerel ve önemsiz bir karşılaşma sayar; Osmanlı rivayetine göre Osman bu çatışmanın ardından gazâ kılıcı kuşanıp bölge tekfurlarına karşı aktif gazâya başladı. Saru Batu Savcı Bey'in şehit düştüğü çarpışmayla ilişkilendirilir.",
    "note_en": "Recorded only in the Roman dataset (Byzantine sources); outcome unclear. Ottoman tradition links it to the clash in which Saru Batu Savcı Bey fell; no separate TDVİA account found."
   },
   {
@@ -665,11 +666,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:murad-i"
+    "TDVIA:murad-i",
+    "TDVIA:bizans"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -920,11 +922,12 @@
    "result": "L",
    "status": "ihtilafli",
    "sources": [
-    "TDVIA:kosova-savaslari"
+    "TDVIA:kosova-savaslari",
+    "TDVIA:kosova"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

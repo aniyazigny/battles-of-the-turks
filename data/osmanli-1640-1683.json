@@ -153,11 +153,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:resmo"
+    "TDVIA:resmo",
+    "TDVIA:huseyin-pasa-deli"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -834,11 +835,12 @@
    "result": "W",
    "status": "borderline",
    "sources": [
-    "TDVIA:mehmed-iv"
+    "TDVIA:mehmed-iv",
+    "TDVIA:ibrahim-pasa-melek"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -869,11 +871,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:cehrin-seferi"
+    "TDVIA:cehrin-seferi",
+    "TDVIA:ibrahim-pasa-melek"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

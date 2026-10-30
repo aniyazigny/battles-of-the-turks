@@ -46,10 +46,11 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "AKD:yucel-2006"
+    "AKD:yucel-2006",
+    "TDVIA:kipcaklar"
    ],
    "verify": {
-    "tdvia": false,
+    "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,

@@ -114,6 +114,10 @@ EXTRA_SRC = {
     "Kosova'nın geri alınışı (1881)": ["TDVIA:arnavutluk"],  # 1881'de Bâbıâli'nin gönderdiği ordu ile dağıtıldı
     "San‘a'nın geri alınışı (1905)": ["TDVIA:mutevekkil-alellah-yahya-hamiduddin"],  # Ahmed Feyzi Paşa karşısında şehri terketti
 }
+# Üçüncü kaynak turu (2026-10-31): toplu TDVİA taraması
+EXTRA_SRC.update({
+    "Beyrut (1912)": ["TDVIA:italya"],  # İtalyan filosu 24 Şubat 1912'de Beyrut'u bombardıman etti
+})
 
 recs = []
 for i, r in enumerate(R, 1):

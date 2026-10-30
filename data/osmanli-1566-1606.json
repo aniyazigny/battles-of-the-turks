@@ -264,11 +264,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:osman-pasa-ozdemiroglu"
+    "TDVIA:osman-pasa-ozdemiroglu",
+    "TDVIA:sirvan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -584,11 +585,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:yanikkale"
+    "TDVIA:yanikkale",
+    "TDVIA:mehmed-iii"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -907,11 +909,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:mehmed-iii"
+    "TDVIA:mehmed-iii",
+    "TDVIA:tokat"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

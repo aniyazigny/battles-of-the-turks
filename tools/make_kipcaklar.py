@@ -19,7 +19,7 @@ RS = "Rus knezlikleri"
 R = [
 ("Pereyaslavl akını (1061)", "Cuman victory over the Rus (1061)", "1061", WKR, "Pereyaslavl knezliği", 50.07, 31.45, "region", "Ukrayna",
  KP, RS, "", "", "dis", "W", "kesin",
- ["AKD:yucel-2006"], "", "1054–1055'te savaşmadan dönen Kumanlar 1061'de Pereyaslavl topraklarına yeniden geldiklerinde Ruslar'ı yendiler.",
+ ["AKD:yucel-2006", "TDVIA:kipcaklar"], "", "1054–1055'te savaşmadan dönen Kumanlar 1061'de Pereyaslavl topraklarına yeniden geldiklerinde Ruslar'ı yendiler.",
  "Having turned back without fighting in 1054–1055, the Cumans returned to the Pereyaslavl lands in 1061 and defeated the Rus.", "land", KP),
 ("Alta (1068)", "Battle of the Alta River (1068)", "1068", WKR, "Alta ırmağı (Pereyaslavl yakını)", 50.05, 31.50, "approx", "Ukrayna",
  KP, RS, "", "Kiev, Çernigov ve Pereyaslavl knezleri", "dis", "W", "kesin",

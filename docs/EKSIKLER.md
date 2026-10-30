@@ -9,23 +9,23 @@ Son güncelleme: 2026-10-31
 
 | Parti | Kayıt | Tek kaynaklı |
 |---|---|---|
-| Pilot Büyük Selçuklu | 80 | 6 |
+| Pilot Büyük Selçuklu | 80 | 5 |
 | Anadolu Selçukluları | 72 | 14 |
 | Beylikler ve atabeylikler | 72 | 16 |
-| Gazneli ve Karahanlı | 37 | 7 |
-| Osmanlı kuruluş | 31 | 6 |
-| Osmanlı 1402–1481 | 46 | 8 |
-| Osmanlı 1481–1520 | 26 | 5 |
-| Osmanlı 1520–1566 | 30 | 5 |
-| Osmanlı 1566–1606 | 28 | 6 |
-| Osmanlı 1603–1640 | 23 | 6 |
-| Osmanlı 1640–1683 | 27 | 8 |
-| Osmanlı 1683–1718 | 27 | 6 |
-| Osmanlı 1718–1774 | 34 | 6 |
+| Gazneli ve Karahanlı | 37 | 6 |
+| Osmanlı kuruluş | 31 | 3 |
+| Osmanlı 1402–1481 | 46 | 7 |
+| Osmanlı 1481–1520 | 26 | 3 |
+| Osmanlı 1520–1566 | 30 | 3 |
+| Osmanlı 1566–1606 | 28 | 3 |
+| Osmanlı 1603–1640 | 23 | 4 |
+| Osmanlı 1640–1683 | 27 | 5 |
+| Osmanlı 1683–1718 | 27 | 4 |
+| Osmanlı 1718–1774 | 34 | 5 |
 | Osmanlı 1774–1812 | 40 | 9 |
-| Osmanlı 1812–1839 | 31 | 6 |
+| Osmanlı 1812–1839 | 31 | 5 |
 | Osmanlı 1839–1878 | 46 | 11 |
-| Osmanlı 1878–1912 | 20 | 7 |
+| Osmanlı 1878–1912 | 20 | 6 |
 | Osmanlı 1912–1913 | 15 | 5 |
 | Osmanlı 1914–1918 | 41 | 7 |
 | Millî Mücadele 1919–1922 | 23 | 4 |
@@ -33,8 +33,8 @@ Son güncelleme: 2026-10-31
 | Türkistan hanlıkları | 28 | 6 |
 | Bozkır devletleri (Hazar, Peçenek, Kırgız) | 31 | 8 |
 | Hun, Avar ve Bulgar | 24 | 9 |
-| Kıpçaklar | 9 | 3 |
-| **Toplam** | **868** | **180** |
+| Kıpçaklar | 9 | 2 |
+| **Toplam** | **868** | **157** |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [x] TDVİA'da otomatik ikinci madde taraması (2026-10-30, `tools/second_source_candidates.py`): 27 kayıt ikinci maddeye kavuştu; TDVİA bu açıdan büyük ölçüde tükendi.

@@ -46,11 +46,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:uyvar"
+    "TDVIA:uyvar",
+    "TDVIA:osmanlilar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -223,11 +224,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:suleyman-ii"
+    "TDVIA:suleyman-ii",
+    "TDVIA:nis"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -235,7 +237,8 @@
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1683-1718",
    "note": "Ardından Eflak istilâ edildi.",
-   "note_en": "Wallachia was overrun afterwards."
+   "note_en": "Wallachia was overrun afterwards.",
+   "dispute": "Niş maddesi şehrin 24 Eylül 1688'de Baden Margravı Ludwig'in birliklerince alındığını yazar; II. Süleyman maddesi ve kayıt 1689 der. Ay ve gün aynıdır, maddedeki yıl hatalı görünüyor."
   },
   {
    "id": 7,

@@ -513,11 +513,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:pojega"
+    "TDVIA:pojega",
+    "TDVIA:cekoslovakya"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -655,11 +656,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:cezayir"
+    "TDVIA:cezayir",
+    "TDVIA:barbaros-hayreddin-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

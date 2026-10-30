@@ -102,8 +102,14 @@ OPP_STATE = {"Turnadağ": DUL}
 EXTRA_SRC = {"Sapienza (Zonchio)": ["TDVIA:modon"], "Kütahya (Şahkulu)": ["TDVIA:kutahya"], "Çubuk (Gökçay)": ["TDVIA:elci-hani"], "Koçhisar": ["TDVIA:mardin"],   # kontrol turu
              "Koron": ["TDVIA:koron"], "Yenişehir (1513)": ["TDVIA:biyikli-mehmed-pasa"], "Âmid (1515)": ["TDVIA:biyikli-mehmed-pasa"],
              "Mercidâbık": ["TDVIA:memlukler"], "Ridâniye": ["TDVIA:memlukler"]}
+# Üçüncü kaynak turu (2026-10-31): toplu TDVİA taraması
+EXTRA_SRC.update({
+    "İnebahtı (1499)": ["TDVIA:osmanlilar"],  # Mora'daki İnebahtı, Modon, Koron ve Navarin fethedildi (1499-1500)
+    "Turnadağ": ["TDVIA:dulkadirogullari"],  # Ördekli mevkiinde Alâüddevle yenildi ve öldürüldü (13 Haziran 1515)
+})
 FIX = {"Âmid (1515)": {"dispute": "Tarih: Bıyıklı Mehmed Paşa maddesi şehrin anahtarlarının 10 Eylül 1515'te teslim alındığını, Selim I maddesi 10 Şâban 921 / 19 Eylül 1515'i verir. Kara Han şehri daha sonra yeniden kuşattı."},
        "Ridâniye": {"dispute": "Tarih: Ridâniye maddesi 28 Zilhicce 922 / 22 Ocak 1517 sabahı der ve takvim farkına dikkat çeker; Memlükler maddesi iki gün süren savaşı 29 Zilhicce 922 / 23 Ocak 1517'ye koyar."}}
+FIX["Turnadağ"] = {"dispute": "Dulkadıroğulları maddesi savaşı Göksun ile Andırın arasında Ördekli mevkiine ve 13 Haziran 1515'e koyar; Selim I maddesi yer vermeden 12 Haziran der."}
 LEFT = [
  {"name": "Kayseri (1490)", "reason": "Memlüklerin 1490 seferi; ayrıntı alınmadı.", "source": "TDVIA:kayitbay"},
  {"name": "Cem Sultan'ın ikinci denemesi (1482)", "reason": "Savaşın adı ve yeri kaynakta yok.", "source": "TDVIA:cem-sultan"},

@@ -190,11 +190,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:sebuk-tegin"
+    "TDVIA:sebuk-tegin",
+    "TDVIA:simcuriler"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

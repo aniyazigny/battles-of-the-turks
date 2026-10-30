@@ -101,6 +101,12 @@ R = [
 # İkinci kaynak turu (2026-10-29)
 EXTRA_SRC = {"Kulpa (Sisak)": ["TDVIA:macaristan", "TDVIA:diyakova"], "Budin müdafaası (1602)": ["TDVIA:budin"], "Tebriz'in kaybı (1603)": ["TDVIA:tebriz"],   # kontrol turu
              "Eflak seferi (1595)": ["TDVIA:koca-sinan-pasa"]}
+# Üçüncü kaynak turu (2026-10-31): toplu TDVİA taraması
+EXTRA_SRC.update({
+    "Meşale Savaşı": ["TDVIA:sirvan"],  # 1583 Meşâle Savaşı ile Şirvan'da tam hâkimiyet
+    "Yanıkkale'nin kaybı (1598)": ["TDVIA:mehmed-iii"],  # Yanıkkale'nin düşüşü haberi, 29 Mart 1598
+    "Tokat (1602)": ["TDVIA:tokat"],  # Deli Hasan Tokat'a baskın yaptı, Hasan Paşa şehid edildi
+})
 
 LEFT = [
  {"name": "Revan (1604)", "reason": "Safevî karşı saldırısının diğer savaşları bu turda ayrıntılı alınmadı.", "source": "TDVIA:mehmed-iii"},

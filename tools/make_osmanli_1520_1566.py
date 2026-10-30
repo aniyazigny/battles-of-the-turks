@@ -109,6 +109,11 @@ EXTRA_SRC = {"Budin (1529)": ["TDVIA:macaristan"], "Viyana kuşatması (1529)": 
              "Estergon": ["TDVIA:macaristan"], "Eğri kuşatması (1552)": ["TDVIA:sokullu-mehmed-pasa"], "Konya (1559)": ["TDVIA:bayezid-sehzade"],
              "Cerbe": ["TDVIA:piyale-pasa"], "Tebriz (1534)": ["TDVIA:ibrahim-pasa-makbul"], "Bağdat (1534)": ["TDVIA:ibrahim-pasa-makbul"],
              "Temeşvar (1552)": ["TDVIA:kara-ahmed-pasa", "TDVIA:sokullu-mehmed-pasa"]}
+# Üçüncü kaynak turu (2026-10-31): toplu TDVİA taraması
+EXTRA_SRC.update({
+    "Gorjani (1537)": ["TDVIA:cekoslovakya"],  # 1537'de Osijek/Vertizo mevkiinde Katzianer kumandasındaki kuvvetler ağır yenilgiye uğradı
+    "Cezayir (1541)": ["TDVIA:barbaros-hayreddin-pasa"],  # Karl'ın 1541 Cezayir seferi fırtına yüzünden hezimete döndü
+})
 FIX = {"Temeşvar (1552)": {"date": "1552-07-26", "sources": ["TDVIA:kara-ahmed-pasa", "TDVIA:sokullu-mehmed-pasa", "TDVIA:egri", "TDVIA:suleyman-i"],
                            "note": "28 Haziran–26 Temmuz 1552 arasında süren kuşatmadan sonra teslim alındı; ardından Lipova, Solimos ve Szolnok alındı.",
                            "note_en": "Surrendered after a siege from 28 June to 26 July 1552; Lipova, Solimos and Szolnok followed."},

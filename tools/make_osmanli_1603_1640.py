@@ -86,6 +86,11 @@ EXTRA_SRC = {"Revan (1616)": ["TDVIA:revan"], "Cennetoğlu (1625)": ["TDVIA:mani
              "Peşte ve Vaç (1604)": ["TDVIA:lala-mehmed-pasa"], "Karasu (Kayseri) 1624": ["TDVIA:husrev-pasa", "TDVIA:hafiz-ahmed-pasa"],
              "Mihriban (1630)": ["TDVIA:husrev-pasa"], "Bağdat kuşatması (1630)": ["TDVIA:husrev-pasa"], "Ahıska (1635)": ["TDVIA:ahiska"],
              "Bağdat kuşatması (1625–26)": ["TDVIA:husrev-pasa"], "Erzurum (1628)": ["TDVIA:husrev-pasa"]}
+# Üçüncü kaynak turu (2026-10-31): toplu TDVİA taraması
+EXTRA_SRC.update({
+    "Estergon kuşatması (1604)": ["TDVIA:lala-mehmed-pasa"],  # Estergon kuşatmasına 18 Ekim 1604'te başlandı; ertesi bahar yeniden sefer
+    "Azak'ın kaybı (1637)": ["TDVIA:rusya"],  # Kazaklar 1637'de âni bir baskınla Azak Kalesi'ni ele geçirdi
+})
 FIX = {"Peşte ve Vaç (1604)": {"note": "Peşte, Hatvan ve Vaç geri alındı.", "note_en": "Pest, Hatvan and Vác were retaken."},
        "Karasu (Kayseri) 1624": {"date": "1624-09-05", "turkic_cmd": "Çerkez Mehmed Paşa",
            "dispute": "Komutan: Hüsrev Paşa ve Hâfız Ahmed Paşa maddeleri Sadrazam Çerkez Mehmed Paşa der; Abaza Paşa maddesi Hâfız Paşa der."},

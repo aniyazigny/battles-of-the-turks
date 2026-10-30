@@ -92,6 +92,11 @@ EXTRA_SRC = {"Belgrad'ın kaybı (1688)": ["TDVIA:avusturya"], "Lipova (1695)": 
              "Budin'in kaybı (1686)": ["TDVIA:suleyman-pasa-sari"], "Mohaç (1687)": ["TDVIA:suleyman-pasa-sari"],
              "Sakız'ın kaybı (1694)": ["TDVIA:mezemorta-huseyin-pasa", "TDVIA:ahmed-ii"], "Sakız (1695)": ["TDVIA:mezemorta-huseyin-pasa"],
              "Temeşvar'ın kaybı (1716)": ["TDVIA:timisvar"]}
+# Üçüncü kaynak turu (2026-10-31): toplu TDVİA taraması
+EXTRA_SRC.update({
+    "Uyvar'ın kaybı (1685)": ["TDVIA:osmanlilar"],  # Uyvar (1685) ve Budin (1686) elden çıktı
+    "Niş'in kaybı (1689)": ["TDVIA:nis"],  # Niş, Ludwig von Baden'in birlikleri tarafından ele geçirildi
+})
 FIX = {"Budin'in kaybı (1686)": {"note": "Yetmiş sekiz günlük kuşatma sonunda genel hücumla alındı; 14 Ağustos'ta Sarı Süleyman Paşa'nın yardım hücumu yenilgiyle bitmişti. Son Budin beylerbeyi şehid düştü.",
                                  "note_en": "Taken by general assault after a 78-day siege; Sarı Süleyman Pasha's relief attack on 14 August had failed. The last governor of Buda was killed."},
        "Sakız'ın kaybı (1694)": {"date": "1694-09", "status": "ihtilafli",
@@ -100,6 +105,7 @@ FIX = {"Budin'in kaybı (1686)": {"note": "Yetmiş sekiz günlük kuşatma sonun
            "note": "Mezemorta Hüseyin Paşa Koyunadaları önünde Venedik donanmasını yendi; Venedik adadan çekildi.",
            "note_en": "Mezzomorto Hüseyin Pasha defeated the Venetian fleet off the Oinousses islands; Venice withdrew from Chios."},
        "Temeşvar'ın kaybı (1716)": {"status": "kesin"}}
+FIX["Niş'in kaybı (1689)"] = {"dispute": "Niş maddesi şehrin 24 Eylül 1688'de Baden Margravı Ludwig'in birliklerince alındığını yazar; II. Süleyman maddesi ve kayıt 1689 der. Ay ve gün aynıdır, maddedeki yıl hatalı görünüyor."}
 
 LEFT = [
  {"name": "Mora'nın kaybı (1685–1687): Koron, Navarin, Modon, Anabolu, Atina, İnebahtı", "reason": "TDVİA Mora maddesinde tarihli savaş cümlesi bulunamadı.", "source": "TDVIA:mora"},

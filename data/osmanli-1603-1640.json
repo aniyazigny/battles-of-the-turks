@@ -82,11 +82,12 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:ahmed-i"
+    "TDVIA:ahmed-i",
+    "TDVIA:lala-mehmed-pasa"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -801,11 +802,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:azak"
+    "TDVIA:azak",
+    "TDVIA:rusya"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

@@ -299,11 +299,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mora"
+    "TDVIA:mora",
+    "TDVIA:yunanistan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

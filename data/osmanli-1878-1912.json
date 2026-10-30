@@ -687,11 +687,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:trablusgarp-savasi"
+    "TDVIA:trablusgarp-savasi",
+    "TDVIA:italya"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

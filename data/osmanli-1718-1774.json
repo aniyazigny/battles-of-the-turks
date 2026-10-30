@@ -303,11 +303,12 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:mahmud-i--osmanli"
+    "TDVIA:mahmud-i--osmanli",
+    "TDVIA:kirim"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
