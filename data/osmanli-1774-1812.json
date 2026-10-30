@@ -300,14 +300,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:yusuf-pasa-koca"
+    "TDVIA:yusuf-pasa-koca",
+    "AKD:fedakar-2019"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812"
@@ -441,14 +442,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:belgrad"
+    "TDVIA:belgrad",
+    "AKD:fedakar-2019"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",
@@ -547,11 +549,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:yergogu"
+    "TDVIA:yergogu",
+    "TDVIA:zistovi-antlasmasi"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

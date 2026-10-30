@@ -498,7 +498,7 @@
    "id": 14,
    "name_tr": "Grahova (1858)",
    "name_en": "Battle of Grahovac",
-   "date": "1858",
+   "date": "1858-05",
    "hijri": "",
    "type": "land",
    "war": "Karadağ savaşları (1852–1862)",
@@ -515,14 +515,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:karadag"
+    "TDVIA:karadag",
+    "AKD:golen-2014"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",

@@ -404,27 +404,28 @@
    "lon": 26.2,
    "loc": "known",
    "country": "Türkiye",
-   "side_a": "Osmanlı Devleti",
-   "side_b": "İngiltere",
+   "side_a": "İngiltere",
+   "side_b": "Osmanlı Devleti",
    "turkic_cmd": "",
    "opp_cmd": "",
    "category": "dis",
-   "result": "D",
+   "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:canakkale-muharebeleri"
+    "TDVIA:canakkale-muharebeleri",
+    "AKD:ozdemir-2024"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918",
-   "note": "Siper savaşlarının en şiddetli çarpışmalarından biri; madde sonuç vermez.",
-   "note_en": "One of the fiercest clashes of the trench war; the article gives no outcome."
+   "note": "Siper savaşlarının en şiddetli çarpışmalarından biri. İngilizler 28 Haziran'da Güney Grubu'nun sağ kanadında mevzi kazandı; kaybedilen mevzileri geri almak için 5 Temmuz'a kadar yapılan Türk karşı taarruzları sonuçsuz kaldı (Özdemir 2024).",
+   "note_en": "One of the fiercest clashes of the trench war. On 28 June the British gained ground on the right flank of the Southern Group; Turkish counter-attacks until 5 July to retake the lost trenches were fruitless (Özdemir 2024)."
   },
   {
    "id": 12,
@@ -892,41 +893,6 @@
   },
   {
    "id": 25,
-   "name_tr": "İkinci Kanal Harekâtı (1916)",
-   "name_en": "Battle of Romani",
-   "date": "1916-07",
-   "hijri": "",
-   "type": "land",
-   "war": "Birinci Dünya Savaşı (1914–1918)",
-   "place": "Sina yarımadası",
-   "lat": 31.0,
-   "lon": 32.65,
-   "loc": "approx",
-   "country": "Mısır",
-   "side_a": "İngiltere",
-   "side_b": "Osmanlı Devleti",
-   "turkic_cmd": "Cemal Paşa (Dördüncü Ordu)",
-   "opp_cmd": "",
-   "category": "dis",
-   "result": "L",
-   "status": "kesin",
-   "sources": [
-    "TDVIA:cemal-pasa"
-   ],
-   "verify": {
-    "tdvia": true,
-    "tdvia2": false,
-    "wp": false,
-    "rom": false,
-    "academic": false
-   },
-   "state": "Osmanlı Devleti",
-   "home_batch": "osmanli-1914-1918",
-   "note": "İstenen sonuç alınamadı.",
-   "note_en": "The offensive failed."
-  },
-  {
-   "id": 26,
    "name_tr": "Muş'un kurtarılışı (1916)",
    "name_en": "Ottoman recapture of Muş (1916)",
    "date": "1916-07-26",
@@ -960,6 +926,42 @@
    "home_batch": "osmanli-1914-1918",
    "note": "Şehir 1 Mayıs 1917'de kesin olarak Rus işgalinden kurtarıldı.",
    "note_en": "The town was finally freed from Russian occupation on 1 May 1917."
+  },
+  {
+   "id": 26,
+   "name_tr": "İkinci Kanal Harekâtı (1916)",
+   "name_en": "Battle of Romani",
+   "date": "1916-08-04",
+   "hijri": "",
+   "type": "land",
+   "war": "Birinci Dünya Savaşı (1914–1918)",
+   "place": "Sina yarımadası",
+   "lat": 31.0,
+   "lon": 32.65,
+   "loc": "approx",
+   "country": "Mısır",
+   "side_a": "İngiltere",
+   "side_b": "Osmanlı Devleti",
+   "turkic_cmd": "Cemal Paşa (Dördüncü Ordu)",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:cemal-pasa",
+    "AKD:atabey-2020"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": true
+   },
+   "state": "Osmanlı Devleti",
+   "home_batch": "osmanli-1914-1918",
+   "note": "İstenen sonuç alınamadı.",
+   "note_en": "The offensive failed."
   },
   {
    "id": 27,
@@ -1234,14 +1236,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:van"
+    "TDVIA:van",
+    "AKD:kardas-2015"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918"

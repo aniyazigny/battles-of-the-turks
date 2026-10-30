@@ -180,7 +180,10 @@ EXTRA_SRC = {"Mehâdiye (1788)": ["TDVIA:hasan-pasa-kethuda"], "Şebeş (1788)":
  "Hotin'in kaybı (1806)": ["AKD:doganay-2024a"],  # Ruslar savaş ilanından önce Hotin, Bender, Kili ve Akkirman'ı aldı
  "Akkirman'ın kaybı (1806)": ["AKD:doganay-2024a"],
  "İsmâil'in kaybı (1809)": ["AKD:doganay-2024a"],  # üçüncü ve son Rus saldırısı 1809
- "Silistre (1809)": ["AKD:efe-silistre"]}  # Pehlivan İbrahim Ağa'nın savunması, Ruslar Silistre önlerinden çekildi
+ "Silistre (1809)": ["AKD:efe-silistre"],  # Pehlivan İbrahim Ağa'nın savunması, Ruslar Silistre önlerinden çekildi
+ "Belgrad'ın kaybı (1789)": ["AKD:fedakar-2019"],  # Laudon 11 Eylül 1789'da kuşattı, Osman Paşa kaleyi Ekim 1789'da teslim etti
+ "Kalas (1789)": ["AKD:fedakar-2019"],  # sadrazam Yûsuf Paşa Kalas ve Fokşan'da yenildi
+ "Yergöğü (1790)": ["TDVIA:zistovi-antlasmasi"]}  # Coburg Yergöğü'nü sıkıştırdı, ağır kayıpla Bükreş'e döndü
 FIX = {"Mehâdiye (1788)": {"turkic_cmd": "Vidin seraskeri Hasan Paşa (Kethüdâ), Koca Yûsuf Paşa"},
  "Şebeş (1788)": {"turkic_cmd": "Vidin seraskeri Hasan Paşa (Kethüdâ), Koca Yûsuf Paşa"},
  "Özü'nün kaybı (1788)": {"opp_cmd": "Aleksandr Suvorov",

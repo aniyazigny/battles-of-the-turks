@@ -2,18 +2,18 @@
 
 Tüm partilerin "Bilinen eksikler" ve "Sonraki adımlar" maddeleri burada toplanır. Bir eksik kapanınca `[x]` yapılır ve kapandığı commit/tarih yazılır. Sayılar `tools/eksikler.py` ile güncellenir.
 
-Son güncelleme: 2026-10-30
+Son güncelleme: 2026-10-31
 
 ## 1. Kaynak eksikleri (tek TDVİA maddesine dayanan kayıtlar)
-`python tools/eksikler.py` hepsini adıyla listeler. Durum (2026-10-29):
+`python tools/eksikler.py` hepsini adıyla listeler. Durum (2026-10-31):
 
 | Parti | Kayıt | Tek kaynaklı |
 |---|---|---|
-| Pilot Büyük Selçuklu | 80 | 12 |
-| Anadolu Selçukluları | 72 | 25 |
-| Beylikler ve atabeylikler | 72 | 40 |
-| Gazneli ve Karahanlı | 37 | 13 |
-| Osmanlı kuruluş | 31 | 10 |
+| Pilot Büyük Selçuklu | 80 | 8 |
+| Anadolu Selçukluları | 72 | 15 |
+| Beylikler ve atabeylikler | 72 | 21 |
+| Gazneli ve Karahanlı | 37 | 7 |
+| Osmanlı kuruluş | 31 | 6 |
 | Osmanlı 1402–1481 | 46 | 8 |
 | Osmanlı 1481–1520 | 26 | 5 |
 | Osmanlı 1520–1566 | 30 | 5 |
@@ -22,14 +22,19 @@ Son güncelleme: 2026-10-30
 | Osmanlı 1640–1683 | 27 | 8 |
 | Osmanlı 1683–1718 | 27 | 6 |
 | Osmanlı 1718–1774 | 34 | 6 |
-| Osmanlı 1774–1812 | 40 | 19 |
+| Osmanlı 1774–1812 | 40 | 9 |
 | Osmanlı 1812–1839 | 31 | 6 |
-| Osmanlı 1839–1878 | 46 | 16 |
+| Osmanlı 1839–1878 | 46 | 11 |
 | Osmanlı 1878–1912 | 20 | 7 |
 | Osmanlı 1912–1913 | 15 | 5 |
-| Osmanlı 1914–1918 | 41 | 18 |
+| Osmanlı 1914–1918 | 41 | 7 |
 | Millî Mücadele 1919–1922 | 23 | 4 |
-| Göktürk–Uygur 552–911 | 27 | 10 (3'i akademik kaynakla destekli) |
+| Göktürk–Uygur 552–911 | 27 | 8 |
+| Türkistan hanlıkları | 28 | 6 |
+| Bozkır devletleri (Hazar, Peçenek, Kırgız) | 31 | 8 |
+| Hun, Avar ve Bulgar | 24 | 9 |
+| Kıpçaklar | 9 | 3 |
+| **Toplam** | **868** | **190** |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [x] TDVİA'da otomatik ikinci madde taraması (2026-10-30, `tools/second_source_candidates.py`): 27 kayıt ikinci maddeye kavuştu; TDVİA bu açıdan büyük ölçüde tükendi.

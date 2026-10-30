@@ -66,9 +66,9 @@ R = [
  ["TDVIA:canakkale-muharebeleri"], "", "Siper savaşlarının en şiddetli çarpışmalarından biri; madde sonuç vermez.",
  "One of the fiercest clashes of the trench war; the article gives no outcome.", "land"),
 ("Zığındere (1915)", "Battle of Gully Ravine", "1915-06-28", WD, "Zığındere", 40.07, 26.20, "known", "Türkiye",
- O, EN, "", "", "dis", "D", "kesin",
- ["TDVIA:canakkale-muharebeleri"], "", "Siper savaşlarının en şiddetli çarpışmalarından biri; madde sonuç vermez.",
- "One of the fiercest clashes of the trench war; the article gives no outcome.", "land"),
+ EN, O, "", "", "dis", "L", "kesin",
+ ["TDVIA:canakkale-muharebeleri"], "", "Siper savaşlarının en şiddetli çarpışmalarından biri. İngilizler 28 Haziran'da Güney Grubu'nun sağ kanadında mevzi kazandı; kaybedilen mevzileri geri almak için 5 Temmuz'a kadar yapılan Türk karşı taarruzları sonuçsuz kaldı (Özdemir 2024).",
+ "One of the fiercest clashes of the trench war. On 28 June the British gained ground on the right flank of the Southern Group; Turkish counter-attacks until 5 July to retake the lost trenches were fruitless (Özdemir 2024).", "land"),
 ("Anafartalar (1915)", "Battle of Sari Bair and Suvla landing", "1915-08-06", WD, "Anafartalar ve Conkbayırı", 40.26, 26.33, "known", "Türkiye",
  O, EN, "Yarbay " + MK, "", "dis", "W", "kesin",
  ["TDVIA:canakkale-muharebeleri", "TDVIA:cakmak-fevzi"], "",
@@ -118,13 +118,13 @@ R = [
  ["TDVIA:mekke", "TDVIA:birinci-dunya-savasi"], "Mekke ve Birinci Dünya Savaşı maddeleri isyanı 27 Haziran 1916'ya, Medine ve Fahreddin Paşa maddeleri 3 Haziran 1916'ya koyar.",
  "Şerîf Hüseyin Cidde valisi ve diğer Osmanlı idarecilerinin faaliyetlerini engelleyip Mekke'ye hâkim oldu.",
  "Sharif Husayn thwarted the governor of Jeddah and the other Ottoman officials and took control of Mecca.", "land"),
-("İkinci Kanal Harekâtı (1916)", "Battle of Romani", "1916-07", WD, "Sina yarımadası", 31.00, 32.65, "approx", "Mısır",
- EN, O, "Cemal Paşa (Dördüncü Ordu)", "", "dis", "L", "kesin",
- ["TDVIA:cemal-pasa"], "", "İstenen sonuç alınamadı.", "The offensive failed.", "land"),
 ("Muş'un kurtarılışı (1916)", "Ottoman recapture of Muş (1916)", "1916-07-26", WD, "Muş", 38.75, 41.50, "known", "Türkiye",
  O, RU, "", "", "dis", "W", "kesin",
  ["TDVIA:mus"], "", "Şehir 1 Mayıs 1917'de kesin olarak Rus işgalinden kurtarıldı.",
  "The town was finally freed from Russian occupation on 1 May 1917.", "land"),
+("İkinci Kanal Harekâtı (1916)", "Battle of Romani", "1916-07", WD, "Sina yarımadası", 31.00, 32.65, "approx", "Mısır",
+ EN, O, "Cemal Paşa (Dördüncü Ordu)", "", "dis", "L", "kesin",
+ ["TDVIA:cemal-pasa"], "", "İstenen sonuç alınamadı.", "The offensive failed.", "land"),
 ("Bitlis'in kurtarılışı (1916)", "Ottoman recapture of Bitlis (1916)", "1916-08-08", WD, "Bitlis", 38.40, 42.11, "known", "Türkiye",
  O, RU, "", "", "dis", "W", "borderline",
  ["TDVIA:bitlis"], "", "Bitlis maddesi yalnızca Rus işgalinin 8 Ağustos 1916'da sona erdiğini yazar; çatışma ayrıntısı yok.",
@@ -213,8 +213,12 @@ EXTRA_SRC = {
     "Trabzon (1916)": ["AKD:caykiran-2021"],  # işgal 8 Nisan 1916 – 24 Şubat 1918
     "Kûtülamâre (1917)": ["AKD:atabey-2019"],  # Kût 24 Şubat 1917'de düştü
     "Bakü (1918)": ["AKD:ak-2019"],  # Sabah, 17 Eylül 1918: "Bakü Zabt İdildi"
+    "İkinci Kanal Harekâtı (1916)": ["AKD:atabey-2020"],  # 4-5 Ağustos 1916 Romani, Murray'ın Mısır Sefer Kuvveti büyük bir yenilgi verdi
+    "Van'ın kurtarılışı (1918)": ["AKD:kardas-2015"],  # Türk ordusu 2 Nisan 1918'de harabe haldeki şehre girdi
+    "Zığındere (1915)": ["AKD:ozdemir-2024"],  # 28 Haziran taarruzu; mevzileri geri alma denemeleri 5 Temmuz'a kadar sonuçsuz kaldı
 }
 FIX = {
+    "İkinci Kanal Harekâtı (1916)": {"date": "1916-08-04"},
     "Kerevizdere (1915)": {"result": "W", "side_b": "Fransa",
         "note": "Fevzi (Çakmak) Bey'in tümeni Kerevizdere ve Kanlıdere mevzilerini başarıyla savundu; Kâzım Karabekir maddesi burada Fransızlar'a karşı savaşıldığını yazar.",
         "note_en": "Fevzi (Çakmak) Bey's division successfully held the Kereves Dere and Kanlıdere positions; the Kâzım Karabekir article says the fighting there was against the French."},
