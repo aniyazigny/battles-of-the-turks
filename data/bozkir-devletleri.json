@@ -974,7 +974,7 @@
    "lon": 26.2,
    "loc": "approx",
    "country": "Türkiye",
-   "side_a": "Bizans",
+   "side_a": "Bizans ve Kumanlar",
    "side_b": "Peçenekler",
    "turkic_cmd": "",
    "opp_cmd": "Aleksios Komnenos",
@@ -983,7 +983,9 @@
    "status": "kesin",
    "sources": [
     "TDVIA:pecenekler",
-    "TDVIA:bizans"
+    "TDVIA:bizans",
+    "TDVIA:istanbul",
+    "TDVIA:dobruca"
    ],
    "verify": {
     "tdvia": true,

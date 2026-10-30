@@ -248,3 +248,11 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Kutrigur–Utigur 482, Krum'un Avar seferi 805 | `turk_arasi` (805'te `opp_state` Avar) |
 | Akhun kayıtları | Sâsânî ve Emevîlere karşı → `dis`; Nîzek 709 Akhun kaydı sayıldı (TDVİA "Eftalit prensi") |
 | Parti 23 ek | Bulgar maddesi Samara 1223, Bulgar 1236 ve Pulat Timur 1361 için ikinci kaynak oldu |
+
+## Kayıt kararları (Parti 25: Kıpçaklar / Kumanlar 1103–1239, 2026-10-30)
+| Kayıt | Karar |
+|---|---|
+| Kapsam | Kullanıcı onayı ("Ekle", 2026-10-30) |
+| Başka partilerdeki Kıpçak muharebeleri | Tekrar kayıt açılmadı; Levunion 1091'de `side_a` "Bizans ve Kumanlar" yapıldı |
+| Asen ve Petar 1186–87 | Kuman ordusu yardımcı kuvvet → borderline, Kıpçak kaydı |
+| Kalka 1223 | Kıpçak–Rus ittifakı yenildi → Kıpçak kaydı, `dis` |

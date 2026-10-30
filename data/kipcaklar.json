@@ -1,0 +1,271 @@
+{
+ "meta": {
+  "batch": "Parti 25 — Kıpçaklar / Kumanlar (1103–1239)",
+  "compiled": "2026-10-30",
+  "status": "İlk tur.",
+  "conventions": {
+   "winner_first": "side_a kazanan taraftır; result alanı Türk (Selçuklu) tarafının sonucudur: W kazandı, L kaybetti, D belirsiz/berabere, C iç savaş (skora girmez).",
+   "category": "dis = Türk olmayan rakip; ic = aynı hanedan/devlet içi (Selçuklu–Selçuklu); turk_arasi = farklı Türk devletleri/toplulukları arası (Gazneli, Karahanlı, Oğuz boyları, Anadolu Selçuklu).",
+   "status": "kesin = savaş ve sonucu kaynaklarda net; borderline = savaş sayılıp sayılmayacağı veya Büyük Selçuklu'ya ait olup olmadığı tartışmalı; ihtilafli = sonuç veya tarih kaynaklar arasında çelişkili.",
+   "loc": "known = yer biliniyor; approx = yaklaşık; region = yalnızca bölge düzeyinde.",
+   "verify": "tdvia = TDV İslâm Ansiklopedisi maddesinde doğrulandı; wp = Wikipedia'da var; rom = 'Where the Romans Fought' veri setinde karşılığı var; academic = bağımsız akademik ikincil kaynakla kontrol edildi (Haldon, Hillenbrand, Peacock, Bosworth vb.). tdvia2 = olay ikinci, ayrı bir TDVİA maddesinde de doğrulandı (iki madde kuralı).",
+   "state": "Savaşan Türk devleti. home_batch: kaydın nihai olarak ait olduğu araştırma partisi.",
+   "opp_state": "Yalnızca turk_arasi kayıtlarda: karşı taraftaki kapsam içi Türk devleti. Kayıt o devletin tablosunda ters sonuçla görünür (K1)."
+  },
+  "source_keys": {
+   "TDVIA:<slug>": "https://islamansiklopedisi.org.tr/<slug>",
+   "WP:<title>": "https://en.wikipedia.org/wiki/<title>",
+   "ROM": "https://iosiflazaridis.github.io/battles-of-the-romans/ (karşı taraf perspektifi, çapraz kontrol)"
+  },
+  "decisions": {
+   "K1": "Üç kategori var: dis, turk_arasi, ic. Kazanma-kaybetme tablosu her devlet için ayrı tutulur. 'Türkler toplamı' yalnızca dis kategorisindeki savaşlardan hesaplanır. turk_arasi savaşlar ilgili iki devletin kendi tablolarında görünür. ic savaşlar skora girmez.",
+   "K2": "Selçuklu hanedanının kolları (Büyük, Irak, Suriye, Kirman, Anadolu Selçukluları) arasındaki savaşlar iç savaştır. Farklı hanedanlardan Türk devletleri arasındaki savaşlar turk_arasi kategorisindedir.",
+   "K3": "Savaşı sultan emrettiyse veya komutanı sultan atadıysa savaş sultanın devletine yazılır (ör. Kürboğa 1098, Mevdûd, Didgori 1121). Emîr veya atabey kendi inisiyatifiyle savaştıysa kayıt atabeylikler ve beylikler partisine gider (ör. Harran 1104, Atsız 1077).",
+   "P6": "Kaynaklar çatıştığında Türk ve İslâm tarafının akademik literatürü (öncelikle TDVİA, sonra Turan, Köymen, Kafesoğlu, Sevim, Sümer, Demirkent vb.) esas alınır. Karşı tarafın anlatısı silinmez; dispute alanında 'Alternatif okuma' olarak durur. Sayı kuralı değişmez."
+  }
+ },
+ "battles": [
+  {
+   "id": 1,
+   "name_tr": "Rus zaferi (1103)",
+   "name_en": "Rus victory over the Cumans (1103)",
+   "date": "1103",
+   "hijri": "",
+   "type": "land",
+   "war": "Kıpçak–Rus savaşları (1061–1185)",
+   "place": "Karadeniz kuzeyi bozkırı",
+   "lat": 47.5,
+   "lon": 35.5,
+   "loc": "region",
+   "country": "Ukrayna",
+   "side_a": "Rus knezlikleri",
+   "side_b": "Kıpçaklar (Kumanlar)",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:kipcaklar"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Kıpçaklar (Kumanlar)",
+   "home_batch": "kipcaklar",
+   "note": "Ruslar Kıpçaklar'a karşı büyük bir başarı kazandı; Kıpçaklar 1105–1111 arasında şiddetli akınlarla karşılık verdi.",
+   "note_en": "The Rus won a great success over the Cumans, who answered with fierce raids in 1105–1111."
+  },
+  {
+   "id": 2,
+   "name_tr": "Aksu (1184)",
+   "name_en": "Battle of the Orel (1184)",
+   "date": "1184",
+   "hijri": "",
+   "type": "land",
+   "war": "Kıpçak–Rus savaşları (1061–1185)",
+   "place": "Aksu nehri (Kiev'in güneydoğusu)",
+   "lat": 49.0,
+   "lon": 34.0,
+   "loc": "approx",
+   "country": "Ukrayna",
+   "side_a": "Rus knezlikleri",
+   "side_b": "Kıpçaklar (Kumanlar)",
+   "turkic_cmd": "",
+   "opp_cmd": "Kiev knezi Svyatoslav",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:kipcaklar"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Kıpçaklar (Kumanlar)",
+   "home_batch": "kipcaklar",
+   "note": "Kiev civarına akın eden Aksu boyundaki Kıpçaklar, güney Rus knezliklerinin birleşik ordusuna yenildi.",
+   "note_en": "The Cumans of the Aksu, raiding around Kiev, were beaten by the united army of the southern Rus principalities."
+  },
+  {
+   "id": 3,
+   "name_tr": "Kayalı (1185)",
+   "name_en": "Battle of the Kayala (1185)",
+   "date": "1185",
+   "hijri": "",
+   "type": "land",
+   "war": "Kıpçak–Rus savaşları (1061–1185)",
+   "place": "Kayalı ırmağı (aşağı Don)",
+   "lat": 47.8,
+   "lon": 38.5,
+   "loc": "approx",
+   "country": "Ukrayna / Rusya",
+   "side_a": "Kıpçaklar (Kumanlar)",
+   "side_b": "Rus knezlikleri",
+   "turkic_cmd": "",
+   "opp_cmd": "Novgorod-Seversk knezi İgor Svyatoslaviç",
+   "category": "dis",
+   "result": "W",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:kipcaklar"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": false,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Kıpçaklar (Kumanlar)",
+   "home_batch": "kipcaklar",
+   "note": "Kıpçaklar'a sefere çıkan İgor Svyatoslaviç'in ordusu Kayalı kıyısında kuşatılıp imha edildi; sefer İgor Bölüğü Destanı'nda anlatılır.",
+   "note_en": "Igor Svyatoslavich's army, campaigning against the Cumans, was surrounded and destroyed on the Kayala; the campaign is the subject of the Lay of Igor's Campaign."
+  },
+  {
+   "id": 4,
+   "name_tr": "Asen ve Petar'ın ayaklanması (1186–1187)",
+   "name_en": "Cuman-backed Asen rising (1186–1187)",
+   "date": "1186",
+   "hijri": "",
+   "type": "land",
+   "war": "Bulgar–Bizans savaşı (1185–1187)",
+   "place": "Kuzey Bulgaristan",
+   "lat": 43.08,
+   "lon": 25.63,
+   "loc": "region",
+   "country": "Bulgaristan",
+   "side_a": "Asen ve Petar (Kuman kuvvetleriyle)",
+   "side_b": "Bizans",
+   "turkic_cmd": "",
+   "opp_cmd": "",
+   "category": "dis",
+   "result": "W",
+   "status": "borderline",
+   "sources": [
+    "TDVIA:bulgaristan",
+    "TDVIA:dobruca"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Kıpçaklar (Kumanlar)",
+   "home_batch": "kipcaklar",
+   "note": "Tuna'yı geçip Kumanlar'a sığınan Petar ve Asen kardeşler buradan sağladıkları orduyla Kuzey Bulgaristan'ı yeniden ele geçirdi ve 1187'de Bizans'ı barışa zorladı; Dobruca maddesi ikinci Bulgar devletinin Kumanlar'ca kurulduğunu yazar. Kumanlar yardımcı kuvvet olduğu için borderline.",
+   "note_en": "The brothers Peter and Asen, who had fled across the Danube to the Cumans, retook northern Bulgaria with a Cuman army and forced Byzantium to make peace in 1187; borderline as the Cumans were auxiliaries."
+  },
+  {
+   "id": 5,
+   "name_tr": "Kalka (1223)",
+   "name_en": "Battle of the Kalka River",
+   "date": "1223",
+   "hijri": "",
+   "type": "land",
+   "war": "Moğol istilâsı",
+   "place": "Kalka ırmağı",
+   "lat": 47.3,
+   "lon": 37.6,
+   "loc": "approx",
+   "country": "Ukrayna",
+   "side_a": "Moğollar",
+   "side_b": "Kıpçaklar ve Rus knezlikleri",
+   "turkic_cmd": "",
+   "opp_cmd": "Cebe Noyan, Sübütay",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:kipcaklar",
+    "TDVIA:batu-han"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Kıpçaklar (Kumanlar)",
+   "home_batch": "kipcaklar",
+   "note": "Moğol istilâsına karşı Ruslar'la iş birliği yapan Kıpçaklar Cebe ve Sübütay kumandasındaki iki Moğol tümenine yenildi.",
+   "note_en": "Allied with the Rus against the Mongol invasion, the Cumans were defeated by two Mongol tümens under Jebe and Subutai."
+  },
+  {
+   "id": 6,
+   "name_tr": "Batu'nun Deşt-i Kıpçak seferi (1237–1239)",
+   "name_en": "Mongol conquest of the Cumans (1237–1239)",
+   "date": "1237",
+   "hijri": "",
+   "type": "land",
+   "war": "Moğol istilâsı",
+   "place": "Deşt-i Kıpçak",
+   "lat": 47.5,
+   "lon": 40.0,
+   "loc": "region",
+   "country": "Rusya / Ukrayna",
+   "side_a": "Moğollar (Batu Han)",
+   "side_b": "Kıpçaklar (Kumanlar)",
+   "turkic_cmd": "",
+   "opp_cmd": "Batu Han, Subitay Noyan",
+   "category": "dis",
+   "result": "L",
+   "status": "kesin",
+   "sources": [
+    "TDVIA:batu-han",
+    "TDVIA:mogollar",
+    "TDVIA:kipcaklar"
+   ],
+   "verify": {
+    "tdvia": true,
+    "tdvia2": true,
+    "wp": false,
+    "rom": false,
+    "academic": false
+   },
+   "state": "Kıpçaklar (Kumanlar)",
+   "home_batch": "kipcaklar",
+   "dispute": "Batu Han maddesi son direnişin 1239'da kırıldığını, Moğollar maddesi istilâyı 1237–1241'e, Kıpçaklar maddesi Altın Orda'nın kuruluşunu 1241'e koyar.",
+   "note": "Kalka dönüşündeki yenilginin intikamını almak için Deşt-i Kıpçak'a saldıran Batu'nun ordusuyla Kıpçaklar arasında şiddetli çatışmalar oldu; 1239'da Kıpçaklar'ın son direnişi kırıldı.",
+   "note_en": "Avenging the defeat suffered on the way back from the Kalka, Batu attacked the Kipchak steppe; there was fierce fighting, and the Cumans' last resistance was broken in 1239."
+  }
+ ],
+ "left_out": [
+  {
+   "name": "Rus bozkırlarının alınışı (1061 sonrası)",
+   "reason": "Kıpçaklar maddesi süreci toplu anar.",
+   "source": "TDVIA:kipcaklar"
+  },
+  {
+   "name": "Bizans'a akınlar (1083–1096, 1109–1114) ve Rus akınları (1105–1111)",
+   "reason": "Toplu anılır; muharebe adı yok.",
+   "source": "TDVIA:kipcaklar"
+  },
+  {
+   "name": "Pereyaslavl'a hücum (1177–1179)",
+   "reason": "Sonuç belirtilmez.",
+   "source": "TDVIA:kipcaklar"
+  },
+  {
+   "name": "Oğuz–Kıpçak savaşları",
+   "reason": "Oğuzlar maddesi zaman zaman savaştıklarını yazar; tarih ve yer yok.",
+   "source": "TDVIA:oguzlar"
+  },
+  {
+   "name": "Kumanlar'ın Macaristan'a göçü (1239–1241)",
+   "reason": "Macaristan maddesi yerleşmeyi anar; muharebe yok.",
+   "source": "TDVIA:macaristan"
+  }
+ ]
+}

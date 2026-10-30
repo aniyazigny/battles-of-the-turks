@@ -36,6 +36,7 @@
 | [docs/24-turkistan-hanliklari.md](docs/24-turkistan-hanliklari.md) | Parti 22: Türkistan hanlıkları ve Rus istilâsı (1837–1881) |
 | [docs/25-bozkir-devletleri.md](docs/25-bozkir-devletleri.md) | Parti 23: Hazarlar, Peçenekler, İdil Bulgarları ve Kırgızlar (652–1361) |
 | [docs/26-hun-avar-bulgar.md](docs/26-hun-avar-bulgar.md) | Parti 24: Avrupa Hunları, Akhunlar, Avarlar ve Tuna Bulgarları (427–834) |
+| [docs/27-kipcaklar.md](docs/27-kipcaklar.md) | Parti 25: Kıpçaklar / Kumanlar (1103–1239) |
 | [docs/06-dogrulama-turu.md](docs/06-dogrulama-turu.md) | Roma veri seti, akademik yayınlar ve Wikipedia ile doğrulama turu |
 
 ## Veri
@@ -63,6 +64,7 @@
 - `data/turkistan-hanliklari.json`: Türkistan hanlıkları ve Rus istilâsı 1837–1881, 28 kayıt. Üretici: `tools/make_turkistan_hanliklari.py`.
 - `data/bozkir-devletleri.json`: Hazarlar, Peçenekler, İdil Bulgarları ve Kırgızlar 652–1361, 31 kayıt. Üretici: `tools/make_bozkir_devletleri.py`.
 - `data/hun-avar-bulgar.json`: Avrupa Hunları, Akhunlar, Avarlar ve Tuna Bulgarları 427–834, 24 kayıt. Üretici: `tools/make_hun_avar_bulgar.py`.
+- `data/kipcaklar.json`: Kıpçaklar / Kumanlar 1103–1239, 6 kayıt. Üretici: `tools/make_kipcaklar.py`.
 - `data/akademik-kaynaklar.json`: `AKD:` anahtarıyla atıf yapılan akademik yayınların künyeleri.
 - `data/sinirlar.json`: Haritadaki devlet sınırları için şehir bazlı hâkimiyet tablosu (1000–1310).
 
@@ -90,6 +92,6 @@
 4. Anadolu Selçukluları ✅ (46/64 kayıt iki maddeyle); beylikler ve atabeylikler ✅ ilk tur
 5. Karahanlı, Gazneli ✅ ilk tur; Göktürk, Uygur
 6. Osmanlı (dönemlere bölünerek): kuruluş dönemi 1284–1402 ✅, 1402–1481 ✅, 1481–1520 ✅, 1520–1566 ✅, 1566–1606 ✅, 1603–1640 ✅, 1640–1683 ✅, 1683–1718 ✅, 1718–1774 ✅, 1774–1812 ✅, 1812–1839 ✅, 1839–1878 ✅, 1878–1912 ✅, 1912–1913 ✅, 1914–1918 ✅, Millî Mücadele 1919–1922 ✅
-7. Türkistan hanlıkları ve Rus istilâsı 1837–1881 ✅ ilk tur; Hazar, Peçenek, İdil Bulgar, Kırgız ✅ ilk tur; Avrupa Hunları, Akhun, Avar, Tuna Bulgar ✅ ilk tur; Asya Hunları (MÖ, şema kararı bekliyor)
+7. Türkistan hanlıkları ve Rus istilâsı 1837–1881 ✅ ilk tur; Hazar, Peçenek, İdil Bulgar, Kırgız ✅ ilk tur; Avrupa Hunları, Akhun, Avar, Tuna Bulgar ✅ ilk tur; Kıpçaklar ✅ ilk tur; Asya Hunları (MÖ, şema kararı bekliyor)
 8. Türkiye Cumhuriyeti
 9. Arayüz (harita, filtreler, tablolar, indirme seçenekleri)

@@ -68,7 +68,8 @@ Son güncelleme: 2026-10-30
 - [x] **Avrupa Hunları, Akhunlar, Avarlar, Tuna Bulgarları:** Parti 24 ilk tur (2026-10-30, 24 kayıt).
 - [ ] **Parti 24 eksikleri:** 13 tek maddeli kayıt; Avrupa Hunları 375–434 (Ahmetbeyoğlu); Avarlar'ın Pannonia ve Bizans savaşları 568–602; Akhunlar'ın Hindistan seferleri.
 - [ ] **Asya Hunları (MÖ):** Negatif yıl için şema ve zaman çizelgesi kararı gerekir (arayüz turuna bırakıldı).
-- [ ] **Kapsam sorusu:** Kıpçaklar (Kumanlar) eklensin mi? (listede yoktu)
+- [x] **Kıpçaklar:** Parti 25 ilk tur (2026-10-30, 6 kayıt; kapsam kullanıcı onayıyla).
+- [ ] **Parti 25 eksikleri:** Rus–Kuman savaşları (Alta 1068, Salnitsa 1111 vb.) TDVİA'da yok; akademik kaynak gerekir (Kurat). 3 tek maddeli kayıt.
 
 ## 3. Harita eksikleri
 - [ ] Sınır tablosu 550'de başlıyor; Parti 24'ün 427–550 kayıtları sınırsız görünüyor (Avrupa Hun, Akhun, Sâsânî, Roma katmanı gerekir).
