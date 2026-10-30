@@ -366,7 +366,7 @@ Tablo 400'e uzatıldıktan sonra İtalya, Kuzey Afrika, Malta, İspanya, Pannoni
 - `check_battle_owners.py`: bir yeni uyuşmazlık çıktı, zararsız. Nice 1543 artık Milano'ya (İspanya) düşüyor; şehir Savoya'nındı.
 
 ## Kaynak turu: Osmanlı 1774–1812, 1839–1878, 1914–1918 (2026-10-31)
-- Altı akademik yayın ve bir TDVİA maddesi eklendi: Fedakâr 2019, Gölen 2014, Atabey 2020, Kardaş 2015, Özdemir 2024 ve Ziştovi Antlaşması maddesi. Tek kaynaklı kayıt 194'ten 190'a, bu üç partide 41'den 27'ye indi. Partilerin önceki sayıları EKSIKLER tablosunda güncel değildi; tablo yeniden sayıldı.
+- Altı akademik yayın ve bir TDVİA maddesi eklendi: Fedakâr 2019, Gölen 2014, Atabey 2020, Kardaş 2015, Özdemir 2024 ve Ziştovi Antlaşması maddesi. Tek kaynaklı kayıt 197'den 190'a, bu üç partide 34'ten 27'ye (12 → 9, 12 → 11, 10 → 7) indi. Partilerin önceki sayıları EKSIKLER tablosunda güncel değildi; tablo yeniden sayıldı.
 - **Zığındere 1915:** Sonuç `D`'den `L`'ye çevrildi; kazanan taraf İngilizler. Özdemir 2024, kaybedilen mevzileri geri almak için yapılan karşı taarruzların sonuçsuz kaldığını yazar.
 - **İkinci Kanal Harekâtı:** Tarih Temmuz 1916'dan 4 Ağustos 1916'ya (Romani) düzeltildi; kayıt partide Muş'un kurtarılışından sonraya taşındı.
 - **Grahova:** Tarih Mayıs 1858'e daraltıldı.
