@@ -337,3 +337,12 @@ Yöntem: her devletin haritadaki ilk ve son yılı tarihî ömrüyle karşılaş
 | Bingöl ve Çopur 2025 (`AKD:bingol-copur-2025`) | Kilikya seferi 1225 |
 | İnce 2019 (zaten kayıtlı) | Lâdik 1119; Uluborlu (İnce 1121 der → `dispute`) |
 | Kalan 15 tek kaynaklı | Aksaray 1155 ve Yağıbasan 1162 (Işık 2019 ve Aktaş genel anlatır, muharebe yok), Hârizmliler 1238–1240, el-Kâmil 1234, Tarsus 1246, Roma verisine dayanan 1113–1179 Bizans çatışmaları |
+
+## Arayüz turu 2: zaman çizelgesi (2026-10-30)
+Kullanıcı geri bildirimi: iki ayrı yıl kaydırıcısı kafa karıştırıyordu; tek, uzun bir çubuk, oynatmaya hız ayarı ve açılışta 1453 istendi.
+- İki `range` girdisi yerine haritanın üstünde tam genişlikte tek zaman çizelgesi: en eski kayıttan (427) en sona (1922). Üzerinde iki tutamaç; uçlar sürüklenir, seçili bant sürüklenince aralık kayar, boş yere tıklayınca en yakın uç oraya gelir; ok, Shift+ok, PageUp/PageDown, Home/End tuşları.
+- Çubuğun arka planında on yıllık savaş sayısı histogramı (karekök ölçekli); seçili aralıktakiler vurgulu. Altta yüzyıl ekseni.
+- Kontrol noktaları: 18 önemli savaş (Katalaunum'dan Büyük Taarruz'a). Etiketler önem sırasıyla iki satıra yerleşir, sığmayan yalnız çentik olarak kalır (fareyle adı görünür). Tıklayınca aralık o savaşla biter ve kayıt panelde açılır.
+- Oynatma: aralığın genişliği korunarak ileri kayar (aralık çok genişse 25 yıllık pencere); hız 8, 20, 50 veya 120 yıl/sn; Duraklat/Devam.
+- Açılış: 1403–1453, sınırlar 1453'e göre, panelde İstanbul'un fethi.
+- Zaman çizelgesi yalnız haritayı etkiler. Liste ve zafer–yenilgi tabloları kendi yıl filtresini kullanır (varsayılan: tüm yıllar), yoksa açılışta liste 1403–1453 ile daralmış görünürdü.

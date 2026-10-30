@@ -34,9 +34,41 @@ h2{font:400 26px Marcellus,serif;margin:38px 0 12px}
 .grp>label:first-child{color:var(--muted);text-transform:uppercase;font-size:12px;letter-spacing:.06em;margin-right:2px}
 .chip{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:3px 10px;border-radius:999px;cursor:pointer;font:inherit}
 .chip[aria-pressed=false]{opacity:.45;text-decoration:line-through}
-button.play{border:1px solid var(--accent);color:var(--accent);background:none;border-radius:999px;padding:3px 12px;cursor:pointer;font:inherit}
-input[type=range]{width:140px;accent-color:var(--accent)}
-.years{font-variant-numeric:tabular-nums;min-width:92px}
+button.play{border:1px solid var(--accent);color:#fff;background:var(--accent);border-radius:999px;padding:4px 14px;cursor:pointer;font:500 14px "IBM Plex Sans Condensed",sans-serif;min-width:104px}
+/* Zaman çizelgesi: tek çubuk, iki tutamaç; harita sınırları aralığın son yılını gösterir */
+.tl{font:13px "IBM Plex Sans Condensed",sans-serif;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:10px 14px 6px;margin:0 0 12px;user-select:none}
+.tl-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px}
+.tl-yrs{font:400 24px Marcellus,serif;font-variant-numeric:tabular-nums}
+.tl-n{color:var(--muted)}
+.tl-head .sp{flex:1}
+.tl-head select{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:2px 4px}
+.tl-head .lnk{border:0;background:none;color:var(--accent);cursor:pointer;font:inherit;padding:0;text-decoration:underline}
+.tl-ms{position:relative;height:34px;margin:6px 9px 0}
+.tl-ms button{position:absolute;bottom:0;transform:translateX(-50%);border:0;background:none;padding:0 2px;cursor:pointer;color:var(--muted);font:12px "IBM Plex Sans Condensed",sans-serif;white-space:nowrap;line-height:1.2}
+.tl-ms button:hover,.tl-ms button.on{color:var(--accent)}
+.tl-ms button::after{content:"";display:block;width:1px;height:5px;background:currentColor;margin:1px auto 0}
+.tl-ms button.r1{bottom:0}
+.tl-ms button.r1::after{height:20px}
+.tl-ms button.al{transform:translateX(-4px)}.tl-ms button.al::after{margin-left:3px}
+.tl-ms button.ar{transform:translateX(calc(-100% + 4px))}.tl-ms button.ar::after{margin-right:3px}
+.tl-ms button.nolab{font-size:0;transform:translateX(-50%)}
+.tl-ms button.nolab::after{margin:1px auto 0}
+.tl-ms button.nolab::after{height:6px}
+.tl-track{position:relative;height:44px;margin:0 9px;cursor:pointer;touch-action:none}
+.tl-track::before{content:"";position:absolute;left:-9px;right:-9px;bottom:0;height:1px;background:var(--line)}
+.tl-hist{position:absolute;inset:0;width:100%;height:100%;display:block}
+.tl-hist rect{fill:var(--muted);opacity:.28}
+.tl-hist rect.in{fill:var(--accent);opacity:.75}
+.tl-sel{position:absolute;top:0;bottom:0;background:color-mix(in srgb,var(--accent) 12%,transparent);border-top:2px solid var(--accent);cursor:grab}
+.tl-sel.drag{cursor:grabbing}
+.tl-h{position:absolute;top:-4px;bottom:-4px;width:14px;margin-left:-7px;border-radius:4px;background:var(--accent);cursor:ew-resize;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.tl-h::after{content:"";position:absolute;left:5px;right:5px;top:30%;bottom:30%;border-left:1px solid #fff;border-right:1px solid #fff;opacity:.7;pointer-events:none}
+.tl-h:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.tl-axis{position:relative;height:18px;margin:2px 9px 0;color:var(--muted)}
+.tl-axis span{position:absolute;transform:translateX(-50%);font-variant-numeric:tabular-nums}
+.tl-axis span::before{content:"";position:absolute;left:50%;top:-3px;height:3px;border-left:1px solid var(--line)}
+.tl-hint{color:var(--muted);font-size:12px;margin-top:2px}
+@media (max-width:640px){.tl-ms{display:none}.tl-yrs{font-size:20px}}
 .mapbox{display:grid;grid-template-columns:1fr 320px;gap:14px}
 @media (max-width:860px){.mapbox{grid-template-columns:1fr}}
 .map{background:var(--sea);border:1px solid var(--line);border-radius:8px;overflow:hidden;position:relative}
@@ -115,12 +147,27 @@ ul.lo{padding-left:18px;font-size:15px}
 <div class="controls">
   <div class="grp" id="f-cat"><label>Kategori</label></div>
   <div class="grp" id="f-st"><label>Statü</label></div>
-  <div class="grp"><label>Yıllar</label>
-    <input type="range" id="y1"><input type="range" id="y2">
-    <span class="years" id="ylab"></span>
-    <button class="play" id="play">▶ Oynat</button>
-  </div>
   <label class="grp"><input type="checkbox" id="showRealms" checked> Devlet sınırları</label>
+</div>
+<div class="tl" id="tl">
+  <div class="tl-head">
+    <button class="play" id="play">▶ Oynat</button>
+    <label class="grp"><span>Hız</span><select id="speed">
+      <option value="8">Yavaş (8 yıl/sn)</option><option value="20" selected>Normal (20 yıl/sn)</option><option value="50">Hızlı (50 yıl/sn)</option><option value="120">Çok hızlı (120 yıl/sn)</option>
+    </select></label>
+    <span class="tl-yrs" id="ylab"></span><span class="tl-n" id="ycount"></span>
+    <span class="sp"></span>
+    <button class="lnk" id="yall">Tüm yıllar</button>
+  </div>
+  <div class="tl-ms" id="tl-ms"></div>
+  <div class="tl-track" id="tl-track">
+    <svg class="tl-hist" id="tl-hist" preserveAspectRatio="none" aria-hidden="true"></svg>
+    <div class="tl-sel" id="tl-sel"></div>
+    <div class="tl-h" id="tl-h1" role="slider" tabindex="0" aria-label="Başlangıç yılı"></div>
+    <div class="tl-h" id="tl-h2" role="slider" tabindex="0" aria-label="Bitiş yılı"></div>
+  </div>
+  <div class="tl-axis" id="tl-axis"></div>
+  <div class="tl-hint">Uçları sürükleyin ya da aralığı kaydırın · çubuklar on yıllık savaş sayısı · üstteki önemli savaşlara tıklayınca o yıla gidilir · zaman çizelgesi yalnız haritayı etkiler, listenin kendi yıl filtresi var</div>
 </div>
 <div class="fnote" id="fnote"></div>
 <div class="mapbox">
@@ -179,9 +226,10 @@ const TY={land:"Kara",sea:"Deniz"};
 // Rakip adı serbest metindir; seçenekler ilk addan türetilir, eşleşme metin içinde aranır ("Habsburglar" → "Rusya ve Habsburglar" da gelir)
 const oppKey=o=>o.split(/[,(]/)[0].split(/ ve /)[0].trim();
 for(const b of B){b.ok=oppKey(b.opp);b.hay=[b.name_tr,b.name_en,b.place,b.war,b.side_a,b.side_b,b.turkic_cmd,b.opp_cmd,b.country].join(" ").toLocaleLowerCase("tr")}
-const S={cat:new Set(Object.keys(CAT)),st:new Set(Object.keys(ST)),res:new Set(Object.keys(RES)),ty:new Set(Object.keys(TY)),from:Y0,to:Y1,ts:"",op:"",q:""};
+const S={cat:new Set(Object.keys(CAT)),st:new Set(Object.keys(ST)),res:new Set(Object.keys(RES)),ty:new Set(Object.keys(TY)),from:1403,to:1453,lfrom:Y0,lto:Y1,ts:"",op:"",q:""};
 // Türk devleti filtresi, Türk devletleri arası savaşlarda karşı taraftaki Türk devletini de (opp_state) kapsar
-const filtered=()=>B.filter(b=>S.cat.has(b.category)&&S.st.has(b.status)&&S.res.has(b.result)&&S.ty.has(b.type)&&b.y>=S.from&&b.y<=S.to
+// Harita zaman çizelgesinin aralığını (from–to), liste kendi aralığını (lfrom–lto) kullanır
+const filtered=(a,z)=>B.filter(b=>S.cat.has(b.category)&&S.st.has(b.status)&&S.res.has(b.result)&&S.ty.has(b.type)&&b.y>=a&&b.y<=z
   &&(!S.ts||b.state===S.ts||b.opp_state===S.ts)&&(!S.op||b.opp.includes(S.op))&&(!S.q||b.hay.includes(S.q)));
 
 function srcLink(k){
@@ -229,12 +277,10 @@ function chips(id,obj,set){
   }
 }
 chips("f-cat",CAT,S.cat);chips("f-st",ST,S.st);chips("f-res",RES,S.res);chips("f-cat2",CAT,S.cat);chips("f-ty",TY,S.ty);
-const y1=document.getElementById("y1"),y2=document.getElementById("y2"),fy1=document.getElementById("f-y1"),fy2=document.getElementById("f-y2");
-for(const el of [y1,y2,fy1,fy2]){el.min=Y0;el.max=Y1;el.step=1}
-y1.value=fy1.value=Y0;y2.value=fy2.value=Y1;
-function readYears(){let a=+y1.value,b=+y2.value;if(a>b)[a,b]=[b,a];S.from=a;S.to=b;render()}
-y1.oninput=y2.oninput=readYears;
-fy1.onchange=fy2.onchange=()=>{const c=v=>Math.max(Y0,Math.min(Y1,+v||Y0));y1.value=c(fy1.value);y2.value=fy2.value===""?Y1:c(fy2.value);readYears()};
+const fy1=document.getElementById("f-y1"),fy2=document.getElementById("f-y2");
+for(const el of [fy1,fy2]){el.min=Y0;el.max=Y1;el.step=1}
+fy1.onchange=fy2.onchange=()=>{const c=v=>Math.max(Y0,Math.min(Y1,+v||Y0));let a=fy1.value===""?Y0:c(fy1.value),z=fy2.value===""?Y1:c(fy2.value);
+  if(a>z)[a,z]=[z,a];S.lfrom=a;S.lto=z;render()};
 // liste filtreleri
 const fts=document.getElementById("f-ts"),fop=document.getElementById("f-op"),fq=document.getElementById("f-q");
 {const n=d3.rollup([...B.map(b=>b.state),...B.map(b=>b.opp_state).filter(Boolean)],v=>v.length,s=>s);
@@ -245,21 +291,102 @@ fts.onchange=()=>{S.ts=fts.value;render()};fop.onchange=()=>{S.op=fop.value;rend
 let qT;fq.oninput=()=>{clearTimeout(qT);qT=setTimeout(()=>{S.q=fq.value.trim().toLocaleLowerCase("tr");render()},200)};
 function clearFilters(){
   for(const [set,keys] of [[S.cat,CAT],[S.st,ST],[S.res,RES],[S.ty,TY]])for(const k in keys)set.add(k);
-  S.ts=S.op=S.q="";fts.value=fop.value=fq.value="";y1.value=Y0;y2.value=Y1;readYears();
+  S.ts=S.op=S.q="";fts.value=fop.value=fq.value="";S.lfrom=Y0;S.lto=Y1;render();
 }
 function syncControls(){
   for(const [b,set,k] of chipEls)b.setAttribute("aria-pressed",set.has(k));
-  fy1.value=S.from;fy2.value=S.to;
+  fy1.value=S.lfrom;fy2.value=S.lto;
   const act=[S.ts&&`Türk devleti: ${S.ts}`,S.op&&`Rakip: ${S.op}`,S.q&&`Arama: “${fq.value.trim()}”`,
     S.res.size<4&&`Sonuç: ${[...S.res].map(k=>RES[k]).join(", ")}`,S.ty.size<2&&`Tür: ${[...S.ty].map(k=>TY[k]).join(", ")}`].filter(Boolean);
   document.getElementById("fnote").innerHTML=act.length?`Liste filtreleri haritaya da uygulanıyor — ${esc(act.join(" · "))} · <button onclick="clearFilters()">Tüm filtreleri temizle</button>`:"";
 }
-let timer=null;
-document.getElementById("play").onclick=function(){
-  if(timer){clearInterval(timer);timer=null;this.textContent="▶ Oynat";return}
-  this.textContent="■ Durdur";let s=Y0;
-  timer=setInterval(()=>{y1.value=s;y2.value=Math.min(s+24,Y1);readYears();s+=3;if(s>Y1){clearInterval(timer);timer=null;this.textContent="▶ Oynat"}},450);
+// Zaman çizelgesi
+const TL={track:document.getElementById("tl-track"),sel:document.getElementById("tl-sel"),h1:document.getElementById("tl-h1"),h2:document.getElementById("tl-h2"),
+  hist:document.getElementById("tl-hist"),ms:document.getElementById("tl-ms"),axis:document.getElementById("tl-axis")};
+const pct=y=>(y-Y0)/(Y1-Y0)*100;
+const yearAt=x=>{const r=TL.track.getBoundingClientRect();return Math.round(Y0+Math.max(0,Math.min(1,(x-r.left)/r.width))*(Y1-Y0))};
+let rafR=0;
+function setRange(a,z){
+  a=Math.round(Math.max(Y0,Math.min(Y1,a)));z=Math.round(Math.max(Y0,Math.min(Y1,z)));if(a>z)[a,z]=[z,a];
+  if(a===S.from&&z===S.to)return;S.from=a;S.to=z;syncTimeline();
+  if(!rafR)rafR=requestAnimationFrame(()=>{rafR=0;render()});
+}
+// on yıllık savaş sayısı histogramı (karekök ölçekli, seyrek dönemler de görünsün)
+const DEC=10,decs=d3.range(Math.floor(Y0/DEC)*DEC,Y1+1,DEC).map(d=>[d,B.filter(b=>b.y>=d&&b.y<d+DEC).length]);
+const hmax=d3.max(decs,d=>d[1]);
+TL.hist.setAttribute("viewBox",`${Y0} 0 ${Y1-Y0} 100`);
+TL.hist.innerHTML=decs.filter(d=>d[1]).map(([d,n])=>{const h=Math.max(5,100*Math.sqrt(n/hmax));
+  return `<rect data-d="${d}" x="${d+.8}" width="${DEC-1.6}" y="${100-h}" height="${h}"><title>${d}–${d+DEC-1}: ${n} savaş</title></rect>`}).join("");
+const histRects=[...TL.hist.querySelectorAll("rect")];
+// eksen: genişliğe göre yüz, iki yüz veya üç yüz yılda bir
+function drawAxis(){
+  const w=TL.track.getBoundingClientRect().width||800,step=w<500?300:w<800?200:100;
+  TL.axis.innerHTML=d3.range(Math.ceil(Y0/step)*step,Y1+1,step).map(y=>`<span style="left:${pct(y)}%">${y}</span>`).join("");
+}
+// önemli savaşlar: tıklayınca aralık o savaşla biter ve kayıt panelde açılır; etiketler iki sıraya yerleşir, sığmayan yalnız çentik olur
+const MS=[[451,"Katalaunum"],[552,"Göktürkler"],[751,"Talas"],[1040,"Dandanakan"],[1071,"Malazgirt"],[1176,"Miryokefalon"],[1223,"Kalka"],[1243,"Kösedağ"],
+  [1389,"Kosova"],[1402,"Ankara"],[1453,"İstanbul'un fethi"],[1514,"Çaldıran"],[1526,"Mohaç"],[1538,"Preveze"],[1683,"Viyana"],[1877,"93 Harbi"],[1915,"Çanakkale"],[1922,"Büyük Taarruz"]]
+  .filter(([y])=>y>=Y0&&y<=Y1);
+const PRI=[1453,1071,751,1402,552,1514,1683,1922,1526,1176,1243,1040,451,1915,1389,1223,1538,1877];
+const msRec=(y,l)=>B.find(b=>b.y===y&&b.name_tr.startsWith(l.split(/['’ ]/)[0]))||B.find(b=>b.y===y);
+function drawMilestones(){
+  // yerleşim önceliği: seçili yıl, sonra listedeki önem sırası (PRI); iki sıraya çakışmadan sığmayan yalnız çentik olur
+  const w=TL.track.getBoundingClientRect().width||800,rows=[[],[]],rowOf=new Map();
+  const ord=[...MS].sort((a,b)=>(b[0]===S.to)-(a[0]===S.to)||PRI.indexOf(a[0])-PRI.indexOf(b[0]));
+  // kenara yakın etiketler içe doğru hizalanır (al: sola, ar: sağa yaslı)
+  const anc=new Map();
+  for(const [y,l] of ord){const lw=`${l} ${y}`.length*6.3+6,x=pct(y)/100*w,an=x-lw/2<-9?"al":x+lw/2>w+9?"ar":"";anc.set(y,an);
+    const a=(an==="al"?x-4:an==="ar"?x-lw:x-lw/2)-5,z=(an==="al"?x+lw:an==="ar"?x+4:x+lw/2)+5;
+    const r=rows.findIndex(iv=>iv.every(([p,q])=>z<p||a>q));if(r>=0)rows[r].push([a,z]);rowOf.set(y,r)}
+  TL.ms.innerHTML=MS.map(([y,l])=>{const t=`${l} ${y}`,row=rowOf.get(y);
+    return `<button data-y="${y}" data-l="${esc(l)}" class="${row===1?"r1":row<0?"nolab":""} ${anc.get(y)}" style="left:${pct(y)}%" title="${esc(t)}">${esc(t)}</button>`}).join("");
+  TL.ms.querySelectorAll("button").forEach(el=>el.onclick=()=>{
+    stopPlay();const y=+el.dataset.y,w=S.to-S.from>0&&S.to-S.from<=100?S.to-S.from:25;setRange(y-w,y);
+    const r=msRec(y,el.dataset.l);if(r)document.getElementById("panel").innerHTML=recHTML(r)});
+  syncTimeline();
+}
+function syncTimeline(){
+  TL.sel.style.left=pct(S.from)+"%";TL.sel.style.width=(pct(S.to)-pct(S.from))+"%";
+  TL.h1.style.left=pct(S.from)+"%";TL.h2.style.left=pct(S.to)+"%";
+  for(const [h,v,n] of [[TL.h1,S.from,"Başlangıç"],[TL.h2,S.to,"Bitiş"]]){h.setAttribute("aria-valuemin",Y0);h.setAttribute("aria-valuemax",Y1);h.setAttribute("aria-valuenow",v);h.title=`${n}: ${v}`}
+  for(const r of histRects){const d=+r.dataset.d;r.classList.toggle("in",d+DEC>S.from&&d<=S.to)}
+  document.getElementById("ylab").textContent=S.from===S.to?`${S.from}`:`${S.from} – ${S.to}`;
+  TL.ms.querySelectorAll("button").forEach(el=>el.classList.toggle("on",+el.dataset.y>=S.from&&+el.dataset.y<=S.to));
+}
+// sürükleme: tutamaç → o uç; seçili bant → bütün aralık kayar; boş yer → en yakın uç oraya gelir ve sürüklenir
+TL.track.addEventListener("pointerdown",e=>{
+  if(e.button)return;stopPlay();e.preventDefault();const y=yearAt(e.clientX);let mode;
+  if(e.target===TL.h1)mode="a";else if(e.target===TL.h2)mode="z";
+  else if(e.target===TL.sel&&S.to-S.from<Y1-Y0)mode="m";
+  else{mode=Math.abs(y-S.from)<Math.abs(y-S.to)?"a":"z";mode==="a"?setRange(y,S.to):setRange(S.from,y)}
+  if(mode!=="m")(mode==="a"?TL.h1:TL.h2).focus({preventScroll:true});
+  const y0=y,a0=S.from,z0=S.to;TL.track.setPointerCapture(e.pointerId);TL.sel.classList.toggle("drag",mode==="m");
+  const mv=ev=>{const v=yearAt(ev.clientX);
+    if(mode==="a")setRange(Math.min(v,S.to),S.to);else if(mode==="z")setRange(S.from,Math.max(v,S.from));
+    else{const dd=Math.max(Y0-a0,Math.min(Y1-z0,v-y0));setRange(a0+dd,z0+dd)}};
+  const up=()=>{TL.track.removeEventListener("pointermove",mv);TL.track.removeEventListener("pointerup",up);TL.track.removeEventListener("pointercancel",up);TL.sel.classList.remove("drag")};
+  TL.track.addEventListener("pointermove",mv);TL.track.addEventListener("pointerup",up);TL.track.addEventListener("pointercancel",up);
+});
+// klavye: ok ±1 (Shift ile ±10), PageUp/PageDown ±50, Home/End uçlara
+for(const [h,isA] of [[TL.h1,true],[TL.h2,false]])h.addEventListener("keydown",e=>{
+  const st={ArrowLeft:-1,ArrowDown:-1,ArrowRight:1,ArrowUp:1,PageDown:-50,PageUp:50}[e.key];let v=isA?S.from:S.to;
+  if(st!==undefined)v+=st*(e.shiftKey&&Math.abs(st)===1?10:1);else if(e.key==="Home")v=isA?Y0:S.from;else if(e.key==="End")v=isA?S.to:Y1;else return;
+  e.preventDefault();stopPlay();isA?setRange(Math.min(v,S.to),S.to):setRange(S.from,Math.max(v,S.from));
+});
+document.getElementById("yall").onclick=()=>{stopPlay();setRange(Y0,Y1)};
+// oynatma: aralığın genişliği korunur ve seçilen hızla ileri kayar; aralık çok genişse 25 yıllık pencere kullanılır; sondaysa baştan başlar
+let timer=null,acc=0;
+const playBtn=document.getElementById("play"),speedSel=document.getElementById("speed");
+function stopPlay(paused){if(timer){clearInterval(timer);timer=null}playBtn.textContent=paused?"▶ Devam":"▶ Oynat"}
+playBtn.onclick=()=>{
+  if(timer){stopPlay(true);return}
+  let w=S.to-S.from;if(w>(Y1-Y0)/3)w=25;
+  const a=S.to>=Y1?Y0:S.from;setRange(a,a+w);
+  playBtn.textContent="❚❚ Duraklat";acc=0;const TICK=120;
+  timer=setInterval(()=>{acc+=+speedSel.value*TICK/1000;const st=Math.floor(acc);if(!st)return;acc-=st;
+    const n=Math.min(st,Y1-S.to);setRange(S.from+n,S.to+n);if(S.to>=Y1)stopPlay()},TICK);
 };
+let rzT;addEventListener("resize",()=>{clearTimeout(rzT);rzT=setTimeout(()=>{drawAxis();drawMilestones()},100)});
 
 // map
 const W=1000,H=600;
@@ -375,8 +502,8 @@ const tip=document.getElementById("tip");
 const arc=d3.arc().innerRadius(0), pie=d3.pie().sort(null).value(d=>d[1]);
 
 function render(){
-  const F=filtered();
-  document.getElementById("ylab").textContent=`${S.from} – ${S.to}`;
+  const F=filtered(S.from,S.to),FL=filtered(S.lfrom,S.lto);
+  document.getElementById("ycount").textContent=`haritada ${F.length} savaş · sınırlar ${S.to} yılına göre`;
   syncControls();
   renderRealms(S.to);
   const groups=d3.groups(F,b=>b.lat+","+b.lon).map(([k,bs])=>{const [x,y]=proj([bs[0].lon,bs[0].lat]);return {k,bs,x,y}}).sort((a,b)=>b.bs.length-a.bs.length);
@@ -392,7 +519,7 @@ function render(){
     tip.innerHTML=`<b>${esc(d.bs[0].place)}</b><br>`+d.bs.map(b=>`${b.y} · ${esc(b.name_tr)} — ${RES[b.result]}`).join("<br>")})
   .on("mouseleave",()=>tip.style.display="none")
   .on("click",(e,d)=>{document.getElementById("panel").innerHTML=d.bs.sort((a,b)=>a.y-b.y).map(recHTML).join("")});
-  renderWDL(F);renderList(F);
+  renderWDL(FL);renderList(FL);
 }
 
 function renderWDL(F){
@@ -436,7 +563,9 @@ function renderList(F,keep){
 }
 
 document.getElementById("lo").innerHTML=DATA.left_out.map(l=>`<li><b>${esc(l.name)}</b> — ${esc(l.reason)} <span class="meta">(${srcLink(l.source)})</span></li>`).join("");
-render();
+drawAxis();drawMilestones();render();
+// açılış: İstanbul'un fethi (1453) panelde
+{const r=msRec(1453,"İstanbul'un fethi");if(r)document.getElementById("panel").innerHTML=recHTML(r)}
 </script>
 </body>
 </html>
