@@ -236,3 +236,15 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Yılı vermeyen olaylar | `c.` önekiyle yaklaşık yıl ve `dispute` notu (Büyük Bulgarya, Mervân, Silistre) |
 | Kiev 968, Hazar akını 799 | Sonuç yok → dışarıda |
 | Kıpçaklar | Kapsam listesinde yok → dışarıda; kullanıcıya sorulacak |
+
+## Kayıt kararları (Parti 24: Avrupa Hunları, Akhunlar, Avarlar ve Tuna Bulgarları 427–834, 2026-10-30)
+| Kayıt | Karar |
+|---|---|
+| Kaynak | TDVİA'da müstakil madde yok; Avrupa Hunları için Türkçe akademik yayınlar (Erkoç, Yurdakul, Dıngıl Ilgın) birincil kaynak sayıldı |
+| Tuna Bulgarları | 864 (Hıristiyanlığın kabulü) öncesi alındı; sonrası Slavlaşma gerekçesiyle kapsam dışı |
+| Asya Hunları | MÖ yılları için şema (negatif yıl) ve zaman çizelgesi değişikliği gerekir; arayüz turunda karar verilecek |
+| Katalaunum 451 | Türk yazarlara göre (P6) sonuç `D`, ihtilaflı |
+| Edirne kuşatması 586 | Sonuç verilmez → `D`, borderline |
+| Kutrigur–Utigur 482, Krum'un Avar seferi 805 | `turk_arasi` (805'te `opp_state` Avar) |
+| Akhun kayıtları | Sâsânî ve Emevîlere karşı → `dis`; Nîzek 709 Akhun kaydı sayıldı (TDVİA "Eftalit prensi") |
+| Parti 23 ek | Bulgar maddesi Samara 1223, Bulgar 1236 ve Pulat Timur 1361 için ikinci kaynak oldu |

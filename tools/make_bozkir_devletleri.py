@@ -179,7 +179,12 @@ LEFT = [
     {"name": "Kıpçaklar (Kumanlar)", "reason": "Kapsam listesinde yok; Kıpçaklar maddesi Rus knezlikleriyle savaşları anar (1184). Kapsam kararı gerekir.", "source": "TDVIA:kipcaklar"},
 ]
 
-EXTRA_SRC = {}
+# Bulgar maddesi (2026-10-30, Parti 24 taraması sırasında bulundu)
+EXTRA_SRC = {
+    "Samara (1223)": ["TDVIA:bulgar"],  # Moğol ordusuna saldırıp onları yendiler
+    "Bulgar (1236)": ["TDVIA:bulgar"],  # Batu Han'ın emriyle bütün şehirleri yakılıp yıkıldı
+    "Pulat Timur'un saldırısı (1361)": ["TDVIA:bulgar"],  # Pulat Timur'un saldırısıyla şehirleri yıkıldı
+}
 
 recs = []
 for i, r in enumerate(R, 1):

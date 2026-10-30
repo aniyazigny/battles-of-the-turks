@@ -1053,11 +1053,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:idil-bulgar-hanligi"
+    "TDVIA:idil-bulgar-hanligi",
+    "TDVIA:bulgar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -1089,7 +1090,8 @@
    "status": "kesin",
    "sources": [
     "TDVIA:idil-bulgar-hanligi",
-    "TDVIA:tataristan"
+    "TDVIA:tataristan",
+    "TDVIA:bulgar"
    ],
    "verify": {
     "tdvia": true,
@@ -1124,11 +1126,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:idil-bulgar-hanligi"
+    "TDVIA:idil-bulgar-hanligi",
+    "TDVIA:bulgar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

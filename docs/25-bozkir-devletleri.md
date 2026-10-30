@@ -9,7 +9,7 @@ Kullanıcı kararı (2026-10-30): erken Türk devletleri ayrı partiler olarak g
 - **31 kayıt**, 8 olay grubu dışarıda bırakıldı.
 - **Sonuç:** 15 galibiyet, 16 mağlubiyet.
 - **Statü:** 28 kesin, 2 borderline (Rus istilâsı 985, Balkan akını 1048–49), 1 ihtilaflı (Rus istilâsı 964).
-- **Doğrulama:** 15 kayıt iki ayrı TDVİA maddesinde; 16 kayıt tek maddeli.
+- **Doğrulama:** 17 kayıt iki ayrı TDVİA maddesinde (Samara 1223 ve Pulat Timur 1361 Parti 24 taramasında Bulgar maddesiyle ikinci kaynak kazandı); 14 kayıt tek maddeli.
 - **Devletler:** Hazar 16, Peçenek 8, İdil Bulgar 5, Kırgız 2.
 
 Kayıtlar:

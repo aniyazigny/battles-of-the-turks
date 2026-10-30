@@ -64,11 +64,14 @@ Son güncelleme: 2026-10-30
 - [x] **Göktürkler ve Uygurlar:** Parti 21 ilk tur (2026-10-30, 26 kayıt).
 - [ ] **Göktürk–Uygur eksikleri:** Sâsânî–Göktürk savaşları 569–571 ve 588–589, Kapgan'ın Semerkant müdahalesi 701, Karluk isyanları 711–714, Beşbalık 791, Uygur–Tibet savaşları, Uygur–Kırgız savaşları 821 sonrası; Orhon yazıtları için akademik kaynak (Erhan Aydın, Ahmet Taşağıl).
 - [x] **Hazarlar, Peçenekler, İdil Bulgarları, Kırgızlar:** Parti 23 ilk tur (2026-10-30, 31 kayıt).
-- [ ] **Parti 23 eksikleri:** 16 tek maddeli kayıt için akademik kaynak (Kurat, Kafalı); Hazar akını 799, Kiev 968, Peçenek akınları 1035–36 ve 1197'ye kadar.
-- [ ] **Erken Türk devletleri (kapsam onaylandı 2026-10-30):** Asya Hunları, Avrupa Hunları, Akhunlar, Avarlar, Tuna Bulgarları (TDVİA'da müstakil madde yok; akademik kaynak gerekir).
+- [ ] **Parti 23 eksikleri:** 14 tek maddeli kayıt için akademik kaynak (Kurat, Kafalı); Hazar akını 799, Kiev 968, Peçenek akınları 1035–36 ve 1197'ye kadar.
+- [x] **Avrupa Hunları, Akhunlar, Avarlar, Tuna Bulgarları:** Parti 24 ilk tur (2026-10-30, 24 kayıt).
+- [ ] **Parti 24 eksikleri:** 13 tek maddeli kayıt; Avrupa Hunları 375–434 (Ahmetbeyoğlu); Avarlar'ın Pannonia ve Bizans savaşları 568–602; Akhunlar'ın Hindistan seferleri.
+- [ ] **Asya Hunları (MÖ):** Negatif yıl için şema ve zaman çizelgesi kararı gerekir (arayüz turuna bırakıldı).
 - [ ] **Kapsam sorusu:** Kıpçaklar (Kumanlar) eklensin mi? (listede yoktu)
 
 ## 3. Harita eksikleri
+- [ ] Sınır tablosu 550'de başlıyor; Parti 24'ün 427–550 kayıtları sınırsız görünüyor (Avrupa Hun, Akhun, Sâsânî, Roma katmanı gerekir).
 - [x] Sınır tablosu 1000 öncesine uzatıldı (2026-10-30, `tools/extend_borders_552.py`; kaba katman; Lahor ve Mültan `tools/fix_borders_pencap.py` ile eklendi).
 - [x] Altın Orda 1502'den sonra da görünüyordu → `tools/fix_borders_altinorda.py` (2026-10-29): Kazan 1437–1552, Astarhan 1466–1556, Nogay 1502–1634, Kırım bozkırı, Hîve 1512–, Sibir 1490–1582, Kazak Hanlığı 1465–; Rusya, Kiev (Lehistan-Litvanya 1362–1667, Rusya 1667–), Kalmuklar 1634–.
 - [x] Doğu Türkistan ve Moğolistan: Moğolistan Hanlığı, Yarkent Hanlığı, Cungarlar, Çing ve Yâkub Beg dilimleri işlendi (2026-10-30, `tools/fix_borders_dogu_turkistan.py`; Yedisu ve Moğolistan dilimleri kaba).
