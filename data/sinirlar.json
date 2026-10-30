@@ -3,7 +3,7 @@
   "title": "Şehir bazlı hâkimiyet tablosu (harita sınırları için)",
   "compiled": "2026-10-28",
   "status": "Taslak. Sınırlar yaklaşıktır; kontrol bekliyor.",
-  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya. 1840–1880: Suriye ve Girit 1840'ta Osmanlı'ya döndü; Romanya 1858; Belgrad 1867 Sırbistan; Berlin 1878: Bulgaristan, Bosna (Avusturya), Kars (Rusya), Kıbrıs (İngiltere), Niş (Sırbistan). 1880–1913: Tunus 1881 Fransa; Mısır 1882 İngiliz işgali; Doğu Rumeli 1885 Bulgaristan; Girit 1898 özerk; Trablusgarp 1911 ve Rodos 1912 İtalya. 1913–1914: Balkan Savaşları — Selânik, Yanya, Midilli, Sakız, Girit Yunanistan; Üsküp, Manastır, Priştine Sırbistan; Avlonya, Kruya, İşkodra Arnavutluk. 1914–1919: Birinci Dünya Savaşı — Basra 1914, Bağdat ve Kudüs 1917, Şam, Halep, Trablusşam 1918; Mekke 1916 Hâşimî; Erzurum, Trabzon, Van Rus işgali ve 1918'de geri alınış; Kafkas cumhuriyetleri 1918. 1919–1923: Millî Mücadele — TBMM Hükümeti 1920; Yunan, Fransız ve Ermeni işgalleri ve kurtuluşlar; Lahsâ 1913 Suûdî. 550–1000 (kaba katman): Göktürk, Batı Göktürk, Türgiş, Karluk, Uygur, Kırgız, Hazar, Akhun, Sâsânî, Emevî, Abbâsî, Sâmânî, Saffârî, Büveyhî, Hamdânî, Fâtımî, Tuna Bulgar ve Bizans dilimleri; Ötüken noktası eklendi. Kontrol turu 1: Yenişehir (Teselya 1881) ve Kırkkilise noktaları; Kıbrıs 1489–1570 Venedik. Doğu Türkistan ve Moğolistan 1218 sonrası: Moğolistan Hanlığı, Yarkent Hanlığı, Cungarlar, Çing, Yâkub Beg dilimleri. Lahsâ 1818–1913: Benî Hâlid, Suûdî (yaklaşık 1830–1841), 1871'den Osmanlı. Türkistan: Semerkant 1868, Merv 1884 Rusya; Buhara ve Hîve 1920'ye kadar hanlık; Belh 1751 Dürrânî, 1826–1841 Buhara, sonra Afgan. Pencap 1000 öncesi: Mültan Emevî/Abbâsî/Karmatî, Lahor Hindûşâhî (kaba). Türkistan hanlıkları: Hokand, Taşkent, Çimkent, Akmescid, Göktepe ve Kızılsu noktaları; Buhara ve Semerkant 1785 sonrası Mangıt. 1923'e uzanan eskimiş son dilimler güncellendi (Habsburg mirası 1918, Sovyet dönemi, Afganistan, Çin Cumhuriyeti). Çin, Tibet ve Moğolistan: Kumul, Kan-chou, Çang-an, Yinşan, Pekin, Lhasa, Hoten, Gulca ve Batı Moğolistan noktaları (Sui, T'ang, Song, Cin, Tangut, Ming, Çing hanedanları). Sistematik tarama (2026-10-30): İlhanlı sonrası 1335–1370, Karakoyunlu başlangıcı, Lahor ve Multan 1206 sonrası, Merv, Kıpçak başlangıcı ve boş erken dönemler düzeltildi.",
+  "method": "Her şehir, çevresindeki bölgeyi temsil eder. Haritada bölgeler en yakın şehre göre (Voronoi) çizilir ve kara şekliyle kırpılır. Bir yılın haritası, o yıl her şehrin kimin elinde olduğuna göre boyanır. Sınırlar bu yüzden bölge düzeyinde ve yaklaşıktır. Sahip olarak şehri fiilen yöneten hanedan yazılır; metbûluk (hutbe, vergi) gösterilmez. 'void' noktalar kapsam dışı alanlardır ve boyanmaz. 1243 sonrası Anadolu, Moğol metbûluğuna rağmen Anadolu Selçuklu rengindedir; doğrudan Moğol idaresine geçen doğu şehirleri Moğol rengini alır. 1310–1410 arasında Anadolu beylikleri, Balkanlar ve Timur eklendi; bu dönemin el değiştirme tarihleri çoğunlukla yaklaşıktır. 1410–1490 arasında Osmanlı'nın yeniden birleşmesi, Fâtih'in fetihleri, Akkoyunlular ve Kırım eklendi. 1490–1530 arasında Safevîler, Yavuz'un doğu ve Memlük seferleri eklendi. 1530–1570 arasında Kanûnî'nin Macaristan, Irak ve Kuzey Afrika fetihleri ile Habsburglar eklendi. 1570–1610 arasında Kıbrıs, Tunus, Kafkasya ve Uzun Savaş değişiklikleri; Timurlu bölgeleri 1500'lerden sonra Özbek, Safevî ve Bâbürlülere verildi. 1610–1640 arasında Bağdat (1624–1638 Safevî), Revan ve Ahıska değişiklikleri eklendi. 1640–1690 arasında Girit, Varad, Uyvar, Podolya, Lehistan ve 1683 sonrası Estergon ile Budin kayıpları eklendi. Eksik turu: Altın Orda 1502 sonrası Kazan (1437–1552), Astarhan (1466–1556), Nogay, Kırım, Hîve (1512–), Sibir (–1582), Kazak hanlıkları ile Rusya, Lehistan-Litvanya ve Kalmuklara bölündü. 1690–1720 arasında Karlofça kayıpları, Mora (1687–1715 Venedik), Azak, Belgrad ve Banat eklendi. 1720–1780 arasında Belgrad (1739), Azak (1736), 1724–1735 Osmanlı Azerbaycanı ve Nâdir Şah'ın Afşar dönemi (1736–1747) eklendi. İran ve Irak 1405–1510: Karakoyunlu (1408–1469) ve Akkoyunlu (1468–1503) yayılması, Horasan'da Şeybânî dönemi (1507–1510) TDVİA maddelerine göre işlendi. 1780–1812: Kırım 1783, Özü 1788, Besarabya 1812 Rusya; Belgrad ve Semendire 1806'dan sonra Sırp; Mısır 1798–1801 Fransa; İran'da Zend ve Kaçar dönemleri; Lehistan'ın paylaşılması. 1815–1840: Belgrad 1813; Sırbistan 1830; Yunanistan 1828–1833; Cezayir 1830 Fransa; Mehmed Ali'nin Suriye'si ve Girit; Revan ve Ahıska Rusya. 1840–1880: Suriye ve Girit 1840'ta Osmanlı'ya döndü; Romanya 1858; Belgrad 1867 Sırbistan; Berlin 1878: Bulgaristan, Bosna (Avusturya), Kars (Rusya), Kıbrıs (İngiltere), Niş (Sırbistan). 1880–1913: Tunus 1881 Fransa; Mısır 1882 İngiliz işgali; Doğu Rumeli 1885 Bulgaristan; Girit 1898 özerk; Trablusgarp 1911 ve Rodos 1912 İtalya. 1913–1914: Balkan Savaşları — Selânik, Yanya, Midilli, Sakız, Girit Yunanistan; Üsküp, Manastır, Priştine Sırbistan; Avlonya, Kruya, İşkodra Arnavutluk. 1914–1919: Birinci Dünya Savaşı — Basra 1914, Bağdat ve Kudüs 1917, Şam, Halep, Trablusşam 1918; Mekke 1916 Hâşimî; Erzurum, Trabzon, Van Rus işgali ve 1918'de geri alınış; Kafkas cumhuriyetleri 1918. 1919–1923: Millî Mücadele — TBMM Hükümeti 1920; Yunan, Fransız ve Ermeni işgalleri ve kurtuluşlar; Lahsâ 1913 Suûdî. 550–1000 (kaba katman): Göktürk, Batı Göktürk, Türgiş, Karluk, Uygur, Kırgız, Hazar, Akhun, Sâsânî, Emevî, Abbâsî, Sâmânî, Saffârî, Büveyhî, Hamdânî, Fâtımî, Tuna Bulgar ve Bizans dilimleri; Ötüken noktası eklendi. Kontrol turu 1: Yenişehir (Teselya 1881) ve Kırkkilise noktaları; Kıbrıs 1489–1570 Venedik. Doğu Türkistan ve Moğolistan 1218 sonrası: Moğolistan Hanlığı, Yarkent Hanlığı, Cungarlar, Çing, Yâkub Beg dilimleri. Lahsâ 1818–1913: Benî Hâlid, Suûdî (yaklaşık 1830–1841), 1871'den Osmanlı. Türkistan: Semerkant 1868, Merv 1884 Rusya; Buhara ve Hîve 1920'ye kadar hanlık; Belh 1751 Dürrânî, 1826–1841 Buhara, sonra Afgan. Pencap 1000 öncesi: Mültan Emevî/Abbâsî/Karmatî, Lahor Hindûşâhî (kaba). Türkistan hanlıkları: Hokand, Taşkent, Çimkent, Akmescid, Göktepe ve Kızılsu noktaları; Buhara ve Semerkant 1785 sonrası Mangıt. 1923'e uzanan eskimiş son dilimler güncellendi (Habsburg mirası 1918, Sovyet dönemi, Afganistan, Çin Cumhuriyeti). Çin, Tibet ve Moğolistan: Kumul, Kan-chou, Çang-an, Yinşan, Pekin, Lhasa, Hoten, Gulca ve Batı Moğolistan noktaları (Sui, T'ang, Song, Cin, Tangut, Ming, Çing hanedanları). Sistematik tarama (2026-10-30): İlhanlı sonrası 1335–1370, Karakoyunlu başlangıcı, Lahor ve Multan 1206 sonrası, Merv, Kıpçak başlangıcı ve boş erken dönemler düzeltildi. Tablo 400'e uzatıldı (Avrupa Hunları, Ogur boyları, Akhunlar, Juan-juanlar, Batı Roma, Franklar); Tuna ve Turla kaleleri eklendi.",
   "spans": "[başlangıç, bitiş, devlet]: başlangıç dahil, bitiş hariç (ör. [1040, 1153, ...] 1040–1152 yılları).",
   "sources": "src alanı, el değiştirme tarihlerinin dayandığı TDVİA maddeleridir. 'yaklasik': true olan şehirlerin tarihleri kaba tahmindir ve kontrol edilecektir."
  },
@@ -1099,6 +1099,36 @@
    "en": "al-Andalus",
    "group": "diger",
    "color": "#b2a07e"
+  },
+  "hun": {
+   "tr": "Avrupa Hun İmparatorluğu",
+   "en": "Hunnic Empire",
+   "group": "turk",
+   "color": "#6a7fb5"
+  },
+  "onogur": {
+   "tr": "Ogur ve Bulgar boyları",
+   "en": "Ogur and Bulgar tribes",
+   "group": "turk-diger",
+   "color": "#8a9cb8"
+  },
+  "germen": {
+   "tr": "Germen kavimleri (Gepid, Lombard)",
+   "en": "Germanic peoples",
+   "group": "diger",
+   "color": "#a3a89a"
+  },
+  "bati-roma": {
+   "tr": "Batı Roma İmparatorluğu",
+   "en": "Western Roman Empire",
+   "group": "diger",
+   "color": "#b3a0b0"
+  },
+  "frank": {
+   "tr": "Frank Krallığı",
+   "en": "Frankish Kingdom",
+   "group": "diger",
+   "color": "#9fa6b8"
   }
  },
  "cities": [
@@ -1109,7 +1139,7 @@
    "lon": 61.83,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -1224,7 +1254,7 @@
    "lon": 61.16,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -1317,7 +1347,7 @@
    "lon": 58.8,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -1430,7 +1460,7 @@
    "lon": 62.2,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -1537,7 +1567,7 @@
    "lon": 61.86,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -1624,7 +1654,12 @@
    "lon": 66.9,
    "spans": [
     [
-     550,
+     400,
+     450,
+     "yerel"
+    ],
+    [
+     450,
      557,
      "akhun"
     ],
@@ -1722,6 +1757,16 @@
    "lon": 68.42,
    "spans": [
     [
+     400,
+     460,
+     "yerel"
+    ],
+    [
+     460,
+     550,
+     "akhun"
+    ],
+    [
      550,
      870,
      "turk-sahi"
@@ -1798,6 +1843,16 @@
    "lat": 31.6,
    "lon": 64.36,
    "spans": [
+    [
+     400,
+     460,
+     "yerel"
+    ],
+    [
+     460,
+     550,
+     "akhun"
+    ],
     [
      550,
      870,
@@ -2055,7 +2110,7 @@
    "lon": 59.15,
    "spans": [
     [
-     550,
+     400,
      712,
      "afrigi"
     ],
@@ -2134,7 +2189,12 @@
    "lon": 64.42,
    "spans": [
     [
-     550,
+     400,
+     450,
+     "yerel"
+    ],
+    [
+     450,
      557,
      "akhun"
     ],
@@ -2213,7 +2273,12 @@
    "lon": 66.96,
    "spans": [
     [
-     550,
+     400,
+     450,
+     "yerel"
+    ],
+    [
+     450,
      557,
      "akhun"
     ],
@@ -2297,6 +2362,16 @@
    "lat": 39.47,
    "lon": 75.99,
    "spans": [
+    [
+     400,
+     470,
+     "yerel"
+    ],
+    [
+     470,
+     552,
+     "akhun"
+    ],
     [
      552,
      659,
@@ -2384,6 +2459,16 @@
    "lon": 75.2,
    "spans": [
     [
+     400,
+     470,
+     "yerel"
+    ],
+    [
+     470,
+     552,
+     "akhun"
+    ],
+    [
      552,
      659,
      "bati-gokturk"
@@ -2470,6 +2555,11 @@
    "lat": 42.85,
    "lon": 89.53,
    "spans": [
+    [
+     400,
+     552,
+     "juan-juan"
+    ],
     [
      552,
      640,
@@ -2646,6 +2736,16 @@
    "lon": 46.0,
    "spans": [
     [
+     400,
+     454,
+     "hun"
+    ],
+    [
+     454,
+     552,
+     "onogur"
+    ],
+    [
      552,
      630,
      "bati-gokturk"
@@ -2705,6 +2805,16 @@
    "lat": 47.0,
    "lon": 34.0,
    "spans": [
+    [
+     400,
+     454,
+     "hun"
+    ],
+    [
+     454,
+     552,
+     "onogur"
+    ],
     [
      552,
      630,
@@ -2806,7 +2916,7 @@
    "lon": 54.43,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -2898,7 +3008,7 @@
    "lon": 52.35,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -2985,7 +3095,7 @@
    "lon": 51.44,
    "spans": [
     [
-     550,
+     400,
      641,
      "sasani"
     ],
@@ -3088,7 +3198,7 @@
    "lon": 50.59,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -3176,7 +3286,7 @@
    "lon": 48.51,
    "spans": [
     [
-     550,
+     400,
      642,
      "sasani"
     ],
@@ -3279,7 +3389,7 @@
    "lon": 51.67,
    "spans": [
     [
-     550,
+     400,
      642,
      "sasani"
     ],
@@ -3381,7 +3491,7 @@
    "lon": 57.08,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -3484,7 +3594,7 @@
    "lon": 52.53,
    "spans": [
     [
-     550,
+     400,
      650,
      "sasani"
     ],
@@ -3581,7 +3691,7 @@
    "lon": 48.67,
    "spans": [
     [
-     550,
+     400,
      640,
      "sasani"
     ],
@@ -3678,7 +3788,7 @@
    "lon": 47.81,
    "spans": [
     [
-     550,
+     400,
      636,
      "sasani"
     ],
@@ -3780,7 +3890,7 @@
    "lon": 44.36,
    "spans": [
     [
-     550,
+     400,
      637,
      "sasani"
     ],
@@ -3903,7 +4013,7 @@
    "lon": 44.43,
    "spans": [
     [
-     550,
+     400,
      637,
      "sasani"
     ],
@@ -3991,7 +4101,7 @@
    "lon": 43.13,
    "spans": [
     [
-     550,
+     400,
      637,
      "sasani"
     ],
@@ -4084,7 +4194,7 @@
    "lon": 40.23,
    "spans": [
     [
-     550,
+     400,
      639,
      "bizans"
     ],
@@ -4187,7 +4297,7 @@
    "lon": 41.01,
    "spans": [
     [
-     550,
+     400,
      639,
      "bizans"
     ],
@@ -4285,7 +4395,7 @@
    "lon": 40.74,
    "spans": [
     [
-     550,
+     400,
      639,
      "bizans"
     ],
@@ -4362,7 +4472,7 @@
    "lon": 41.41,
    "spans": [
     [
-     550,
+     400,
      639,
      "bizans"
     ],
@@ -4439,7 +4549,7 @@
    "lon": 42.49,
    "spans": [
     [
-     550,
+     400,
      654,
      "sasani"
     ],
@@ -4539,7 +4649,7 @@
    "lon": 42.53,
    "spans": [
     [
-     550,
+     400,
      654,
      "bizans"
     ],
@@ -4636,7 +4746,7 @@
    "lon": 41.27,
    "spans": [
     [
-     550,
+     400,
      653,
      "bizans"
     ],
@@ -4734,7 +4844,7 @@
    "lon": 43.57,
    "spans": [
     [
-     550,
+     400,
      640,
      "sasani"
     ],
@@ -4852,7 +4962,7 @@
    "lon": 46.36,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -4986,7 +5096,7 @@
    "lon": 46.29,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -5108,7 +5218,7 @@
    "lon": 48.64,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -5183,7 +5293,7 @@
    "lon": 44.79,
    "spans": [
     [
-     550,
+     400,
      629,
      "sasani"
     ],
@@ -5270,7 +5380,7 @@
    "lon": 42.7,
    "spans": [
     [
-     550,
+     400,
      1000,
      "gurcistan"
     ],
@@ -5307,7 +5417,7 @@
    "lon": 39.72,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -5352,7 +5462,7 @@
    "lon": 37.02,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -5412,7 +5522,7 @@
    "lon": 35.83,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -5472,7 +5582,7 @@
    "lon": 35.49,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -5539,7 +5649,7 @@
    "lon": 38.31,
    "spans": [
     [
-     550,
+     400,
      656,
      "bizans"
     ],
@@ -5614,7 +5724,7 @@
    "lon": 32.48,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -5666,7 +5776,7 @@
    "lon": 29.72,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -5718,7 +5828,7 @@
    "lon": 27.14,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -5788,7 +5898,7 @@
    "lon": 30.7,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -5848,7 +5958,7 @@
    "lon": 34.9,
    "spans": [
     [
-     550,
+     400,
      665,
      "bizans"
     ],
@@ -5923,7 +6033,7 @@
    "lon": 28.98,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -5963,7 +6073,7 @@
    "lon": 26.56,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -6013,7 +6123,7 @@
    "lon": 22.94,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -6078,7 +6188,7 @@
    "lon": 23.73,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -6113,7 +6223,7 @@
    "lon": 25.63,
    "spans": [
     [
-     550,
+     400,
      681,
      "bizans"
     ],
@@ -6158,7 +6268,7 @@
    "lon": 33.4,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -6200,7 +6310,7 @@
    "lon": 36.16,
    "spans": [
     [
-     550,
+     400,
      638,
      "bizans"
     ],
@@ -6288,7 +6398,7 @@
    "lon": 38.79,
    "spans": [
     [
-     550,
+     400,
      639,
      "bizans"
     ],
@@ -6390,7 +6500,7 @@
    "lon": 37.16,
    "spans": [
     [
-     550,
+     400,
      637,
      "bizans"
     ],
@@ -6499,7 +6609,7 @@
    "lon": 36.29,
    "spans": [
     [
-     550,
+     400,
      634,
      "bizans"
     ],
@@ -6603,7 +6713,7 @@
    "lon": 35.84,
    "spans": [
     [
-     550,
+     400,
      638,
      "bizans"
     ],
@@ -6680,7 +6790,7 @@
    "lon": 35.2,
    "spans": [
     [
-     550,
+     400,
      638,
      "bizans"
     ],
@@ -6755,7 +6865,7 @@
    "lon": 35.22,
    "spans": [
     [
-     550,
+     400,
      637,
      "bizans"
     ],
@@ -6869,7 +6979,7 @@
    "lon": 34.57,
    "spans": [
     [
-     550,
+     400,
      640,
      "bizans"
     ],
@@ -6949,7 +7059,7 @@
    "lon": 31.25,
    "spans": [
     [
-     550,
+     400,
      641,
      "bizans"
     ],
@@ -7024,7 +7134,7 @@
    "lon": 29.92,
    "spans": [
     [
-     550,
+     400,
      641,
      "bizans"
     ],
@@ -7099,7 +7209,7 @@
    "lon": 39.61,
    "spans": [
     [
-     550,
+     400,
      632,
      "hicaz"
     ],
@@ -7217,7 +7327,7 @@
    "lon": 33.78,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7274,7 +7384,7 @@
    "lon": 32.86,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7337,7 +7447,7 @@
    "lon": 30.52,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7395,7 +7505,7 @@
    "lon": 29.98,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7437,7 +7547,7 @@
    "lon": 29.98,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7499,7 +7609,7 @@
    "lon": 29.09,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7551,7 +7661,7 @@
    "lon": 33.22,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7593,7 +7703,7 @@
    "lon": 39.49,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7660,7 +7770,7 @@
    "lon": 39.25,
    "spans": [
     [
-     550,
+     400,
      656,
      "bizans"
     ],
@@ -7747,7 +7857,7 @@
    "lon": 35.15,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7805,7 +7915,7 @@
    "lon": 32.0,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7847,7 +7957,7 @@
    "lon": 29.06,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7885,7 +7995,7 @@
    "lon": 29.92,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7917,7 +8027,7 @@
    "lon": 27.88,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -7959,7 +8069,7 @@
    "lon": 27.43,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8011,7 +8121,7 @@
    "lon": 27.78,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8058,7 +8168,7 @@
    "lon": 30.55,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8100,7 +8210,7 @@
    "lon": 26.67,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8143,7 +8253,7 @@
    "lon": 24.75,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8180,7 +8290,7 @@
    "lon": 23.32,
    "spans": [
     [
-     550,
+     400,
      809,
      "bizans"
     ],
@@ -8222,7 +8332,7 @@
    "lon": 21.43,
    "spans": [
     [
-     550,
+     400,
      850,
      "bizans"
     ],
@@ -8269,7 +8379,7 @@
    "lon": 21.33,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8311,7 +8421,7 @@
    "lon": 21.9,
    "spans": [
     [
-     550,
+     400,
      850,
      "bizans"
     ],
@@ -8358,7 +8468,7 @@
    "lon": 21.17,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8400,7 +8510,7 @@
    "lon": 20.45,
    "spans": [
     [
-     550,
+     400,
      568,
      "bizans"
     ],
@@ -8505,7 +8615,7 @@
    "lon": 18.41,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8545,7 +8655,7 @@
    "lon": 19.49,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8581,6 +8691,16 @@
    "lat": 47.5,
    "lon": 19.04,
    "spans": [
+    [
+     400,
+     454,
+     "hun"
+    ],
+    [
+     454,
+     568,
+     "germen"
+    ],
     [
      568,
      796,
@@ -8627,7 +8747,17 @@
    "lon": 26.1,
    "spans": [
     [
-     550,
+     400,
+     454,
+     "hun"
+    ],
+    [
+     454,
+     568,
+     "germen"
+    ],
+    [
+     568,
      680,
      "avar"
     ],
@@ -8679,7 +8809,7 @@
    "lon": 22.4,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8729,7 +8859,7 @@
    "lon": 20.93,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8782,7 +8912,7 @@
    "lon": 19.79,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -8825,7 +8955,7 @@
    "lon": 35.38,
    "spans": [
     [
-     550,
+     400,
      576,
      "bizans"
     ],
@@ -8902,7 +9032,7 @@
    "lon": 33.86,
    "spans": [
     [
-     550,
+     400,
      576,
      "bizans"
     ],
@@ -8967,7 +9097,7 @@
    "lon": 23.6,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -9004,7 +9134,7 @@
    "lon": 28.22,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -9078,7 +9208,7 @@
    "lon": 24.9,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -9128,7 +9258,7 @@
    "lon": 21.8,
    "spans": [
     [
-     550,
+     400,
      1000,
      "bizans"
     ],
@@ -9173,7 +9303,7 @@
    "lon": 36.93,
    "spans": [
     [
-     550,
+     400,
      637,
      "bizans"
     ],
@@ -9243,7 +9373,7 @@
    "lon": 43.38,
    "spans": [
     [
-     550,
+     400,
      654,
      "sasani"
     ],
@@ -9407,6 +9537,26 @@
    "lat": 45.75,
    "lon": 21.23,
    "spans": [
+    [
+     400,
+     454,
+     "hun"
+    ],
+    [
+     454,
+     568,
+     "germen"
+    ],
+    [
+     568,
+     805,
+     "avar"
+    ],
+    [
+     805,
+     895,
+     "bulgar1"
+    ],
     [
      895,
      1000,
@@ -9723,6 +9873,16 @@
    "lon": 2.5,
    "spans": [
     [
+     400,
+     486,
+     "bati-roma"
+    ],
+    [
+     486,
+     1000,
+     "frank"
+    ],
+    [
      1000,
      1923,
      "fransa"
@@ -9858,7 +10018,7 @@
    "lon": 44.51,
    "spans": [
     [
-     550,
+     400,
      654,
      "sasani"
     ],
@@ -10013,7 +10173,7 @@
    "lon": 42.98,
    "spans": [
     [
-     550,
+     400,
      1000,
      "gurcistan"
     ],
@@ -10619,6 +10779,11 @@
    "lon": 27.59,
    "spans": [
     [
+     895,
+     1000,
+     "pecenek"
+    ],
+    [
      1000,
      1060,
      "pecenek"
@@ -10655,6 +10820,31 @@
    "lat": 46.83,
    "lon": 29.48,
    "spans": [
+    [
+     400,
+     454,
+     "hun"
+    ],
+    [
+     454,
+     568,
+     "onogur"
+    ],
+    [
+     568,
+     680,
+     "avar"
+    ],
+    [
+     680,
+     895,
+     "bulgar1"
+    ],
+    [
+     895,
+     1000,
+     "pecenek"
+    ],
     [
      1000,
      1060,
@@ -10703,6 +10893,11 @@
    "lat": 46.61,
    "lon": 31.54,
    "spans": [
+    [
+     895,
+     1000,
+     "pecenek"
+    ],
     [
      1000,
      1060,
@@ -10762,7 +10957,7 @@
    "lon": 20.85,
    "spans": [
     [
-     550,
+     400,
      1348,
      "bizans"
     ],
@@ -10794,7 +10989,7 @@
    "lon": 19.51,
    "spans": [
     [
-     550,
+     400,
      1180,
      "bizans"
     ],
@@ -10831,7 +11026,7 @@
    "lon": 26.55,
    "spans": [
     [
-     550,
+     400,
      1355,
      "bizans"
     ],
@@ -10863,7 +11058,7 @@
    "lon": 26.14,
    "spans": [
     [
-     550,
+     400,
      1346,
      "bizans"
     ],
@@ -10895,7 +11090,7 @@
    "lon": 39.83,
    "spans": [
     [
-     550,
+     400,
      1517,
      "hicaz"
     ],
@@ -10931,7 +11126,7 @@
    ],
    "spans": [
     [
-     550,
+     400,
      552,
      "juan-juan"
     ],
@@ -10999,7 +11194,7 @@
    "lon": 22.42,
    "spans": [
     [
-     550,
+     400,
      1204,
      "bizans"
     ],
@@ -11042,7 +11237,7 @@
    "lon": 27.225,
    "spans": [
     [
-     550,
+     400,
      1366,
      "bizans"
     ],
@@ -11083,6 +11278,16 @@
    "lat": 40.53,
    "lon": 70.94,
    "spans": [
+    [
+     400,
+     470,
+     "yerel"
+    ],
+    [
+     470,
+     552,
+     "akhun"
+    ],
     [
      552,
      704,
@@ -11156,6 +11361,16 @@
    "lat": 41.31,
    "lon": 69.28,
    "spans": [
+    [
+     400,
+     470,
+     "yerel"
+    ],
+    [
+     470,
+     552,
+     "akhun"
+    ],
     [
      552,
      704,
@@ -11234,6 +11449,16 @@
    "lat": 42.32,
    "lon": 69.6,
    "spans": [
+    [
+     400,
+     470,
+     "yerel"
+    ],
+    [
+     470,
+     552,
+     "akhun"
+    ],
     [
      552,
      704,
@@ -11360,7 +11585,7 @@
    "lon": 57.97,
    "spans": [
     [
-     550,
+     400,
      651,
      "sasani"
     ],
@@ -11452,7 +11677,7 @@
    "lon": 52.97,
    "spans": [
     [
-     550,
+     400,
      716,
      "sasani"
     ],
@@ -11534,6 +11759,11 @@
    "lon": 93.51,
    "spans": [
     [
+     400,
+     552,
+     "juan-juan"
+    ],
+    [
      552,
      630,
      "gokturk"
@@ -11591,7 +11821,7 @@
    "lon": 100.45,
    "spans": [
     [
-     550,
+     400,
      581,
      "kuzey-cin"
     ],
@@ -11658,7 +11888,7 @@
    "lon": 108.95,
    "spans": [
     [
-     550,
+     400,
      581,
      "kuzey-cin"
     ],
@@ -11720,7 +11950,7 @@
    "lon": 111.75,
    "spans": [
     [
-     550,
+     400,
      552,
      "juan-juan"
     ],
@@ -11792,7 +12022,7 @@
    "lon": 116.4,
    "spans": [
     [
-     550,
+     400,
      581,
      "kuzey-cin"
     ],
@@ -11854,7 +12084,7 @@
    "lon": 91.1,
    "spans": [
     [
-     550,
+     400,
      1240,
      "tibet"
     ],
@@ -11891,7 +12121,7 @@
    "lon": 79.93,
    "spans": [
     [
-     550,
+     400,
      648,
      "hoten-krl"
     ],
@@ -11973,6 +12203,16 @@
    "lon": 81.28,
    "spans": [
     [
+     400,
+     470,
+     "yerel"
+    ],
+    [
+     470,
+     552,
+     "akhun"
+    ],
+    [
      552,
      659,
      "bati-gokturk"
@@ -12050,6 +12290,11 @@
    "lon": 96.0,
    "spans": [
     [
+     400,
+     552,
+     "juan-juan"
+    ],
+    [
      552,
      630,
      "gokturk"
@@ -12115,7 +12360,7 @@
    "lon": 120.15,
    "spans": [
     [
-     550,
+     400,
      589,
      "guney-cin"
     ],
@@ -12171,6 +12416,11 @@
    "lat": 30.67,
    "lon": 104.07,
    "spans": [
+    [
+     400,
+     550,
+     "guney-cin"
+    ],
     [
      550,
      581,
@@ -12239,6 +12489,209 @@
    "void": true,
    "lat": 17.0,
    "lon": 104.0
+  },
+  {
+   "id": "silistre",
+   "tr": "Silistre",
+   "lat": 44.12,
+   "lon": 27.26,
+   "spans": [
+    [
+     400,
+     680,
+     "bizans"
+    ],
+    [
+     680,
+     971,
+     "bulgar1"
+    ],
+    [
+     971,
+     1185,
+     "bizans"
+    ],
+    [
+     1185,
+     1388,
+     "bulgar2"
+    ],
+    [
+     1388,
+     1878,
+     "osmanli"
+    ],
+    [
+     1878,
+     1913,
+     "bulgaristan"
+    ],
+    [
+     1913,
+     1923,
+     "romanya"
+    ]
+   ],
+   "src": [
+    "silistre"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "ruscuk",
+   "tr": "Rusçuk",
+   "lat": 43.85,
+   "lon": 25.95,
+   "spans": [
+    [
+     400,
+     680,
+     "bizans"
+    ],
+    [
+     680,
+     971,
+     "bulgar1"
+    ],
+    [
+     971,
+     1185,
+     "bizans"
+    ],
+    [
+     1185,
+     1388,
+     "bulgar2"
+    ],
+    [
+     1388,
+     1878,
+     "osmanli"
+    ],
+    [
+     1878,
+     1923,
+     "bulgaristan"
+    ]
+   ],
+   "src": [
+    "ruscuk"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "ibrail",
+   "tr": "İbrail",
+   "lat": 45.27,
+   "lon": 27.96,
+   "spans": [
+    [
+     400,
+     454,
+     "hun"
+    ],
+    [
+     454,
+     568,
+     "germen"
+    ],
+    [
+     568,
+     680,
+     "avar"
+    ],
+    [
+     680,
+     895,
+     "bulgar1"
+    ],
+    [
+     895,
+     1060,
+     "pecenek"
+    ],
+    [
+     1060,
+     1240,
+     "kipcak"
+    ],
+    [
+     1240,
+     1310,
+     "altin-orda"
+    ],
+    [
+     1310,
+     1540,
+     "eflak"
+    ],
+    [
+     1540,
+     1829,
+     "osmanli"
+    ],
+    [
+     1829,
+     1858,
+     "eflak"
+    ],
+    [
+     1858,
+     1923,
+     "romanya"
+    ]
+   ],
+   "src": [
+    "ibrail"
+   ],
+   "yaklasik": true
+  },
+  {
+   "id": "hotin",
+   "tr": "Hotin",
+   "lat": 48.52,
+   "lon": 26.49,
+   "spans": [
+    [
+     895,
+     1060,
+     "pecenek"
+    ],
+    [
+     1060,
+     1240,
+     "kipcak"
+    ],
+    [
+     1240,
+     1359,
+     "altin-orda"
+    ],
+    [
+     1359,
+     1713,
+     "bogdan"
+    ],
+    [
+     1713,
+     1806,
+     "osmanli"
+    ],
+    [
+     1806,
+     1918,
+     "rusya"
+    ],
+    [
+     1918,
+     1923,
+     "romanya"
+    ]
+   ],
+   "src": [
+    "hotin"
+   ],
+   "yaklasik": true
   }
  ]
 }

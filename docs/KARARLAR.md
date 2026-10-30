@@ -310,3 +310,11 @@ Yöntem: her devletin haritadaki ilk ve son yılı tarihî ömrüyle karşılaş
 | Viyana 1000'den Habsburg; Hafsîler 1000'den | Kutsal Roma 1000–1278; Zîrîler, Muvahhidler 1229'a kadar; Güney İtalya 1071'e kadar Bizans; Toledo 1085'e kadar Endülüs |
 | Boş erken dönemler | Macaristan şehirleri 895'ten; Revan, Ahıska, Fergana, Taşkent, Çimkent, Akmescid, Göktepe, Kızılsu, Astarhan, Saraycık, Sibir, Azak, Moskova, Yanya, İşkodra, Midilli, Sakız, Mekke, Gûr, Alamut |
 | Kalan sınırlılık | "Yerel hânedanlar" etiketi parçalı dönemler için toplu ad; Kazak bozkırının kuzeyi seyrek noktalı |
+
+## Harita: 400–550 ve Tuna kaleleri (2026-10-30)
+| Konu | Karar |
+|---|---|
+| Denetim aracı | `tools/check_battle_owners.py`: her savaşın yeri o yıl en yakın şehrin sahibiyle karşılaştırılır. 868 kayıttan 71 uyuşmazlık kaldı; bunlar yakındaki şehrin hücresine düşen kuşatma ve ittifak durumları (elle gözden geçirildi), sahipsiz bölge yok |
+| 400–550 | `tools/extend_borders_400.py`; İdil boyu ve Sır Derya ağzı 552 öncesi kaynak olmadığı için boş |
+| Tuna ve Turla | Silistre, Rusçuk, İbrail ve Hotin noktaları; bu kalelerdeki savaşlar önceden Eflak'a veya Lehistan'a düşüyordu |
+| Bükreş | 550–568 Avar değil; Avarlar 568'de geldi |

@@ -72,7 +72,7 @@ Son güncelleme: 2026-10-30
 - [ ] **Parti 25 eksikleri:** Alta 1068, 1061 ve Torçesk 1093 Yücel 2006 ile eklendi (2026-10-30); bu üçü tek kaynaklı. Salnitsa 1111 ve Stugna 1093 için kaynak gerekir (Kurat).
 
 ## 3. Harita eksikleri
-- [ ] Sınır tablosu 550'de başlıyor; Parti 24'ün 427–550 kayıtları sınırsız görünüyor (Avrupa Hun, Akhun, Sâsânî, Roma katmanı gerekir).
+- [x] Sınır tablosu 400'e uzatıldı (2026-10-30, `tools/extend_borders_400.py`): Avrupa Hunları, Ogur boyları, Akhunlar, Juan-juanlar, Batı Roma, Franklar. `tools/check_battle_owners.py` ile hiçbir savaş sahipsiz bölgeye düşmüyor.
 - [x] Sınır tablosu 1000 öncesine uzatıldı (2026-10-30, `tools/extend_borders_552.py`; kaba katman; Lahor ve Mültan `tools/fix_borders_pencap.py` ile eklendi).
 - [x] Altın Orda 1502'den sonra da görünüyordu → `tools/fix_borders_altinorda.py` (2026-10-29): Kazan 1437–1552, Astarhan 1466–1556, Nogay 1502–1634, Kırım bozkırı, Hîve 1512–, Sibir 1490–1582, Kazak Hanlığı 1465–; Rusya, Kiev (Lehistan-Litvanya 1362–1667, Rusya 1667–), Kalmuklar 1634–.
 - [x] Doğu Türkistan ve Moğolistan: Moğolistan Hanlığı, Yarkent Hanlığı, Cungarlar, Çing ve Yâkub Beg dilimleri işlendi (2026-10-30, `tools/fix_borders_dogu_turkistan.py`; Yedisu ve Moğolistan dilimleri kaba).
