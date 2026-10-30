@@ -224,3 +224,15 @@ Projenin seyrini etkileyen her karar buraya **tarih ve gerekçesiyle** yazılır
 | Hucend 1866 | Hucend maddesine göre Buhara'nın elindeydi → Buhara kaydı, `dispute` notuyla |
 | Merv 1884, Mergīnân 1875, Evliyaata 1864 | Muharebe anlatılmıyor → dışarıda |
 | 1916 isyanı ve Basmacılar | Hanlıkların yıkılışından sonra → dışarıda (ayrı kapsam) |
+
+## Kayıt kararları (Parti 23: Hazarlar, Peçenekler, İdil Bulgarları ve Kırgızlar 652–1361, 2026-10-30)
+| Kayıt | Karar |
+|---|---|
+| Parti yapısı | TDVİA maddesi olan dört topluluk tek partide; Hun, Akhun, Avar, Tuna Bulgar sonraki partide (akademik kaynak) |
+| Hazar–Arap savaşları | Râşid halifeler, Emevîler ve Abbâsîler'e karşı → `dis` |
+| Büyük Bulgarya c. 665, Peçenekler 889, Uzlar 1065, Pulat Timur 1361 | Türk toplulukları arası → `turk_arasi` |
+| Rus istilâsı 964 | İki madde çelişir → ihtilaflı; P6 gereği Türk kaynağına (İdil Bulgar Hanlığı) göre W |
+| Balkan akını 1048–49, Rus istilâsı 985 | Akın veya ayrıntısız savunma → borderline |
+| Yılı vermeyen olaylar | `c.` önekiyle yaklaşık yıl ve `dispute` notu (Büyük Bulgarya, Mervân, Silistre) |
+| Kiev 968, Hazar akını 799 | Sonuç yok → dışarıda |
+| Kıpçaklar | Kapsam listesinde yok → dışarıda; kullanıcıya sorulacak |

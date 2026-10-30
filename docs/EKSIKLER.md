@@ -63,7 +63,10 @@ Son güncelleme: 2026-10-30
 - [ ] **Türkistan eksikleri:** 19 tek maddeli kayıt (Kenesarı savaşları yalnız Kazakistan, Türkmen savaşları yalnız Türkmenistan maddesinde) için akademik kaynak (Baymirza Hayit); Evliyaata 1864, Merv 1884, Hokand isyanları 1878–1898; 1916 isyanı ve Basmacılar (ayrı kapsam).
 - [x] **Göktürkler ve Uygurlar:** Parti 21 ilk tur (2026-10-30, 26 kayıt).
 - [ ] **Göktürk–Uygur eksikleri:** Sâsânî–Göktürk savaşları 569–571 ve 588–589, Kapgan'ın Semerkant müdahalesi 701, Karluk isyanları 711–714, Beşbalık 791, Uygur–Tibet savaşları, Uygur–Kırgız savaşları 821 sonrası; Orhon yazıtları için akademik kaynak (Erhan Aydın, Ahmet Taşağıl).
-- [ ] **Erken Türk devletleri (kapsam onaylandı 2026-10-30):** Hazarlar, Peçenekler, İdil Bulgarları, Kırgızlar (TDVİA maddeleri var); Asya Hunları, Avrupa Hunları, Akhunlar, Avarlar, Tuna Bulgarları (akademik kaynak gerekir).
+- [x] **Hazarlar, Peçenekler, İdil Bulgarları, Kırgızlar:** Parti 23 ilk tur (2026-10-30, 31 kayıt).
+- [ ] **Parti 23 eksikleri:** 16 tek maddeli kayıt için akademik kaynak (Kurat, Kafalı); Hazar akını 799, Kiev 968, Peçenek akınları 1035–36 ve 1197'ye kadar.
+- [ ] **Erken Türk devletleri (kapsam onaylandı 2026-10-30):** Asya Hunları, Avrupa Hunları, Akhunlar, Avarlar, Tuna Bulgarları (TDVİA'da müstakil madde yok; akademik kaynak gerekir).
+- [ ] **Kapsam sorusu:** Kıpçaklar (Kumanlar) eklensin mi? (listede yoktu)
 
 ## 3. Harita eksikleri
 - [x] Sınır tablosu 1000 öncesine uzatıldı (2026-10-30, `tools/extend_borders_552.py`; kaba katman; Lahor ve Mültan `tools/fix_borders_pencap.py` ile eklendi).
