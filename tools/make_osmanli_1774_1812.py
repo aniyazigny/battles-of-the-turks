@@ -172,7 +172,15 @@ NEW = {  # yeni kayıt: hangi kayıttan sonra gelecek
 }
 EXTRA_SRC = {"Mehâdiye (1788)": ["TDVIA:hasan-pasa-kethuda"], "Şebeş (1788)": ["TDVIA:hasan-pasa-kethuda"],
  "Özü'nün kaybı (1788)": ["TDVIA:ozu"], "Fokşan (1789)": ["TDVIA:hasan-pasa-kethuda"], "Boza (Rimnik) (1789)": ["TDVIA:hasan-pasa-kethuda"],
- "İsmâil önü (1789)": ["TDVIA:hasan-pasa-kethuda"], "Arîş (1799)": ["TDVIA:aris"], "Dimyat (1803)": ["TDVIA:dimyat"]}
+ "İsmâil önü (1789)": ["TDVIA:hasan-pasa-kethuda"], "Arîş (1799)": ["TDVIA:aris"], "Dimyat (1803)": ["TDVIA:dimyat"],
+ # Akademik ikinci kaynak turu (2026-10-30)
+ "Kılburun (1787)": ["AKD:fedakar-2015", "AKD:doganay-2024b"],  # Eylül 1787 çıkarması püskürtüldü; Osmanlı Kılburun'u alamadı
+ "İsmâil'in kaybı (1790)": ["AKD:doganay-2024b"],  # 22/23 Aralık 1790 hücumu, serasker Aydoslu Mehmed Paşa şehit
+ "Ebûkır (1799)": ["AKD:duzen-2024"],  # 25 Temmuz 1799 hezimeti, Köse Mustafa Paşa esir
+ "Hotin'in kaybı (1806)": ["AKD:doganay-2024a"],  # Ruslar savaş ilanından önce Hotin, Bender, Kili ve Akkirman'ı aldı
+ "Akkirman'ın kaybı (1806)": ["AKD:doganay-2024a"],
+ "İsmâil'in kaybı (1809)": ["AKD:doganay-2024a"],  # üçüncü ve son Rus saldırısı 1809
+ "Silistre (1809)": ["AKD:efe-silistre"]}  # Pehlivan İbrahim Ağa'nın savunması, Ruslar Silistre önlerinden çekildi
 FIX = {"Mehâdiye (1788)": {"turkic_cmd": "Vidin seraskeri Hasan Paşa (Kethüdâ), Koca Yûsuf Paşa"},
  "Şebeş (1788)": {"turkic_cmd": "Vidin seraskeri Hasan Paşa (Kethüdâ), Koca Yûsuf Paşa"},
  "Özü'nün kaybı (1788)": {"opp_cmd": "Aleksandr Suvorov",
@@ -203,6 +211,7 @@ for i, r in enumerate(RR, 1):
     rec["sources"] += [x for x in EXTRA_SRC.get(ntr, []) if x not in rec["sources"]]
     rec.update(FIX.get(ntr, {}))
     rec["verify"]["tdvia2"] = len([x for x in rec["sources"] if x.startswith("TDVIA:")]) >= 2
+    rec["verify"]["academic"] = any(x.startswith("AKD:") for x in rec["sources"])
     recs.append(rec)
 
 pilot = json.loads((root / "data" / "pilot-buyuk-selcuklu.json").read_text(encoding="utf-8"))

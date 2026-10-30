@@ -82,14 +82,16 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:abdulhamid-i"
+    "TDVIA:abdulhamid-i",
+    "AKD:fedakar-2015",
+    "AKD:doganay-2024b"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",
@@ -580,14 +582,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:ismail--ukrayna"
+    "TDVIA:ismail--ukrayna",
+    "AKD:doganay-2024b"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",
@@ -835,14 +838,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:ebukir"
+    "TDVIA:ebukir",
+    "AKD:duzen-2024"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",
@@ -1083,14 +1087,15 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:hotin"
+    "TDVIA:hotin",
+    "AKD:doganay-2024a"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",
@@ -1118,14 +1123,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:akkirman"
+    "TDVIA:akkirman",
+    "AKD:doganay-2024a"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",
@@ -1296,14 +1302,15 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:ismail--ukrayna"
+    "TDVIA:ismail--ukrayna",
+    "AKD:doganay-2024a"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",
@@ -1331,14 +1338,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:yusuf-ziya-pasa"
+    "TDVIA:yusuf-ziya-pasa",
+    "AKD:efe-silistre"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",
