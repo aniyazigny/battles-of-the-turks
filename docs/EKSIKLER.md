@@ -10,8 +10,8 @@ Son güncelleme: 2026-10-31
 | Parti | Kayıt | Tek kaynaklı |
 |---|---|---|
 | Pilot Büyük Selçuklu | 80 | 8 |
-| Anadolu Selçukluları | 72 | 15 |
-| Beylikler ve atabeylikler | 72 | 21 |
+| Anadolu Selçukluları | 72 | 14 |
+| Beylikler ve atabeylikler | 72 | 16 |
 | Gazneli ve Karahanlı | 37 | 7 |
 | Osmanlı kuruluş | 31 | 6 |
 | Osmanlı 1402–1481 | 46 | 8 |
@@ -34,7 +34,7 @@ Son güncelleme: 2026-10-31
 | Bozkır devletleri (Hazar, Peçenek, Kırgız) | 31 | 8 |
 | Hun, Avar ve Bulgar | 24 | 9 |
 | Kıpçaklar | 9 | 3 |
-| **Toplam** | **868** | **190** |
+| **Toplam** | **868** | **184** |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [x] TDVİA'da otomatik ikinci madde taraması (2026-10-30, `tools/second_source_candidates.py`): 27 kayıt ikinci maddeye kavuştu; TDVİA bu açıdan büyük ölçüde tükendi.
@@ -42,6 +42,7 @@ Son güncelleme: 2026-10-31
 
 ## 2. Kapsam eksikleri (henüz kayıt olmayan savaşlar)
 - [ ] **Anadolu Selçukluları:** (Lâdik ve Efes 1147 "Menderes ve Honaz" kaydında; Akşehir 1190 için TDVİA'da ayrıntı yok, Konya 1190 kaydında), Sivrihisar, Turbessel 1150–51, İznik–Selçuklu savaşı 1225–31, Azat Musa'nın Gürcistan seferi; Hyelion ve Leimocheir 1177 (Roma veri setiyle kontrol).
+- [ ] **Beylikler (Çaka Bey):** Ioannes Dukas'ın İzmir'i alması 1097 (TDVİA İzmir maddesi). Efes 1097 ile aynı Bizans Ege seferine aittir.
 - [ ] **Gazneliler:** Rama-Ganga 1019 (Triloçanpal), Gazne 1148 (Gurlu Sûrî), Tausi nehri 1019, Saffârî savaşı, İkinci Lamgân, Lahor 1186; Mathura seferi. (Nagarkot 1009, Thânesâr 1014, Lokhot 1021, Gevâliyâr–Kālincâr 1022 ve Hânsî–Thânesâr–Nagarkot'un kaybı c. 1043 eklendi, 2026-10-30.)
 - [ ] **Karahanlılar:** iç savaşlar.
 - [ ] **Zengîler:** Ayıntab, Maraş 1161, Kınnesrîn, Busrâ 1147 (madde savaş anlatmıyor), Butayha, Hûle 1157, Şeyzer 1157 (madde yalnız depremi anar), İskenderiye 1167; Fâmiye, Banyas 1157. (2026-10-30'da eklendi: Banyas 1164, Hama 1130, Humus 1135, Kefertâb–Esârib–Bizâa 1138, Ba'lebek 1139, Suruç 1145, Ca'ber 1146, Dımaşk 1154, Bilbîs 1164, Mısır 1169, Dimyat 1169.)

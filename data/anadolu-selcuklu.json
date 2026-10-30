@@ -1806,11 +1806,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:keykubad-i"
+    "TDVIA:keykubad-i",
+    "TDVIA:eyyubiler"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

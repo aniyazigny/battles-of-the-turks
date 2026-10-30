@@ -40,6 +40,12 @@ Kullanılan ikinci maddeler: Antakya, Halep, Malatya, Şanlıurfa, Gaziantep, D�
 - **Tel Bâşir 1150:** kesin → borderline. Gaziantep maddesine göre Franklar savaşa girmedi.
 - **Yeni tarih ihtilafları:** Malatya 1105/1106, Âmid 1240/1241.
 
+## Üçüncü kaynak turu (2026-10-31)
+- **el-Kâmil'in Anadolu seferi 1234:** Eyyûbîler maddesi. Kâmil 6 Mayıs 1234'te Kahire'den çıktı. Keykubad, bölgenin doğal savunma imkânlarını kullanarak onun Toroslar'ın kuzeyine ilerlemesini önledi.
+- Yeni indirilen İznik, Aksaray, Ankara, Samsun, Trabzon, Harput, Malatya, Harran, Tarsus, Niğde, Bolu ve İzmit maddelerinde diğer kayıtlar için ikinci madde çıkmadı.
+- Geyikoğlu 2023 (Kilikya Ermenilerinin saldırıları, Tarsus 1245–46 için aday) taranmış görüntü olduğu için kullanılamadı.
+- **Hâlâ tek kaynaklı (14):** İznik c. 1080, Aksaray 1155, Yağıbasan 1162, Ankara 1204, Samsun c. 1205, Hârizmliler c. 1238, Harran 1240, Tarsus 1246, Kılıcarslan Kervansarayı 1249, Dulhisar 1304; yalnız Roma veri setine dayananlar: İznik 1113, Harax 1178, Bolu 1179, Trabzon 1205.
+
 ## Sonraki adımlar
 - [x] İkinci TDVİA turu (46/64).
 - [ ] Kalan 18 kayıt için Türk akademik literatürü (Turan, *Selçuklular Zamanında Türkiye*; Demirkent, Haçlı çalışmaları; Kaymaz, *Pervâne Muînüddîn Süleyman*; DergiPark makaleleri).

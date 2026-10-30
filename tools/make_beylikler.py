@@ -283,8 +283,17 @@ EXTRA_SRC = {"Niksar (1140)": ["TDVIA:niksar"], "Sivas (Sebasteia)": ["ROM"], "H
              "Banyas (1164)": ["AKD:altan-2014"],  # Artâh zaferinin ardından Hârim (Ağustos) ve Banyas (Ekim–Kasım 1164)
              "Bilbîs (1164)": ["AKD:altan-2014"],  # Şîrkûh Bilbîs'i aldı; Kudüs kralı yardıma geldi
              "Mısır'ın alınışı (1169)": ["AKD:altan-2014"],  # Amaury 2 Ocak 1169'da çekildi; Şîrkûh 8 Ocak'ta Kahire'ye girdi, vezir oldu
-             "Kilikya (Mleh'e destek)": ["AKD:turan-2017"]}  # Mleh Nûreddin'e sığındı, Misis, Adana ve Tarsus'u aldı
-FIX = {"Suruç (I)": {"date": "1101", "dispute": "Tarih: Belek maddesi 1100 verir; Sökmen maddesi tarih vermez. Çelik (2021) iki Suruç çarpışmasını da 1101'e koyar; burada Çelik'e uyuldu."},
+             "Kilikya (Mleh'e destek)": ["AKD:turan-2017"],  # Mleh Nûreddin'e sığındı, Misis, Adana ve Tarsus'u aldı
+             # Üçüncü kaynak turu (2026-10-31)
+             "Artah ve İm (1068)": ["TDVIA:mirdasiler"],  # "daha önce Hârûn tarafından ele geçirilen Artah ve İm kaleleri"
+             "Artah'ın kaybı (1069)": ["TDVIA:mirdasiler"],  # imparator Artah ve İm'e tekrar hâkim oldu (462/1070)
+             "Halep'in kurtarılması (1125)": ["TDVIA:tugtegin"],  # 519 (1125) Aksungur Halep'i ele geçirdi
+             "Midilli (1092)": ["TDVIA:caka-bey"],  # 1092 baharı Bizans kuşatması; Çaka adayı şartla bıraktı
+             "Kınnesrîn (1097)": ["AKD:karakus-2018"]}  # 22 Mart 1097, Rıdvan kazandı, Dukak Dımaşk'a çekildi; Sökmen'in rolü
+FIX = {"Midilli (1092)": {"note": "Bizans 1092 baharında Midilli'yi karadan (Ioannes Dukas) ve denizden (Dalassenos) kuşattı; üç ay dayanan Çaka Bey askerlerinin adayı sağ salim terk etmesi şartıyla Midilli'yi bıraktı.",
+  "note_en": "In spring 1092 Byzantium besieged Mytilene by land (John Doukas) and sea (Dalassenos); after holding out three months Chaka gave up the island on condition that his men could leave safely."},
+ "Artah'ın kaybı (1069)": {"dispute": "Hârûn b. Han ve Mirdâsîler maddeleri geri alışı 462 (1069-70) yılına koyar."},
+ "Suruç (I)": {"date": "1101", "dispute": "Tarih: Belek maddesi 1100 verir; Sökmen maddesi tarih vermez. Çelik (2021) iki Suruç çarpışmasını da 1101'e koyar; burada Çelik'e uyuldu."},
        "Azâz kuşatması (1123–24)": {"status": "kesin", "note": "Belek komutasındaki kuvvetler kaleyi kuşattı; Joscelin'in yardıma gelmesi ve garnizonun huruç hareketi üzerine Belek iki ateş arasında kalmamak için çekildi (Çelik 2021).", "note_en": "Forces under Belek besieged the castle; when Joscelin came to its relief and the garrison sallied, Belek withdrew to avoid being caught between them (Çelik 2021)."},
        "Serce (Artuklulara karşı)": {"date": "1130", "note": "Dâvûd ve Timurtaş yenilip Serce ile Dârâ'yı Zengî'ye bıraktı (Artuklular maddesi). Kaynaktaki sayılar (20.000 Türkmene karşı 4000) alınmadı.",
                                      "note_en": "Dawud and Timurtash were defeated and ceded Serce and Dara to Zengi (Artuqids article). The source figures (4,000 against 20,000 Turkmens) are not used."},

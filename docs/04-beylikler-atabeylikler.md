@@ -21,6 +21,16 @@ Artuklular, Menbic, Gaziantep, Zengîler ve Nûreddin maddeleri 7 kaydı doğrul
 
 Hâlâ tek maddeli 18 kayıt: Taberiye 1075 ve 1108, Âmid 1101 ve 1134, Harput 1123, Azâz 1123–24, Meşhalâ 1124, Halep 1125, Kont Guillaume 1109, Pons 1137, Mercüssuffer 1126, Esârib 1130, Karaca Sâkî c. 1132, Bire 1145, Banyas 1153, Hârim 1156, Kilikya 1173, Saltuklu zaferi 1131. TDVİA'da bunlar için ikinci madde bulunamadı.
 
+### Üçüncü kaynak turu (2026-10-31)
+- **Artah ve İm 1068, Artah'ın kaybı 1069:** Mirdâsîler maddesi. Madde imparatorun "daha önce Hârûn tarafından ele geçirilen" Artah ve İm kalelerine 462'de (1070) tekrar hâkim olduğunu yazar.
+- **Halep'in kurtarılması 1125:** Tuğtegin maddesi. Aksungur el-Porsukī 519'da (1125) Halep'i ele geçirdi.
+- **Midilli 1092:** Çaka Bey maddesi. Bizans 1092 baharında adayı karadan ve denizden kuşattı. Çaka, askerlerinin sağ salim çıkması şartıyla adayı bıraktı. Kayıt artık yalnız Roma veri setine dayanmıyor; not buna göre yazıldı.
+- **Kınnesrîn 1097:** Karakuş 2018 (İstem 32). Savaş 22 Mart 1097'de yapıldı; Rıdvan kazandı, Dukak Dımaşk'a çekildi.
+- **Elenen adaylar:**
+  - Küçüksipahioğlu 2020 (Zengî'nin Haçlılarla mücadelesi, Şarkiyat Mecmuası 36): tam metne ulaşılamadı.
+  - İzmir maddesi Ioannes Dukas'ın 1097'de İzmir'i aldığını anlatır, Efes'ten söz etmez. Efes 1097'ye eklenmedi; İzmir 1097 kapsam eksiği olarak yazıldı.
+- **Hâlâ tek kaynaklı (16):** Taberiye 1075 ve 1108, Âmid 1101, Meşhalâ 1124, Tel Bâşir 1108, Refeniye 1115, Kont Guillaume 1109, Mercüssuffer 1126, Karaca Sâkî c. 1132, Humus 1135, Halep 1138, Banyas 1153, Hârim 1156, Saltuklu zaferi 1131, Efes 1097, Kastamonu 1133.
+
 ### Arayüz: iki taraflı tablolar
 Türk devletleri arası kayıtlara `opp_state` alanı eklendi; kayıt karşı taraftaki Türk devletinin tablosunda ters sonuçla görünür (K1). Böylece Dânişmendliler, Gazneliler ve Karahanlılar'ın tabloları da oluştu.
 

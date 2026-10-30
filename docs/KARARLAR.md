@@ -371,3 +371,8 @@ Tablo 400'e uzatıldıktan sonra İtalya, Kuzey Afrika, Malta, İspanya, Pannoni
 - **İkinci Kanal Harekâtı:** Tarih Temmuz 1916'dan 4 Ağustos 1916'ya (Romani) düzeltildi; kayıt partide Muş'un kurtarılışından sonraya taşındı.
 - **Grahova:** Tarih Mayıs 1858'e daraltıldı.
 - Kardaş 2015 için yalnız yayının özeti okundu. Özet olayı ve tarihi doğrudan veriyor.
+
+## Kaynak turu: beylikler ve Anadolu Selçukluları (2026-10-31)
+- Yeni indirilen 40'a yakın TDVİA maddesi (yer adları ve hânedanlar) tek kaynaklı kayıtlar için tarandı. Dört maddede eşleşme çıktı: Mirdâsîler, Tuğtegin, Çaka Bey, Eyyûbîler. Bunlara Karakuş 2018 eklendi. Tek kaynaklı kayıt 190'dan 184'e indi (beylikler 21 → 16, Anadolu Selçukluları 15 → 14).
+- **Midilli 1092:** Kayıt Roma veri setinden gelmişti; Çaka Bey maddesi aynı olayı anlattığı için notu Türkçe kaynağa göre yeniden yazıldı. Durum `borderline` kaldı: Çaka'nın beyliği Türk devleti sayılır mı sorusu değişmedi.
+- **Artah'ın kaybı:** İki madde de geri alışı 1069–70'e koyduğu için kayıt yılı 1069'da bırakıldı, fark `dispute`'ta duruyor.

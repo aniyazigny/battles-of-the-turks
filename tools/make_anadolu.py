@@ -296,6 +296,8 @@ EXTRA_SRC = {
  "Kilikya seferi (Mut, Silifke)": ["AKD:bingol-copur-2025"],  # 1225 Kilikya harekâtı
  "Lâdik (Laodikeia, 1119)": ["AKD:ince-2019"],  # II. Ioannes 1119'da Denizli'yi (Lâdik) kolayca aldı
  "Uluborlu (Sozopolis, 1120)": ["AKD:ince-2019"],  # Ioannes'in ilk hedefi Uluborlu
+ # Üçüncü kaynak turu (2026-10-31)
+ "el-Kâmil'in Anadolu seferi": ["TDVIA:eyyubiler"],  # Kâmil 6 Mayıs 1234'te Kahire'den çıktı; Keykubad Toroslar'ın kuzeyine ilerlemesini önledi
 }
 FIX_N = {"Uluborlu (Sozopolis, 1120)": {"dispute": "İnce (2019) Ioannes'in Uluborlu seferini 1121'e koyar; kayıttaki 1120 Roma veri setine göredir."}}
 FIX = {

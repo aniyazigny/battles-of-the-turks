@@ -191,11 +191,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:harun-b-han"
+    "TDVIA:harun-b-han",
+    "TDVIA:mirdasiler"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -226,18 +227,19 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:harun-b-han"
+    "TDVIA:harun-b-han",
+    "TDVIA:mirdasiler"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
    },
    "state": "Hârûn b. Han (Kuzey Suriye Türkmenleri)",
    "home_batch": "beylikler-atabeylikler",
-   "dispute": "Madde geri alışı 462 (1069-70) yılına koyar.",
+   "dispute": "Hârûn b. Han ve Mirdâsîler maddeleri geri alışı 462 (1069-70) yılına koyar.",
    "note": "Bizanslılar geri çekilen Türkmen ve Arap kuvvetlerini takip edemediyse de Artah ve İm kalelerini kolayca geri aldı. (Kontrol turunda eklendi.)",
    "note_en": "The Byzantines did not dare pursue the retreating Turkmen and Arab forces but easily retook Artah and Imm.",
    "id": 6
@@ -262,14 +264,15 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:ridvan-b-tutus"
+    "TDVIA:ridvan-b-tutus",
+    "AKD:karakus-2018"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Halep Selçuklu melikliği (Rıdvân)",
    "home_batch": "beylikler-atabeylikler",
@@ -814,11 +817,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:aksungur-el-porsuki"
+    "TDVIA:aksungur-el-porsuki",
+    "TDVIA:tugtegin"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -2289,10 +2293,11 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "ROM"
+    "ROM",
+    "TDVIA:caka-bey"
    ],
    "verify": {
-    "tdvia": false,
+    "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": true,
@@ -2300,8 +2305,8 @@
    },
    "state": "Çaka Bey (İzmir Beyliği)",
    "home_batch": "beylikler-atabeylikler",
-   "note": "Yalnızca Bizans kaynaklarına dayanan Roma veri setinde var.",
-   "note_en": "Recorded only in the Roman dataset, based on Byzantine sources.",
+   "note": "Bizans 1092 baharında Midilli'yi karadan (Ioannes Dukas) ve denizden (Dalassenos) kuşattı; üç ay dayanan Çaka Bey askerlerinin adayı sağ salim terk etmesi şartıyla Midilli'yi bıraktı.",
+   "note_en": "In spring 1092 Byzantium besieged Mytilene by land (John Doukas) and sea (Dalassenos); after holding out three months Chaka gave up the island on condition that his men could leave safely.",
    "id": 63
   },
   {
