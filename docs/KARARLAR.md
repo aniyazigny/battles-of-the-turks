@@ -382,3 +382,11 @@ Tablo 400'e uzatıldıktan sonra İtalya, Kuzey Afrika, Malta, İspanya, Pannoni
 - Batı ve Kuzey Macaristan şehirleri 1526'dan Habsburg görünüyordu. Mohaç (Ağustos 1526) bu yüzden Habsburg toprağına düşüyordu. Habsburg ve Erdel (Zápolya) dilimleri 1527'den başlatıldı; Ferdinand ülkeye 1527'de fiilen hâkim oldu.
 - Kili noktası eklendi; Kili 1484 kaydı önceden İbrail'e (Eflak) düşüyordu. Sıra TDVİA Kili maddesine göre: Ceneviz ve Dobruca, 1403'ten Eflak, ardından Boğdan, 1484–1812 Osmanlı, sonra Rusya, Boğdan, Romanya, Rusya, Romanya.
 - `check_battle_owners.py`: 72 → 70. Kalan uyuşmazlıklar gözden geçirildi. Savaşlar ya sınırda ya da saldırılan tarafın toprağında geçiyor.
+
+## Kaynak turu: Büyük Selçuklu ve Uygurlar (2026-10-31)
+- Alamut maddesi kalenin Muhammed Tapar tarafından 503 (1109–10) ve 511 (1117–18) yıllarında kuşatıldığını yazar. Hasan Sabbâh maddesi ikinci kuşatmayı ayrıntılı anlatır (13 Temmuz 1117 – Nisan 1118; sultanın ölüm haberiyle kaldırıldı). Alamut 1109 ve Alamut 1117–18 ikinci maddeye kavuştu.
+- **Urfa 1114:** Aksungur el-Porsukī maddesi. Musul valiliğine getirilen (1113) Aksungur iki aydan fazla Urfa'yı kuşattı, sonuç alamadı.
+- **Oğuz ve Tatar isyanı 749:** Tatarlar maddesi. İl İtmiş Bilge Kağan zamanında (747–759) Tokuz Tatarlar'la birlikte isyan eden Oğuzlar yenildi.
+- Pilot verisinin üretici betiği yok; kaynaklar doğrudan `data/pilot-buyuk-selcuklu.json`'a eklendi.
+- Tek kaynaklı kayıt 184'ten 180'e indi.
+- Göktürk–Uygur kalanları (Fergana 649, Kırgız 710–711, Togubalık 715, Kapgan 716, Buhara 729, Kırgızlar 758, Tun-huang 911) için TDVİA'da (Uygurlar, Kansu Uygurları, Tatarlar, Oğuzlar, Kuteybe, Buhara, Tonyukuk) ikinci kaynak yok. Aydın'ın yazıt makaleleri Togubalık'ı yalnız yer adı olarak anar.

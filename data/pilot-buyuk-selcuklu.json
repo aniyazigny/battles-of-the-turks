@@ -2214,14 +2214,15 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:muhammed-tapar"
+    "TDVIA:muhammed-tapar",
+    "TDVIA:alamut"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
     "academic": false,
-    "tdvia2": false
+    "tdvia2": true
    },
    "note": "Kış gelince çekildi; gerçek çatışma belirsiz.",
    "state": "Büyük Selçuklu",
@@ -2394,14 +2395,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:muhammed-tapar"
+    "TDVIA:muhammed-tapar",
+    "TDVIA:aksungur-el-porsuki"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
     "academic": false,
-    "tdvia2": false
+    "tdvia2": true
    },
    "note": "İki aydan fazla sürdü; erzak sıkıntısı ve emîrler arası çekişme yüzünden kaldırıldı.",
    "state": "Büyük Selçuklu",
@@ -2541,14 +2543,16 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:muhammed-tapar"
+    "TDVIA:muhammed-tapar",
+    "TDVIA:alamut",
+    "TDVIA:hasan-sabbah"
    ],
    "verify": {
     "tdvia": true,
     "wp": false,
     "rom": false,
     "academic": false,
-    "tdvia2": false
+    "tdvia2": true
    },
    "note": "Muhammed Tapar'ın ölüm haberiyle kaldırıldı.",
    "state": "Büyük Selçuklu",

@@ -776,11 +776,12 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:dokuz-oguzlar"
+    "TDVIA:dokuz-oguzlar",
+    "TDVIA:tatarlar"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

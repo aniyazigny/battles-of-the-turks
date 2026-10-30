@@ -9,7 +9,7 @@ Son güncelleme: 2026-10-31
 
 | Parti | Kayıt | Tek kaynaklı |
 |---|---|---|
-| Pilot Büyük Selçuklu | 80 | 8 |
+| Pilot Büyük Selçuklu | 80 | 6 |
 | Anadolu Selçukluları | 72 | 14 |
 | Beylikler ve atabeylikler | 72 | 16 |
 | Gazneli ve Karahanlı | 37 | 7 |
@@ -29,12 +29,12 @@ Son güncelleme: 2026-10-31
 | Osmanlı 1912–1913 | 15 | 5 |
 | Osmanlı 1914–1918 | 41 | 7 |
 | Millî Mücadele 1919–1922 | 23 | 4 |
-| Göktürk–Uygur 552–911 | 27 | 8 |
+| Göktürk–Uygur 552–911 | 27 | 7 |
 | Türkistan hanlıkları | 28 | 6 |
 | Bozkır devletleri (Hazar, Peçenek, Kırgız) | 31 | 8 |
 | Hun, Avar ve Bulgar | 24 | 9 |
 | Kıpçaklar | 9 | 3 |
-| **Toplam** | **868** | **184** |
+| **Toplam** | **868** | **180** |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [x] TDVİA'da otomatik ikinci madde taraması (2026-10-30, `tools/second_source_candidates.py`): 27 kayıt ikinci maddeye kavuştu; TDVİA bu açıdan büyük ölçüde tükendi.

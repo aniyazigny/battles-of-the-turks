@@ -166,6 +166,7 @@ EXTRA_SRC = {
     "Çik seferi (750)": ["AKD:aydin-2007"],  # Şine Usu D 7: kaplan yılında (750) Kem'de Çikleri bozguna uğrattım
     "Uygur Kağanlığı'nın yıkılışı (840)": ["AKD:aydin-2007"],
     "Çin'e yardım: Ch'ang-an ve Lo-yang (757)": ["AKD:aydin-baybalik"],  # Moyen-çor oğlu Yehhu komutasında ordu; iki başkentin yağmasına izin
+    "Oğuz ve Tatar isyanı (749)": ["TDVIA:tatarlar"],  # İl İtmiş Bilge Kağan zamanında (747-759) Tokuz Tatarlar'la isyan eden Oğuzlar yenildi
 }
 NEW = {
     "Fergana (649)": [],
