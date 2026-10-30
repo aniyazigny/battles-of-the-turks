@@ -376,3 +376,9 @@ Tablo 400'e uzatıldıktan sonra İtalya, Kuzey Afrika, Malta, İspanya, Pannoni
 - Yeni indirilen 40'a yakın TDVİA maddesi (yer adları ve hânedanlar) tek kaynaklı kayıtlar için tarandı. Dört maddede eşleşme çıktı: Mirdâsîler, Tuğtegin, Çaka Bey, Eyyûbîler. Bunlara Karakuş 2018 eklendi. Tek kaynaklı kayıt 190'dan 184'e indi (beylikler 21 → 16, Anadolu Selçukluları 15 → 14).
 - **Midilli 1092:** Kayıt Roma veri setinden gelmişti; Çaka Bey maddesi aynı olayı anlattığı için notu Türkçe kaynağa göre yeniden yazıldı. Durum `borderline` kaldı: Çaka'nın beyliği Türk devleti sayılır mı sorusu değişmedi.
 - **Artah'ın kaybı:** İki madde de geri alışı 1069–70'e koyduğu için kayıt yılı 1069'da bırakıldı, fark `dispute`'ta duruyor.
+
+## Harita: Mohaç yılı ve Kili (2026-10-31)
+`tools/fix_borders_mohac_kili.py`:
+- Batı ve Kuzey Macaristan şehirleri 1526'dan Habsburg görünüyordu. Mohaç (Ağustos 1526) bu yüzden Habsburg toprağına düşüyordu. Habsburg ve Erdel (Zápolya) dilimleri 1527'den başlatıldı; Ferdinand ülkeye 1527'de fiilen hâkim oldu.
+- Kili noktası eklendi; Kili 1484 kaydı önceden İbrail'e (Eflak) düşüyordu. Sıra TDVİA Kili maddesine göre: Ceneviz ve Dobruca, 1403'ten Eflak, ardından Boğdan, 1484–1812 Osmanlı, sonra Rusya, Boğdan, Romanya, Rusya, Romanya.
+- `check_battle_owners.py`: 72 → 70. Kalan uyuşmazlıklar gözden geçirildi. Savaşlar ya sınırda ya da saldırılan tarafın toprağında geçiyor.
