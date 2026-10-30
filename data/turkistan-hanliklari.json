@@ -46,14 +46,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:kazakistan"
+    "TDVIA:kazakistan",
+    "AKD:selcuk-gumbur-2022"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Kazaklar (Kenesarı)",
    "home_batch": "turkistan-hanliklari",
@@ -116,17 +117,19 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:kazakistan"
+    "TDVIA:kazakistan",
+    "AKD:selcuk-gumbur-2022"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Kazaklar (Kenesarı)",
    "home_batch": "turkistan-hanliklari",
+   "dispute": "Selçuk ve Gümbür 2022 bu safhayı tarihsiz verir: Rus takviyesi üzerine Kenesarı Irgız ve Turgay'a çekildi.",
    "note": "İkinci savaşı Ruslar kazandı.",
    "note_en": "The Russians won the second battle."
   },
@@ -331,14 +334,16 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:yakub-beg"
+    "TDVIA:yakub-beg",
+    "AKD:derekov-2015",
+    "AKD:keserci-2020"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Hokand Hanlığı",
    "home_batch": "turkistan-hanliklari",
@@ -367,14 +372,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:cimkent",
-    "TDVIA:hokand-hanligi"
+    "TDVIA:hokand-hanligi",
+    "AKD:derekov-2015"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Hokand Hanlığı",
    "home_batch": "turkistan-hanliklari",
@@ -476,17 +482,19 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:usrusene"
+    "TDVIA:usrusene",
+    "AKD:derekov-2015"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Buhara Emirliği (Mangıtlar)",
    "home_batch": "turkistan-hanliklari",
+   "dispute": "Derekov 2015 Rus saldırısını 5 Mayıs 1866 (Jülyen) olarak verir; muharebenin adını anmaz.",
    "note": "Ruslar'la Buhara Hanlığı arasındaki İrcar savaşının ardından Ura-Tepe ve Cîzek Ruslar'ca işgal edildi; Buhara maddesi Muzafferüddin'in Ruslar'a defalarca yenildiğini yazar.",
    "note_en": "After the battle of Irjar between Russia and Bukhara, Ura-Tyube and Jizzakh were occupied; the Bukhara article says Muzaffar was beaten by the Russians repeatedly."
   },
@@ -764,17 +772,19 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:hokand"
+    "TDVIA:hokand",
+    "AKD:keserci-2020"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Hokand Hanlığı",
    "home_batch": "turkistan-hanliklari",
+   "dispute": "Keserci 2020 Ağustos 1875 muharebesini Hokand şehri değil, hanlığa bağlı Mihrem (Mahram) kalesi önlerine koyar.",
    "note": "Halkın Hudâyâr'a karşı ayaklanmasını bahane eden Ruslar Hokand'ı kuşattı; şehir ertesi yıl ilhak edildi.",
    "note_en": "Using the rising against Khudayar as a pretext, the Russians besieged Kokand; it was annexed the next year."
   },
@@ -869,14 +879,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:turkmenistan"
+    "TDVIA:turkmenistan",
+    "AKD:derekov-2015"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Türkmenler (Teke)",
    "home_batch": "turkistan-hanliklari",
@@ -904,17 +915,19 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:turkmenistan"
+    "TDVIA:turkmenistan",
+    "AKD:peler-korkmaz-2024"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Türkmenler (Teke)",
    "home_batch": "turkistan-hanliklari",
+   "dispute": "Peler ve Korkmaz 2024 çatışmayı Lazarev'in 14 Ağustos 1879'daki ölümünden sonra, Lomakin'in Göktepe yürüyüşüne koyar (Haziran değil, Ağustos sonu).",
    "note": "Rus ilerleyişi karşısında zayiat veren Türkmenler Göktepe'ye çekildi.",
    "note_en": "Losing men before the Russian advance, the Turkmens fell back on Geok Tepe."
   },
@@ -941,14 +954,16 @@
    "sources": [
     "TDVIA:turkmenistan",
     "TDVIA:turkmenler",
-    "TDVIA:ozbekler"
+    "TDVIA:ozbekler",
+    "AKD:derekov-2015",
+    "AKD:peler-korkmaz-2024"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Türkmenler (Teke)",
    "home_batch": "turkistan-hanliklari",
@@ -976,14 +991,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:turkmenistan"
+    "TDVIA:turkmenistan",
+    "AKD:derekov-2015"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Türkmenler (Teke)",
    "home_batch": "turkistan-hanliklari",
@@ -1012,17 +1028,21 @@
    "status": "kesin",
    "sources": [
     "TDVIA:turkmenistan",
-    "TDVIA:turkmenler"
+    "TDVIA:turkmenler",
+    "AKD:derekov-2015",
+    "AKD:peler-korkmaz-2024",
+    "AKD:sadullayeva-2022"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Türkmenler (Teke)",
    "home_batch": "turkistan-hanliklari",
+   "dispute": "Türkçe makaleler kalenin alınışını 12 Ocak 1881 (Jülyen takvimi) olarak verir; kayıttaki 24 Ocak Miladi karşılığıdır.",
    "note": "Surların altına mayın yerleştiren Ruslar genel taarruzla kaleyi aldı; aman dileyen halkla birlikte bütün müdafiler öldürüldü. Skobelev 30 Ocak'ta Aşkābâd'a kadar ilerledi.",
    "note_en": "Having mined the walls, the Russians stormed the fortress; all the defenders were killed along with the townspeople who begged for quarter. Skobelev advanced to Ashgabat on 30 January."
   }

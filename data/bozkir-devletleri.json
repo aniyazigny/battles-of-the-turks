@@ -156,11 +156,12 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:hazarlar"
+    "TDVIA:hazarlar",
+    "TDVIA:mesleme-b-abdulmelik"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false
@@ -374,14 +375,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:mesleme-b-abdulmelik"
+    "TDVIA:mesleme-b-abdulmelik",
+    "AKD:celik-2013"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Hazar Kağanlığı",
    "home_batch": "bozkir-devletleri",
@@ -592,11 +594,12 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:pecenekler"
+    "TDVIA:pecenekler",
+    "TDVIA:macaristan"
    ],
    "verify": {
     "tdvia": true,
-    "tdvia2": false,
+    "tdvia2": true,
     "wp": false,
     "rom": false,
     "academic": false

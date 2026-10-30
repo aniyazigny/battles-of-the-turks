@@ -24,6 +24,21 @@ TDVİA maddeleri: Hokand Hanlığı, Hokand, Hîve Hanlığı, Buhara, Taşkent,
 
 Akademik kaynak adayları (sonraki tur): Baymirza Hayit, *Türkistan Devletlerinin Millî Mücadeleleri Tarihi* (TTK); Kenesarı ve Göktepe üzerine DergiPark makaleleri.
 
+Üçüncü kaynak turu (2026-10-30), akademik:
+- Shageldi Derekov, "Rus İstilasına Karşı Türkmen Direnişi" (2015) (`AKD:derekov-2015`): Akmescid 1853, Çimkent'in düşüşü 1864, İrcar 1866, Kızılarvat 1877, Göktepe 1879, Yengikale ve Göktepe 1881.
+- Gökçe Yükselen Peler ve Muhammed Göktürk Korkmaz, "I. Göktepe (1879) ve II. Göktepe (1881) Savaşlarında Kozakların Rolü" (2024) (`AKD:peler-korkmaz-2024`): Bendesen geçidi ve iki Göktepe.
+- Dilfuza Sadullayeva, "II. Göktepe Savaşı'ndaki Gelişmeler ve Rus General Skobelev" (2022) (`AKD:sadullayeva-2022`).
+- Hava Selçuk ve Kerim Gümbür, "Kenesarı Kasımoğlu Önderliğinde Kazakların Kurtuluş Mücadelesi" (2022) (`AKD:selcuk-gumbur-2022`): 1837 baskınları ve 1838 çekilişi.
+- Ramazan Keserci, "Çarlık Rusyası'nın Türkistan Coğrafyasını İşgal Süreci: Hokand Hanlığı Örneği" (2020) (`AKD:keserci-2020`): Akmescid 1853, Mihrem 1875.
+
+İhtilaf notu eklenen kayıtlar (kayıttaki tarih korundu):
+- Bendesen: Peler ve Korkmaz Ağustos 1879 sonu verir.
+- Göktepe 1881: makaleler 12 Ocak (Jülyen) verir.
+- İrcar: Derekov 5 Mayıs (Jülyen) verir.
+- Hokand 1875: Keserci muharebeyi Mihrem kalesi önüne koyar.
+
+Tek kaynaklı kayıt sayısı: 14 → 6.
+
 ## Verilen kararlar
 Ayrıntı: `docs/KARARLAR.md` (Parti 22).
 

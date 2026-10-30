@@ -346,3 +346,12 @@ Kullanıcı geri bildirimi: iki ayrı yıl kaydırıcısı kafa karıştırıyor
 - Oynatma: aralığın genişliği korunarak ileri kayar (aralık çok genişse 25 yıllık pencere); hız 8, 20, 50 veya 120 yıl/sn; Duraklat/Devam.
 - Açılış: 1403–1453, sınırlar 1453'e göre, panelde İstanbul'un fethi.
 - Zaman çizelgesi yalnız haritayı etkiler. Liste ve zafer–yenilgi tabloları kendi yıl filtresini kullanır (varsayılan: tüm yıllar), yoksa açılışta liste 1403–1453 ile daralmış görünürdü.
+
+## Kaynak turu: Türkistan ve bozkır devletleri (2026-10-30)
+- Türkistan (Parti 22) için beş DergiPark makalesi eklendi: Derekov 2015, Peler–Korkmaz 2024, Sadullayeva 2022, Selçuk–Gümbür 2022, Keserci 2020. Tek kaynaklı kayıt sayısı 14'ten 6'ya indi.
+- Rus kaynaklarına dayanan Türkçe makaleler tarihleri Jülyen takvimiyle verir (Göktepe 12 Ocak 1881 = 24 Ocak Miladi; İrcar 5 Mayıs 1866). Kayıtlar Miladi tarihte bırakıldı; fark ihtilaf notunda belirtildi.
+- Bozkır devletleri (Parti 23) için iki TDVİA maddesi (Mesleme b. Abdülmelik, Macaristan) ve Çelik 2013 eklendi; 11'den 8'e indi.
+- Elenen adaylar:
+  - Hun–Avar–Bulgar için ek kaynak bulunamadı.
+  - Cecota 2011 (Bulgarlar ve 717–718 Arap kuşatması) kaynakların olayların seyrini kesin kurmaya izin vermediğini söylediği için kullanılmadı.
+  - Keserci, Temmuz 1864 Çimkent kuşatmasını yazar ama Rusların püskürtüldüğünü söylemez. Bu yüzden Temmuz 1864 kaydına eklenmedi.

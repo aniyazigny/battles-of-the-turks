@@ -162,6 +162,33 @@ EXTRA_SRC = {
     "Karatav'ın boşaltılması (1845)": ["AKD:tansu-ozdemir-2017"],
     "Mey-Tuble (c. 1847)": ["AKD:tansu-ozdemir-2017"],
     "Endican (1876)": ["TDVIA:endican"],
+    # Üçüncü kaynak turu (2026-10-30): Derekov 2015 (Rus İstilasına Karşı Türkmen Direnişi) Akmescid'in 3–27 Temmuz 1853 kuşatmasını,
+    # Çimkent'in 22 Eylül 1864'te düşüşünü, Buhara'nın 5 Mayıs 1866 yenilgisini (İrcar), 12 Mayıs 1877 Kızılarvat'ı (Nur Verdi Han)
+    # ve Ocak 1881'de Yengi Kale'nin alınışını yazar. Peler ve Korkmaz 2024 (Göktepe savaşlarında Kozaklar) Bendesen geçidi çatışmasını
+    # ve iki Göktepe muharebesini, Sadullayeva 2022 II. Göktepe'yi (12 Ocak 1881, Jülyen) anlatır.
+    # Selçuk ve Gümbür 2022 (Kenesarı Kasımoğlu önderliğinde kurtuluş mücadelesi) 1837'de Akdağ ve Akmola baskınlarını ve üzerine
+    # gönderilen küçük Rus birliğinin kayıpla çekilişini, ardından gelen takviyeyle Kenesarı'nın Irgız–Turgay'a çekilmek zorunda
+    # kalışını yazar. Keserci 2020 (Hokand örneği) Akmescid'in Temmuz 1853'te alınışını ve Ağustos 1875'te Mihrem kalesi önlerindeki
+    # Rus zaferini anlatır.
+    "Kenesarı'nın ilk savaşı (1837)": ["AKD:selcuk-gumbur-2022"],
+    "Kenesarı'nın ikinci savaşı (1838)": ["AKD:selcuk-gumbur-2022"],
+    "Hokand (1875)": ["AKD:keserci-2020"],
+    "Akmescid (1853)": ["AKD:derekov-2015", "AKD:keserci-2020"],
+    "Çimkent'in düşüşü (1864)": ["AKD:derekov-2015"],
+    "İrcar (1866)": ["AKD:derekov-2015"],
+    "Kızılarvat (1877)": ["AKD:derekov-2015"],
+    "Büyük Bendesen geçidi (1879)": ["AKD:peler-korkmaz-2024"],
+    "Göktepe (1879)": ["AKD:derekov-2015", "AKD:peler-korkmaz-2024"],
+    "Yengikale (1881)": ["AKD:derekov-2015"],
+    "Göktepe (1881)": ["AKD:derekov-2015", "AKD:peler-korkmaz-2024", "AKD:sadullayeva-2022"],
+}
+# Kaynakların tarihi farklı verdiği kayıtlar: kayıttaki tarih korunur, fark ihtilaf notuna yazılır
+EXTRA_DISP = {
+    "Büyük Bendesen geçidi (1879)": "Peler ve Korkmaz 2024 çatışmayı Lazarev'in 14 Ağustos 1879'daki ölümünden sonra, Lomakin'in Göktepe yürüyüşüne koyar (Haziran değil, Ağustos sonu).",
+    "Göktepe (1881)": "Türkçe makaleler kalenin alınışını 12 Ocak 1881 (Jülyen takvimi) olarak verir; kayıttaki 24 Ocak Miladi karşılığıdır.",
+    "Hokand (1875)": "Keserci 2020 Ağustos 1875 muharebesini Hokand şehri değil, hanlığa bağlı Mihrem (Mahram) kalesi önlerine koyar.",
+    "Kenesarı'nın ikinci savaşı (1838)": "Selçuk ve Gümbür 2022 bu safhayı tarihsiz verir: Rus takviyesi üzerine Kenesarı Irgız ve Turgay'a çekildi.",
+    "İrcar (1866)": "Derekov 2015 Rus saldırısını 5 Mayıs 1866 (Jülyen) olarak verir; muharebenin adını anmaz.",
 }
 
 recs = []
@@ -173,6 +200,7 @@ for i, r in enumerate(R, 1):
            "category": cat, "result": res, "status": status, "sources": src,
            "verify": {"tdvia": any(x.startswith("TDVIA:") for x in src), "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": any(x.startswith("AKD:") for x in src)},
            "state": state, "home_batch": HB}
+    if ntr in EXTRA_DISP: disp = (disp + " " if disp else "") + EXTRA_DISP[ntr]
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en
     recs.append(rec)

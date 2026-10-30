@@ -181,6 +181,10 @@ LEFT = [
 
 # Bulgar maddesi (2026-10-30, Parti 24 taraması sırasında bulundu)
 EXTRA_SRC = {
+    # Üçüncü kaynak turu (2026-10-30)
+    "Derbend (714)": ["TDVIA:mesleme-b-abdulmelik"],  # 95'te (714) Kafkasya cephesinde Derbend'i ve çevresini fethetti
+    "Macarlar'ın sürülmesi (895)": ["TDVIA:macaristan"],  # Peçenekler'in baskısıyla batıya göç etmek zorunda kaldılar
+    "Allân (727)": ["AKD:celik-2013"],  # 109/727-728 yıllarında Müslümanların Hazarlar'a karşı başarılı savaşları
     "Samara (1223)": ["TDVIA:bulgar"],  # Moğol ordusuna saldırıp onları yendiler
     "Bulgar (1236)": ["TDVIA:bulgar"],  # Batu Han'ın emriyle bütün şehirleri yakılıp yıkıldı
     "Pulat Timur'un saldırısı (1361)": ["TDVIA:bulgar"],  # Pulat Timur'un saldırısıyla şehirleri yıkıldı

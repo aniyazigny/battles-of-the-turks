@@ -22,6 +22,8 @@ Kayıtlar:
 ## Kaynaklar
 TDVİA maddeleri: Hazarlar, Peçenekler, İdil Bulgar Hanlığı, Kırgızlar, Cerrâh b. Abdullah, Selmân b. Rebîa, Bâhilî (Abdurrahman b. Rebîa), Dağıstan, Yezîd II, Mesleme b. Abdülmelik, Mervân II, Tiflis, Oğuzlar, Kıpçaklar, Edirne, Silistre, Bizans, Rusya, Tataristan.
 
+Üçüncü kaynak turu (2026-10-30): Derbend 714 için Mesleme b. Abdülmelik maddesi, Macarlar'ın sürülmesi 895 için Macaristan maddesi, Allân 727 için Çelik 2013 (727–728'de Müslümanların Hazarlar'a karşı başarılı savaşları). Tek kaynaklı kayıt sayısı: 11 → 8.
+
 Akademik kaynak adayları (sonraki tur): Akdes Nimet Kurat, *IV–XVIII. Yüzyıllarda Karadeniz Kuzeyindeki Türk Kavimleri ve Devletleri*; Ahsen Batur ve Mustafa Kafalı'nın Hazar çalışmaları; İbrahim Kafesoğlu, *Türk Millî Kültürü*.
 
 ## İhtilaflar
