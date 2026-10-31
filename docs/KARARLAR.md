@@ -452,3 +452,13 @@ Kullanıcı 1400–1500'lerde Muğla ve İzmir kıyısının bazı parçaların�
   - Tırhala 1897: Gazi Edhem Paşa maddesi 12 Mayıs; Köksal 24 Nisan, Sezer 26 Nisan.
   - Tobruk ve Trablusgarp 1911: TDVİA Trablusgarp'ın 9 Ekim'de teslim olduğunu, Tobruk'un bir gün önce alındığını yazar. Kurtcephe ATASE belgelerine dayanarak 5 Ekim (Trablusgarp) ve 4 Ekim (Tobruk) der.
 - **Aslıhanlar 1921 sonucu değişti (`W` → `L`, tarih 7 → 8 Nisan):** TDVİA Yunanlılar'ın ağır yenilgiye uğratıldığını yazar. Uca 2021 (Nutuk'a dayanarak) ve Çaykıran 2022 ise 8–15 Nisan Aslıhanlar–Dumlupınar muharebelerinde Yunan karşı taarruzu karşısında başarı sağlanamadığını, Refet Paşa'nın yenildiği halde zafer bildirdiğini yazar. 7 Nisan Afyon'a girişin tarihidir; not ve `dispute`'a yazıldı.
+
+## Selçuklu ve atabeylikler akademik turu (2026-10-31)
+- **Kaynaklar (138 → 132):**
+  - Akkuş–Solmaz 2024 (Medeniyet ve Toplum 8/2): Harran 1240. Zâhireddin Mansur kumandasındaki Selçuklu ordusu Dımaşk Eyyûbî kuvvetleriyle birlikte Hârizmlileri yendi.
+  - Çelik 2023 (UTAD 7/2): Ankara 1204. Uzun kuşatmadan sonra anlaşmayla teslim; Muhyiddin Mesud yolda öldürüldü.
+  - Işık 2019 (Akademik Tarih ve Düşünce 6/4): Yağıbasan'a yenilgi 1162. II. Kılıç Arslan Danişmendli ittifakına karşı savaşı kaybedip İstanbul'a gitti.
+  - Akdemir–Bektaş 2022 (SDÜ İlahiyat 49): Halep 1138. Zengî'nin gönderdiği kumandanlarla savunulan şehirden imparator çekildi. Künye ikinci yazarla tamamlandı.
+  - Çalışır 2025 (MCBÜ SBD 23/3): Taberiye 1108. Celîle Prinkepsi Gervais de Bazoches esir alındı; not eklendi.
+  - Karakuş 2023 (Kilis İlahiyat 10/1): Refeniye 1115. Küçük garnizon kalınca Tuğtegin süvariyle şehri geri aldı.
+- **Bulunamadı:** Kastamonu 1133 (Güleç–Köprülü 2026 yalnız Ioannes'in 1130'da şehri aldığını anlatır, Dânişmendli geri alışını değil); Tarsus 1245–46; Hârim 1156; Mercüssuffer 1126; Humus 1135.

@@ -289,8 +289,14 @@ EXTRA_SRC = {"Niksar (1140)": ["TDVIA:niksar"], "Sivas (Sebasteia)": ["ROM"], "H
              "Artah'ın kaybı (1069)": ["TDVIA:mirdasiler"],  # imparator Artah ve İm'e tekrar hâkim oldu (462/1070)
              "Halep'in kurtarılması (1125)": ["TDVIA:tugtegin"],  # 519 (1125) Aksungur Halep'i ele geçirdi
              "Midilli (1092)": ["TDVIA:caka-bey"],  # 1092 baharı Bizans kuşatması; Çaka adayı şartla bıraktı
-             "Kınnesrîn (1097)": ["AKD:karakus-2018"]}  # 22 Mart 1097, Rıdvan kazandı, Dukak Dımaşk'a çekildi; Sökmen'in rolü
-FIX = {"Midilli (1092)": {"note": "Bizans 1092 baharında Midilli'yi karadan (Ioannes Dukas) ve denizden (Dalassenos) kuşattı; üç ay dayanan Çaka Bey askerlerinin adayı sağ salim terk etmesi şartıyla Midilli'yi bıraktı.",
+             "Kınnesrîn (1097)": ["AKD:karakus-2018"],
+             # Akademik tur (2026-10-31)
+             "Halep müdafaası (1138)": ["AKD:akdemir-2022"],  # Zengî'nin gönderdiği kumandanlarla savunuldu, imparator kuşatmayı kaldırdı
+             "Taberiye (1108)": ["AKD:calisir-2025"],
+             "Refeniye (1115)": ["AKD:karakus-2023"]}  # küçük garnizon kalınca süvariyle silah zoruyla geri alındı  # Celîle Prinkepsi Gervais de Bazoches esir alındı  # 22 Mart 1097, Rıdvan kazandı, Dukak Dımaşk'a çekildi; Sökmen'in rolü
+FIX = {"Taberiye (1108)": {"note": "Taberiye'ye düzenlenen saldırıda Celîle Prinkepsi Gervais de Bazoches esir alındı; Kral I. Baudouin fidye olarak Akkâ, Hayfa ve Taberiye'yi vermeyi kabul etmeyince Dımaşk'ta öldürüldü.",
+        "note_en": "In the attack on Tiberias, Gervais de Bazoches, Prince of Galilee, was captured; when King Baldwin I refused to give up Acre, Haifa and Tiberias as ransom, he was killed in Damascus."},
+       "Midilli (1092)": {"note": "Bizans 1092 baharında Midilli'yi karadan (Ioannes Dukas) ve denizden (Dalassenos) kuşattı; üç ay dayanan Çaka Bey askerlerinin adayı sağ salim terk etmesi şartıyla Midilli'yi bıraktı.",
   "note_en": "In spring 1092 Byzantium besieged Mytilene by land (John Doukas) and sea (Dalassenos); after holding out three months Chaka gave up the island on condition that his men could leave safely."},
  "Artah'ın kaybı (1069)": {"dispute": "Hârûn b. Han ve Mirdâsîler maddeleri geri alışı 462 (1069-70) yılına koyar."},
  "Suruç (I)": {"date": "1101", "dispute": "Tarih: Belek maddesi 1100 verir; Sökmen maddesi tarih vermez. Çelik (2021) iki Suruç çarpışmasını da 1101'e koyar; burada Çelik'e uyuldu."},

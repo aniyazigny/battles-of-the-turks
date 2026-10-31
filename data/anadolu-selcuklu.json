@@ -891,14 +891,15 @@
    "result": "L",
    "status": "borderline",
    "sources": [
-    "TDVIA:kilicarslan-ii"
+    "TDVIA:kilicarslan-ii",
+    "AKD:isik-2019"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
@@ -1257,14 +1258,15 @@
    "result": "C",
    "status": "kesin",
    "sources": [
-    "TDVIA:suleyman-sah-ii"
+    "TDVIA:suleyman-sah-ii",
+    "AKD:celik-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu",
@@ -1877,14 +1879,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:keyhusrev-ii"
+    "TDVIA:keyhusrev-ii",
+    "AKD:akkus-solmaz-2024"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Anadolu Selçukluları",
    "home_batch": "anadolu-selcuklu"

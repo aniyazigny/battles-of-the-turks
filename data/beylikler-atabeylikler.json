@@ -889,17 +889,20 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:tugtegin"
+    "TDVIA:tugtegin",
+    "AKD:calisir-2025"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Böriler (Dımaşk Atabegliği)",
    "home_batch": "beylikler-atabeylikler",
+   "note": "Taberiye'ye düzenlenen saldırıda Celîle Prinkepsi Gervais de Bazoches esir alındı; Kral I. Baudouin fidye olarak Akkâ, Hayfa ve Taberiye'yi vermeyi kabul etmeyince Dımaşk'ta öldürüldü.",
+   "note_en": "In the attack on Tiberias, Gervais de Bazoches, Prince of Galilee, was captured; when King Baldwin I refused to give up Acre, Haifa and Tiberias as ransom, he was killed in Damascus.",
    "id": 24
   },
   {
@@ -957,14 +960,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:tugtegin"
+    "TDVIA:tugtegin",
+    "AKD:karakus-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Böriler (Dımaşk Atabegliği)",
    "home_batch": "beylikler-atabeylikler",
@@ -2545,14 +2549,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:zengi-imaduddin"
+    "TDVIA:zengi-imaduddin",
+    "AKD:akdemir-2022"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Zengîler",
    "home_batch": "beylikler-atabeylikler",

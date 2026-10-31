@@ -297,6 +297,10 @@ EXTRA_SRC = {
  "Lâdik (Laodikeia, 1119)": ["AKD:ince-2019"],  # II. Ioannes 1119'da Denizli'yi (Lâdik) kolayca aldı
  "Uluborlu (Sozopolis, 1120)": ["AKD:ince-2019"],  # Ioannes'in ilk hedefi Uluborlu
  # Üçüncü kaynak turu (2026-10-31)
+ # Akademik tur (2026-10-31)
+ "Harran (Hârizmliler)": ["AKD:akkus-solmaz-2024"],
+ "Ankara kuşatması (1204)": ["AKD:celik-2023"],  # uzun kuşatmadan sonra anlaşmayla 1204'te teslim; Mesud yolda öldürüldü
+ "Yağıbasan'a yenilgi (1162)": ["AKD:isik-2019"],  # Danişmendliler ve müttefiklerine karşı savaşı kaybedip 1162'de İstanbul'a gitti  # Zâhireddin Mansur kumandasındaki Selçuklu ordusu ve Dımaşk Eyyûbî kuvvetleri Hârizmlileri yendi
  "el-Kâmil'in Anadolu seferi": ["TDVIA:eyyubiler"],  # Kâmil 6 Mayıs 1234'te Kahire'den çıktı; Keykubad Toroslar'ın kuzeyine ilerlemesini önledi
 }
 FIX_N = {"Uluborlu (Sozopolis, 1120)": {"dispute": "İnce (2019) Ioannes'in Uluborlu seferini 1121'e koyar; kayıttaki 1120 Roma veri setine göredir."}}
