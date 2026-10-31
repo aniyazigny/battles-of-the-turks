@@ -118,15 +118,32 @@ EXTRA_SRC = {
 EXTRA_SRC.update({
     "Beyrut (1912)": ["TDVIA:italya"],  # İtalyan filosu 24 Şubat 1912'de Beyrut'u bombardıman etti
 })
+# Akademik tur (2026-10-31)
+EXTRA_SRC.update({
+    "Milona (1897)": ["AKD:sezer-2023", "AKD:koksal-2018"],  # ikisi de 18 Nisan
+    "Yenişehir (1897)": ["AKD:sezer-2023"],  # 25 Nisan
+    "Velestin (1897)": ["AKD:caglar-kucukbas-2025"],  # Velestin Muharebesi'nde Bilecik ve Bursa redif taburları
+    "Tırhala (1897)": ["AKD:koksal-2018", "AKD:sezer-2023"],
+    "Dömeke (1897)": ["AKD:koksal-2018", "AKD:sezer-2023"],  # 17 Mayıs
+    "Tobruk (1911)": ["AKD:kurtcephe-1990"],  # Trablusgarp'ın işgalinden bir gün önce
+    "Trablusgarp (1911)": ["AKD:kurtcephe-1990"],
+    "Trablus önü (1911)": ["AKD:kurtcephe-1990"],  # 23 Ekim, Neşet ve Ali Fethi beyler
+})
+FIX = {
+    "Tırhala (1897)": {"dispute": "Gazi Edhem Paşa maddesi Tırhala'nın alınışını 12 Mayıs 1897'ye koyar. Köksal 2018 24 Nisan, Sezer 2023 (Karal'a dayanarak) 26 Nisan der; iki akademik kaynağa göre şehir Yenişehir'le aynı günlerde alındı."},
+    "Tobruk (1911)": {"dispute": "Trablusgarp Savaşı maddesi Tobruk'un Trablusgarp'ın teslim olduğu 9 Ekim'den bir gün önce alındığını söyler. Kurtcephe 1990 ATASE belgelerine dayanarak Trablusgarp'ın 5 Ekim'de işgal edildiğini, Tobruk'un bir gün önce (4 Ekim) alındığını yazar."},
+    "Trablusgarp (1911)": {"dispute": "Trablusgarp Savaşı maddesi şehrin 9 Ekim'de teslim olduğunu söyler; Kurtcephe 1990 ATASE belgelerine dayanarak Albay Cagni'nin deniz birliğinin şehri 5 Ekim'de işgal ettiğini yazar."},
+}
 
 recs = []
 for i, r in enumerate(R, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ) = r
     src = src + [x for x in EXTRA_SRC.get(ntr, []) if x not in src]
+    disp = FIX.get(ntr, {}).get("dispute", disp)
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,
-           "verify": {"tdvia": True, "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": False},
+           "verify": {"tdvia": True, "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": any(x.startswith("AKD:") for x in src)},
            "state": O, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en

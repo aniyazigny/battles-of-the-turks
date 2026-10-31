@@ -154,19 +154,21 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:sarikamis-harekati"
+    "TDVIA:sarikamis-harekati",
+    "AKD:cevizliler-ozyurek-2019",
+    "AKD:sadigov-2019"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918",
-   "note": "Sarıkamış Harekâtı sırasında Çoruh vadisinden ilerleyen kuvvetler şehri aldı.",
-   "note_en": "Taken by the forces advancing up the Çoruh valley during the Sarıkamış operation."
+   "note": "Halid Bey (Karsıalan) kumandasındaki kuvvetler 29 Aralık 1914 akşamı şehre girdi; nizami kuvvetlerin kaybı 146 şehit ve 404 yaralıydı. Ruslar 3 Ocak 1915'te şehri geri aldı.",
+   "note_en": "Forces under Halid Bey (Karsıalan) entered the town on the evening of 29 December 1914, the regular troops losing 146 killed and 404 wounded. The Russians retook it on 3 January 1915."
   },
   {
    "id": 5,
@@ -1342,14 +1344,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:kazim-karabekir"
+    "TDVIA:kazim-karabekir",
+    "AKD:bal-gumru"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1914-1918"

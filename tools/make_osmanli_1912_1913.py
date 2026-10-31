@@ -94,13 +94,22 @@ LEFT = [
     {"name": "Garbî Trakya Hükûmet-i Muvakkatesi (1913)", "reason": "Osmanlı hükümeti desteklemedi; muharebe ayrıntısı yok.", "source": "TDVIA:bati-trakya"},
 ]
 
+# Akademik tur (2026-10-31)
+EXTRA_SRC = {
+    "Limni (1912)": ["AKD:ozlu-2012", "AKD:ahbab-2016"],  # 21 Ekim 1912
+    "Sakız (1912–1913)": ["AKD:ozlu-2012"],  # ada 3 Ocak 1913'te tamamen teslim oldu
+    "Manastır (1912)": ["AKD:ahbab-2016"],  # Vardar Ordusu bakiyelerinin Sırplarla son muharebesi
+    "İşkodra (1913)": ["AKD:kaytan-2019"],  # Esad Paşa ile Kral Nikola arasındaki antlaşmayla 23 Nisan 1913
+}
+
 recs = []
 for i, r in enumerate(R, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ) = r
+    src = src + [x for x in EXTRA_SRC.get(ntr, []) if x not in src]
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,
-           "verify": {"tdvia": True, "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": False},
+           "verify": {"tdvia": True, "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": any(x.startswith("AKD:") for x in src)},
            "state": O, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en

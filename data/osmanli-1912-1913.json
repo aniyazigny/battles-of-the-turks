@@ -46,14 +46,16 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:limni"
+    "TDVIA:limni",
+    "AKD:ozlu-2012",
+    "AKD:ahbab-2016"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1912-1913"
@@ -332,14 +334,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:manastir--makedonya"
+    "TDVIA:manastir--makedonya",
+    "AKD:ahbab-2016"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1912-1913",
@@ -404,14 +407,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:sakiz-adasi"
+    "TDVIA:sakiz-adasi",
+    "AKD:ozlu-2012"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1912-1913",
@@ -512,14 +516,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:balkan-savasi"
+    "TDVIA:balkan-savasi",
+    "AKD:kaytan-2019"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1912-1913",

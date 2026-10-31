@@ -136,6 +136,16 @@ EXTRA_SRC = {
     "Akbaş baskını (1920)": ["TDVIA:balikesir-kongreleri"],  # baskını Balıkesir Kongresi kararlaştırdı
     "Yozgat isyanları (1920)": ["TDVIA:cerkez-ethem"],  # 20 Haziran'da harekete geçip isyanı bir haftada bastırdı
     "Gediz (1921)": ["TDVIA:cerkez-ethem"],  # Kütahya'dan Gediz'e çekilen Ethem'e karşı kuvvete başvuruldu
+    # Akademik tur (2026-10-31)
+    "Gediz taarruzu (1920)": ["AKD:kilavuz-2011", "AKD:uca-2021"],  # 24 Ekim 1920 taarruzu, mağlup olundu
+    "Aslıhanlar (1921)": ["AKD:uca-2021", "AKD:caykiran-2022"],
+    "Adapazarı'nın geri alınışı (1921)": ["AKD:turkmen-1999"],  # işgal 21 Haziran 1921'e kadar yaklaşık dört ay sürdü
+}
+FIX = {
+    "Aslıhanlar (1921)": {"result": "L", "date": "1921-04-08",
+        "dispute": "Millî Mücadele maddesi Yunanlılar'ın Aslıhanlar'da ağır yenilgiye uğratıldığını ve 7 Nisan'da Afyon'un geri alındığını yazar. Uca 2021 (Nutuk'a dayanarak) Aslıhanlar ve Dumlupınar muharebelerinde belirgin bir üstünlük sağlanamadığını, Refet Paşa'nın yenildiği halde düşmanı yendiğini bildirdiğini; Çaykıran 2022 Yunan kuvvetlerinin 8–15 Nisan 1921'de Aslıhanlar–Dumlupınar'da yeniden taarruz edip ilerlediğini yazar. Kayıt akademik kaynaklara göre Türk tarafı için başarısız sayıldı.",
+        "note": "II. İnönü'den sonra çekilen Yunan kuvvetlerini takip eden Refet Paşa'nın birlikleri 7 Nisan'da Afyon'a girdi; 8–15 Nisan'daki Aslıhanlar ve Dumlupınar muharebelerinde Yunan karşı taarruzu karşısında başarı sağlanamadı.",
+        "note_en": "Pursuing the Greek forces withdrawing after the Second İnönü, Refet Pasha's troops entered Afyon on 7 April; in the Aslıhanlar and Dumlupınar battles of 8–15 April they failed against the Greek counter-offensive."},
 }
 NEW = {
     "Uşak (1920)": [
@@ -154,10 +164,14 @@ recs = []
 for i, r in enumerate(RR, 1):
     (ntr, nen, date, war, place, lat, lon, loc, country, sa, sb, tc, oc, cat, res, status, src, disp, note, note_en, typ) = r
     src = src + [x for x in EXTRA_SRC.get(ntr, []) if x not in src]
+    fx = dict(FIX.get(ntr, {}))
+    disp, note, note_en = fx.pop("dispute", disp), fx.pop("note", note), fx.pop("note_en", note_en)
+    date, res = fx.pop("date", date), fx.pop("result", res)
+    assert not fx, (ntr, fx)
     rec = {"id": i, "name_tr": ntr, "name_en": nen, "date": date, "hijri": "", "type": typ, "war": war, "place": place,
            "lat": lat, "lon": lon, "loc": loc, "country": country, "side_a": sa, "side_b": sb, "turkic_cmd": tc, "opp_cmd": oc,
            "category": cat, "result": res, "status": status, "sources": src,
-           "verify": {"tdvia": True, "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": False},
+           "verify": {"tdvia": True, "tdvia2": len([s for s in src if s.startswith("TDVIA:")]) >= 2, "wp": False, "rom": False, "academic": any(x.startswith("AKD:") for x in src)},
            "state": ST, "home_batch": HB}
     if disp: rec["dispute"] = disp
     if note: rec["note"], rec["note_en"] = note, note_en

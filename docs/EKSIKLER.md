@@ -25,16 +25,16 @@ Son güncelleme: 2026-10-31
 | Osmanlı 1774–1812 | 40 | 8 |
 | Osmanlı 1812–1839 | 31 | 4 |
 | Osmanlı 1839–1878 | 46 | 9 |
-| Osmanlı 1878–1912 | 20 | 6 |
-| Osmanlı 1912–1913 | 15 | 5 |
-| Osmanlı 1914–1918 | 41 | 7 |
-| Millî Mücadele 1919–1922 | 23 | 4 |
+| Osmanlı 1878–1912 | 20 | 1 |
+| Osmanlı 1912–1913 | 15 | 1 |
+| Osmanlı 1914–1918 | 41 | 5 |
+| Millî Mücadele 1919–1922 | 23 | 1 |
 | Göktürk–Uygur 552–911 | 27 | 7 |
 | Türkistan hanlıkları | 28 | 6 |
 | Bozkır devletleri (Hazar, Peçenek, Kırgız) | 31 | 8 |
 | Hun, Avar ve Bulgar | 24 | 9 |
 | Kıpçaklar | 9 | 2 |
-| **Toplam** | **868** | **152** |
+| **Toplam** | **868** | **138** |
 
 - [x] Gazneli–Karahanlı ikinci kaynak turu (2026-10-29; 20 → 9).
 - [x] TDVİA'da otomatik ikinci madde taraması (2026-10-30, `tools/second_source_candidates.py`): 27 kayıt ikinci maddeye kavuştu; TDVİA bu açıdan büyük ölçüde tükendi.

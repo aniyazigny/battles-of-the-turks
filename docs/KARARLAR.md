@@ -440,3 +440,15 @@ Kullanıcı 1400–1500'lerde Muğla ve İzmir kıyısının bazı parçaların�
   - Ege kıyısına kara noktaları eklendi: Muğla, Datça, Marmaris, Meğri (Fethiye), Çeşme, Bergama, Edremit.
   - Eğriboz noktası Halkis boğazından adanın içine alındı. Boğazdaki nokta ana kara sayılıyordu ve Venedik dilimi (1470'e kadar) Beotya kıyısını boyuyordu.
 - **Açık kalan:** Noktasız küçük adalar en yakın kara noktasının rengini alır. Şövalyelerin İstanköy'ü (1522'ye kadar) ve Ceneviz Foçası buna örnek. TDVİA'da tarih bulunamadığı için nokta eklenmedi.
+
+## Son dönem akademik turu: 1897'den Millî Mücadele'ye (2026-10-31)
+- **Kaynaklar (152 → 138):**
+  - 1897 Osmanlı–Yunan savaşı: Sezer 2023 ve Köksal 2018 (Milona 18 Nisan, Yenişehir, Tırhala, Dömeke 17 Mayıs); Çağlar–Küçükbaş 2025 (Velestin muharebesinde Bilecik ve Bursa redif taburları).
+  - Trablusgarp: Kurtcephe 1990 (ATASE belgeleriyle Tobruk, Trablusgarp'ın işgali, 23 Ekim 1911 saldırısı).
+  - Balkan Savaşı: Özlü 2012 (Limni 21 Ekim 1912; Sakız 3 Ocak 1913'te teslim), Ahbab 2016 (Limni, Manastır), Kaytan 2019 (İşkodra 23 Nisan 1913).
+  - Birinci Dünya Savaşı: Cevizliler–Özyürek 2019 ve Sadigov 2019 (Ardahan 29 Aralık 1914, Ruslar 3 Ocak 1915'te geri aldı); Bal (Gümrü 15 Mayıs 1918 muharebesi).
+  - Millî Mücadele: Kılavuz 2011 ve Uca 2021 (Gediz taarruzu 24 Ekim 1920), Uca 2021 ve Çaykıran 2022 (Aslıhanlar), Türkmen 1999 (Adapazarı 21 Haziran 1921).
+- **Tarih farkları `dispute`'a yazıldı (kayıt tarihleri TDVİA'da kaldı):**
+  - Tırhala 1897: Gazi Edhem Paşa maddesi 12 Mayıs; Köksal 24 Nisan, Sezer 26 Nisan.
+  - Tobruk ve Trablusgarp 1911: TDVİA Trablusgarp'ın 9 Ekim'de teslim olduğunu, Tobruk'un bir gün önce alındığını yazar. Kurtcephe ATASE belgelerine dayanarak 5 Ekim (Trablusgarp) ve 4 Ekim (Tobruk) der.
+- **Aslıhanlar 1921 sonucu değişti (`W` → `L`, tarih 7 → 8 Nisan):** TDVİA Yunanlılar'ın ağır yenilgiye uğratıldığını yazar. Uca 2021 (Nutuk'a dayanarak) ve Çaykıran 2022 ise 8–15 Nisan Aslıhanlar–Dumlupınar muharebelerinde Yunan karşı taarruzu karşısında başarı sağlanamadığını, Refet Paşa'nın yenildiği halde zafer bildirdiğini yazar. 7 Nisan Afyon'a girişin tarihidir; not ve `dispute`'a yazıldı.

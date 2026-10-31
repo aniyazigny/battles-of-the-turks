@@ -216,8 +216,14 @@ EXTRA_SRC = {
     "İkinci Kanal Harekâtı (1916)": ["AKD:atabey-2020"],  # 4-5 Ağustos 1916 Romani, Murray'ın Mısır Sefer Kuvveti büyük bir yenilgi verdi
     "Van'ın kurtarılışı (1918)": ["AKD:kardas-2015"],  # Türk ordusu 2 Nisan 1918'de harabe haldeki şehre girdi
     "Zığındere (1915)": ["AKD:ozdemir-2024"],  # 28 Haziran taarruzu; mevzileri geri alma denemeleri 5 Temmuz'a kadar sonuçsuz kaldı
+    # Akademik tur (2026-10-31)
+    "Ardahan (1914)": ["AKD:cevizliler-ozyurek-2019", "AKD:sadigov-2019"],  # Halid Bey 29 Aralık akşamı girdi; Ruslar 3 Ocak 1915'te geri aldı
+    "Gümrü (1918)": ["AKD:bal-gumru"],  # 15 Mayıs muharebesi, 1. Kafkas Kolordusu
 }
 FIX = {
+    "Ardahan (1914)": {
+        "note": "Halid Bey (Karsıalan) kumandasındaki kuvvetler 29 Aralık 1914 akşamı şehre girdi; nizami kuvvetlerin kaybı 146 şehit ve 404 yaralıydı. Ruslar 3 Ocak 1915'te şehri geri aldı.",
+        "note_en": "Forces under Halid Bey (Karsıalan) entered the town on the evening of 29 December 1914, the regular troops losing 146 killed and 404 wounded. The Russians retook it on 3 January 1915."},
     "İkinci Kanal Harekâtı (1916)": {"date": "1916-08-04"},
     "Kerevizdere (1915)": {"result": "W", "side_b": "Fransa",
         "note": "Fevzi (Çakmak) Bey'in tümeni Kerevizdere ve Kanlıdere mevzilerini başarıyla savundu; Kâzım Karabekir maddesi burada Fransızlar'a karşı savaşıldığını yazar.",

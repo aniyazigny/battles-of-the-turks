@@ -339,14 +339,16 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:cebesoy-ali-fuat"
+    "TDVIA:cebesoy-ali-fuat",
+    "AKD:kilavuz-2011",
+    "AKD:uca-2021"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "TBMM Hükümeti (Millî Mücadele)",
    "home_batch": "milli-mucadele-1919-1922",
@@ -612,7 +614,7 @@
    "id": 17,
    "name_tr": "Aslıhanlar (1921)",
    "name_en": "Battle of Aslıhanlar (1921)",
-   "date": "1921-04-07",
+   "date": "1921-04-08",
    "hijri": "",
    "type": "land",
    "war": "Millî Mücadele (1919–1922)",
@@ -626,22 +628,25 @@
    "turkic_cmd": "",
    "opp_cmd": "",
    "category": "dis",
-   "result": "W",
+   "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:milli-mucadele"
+    "TDVIA:milli-mucadele",
+    "AKD:uca-2021",
+    "AKD:caykiran-2022"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "TBMM Hükümeti (Millî Mücadele)",
    "home_batch": "milli-mucadele-1919-1922",
-   "note": "Yunanlılar ağır yenilgiye uğratılarak Afyon geri alındı.",
-   "note_en": "The Greeks were heavily defeated and Afyon was retaken."
+   "dispute": "Millî Mücadele maddesi Yunanlılar'ın Aslıhanlar'da ağır yenilgiye uğratıldığını ve 7 Nisan'da Afyon'un geri alındığını yazar. Uca 2021 (Nutuk'a dayanarak) Aslıhanlar ve Dumlupınar muharebelerinde belirgin bir üstünlük sağlanamadığını, Refet Paşa'nın yenildiği halde düşmanı yendiğini bildirdiğini; Çaykıran 2022 Yunan kuvvetlerinin 8–15 Nisan 1921'de Aslıhanlar–Dumlupınar'da yeniden taarruz edip ilerlediğini yazar. Kayıt akademik kaynaklara göre Türk tarafı için başarısız sayıldı.",
+   "note": "II. İnönü'den sonra çekilen Yunan kuvvetlerini takip eden Refet Paşa'nın birlikleri 7 Nisan'da Afyon'a girdi; 8–15 Nisan'daki Aslıhanlar ve Dumlupınar muharebelerinde Yunan karşı taarruzu karşısında başarı sağlanamadı.",
+   "note_en": "Pursuing the Greek forces withdrawing after the Second İnönü, Refet Pasha's troops entered Afyon on 7 April; in the Aslıhanlar and Dumlupınar battles of 8–15 April they failed against the Greek counter-offensive."
   },
   {
    "id": 18,
@@ -664,14 +669,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:adapazari"
+    "TDVIA:adapazari",
+    "AKD:turkmen-1999"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "TBMM Hükümeti (Millî Mücadele)",
    "home_batch": "milli-mucadele-1919-1922",

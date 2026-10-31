@@ -82,14 +82,16 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:gazi-edhem-pasa"
+    "TDVIA:gazi-edhem-pasa",
+    "AKD:sezer-2023",
+    "AKD:koksal-2018"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1878-1912",
@@ -119,14 +121,15 @@
    "status": "kesin",
    "sources": [
     "TDVIA:gazi-edhem-pasa",
-    "TDVIA:yenisehir"
+    "TDVIA:yenisehir",
+    "AKD:sezer-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1878-1912",
@@ -190,14 +193,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:velestin"
+    "TDVIA:velestin",
+    "AKD:caglar-kucukbas-2025"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1878-1912",
@@ -225,17 +229,20 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:gazi-edhem-pasa"
+    "TDVIA:gazi-edhem-pasa",
+    "AKD:koksal-2018",
+    "AKD:sezer-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
-   "home_batch": "osmanli-1878-1912"
+   "home_batch": "osmanli-1878-1912",
+   "dispute": "Gazi Edhem Paşa maddesi Tırhala'nın alınışını 12 Mayıs 1897'ye koyar. Köksal 2018 24 Nisan, Sezer 2023 (Karal'a dayanarak) 26 Nisan der; iki akademik kaynağa göre şehir Yenişehir'le aynı günlerde alındı."
   },
   {
    "id": 7,
@@ -260,14 +267,16 @@
    "sources": [
     "TDVIA:gazi-edhem-pasa",
     "TDVIA:izzet-pasa-ahmed",
-    "TDVIA:tesalya"
+    "TDVIA:tesalya",
+    "AKD:koksal-2018",
+    "AKD:sezer-2023"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1878-1912",
@@ -513,17 +522,19 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:trablusgarp-savasi"
+    "TDVIA:trablusgarp-savasi",
+    "AKD:kurtcephe-1990"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
-   "home_batch": "osmanli-1878-1912"
+   "home_batch": "osmanli-1878-1912",
+   "dispute": "Trablusgarp Savaşı maddesi Tobruk'un Trablusgarp'ın teslim olduğu 9 Ekim'den bir gün önce alındığını söyler. Kurtcephe 1990 ATASE belgelerine dayanarak Trablusgarp'ın 5 Ekim'de işgal edildiğini, Tobruk'un bir gün önce (4 Ekim) alındığını yazar."
   },
   {
    "id": 15,
@@ -547,17 +558,19 @@
    "status": "kesin",
    "sources": [
     "TDVIA:trablusgarp-savasi",
-    "TDVIA:trablusgarp"
+    "TDVIA:trablusgarp",
+    "AKD:kurtcephe-1990"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": true,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1878-1912",
+   "dispute": "Trablusgarp Savaşı maddesi şehrin 9 Ekim'de teslim olduğunu söyler; Kurtcephe 1990 ATASE belgelerine dayanarak Albay Cagni'nin deniz birliğinin şehri 5 Ekim'de işgal ettiğini yazar.",
    "note": "Bombardımana direnmenin imkânsızlığı yüzünden şehir teslim olmak zorunda kaldı.",
    "note_en": "As resisting the bombardment was impossible, the town had to surrender."
   },
@@ -652,14 +665,15 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:trablusgarp-savasi"
+    "TDVIA:trablusgarp-savasi",
+    "AKD:kurtcephe-1990"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1878-1912",
