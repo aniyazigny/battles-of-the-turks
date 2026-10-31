@@ -400,13 +400,30 @@ svg.call(d3.zoom().scaleExtent([1,10]).on("zoom",e=>{K=e.transform.k;T=e.transfo
   clearTimeout(legT);legT=setTimeout(()=>renderLegend(),120)}));
 d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json").then(w=>{
   gLand.selectAll("path").data(topojson.feature(w,w.objects.countries).features).join("path").attr("class","country").attr("d",path);
-  svg.append("defs").append("clipPath").attr("id","landclip").append("path").attr("d",path(topojson.feature(w,w.objects.land)));
+  const land=topojson.feature(w,w.objects.land),defs=svg.append("defs");
+  defs.append("clipPath").attr("id","landclip").append("path").attr("d",path(land));
+  // Her nokta hangi kara parçasında? En büyük parça (Afrika–Avrasya) dışındakiler ada sayılır. Kıyıda denize düşen noktalar
+  // yarım dereceye kadar en yakın parçaya bağlanır. Avrasya 180. meridyeni aştığı için sınır kutusu ters döner; ana kara her zaman adaydır.
+  const polys=(land.features||[land]).flatMap(f=>f.geometry.type==="MultiPolygon"?f.geometry.coordinates.map(c=>({type:"Polygon",coordinates:c})):[f.geometry]);
+  const main=d3.greatest(polys,d3.geoArea),bnd=polys.map(d3.geoBounds);
+  const home=CITIES.map(c=>{const q=[c.lon,c.lat],near=polys.filter((pl,k)=>{const [[x0,y0],[x1,y1]]=bnd[k];return pl===main||c.lon>x0-.5&&c.lon<x1+.5&&c.lat>y0-.5&&c.lat<y1+.5});
+    const inside=near.find(pl=>d3.geoContains(pl,q));if(inside)return inside;
+    let best=null,bd=.5*Math.PI/180;for(const pl of near)for(const v of pl.coordinates[0]){const dd=d3.geoDistance(v,q);if(dd<bd){bd=dd;best=pl}}
+    return best});
+  const islands=[...new Set(home.filter(pl=>pl&&pl!==main))];
+  ISL=home.map(pl=>islands.indexOf(pl));
+  islands.forEach((pl,k)=>defs.append("clipPath").attr("id","isl-"+k).append("path").attr("d",path(pl)));
+  defs.append("clipPath").attr("id","mainclip").append("path").attr("d",path({type:"MultiPolygon",coordinates:polys.filter(pl=>!islands.includes(pl)).map(pl=>pl.coordinates)}));
+  buildCells();render();
 }).catch(()=>{});
 
 // Devlet sınırları: her şehir çevresindeki bölgeyi temsil eder (Voronoi), kara şekliyle kırpılır.
 const RS=BORDERS.states, CITIES=BORDERS.cities;
 const cellPts=CITIES.map(c=>proj([c.lon,c.lat]));
-const vor=d3.Delaunay.from(cellPts).voronoi([-3*W,-3*H,4*W,4*H]);
+// Adalar: noktası olan her ada kendi noktaları arasında ayrı bir Voronoi ile çizilip kendi şekliyle kırpılır; kara noktaları ana karayı
+// ve noktasız adaları boyar. Böylece ada hücreleri karşı kıyıya veya başka adaya, kıyı hücreleri adaya taşmaz.
+// ISL[i]: noktanın adasının sırası, ana karada -1. Kara şekli yüklenene kadar (ISL=null) tek Voronoi kullanılır.
+let ISL=null,cells=[],edges=[];
 // Düz Voronoi kenarları köşeli görünür; her kenar küçük parçalara bölünüp tekrarlanabilir bir gürültüyle kıvrılır.
 // Komşu iki hücre aynı kıvrımlı kenarı paylaştığı için aralarında boşluk veya bindirme oluşmaz.
 const ptKey=p=>p[0].toFixed(3)+","+p[1].toFixed(3);
@@ -424,13 +441,21 @@ function noisyEdge(a,b){
   if(!edgeCache.has(key)){const [p,q]=fwd?[a,b]:[b,a],out=[p];wiggle(p,q,rng(hash(key)),out);edgeCache.set(key,out)}
   const e=edgeCache.get(key);return fwd?e:[...e].reverse();
 }
-const cells=CITIES.map((c,i)=>{const poly=vor.cellPolygon(i),pts=[];
-  for(let k=0;k<poly.length-1;k++)pts.push(...noisyEdge(poly[k],poly[k+1]).slice(0,-1));
-  return {c,i,poly,pts}});
-const edges=[];
-for(const a of cells){for(const j of vor.delaunay.neighbors(a.i)){if(j<=a.i)continue;
-  const pb=cells[j].poly, common=a.poly.slice(1).filter(p=>pb.some(q=>Math.abs(p[0]-q[0])<1e-6&&Math.abs(p[1]-q[1])<1e-6));
-  if(common.length>=2)edges.push({i:a.i,j,line:noisyEdge(common[0],common[1])})}}
+function buildCells(){
+  cells=new Array(CITIES.length);edges=[];
+  for(const isl of ISL?[...new Set(ISL)]:[-1]){
+    const idx=CITIES.map((c,i)=>i).filter(i=>(ISL?ISL[i]:-1)===isl);
+    const vor=d3.Delaunay.from(idx.map(i=>cellPts[i])).voronoi([-3*W,-3*H,4*W,4*H]);
+    idx.forEach((i,k)=>{const poly=vor.cellPolygon(k)||[],pts=[];
+      for(let m=0;m<poly.length-1;m++)pts.push(...noisyEdge(poly[m],poly[m+1]).slice(0,-1));
+      cells[i]={c:CITIES[i],i,poly,pts,isl}});
+    idx.forEach((i,k)=>{for(const m of vor.delaunay.neighbors(k)){if(m<=k)continue;const j=idx[m];
+      const pb=cells[j].poly, common=cells[i].poly.slice(1).filter(p=>pb.some(q=>Math.abs(p[0]-q[0])<1e-6&&Math.abs(p[1]-q[1])<1e-6));
+      if(common.length>=2)edges.push({i,j,isl,line:noisyEdge(common[0],common[1])})}});
+  }
+}
+buildCells();
+const clipOf=d=>ISL?(d.isl>=0?`url(#isl-${d.isl})`:"url(#mainclip)"):null;
 const edgeLine=d3.line().curve(d3.curveBasis);
 const ownerAt=(c,y)=>{if(c.void)return null;const s=c.spans.find(([a,b])=>y>=a&&y<b);return s?s[2]:null};
 // Renkler: her devletin data/sinirlar.json'daki rengi esastır. Haritada görünen iki devletin rengi birbirine
@@ -465,14 +490,14 @@ function renderRealms(year){
   const own=cells.map(d=>ownerAt(d.c,year));
   COLS=assignColors(own);
   const draw=(sel,test)=>sel.selectAll("path").data(cells.filter(d=>own[d.i]&&test(RS[own[d.i]].group)),d=>d.c.id)
-    .join("path").attr("class","realm").attr("d",d=>"M"+d.pts.join("L")+"Z")
+    .join("path").attr("class","realm").attr("d",d=>"M"+d.pts.join("L")+"Z").attr("clip-path",clipOf)
     .attr("fill",d=>realmCol(own[d.i])).attr("stroke",d=>realmCol(own[d.i]))
     .on("mousemove",(e,d)=>{tip.style.display="block";tip.style.left=(e.clientX+14)+"px";tip.style.top=(e.clientY+10)+"px";
       tip.innerHTML=`<b>${esc(RS[own[d.i]].tr)}</b><br>${esc(d.c.tr)} bölgesi · ${year}${d.c.yaklasik?"<br><i>tarihler yaklaşık</i>":""}`})
     .on("mouseleave",()=>tip.style.display="none");
   draw(gTurk,gr=>gr!=="diger");draw(gOther,gr=>gr==="diger");
   gEdge.selectAll("path").data(edges.filter(e=>own[e.i]!==own[e.j]&&(own[e.i]||own[e.j])))
-    .join("path").attr("class","realm-edge").attr("d",e=>edgeLine(e.line));
+    .join("path").attr("class","realm-edge").attr("d",e=>edgeLine(e.line)).attr("clip-path",clipOf);
   lastOwn=own;lastYear=year;renderLegend();
 }
 // Lejant: yalnız o yıl haritanın görünen kısmında toprağı olan devletler, kapladıkları bölge sayısına göre sıralı.

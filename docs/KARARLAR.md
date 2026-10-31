@@ -427,3 +427,16 @@ Kalan tek kaynaklı kayıtlar için yer, kişi, devlet ve savaş adlı yaklaşı
   - İtalyan işgali: Muğla, Milas ve Bodrum'da 1919–1921 (Bodrum 11 Mayıs 1919), Antalya'da 29 Nisan 1919–1921.
   - Rodos'un 1309–1522 şövalye ve 1912 İtalyan dilimleri doğruydu.
 
+
+## Ada ve kıyı ayrımı (2026-10-31)
+Kullanıcı 1400–1500'lerde Muğla ve İzmir kıyısının bazı parçalarının Osmanlı görünmediğini fark etti. Sebep çizim yöntemiydi: sınırlar en yakın şehir noktasına göre (Voronoi) çiziliyor. Kıyıda kara noktası az olduğu için Sakız, Midilli, Rodos ve Bodrum'un hücreleri karşı kıyıya taşıyordu. Bu yüzden Çeşme–Karaburun 1566'ya, Ayvalık–Edremit–Bergama 1462'ye, Datça–Marmaris–Fethiye 1522'ye kadar Latin görünüyordu. Girit'in doğu ucu da Rodos'un hücresine düşüyordu.
+- **Algoritma (`site/template.html`):**
+  - Kara şekli yüklenince her noktanın hangi kara parçasında olduğu bulunur. Kıyıda denize düşen noktalar yarım dereceye kadar en yakın parçaya bağlanır.
+  - En büyük parça (Afrika–Avrasya) dışındakiler ada sayılır.
+  - Noktası olan her ada, yalnız kendi noktaları arasında ayrı bir Voronoi ile çizilir ve kendi şekliyle kırpılır.
+  - Kara noktaları ana karayı ve noktasız adaları boyar.
+  - Sonuç: ada hücresi kıyıya veya başka adaya, kıyı hücresi adaya taşmaz.
+- **Veri (`tools/fix_borders_ege_kiyi.py`):**
+  - Ege kıyısına kara noktaları eklendi: Muğla, Datça, Marmaris, Meğri (Fethiye), Çeşme, Bergama, Edremit.
+  - Eğriboz noktası Halkis boğazından adanın içine alındı. Boğazdaki nokta ana kara sayılıyordu ve Venedik dilimi (1470'e kadar) Beotya kıyısını boyuyordu.
+- **Açık kalan:** Noktasız küçük adalar en yakın kara noktasının rengini alır. Şövalyelerin İstanköy'ü (1522'ye kadar) ve Ceneviz Foçası buna örnek. TDVİA'da tarih bulunamadığı için nokta eklenmedi.
