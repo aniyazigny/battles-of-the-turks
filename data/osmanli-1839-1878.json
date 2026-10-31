@@ -337,19 +337,20 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:dogubayazit"
+    "TDVIA:dogubayazit",
+    "AKD:sahin-2013"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
-   "note": "Şehir yağmalanıp yakıldı; Paris Antlaşması ile geri verildi.",
-   "note_en": "The town was plundered and burned; it was returned under the Treaty of Paris."
+   "note": "Çengel (Çengilli) yenilgisinden sonra Selim Paşa Beyazıt'ı bırakıp Bargiri'ye çekildi; Ruslar şehre savaşsız girdi (Şahin 2013, Rus kaynağına göre eski usul 19 Temmuz). Şehir yağmalanıp yakıldı; Paris Antlaşması ile geri verildi.",
+   "note_en": "After the defeat at Çengel, Selim Pasha abandoned Bayazid and fell back on Bargiri; the Russians entered the town unopposed (Şahin 2013, 19 July Old Style after a Russian source). It was plundered and burnt, and returned by the Treaty of Paris."
   },
   {
    "id": 10,
@@ -1051,7 +1052,7 @@
    "id": 29,
    "name_tr": "Lofça (1877)",
    "name_en": "Battle of Lovech (1877)",
-   "date": "1877-08-23",
+   "date": "1877-09-03",
    "hijri": "",
    "type": "land",
    "war": "Osmanlı–Rus savaşı (Doksanüç Harbi, 1877–1878)",
@@ -1068,20 +1069,21 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:lofca"
+    "TDVIA:lofca",
+    "AKD:akcakaya-2023b"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
-   "dispute": "Lofça maddesi şehrin 5 Haziran 1877'de işgal edildiğini, Rifat Paşa'nın 15 Haziran'da Rusları geri püskürttüğünü yazar; Doksanüç Harbi maddesine göre Ruslar Tuna'yı ancak 27 Haziran'da geçmişti.",
-   "note": "Rifat Paşa'nın Rusları bir kez geri püskürtmesine rağmen şehir 23 Ağustos'ta terkedildi.",
-   "note_en": "Although Rifat Pasha once drove the Russians back, the town was abandoned on 23 August."
+   "dispute": "Lofça maddesinin tarihleri (5 Haziran işgal, 15 Haziran geri alınış, 23 Ağustos terk) eski usul (Jülyen) takvime göredir; Akçakaya 2023 yeni usulle Rusların şehri 17 Temmuz'da aldığını, Refet Paşa'nın 27 Temmuz'da geri aldığını ve 28 Temmuz Rus saldırısını püskürttüğünü, İmeretinski'nin 3 Eylül 1877 taarruzuyla şehrin düştüğünü yazar. Kayıt yeni usul tarihe göre verildi.",
+   "note": "3 Eylül 1877'de 26 tabur ve 80 topla saldıran İmeretinski'ye karşı sekiz tabur ve altı topla savunan Rifat Paşa akşama kadar dayandı, sonra kalan iki taburla Plevne'ye çekildi. Osmanlı kaybı yaklaşık 2500, Rus kaybı 1600 kadardı; yardıma gelen Osman Paşa geç kaldı.",
+   "note_en": "Attacked on 3 September 1877 by Imeretinsky with 26 battalions and 80 guns, Rifat Pasha held with eight battalions and six guns until evening, then withdrew to Plevna with the two battalions left. Ottoman losses were about 2,500, Russian about 1,600; Osman Pasha, marching to help, arrived too late."
   },
   {
    "id": 30,
@@ -1319,14 +1321,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:karadag"
+    "TDVIA:karadag",
+    "AKD:akyay-2015"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",

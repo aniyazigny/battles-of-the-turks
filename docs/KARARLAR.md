@@ -462,3 +462,12 @@ Kullanıcı 1400–1500'lerde Muğla ve İzmir kıyısının bazı parçaların�
   - Çalışır 2025 (MCBÜ SBD 23/3): Taberiye 1108. Celîle Prinkepsi Gervais de Bazoches esir alındı; not eklendi.
   - Karakuş 2023 (Kilis İlahiyat 10/1): Refeniye 1115. Küçük garnizon kalınca Tuğtegin süvariyle şehri geri aldı.
 - **Bulunamadı:** Kastamonu 1133 (Güleç–Köprülü 2026 yalnız Ioannes'in 1130'da şehri aldığını anlatır, Dânişmendli geri alışını değil); Tarsus 1245–46; Hârim 1156; Mercüssuffer 1126; Humus 1135.
+
+## 1791–1878 akademik turu (2026-10-31)
+
+Tek kaynaklı kayıtlar 132 → 128.
+- Akcakaya 2023b (JUHIS 6/2): Lofça 1877. TDVİA Lofça maddesinin tarihleri (5 Haziran, 15 Haziran, 23 Ağustos) eski usuldür; yeni usulle Ruslar şehri 17 Temmuz'da aldı, Refet Paşa 27 Temmuz'da geri aldı, İmeretinski 3 Eylül 1877'de şehri düşürdü. **Kaydın tarihi 1877-08-23 → 1877-09-03** (takvim düzeltmesi; çelişki değil, dispute alanında açıklandı).
+- Şahin 2013 (TAED 49): Doğubayazıt 1854. Çengel yenilgisinden sonra Selim Paşa Bargiri'ye çekildi, Ruslar şehre savaşsız girdi. Not eklendi.
+- Akyay 2015 (BAED 4/2): Nikşiç, Bar ve Ülgün. Nikşik 48 günlük kuşatmayla 8 Eylül 1877'de, Bar ve Ülgün Ocak 1878'de düştü.
+- Kimya 2019 (ATDD 6/3): Anapa 1791. Ruslar Temmuz 1791'de aldı; savunmadaki İmam Mansur yaralanıp esir düştü.
+- **Bulunamadı:** İngur 1855, Duga 1876, Andrayoviç 1877, Maçka 1877, Rusçuk 1854 (Köremezli yalnız Mokanoğlu 7 Temmuz 1854'ü anlatır), Yafa ve Dimyat 1799, Haneke 1801, Böğürdelen 1806.

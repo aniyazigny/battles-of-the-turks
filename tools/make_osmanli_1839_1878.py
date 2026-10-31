@@ -148,7 +148,7 @@ R = [
  RU, O, "Süleyman Hüsnü Paşa", "", "dis", "L", "kesin",
  ["TDVIA:doksanuc-harbi"], "", "21 Ağustos'tan itibaren yapılan şiddetli taarruzlara rağmen geçit geri alınamadı.",
  "Despite fierce attacks from 21 August the pass could not be retaken.", "land"),
-("Lofça (1877)", "Battle of Lovech (1877)", "1877-08-23", WR, "Lofça", 43.14, 24.72, "known", "Bulgaristan",
+("Lofça (1877)", "Battle of Lovech (1877)", "1877-09-03", WR, "Lofça", 43.14, 24.72, "known", "Bulgaristan",
  RU, O, "Rifat Paşa", "", "dis", "L", "kesin",
  ["TDVIA:lofca"],
  "Lofça maddesi şehrin 5 Haziran 1877'de işgal edildiğini, Rifat Paşa'nın 15 Haziran'da Rusları geri püskürttüğünü yazar; Doksanüç Harbi maddesine göre Ruslar Tuna'yı ancak 27 Haziran'da geçmişti.",
@@ -251,9 +251,19 @@ EXTRA_SRC = {"Sinop (1853)": ["TDVIA:mehmed-emin-pasa-kibrisli"],
              "Yahniler (1877)": ["AKD:akcakaya-2023"],  # 2–4 Ekim, Ruslar mevzilerine geri sürüldü
              "Alacadağ (1877)": ["AKD:akcakaya-2023"],  # 15 Ekim, cephe yarıldı, 7000 esir
              "Grahova (1858)": ["AKD:golen-2014"]}  # Gölen: savaş 11 Mayıs 1858'de başladı, Osmanlı ordusu Grahova'da yenildi
+EXTRA_SRC.update({"Doğubayazıt (1854)": ["AKD:sahin-2013"],  # Çengel yenilgisinden sonra Selim Paşa çekildi, Ruslar savaşsız girdi
+                  "Lofça (1877)": ["AKD:akcakaya-2023b"],
+                  "Nikşiç, Bar ve Ülgün'ün kaybı (1877–1878)": ["AKD:akyay-2015"]})  # Nikşik 8 Eylül 1877, Bar ve Ülgün Ocak 1878
 EXTRA_SRC.update({"Çatana (1854)": ["AKD:koremezli-2021", "AKD:efe-2006"], "Gözleve (1855)": ["AKD:koremezli-2021", "AKD:demiray-2021"]})  # akademik tur
 
 FIX = {"Grahova (1858)": {"date": "1858-05"},
+ "Lofça (1877)": {
+           "dispute": "Lofça maddesinin tarihleri (5 Haziran işgal, 15 Haziran geri alınış, 23 Ağustos terk) eski usul (Jülyen) takvime göredir; Akçakaya 2023 yeni usulle Rusların şehri 17 Temmuz'da aldığını, Refet Paşa'nın 27 Temmuz'da geri aldığını ve 28 Temmuz Rus saldırısını püskürttüğünü, İmeretinski'nin 3 Eylül 1877 taarruzuyla şehrin düştüğünü yazar. Kayıt yeni usul tarihe göre verildi.",
+           "note": "3 Eylül 1877'de 26 tabur ve 80 topla saldıran İmeretinski'ye karşı sekiz tabur ve altı topla savunan Rifat Paşa akşama kadar dayandı, sonra kalan iki taburla Plevne'ye çekildi. Osmanlı kaybı yaklaşık 2500, Rus kaybı 1600 kadardı; yardıma gelen Osman Paşa geç kaldı.",
+           "note_en": "Attacked on 3 September 1877 by Imeretinsky with 26 battalions and 80 guns, Rifat Pasha held with eight battalions and six guns until evening, then withdrew to Plevna with the two battalions left. Ottoman losses were about 2,500, Russian about 1,600; Osman Pasha, marching to help, arrived too late."},
+ "Doğubayazıt (1854)": {
+           "note": "Çengel (Çengilli) yenilgisinden sonra Selim Paşa Beyazıt'ı bırakıp Bargiri'ye çekildi; Ruslar şehre savaşsız girdi (Şahin 2013, Rus kaynağına göre eski usul 19 Temmuz). Şehir yağmalanıp yakıldı; Paris Antlaşması ile geri verildi.",
+           "note_en": "After the defeat at Çengel, Selim Pasha abandoned Bayazid and fell back on Bargiri; the Russians entered the town unopposed (Şahin 2013, 19 July Old Style after a Russian source). It was plundered and burnt, and returned by the Treaty of Paris."},
  "Çatana (1854)": {"dispute": "Ömer Lütfi Paşa maddesi ve Efe 2006 savaşı 5 Ocak 1854'e koyar (Efe: ilk püskürtme 5 Ocak, ardından yeni Rus taarruzları). Köremezli 2021 ATASE belgelerine dayanarak asıl Osmanlı saldırısını 6 Ocak 1854'e (Rus Noeli) tarihler; 31 Aralık'ta bir yoklama saldırısı yapılmıştı."},
  "Sinop (1853)": {
            "dispute": "Sinop ve Kıbrıslı Mehmed Emin Paşa maddeleri baskını \"1854 yılı başlarına\" koyar. Savaş 4 Ekim 1853'te ilân edilmişti; genel kabul gören tarih 30 Kasım 1853'tür.",
