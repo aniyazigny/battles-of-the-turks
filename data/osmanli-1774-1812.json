@@ -1377,14 +1377,15 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:ibrail"
+    "TDVIA:ibrail",
+    "AKD:efe-2006"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1774-1812",

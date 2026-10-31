@@ -156,6 +156,8 @@ EXTRA_SRC = {"Tripoliçe'nin geri alınışı (1825)": ["TDVIA:tripolice"],   # 
 EXTRA_SRC.update({
     "Tripoliçe (1821)": ["TDVIA:yunanistan"],  # 1821 Yunan isyanı başladıktan sonra Tripoliçe'deki müslümanlar katledildi
 })
+EXTRA_SRC.update({"Kulevçe (1829)": ["AKD:efe-2006"]})  # akademik tur
+
 FIX = {"Tripoliçe'nin geri alınışı (1825)": {"status": "borderline", "note": "Mora'ya çıkan İbrâhim Paşa önce Navarin'i (18 Mayıs), ardından Tripoliçe'yi (23 Haziran) zaptetti. Tripoliçe maddesi şehrin savaşsız geri alındığını yazdığından borderline. (Kontrol turunda eklendi.)", "note_en": "Having landed in the Morea, Ibrahim Pasha took Navarino (18 May) and then Tripolitsa (23 June). Borderline, as the Tripolitsa article says the town was retaken without a fight."},
        "Mekke ve Medine'nin geri alınışı (1812–1813)": {
            "note": "Tosun Paşa iki haftalık kuşatmadan sonra Medine'yi 3 Aralık 1812'de geri aldı; Mekke'ye Şerîf Gālib'in yardımıyla 23 Ocak 1813'te girdi.",

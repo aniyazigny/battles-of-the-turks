@@ -184,6 +184,8 @@ EXTRA_SRC = {"Mehâdiye (1788)": ["TDVIA:hasan-pasa-kethuda"], "Şebeş (1788)":
  "Belgrad'ın kaybı (1789)": ["AKD:fedakar-2019"],  # Laudon 11 Eylül 1789'da kuşattı, Osman Paşa kaleyi Ekim 1789'da teslim etti
  "Kalas (1789)": ["AKD:fedakar-2019"],  # sadrazam Yûsuf Paşa Kalas ve Fokşan'da yenildi
  "Yergöğü (1790)": ["TDVIA:zistovi-antlasmasi"]}  # Coburg Yergöğü'nü sıkıştırdı, ağır kayıpla Bükreş'e döndü
+EXTRA_SRC.update({"İbrâil'in kaybı (1809)": ["AKD:efe-2006"]})  # akademik tur
+
 FIX = {"Mehâdiye (1788)": {"turkic_cmd": "Vidin seraskeri Hasan Paşa (Kethüdâ), Koca Yûsuf Paşa"},
  "Şebeş (1788)": {"turkic_cmd": "Vidin seraskeri Hasan Paşa (Kethüdâ), Koca Yûsuf Paşa"},
  "Özü'nün kaybı (1788)": {"opp_cmd": "Aleksandr Suvorov",

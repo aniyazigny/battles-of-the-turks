@@ -410,3 +410,20 @@ Kalan tek kaynaklı kayıtlar için yer, kişi, devlet ve savaş adlı yaklaşı
   - Selmas 1605: Gazi Giray II maddesindeki "Selmas Han" bir kişidir.
   - Tobruk 1911: Enver Paşa maddesi yalnız Tobruk'a varışı yazar.
   - Gazne 1149: Gurlular maddesi 1148'deki ele geçirmeyi anlatır.
+
+## Tuna ve Kırım akademik turu; Menteşe ve beylik sınırları (2026-10-31)
+- **Kaynaklar (157 → 152):**
+  - Efe 2006 (OTAM 19, Silistre eyaletinde Osmanlı–Rus savaşları 1773–1878): Silistre 1773 (Rumyantsev'in kuşatması sonuçsuz), İbrâil 1809 (altı yedi aylık kuşatmadan sonra düştü), Kulevçe 1829 (ağır yenilgi, cephanelik isabeti), Çatana 1854.
+  - Köremezli 2021 (Vakanüvis 6/2, ATASE ve Rus kaynaklarıyla 1853–54 Tuna seferi): Çatana 1854 ayrıntılı; Gözleve 1855'te Osmanlı üstünlüğü.
+  - Demiray 2021 (TAED 71): Gözleve, 17 Şubat 1855'te Rus taarruzunun püskürtülmesi.
+- **Çatana tarihi `dispute`'a yazıldı:** Ömer Lütfi Paşa maddesi ve Efe 5 Ocak, Köremezli 6 Ocak 1854 (31 Aralık'ta yoklama saldırısı). Kayıt 5 Ocak'ta kaldı.
+- **Harita (`tools/fix_borders_mentese.py`):** Batı Anadolu beyliklerinin 1402 sonrası dilimleri hep 1425'te bitiyordu; TDVİA maddelerine göre ayrı ayrı düzeltildi.
+  - Menteşe: 1261'den (TDVİA Muğla), kesin ilhak 1424.
+  - Germiyan: 1429 (Yâkub Bey'in vasiyeti).
+  - Saruhan: c. 1414 (1411–1415 arası).
+  - Antalya: 1402'den sonra da Osmanlı'da kaldı; Hamîd dilimi kaldırıldı. Antalya 1423 müdafaası artık Osmanlı toprağına düşüyor (uyuşmazlık 70 → 69).
+  - Rodos: 717–718 Arap işgali; 1300–1309 Menteşe (Mesud Bey adanın önemli kısmını aldı).
+  - Bodrum noktası eklendi: şövalyeler 1415–1522.
+  - İtalyan işgali: Muğla, Milas ve Bodrum'da 1919–1921 (Bodrum 11 Mayıs 1919), Antalya'da 29 Nisan 1919–1921.
+  - Rodos'un 1309–1522 şövalye ve 1912 İtalyan dilimleri doğruydu.
+

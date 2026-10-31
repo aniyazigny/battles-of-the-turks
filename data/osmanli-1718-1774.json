@@ -1196,7 +1196,8 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:silistre"
+    "TDVIA:silistre",
+    "AKD:efe-2006"
    ],
    "verify": {
     "tdvia": true,

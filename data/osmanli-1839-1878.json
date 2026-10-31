@@ -228,17 +228,20 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:omer-lutfi-pasa"
+    "TDVIA:omer-lutfi-pasa",
+    "AKD:koremezli-2021",
+    "AKD:efe-2006"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",
+   "dispute": "Ömer Lütfi Paşa maddesi ve Efe 2006 savaşı 5 Ocak 1854'e koyar (Efe: ilk püskürtme 5 Ocak, ardından yeni Rus taarruzları). Köremezli 2021 ATASE belgelerine dayanarak asıl Osmanlı saldırısını 6 Ocak 1854'e (Rus Noeli) tarihler; 31 Aralık'ta bir yoklama saldırısı yapılmıştı.",
    "note": "Bu zaferden sonra Ömer Paşa'ya \"serdâr-ı ekrem\" unvanı verildi.",
    "note_en": "After this victory Omar Pasha was given the title serdar-ı ekrem."
   },
@@ -369,14 +372,16 @@
    "result": "W",
    "status": "kesin",
    "sources": [
-    "TDVIA:omer-lutfi-pasa"
+    "TDVIA:omer-lutfi-pasa",
+    "AKD:koremezli-2021",
+    "AKD:demiray-2021"
    ],
    "verify": {
     "tdvia": true,
     "tdvia2": false,
     "wp": false,
     "rom": false,
-    "academic": false
+    "academic": true
    },
    "state": "Osmanlı Devleti",
    "home_batch": "osmanli-1839-1878",

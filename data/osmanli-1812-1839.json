@@ -624,7 +624,8 @@
    "result": "L",
    "status": "kesin",
    "sources": [
-    "TDVIA:resid-mehmed-pasa"
+    "TDVIA:resid-mehmed-pasa",
+    "AKD:efe-2006"
    ],
    "verify": {
     "tdvia": true,

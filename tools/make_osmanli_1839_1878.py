@@ -251,7 +251,10 @@ EXTRA_SRC = {"Sinop (1853)": ["TDVIA:mehmed-emin-pasa-kibrisli"],
              "Yahniler (1877)": ["AKD:akcakaya-2023"],  # 2–4 Ekim, Ruslar mevzilerine geri sürüldü
              "Alacadağ (1877)": ["AKD:akcakaya-2023"],  # 15 Ekim, cephe yarıldı, 7000 esir
              "Grahova (1858)": ["AKD:golen-2014"]}  # Gölen: savaş 11 Mayıs 1858'de başladı, Osmanlı ordusu Grahova'da yenildi
+EXTRA_SRC.update({"Çatana (1854)": ["AKD:koremezli-2021", "AKD:efe-2006"], "Gözleve (1855)": ["AKD:koremezli-2021", "AKD:demiray-2021"]})  # akademik tur
+
 FIX = {"Grahova (1858)": {"date": "1858-05"},
+ "Çatana (1854)": {"dispute": "Ömer Lütfi Paşa maddesi ve Efe 2006 savaşı 5 Ocak 1854'e koyar (Efe: ilk püskürtme 5 Ocak, ardından yeni Rus taarruzları). Köremezli 2021 ATASE belgelerine dayanarak asıl Osmanlı saldırısını 6 Ocak 1854'e (Rus Noeli) tarihler; 31 Aralık'ta bir yoklama saldırısı yapılmıştı."},
  "Sinop (1853)": {
            "dispute": "Sinop ve Kıbrıslı Mehmed Emin Paşa maddeleri baskını \"1854 yılı başlarına\" koyar. Savaş 4 Ekim 1853'te ilân edilmişti; genel kabul gören tarih 30 Kasım 1853'tür.",
            "note": "Limandaki Osmanlı donanması Rus baskınına uğradı; on iki gemi battı, 2000'den fazla asker şehid düştü. Kaptanıderyâ Mahmud Paşa bu yüzden görevden alındı.",
