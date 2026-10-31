@@ -68,11 +68,16 @@ button.play{border:1px solid var(--accent);color:#fff;background:var(--accent);b
 .tl-axis span{position:absolute;transform:translateX(-50%);font-variant-numeric:tabular-nums}
 .tl-axis span::before{content:"";position:absolute;left:50%;top:-3px;height:3px;border-left:1px solid var(--line)}
 .tl-hint{color:var(--muted);font-size:12px;margin-top:2px}
+/* Dokunmatik: tutamaçlar parmakla tutulabilsin */
+@media (pointer:coarse){.tl-h{width:24px;margin-left:-12px}.tl-h::after{left:9px;right:9px}.chip{padding:5px 12px}}
 @media (max-width:640px){.tl-ms{display:none}.tl-yrs{font-size:20px}}
 .mapbox{display:grid;grid-template-columns:1fr 320px;gap:14px}
 @media (max-width:860px){.mapbox{grid-template-columns:1fr}}
 .map{background:var(--sea);border:1px solid var(--line);border-radius:8px;overflow:hidden;position:relative}
 .map svg{display:block;width:100%;height:auto;cursor:grab}
+.stage{position:relative;transform-origin:0 0;will-change:transform}
+.stage svg{will-change:transform}
+.stage svg.land{position:absolute;left:0;top:0;pointer-events:none}
 .country{fill:var(--land);stroke:var(--land-stroke);stroke-width:.5}
 .dot{cursor:pointer}
 .dot circle.ring{fill:none;stroke:var(--ink);stroke-opacity:.55}
@@ -100,6 +105,8 @@ button.play{border:1px solid var(--accent);color:#fff;background:var(--accent);b
 .more{display:block;margin:12px auto 0}
 .fnote{font:13px "IBM Plex Sans Condensed",sans-serif;color:var(--accent);margin:-4px 0 10px}
 .fnote button{border:0;background:none;color:var(--accent);text-decoration:underline;cursor:pointer;font:inherit;padding:0}
+.zb{position:absolute;right:8px;top:8px;display:flex;flex-direction:column;gap:4px}
+.zb button{width:34px;height:34px;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:6px;font:500 18px/1 "IBM Plex Sans Condensed",sans-serif;cursor:pointer;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.12)}
 .legend{position:absolute;left:10px;bottom:10px;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:6px 10px;font:12px "IBM Plex Sans Condensed",sans-serif;display:flex;gap:10px;flex-wrap:wrap}
 .sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:4px;vertical-align:-1px}
 .panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:14px;max-height:600px;overflow:auto;font-size:15px}
@@ -133,6 +140,14 @@ tr.detail td{background:var(--paper)}
 .bar i{display:block}
 footer{margin:46px 0 30px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
 ul.lo{padding-left:18px;font-size:15px}
+@media (max-width:640px){
+  header{padding:22px 0 12px}h2{margin:28px 0 10px}
+  .legend{left:6px;bottom:6px;padding:3px 7px;gap:6px;font-size:11px}
+  .panel{max-height:none}
+  .lbar input[type=search]{width:100%}.lbar .grp:first-child{flex:1 1 100%}
+  #list th:nth-child(6),#list td:nth-child(6),#list th:nth-child(8),#list td:nth-child(8){display:none}
+  dl{grid-template-columns:78px 1fr}
+}
 </style>
 </head>
 <body>
@@ -172,6 +187,7 @@ ul.lo{padding-left:18px;font-size:15px}
 <div class="fnote" id="fnote"></div>
 <div class="mapbox">
   <div class="map" id="map">
+    <div class="zb"><button id="zin" aria-label="Yakınlaştır">+</button><button id="zout" aria-label="Uzaklaştır">−</button><button id="zreset" aria-label="Tüm harita" title="Tüm harita">⤢</button></div>
     <div class="legend">
       <span><i class="sw" style="background:var(--win)"></i>Zafer</span>
       <span><i class="sw" style="background:var(--loss)"></i>Yenilgi</span>
@@ -179,7 +195,7 @@ ul.lo{padding-left:18px;font-size:15px}
       <span><i class="sw" style="background:var(--civil)"></i>İç savaş</span>
     </div>
   </div>
-  <div class="panel" id="panel"><p class="hint">Haritada bir noktaya tıklayın. Nokta büyüklüğü o yerdeki savaş sayısını, dilimler sonuçları gösterir. Fare tekerleğiyle yakınlaştırabilirsiniz.</p></div>
+  <div class="panel" id="panel"><p class="hint">Haritada bir noktaya tıklayın. Nokta büyüklüğü o yerdeki savaş sayısını, dilimler sonuçları gösterir. <span id="zhint">Fare tekerleğiyle yakınlaştırabilirsiniz.</span></p></div>
 </div>
 <div class="realms" id="realms"></div>
 
@@ -309,7 +325,7 @@ let rafR=0;
 function setRange(a,z){
   a=Math.round(Math.max(Y0,Math.min(Y1,a)));z=Math.round(Math.max(Y0,Math.min(Y1,z)));if(a>z)[a,z]=[z,a];
   if(a===S.from&&z===S.to)return;S.from=a;S.to=z;syncTimeline();
-  if(!rafR)rafR=requestAnimationFrame(()=>{rafR=0;render()});
+  if(!rafR)rafR=requestAnimationFrame(()=>{rafR=0;renderMap()});
 }
 // on yıllık savaş sayısı histogramı (karekök ölçekli, seyrek dönemler de görünsün)
 const DEC=10,decs=d3.range(Math.floor(Y0/DEC)*DEC,Y1+1,DEC).map(d=>[d,B.filter(b=>b.y>=d&&b.y<d+DEC).length]);
@@ -386,22 +402,55 @@ playBtn.onclick=()=>{
   timer=setInterval(()=>{acc+=+speedSel.value*TICK/1000;const st=Math.floor(acc);if(!st)return;acc-=st;
     const n=Math.min(st,Y1-S.to);setRange(S.from+n,S.to+n);if(S.to>=Y1)stopPlay()},TICK);
 };
-let rzT;addEventListener("resize",()=>{clearTimeout(rzT);rzT=setTimeout(()=>{drawAxis();drawMilestones()},100)});
+let rzT;addEventListener("resize",()=>{clearTimeout(rzT);rzT=setTimeout(()=>{drawAxis();drawMilestones();fitScreen();renderMap()},100)});
 
 // map
-const W=1000,H=600;
-const svg=d3.select("#map").insert("svg",":first-child").attr("viewBox",`0 0 ${W} ${H}`);
-const g=svg.append("g"), gLand=g.append("g"), gRealm=g.append("g").attr("clip-path","url(#landclip)"), gDots=g.append("g");
-const gTurk=gRealm.append("g").attr("opacity",.5), gOther=gRealm.append("g").attr("opacity",.3), gEdge=gRealm.append("g");
+// Dar ekranda harita daha yüksek çizilir (telefonda 1000×600 çok basık kalıyordu)
+const W=1000,H=innerWidth<640?820:600;
+// HOVER: fareli cihaz; dokunmatikte ipucu kutusu açılmaz (parmak kalkınca kapanmadığı için takılı kalıyordu)
+const HOVER=matchMedia("(hover:hover)").matches;
+if(!HOVER)document.getElementById("zhint").textContent="İki parmakla ya da + düğmesiyle yakınlaştırabilirsiniz.";
+// İki üst üste SVG: altta kara (yalnız yakınlaştırınca yeniden boyanır), üstte sınırlar ve noktalar (yıl değişince yeniden boyanır).
+// Ayrı katman oldukları için oynatma sırasında 50m kara verisi her karede yeniden boyanmaz.
+const stage=d3.select("#map").insert("div",":first-child").attr("class","stage");
+const svgLand=stage.append("svg").attr("class","land").attr("viewBox",`0 0 ${W} ${H}`).attr("aria-hidden","true");
+const svg=stage.append("svg").attr("viewBox",`0 0 ${W} ${H}`);
+const gL=svgLand.append("g"), gLand=gL.append("g");
+const g=svg.append("g"), gRealm=g.append("g"), gDots=g.append("g");
 const proj=d3.geoMercator().fitExtent([[40,30],[W-40,H-30]],{type:"MultiPoint",coordinates:[...B.map(b=>[b.lon,b.lat]),[27,41.5],[70,33],[31,30]]});
+// Kara şekilleri kaydırma sınırının (translateExtent) dışında kesilir; Amerika ve Okyanusya hiç görünmüyor.
+proj.clipExtent([[-W,-H],[2*W,2*H]]);
 const path=d3.geoPath(proj);
 let K=1,T=d3.zoomIdentity,legT;
-svg.call(d3.zoom().scaleExtent([1,10]).on("zoom",e=>{K=e.transform.k;T=e.transform;g.attr("transform",T);gDots.selectAll(".dot").attr("transform",d=>`translate(${d.x},${d.y}) scale(${1/K})`);
-  clearTimeout(legT);legT=setTimeout(()=>renderLegend(),120)}));
+// Ekran ölçeği: SVG ekranda 1000 birimden darsa (telefon) en büyük yakınlaştırma oranı ve nokta boyu buna göre büyür.
+// Masaüstünde (SVG ≈ 1000 px) eski değerler kalır: en çok 10×, nokta ölçeği 1.
+let SW=W,DS=1;
+const dotTf=d=>`translate(${d.x},${d.y}) scale(${DS/K})`;
+function applyZoom(t){K=t.k;T=t;g.attr("transform",T);gL.attr("transform",T);gDots.selectAll(".dot").attr("transform",dotTf);
+  clearTimeout(legT);legT=setTimeout(()=>renderLegend(),120)}
+// Dokunmatikte parmak hareketi sürerken SVG yeniden çizilmez: hazır görüntü CSS ile kaydırılıp büyütülür (ekran kartında, akıcı),
+// parmak kalkınca harita yeni ölçekte keskin olarak bir kez çizilir. Düğmelerin geçişleri doğrudan çizilir.
+let T0=null;
+const zoomB=d3.zoom()
+  .on("start",e=>{T0=!HOVER&&e.sourceEvent?T:null})
+  .on("zoom",e=>{const t=e.transform;
+    if(!T0){applyZoom(t);return}
+    const k=t.k/T0.k,s=SW/W;T=t;K=t.k;
+    stage.style("transform",`translate(${(t.x-T0.x*k)*s}px,${(t.y-T0.y*k)*s}px) scale(${k})`)})
+  .on("end",()=>{if(T0){T0=null;stage.style("transform",null);applyZoom(T)}});
+function fitScreen(){
+  SW=svg.node().getBoundingClientRect().width||W;DS=SW<700?Math.min(2,Math.sqrt(W/SW)):1;
+  zoomB.scaleExtent([1,Math.min(40,Math.max(10,10*W/SW))]).translateExtent([[-W,-H],[2*W,2*H]]);
+}
+fitScreen();svg.call(zoomB);
+// Dar ekranda bütün harita (Avrupa'dan Çin'e) çok küçük kalıyor; açılışta Anadolu ve Balkanlar'a yakın başlar. ⤢ bütün haritayı gösterir.
+if(innerWidth<640){const [x,y]=proj([33,40]);svg.call(zoomB.transform,d3.zoomIdentity.translate(W/2,H/2).scale(2.4).translate(-x,-y))}
+document.getElementById("zin").onclick=()=>svg.transition().duration(250).call(zoomB.scaleBy,1.8);
+document.getElementById("zout").onclick=()=>svg.transition().duration(250).call(zoomB.scaleBy,1/1.8);
+document.getElementById("zreset").onclick=()=>svg.transition().duration(350).call(zoomB.transform,d3.zoomIdentity);
 d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json").then(w=>{
   gLand.selectAll("path").data(topojson.feature(w,w.objects.countries).features).join("path").attr("class","country").attr("d",path);
   const land=topojson.feature(w,w.objects.land),defs=svg.append("defs");
-  defs.append("clipPath").attr("id","landclip").append("path").attr("d",path(land));
   // Her nokta hangi kara parçasında? En büyük parça (Afrika–Avrasya) dışındakiler ada sayılır. Kıyıda denize düşen noktalar
   // yarım dereceye kadar en yakın parçaya bağlanır. Avrasya 180. meridyeni aştığı için sınır kutusu ters döner; ana kara her zaman adaydır.
   const polys=(land.features||[land]).flatMap(f=>f.geometry.type==="MultiPolygon"?f.geometry.coordinates.map(c=>({type:"Polygon",coordinates:c})):[f.geometry]);
@@ -414,7 +463,7 @@ d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-50m.json").the
   ISL=home.map(pl=>islands.indexOf(pl));
   islands.forEach((pl,k)=>defs.append("clipPath").attr("id","isl-"+k).append("path").attr("d",path(pl)));
   defs.append("clipPath").attr("id","mainclip").append("path").attr("d",path({type:"MultiPolygon",coordinates:polys.filter(pl=>!islands.includes(pl)).map(pl=>pl.coordinates)}));
-  buildCells();render();
+  buildCells();gRealm.selectAll("*").remove();LAY.clear();renderMap();
 }).catch(()=>{});
 
 // Devlet sınırları: her şehir çevresindeki bölgeyi temsil eder (Voronoi), kara şekliyle kırpılır.
@@ -436,7 +485,11 @@ function wiggle(a,b,rand,out){
   wiggle(a,m,rand,out);wiggle(m,b,rand,out);
 }
 const edgeCache=new Map();
+// Voronoi sınır kutusunun (haritanın çok dışında) üzerindeki kenarlar kıvrılmaz: görünmezler ve nokta sayısının çoğunu onlar üretiyordu
+const BOX=[-3*W,-3*H,4*W,4*H],eq=(u,v)=>Math.abs(u-v)<1e-6;
+const onBox=(a,b)=>eq(a[0],b[0])&&(eq(a[0],BOX[0])||eq(a[0],BOX[2]))||eq(a[1],b[1])&&(eq(a[1],BOX[1])||eq(a[1],BOX[3]));
 function noisyEdge(a,b){
+  if(onBox(a,b))return [a,b];
   const ka=ptKey(a),kb=ptKey(b),fwd=ka<kb,key=fwd?ka+"|"+kb:kb+"|"+ka;
   if(!edgeCache.has(key)){const [p,q]=fwd?[a,b]:[b,a],out=[p];wiggle(p,q,rng(hash(key)),out);edgeCache.set(key,out)}
   const e=edgeCache.get(key);return fwd?e:[...e].reverse();
@@ -445,17 +498,17 @@ function buildCells(){
   cells=new Array(CITIES.length);edges=[];
   for(const isl of ISL?[...new Set(ISL)]:[-1]){
     const idx=CITIES.map((c,i)=>i).filter(i=>(ISL?ISL[i]:-1)===isl);
-    const vor=d3.Delaunay.from(idx.map(i=>cellPts[i])).voronoi([-3*W,-3*H,4*W,4*H]);
+    const vor=d3.Delaunay.from(idx.map(i=>cellPts[i])).voronoi(BOX);
     idx.forEach((i,k)=>{const poly=vor.cellPolygon(k)||[],pts=[];
       for(let m=0;m<poly.length-1;m++)pts.push(...noisyEdge(poly[m],poly[m+1]).slice(0,-1));
-      cells[i]={c:CITIES[i],i,poly,pts,isl}});
+      cells[i]={c:CITIES[i],i,poly,pts,isl,d:"M"+pts.join("L")+"Z"}});
     idx.forEach((i,k)=>{for(const m of vor.delaunay.neighbors(k)){if(m<=k)continue;const j=idx[m];
       const pb=cells[j].poly, common=cells[i].poly.slice(1).filter(p=>pb.some(q=>Math.abs(p[0]-q[0])<1e-6&&Math.abs(p[1]-q[1])<1e-6));
-      if(common.length>=2)edges.push({i,j,isl,line:noisyEdge(common[0],common[1])})}});
+      if(common.length>=2)edges.push({i,j,isl,id:CITIES[i].id+"|"+CITIES[j].id,line:noisyEdge(common[0],common[1])})}});
   }
 }
 buildCells();
-const clipOf=d=>ISL?(d.isl>=0?`url(#isl-${d.isl})`:"url(#mainclip)"):null;
+const clipOf=d=>ISL?(d.isl>=0?`url(#isl-${d.isl})`:"url(#mainclip)"):"";
 const edgeLine=d3.line().curve(d3.curveBasis);
 const ownerAt=(c,y)=>{if(c.void)return null;const s=c.spans.find(([a,b])=>y>=a&&y<b);return s?s[2]:null};
 // Renkler: her devletin data/sinirlar.json'daki rengi esastır. Haritada görünen iki devletin rengi birbirine
@@ -481,6 +534,17 @@ function assignColors(own){
   return out;
 }
 const realmCol=k=>COLS[k]||RS[k].color;
+const LAY=new Map();
+function layer(ck){
+  if(!LAY.has(ck)){const gc=gRealm.append("g").attr("clip-path",ck||null);
+    LAY.set(ck,{turk:gc.append("g").attr("opacity",.5),other:gc.append("g").attr("opacity",.3),edge:gc.append("g")})}
+  return LAY.get(ck);
+}
+// bölge ipucu: yol başına değil, katmanda tek dinleyici
+if(HOVER)gRealm.on("mousemove",e=>{const d=e.target.__data__;if(!d||!d.c||!lastOwn[d.i]){tip.style.display="none";return}
+  tip.style.display="block";tip.style.left=(e.clientX+14)+"px";tip.style.top=(e.clientY+10)+"px";
+  tip.innerHTML=`<b>${esc(RS[lastOwn[d.i]].tr)}</b><br>${esc(d.c.tr)} bölgesi · ${lastYear}${d.c.yaklasik?"<br><i>tarihler yaklaşık</i>":""}`})
+  .on("mouseleave",()=>tip.style.display="none");
 const showRealms=document.getElementById("showRealms");
 showRealms.onchange=()=>render();
 function renderRealms(year){
@@ -489,15 +553,17 @@ function renderRealms(year){
   document.getElementById("map").classList.toggle("realms-on",on);
   const own=cells.map(d=>ownerAt(d.c,year));
   COLS=assignColors(own);
-  const draw=(sel,test)=>sel.selectAll("path").data(cells.filter(d=>own[d.i]&&test(RS[own[d.i]].group)),d=>d.c.id)
-    .join("path").attr("class","realm").attr("d",d=>"M"+d.pts.join("L")+"Z").attr("clip-path",clipOf)
-    .attr("fill",d=>realmCol(own[d.i])).attr("stroke",d=>realmCol(own[d.i]))
-    .on("mousemove",(e,d)=>{tip.style.display="block";tip.style.left=(e.clientX+14)+"px";tip.style.top=(e.clientY+10)+"px";
-      tip.innerHTML=`<b>${esc(RS[own[d.i]].tr)}</b><br>${esc(d.c.tr)} bölgesi · ${year}${d.c.yaklasik?"<br><i>tarihler yaklaşık</i>":""}`})
-    .on("mouseleave",()=>tip.style.display="none");
-  draw(gTurk,gr=>gr!=="diger");draw(gOther,gr=>gr==="diger");
-  gEdge.selectAll("path").data(edges.filter(e=>own[e.i]!==own[e.j]&&(own[e.i]||own[e.j])))
-    .join("path").attr("class","realm-edge").attr("d",e=>edgeLine(e.line)).attr("clip-path",clipOf);
+  // Kırpma her yol yerine katman başına yapılır (ana kara ve her ada için bir katman). Yol şekilleri sabittir, yalnız eklenirken yazılır;
+  // yıl değişince yalnız renkler ve görünürlük değişir. Telefonda oynatma ve sürükleme bu yüzden takılıyordu.
+  for(const [ck,cs] of d3.group(cells,clipOf)){
+    const L=layer(ck);
+    for(const [sel,turk] of [[L.turk,true],[L.other,false]])
+      sel.selectAll("path").data(cs.filter(d=>own[d.i]&&isTurk(own[d.i])===turk),d=>d.c.id)
+        .join(en=>en.append("path").attr("class","realm").attr("d",d=>d.d))
+        .attr("fill",d=>realmCol(own[d.i])).attr("stroke",d=>realmCol(own[d.i]));
+    L.edge.selectAll("path").data(edges.filter(e=>clipOf(e)===ck&&own[e.i]!==own[e.j]&&(own[e.i]||own[e.j])),e=>e.id)
+      .join(en=>en.append("path").attr("class","realm-edge").attr("d",e=>edgeLine(e.line)));
+  }
   lastOwn=own;lastYear=year;renderLegend();
 }
 // Lejant: yalnız o yıl haritanın görünen kısmında toprağı olan devletler, kapladıkları bölge sayısına göre sıralı.
@@ -526,25 +592,33 @@ function renderLegend(){
 const tip=document.getElementById("tip");
 const arc=d3.arc().innerRadius(0), pie=d3.pie().sort(null).value(d=>d[1]);
 
+// render: her şey; renderMap: zaman çizelgesi değişince yalnız harita (liste ve kartlar zaman çizelgesine bağlı değil)
 function render(){
-  const F=filtered(S.from,S.to),FL=filtered(S.lfrom,S.lto);
+  syncControls();renderMap();
+  const FL=filtered(S.lfrom,S.lto);renderWDL(FL);renderList(FL);
+}
+function renderMap(){
+  const F=filtered(S.from,S.to);
   document.getElementById("ycount").textContent=`haritada ${F.length} savaş · sınırlar ${S.to} yılına göre`;
-  syncControls();
   renderRealms(S.to);
   const groups=d3.groups(F,b=>b.lat+","+b.lon).map(([k,bs])=>{const [x,y]=proj([bs[0].lon,bs[0].lat]);return {k,bs,x,y}}).sort((a,b)=>b.bs.length-a.bs.length);
   const dots=gDots.selectAll(".dot").data(groups,d=>d.k).join(enter=>{const e=enter.append("g").attr("class","dot");return e})
-    .attr("transform",d=>`translate(${d.x},${d.y}) scale(${1/K})`);
+    .attr("transform",dotTf);
+  // dokunmatikte parmakla seçilebilsin diye noktanın çevresinde ekranda en az ~16 px yarıçaplı görünmez bir alan
+  const hitR=HOVER?0:16*W/(SW*DS);
   dots.each(function(d){
     const r=5+3.2*Math.sqrt(d.bs.length), counts=["W","L","D","C"].map(k=>[k,d.bs.filter(b=>b.result===k).length]).filter(c=>c[1]);
     const s=d3.select(this);s.selectAll("*").remove();
+    if(hitR>r)s.append("circle").attr("r",hitR).attr("fill","transparent");
     s.selectAll("path").data(pie(counts)).join("path").attr("d",arc.outerRadius(r)).attr("fill",p=>COL[p.data[0]]).attr("fill-opacity",.9);
     s.append("circle").attr("class","ring").attr("r",r);
   })
-  .on("mousemove",(e,d)=>{tip.style.display="block";tip.style.left=(e.clientX+14)+"px";tip.style.top=(e.clientY+10)+"px";
-    tip.innerHTML=`<b>${esc(d.bs[0].place)}</b><br>`+d.bs.map(b=>`${b.y} · ${esc(b.name_tr)} — ${RES[b.result]}`).join("<br>")})
-  .on("mouseleave",()=>tip.style.display="none")
-  .on("click",(e,d)=>{document.getElementById("panel").innerHTML=d.bs.sort((a,b)=>a.y-b.y).map(recHTML).join("")});
-  renderWDL(FL);renderList(FL);
+  .on("mousemove",HOVER?(e,d)=>{tip.style.display="block";tip.style.left=(e.clientX+14)+"px";tip.style.top=(e.clientY+10)+"px";
+    tip.innerHTML=`<b>${esc(d.bs[0].place)}</b><br>`+d.bs.map(b=>`${b.y} · ${esc(b.name_tr)} — ${RES[b.result]}`).join("<br>")}:null)
+  .on("mouseleave",HOVER?()=>tip.style.display="none":null)
+  .on("click",(e,d)=>{const p=document.getElementById("panel");p.innerHTML=d.bs.sort((a,b)=>a.y-b.y).map(recHTML).join("");
+    // dar ekranda panel haritanın altında kalıyor; seçilen kayıt görünsün
+    if(matchMedia("(max-width:860px)").matches)p.scrollIntoView({behavior:"smooth",block:"start"})});
 }
 
 function renderWDL(F){
